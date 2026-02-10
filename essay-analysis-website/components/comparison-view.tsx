@@ -219,7 +219,7 @@ export function ComparisonView({ essay, mode }: ComparisonViewProps) {
   })
 
   return (
-    <div className="space-y-4">
+    <div className="space-y-4 w-full overflow-hidden">
       {/* Help toggle and explanation */}
       <div className="flex justify-end">
         <button
@@ -283,15 +283,15 @@ export function ComparisonView({ essay, mode }: ComparisonViewProps) {
       )}
 
       {/* Header row */}
-      <div className="grid gap-2" style={{ gridTemplateColumns: `minmax(280px, 1fr) repeat(${modelSources.length}, minmax(220px, 1fr))` }}>
-        <div className="px-3 py-2 bg-muted/50 rounded-lg border border-border">
+      <div className="grid gap-2" style={{ gridTemplateColumns: `1fr repeat(${modelSources.length}, 1fr)` }}>
+        <div className="px-3 py-2 bg-muted/50 rounded-lg border border-border min-w-0">
           <span className="text-xs font-semibold text-foreground uppercase tracking-wider">
             Ground Truth
           </span>
         </div>
         {modelSources.map(source => (
-          <div key={source.name} className="px-3 py-2 bg-muted/50 rounded-lg border border-border">
-            <span className="text-xs font-semibold text-foreground uppercase tracking-wider">
+          <div key={source.name} className="px-3 py-2 bg-muted/50 rounded-lg border border-border min-w-0">
+            <span className="text-xs font-semibold text-foreground uppercase tracking-wider truncate block">
               {source.name}
             </span>
           </div>
@@ -323,11 +323,11 @@ export function ComparisonView({ essay, mode }: ComparisonViewProps) {
                   <div 
                     key={gtComp.id}
                     className="grid gap-2"
-                    style={{ gridTemplateColumns: `minmax(280px, 1fr) repeat(${modelSources.length}, minmax(220px, 1fr))` }}
+                    style={{ gridTemplateColumns: `1fr repeat(${modelSources.length}, 1fr)` }}
                   >
                     {/* Ground Truth component */}
-                    <div className="bg-card rounded-lg border border-border p-3">
-                      <div className="flex items-center gap-1.5 mb-1.5">
+                    <div className="bg-card rounded-lg border border-border p-3 min-w-0 overflow-hidden">
+                      <div className="flex items-center gap-1.5 mb-1.5 flex-wrap">
                         <span className="font-mono text-[10px] text-muted-foreground font-semibold">
                           {gtComp.id}
                         </span>
@@ -336,7 +336,7 @@ export function ComparisonView({ essay, mode }: ComparisonViewProps) {
                           [{gtComp.start}-{gtComp.end}]
                         </span>
                       </div>
-                      <p className="text-xs text-foreground leading-relaxed">
+                      <p className="text-xs text-foreground leading-relaxed break-words">
                         {gtComp.text}
                       </p>
                     </div>
@@ -346,7 +346,7 @@ export function ComparisonView({ essay, mode }: ComparisonViewProps) {
                       <div 
                         key={modelName}
                         className={cn(
-                          "rounded-lg border p-3",
+                          "rounded-lg border p-3 min-w-0 overflow-hidden",
                           components.length === 0 
                             ? "bg-gray-100 dark:bg-gray-800/30 border-gray-200 dark:border-gray-700"
                             : "bg-card border-border"
@@ -367,7 +367,7 @@ export function ComparisonView({ essay, mode }: ComparisonViewProps) {
                                   idx > 0 && "pt-2 border-t border-border/50"
                                 )}
                               >
-                                <div className="flex items-center gap-1.5 mb-1">
+                                <div className="flex items-center gap-1.5 mb-1 flex-wrap">
                                   <span className="font-mono text-[10px] text-muted-foreground">
                                     {comp.id}
                                   </span>
@@ -385,7 +385,7 @@ export function ComparisonView({ essay, mode }: ComparisonViewProps) {
                                         : "bg-red-100 text-red-700 dark:bg-red-900/40 dark:text-red-300"
                                     )}
                                   >
-                                    {comp.overlap}% overlap
+                                    {comp.overlap}%
                                   </span>
                                   {comp.type !== gtComp.type && (
                                     <span className="text-[9px] px-1 py-0.5 rounded bg-purple-100 text-purple-700 dark:bg-purple-900/40 dark:text-purple-300 font-medium">
@@ -393,7 +393,7 @@ export function ComparisonView({ essay, mode }: ComparisonViewProps) {
                                     </span>
                                   )}
                                 </div>
-                                <p className="text-xs text-foreground">
+                                <p className="text-xs text-foreground break-words">
                                   {comp.text}
                                 </p>
                               </div>
@@ -413,10 +413,10 @@ export function ComparisonView({ essay, mode }: ComparisonViewProps) {
                   <div 
                     key={`model-only-${modelName}-${comp.id}`}
                     className="grid gap-2"
-                    style={{ gridTemplateColumns: `minmax(280px, 1fr) repeat(${modelSources.length}, minmax(220px, 1fr))` }}
+                    style={{ gridTemplateColumns: `1fr repeat(${modelSources.length}, 1fr)` }}
                   >
                     {/* Empty GT cell */}
-                    <div className="bg-gray-100 dark:bg-gray-800/30 rounded-lg border border-gray-200 dark:border-gray-700 p-3 flex items-center justify-center">
+                    <div className="bg-gray-100 dark:bg-gray-800/30 rounded-lg border border-gray-200 dark:border-gray-700 p-3 flex items-center justify-center min-w-0">
                       <span className="text-xs text-gray-500 dark:text-gray-400">
                         No GT match
                       </span>
@@ -427,7 +427,7 @@ export function ComparisonView({ essay, mode }: ComparisonViewProps) {
                       <div 
                         key={matchModelName}
                         className={cn(
-                          "rounded-lg border p-3",
+                          "rounded-lg border p-3 min-w-0 overflow-hidden",
                           components.length === 0 
                             ? "bg-gray-100 dark:bg-gray-800/30 border-gray-200 dark:border-gray-700"
                             : "bg-orange-50 dark:bg-orange-900/20 border-orange-200 dark:border-orange-800/50"
@@ -448,7 +448,7 @@ export function ComparisonView({ essay, mode }: ComparisonViewProps) {
                                   idx > 0 && "pt-2 border-t border-border/50"
                                 )}
                               >
-                                <div className="flex items-center gap-1.5 mb-1">
+                                <div className="flex items-center gap-1.5 mb-1 flex-wrap">
                                   <span className="font-mono text-[10px] text-muted-foreground font-semibold">
                                     {matchComp.id}
                                   </span>
@@ -457,7 +457,7 @@ export function ComparisonView({ essay, mode }: ComparisonViewProps) {
                                     [{matchComp.start}-{matchComp.end}]
                                   </span>
                                   <span className="text-[9px] px-1 py-0.5 rounded bg-orange-200 text-orange-800 dark:bg-orange-800/50 dark:text-orange-200 font-medium">
-                                    no GT match
+                                    no GT
                                   </span>
                                   {!matchComp.isReference && matchComp.type !== comp.type && (
                                     <span className="text-[9px] px-1 py-0.5 rounded bg-purple-100 text-purple-700 dark:bg-purple-900/40 dark:text-purple-300 font-medium">
@@ -465,7 +465,7 @@ export function ComparisonView({ essay, mode }: ComparisonViewProps) {
                                     </span>
                                   )}
                                 </div>
-                                <p className="text-xs text-foreground leading-relaxed">
+                                <p className="text-xs text-foreground leading-relaxed break-words">
                                   {matchComp.text}
                                 </p>
                               </div>
