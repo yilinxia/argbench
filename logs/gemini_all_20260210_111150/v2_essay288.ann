@@ -1,0 +1,34 @@
+T1	MajorClaim 370 447	the thing that I really want to change is to have more public transportation.
+T2	Premise 454 498	I’m facing the traffic congestion every day.
+T3	Premise 499 534	And this problem seem to get worst.
+T4	Claim 546 647	it should have more alternatives to use public transportation, such as a subway train or a sky train.
+T5	Premise 655 699	people will have more ways to go to a place.
+T6	Premise 706 870	now buses are only a kind of public transportation in this community, It makes people in this area have no choice. They must take only a bus to go to another place.
+T7	Premise 874 955	a subway and a sky train are available here, it will be more convenience to them.
+T8	Premise 969 1099	people can estimate time from taking a subway train due to the train schedule. On the contrary they cannot do so in case of a bus.
+T9	Premise 1106 1174	this improvement will decrease a bad traffic on the road indirectly.
+T10	Premise 1186 1274	the buses provide merely two routes in this community. It is absolutely a major problem.
+T11	Premise 1288 1506	if a place I intend to go is not in the route of buses, I still have to take a bus that does not bring me to my destination but go to the center station first to exchange to another bus. Obviously, it is waste of time.
+T12	Claim 1507 1577	They should increase more routes to make people transport more easily.
+T13	Claim 1586 1683	having more kinds of public transportation can dwindle the number of people using their own cars.
+T14	Premise 1690 1718	it provides many advantages.
+T15	Premise 1733 1820	people can save their expenses form gasoline, which nowadays is getting more expensive.
+T16	Premise 1821 1903	The necessary energy will slowly be used up, since people use less their own cars.
+A1	Stance T4 For
+A2	Stance T12 For
+A3	Stance T13 For
+R1	supports Arg1:T2 Arg2:T1
+R2	supports Arg1:T3 Arg2:T1
+R3	supports Arg1:T4 Arg2:T1
+R4	supports Arg1:T5 Arg2:T4
+R5	supports Arg1:T6 Arg2:T4
+R6	supports Arg1:T7 Arg2:T4
+R7	supports Arg1:T8 Arg2:T7
+R8	supports Arg1:T9 Arg2:T4
+R9	supports Arg1:T11 Arg2:T10
+R10	supports Arg1:T10 Arg2:T12
+R11	supports Arg1:T12 Arg2:T1
+R12	supports Arg1:T13 Arg2:T1
+R13	supports Arg1:T14 Arg2:T13
+R14	supports Arg1:T15 Arg2:T14
+R15	supports Arg1:T16 Arg2:T14

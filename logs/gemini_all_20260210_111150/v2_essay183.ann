@@ -1,0 +1,31 @@
+T1	MajorClaim 1640 1696	it has destroyed communication among friends and family.
+T2	Claim 368 441	since people watch television too much, they can be isolated from others.
+T3	Premise 442 655	Children, for example, pay more attention on movies, music show provided by television and do not want to do anything else such as going to school or practicing exercise with friends will be taken apart by others.
+T4	Premise 656 729	Gradually, their friends leave them behind either activities or studying.
+T5	Premise 740 848	with the rapid change of the standard of life, each family has three or four TV in each room is more common.
+T6	Claim 849 959	Parents and even children do not want to communicate with each other instead of watching TV in their own room.
+T7	Claim 978 1055	children will learn behavior from what they see on TV not from their parents.
+T8	Premise 1066 1154	parents are not able to function their parental care as the necessary thing to children.
+T9	Premise 1155 1226	In this way, communication between family members is visibly destroyed.
+T10	Claim 1247 1351	watching too much television people will unconsciously learn bad behavior that sow division among human.
+T11	Premise 1365 1456	watching film about terrorist children will be able to consider terrorism as a right thing.
+T12	Premise 1457 1532	What happens if they do act exactly the terrorist in Hollywood movies does?
+T13	Premise 1533 1585	is this one of the reason cause division in society?
+A1	Stance T2 For
+A2	Stance T6 For
+A3	Stance T7 For
+A4	Stance T10 For
+R1	supports Arg1:T3 Arg2:T2
+R2	supports Arg1:T4 Arg2:T2
+R3	supports Arg1:T5 Arg2:T6
+R4	supports Arg1:T6 Arg2:T7
+R5	supports Arg1:T8 Arg2:T7
+R6	supports Arg1:T8 Arg2:T6
+R7	supports Arg1:T9 Arg2:T6
+R8	supports Arg1:T9 Arg2:T1
+R9	supports Arg1:T11 Arg2:T10
+R10	supports Arg1:T12 Arg2:T10
+R11	supports Arg1:T13 Arg2:T10
+R12	supports Arg1:T2 Arg2:T1
+R13	supports Arg1:T6 Arg2:T1
+R14	supports Arg1:T10 Arg2:T1

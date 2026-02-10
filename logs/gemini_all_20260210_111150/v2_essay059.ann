@@ -1,0 +1,36 @@
+T1	MajorClaim 252 317	strict laws, like capital punishment, are essential in a society.
+T2	Claim 386 451	Its first and foremost objective is safety of other human beings.
+A1	Stance T2 For
+T3	Claim 664 743	capital punishment curbs the inspiration and prospects of other hateful crimes.
+A2	Stance T3 For
+T4	Claim 917 1029	capital punishment saves a lot of government funding which is wasted in maintenance of these hardcore criminals.
+A3	Stance T4 For
+T5	Claim 1173 1367	the jury giving the verdict are also humans. They have the life of a person at their discretion. They can make mistakes which can sometimes affect an innocent, circumstantially marred criminals.
+A4	Stance T5 Against
+T6	Premise 452 582	When a criminal becomes a threat to the society, such that they can commit heinous crimes, then they are given capital punishment.
+R1	supports Arg1:T6 Arg2:T2
+T7	Premise 583 653	Thus, capital punishment protects the society from hardcore criminals.
+R2	supports Arg1:T7 Arg2:T2
+R3	supports Arg1:T7 Arg2:T1
+T8	Premise 744 840	When a criminal mind knows the quantum of punishment, they will fear and not commit such crimes.
+R4	supports Arg1:T8 Arg2:T3
+T9	Premise 841 903	Thus, the rate of crime and violence is effectively decreased.
+R5	supports Arg1:T9 Arg2:T3
+T10	Premise 1030 1163	Criminals who don't have any chance of improvement or who have a past record of such crimes are, therefore, given capital punishment.
+R6	supports Arg1:T10 Arg2:T4
+T11	Premise 1368 1451	The jury must therefore, take into account the circumstances of committing a crime.
+R7	attacks Arg1:T11 Arg2:T5
+T12	Premise 1452 1549	For example, if an individual murders someone for self-defense, then such a crime is not heinous.
+R8	supports Arg1:T12 Arg2:T11
+T13	Premise 1550 1666	Only deserving criminals, who commit such hateful crimes in their proper senses are subjected to capital punishment.
+R9	supports Arg1:T13 Arg2:T11
+R10	attacks Arg1:T13 Arg2:T5
+T14	Premise 1667 1734	Capital punishment is essential to control violence in the society.
+R11	supports Arg1:T14 Arg2:T1
+T15	Premise 1735 1870	I firmly believe that psychopaths, terrorists or any other criminal who lacks empathy for other human lives deserve capital punishment.
+R12	supports Arg1:T15 Arg2:T1
+T16	Premise 1871 1955	Capital punishment helps to safeguard human rights in a strict and effective manner.
+R13	supports Arg1:T16 Arg2:T1
+T17	Premise 1956 2106	However, it should be considered as the last option by the jury and all circumstances must be taken into account before pronouncing the final verdict.
+R14	attacks Arg1:T17 Arg2:T5
+R15	supports Arg1:T17 Arg2:T11

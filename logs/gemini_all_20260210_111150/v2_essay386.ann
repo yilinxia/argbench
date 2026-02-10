@@ -1,0 +1,21 @@
+T1	Claim 199 299	It is argued that parents who are the closet to children mainly contribute to their accomplishments.
+T2	MajorClaim 300 417	However, in my opinion, the classmates should be regarded as the most important influence on individual achievements.
+T3	Claim 418 517	To begin with, the classmates themselves creat a competitive atmoshphere which incent the children.
+T4	Premise 518 747	In high school, for instance, an individual cannot resist studying painstakingly through day and night when the others who are astoundingly ambitious and set sights on prestigious universities around the globe are doing the same.
+T5	Premise 748 978	From a psychological perspective, the feeling of being subordinate to their peers exert enormous pressure on the children, which subsequently transforms into some sort of stimulants and boosts the children's academic performances.
+T6	Claim 979 1076	To add up, when it comes to knowledge and the acquisition of such, classmates are second to none.
+T7	Premise 1077 1356	It is a matter of fact that students share even more time together than with their parents, explaining a great deal of wisdom they absorb from each others; it can be, for example, lessons on the class, social skills or general etiquettes that are sometimes overlooked by parents.
+T8	Premise 1357 1546	Sharing the same age, children are at their most comfort to exchange ideas, to query and interpret abstract concepts without fear of parental punishments, resulting in deeper comprehension.
+T9	Claim 1547 1757	All advantages considered, classmates are unrivalled by the children's parents as they provide tremendous incentive and horizon expansion, two crucial commodities leading to a successful presentation at school.
+A1	Stance T1 Against
+A2	Stance T3 For
+A3	Stance T6 For
+A4	Stance T9 For
+R1	attacks Arg1:T2 Arg2:T1
+R2	supports Arg1:T3 Arg2:T2
+R3	supports Arg1:T4 Arg2:T3
+R4	supports Arg1:T5 Arg2:T3
+R5	supports Arg1:T6 Arg2:T2
+R6	supports Arg1:T7 Arg2:T6
+R7	supports Arg1:T8 Arg2:T6
+R8	supports Arg1:T9 Arg2:T2

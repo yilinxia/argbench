@@ -1,0 +1,28 @@
+T1	MajorClaim 1958 2052	All in all, I suppose that people should be polite to others in a such busy and crowded world.
+T2	Claim 528 612	First of all, a person with good manner will give others a fine personal impression.
+T3	Claim 1092 1160	Secondly, people will get respect from politeness within each other.
+T4	Claim 1578 1640	Finally, the society needs a civilized environment and orders.
+T5	Premise 613 759	Through those impressions, a person was easily to get acquired with others and blended with the community that surrounded him as soon as possible.
+T6	Premise 760 940	For example, I worked in a new company, if I am a guy with good manners and treating everyone well, my new colleagues will accept me, even then I will be approved by the employers.
+T7	Premise 941 1091	In opposite situation if I am being rude, I can not get along well with each other. Finally, I will be fired and have no other choice but lost my job.
+T8	Premise 1161 1300	Politeness and tender words not only can help the speaker to earn a good reputation but also that encourage the listeners who were in need.
+T9	Premise 1301 1377	A successful corporation must have a relationship with respect and pleasure.
+T10	Premise 1378 1577	There are many more facts have improved that people with politeness are easily to be succeed, because from their behaviors, they made their partners or opponents to find their own individual dignity.
+T11	Premise 1641 1710	And a degree of social civilization depend on its people's qualities.
+T12	Premise 1711 1853	In order to create a better living environment for ourselves and our offsprings, our behaviors must be asked with politeness and good manners.
+T13	Premise 1854 1957	Benefit from those effective measures, there may be an obvious effect on the reducing of criminal rate.
+A1	Stance T2 For
+A2	Stance T3 For
+A3	Stance T4 For
+R1	supports Arg1:T2 Arg2:T1
+R2	supports Arg1:T3 Arg2:T1
+R3	supports Arg1:T4 Arg2:T1
+R4	supports Arg1:T5 Arg2:T2
+R5	supports Arg1:T6 Arg2:T2
+R6	supports Arg1:T7 Arg2:T2
+R7	supports Arg1:T8 Arg2:T3
+R8	supports Arg1:T9 Arg2:T3
+R9	supports Arg1:T10 Arg2:T3
+R10	supports Arg1:T11 Arg2:T4
+R11	supports Arg1:T12 Arg2:T4
+R12	supports Arg1:T13 Arg2:T4

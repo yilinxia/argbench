@@ -1,0 +1,26 @@
+T1	MajorClaim 208 279	It is agreed that following celebrities can be dangerous for the youth.
+T2	Claim 413 507	First of all, it is seen that following celebrities blindly affects the health of adolescents.
+A1	Stance T2 For
+T3	Premise 508 588	Many young people indulge themselves in drugs and start smoking at an early age.
+T4	Premise 589 834	For example, in a survey carried out in a university, it was asked to students that why did they start smoking, then around forty percent of individuals answered that they wanted to look like their favorite screen actor while smoking cigarettes.
+T5	Premise 835 946	This example makes it clear that imitating celebrities has a negative influence on health of young individuals.
+T6	Claim 947 1060	Secondly, it is believed that when youth follows celebrities it affects personality of young people in a bad way.
+A2	Stance T6 For
+T7	Premise 1061 1160	Adolescents follow not only the make up and attire of their favorite stars but also their behavior.
+T8	Premise 1161 1367	For instance recently in a poll conducted by an American magazine it was found that most of the parents and teachers complain that teenagers use derogatory words and abusive language at home and at schools.
+T9	Premise 1368 1485	So, this example makes it obvious that these glamorous celebrities have a poor effect on the conduct of young people.
+T10	Claim 1486 1624	Thus to conclude, it can be said that when young people follow celebrities, it affects their health as well as behavior in a negative way.
+A3	Stance T10 For
+T11	Premise 1625 1695	This has an overall effect on personality and future of an individual.
+R1	supports Arg1:T3 Arg2:T2
+R2	supports Arg1:T4 Arg2:T2
+R3	supports Arg1:T5 Arg2:T2
+R4	supports Arg1:T2 Arg2:T1
+R5	supports Arg1:T7 Arg2:T6
+R6	supports Arg1:T8 Arg2:T6
+R7	supports Arg1:T9 Arg2:T6
+R8	supports Arg1:T6 Arg2:T1
+R9	supports Arg1:T2 Arg2:T10
+R10	supports Arg1:T6 Arg2:T10
+R11	supports Arg1:T11 Arg2:T10
+R12	supports Arg1:T10 Arg2:T1

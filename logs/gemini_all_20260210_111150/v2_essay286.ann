@@ -1,0 +1,44 @@
+T1	MajorClaim 1584 1682	experiences that shape my thinking and the way to live my life are teach me to be a better person.
+T2	Claim 387 464	studying in university taught me to be more prudent person to solve problems.
+T3	Premise 478 556	in math class, the way that we learnt to find an answer by doing step by step.
+T4	Premise 557 638	Start with find cause of problem and the way to do research to solve the problem.
+T5	Premise 639 685	I could adapt this method to use my real life.
+T6	Premise 686 829	When I want to go to somewhere, I try to find the way to reach to destination. Which ways are shortest and which ways are less consume my time.
+T7	Premise 830 874	I could find a better way to solve problems.
+T8	Claim 885 948	Some experiences could teach me the way to take care of myself.
+T9	Premise 963 1065	reading and listening the news about choosing a good diet are the way to keep myself are more healthy.
+T10	Premise 1072 1124	I am always buy a quality food such as organic food.
+T11	Premise 1125 1157	This food are not have chemical.
+T12	Premise 1158 1192	So that, I can have a good health.
+T13	Premise 1193 1237	This experience teach me to aware my health.
+T14	Claim 1246 1301	experiences are also change to plan for my future life.
+T15	Premise 1315 1382	I read about saving money for my retire is a good plan for my life.
+T16	Premise 1383 1493	Consequently, I start changing myself from spending many thing that I want to saving money for my entire life.
+T17	Premise 1494 1568	This experience change me to concern about making plan for my future life.
+T18	Premise 1683 1735	Because I could find a better way to solve problems.
+T19	Premise 1736 1805	Besides, experiences could shape me to be more aware about my health.
+T20	Premise 1806 1880	Moreover, these experiences could make me to make plan for my future life.
+T21	Premise 1881 1949	These experiences taught me to change my life to be a better person.
+A1	Stance T2 For
+A2	Stance T8 For
+A3	Stance T14 For
+R1	supports Arg1:T2 Arg2:T1
+R2	supports Arg1:T3 Arg2:T2
+R3	supports Arg1:T4 Arg2:T3
+R4	supports Arg1:T5 Arg2:T2
+R5	supports Arg1:T6 Arg2:T5
+R6	supports Arg1:T7 Arg2:T2
+R7	supports Arg1:T8 Arg2:T1
+R8	supports Arg1:T9 Arg2:T8
+R9	supports Arg1:T10 Arg2:T9
+R10	supports Arg1:T11 Arg2:T10
+R11	supports Arg1:T12 Arg2:T10
+R12	supports Arg1:T13 Arg2:T8
+R13	supports Arg1:T14 Arg2:T1
+R14	supports Arg1:T15 Arg2:T14
+R15	supports Arg1:T16 Arg2:T15
+R16	supports Arg1:T17 Arg2:T14
+R17	supports Arg1:T18 Arg2:T1
+R18	supports Arg1:T19 Arg2:T1
+R19	supports Arg1:T20 Arg2:T1
+R20	supports Arg1:T21 Arg2:T1

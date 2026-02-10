@@ -1,0 +1,43 @@
+T1	MajorClaim 587 709	Personally, I think it is no evidence about the reduction of crime rates due to the death penalty because of many reasons.
+T2	Claim 719 789	capital punishment is a form of revenge which creates violent culture.
+T3	Premise 790 934	Crimes kill someone which is illegal; nevertheless, the government use law to punish them, which is the same way they sinned but in a legal one.
+T4	Premise 935 1055	As a fact that the criminal is repeated second time; also, it is regarded as the "legalized revenge" to victims' family.
+T5	Claim 1063 1147	death penalty neither controls the violent in society nor creates a violent culture.
+T6	Claim 1158 1206	nobody has the right to take another human life.
+T7	Premise 1207 1296	It is undeniable that the rights of life are the basic and vital rights of a human being.
+T8	Premise 1297 1375	No one has the right to take the life of a human; even if he committed murder.
+T9	Premise 1376 1422	If you kill a criminal, you become a criminal.
+T10	Premise 1433 1532	if we think that killing is the best way to solve the problem, it is neither unethical nor immoral.
+T11	Claim 1543 1597	crimes seem to increase due to the capital punishment.
+T12	Claim 1639 1677	capital punishment is an easy way out.
+T13	Premise 1678 1726	Criminals should be punished for their misdeeds.
+T14	Premise 1727 1829	If they kill someone and end their life by dead without paying for their sins, it is so easy for them.
+T15	Premise 1830 1869	They do not undergo any pain or misery.
+T16	Premise 1915 2105	As we can see some industries such as mining, oil and gas extraction, reclamation, etc, needs many labors. Why do not punish them by doing something meaningful for the country- it is better.
+T17	Premise 2116 2213	rehabilitation and education is also a better way in order to prevent or minimize offensive acts.
+T18	Claim 2228 2452	capital punishment is a form of legalized revenge, it is an easy way for serious crimes, and nobody has rights to take others life; thus, it neither demines crimes of violence nor be essential to control violence in society.
+A1	Stance T2 Against
+A2	Stance T5 Against
+A3	Stance T6 Against
+A4	Stance T11 Against
+A5	Stance T12 Against
+A6	Stance T18 Against
+R1	supports Arg1:T3 Arg2:T2
+R2	supports Arg1:T4 Arg2:T2
+R3	supports Arg1:T5 Arg2:T1
+R4	supports Arg1:T2 Arg2:T5
+R5	supports Arg1:T7 Arg2:T6
+R6	supports Arg1:T8 Arg2:T6
+R7	supports Arg1:T9 Arg2:T6
+R8	supports Arg1:T10 Arg2:T6
+R9	supports Arg1:T11 Arg2:T1
+R10	supports Arg1:T6 Arg2:T11
+R11	supports Arg1:T13 Arg2:T12
+R12	supports Arg1:T14 Arg2:T12
+R13	supports Arg1:T15 Arg2:T12
+R14	supports Arg1:T16 Arg2:T12
+R15	supports Arg1:T17 Arg2:T12
+R16	supports Arg1:T18 Arg2:T1
+R17	supports Arg1:T2 Arg2:T18
+R18	supports Arg1:T6 Arg2:T18
+R19	supports Arg1:T12 Arg2:T18

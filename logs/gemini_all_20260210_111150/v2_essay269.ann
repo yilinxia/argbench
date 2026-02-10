@@ -1,0 +1,26 @@
+T1	MajorClaim 2277 2416	In my point of view, I do really prefer to improve my ability of relating people and make more friends rather than studying hard in school.
+T2	Premise 393 464	friends is a treasure with respect to either our daylife or our career.
+T3	Claim 465 530	Relating well to people can bring plenty of merits to future job.
+A1	Stance T3 For
+T4	Premise 531 876	Having a good ability of relate to people means you have a number of friends in a variety of fields, imagine when you are in trouble, you have a lot of people who have good relationship with you, so you can ask for your friends to help you solve this problem as soon as possible, even an esy phone call, instend of a series of complex solutions.
+T5	Claim 986 1036	relating well to people is also a importent issue.
+A2	Stance T5 For
+T6	Premise 1037 1372	If top-level managers want to make a project successful, have a good relationship with their subordinaries is the prerequisit for the managers' work complete successfully, managers should listen to their employees needs and complaints about this job, pay much patiant and care to them. Consequently, make a good relationship with them.
+T7	Claim 1448 1513	it's fairly important to have a good relationship with their boss
+A3	Stance T7 For
+T8	Premise 1515 1625	only if the employee is considered excellent in his boss's eyes, he will be more possible to enhance position.
+T9	Claim 1661 1715	good specify knowledge is more crucial for future job.
+A4	Stance T9 Against
+T10	Premise 1716 1895	Studying harder in school, getting a good resume and absorbing lots of working knowledge, which can make these graduates more competitive than other applicants in one certain job.
+T11	Premise 1896 2276	But imagine it, a person who is good at working knowledge but has an poorly relate to people, and a person who has a good ability of relating to people but his working knowledge is less better than the former, which person do you want to be? I think majority of people would choose the former because it has more chance than the latter in terms of getting good jobs in the future.
+R1	supports Arg1:T2 Arg2:T3
+R2	supports Arg1:T3 Arg2:T1
+R3	supports Arg1:T4 Arg2:T3
+R4	supports Arg1:T5 Arg2:T1
+R5	supports Arg1:T6 Arg2:T5
+R6	supports Arg1:T7 Arg2:T1
+R7	supports Arg1:T8 Arg2:T7
+R8	attacks Arg1:T9 Arg2:T1
+R9	supports Arg1:T10 Arg2:T9
+R10	attacks Arg1:T11 Arg2:T9
+R11	supports Arg1:T11 Arg2:T1

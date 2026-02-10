@@ -1,0 +1,31 @@
+T1	MajorClaim 367 529	I, for one, strongly agree that age should be set as a criterion for people to retire at the aforementioned age due to several reasons that I shall discuss below.
+T2	Claim 530 660	First and foremost, if senior workers dominate the working sector, there will be lesser job opportunities for the fresh graduates.
+A1	Stance T2 For
+T3	Premise 661 774	As a result, most of them will be forced to take up careers which are poles apart from what they had studied for.
+T4	Premise 775 1061	To illustrate this further, a medical graduate might find it very disheartened when he had to spend around five precious years studying medicine and at the end of the day, he will have to take up another profession rather than doctor due to the insufficient job opportunities available.
+T5	Premise 1062 1248	On top of that, due to the lack of genuine passion on the work which was not of their option, there is a greater possibility for their performance standard to dwindle at their workplace.
+T6	Claim 1249 1310	Apart from that, not all elderly workers are physically well.
+A2	Stance T6 For
+T7	Premise 1311 1486	Beyond that age, a large proportion of them have an elevated chance of contracting a multitude of health problems such as stress related diseases and cardiovascular illnesses.
+T8	Premise 1487 1595	To cite an example, the stressful life that an aged teacher goes through will definitely take a toll on him.
+T9	Premise 1596 1678	Consequently, they will not be able to give their best in whatever they are doing.
+T10	Premise 1679 1796	Besides, the academic institution will have to pay for his medical bills, resulting in more loss for the institution.
+T11	Premise 1797 1893	Thus, it would indeed be better if at an older age, opportunities are given to the younger ones.
+T12	Claim 1894 1989	Admittedly, the expertise of the senior workers who had retired should never be underestimated.
+A3	Stance T12 Against
+T13	Premise 1990 2153	Their invaluable experiences and knowledge in their respective fields such as engineering, medicine, and law can certainly be beneficial to the younger generation.
+T14	Premise 2154 2354	Hence, it is highly recommended that the retiree come over to the companies or hospitals to have regular sessions with the present staffs to bridge the gap between them and to pass on their knowledge.
+T15	Premise 2436 2616	There will come a certain time when the older generation should hand over the responsibility to the fresh comers who are certainly waiting to be given a choice to prove themselves.
+T16	Premise 2617 2768	After all, retirement not only marks the end of an individual, but also gives him a chance to make up for what he has lost throughout his working life.
+R1	supports Arg1:T3 Arg2:T2
+R2	supports Arg1:T4 Arg2:T3
+R3	supports Arg1:T5 Arg2:T2
+R4	supports Arg1:T7 Arg2:T6
+R5	supports Arg1:T8 Arg2:T7
+R6	supports Arg1:T9 Arg2:T6
+R7	supports Arg1:T10 Arg2:T6
+R8	supports Arg1:T11 Arg2:T1
+R9	supports Arg1:T13 Arg2:T12
+R10	attacks Arg1:T14 Arg2:T12
+R11	supports Arg1:T15 Arg2:T1
+R12	supports Arg1:T16 Arg2:T1

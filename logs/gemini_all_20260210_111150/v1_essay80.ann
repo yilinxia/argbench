@@ -1,0 +1,29 @@
+T1	Claim 366 508	keeping animals in captivity is wrong because animals should be considered non-human persons and they should have the right of having freedom.
+T2	Premise 509 616	This is so unfair for them to be taken out of their natural environment and to be kept in small enclosures.
+T3	Premise 634 752	many zoos, especially the ones in developing countries, do not provide care and attention which their animals require.
+T4	Premise 753 859	The animals are often undernourished and do not have sufficient quality and quantity of medical treatment.
+T5	Premise 873 968	sometimes animals from hot countries have to survive in the cold winter of somewhere in Europe.
+T6	Claim 1016 1115	zoos provide the public with good entertainment and also help to ensure the balance of the ecology.
+T7	Premise 1116 1295	Many people, especially young children enjoy going to zoos and see their favorite animals, cute baby-born animals and the animals that are from the different corners of the world.
+T8	Premise 1296 1384	Zoos provide educational information about the lives of different animals to the public.
+T9	Claim 1391 1503	zoos play an important role in reserving many breeds of animal and preventing them from being missing from life.
+T10	Premise 1534 1688	in zoos, animals are kept in enclosures which simulate their own habitats and also endangered animals are being protected from their predators or hunters.
+T11	Premise 1689 1738	Thus zoos are needed to keep the nature balanced.
+T12	MajorClaim 1818 1852	more good come from zoos than bad.
+T13	Claim 1862 1999	it is hoped that the standards of zoos should be leveled up to ensure that the animals in zoos are provided with good care and attention.
+A1	Stance T1 Against
+A2	Stance T6 For
+A3	Stance T9 For
+A4	Stance T13 For
+R1	supports Arg1:T2 Arg2:T1
+R2	supports Arg1:T3 Arg2:T1
+R3	supports Arg1:T4 Arg2:T3
+R4	supports Arg1:T5 Arg2:T3
+R5	supports Arg1:T7 Arg2:T6
+R6	supports Arg1:T8 Arg2:T6
+R7	supports Arg1:T10 Arg2:T9
+R8	supports Arg1:T11 Arg2:T9
+R9	attacks Arg1:T1 Arg2:T12
+R10	supports Arg1:T6 Arg2:T12
+R11	supports Arg1:T9 Arg2:T12
+R12	supports Arg1:T13 Arg2:T12

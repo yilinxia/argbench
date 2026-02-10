@@ -1,0 +1,35 @@
+T1	MajorClaim 1988 2099	I think movies and TV programs should present different stories in which good people get reward or get nothing.
+T2	Claim 396 455	if all the story end up in the same way, it will be boring.
+A1	Stance T2 For
+T3	Claim 921 993	So we can’t always let good people be rewarded in movies or TV programs.
+A2	Stance T3 For
+T4	Claim 994 1061	Even in the real world, good people can get a bad ending sometimes.
+A3	Stance T4 For
+T5	Claim 1549 1624	So we should tell this to the young children to avoid the misunderstanding.
+A4	Stance T5 For
+T6	Claim 1625 1675	In fact, those good endings sometimes are helpful.
+A5	Stance T6 Against
+T7	Claim 1826 1886	So I suggest we should show people the truth in the stories.
+A6	Stance T7 For
+T8	Premise 456 574	If good people always win, we can guess the ending of the movies or dramas. Then we will feel less interested in them.
+T9	Premise 575 698	But if the good people are not always rewarded, we will try to finish the movie or dramas to find out the end of the story.
+T10	Premise 699 920	For example, Hollywood stories usually have a happy ending like a hero beats a crime and get a girl. But now many people, including me, have been tired with it. I don’t want to see the same kind of ending again and again.
+T11	Premise 1062 1134	And I think it happen more often in the real world than in those movies.
+T12	Premise 1135 1467	So if children always watch the TV programs that good people get rewarded, they may think it will be true in the real world. They will be misleading by those movies. And they may act like good people in order to get reward. Once they find the good people are not always get rewarded, they may feel upset and not to be a good person.
+T13	Premise 1468 1548	But in fact, the good people do good things no matter the ending is good or not.
+T14	Premise 1676 1724	Some people may be encouraged to do good things.
+T15	Premise 1725 1825	But like I said, this kind of behavior won’t last long, because someday they will realize the truth.
+R1	supports Arg1:T2 Arg2:T1
+R2	supports Arg1:T3 Arg2:T1
+R3	supports Arg1:T4 Arg2:T1
+R4	supports Arg1:T5 Arg2:T1
+R5	supports Arg1:T7 Arg2:T1
+R6	supports Arg1:T8 Arg2:T2
+R7	supports Arg1:T9 Arg2:T2
+R8	supports Arg1:T10 Arg2:T3
+R9	supports Arg1:T11 Arg2:T4
+R10	supports Arg1:T12 Arg2:T5
+R11	supports Arg1:T13 Arg2:T5
+R12	supports Arg1:T14 Arg2:T6
+R13	attacks Arg1:T15 Arg2:T6
+R14	supports Arg1:T15 Arg2:T7

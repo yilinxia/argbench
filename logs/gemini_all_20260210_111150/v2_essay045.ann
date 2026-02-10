@@ -1,0 +1,36 @@
+T1	MajorClaim 1519 1634	direct financial support may not be a wise option and people should rely on themselves to get out of the adversity.
+T2	Claim 171 292	I tend to believe it is the responsibility of these disadvantaged citizens, rather than the government, to help them out.
+T3	Claim 293 363	Government money should be spent on publicly beneficial programs only.
+T4	Premise 364 410	Tax revenue is collected from those who works.
+T5	Premise 411 510	Spending them on helping those not make contribution to society would not sound fair to tax payers.
+T6	Premise 511 625	Besides, there are other pressing demands on the government expenditure, such as health care service and education
+T7	Claim 630 679	addressing unemployment should have low priority.
+T8	Premise 680 791	Also, it is obvious that, to survive in this competitive world, one has to work hard and equip themselves well.
+T9	Claim 792 908	If they could get free financial help from the government, they might end up with out any motivation to work at all.
+T10	Claim 909 990	Of course, this does not mean we should leave alone those who do need assistance.
+T11	Premise 991 1129	They are already in reverse circumstances and it would be rather difficult for them to overcome the difficulties without external support.
+T12	Claim 1130 1303	In this case, the government ought to set up free vocational trainings or to provide interest-free bank loans for them, so that they can have the chance to get back to work.
+T13	Premise 1304 1403	After all, it is beneficial to the society as a whole when the jobless can make contribution again.
+T14	Claim 1445 1518	although the government should provide help for the disadvantaged people,
+A1	Stance T2 For
+A2	Stance T3 For
+A3	Stance T7 For
+A4	Stance T9 For
+A5	Stance T10 Against
+A6	Stance T12 Against
+A7	Stance T14 Against
+R1	supports Arg1:T2 Arg2:T1
+R2	supports Arg1:T3 Arg2:T1
+R3	supports Arg1:T4 Arg2:T3
+R4	supports Arg1:T5 Arg2:T3
+R5	supports Arg1:T6 Arg2:T7
+R6	supports Arg1:T7 Arg2:T1
+R7	supports Arg1:T8 Arg2:T9
+R8	supports Arg1:T9 Arg2:T1
+R9	attacks Arg1:T10 Arg2:T1
+R10	supports Arg1:T11 Arg2:T10
+R11	supports Arg1:T12 Arg2:T10
+R12	attacks Arg1:T12 Arg2:T1
+R13	supports Arg1:T13 Arg2:T12
+R14	attacks Arg1:T14 Arg2:T1
+R15	supports Arg1:T14 Arg2:T12

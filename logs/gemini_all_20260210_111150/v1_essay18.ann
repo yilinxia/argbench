@@ -1,0 +1,35 @@
+T1	MajorClaim 407 476	Universities should accept equal numbers of students of both genders.
+T2	Claim 514 590	women have proved themselves in every field whether it is indoor or outdoor.
+T3	Premise 591 730	For example, nowadays women are working in home as well as in the sky. They are acting as a good housewife and they are flying planes also.
+T4	Claim 744 908	university authority must not be biased on ground of the gender discrimination. They must consider the academic record of the student as main criteria of admission.
+T5	Claim 919 979	the current job market affects the decision of universities.
+T6	Premise 980 1052	Every university designs its courses according to the need of employers.
+T7	Premise 1053 1096	The job selection criteria are pre decided.
+T8	Premise 1097 1253	For instance employers need male candidates for the heavy work such as repairing and installation of heavy machine. They prefer male staff for night shifts.
+T9	Premise 1254 1345	They want female candidates for soft natured work like counseling, teaching, designing etc.
+T10	Premise 1346 1460	Therefore, universities follow the requirement of job providers and decide subject suitable for particular gender.
+T11	Claim 1474 1563	I strongly believe that universities much open choice for everyone to select his subject.
+T12	Premise 1564 1619	Our youth has become very confident towards his career.
+T13	Premise 1620 1674	They are not ready to be bound in certain limitations.
+T14	Premise 1675 1770	Female candidates also do not care about any restriction posed by the society and the employer.
+T15	Claim 1771 1826	So we must give them opportunity to achieve their goal.
+A1	Stance T2 For
+A2	Stance T4 For
+A3	Stance T5 Against
+A4	Stance T11 For
+A5	Stance T15 For
+R1	supports Arg1:T2 Arg2:T1
+R2	supports Arg1:T3 Arg2:T2
+R3	supports Arg1:T4 Arg2:T1
+R4	attacks Arg1:T5 Arg2:T1
+R5	supports Arg1:T6 Arg2:T5
+R6	supports Arg1:T7 Arg2:T5
+R7	supports Arg1:T8 Arg2:T5
+R8	supports Arg1:T9 Arg2:T5
+R9	supports Arg1:T10 Arg2:T5
+R10	supports Arg1:T11 Arg2:T1
+R11	supports Arg1:T12 Arg2:T11
+R12	supports Arg1:T13 Arg2:T11
+R13	supports Arg1:T14 Arg2:T11
+R14	supports Arg1:T15 Arg2:T11
+R15	supports Arg1:T15 Arg2:T1

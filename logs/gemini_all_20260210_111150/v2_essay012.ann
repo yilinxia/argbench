@@ -1,0 +1,24 @@
+T1	MajorClaim 1220 1274 technology has helped us to have more comfortable life.
+T2	Claim 250 321 email can be count as one of the most beneficial results of modern technology.
+A1	Stance T2 For
+T3	Premise 323 532 Many years ago, peoples had to pay a great deal of money to post their letters, and their payements were related to the weight of their letters or boxes, and many accidents may cause problem that the post could not be delivered.
+T4	Premise 534 735 But nowadays, all people can take advantage of internet to have their own email free, and send their emails to everyone in no time, besides they can be sure if their emails have been delivered or not.
+T5	Claim 772 839 Today, students can apply for foreign universities much easier than before.
+A2	Stance T5 For
+T6	Premise 841 929 Not only with the help of sending email, but also using credit cards to pay all necessary fees online.
+T7	Premise 931 1040 Therefore, with the advent of internet and online paying systems, you can do many thing at your home easily.
+T8	Claim 1098 1177 Biomedical engineers could make a significant effect on increasing life expectancy the world.
+A3	Stance T8 For
+T9	Premise 1179 1313 For example, one of their inventions was related to artificial heart valves which can be count as a turning point in heart surgeries.
+T10	Premise 1315 1475 In the past time doctors used pig heart's valve to implant, but the patient could not be alive more than 3 years after the replacement.
+T11	Premise 1477 1606 But now, biomedical engineers can make artificial heart valves which works well and doctors can implant them easily.
+R1	supports Arg1:T3 Arg2:T2
+R2	supports Arg1:T4 Arg2:T2
+R3	supports Arg1:T2 Arg2:T1
+R4	supports Arg1:T6 Arg2:T5
+R5	supports Arg1:T7 Arg2:T5
+R6	supports Arg1:T5 Arg2:T1
+R7	supports Arg1:T9 Arg2:T8
+R8	supports Arg1:T10 Arg2:T8
+R9	supports Arg1:T11 Arg2:T8
+R10	supports Arg1:T8 Arg2:T1

@@ -1,0 +1,16 @@
+T1	MajorClaim 311 530	I believe it has done the opposite. I think TV programs are among the popular topics in every day talk as well as a great time for gathering. In addition Modern TV has smart system that let you be connected with people.
+T2	Claim 597 721	it makes people meet and start a conversation about what they watch at other times like weather forecast and sport programs.
+A1	Stance T2 For
+R1	supports Arg1:T2 Arg2:T1
+T3	Claim 783 859	Families usually tend to watch television either with each other or friends.
+A2	Stance T3 For
+R2	supports Arg1:T3 Arg2:T1
+T4	Premise 860 1014	For example my friends and I used to sit together and enjoy watching movies using VHS player at nights. It was fun and a little bit similar to the cinema.
+R3	supports Arg1:T4 Arg2:T3
+T5	Claim 1023 1059	TV can be one of communication ways.
+A3	Stance T5 For
+R4	supports Arg1:T5 Arg2:T1
+T6	Premise 1060 1200	Moreover, TV can be connected to multimedia devices that have smart operating system like Google TV, WDTV using Skype, tango and other apps.
+R5	supports Arg1:T6 Arg2:T5
+T7	Premise 1201 1321	In addition Teenagers can play games online with their friends; therefore we can communicate with each other through TV.
+R6	supports Arg1:T7 Arg2:T5

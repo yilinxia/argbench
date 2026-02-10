@@ -1,0 +1,41 @@
+T1	MajorClaim 375 487	Consequently, I completely disagree with this statement that we should replace normal course with online course.
+T2	Claim 546 666	learning in classroom could provide more information and make students more comprehend in subjects that they had learnt.
+A1	Stance T2 For
+T3	Premise 667 736	Because in classroom have many equipment to demonstrate real example.
+T4	Premise 737 821	For example, in biology class, learning anatomy by operating fog have many benefits.
+T5	Premise 822 888	Learner could learn how to use tools and see actual organs of fog.
+T6	Premise 889 975	Unlike classroom, online class just only study in textbook not learnin real situation.
+R1	supports Arg1:T3 Arg2:T2
+R2	supports Arg1:T4 Arg2:T3
+R3	supports Arg1:T5 Arg2:T4
+R4	supports Arg1:T6 Arg2:T2
+R5	supports Arg1:T2 Arg2:T1
+T7	Claim 986 1047	online class could not provide knowledge about social skills.
+A2	Stance T7 For
+T8	Premise 1048 1138	For instance, In a classroom, teacher could give assignment to student to work as a group.
+T9	Premise 1139 1244	This could help students to learn how to deal with people, how to collaborate with people in their group.
+T10	Premise 1245 1301	This important skill cannot be gotten in online classes.
+R6	supports Arg1:T8 Arg2:T7
+R7	supports Arg1:T9 Arg2:T8
+R8	supports Arg1:T10 Arg2:T7
+R9	supports Arg1:T7 Arg2:T1
+T11	Claim 1310 1451	learning in classroom, student could have healthier life because in school can provide exercise class which train student to move their body.
+A3	Stance T11 For
+T12	Premise 1452 1520	Classroom have specialist trainer to teach students to it right way.
+T13	Premise 1521 1583	If student do it by themselves, they might be hurt themselves.
+T14	Premise 1584 1657	This make students have healthier life which online class cannot provide.
+R10	supports Arg1:T12 Arg2:T11
+R11	supports Arg1:T13 Arg2:T12
+R12	supports Arg1:T14 Arg2:T11
+R13	supports Arg1:T11 Arg2:T1
+T15	Claim 1774 1868	classroom could provide real actual example to make students more understand in their subject.
+A4	Stance T15 For
+T16	Claim 1869 1944	Besides, classroom courses are also provide students to learn social skill.
+A5	Stance T16 For
+T17	Claim 1945 2032	Moreover, classroom could provide exercise class to set students to have a good health.
+A6	Stance T17 For
+T18	Premise 2033 2098	Thus, having classroom could provide abundant skills to students.
+R14	supports Arg1:T15 Arg2:T1
+R15	supports Arg1:T16 Arg2:T1
+R16	supports Arg1:T17 Arg2:T1
+R17	supports Arg1:T18 Arg2:T1

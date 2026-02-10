@@ -1,0 +1,39 @@
+T1 MajorClaim 1516 1594 An integration of music into learning process bound to be successful when it is not compulsory.
+T2 Claim 318 431 students, who spend a great deal of their time studying different academic subjects should have an opportunity to cope with the stress gained during school time.
+A1 Stance T2 Against
+T3 Claim 482 607 if musical activity involves many participants, there will be co-operation and developed team work in the group, which is, of course, beneficial in their future life.
+A2 Stance T3 Against
+T4 Claim 609 690 students with a quite poor academic background can show themselves in the music.
+A3 Stance T4 Against
+T5 Claim 1463 1513 music can help an individual to shape its character.
+A4 Stance T5 Against
+T6 Claim 834 930 demand is not for musically orientated students, but for academically developed employees.
+A5 Stance T6 For
+T7 Claim 1019 1105 students can not obtain supposed impacts, unless they get interested in it more seriously.
+A6 Stance T7 For
+T8 Claim 1108 1162 music and other entertaining subjects should be optional.
+A7 Stance T8 For
+T9 Claim 1223 1347 students are to develop their professional skills by learning occupation-related subjects, rather than playing on guitar or singing a song.
+A8 Stance T9 For
+T10 Premise 100 202 It is obvious that music has a great power which can positively influence on human being and its psychology.
+T11 Premise 203 317 Therefore, many university authorities provide music lessons for their students so that they live and study in a harmony with music.
+T12 Premise 432 481 In this case, music can be a useful and interesting solution.
+T13 Premise 692 757 Consequently, the calm atmosphere in the class might be created.
+T14 Premise 932 1016 Hence, I agree with the majority, because music is the art which requires special attitude towards it.
+T15 Premise 1166 1221 Nowadays, time is the most valuable thing in life with increased pace.
+T16 Premise 1351 1461 In conclusion, I think that in order to be a competitive worker, students must know their field in an advanced level.
+R1 supports Arg1:T10 Arg2:T2
+R2 supports Arg1:T11 Arg2:T2
+R3 supports Arg1:T12 Arg2:T2
+R4 supports Arg1:T13 Arg2:T4
+R5 supports Arg1:T14 Arg2:T7
+R6 supports Arg1:T15 Arg2:T9
+R7 supports Arg1:T16 Arg2:T9
+R8 supports Arg1:T6 Arg2:T1
+R9 supports Arg1:T7 Arg2:T1
+R10 supports Arg1:T8 Arg2:T1
+R11 supports Arg1:T9 Arg2:T1
+R12 attacks Arg1:T2 Arg2:T1
+R13 attacks Arg1:T3 Arg2:T1
+R14 attacks Arg1:T4 Arg2:T1
+R15 attacks Arg1:T5 Arg2:T1

@@ -1,0 +1,24 @@
+T1	MajorClaim 475 636	Society does need an advertising but it is our responsibility to control the content and what kind of goods and services we would like to offer to our customers.
+T2	Claim 651 770	I do support the idea that advertising alcohol, cigarettes, goods and services with adult content should be prohibited.
+A1	Stance T2 For
+T3	Claim 1116 1209	by advertising companies, businesses, firms and individuals promote their goods and services.
+A2	Stance T3 For
+T4	Claim 1322 1397	not only many businesses, but also governments have to rely on advertising.
+A3	Stance T4 For
+T5	Claim 1725 1758	modern society needs advertising.
+A4	Stance T5 For
+T6	Claim 1759 1947	Ads will keep as well informed about new products and services, but we should also bear in mind that advertising cigarettes and alcohol will definitely affect our children in negative way.
+A5	Stance T6 For
+T7	Premise 779 944	these kind of ads will have negative effect to our children. Youngsters might be tempted to buy cigarettes or alcohol and later to start consume it on a daily basis.
+T8	Premise 945 1097	Fortunately, some countries take this issue seriously and advertising alcohol, cigarettes and materials with adult content is banned on those countries.
+T9	Premise 1210 1309	Thanks to ads we learn about new products, we can compare them and choose whats it the best for us.
+T10	Premise 1398 1696	For example, tourism makes up one-third of the Czech Republic's economy. In order to promote the country's attractions, the Czech government has to advertise and sell its services to foreign consumers. Only well planned and well targeted advertising will bring more foreign tourists to the country.
+R1	supports Arg1:T7 Arg2:T2
+R2	supports Arg1:T8 Arg2:T2
+R3	supports Arg1:T9 Arg2:T3
+R4	supports Arg1:T10 Arg2:T4
+R5	supports Arg1:T2 Arg2:T1
+R6	supports Arg1:T3 Arg2:T1
+R7	supports Arg1:T4 Arg2:T1
+R8	supports Arg1:T5 Arg2:T1
+R9	supports Arg1:T6 Arg2:T1

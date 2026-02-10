@@ -1,0 +1,26 @@
+T1	MajorClaim 259 324	From my point of view, it is sensible to enforce the gun control.
+T2	Claim 325 388	The first factor considered is the risk of accidents with guns.
+T3	Premise 389 492	The accidents cannot be completely avoided although only those who have gun licenses can purchase guns.
+T4	Premise 493 595	For example, we hear some news from time to time that someone was hurt by accident during the hunting.
+T5	Premise 596 719	So the fewer guns possessed, the fewer accidents would happened, our surroundings would be safer with lower accident rates.
+T6	Claim 720 849	Secondly, most violent crimes are related to the abuse of guns, especially in some countries where guns are available for people.
+T7	Premise 850 920	Eventually, guns will create a violent society if the trend continues.
+T8	Premise 921 1059	Take an example, in American, young adults and even juveniles can get access to guns, which leads to the tragedies of school gun shooting.
+T9	Premise 1060 1193	What is worse, some terrorists are able to possess more advanced weapons than the police, which makes citizens always live in danger.
+T10	Claim 1194 1262	Thirdly, the possession of guns can also raise the rates of suicide.
+T11	Premise 1263 1358	In the US, firearms remain the most common method of suicide, accounting for about 50 per cent.
+T12	Premise 1359 1467	Unfortunately, there is an increasing trend of adolescent suicides and suicides among those age 75 and over.
+A1	Stance T2 For
+A2	Stance T6 For
+A3	Stance T10 For
+R1	supports Arg1:T3 Arg2:T2
+R2	supports Arg1:T4 Arg2:T2
+R3	supports Arg1:T5 Arg2:T2
+R4	supports Arg1:T2 Arg2:T1
+R5	supports Arg1:T7 Arg2:T6
+R6	supports Arg1:T8 Arg2:T6
+R7	supports Arg1:T9 Arg2:T6
+R8	supports Arg1:T6 Arg2:T1
+R9	supports Arg1:T11 Arg2:T10
+R10	supports Arg1:T12 Arg2:T10
+R11	supports Arg1:T10 Arg2:T1

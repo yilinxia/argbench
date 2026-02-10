@@ -1,0 +1,31 @@
+T1	MajorClaim 464 545	I favor the latter; that is, successful people still do things they already know.
+T2	Claim 546 675	The first and foremost reason lies in an inevitable fact that to be successful, we all try to reduce the risk we might encounter.
+T3	Premise 676 763	The lower the factors making us fail we have, the higher probability to success we own.
+T4	Premise 764 1123	Consider a circumstance in which one person is rich because he knows a lot of knowledge of investment. He can focus on certain companies which he thinks is worth it to invest, and then just waits for the not so high but constant income. He does not have to invest some dangerous companies to get higher profit which might lead him to bankrupt in a short time.
+T5	Claim 1124 1227	Therefore, we can commence to agree that successful people do not have to try new things or take risks.
+T6	Claim 1228 1451	Moreover, another equally crucial aspect is that it depends on the capability of one to decide whether he can succeed or not. At least, a successful person should be able to dismantle the hurdles prohibiting him to success.
+T7	Premise 1452 1662	For instance, the sports stars do not have to take some drugs to win a game or show their extraordinary skills. The same reason why they succeed is that they all have the predominated abilities in sports realm.
+T8	Premise 1663 1781	In contrast, those athletes try to have distinctive performance by taking risks of taking drugs are failed to succeed.
+T9	Claim 1782 1892	Hence, from this case, we are capable of stating that it is not necessary for successful people to take risks.
+T10	Claim 1893 2124	Admittedly, on the other hands, there might be some dissidents proclaiming that doing something new is necessary for people to success because they can become different from others, which is also a widely accepted idea for success.
+T11	Premise 2125 2241	However, according to my limited understanding, I just doubt the credibility of that saying owing to its imprudence.
+T12	Premise 2242 2333	Try something new can indeed make people become special, while it does not mean successful.
+T13	MajorClaim 2335 2529	Based on the reasons demonstrated above, I believe that doing what we already known can still leads us to succeed because the advantages of this are relatively greater than that of the opposite.
+T14	Claim 2530 2637	In other words, reducing risks and enhancing individual's capability is the most important path to success.
+A1	Stance T2 For
+A2	Stance T5 For
+A3	Stance T6 For
+A4	Stance T9 For
+A5	Stance T10 Against
+A6	Stance T14 For
+R1	supports Arg1:T2 Arg2:T1
+R2	supports Arg1:T3 Arg2:T2
+R3	supports Arg1:T4 Arg2:T2
+R4	supports Arg1:T5 Arg2:T1
+R5	supports Arg1:T6 Arg2:T1
+R6	supports Arg1:T7 Arg2:T6
+R7	supports Arg1:T8 Arg2:T6
+R8	supports Arg1:T9 Arg2:T1
+R9	attacks Arg1:T11 Arg2:T10
+R10	supports Arg1:T12 Arg2:T11
+R11	supports Arg1:T14 Arg2:T13

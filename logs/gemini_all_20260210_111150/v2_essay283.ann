@@ -1,0 +1,25 @@
+T1	MajorClaim 383 411	I disagree with this notion.
+T2	Claim 271 373	paying for teacher base on grade that students got is not appropriate, and it is not fair for teacher.
+A1	Stance T2 For
+T3	Premise 69 264	Everyone is different. Although students are in the same process of education system, learning abilities in each students are not equal. Some students are fast learner, but some students are not.
+T4	Premise 427 584	in schools, main task of teacher to give knowledge to students, and this role have to finish in time. there are certain period of time for teachers to teach.
+T5	Claim 606 687	it is not possible for teachers to pay attention to individual students in class.
+A2	Stance T5 For
+T6	Premise 688 913	Teachers have to manage to teach every topics by schedule. If teachers pay attention to specific students, their work might not finish on time, and this might make many student miss some field in topics that they should know.
+T7	Premise 922 1177	learning abilities in each students is different. It is not possible that they all comprehend all lessons in the same period of time. Some students might understand all topics that they had learnt but some are not. Therefore, testing result are different.
+T8	Premise 1178 1251	This problems depend on how hard study they do. It is not teachers fault.
+T9	Claim 1258 1322	teachers should not be paid by testing result that students get.
+A3	Stance T9 For
+T10	Premise 1331 1641	there could lead to a big problem if schools pay teachers by grade that students get. That is problem in quality of education. Teacher may not care about how they have to teach to make students understand the topics. Teachers may just give high grades to get higher salary. This problem should not be happened.
+T11	Claim 1653 1713	grade that students get should not be in evaluating teacher.
+A4	Stance T11 For
+R1	supports Arg1:T3 Arg2:T2
+R2	supports Arg1:T2 Arg2:T1
+R3	supports Arg1:T4 Arg2:T5
+R4	supports Arg1:T6 Arg2:T5
+R5	supports Arg1:T5 Arg2:T1
+R6	supports Arg1:T7 Arg2:T9
+R7	supports Arg1:T8 Arg2:T9
+R8	supports Arg1:T9 Arg2:T1
+R9	supports Arg1:T10 Arg2:T11
+R10	supports Arg1:T11 Arg2:T1

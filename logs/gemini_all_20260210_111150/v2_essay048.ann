@@ -1,0 +1,27 @@
+T1	MajorClaim 343 507	From my perspective, online-teaching should be widely used among colleges and universities in terms of convenience and optimizing cost for educational institutions.
+T2	Claim 523 614	distance-learning brings significant convenience for students in every corner of the world.
+T3	Premise 615 804	In earlier times, students who were tired of commuting had to attend schools nearby, regardless of any differences in teaching facilities, teacher's qualifications or the school reputation.
+T4	Premise 805 930	Now, however, students are able to apply for online-courses provided by top-of-the-range universities and colleges worldwide.
+T5	Claim 944 1034	the presence of video conferencing allows a teacher to teach a greater number of students.
+T6	Claim 1049 1138	educational institutions are able to optimize costs by increasing teacher-student ratios.
+T7	Premise 1139 1353	Thanks to the economical online-teaching, universities and colleges are able to offer grants for students who have outstanding academic achievements but are unable to attend schools because of financial constrains.
+T8	Claim 1413 1525	attending lectures in person provides students an opportunity to communicate with teachers and other classmates.
+T9	Premise 1554 1677	traditional teaching approaches involving discussion and cooperation among students play a significant role in campus life.
+T10	Premise 1678 1770	It is the real interactions and communications in class make education much more attractive.
+T11	Claim 1921 2051	discussions and interactions should be held via video conferencing frequently so that the joy of learning would not be diminished.
+A1	Stance T2 For
+A2	Stance T5 For
+A3	Stance T6 For
+A4	Stance T8 Against
+A5	Stance T11 For
+R1	supports Arg1:T3 Arg2:T2
+R2	supports Arg1:T4 Arg2:T2
+R3	supports Arg1:T2 Arg2:T1
+R4	supports Arg1:T5 Arg2:T6
+R5	supports Arg1:T6 Arg2:T1
+R6	supports Arg1:T7 Arg2:T6
+R7	attacks Arg1:T8 Arg2:T1
+R8	supports Arg1:T9 Arg2:T8
+R9	supports Arg1:T10 Arg2:T8
+R10	supports Arg1:T11 Arg2:T1
+R11	attacks Arg1:T11 Arg2:T8

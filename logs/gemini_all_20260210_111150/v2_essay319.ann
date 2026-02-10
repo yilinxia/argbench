@@ -1,0 +1,39 @@
+T1	MajorClaim 164 283	If students want to get used to the society quickly, it is better for parents to encourage them to take part-time jobs.
+T2	Premise 335 427	there are a few opportunities for students to know how to live adult life in the university.
+T3	Premise 428 484	Because most people they contact with are also students.
+T4	Claim 494 596	when students do part-time jobs, they can work with many kinds of people, and most of whom are adults.
+T5	Premise 597 654	So, they can teach students many things about adult life.
+T6	Premise 655 743	My friend Lisa, who is doing part-time job now, tells me that it is fabulous to take it.
+T7	Premise 744 874	Through part-time job, she makes friends with different kinds of people and they let her know the different aspects of adult life.
+T8	Premise 875 1059	For example, Lisa thought in adult life, work is the core; but after she knows these friends, she changes her mind that the true core for the adult life is responsibility but not work.
+T9	Premise 1060 1178	Hence, thanks to the information her new friends has provided; now she is more confidence about her future adult life.
+T10	Premise 1188 1269	parents always tell students that the adult life is much tenser than school life.
+T11	Premise 1270 1387	However, because we do not experience it, it is very difficult for us to really know how tense the adult life can be.
+T12	Claim 1388 1469	Therefore, we need part-time job to teach us how hard the real adult life can be.
+T13	Premise 1470 1739	Actually, some questionnaires indicate that if students have taken part-time jobs, they will make the best use of their time to prepare their future and more importantly; they will not expect too much for their future than students who have not taken the part-time job.
+T14	Premise 1740 1815	Therefore, the part-time job can make people understand future life better.
+T15	Premise 1823 1897	some parents are afraid that the part-time job will effect student' study.
+T16	Claim 1898 2003	Actually, most students will do the part-time job in their holiday, so it will not effect on their study.
+T17	Premise 2004 2123	Compared with playing computers every day, doing part-time jobs is the best choice for students to spend their holiday.
+T18	Claim 2139 2235	taking the part-time job can let students experience the real adult life and know more about it.
+A1	Stance T4 For
+A2	Stance T12 For
+A3	Stance T16 For
+A4	Stance T18 For
+R1	supports Arg1:T3 Arg2:T2
+R2	supports Arg1:T2 Arg2:T4
+R3	supports Arg1:T5 Arg2:T4
+R4	supports Arg1:T6 Arg2:T4
+R5	supports Arg1:T7 Arg2:T4
+R6	supports Arg1:T8 Arg2:T7
+R7	supports Arg1:T9 Arg2:T7
+R8	supports Arg1:T4 Arg2:T1
+R9	supports Arg1:T11 Arg2:T10
+R10	supports Arg1:T10 Arg2:T12
+R11	supports Arg1:T13 Arg2:T12
+R12	supports Arg1:T14 Arg2:T12
+R13	supports Arg1:T12 Arg2:T1
+R14	attacks Arg1:T16 Arg2:T15
+R15	supports Arg1:T17 Arg2:T16
+R16	supports Arg1:T16 Arg2:T1
+R17	supports Arg1:T18 Arg2:T1

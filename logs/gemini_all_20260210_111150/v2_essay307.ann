@@ -1,0 +1,17 @@
+T1	MajorClaim 278 436	This issue is a controversial one, but in my opinion a closer examination reveals that mass media deal too much with superficial things for different reasons.
+T2	Claim 438 564	One reason is that television and newspapers focus on famous peoples' lives in order to increase their audience or readership.
+A1	Stance T2 For
+T3	Premise 565 662	Gutter press and Tabloid TV are more and more replacing quality papers or documentaries programs.
+T4	Premise 663 884	Thanks to the Internet, we can go online and have access to information from all over the world and therefore mass media don't need any more to keep informed people but their goal is to have enough readers or TV audience.
+T5	Claim 886 986	Another reason is that we live in a society where the most important thing is appearance and gossip.
+A2	Stance T5 For
+T6	Premise 987 1105	Nowadays, unscrupulous paparazzi constantly follow celebrities just to take a photo while they are eating or training.
+T7	Premise 1106 1242	Newspapers often receive accusations of checkbook journalism; this means that magazines pay people a lot of money for stories or photos.
+T8	Premise 1243 1399	Additionally, there are Reality TV, television programs in which people are put into artificial environments and situations, for example like "Big Brother".
+R1	supports Arg1:T3 Arg2:T2
+R2	supports Arg1:T4 Arg2:T2
+R3	supports Arg1:T2 Arg2:T1
+R4	supports Arg1:T6 Arg2:T5
+R5	supports Arg1:T7 Arg2:T5
+R6	supports Arg1:T8 Arg2:T5
+R7	supports Arg1:T5 Arg2:T1

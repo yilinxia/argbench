@@ -1,0 +1,26 @@
+T1	MajorClaim 375 451	As for me, I would follow the new customs, if I migrated to another country.
+T2	Claim 465 559	it will be easier for people to assimilate into a new country, if they follow the new customs.
+A1	Stance T2 For
+T3	Premise 560 690	When people migrate to a new country, they are likely to suffer the culture shock, because of the difference between two cultures.
+T4	Premise 691 803	The custom is just a form of the culture and following the custom is a good way to know more about this culture.
+T5	Premise 804 1028	For example, if one wore in white and went to common Viharas to observe a rather longer-than-usual, full-length Buddhist sutra in Buddha's Birthday in India, he or she would learn something about Indian religion and culture.
+T6	Premise 1029 1112	As a result, people understand the culture, and then they adapt to the new country.
+T7	Claim 1132 1186	keeping own customs stably might cause discrimination.
+A2	Stance T7 For
+T8	Premise 1187 1327	When people insist to keep their own customs and refuse to accept the new one, they regard themselves as a special group in the new country.
+T9	Premise 1328 1440	The local people may also regard them as a special group as well and separate them from the main-stream society.
+T10	Premise 1441 1934	One example of this is that the Chinese immigrants in Indonesia in 1969. They formed Chinatown and kept Chinese language and customs in it. While the Indonesians stopped working at 4:00 pm and went home for rest, Chinese immigrants were still working. Although being much richer than local people, they faced the discrimination. Their houses and private cars were buried by local people, because the locals were jealous of Chinese people, who had so much wealth, which should have been theirs.
+T11	Premise 1935 2125	If the Chinese immigrants had followed the local customs and assimilated into Indonesia, they would not have been regards as a group of Chinese and discrimination might have been alleviated.
+T12	Claim 2138 2290	the immigrants should follow the customs in the new country, which can help them survive from the culture shock sooner, and assimilate to a new culture.
+A3	Stance T12 For
+R1	supports Arg1:T3 Arg2:T2
+R2	supports Arg1:T4 Arg2:T2
+R3	supports Arg1:T5 Arg2:T4
+R4	supports Arg1:T6 Arg2:T2
+R5	supports Arg1:T8 Arg2:T7
+R6	supports Arg1:T9 Arg2:T7
+R7	supports Arg1:T10 Arg2:T7
+R8	supports Arg1:T11 Arg2:T7
+R9	supports Arg1:T2 Arg2:T1
+R10	supports Arg1:T7 Arg2:T1
+R11	supports Arg1:T12 Arg2:T1

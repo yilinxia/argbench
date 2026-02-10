@@ -1,0 +1,21 @@
+T1	MajorClaim 1267 1513	To sumarize, there should never be any replacement for traditional skills or ways of life. They are the ones that teach, and will teach us to be self-esteem and experienced, which means their preservation throughout history deserve our attention.
+T2	Claim 216 344	these so-called cultural invasions will result in the distinction of national traditions, and there is no need to maintain them.
+T3	Claim 377 483	what can be expected, is a change of the role of the tradition but not its disappearance from the society.
+T4	Claim 506 594	the country's culture is passed down mainly through traditional skills and ways of life.
+T5	Premise 609 771	in Vietnam, many water puppet shows which once demonstrated our seasonal agriculture and communal activities, are today substituted by cinemas and music concerts.
+T6	Premise 783 934	the young generation can solely get access to their ancestor's early life through books and images, which otherwise would be much more easily absorbed.
+T7	Claim 949 1058	a person should look back at the past, mainly by means of custom handcraft or antique lifestyle, to progress.
+T8	Premise 1059 1184	Understanding why, and how our predecessors survived through thick and thin will probably be invaluable lessons for us today.
+T9	Premise 1191 1266	study form their mistakes helps us accomplish our goal with smooth sailing.
+A1	Stance T2 Against
+A2	Stance T3 For
+A3	Stance T4 For
+A4	Stance T7 For
+R1	supports Arg1:T3 Arg2:T1
+R2	attacks Arg1:T3 Arg2:T2
+R3	supports Arg1:T4 Arg2:T3
+R4	supports Arg1:T5 Arg2:T4
+R5	supports Arg1:T6 Arg2:T4
+R6	supports Arg1:T7 Arg2:T1
+R7	supports Arg1:T8 Arg2:T7
+R8	supports Arg1:T9 Arg2:T7

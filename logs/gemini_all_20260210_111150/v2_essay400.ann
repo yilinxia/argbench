@@ -1,0 +1,17 @@
+T1	MajorClaim 236 388	I completely agree with the idea that governments should devote a greater portion of their health budgets to health education and means for precautions.
+T2	Claim 389 525	The first reason why education and preventative measures should receive a greater budget is the potential improvements in health system.
+T3	Premise 526 724	I believe that decreasing the number of patients in the health system can lead hospitals and healthcare centers to be managed effectively which will result in better treatments for current patients.
+T4	Premise 725 945	Therefore, society should be educated and became aware of health issues so that the potential precautions on the way of illnesses can be taken instead of trying to provide treatment for the increasing number of patients.
+T5	Claim 946 1096	The second reason why governments should allocate more budget on prevention from illness and providing health education is the welfare of the society.
+T6	Premise 1097 1221	In my opinion, there is nothing more important than health in a human's life and the happiness and welfare come with health.
+T7	Premise 1222 1389	Therefore, a government's role should be providing means that lead its citizens to learn how to prevent from potential illness that can cause misery in people's lives.
+T8	Premise 1390 1603	For example, the marketing campaign of Ministry of Health in Turkey which aimed smoking problem among the youth increased the well-being of those who quit smoking and adapted a better lifestyle after the campaign.
+A1	Stance T2 For
+A2	Stance T5 For
+R1	supports Arg1:T2 Arg2:T1
+R2	supports Arg1:T3 Arg2:T2
+R3	supports Arg1:T4 Arg2:T2
+R4	supports Arg1:T5 Arg2:T1
+R5	supports Arg1:T6 Arg2:T5
+R6	supports Arg1:T7 Arg2:T5
+R7	supports Arg1:T8 Arg2:T7

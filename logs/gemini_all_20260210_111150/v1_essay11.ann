@@ -1,0 +1,128 @@
+T1	MajorClaim 256 342	Whatever the definition is, camping is an experience that should be tried by everyone.
+T2	Claim 781 842	Spending time camping is a great way to revitalize the lungs.
+A1	Stance T2 For
+T3	Premise 343 515	The U.S. Environmental Protection Agency has posted on their website, http://www.epa.gov/iaq/pubs/insidest.html, that approximately 90% of a person's life is spent indoors.
+T4	Premise 516 780	The same article goes on to state "In the last several years, a growing body of scientific evidence has indicated that the air within homes and other buildings can be more seriously polluted than the outdoor air in even the largest and most industrialized cities."
+T5	Premise 843 972	The phrase "city air" often is thought as air that is polluted, while "country air" is often used to describe clean, healthy air.
+T6	Premise 973 1039	Breathing the country air usually makes a person feel revitalized.
+T7	Premise 1040 1109	There is no better way to receive the country air than while camping.
+R1	supports Arg1:T3 Arg2:T2
+R2	supports Arg1:T4 Arg2:T2
+R3	supports Arg1:T5 Arg2:T2
+R4	supports Arg1:T6 Arg2:T2
+R5	supports Arg1:T7 Arg2:T2
+R6	supports Arg1:T2 Arg2:T1
+T8	Claim 1110 1174	Another great part about camping is being outside under the sun.
+A2	Stance T8 For
+T9	Premise 1175 1241	The sun rays help the human body with the production of vitamin D.
+T10	Premise 1242 1368	In fact, other than popping a vitamin pill, the only way that a body can produce vitamin D is through the exposure to the sun.
+T11	Premise 1369 1445	Feeling the warm rays of the sun hit the face is always a welcome sensation.
+T12	Premise 1446 1509	Being outside in the sun is another great advantage of camping.
+R7	supports Arg1:T9 Arg2:T8
+R8	supports Arg1:T10 Arg2:T8
+R9	supports Arg1:T11 Arg2:T8
+R10	supports Arg1:T12 Arg2:T8
+R11	supports Arg1:T8 Arg2:T1
+T13	Claim 1633 1704	Camping is a great way to have fun while keeping the overall cost down.
+A3	Stance T13 For
+T14	Premise 1705 1780	A one night stay at Sands of Time RV Park costs twenty two dollars a night.
+T15	Premise 1781 1826	That fee includes water, sewer, and electric.
+T16	Premise 1827 1902	A stay in a condo in the same area will cost at least $645.00 for the week.
+T17	Premise 1903 1958	A condo will cost the family $491 more than a campsite.
+T18	Premise 1959 2077	That difference in price can make a camping trip a good possibility while keeping the overall costs down to a minimum.
+R12	supports Arg1:T14 Arg2:T13
+R13	supports Arg1:T15 Arg2:T13
+R14	supports Arg1:T16 Arg2:T13
+R15	supports Arg1:T17 Arg2:T13
+R16	supports Arg1:T18 Arg2:T13
+R17	supports Arg1:T13 Arg2:T1
+T19	Claim 2078 2161	Camping gives anyone the possibility to go places that they have never been before.
+A4	Stance T19 For
+T20	Premise 2162 2235	Camping can take you to Yosemite, or into the Band Lands of South Dakota.
+T21	Premise 2236 2287	Camping can also take place at a nearby state park.
+T22	Premise 2288 2364	No matter where the campsite is, a camper can feel miles away from the city.
+T23	Premise 2365 2474	There are so many places both near and far that are best experienced by spending a few days within the place.
+T24	Premise 2475 2618	Camping gives you the ability to see these beautiful locations at first sunlight, in the middle of the day, at sunset and even under the stars.
+T25	Premise 2619 2695	It can be amazing how different the same object can look throughout the day.
+R18	supports Arg1:T20 Arg2:T19
+R19	supports Arg1:T21 Arg2:T19
+R20	supports Arg1:T22 Arg2:T19
+R21	supports Arg1:T23 Arg2:T19
+R22	supports Arg1:T24 Arg2:T19
+R23	supports Arg1:T25 Arg2:T19
+R24	supports Arg1:T19 Arg2:T1
+T26	Premise 2696 2827	Campers often express how a feeling comes over their body when they reach the moment when the day to day turmoil leaves their body.
+T27	Premise 2828 2875	Virtually every camper experiences this moment.
+T28	Premise 2876 3009	This is specifically when they are experiencing nature and the realization is made how much simpler life is when outside with nature.
+T29	Claim 3010 3082	Returning to nature often allows campers to return to their true selves.
+A5	Stance T29 For
+T30	Premise 3083 3138	It is this discovery that should be experienced by all.
+R25	supports Arg1:T26 Arg2:T29
+R26	supports Arg1:T27 Arg2:T29
+R27	supports Arg1:T28 Arg2:T29
+R28	supports Arg1:T30 Arg2:T29
+R29	supports Arg1:T29 Arg2:T1
+T31	Premise 3139 3192	The benefits of camping can also be seen in families.
+T32	Premise 3193 3313	Some people that do not like the idea of camping give the reason of having to camp with people in such a confined space.
+T33	Claim 3314 3404	It this confined space that, when allowed, can create a close bond between family members.
+A6	Stance T33 For
+T34	Premise 3405 3477	When families go camping, they put the jobs and sporting events on hold.
+T35	Premise 3478 3597	There are usually no video games being played, no soccer practice to drive to, and no business projects to worry about.
+T36	Premise 3598 3704	By putting aside all of these events, the family has an opportunity to bond and renew their relationships.
+T37	Premise 3705 3776	Some of this may be foreign to some people and there can be resistance.
+T38	Premise 3777 3840	When this resistance is put aside, these bonds will be renewed.
+T39	Premise 3841 3917	Camping is a great way to bring families together and strengthen their love.
+R30	supports Arg1:T31 Arg2:T33
+R31	attacks Arg1:T33 Arg2:T32
+R32	supports Arg1:T34 Arg2:T33
+R33	supports Arg1:T35 Arg2:T33
+R34	supports Arg1:T36 Arg2:T33
+R35	supports Arg1:T37 Arg2:T33
+R36	supports Arg1:T38 Arg2:T33
+R37	supports Arg1:T39 Arg2:T33
+R38	supports Arg1:T33 Arg2:T1
+T40	Premise 3918 3970	Food is always a item that people cannot do without.
+T41	Claim 3971 4028	Campers have an opportunity to try some interesting food.
+A7	Stance T41 For
+T42	Premise 4029 4130	Cooking over a fire makes burgers and potatoes taste better than can be found at any fast food place.
+T43	Premise 4131 4203	Campers need to think out their meals thoroughly prior to making a trip.
+T44	Premise 4204 4285	These well planned meals are sometimes the best meals that campers have ever had.
+T45	Premise 4286 4462	Cooking a chicken over campfire, cooking an apple pie in a dutch oven, and cooking a burger wrapped in foil on the coals of a camp fire can put the best gourmet chefs to shame.
+T46	Premise 4463 4563	Perhaps it is the fresh smoke, the clean air or just the fact that a camper's senses are heightened.
+T47	Premise 4564 4629	Whatever the reasons are, food always tastes better when camping.
+R39	supports Arg1:T40 Arg2:T41
+R40	supports Arg1:T42 Arg2:T41
+R41	supports Arg1:T43 Arg2:T41
+R42	supports Arg1:T44 Arg2:T41
+R43	supports Arg1:T45 Arg2:T41
+R44	supports Arg1:T46 Arg2:T41
+R45	supports Arg1:T47 Arg2:T41
+R46	supports Arg1:T41 Arg2:T1
+T48	Claim 4630 4711	Some of the people that can be met while camping can make the entire trip better.
+A8	Stance T48 For
+T49	Premise 4712 4781	Campers can come from every state, and sometimes different countries.
+T50	Premise 4782 4896	Taking a simple walk around the campsite, the camper can encounter these people and hear the most amazing stories.
+T51	Premise 4897 4958	Campers are friendly and enjoy the company of fellow campers.
+T52	Premise 4959 5096	Kids always seem to find new "best friends" for the weekends and even adults may find themselves sharing a meal with their new neighbors.
+R47	supports Arg1:T49 Arg2:T48
+R48	supports Arg1:T50 Arg2:T48
+R49	supports Arg1:T51 Arg2:T48
+R50	supports Arg1:T52 Arg2:T48
+R51	supports Arg1:T48 Arg2:T1
+T53	Claim 5097 5201	Sometimes camping can also make campers realize the overlooked luxuries that they experience day to day.
+A9	Stance T53 For
+T54	Premise 5202 5365	Flush toilets, warm showers, central heating and air, and even the lack of bugs accompanying the sleeping camper are some of the luxuries that are missed the most.
+T55	Premise 5366 5482	A small weekend away from these luxuries can make the campers realize how lucky they are in their day to day living.
+R52	supports Arg1:T54 Arg2:T53
+R53	supports Arg1:T55 Arg2:T53
+R54	supports Arg1:T53 Arg2:T1
+T56	Premise 5483 5572	Camping is one of the most basic and enjoyable activities that can be experienced by all.
+T57	Premise 5573 5633	Camping has no requirements other than willing participants.
+T58	Premise 5634 5730	Camping doesn't discriminate, doesn't have deadlines and has nothing but fun around each corner.
+T59	Premise 5731 5874	No matter if the camping is experienced in a tent or in a luxury camper, getting outside, in the wilderness can provide a lifetime of memories.
+T60	Premise 5875 5910	Camping has something for everyone.
+R55	supports Arg1:T56 Arg2:T1
+R56	supports Arg1:T57 Arg2:T1
+R57	supports Arg1:T58 Arg2:T1
+R58	supports Arg1:T59 Arg2:T1
+R59	supports Arg1:T60 Arg2:T1

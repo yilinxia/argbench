@@ -1,0 +1,31 @@
+T1	MajorClaim 458 544	Personally, I find it hard for me to agree with this opinion by the following reasons.
+T2	Claim 568 667	the progress of material technology leads to the sharp fall of price of a great number of products.
+A1	Stance T2 For
+T3	Premise 668 815	About ten years ago, mobile phones ware very expensive for most members of my country, only a few of rich individuals have enough money to buy one.
+T4	Premise 816 946	Today, mobile phones become a common one of household items, which due to the cheaper materials and better producing technologies.
+T5	Premise 947 1069	Thus, most members of our society can benefit from the consequences of technical advancements, especially the poor people.
+T6	Claim 1080 1250	technical developments improve productivity, which help people to escape from daily chores, and invest more time and energy in studying and living a more meaningful life.
+A2	Stance T6 For
+T7	Premise 1251 1367	With the development of Internet, we can enjoy the pleasure and conveniences which it brings about for us every day.
+T8	Premise 1368 1504	In the past time, we had to spend a lot of time searching information and waiting for letters of our friends who lived far away from us.
+T9	Premise 1505 1598	Nowadays, we can talk with our friends online, no matter where we are and how far between us.
+T10	Premise 1612 1670	the Internet gives everyone access to the same information
+T11	Claim 1672 1733	this therefore leads to greater equality between individuals.
+A3	Stance T11 For
+T12	Claim 1808 2027	To some extent, the gap between rich people and poor is widen by technology, because only the rich people have ability to afford the expensive high-tech products, and these products can help them to earn more in return.
+A4	Stance T12 Against
+T13	Claim 2028 2166	Nevertheless, I think it is a limp opposition to the remarkable advantages of technology, and technology is not the root cause of the gap.
+A5	Stance T13 For
+R1	supports Arg1:T2 Arg2:T1
+R2	supports Arg1:T3 Arg2:T2
+R3	supports Arg1:T4 Arg2:T2
+R4	supports Arg1:T5 Arg2:T2
+R5	supports Arg1:T6 Arg2:T1
+R6	supports Arg1:T7 Arg2:T6
+R7	supports Arg1:T8 Arg2:T6
+R8	supports Arg1:T9 Arg2:T6
+R9	supports Arg1:T10 Arg2:T11
+R10	supports Arg1:T11 Arg2:T1
+R11	attacks Arg1:T12 Arg2:T1
+R12	attacks Arg1:T13 Arg2:T12
+R13	supports Arg1:T13 Arg2:T1

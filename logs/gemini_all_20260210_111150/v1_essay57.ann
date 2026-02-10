@@ -1,0 +1,39 @@
+T1	MajorClaim 223 314	creative artists must be given the freedom to express their ideas without any restrictions.
+T2	Premise 178 215	Creativity originates in a free mind.
+T3	Claim 617 691	Creative works help to create social awareness by giving a social message.
+A1	Stance T3 For
+T4	Premise 315 463	Time and again, creative artists like Michaelangelo, Picasso, Salman Rushdie, Shakespeare etc. have made artistic works which gave a social message.
+T5	Premise 464 616	Right from sculptures to paintings, books to drama and movies, all these artistic works have reflected the contemporary social issues of different eras.
+T6	Claim 804 879	It helps to raise issues and criticise the wrong doings of the governments.
+A2	Stance T6 For
+T7	Premise 705 803	innovative works makes people realise things in a peaceful way and peep into their own conscience.
+T8	Premise 894 1013	Bangladeshi writer Taslima Nasrin was accused of acting against the government, just because she raised a social issue.
+T9	Premise 1014 1076	This type of approach is a hurdle in promoting creative minds.
+T10	Claim 1090 1128	creativity also gives aesthetic charm.
+A3	Stance T10 For
+T11	Claim 1268 1362	Restrictions would just curb the innovative ideas of the artists and would limit their brains.
+A4	Stance T11 For
+T12	Premise 1183 1267	Frank Zappa once said, " Mind is like a parachute, it doesn't work if its not open."
+T13	Claim 1460 1526	artists should also know not to hurt the sentiments of the people.
+A5	Stance T13 Against
+T14	Premise 1527 1648	Many artists have been involved in controversies because of hurting the religious or social beliefs of the common people.
+T15	Claim 1649 1762	Artists should have self-awareness not to create vulgar, hurtful or useless works which do not serve any purpose.
+A6	Stance T15 Against
+T16	Premise 1836 1887	Mind can not work when it is chained in boundaries.
+T17	Premise 1888 2001	Imagination is at its best when the mind is relaxed and free from the fear of government or any restrictive laws.
+R1	supports Arg1:T2 Arg2:T1
+R2	supports Arg1:T3 Arg2:T1
+R3	supports Arg1:T4 Arg2:T3
+R4	supports Arg1:T5 Arg2:T3
+R5	supports Arg1:T6 Arg2:T1
+R6	supports Arg1:T7 Arg2:T6
+R7	supports Arg1:T8 Arg2:T6
+R8	supports Arg1:T9 Arg2:T6
+R9	supports Arg1:T10 Arg2:T1
+R10	supports Arg1:T11 Arg2:T1
+R11	supports Arg1:T12 Arg2:T11
+R12	attacks Arg1:T13 Arg2:T1
+R13	supports Arg1:T14 Arg2:T13
+R14	supports Arg1:T15 Arg2:T13
+R15	supports Arg1:T16 Arg2:T1
+R16	supports Arg1:T17 Arg2:T1

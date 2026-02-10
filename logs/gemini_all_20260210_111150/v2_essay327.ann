@@ -1,0 +1,28 @@
+T1	MajorClaim 268 325	students should start learning that as they start school.
+T2	Claim 326 451	Learning that not only help them to improve their minds and memories, but can extend their visions about the other countries.
+A1	Stance T2 For
+T3	Claim 460 552	the ability of Learning in the childhood period is more powerful than other periods of life.
+A2	Stance T3 For
+T4	Premise 553 693	Thereby students in the beginning of their education can learn faster and easier in compare to a young one to understand a foreign language.
+T5	Premise 694 774	They can easily understand the language structure and memorize the vocabularies.
+T6	Premise 775 903	It is out of of the questioned that the persistence of learning a knowledge in the childhood is more than other period of lives.
+T7	Premise 904 1109	By considering this and being aware of that students have not any responsibility and other difficulty in comparison with a young man, we can infer that why this time is the best time to learn any language.
+T8	Claim 1123 1226	Learning a foreign language helps students tremendously to comprehend what happens in the around World.
+A3	Stance T8 For
+T9	Premise 1227 1288	They would be able to understand other cultures and costumes.
+T10	Premise 1289 1394	Moreover, It can give them a sense of power to communicate better with peers in other parts of the World.
+T11	Premise 1395 1488	Having knowledge about other countries and their languages lead to extend the child's vision.
+T12	Premise 1489 1572	Therefore, they would be able to develop their personalities and sense of reliance.
+T13	Premise 1583 1871	it is easy to distinguish between a child having two languages and a child having just his native language while comparing their ability to communicate, understanding other studies, etc, to find that why children should start learning a foreign language in the beginning of the education.
+R1	supports Arg1:T2 Arg2:T1
+R2	supports Arg1:T3 Arg2:T2
+R3	supports Arg1:T4 Arg2:T3
+R4	supports Arg1:T5 Arg2:T4
+R5	supports Arg1:T6 Arg2:T3
+R6	supports Arg1:T7 Arg2:T3
+R7	supports Arg1:T8 Arg2:T2
+R8	supports Arg1:T9 Arg2:T8
+R9	supports Arg1:T10 Arg2:T8
+R10	supports Arg1:T11 Arg2:T8
+R11	supports Arg1:T12 Arg2:T8
+R12	supports Arg1:T13 Arg2:T1

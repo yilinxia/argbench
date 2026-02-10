@@ -1,0 +1,35 @@
+T1	MajorClaim 201 351	Physical exercises help to create healthy nation, assist to learning through direct observation and finally aid to financial development of a country.
+T2	Claim 791 939	So, if the entire nation, from their school ages begin going for sports and try doing that everyday, eventually it may help to build healthy nation.
+T3	Claim 1324 1447	Furthermore, almost all natural science discoveries were made by direct observation, which is a part of physical education.
+T4	Claim 1897 2066	putting physical activities in early steps of human development would finally lead to mentally healthy society. As hence it ends up with financially competitive country.
+T5	Claim 2111 2241	the more attention is withdrawn to a problem of physical education, the more influence we can get on academic success of students.
+T6	Premise 399 485	"Anima sana in corpore sano", which means that healthy body is basis for healthy soul.
+T7	Premise 486 582	There is a direct linkage between people's health and the frequency of doing physical exercises.
+T8	Premise 583 624	The more we practice, the better we feel.
+T9	Premise 625 790	Additionally, there is a fact that one can improve health conditions with everyday physical activity: gradually, step by step we change physical condition to better.
+T10	Premise 949 1028	when we practice outdoors and indoors sports, many aspects are getting clearer.
+T11	Premise 1042 1148	when a person goes jogging everyday, eventually he can understand his own body through direct observation.
+T12	Premise 1149 1323	Alike, the school basketball team gains more knowledge on how to succeed in some particular kind of throwing the ball into hoot practicing rather than learning theoretically.
+T13	Premise 1470 1555	financial sustainability of a region mostly depends on how healthy the population is.
+T14	Premise 1570 1701	the money invested into physical education program can save allocations into healthcare, since the nation is comparatively healthy.
+T15	Premise 1719 1809	physically healthy people can contribute more both into economical and social development.
+T16	Premise 1831 1885	the better a person feels, the better his brain works.
+A1	Stance T2 For
+A2	Stance T3 For
+A3	Stance T4 For
+A4	Stance T5 For
+R1	supports Arg1:T6 Arg2:T2
+R2	supports Arg1:T7 Arg2:T2
+R3	supports Arg1:T8 Arg2:T2
+R4	supports Arg1:T9 Arg2:T2
+R5	supports Arg1:T2 Arg2:T1
+R6	supports Arg1:T10 Arg2:T3
+R7	supports Arg1:T11 Arg2:T3
+R8	supports Arg1:T12 Arg2:T3
+R9	supports Arg1:T3 Arg2:T1
+R10	supports Arg1:T13 Arg2:T4
+R11	supports Arg1:T14 Arg2:T4
+R12	supports Arg1:T15 Arg2:T4
+R13	supports Arg1:T16 Arg2:T4
+R14	supports Arg1:T4 Arg2:T1
+R15	supports Arg1:T5 Arg2:T1

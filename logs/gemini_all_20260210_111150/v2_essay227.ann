@@ -1,0 +1,21 @@
+T1	MajorClaim 295 403	spending the budget for space exploration is an important activity to save living of humanity in the future.
+T2	Claim 498 601	the essential challenge of humanity in the future would be the discovery of a new place for the living.
+T3	Claim 941 1012	it is very significant to find a new place for living in other planets.
+T4	Premise 798 929	In during history, our planet is threatening by many of other planets or stars and it is an enormous danger for living of humanity.
+T5	Claim 1380 1446	space exploration will use as a military power for many countries.
+T6	Claim 1637 1769	nowadays most of governments have used many rockets for military purposes and therefore the purposes of exploring space has altered.
+T7	Premise 1014 1087	Space exploration has used as a tools for military power in the cold war.
+T8	Premise 1088 1200	In the future, many countries will try to prevent attach of other countries by using and invention new missiles.
+T9	Premise 1201 1366	In the past, the space race happened between the United Stated and the Soviet Union. Both countries tried to send man to the moon and show their power to each other.
+A1	Stance T2 For
+A2	Stance T3 For
+A3	Stance T5 Against
+A4	Stance T6 Against
+R1	supports Arg1:T2 Arg2:T1
+R2	supports Arg1:T4 Arg2:T3
+R3	supports Arg1:T3 Arg2:T1
+R4	supports Arg1:T7 Arg2:T5
+R5	supports Arg1:T8 Arg2:T5
+R6	supports Arg1:T9 Arg2:T5
+R7	attacks Arg1:T5 Arg2:T1
+R8	attacks Arg1:T6 Arg2:T1

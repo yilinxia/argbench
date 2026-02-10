@@ -1,0 +1,36 @@
+T1	MajorClaim 255 323	I do think that people are likely to spend less time in cooking food
+T2	Claim 468 702	with the development of science and technology, more advanced kitchen facilities, such as the modern microwaves or the advanced pressure cookers, have been created and invented to help people prepare and cook food in a very short time
+T3	Premise 717 830	people nowadays just spend one hour to prepare a meal instead of two, even three hours like in the last 10 years.
+T4	Premise 841 1017	in recent years, there was a significant increase in the number of people from all walks of life realizing this valuable benefit of those technologies in doing their housework.
+T5	Premise 1022 1112	this figure still continuously go up along with the improvement of science and technology.
+T6	Premise 1119 1206	it is certain that spending less time on cooking will be the main trend in near future.
+T7	Claim 1230 1370	most of young people prefer to have meals at restaurants because they want to invest more time in their work or study to improve themselves.
+T8	Premise 1371 1639	According to a recent survey, 89% of people have come to think that, since they have been put in the situation which is filled with competitions and pressures, they have to use a lot of time to work hard, to update themselves, to acquire all kinds of skills and so on.
+T9	Premise 1646 1701	they find hard to have time to prepare and cook a meal.
+T10	Premise 1702 1823	Even they have some spare time, they prefer to go out with friends to relax and relieve the pressure from work and study.
+T11	Claim 1851 1956	investing much time in cooking food will guarantee nutrition as well as quality of food for their family.
+T12	Premise 2015 2103	using technology or advanced facilities do not make food lose its nutrition and quality.
+T13	Premise 2110 2282	with the help of ozone machines, bacterias, mold spores, or pesticide in vegetables, fruits and foods will be killed and removed, thus health and life of eaters is assured.
+T14	Premise 2292 2463	along with the high living standard, requirements of quality products in almost restaurants, nowadays, are under severe control and supervision by appropriate authorities.
+T15	Claim 2478 2577	it is quite easy to have a nutritious meal with guaranteed quality, but do not waste a lot of time.
+A1	Stance T2 For
+A2	Stance T7 For
+A3	Stance T11 Against
+A4	Stance T15 For
+R1	supports Arg1:T2 Arg2:T1
+R2	supports Arg1:T3 Arg2:T2
+R3	supports Arg1:T4 Arg2:T2
+R4	supports Arg1:T5 Arg2:T2
+R5	supports Arg1:T6 Arg2:T2
+R6	supports Arg1:T6 Arg2:T1
+R7	supports Arg1:T7 Arg2:T1
+R8	supports Arg1:T8 Arg2:T7
+R9	supports Arg1:T9 Arg2:T7
+R10	supports Arg1:T10 Arg2:T7
+R11	attacks Arg1:T11 Arg2:T1
+R12	attacks Arg1:T12 Arg2:T11
+R13	supports Arg1:T13 Arg2:T12
+R14	attacks Arg1:T13 Arg2:T11
+R15	attacks Arg1:T14 Arg2:T11
+R16	attacks Arg1:T15 Arg2:T11
+R17	supports Arg1:T15 Arg2:T1

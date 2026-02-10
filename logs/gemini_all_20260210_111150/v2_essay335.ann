@@ -1,0 +1,19 @@
+T1	MajorClaim 1300 1366	IT discoveries are likely to have more disadvantages than benefits
+T2	Claim 672 684	IT is useful
+T3	Claim 1037 1079	there are some drawbacks about this issue.
+T4	Premise 472 516	connecting people by email is easy and fast.
+T5	Premise 530 636	World Wide Web offers humanity to access to information, which they want to know for less than 10 seconds.
+T6	Premise 761 905	scientists develop robots, which help people cope with their problems or just invent coffee machines, engines with integrated computers and etc.
+T7	Premise 919 1026	before centeries, there were not washing machines, which clean your clothes, while a person do another job.
+T8	Premise 1080 1212	Scientists believe that one day people will face their developments, for instance robots, and they will not succeed to control them.
+T9	Premise 1213 1271	All this inventions will try to take control of the Earth.
+A1	Stance T2 Against
+A2	Stance T3 For
+R1	supports Arg1:T4 Arg2:T2
+R2	supports Arg1:T5 Arg2:T2
+R3	supports Arg1:T6 Arg2:T2
+R4	supports Arg1:T7 Arg2:T6
+R5	supports Arg1:T8 Arg2:T3
+R6	supports Arg1:T9 Arg2:T3
+R7	attacks Arg1:T2 Arg2:T1
+R8	supports Arg1:T3 Arg2:T1

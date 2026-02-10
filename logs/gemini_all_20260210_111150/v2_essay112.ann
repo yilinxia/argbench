@@ -1,0 +1,22 @@
+T1	MajorClaim 1367 1596 In conclusion, it is convincing that exams have a role to play in ensuring proper and objective assessment of achievement. However, exams need to be carefully designed and supplemented with other forms of evaluation if they are to be a truly useful component of the education system.
+T2	Claim 262 343 They help to ensure fairness by imposing the same conditions on all exam candidates.
+T3	Claim 344 482 They are also relatively versatile; different types of exam questions, for example, multiple-choice questions and essay tasks, can test different sorts of reasoning ability.
+T4	Claim 525 635 Test-wise candidates can often perform well on exams without having good underlying knowledge or skills.
+T5	Claim 636 729 In contrast, some test-takers perform cannot achieve a satisfying result because of anxiety.
+T6	Claim 730 891 In this case, teachers and learners focus only on theses aspects of the curriculum that are likely to be tested, thus narrowing the educational experience for all.
+T7	Premise 957 1049 Wherever possible, exams should match the content and activities of the learning environment.
+T8	Premise 1050 1144 Exam task should be varied to give fair opportunities to candidates with different types of skills.
+T9	Premise 1145 1365 Other types of assessment should also be considered, assignment writing, for example, to assess independent learning and research skills, or group projects, to measure teamwork ability.
+A1	Stance T2 For
+A2	Stance T3 For
+A3	Stance T4 Against
+A4	Stance T5 Against
+A5	Stance T6 Against
+R1	supports Arg1:T2 Arg2:T1
+R2	supports Arg1:T3 Arg2:T1
+R3	supports Arg1:T4 Arg2:T1
+R4	supports Arg1:T5 Arg2:T1
+R5	supports Arg1:T6 Arg2:T1
+R6	supports Arg1:T7 Arg2:T1
+R7	supports Arg1:T8 Arg2:T1
+R8	supports Arg1:T9 Arg2:T1

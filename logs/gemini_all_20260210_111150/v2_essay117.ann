@@ -1,0 +1,35 @@
+T1	MajorClaim 1955 2017	technology alone can solve the world's environmental problems.
+T2	Claim 459 559	if humans stop using technology and lead a simple way of life then only we can save the environment.
+A1	Stance T2 Against
+T3	Premise 576 636	it is the luxuries people use which damages the environment.
+R1	supports Arg1:T3 Arg2:T2
+T4	Premise 637 881	If people don't use air conditioners, automobiles and other such things that technology has brought us, then naturally there would be less pollution and natural resources like fossil fuels would be saved and all this would save the environment.
+R2	supports Arg1:T4 Arg2:T2
+T5	Claim 930 974	technology alone could save the environment.
+A2	Stance T5 For
+R3	supports Arg1:T5 Arg2:T1
+T6	Premise 991 1063	now we have come so far ahead in technology that there is no going back.
+R4	supports Arg1:T6 Arg2:T5
+T7	Premise 1064 1146	We cannot ask the people of the jet age to go back to the age of the bullock cart.
+R5	supports Arg1:T7 Arg2:T6
+R6	attacks Arg1:T7 Arg2:T2
+T8	Claim 1147 1235	There are a lot of advances going on technology which are helping the environment a lot.
+A3	Stance T8 For
+R7	supports Arg1:T8 Arg2:T1
+T9	Premise 1236 1332	One prime example is finding solutions to water problems in developing countries such as Africa.
+R8	supports Arg1:T9 Arg2:T8
+T10	Premise 1333 1510	By pressurising sea water to produce vapour jets and filtering them through carbon nano tubes, we can get clean drinking water from sea water - an almost inexhaustible resource.
+R9	supports Arg1:T10 Arg2:T9
+T11	Premise 1524 1593	Japan is working to build a working space solar power system by 2030.
+R10	supports Arg1:T11 Arg2:T8
+T12	Premise 1594 1744	By drawing on the colossal energy of the sun, it could meet the entire world's electricity requirements indefinitely without nuclear or GHG emissions.
+R11	supports Arg1:T12 Arg2:T11
+T13	Premise 1745 1905	If successful, the impact on the world would be monumental. It would mean energy for schools, hospitals, and homes. It would mean another industrial revolution.
+R12	supports Arg1:T13 Arg2:T12
+T14	Claim 2018 2118	We are finally entering an era where engineering and technology are making the world a better place.
+A4	Stance T14 For
+R13	supports Arg1:T14 Arg2:T1
+T15	Claim 2119 2195	It would be highly unpractical to ask people to adopt a simpler way of life.
+A5	Stance T15 Against
+R14	attacks Arg1:T15 Arg2:T2
+R15	supports Arg1:T15 Arg2:T1

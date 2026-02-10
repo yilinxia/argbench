@@ -1,0 +1,29 @@
+T1	MajorClaim 1745 1967	In conclusion, there is to say that, given the arguments above, we definitely have to change our behavior towards the environment, not only to preserve the endangered animals but also to preserve our own living conditions.
+T2	Claim 379 484	In my opinion, we clearly have to change our attitude towards the environment because of several reasons.
+A1	Stance T2 For
+T3	Claim 485 556	First, the natural diversity is very important for further generations.
+A2	Stance T3 For
+T4	Claim 557 661	If we don't change our behavior we will extinct many species living for millions of years on the planet.
+A3	Stance T4 For
+T5	Claim 1143 1222	In addition, a stable and sustainable environment is essential for the weather.
+A4	Stance T5 For
+T6	Claim 1223 1357	Our behavior causes pollution, which heavily affects the weather conditions on planet Earth and causes the undoubtedly Global Warming.
+A5	Stance T6 For
+T7	Claim 1358 1501	This not only affects the endangered animals, but also the humans because we are affected by the increasing sea level and the climatic changes.
+A6	Stance T7 For
+T8	Premise 662 796	As we destroy the natural habitat, like forests, jungles and lakes, to make place for our industry and farmland, we rob the ecosystem.
+T9	Premise 797 914	To illustrate, every day a massive part of the Rainforest in South America is destroyed to provide wood and farmland.
+T10	Premise 915 1045	If we don't preserve this important part of our ecosystem many endangered animals will loose their natural habitat and go extinct.
+T11	Premise 1046 1142	As a result, further generations will never have the opportunity to see and study these animals.
+T12	Premise 1502 1744	For example, recent studies from the United Nations Organization have shown that, till 2050 the sea level will increase over one meter in the average. This will dramaticly affect all people living near the coast and change the global climate.
+R1	supports Arg1:T2 Arg2:T1
+R2	supports Arg1:T3 Arg2:T1
+R3	supports Arg1:T4 Arg2:T3
+R4	supports Arg1:T8 Arg2:T4
+R5	supports Arg1:T9 Arg2:T8
+R6	supports Arg1:T10 Arg2:T4
+R7	supports Arg1:T11 Arg2:T3
+R8	supports Arg1:T5 Arg2:T1
+R9	supports Arg1:T6 Arg2:T5
+R10	supports Arg1:T7 Arg2:T6
+R11	supports Arg1:T12 Arg2:T7

@@ -1,0 +1,24 @@
+T1	MajorClaim 381 459	I utterly disagree with this opinion due to technological and medical reasons.
+T2	Claim 460 586	We live in an era that technology is developing in the speed of light, steering the world toward a much more convenient place.
+T3	Claim 1193 1362	The phenomenal progress in medical science in the last decade was a huge achievement for human being to make the world a healthier and, thus, a happier place to live in.
+T4	Claim 2201 2396	In light of the above-mentioned facts, one can easily conclude that in the current world living standards stand in a much higher level and people are in better conditions socially and physically.
+T5	Premise 587 664	A clear-cut example that supports this idea is the invention of smart phones.
+T6	Premise 665 804	The strong navigation system installed on the phones has been rescued lives of many who left alone in remote areas like forests or deserts.
+T7	Premise 954 1191	In my opinion though, social networks such as Facebook could foster the ties between friends and family members who are obligatorily far away from each other by keeping them in touch, the thing that was impossible less than 20 years ago.
+T8	Premise 1363 1562	Today, even some disabled people with serious vertebral injuries can start doing physical activities like walking again thanks to the continuingly efforts of biomechanical engineers and neurologists.
+T9	Premise 1563 1645	The advancement in drug delivery systems is another example that could save lives.
+T10	Premise 1646 1784	To be specific, scientists could invent ways to lead drugs directly to the damaged organs of the body, which is a miraculous breakthrough.
+T11	Premise 1785 1952	In general, the increase in the average age of human from 50 to around 75 years through last decades is a strong evidence to show how successful human was in medicine.
+A1	Stance T2 For
+A2	Stance T3 For
+A3	Stance T4 For
+R1	supports Arg1:T2 Arg2:T1
+R2	supports Arg1:T3 Arg2:T1
+R3	supports Arg1:T4 Arg2:T1
+R4	supports Arg1:T5 Arg2:T2
+R5	supports Arg1:T6 Arg2:T5
+R6	supports Arg1:T7 Arg2:T2
+R7	supports Arg1:T8 Arg2:T3
+R8	supports Arg1:T9 Arg2:T3
+R9	supports Arg1:T10 Arg2:T9
+R10	supports Arg1:T11 Arg2:T3

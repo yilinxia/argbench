@@ -1,0 +1,27 @@
+T1	MajorClaim 269 315	personally, I would prefer to have my own job.
+T2	Claim 418 470	By having my own business, I can manage my own time.
+T3	Premise 360 417	time is the more valuable thing, which I have in my life.
+T4	Premise 471 557	I could work whenever I want, or I do not need to give reasons to my boss for a delay.
+T5	Premise 558 605	I can arrange time to travel when I would like.
+T6	Premise 606 664	In addition, I can work long hours for earning more money.
+T7	Claim 665 748	Totally, the most important reason for me to be self-employed is the sense of free.
+T8	Premise 760 821	earning money is the fundamental reason that why people work.
+T9	Premise 822 910	The amount of money is always the most important criterion for everyone to choose a job.
+T10	Claim 911 984	If I work for other people, I have to give my ideas to employers cheaply.
+T11	Premise 985 1077	Therefore, I never have been rich in my life, because my salary is not dramatically changed.
+T12	Claim 1078 1192	In spite of many problems of having own business, I can earn more money based on my creativity and personal ideas.
+A1	Stance T2 For
+A2	Stance T7 For
+A3	Stance T10 For
+A4	Stance T12 For
+R1	supports Arg1:T3 Arg2:T2
+R2	supports Arg1:T4 Arg2:T2
+R3	supports Arg1:T5 Arg2:T2
+R4	supports Arg1:T6 Arg2:T2
+R5	supports Arg1:T2 Arg2:T7
+R6	supports Arg1:T7 Arg2:T1
+R7	supports Arg1:T8 Arg2:T12
+R8	supports Arg1:T9 Arg2:T12
+R9	supports Arg1:T11 Arg2:T10
+R10	supports Arg1:T10 Arg2:T1
+R11	supports Arg1:T12 Arg2:T1

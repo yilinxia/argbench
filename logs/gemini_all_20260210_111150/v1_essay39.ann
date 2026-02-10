@@ -1,0 +1,33 @@
+T1	MajorClaim 1518 1584	I personally think that human beings should travel to outer space.
+T2	Claim 210 285	a lot of people still consider space exploration as an act of wasting money
+A1	Stance T2 Against
+T3	Premise 302 417	astronauts only brought useless rocks back to planet earth despite the large sum of money spent on their equipment.
+R1	attacks Arg1:T2 Arg2:T1
+R2	supports Arg1:T3 Arg2:T2
+T4	Claim 512 560	many facts about solar system can be discovered.
+A2	Stance T4 For
+R3	supports Arg1:T4 Arg2:T1
+T5	Premise 575 642	a picture of planet earth proved that the earth is round, not flat.
+R4	supports Arg1:T5 Arg2:T4
+T6	Premise 667 725	it is the earth which goes around the sun, not vice versa.
+R5	supports Arg1:T6 Arg2:T4
+T7	Premise 726 799	If it was not for the space exploration, we would never know these facts.
+R6	supports Arg1:T7 Arg2:T4
+T8	Claim 810 861	people can know more about the planet earth itself.
+A3	Stance T8 For
+R7	supports Arg1:T8 Arg2:T1
+T9	Premise 862 992	By observing planet earth from outer space, people can find out ample things for example about the atmosphere of the planet earth.
+R8	supports Arg1:T9 Arg2:T8
+T10	Premise 993 1091	With this knowledge, people can work on something to prevent earth hazards such as global warming.
+R9	supports Arg1:T10 Arg2:T8
+T11	Claim 1101 1158	a great deal of sophisticated technology can be invented.
+A4	Stance T11 For
+R10	supports Arg1:T11 Arg2:T1
+T12	Premise 1159 1309	As astronauts need to travel to outer space which does not have any oxygen to breathe in, scientists are compelled to do research on the oxygen tanks.
+R11	supports Arg1:T12 Arg2:T11
+T13	Premise 1310 1400	Oxygen tanks, for instance, are proved useful not only in outer space but also underwater.
+R12	supports Arg1:T13 Arg2:T11
+T14	Premise 1401 1500	Moreover, spaceships, communication satellites and space pens also contribute a lot to the society.
+R13	supports Arg1:T14 Arg2:T11
+T15	Premise 1585 1668	In spite of costing a fortune, space exploration has given aforementioned benefits.
+R14	supports Arg1:T15 Arg2:T1

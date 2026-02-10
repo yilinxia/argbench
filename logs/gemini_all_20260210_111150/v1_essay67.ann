@@ -1,0 +1,24 @@
+T1	MajorClaim 235 407	It is my personal belief that freedom of expressing thoughts and ideas should always be eulogized and it's rather iniquitous to impose a shackle on artists' will to create.
+T2	Claim 557 669	I believe the audiences have their own judgement and are not likely to be misled or influenced by some art work.
+A1	Stance T2 For
+T3	Premise 697 918	art inevitably involves imagination, exaggeration and sometimes is purely fabricated; regardless of whether the work of art is based on truth or not, it is the public's authority to determine how to interpret its meaning.
+T4	Premise 919 1062	If the art displays unreality, the public audiences certainly have the acumen to recognise its untruthfulness and only appreciate its art value
+T5	Premise 1064 1183	if the art reflects the reality, then what would be the intention to ban it if it was not for covering the dirty truth?
+T6	Premise 1184 1274	Would it be autocratic if the government clamp down the artists who are telling the truth?
+T7	Claim 1286 1349	the notion of being afraid of social misleading is unjustified.
+A2	Stance T7 For
+T8	Claim 1566 1699	restrictions on exposure to adolescents should apply as adolescents are not mature enough to avoid being led astray by these contents
+A3	Stance T8 Against
+T9	Claim 1710 1935	in the case of adults being the audience, there's really nothing to hide – these negative things objectively exist on this planet and it is impossible for adults to be brain-washed only because of some pieces of creative art.
+A4	Stance T9 For
+T10	Claim 1958 2160	I do not root for the idea that restrictions should be put on artists work; on the contrary, they should be encouraged to express their innovative ideas – this world needs them to make itself colourful.
+A5	Stance T10 For
+R1	supports Arg1:T2 Arg2:T1
+R2	supports Arg1:T3 Arg2:T2
+R3	supports Arg1:T4 Arg2:T2
+R4	supports Arg1:T5 Arg2:T2
+R5	supports Arg1:T6 Arg2:T2
+R6	supports Arg1:T7 Arg2:T1
+R7	attacks Arg1:T8 Arg2:T1
+R8	supports Arg1:T9 Arg2:T1
+R9	supports Arg1:T10 Arg2:T1

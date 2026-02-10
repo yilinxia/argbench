@@ -1,0 +1,30 @@
+T1	MajorClaim 1573 1687	I incline to believe qualification is still the fundamental determinant of an employee's competency of their jobs.
+T2	Claim 504 590	qualification should be the foremost measurement to determine the value of a employer.
+T3	Premise 591 691	It is of importance that workers should be well educated and trained to perform duties of their job.
+T4	Premise 692 827	Specifically, people who work in professional fields such as medicals are required to have a university degree and years of experience.
+T5	Premise 828 922	Social skills seem to be less important as they cannot contribute to the success of a surgery.
+T6	Claim 943 1050	it is no doubt that the importance of social skills have been recognized by increasing number of employers.
+T7	Premise 1051 1137	It is because people nowadays are required to work as a team in their jobs frequently.
+T8	Premise 1138 1266	Interpersonal skill plays an essential role in helping colleagues to cooperate with each other, especially when conflicts arise.
+T9	Premise 1267 1351	Better social skills allow them to resolve disagreements in a much more harmony way.
+T10	Premise 1352 1418	Besides, organization have been transformed to customers oriented.
+T11	Premise 1419 1560	Excellent social skills can help employees maintain strong relationship with their clients which thus lead to a better customer satisfaction.
+T12	Claim 1688 1886	Yet, the importance of social skills should not be neglected as those skills can help one to perform their job effectiveness and efficiency by facilitating interaction and communication with others.
+A1	Stance T2 For
+A2	Stance T6 Against
+A3	Stance T12 Against
+R1	supports Arg1:T2 Arg2:T1
+R2	supports Arg1:T3 Arg2:T2
+R3	supports Arg1:T4 Arg2:T3
+R4	supports Arg1:T4 Arg2:T2
+R5	supports Arg1:T5 Arg2:T2
+R6	attacks Arg1:T6 Arg2:T1
+R7	supports Arg1:T7 Arg2:T6
+R8	supports Arg1:T8 Arg2:T7
+R9	supports Arg1:T8 Arg2:T6
+R10	supports Arg1:T9 Arg2:T8
+R11	supports Arg1:T9 Arg2:T6
+R12	supports Arg1:T10 Arg2:T6
+R13	supports Arg1:T11 Arg2:T10
+R14	supports Arg1:T11 Arg2:T6
+R15	attacks Arg1:T12 Arg2:T1

@@ -1,0 +1,35 @@
+T1	MajorClaim 345 548	While both positions seem reasonable, my view is that, through proper management and regulation, a booming tourist industry is an excellent source of economic growth and wealth for rural and urban areas.
+T2	Claim 151 343	some individuals believe that this position ignores the ecological and environmental destruction, as a result of tourist activities, and its adverse effects on local communities and ecosystems
+A1	Stance T2 Against
+T3	Claim 549 658	The most obvious merit is that tourism can vastly boost economic development in a particular state or region.
+A2	Stance T3 For
+T4	Premise 659 859	This takes place, not only through direct expenditure from tourists, but also because it provides direct and indirect jobs to the community, including retail, agriculture, and in the service industry.
+T5	Premise 860 1023	The increasing tax and the expansion of local markets for accommodation, luxury goods amongst others are also a result of a solid, well-regulated tourism programs.
+T6	Premise 1024 1200	Furthermore, tourism provides a considerable number of direct and indirect jobs to the community, including retail, hotels, transport, agriculture, and in the service industry.
+T7	Premise 1201 1362	This increase of job opportunities allows more people to make significant contribution to society through the purchasing of commodities by their growing incomes.
+T8	Premise 1363 1464	As a result, this gives energy to the economic cycle, generating local economic prosperity in return.
+T9	Claim 1465 1563	Some people may oppose these, citing the environmental and cultural destruction caused by tourism.
+A3	Stance T9 Against
+T10	Premise 1564 1694	In fact, compared to the tourism industry, other alternatives, like resource extraction and manufacture, are far worse destroyers.
+T11	Premise 1695 1818	For instance, paper mills pour hundreds and thousands of tons of contamination into rivers, causing severe water pollution.
+T12	Premise 1819 1996	On the other hand, the dramatic majority of tourist, particularly those who tend to spending a wealth of time and money locating and visiting rustic villages, are well educated.
+T13	Premise 1997 2108	It is illogical to believe that these rational folks will not conduct themselves decently if required to do so.
+T14	Claim 2109 2243	After careful consideration of both sides of the argument, the tourism sector is desirable for its important socioeconomic advantages.
+A4	Stance T14 For
+T15	Claim 2244 2356	In conclusion, it is evident that under suitable administration, the benefits of tourism outweigh its drawbacks.
+A5	Stance T15 For
+R1	attacks Arg1:T2 Arg2:T1
+R2	supports Arg1:T3 Arg2:T1
+R3	supports Arg1:T4 Arg2:T3
+R4	supports Arg1:T5 Arg2:T3
+R5	supports Arg1:T6 Arg2:T3
+R6	supports Arg1:T7 Arg2:T6
+R7	supports Arg1:T8 Arg2:T7
+R8	attacks Arg1:T9 Arg2:T1
+R9	attacks Arg1:T10 Arg2:T9
+R10	supports Arg1:T11 Arg2:T10
+R11	attacks Arg1:T12 Arg2:T9
+R12	attacks Arg1:T13 Arg2:T9
+R13	supports Arg1:T13 Arg2:T12
+R14	supports Arg1:T14 Arg2:T1
+R15	supports Arg1:T15 Arg2:T1

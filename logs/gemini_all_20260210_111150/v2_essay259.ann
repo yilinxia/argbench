@@ -1,0 +1,28 @@
+T1	MajorClaim 407 478	working at home is worse and less efficient than working in the office.
+T2	Claim 493 572	while working in the office, people can interact with their colleges instantly.
+T3	Premise 573 647	They can either get help from colleges or discuss about the work together.
+T4	Premise 704 816	if any group member has new idea about the project, he/she can assemble his/her colleges right away and discuss.
+T5	Premise 817 884	It's more efficient and straight-forward than talking in the phone.
+T6	Premise 906 992	if one’s computer or Internet has any breakdown, he/she can call the MIS staff to fix.
+T7	Claim 1001 1089	working at home has many disadvantages that will no doubt lower the efficiency of works.
+T8	Claim 1103 1154	people are easily distracted while working at home.
+T9	Premise 1155 1251	It's hard to concentrate on work if people can grab the TV remote or some junk foods right away.
+T10	Claim 1265 1372	while people are working at home, there will be no one supervising them, thus raises the chance of loafing.
+T11	Claim 1383 1515	people who work at home are more likely to miss the important events happening in the office, like some announcements from the boss.
+T12	Premise 1477 1515	like some announcements from the boss.
+A1	Stance T2 For
+A2	Stance T7 For
+A3	Stance T8 For
+A4	Stance T10 For
+A5	Stance T11 For
+R1	supports Arg1:T2 Arg2:T1
+R2	supports Arg1:T3 Arg2:T2
+R3	supports Arg1:T4 Arg2:T2
+R4	supports Arg1:T5 Arg2:T4
+R5	supports Arg1:T6 Arg2:T2
+R6	supports Arg1:T7 Arg2:T1
+R7	supports Arg1:T8 Arg2:T7
+R8	supports Arg1:T9 Arg2:T8
+R9	supports Arg1:T10 Arg2:T7
+R10	supports Arg1:T11 Arg2:T7
+R11	supports Arg1:T12 Arg2:T11

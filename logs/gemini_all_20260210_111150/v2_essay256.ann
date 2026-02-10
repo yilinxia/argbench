@@ -1,0 +1,40 @@
+T1	MajorClaim 503 596	I believe that students should always attend class no matter what the outcome of the exam is.
+T2	Claim 605 706	in terms of learning, attending class is more effective than simply studying alone to pass the exams.
+T3	Premise 707 820	Classes are designed diligently for the students and professors absolutely bear more knowledge than the students.
+T4	Premise 821 965	Professors not only have the knowledge, but also equip with experiences, knowing how to guide their students toward their academic achievements.
+T5	Claim 975 1027	it's students' basic responsibility to attend class.
+T6	Premise 1028 1143	Attending class is the most persuasive way for the students to show respect to the professor as well as themselves.
+T7	Premise 1144 1204	Many professors grade their students with class attendances.
+T8	Premise 1205 1292	In other words, class attendances are regarded as critical as examination performances.
+T9	Premise 1293 1386	Those who even achieve high scores on exams could fail if they didn't show up in the classes.
+T10	Claim 1416 1610	if students already understand the contents on the class enough to pass the exams or they can study the course on their own. Why wasting time going to classes? Doesn't self-study more efficient?
+T11	Premise 1611 1677	However, in my opinion, this is a rather immodest way of thinking.
+T12	Premise 1678 1831	I believe that professors can always give students more than students themselves could because of the experiences and their qualifications as professors.
+T13	Premise 1841 1997	even if students believe that they are so brilliant to surpass their professors, they can still go to the classes to discuss with professors and classmates.
+T14	Claim 2014 2132	students can learn more thoroughly as well as showing respect for professors and themselves through attending classes.
+T15	Premise 2133 2168	It's an essential learning process.
+T16	Premise 2169 2227	Passing the exams is not the terminal purpose of learning.
+T17	Premise 2228 2329	The learning process itself, however, is the most important and powerful way of evaluating a student.
+A1	Stance T2 For
+A2	Stance T5 For
+A3	Stance T10 Against
+A4	Stance T14 For
+R1	supports Arg1:T2 Arg2:T1
+R2	supports Arg1:T3 Arg2:T2
+R3	supports Arg1:T4 Arg2:T2
+R4	supports Arg1:T5 Arg2:T1
+R5	supports Arg1:T6 Arg2:T5
+R6	supports Arg1:T7 Arg2:T5
+R7	supports Arg1:T8 Arg2:T5
+R8	supports Arg1:T9 Arg2:T5
+R9	attacks Arg1:T11 Arg2:T10
+R10	attacks Arg1:T12 Arg2:T10
+R11	supports Arg1:T12 Arg2:T1
+R12	attacks Arg1:T13 Arg2:T10
+R13	supports Arg1:T13 Arg2:T1
+R14	supports Arg1:T14 Arg2:T1
+R15	supports Arg1:T15 Arg2:T14
+R16	supports Arg1:T16 Arg2:T14
+R17	supports Arg1:T16 Arg2:T1
+R18	supports Arg1:T17 Arg2:T14
+R19	supports Arg1:T17 Arg2:T1

@@ -1,0 +1,28 @@
+T1	Claim 92 229	Some people who send their children to private schools contend that the amount of taxes they pay for the state education is unreasonable.
+T2	MajorClaim 267 304	these taxes are absolutely essential.
+T3	Claim 314 436	by paying taxes for public school, affluent people effectively contribute to narrowing down the gap between rich and poor.
+T4	Premise 437 542	It is true that many poor families are not able to afford tuition fees for their kids to attend a course.
+T5	Premise 543 730	With the the tax amount for which they pay, the rich may help a vast number of students from families with poverty background to continue their studies, and earn a better quality of life.
+T6	Claim 741 851	the tax reduction for parents of children studying in private schools would lead to a waste of public capital.
+T7	Premise 852 1039	Obviously, this reduction would cause a difficulty to the tax calculation; therefore, the government would have to recruit a greater workforce in order to handle this sophisticated issue.
+T8	Premise 1040 1238	In addition, the government would also pay the salary for the excessive officials, and this would result in insufficient investments in other crucial public sectors such as education or health care.
+T9	Claim 1239 1342	Many parents supporting for the idea of tax discounts claim that such tax payments are unfair for them.
+T10	Premise 1343 1433	They point out that it is irrational to require them to pay for the taxes they do not use.
+T11	Premise 1434 1562	Nevertheless, we also pay for the public services that we even do not experience a chance to employ like police or fire brigade.
+T12	Premise 1563 1629	We certainly do not hope for a reduction for these sorts of taxes.
+A1	Stance T1 Against
+A2	Stance T3 For
+A3	Stance T6 For
+A4	Stance T9 Against
+R1	attacks Arg1:T1 Arg2:T2
+R2	supports Arg1:T3 Arg2:T2
+R3	supports Arg1:T4 Arg2:T3
+R4	supports Arg1:T5 Arg2:T3
+R5	supports Arg1:T6 Arg2:T2
+R6	supports Arg1:T7 Arg2:T6
+R7	supports Arg1:T8 Arg2:T6
+R8	attacks Arg1:T9 Arg2:T2
+R9	supports Arg1:T10 Arg2:T9
+R10	attacks Arg1:T11 Arg2:T10
+R11	supports Arg1:T12 Arg2:T11
+R12	attacks Arg1:T12 Arg2:T9

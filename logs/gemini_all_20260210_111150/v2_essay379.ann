@@ -1,0 +1,25 @@
+T1	MajorClaim 208 338	I personally suppose that there are still many other aspects which should be seen as important as income when people choose a job.
+T2	Claim 458 518	money is very essential in order to meet human' basic needs.
+T3	Premise 538 737	people tend to choose high salary jobs so as to not only help themselves but also support partially or wholly their family's living needs such as food , clothes, accommodation, education, medication.
+T4	Premise 738 886	It is obvious that people who are woking in art or painting industries, for example, will find it quite difficult to live comfortably and enjoyably.
+T5	Premise 887 1013	This is because they are doing what they love, their income however seems to be quite low compared to many other career paths.
+T6	Claim 1048 1150	if we are passionate about what we are working, we are likely to achieve success easily in that field.
+T7	Premise 1151 1309	There are plenty of people, who are now really successful, have started working in challenging as well as competitive fields as singers, dancers and painters.
+T8	Claim 1319 1524	important factors in choosing a job such as level of happiness, satisfaction of jobs, personal relationships, professional skills, working environment, managers and colleagues should not be underestimated.
+T9	Claim 1534 1656	some people choose a career due to their desire to help others and contribute positively to their countries and societies.
+T10	Claim 1672 1767	it is undeniable that income is still a vital determination impacting us on choices of careers.
+T11	Claim 1781 1909	passion on jobs, in my opinion, can bring actual happiness and help us get promoted in working to earn even more money later on.
+A1	Stance T2 Against
+A2	Stance T6 For
+A3	Stance T8 For
+A4	Stance T9 For
+A5	Stance T10 Against
+A6	Stance T11 For
+R1	supports Arg1:T3 Arg2:T2
+R2	supports Arg1:T4 Arg2:T2
+R3	supports Arg1:T5 Arg2:T4
+R4	supports Arg1:T6 Arg2:T1
+R5	supports Arg1:T7 Arg2:T6
+R6	supports Arg1:T8 Arg2:T1
+R7	supports Arg1:T9 Arg2:T1
+R8	supports Arg1:T11 Arg2:T1

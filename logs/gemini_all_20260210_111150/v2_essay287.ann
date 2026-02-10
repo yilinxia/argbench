@@ -1,0 +1,27 @@
+T1	MajorClaim 376 434	Going to another place to learn language is better choice.
+T2	Claim 493 596	going to another country to learn language is a good environment to stimulate people to learn language.
+A1	Stance T2 For
+T3	Premise 610 715	everyone around me speaks foreign language, and then I have to improve myself to communicate with people.
+T4	Premise 716 811	If I could not communicate with other people, I could not even buy food to sacrifice my hunger.
+T5	Premise 812 927	This environment makes me want to develop myself to be able to communicate with people that speak foreign language.
+T6	Claim 938 1036	having friend that speaks another language is help people to professional in that language faster.
+A2	Stance T6 For
+T7	Premise 1051 1177	English school in outside my home country, there are many people that come from different places and from different languages.
+T8	Premise 1178 1250	The only language that I could talk to make friends is English language.
+T9	Premise 1251 1323	Thus, I could talk with my friend without worrying about speaking wrong.
+T10	Premise 1324 1388	This reason makes me have a progress in foreign language faster.
+T11	MajorClaim 1678 1767	Learning foreign language form another country is better choice for me to study language.
+T12	Premise 1526 1584	I have to improve myself to communicate with other people.
+T13	Premise 1594 1677	in foreign country I could have a chance to speak foreign language with my friends.
+R1	supports Arg1:T3 Arg2:T2
+R2	supports Arg1:T4 Arg2:T2
+R3	supports Arg1:T5 Arg2:T2
+R4	supports Arg1:T2 Arg2:T1
+R5	supports Arg1:T7 Arg2:T6
+R6	supports Arg1:T8 Arg2:T6
+R7	supports Arg1:T9 Arg2:T6
+R8	supports Arg1:T10 Arg2:T6
+R9	supports Arg1:T6 Arg2:T1
+R10	supports Arg1:T12 Arg2:T11
+R11	supports Arg1:T13 Arg2:T11
+R12	supports Arg1:T11 Arg2:T1

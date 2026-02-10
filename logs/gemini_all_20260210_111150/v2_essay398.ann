@@ -1,0 +1,25 @@
+T1	MajorClaim 1736 1952	In conclusion, it is necessary for universities to respect the individual choice of subject due to the diversity of boys and girls, and we ca not forcedly put the same numbers of males and females into every subject.
+T2	Claim 204 319	Personally, I do not agree the viewpoint, because many different characters exist between male and female students.
+A1	Stance T2 For
+T3	Claim 333 408	boys and girls have the diversity in psychological modes and individuality.
+A2	Stance T3 For
+T4	Claim 1050 1246	it can have a negative affect on these students to require them to choose a subject in equal proportion of gender, and that does not conform to students' personality traits and mental development.
+A3	Stance T4 For
+T5	Claim 1650 1735	It would affect students' mental health to study in the environment of single gender.
+A4	Stance T5 Against
+T6	Premise 409 542	Most of male students tend to use their left brain to think and act, and they are more rational and logical than girls in many cases.
+T7	Premise 543 646	For instance, there are more male scientists and engineers in comparison with females around the world.
+T8	Premise 647 768	Many boys are interested in science and technology, while a number of girls like to learn literature, education and arts.
+T9	Premise 769 898	Besides, girls are more likely to prefer some jobs related to emotion and communication, such as teacher, singer and interpreter.
+T10	Premise 899 1036	This means that girls differ from boys in mind and behaviour to a large extent, and they both have better ability in the specific aspect.
+T11	Premise 1247 1464	For example, a girl, who is interested in literature, is arranged into an engineering department, but she is unlikely to focus on her subject, and this also can block the girl's future development and career prospect.
+R1	supports Arg1:T2 Arg2:T1
+R2	supports Arg1:T3 Arg2:T2
+R3	supports Arg1:T4 Arg2:T1
+R4	attacks Arg1:T5 Arg2:T1
+R5	supports Arg1:T6 Arg2:T3
+R6	supports Arg1:T7 Arg2:T6
+R7	supports Arg1:T8 Arg2:T3
+R8	supports Arg1:T9 Arg2:T3
+R9	supports Arg1:T10 Arg2:T3
+R10	supports Arg1:T11 Arg2:T4

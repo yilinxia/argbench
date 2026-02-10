@@ -1,0 +1,30 @@
+T1	MajorClaim 2319 2507	To sum up, even when we need to catch up with the pace of the world, it is necessary for us to be extraordinarily cautious since rough work is intolerable when we want to stay competitive.
+T2	Claim 499 569	even when the world operates in fast pace, it still requires accuracy.
+T3	Claim 1237 1345	the world also seeks efficiency, which concludes both minimum time completion and also criterion of quality.
+T4	Claim 1867 2012	Some work cannot tolerate any mistakes at all, for instance, in official missions like the work done by NASA, a tiny mistake can be catastrophic.
+T5	Premise 570 638	Even simple issues in our daily life like homework require accuracy.
+T6	Premise 639 821	If we rush through the work by taking risk of making mistakes, we are actually making zero effort going through our study roughly only for the purpose of fill in before the deadline.
+T7	Premise 822 891	In short, it only fulfills the work itself which is rather worthless.
+T8	Premise 892 992	It is our capability of work that we should improve rather than holding the belief in completing it.
+T9	Premise 993 1187	Certainly it may take time to keep up with the others if w need to review our work multiple times, but with consistent work soon enough we'll be able to bring up our speed in completion of work.
+T10	Premise 1346 1543	Even when we managed to keep up with the pace by neglecting the details of a project and only aim for a general frame of the project, this will not be something satisfy for the company and clients.
+T11	Premise 1544 1708	We soon will be out of the picture even when we kept up with the pace since when the problem reveals itself we'll have to go back and fix the mistakes we have made.
+T12	Premise 1709 1803	This might be even more costly and time consuming than a neat completion of work at the start.
+T13	Premise 2013 2145	A miscalculation of the orbit in launching rocket may lead to a failure of the whole project which might worth trillions of dollars.
+T14	Premise 2146 2318	In such circumstances, even when the scientists want to finish off quickly, but they couldn't miss even a single part of the mission since it may trigger loads of problems.
+A1	Stance T2 For
+A2	Stance T3 For
+A3	Stance T4 For
+R1	supports Arg1:T5 Arg2:T2
+R2	supports Arg1:T6 Arg2:T2
+R3	supports Arg1:T7 Arg2:T2
+R4	supports Arg1:T8 Arg2:T2
+R5	supports Arg1:T9 Arg2:T2
+R6	supports Arg1:T10 Arg2:T3
+R7	supports Arg1:T11 Arg2:T3
+R8	supports Arg1:T12 Arg2:T3
+R9	supports Arg1:T13 Arg2:T4
+R10	supports Arg1:T14 Arg2:T4
+R11	supports Arg1:T2 Arg2:T1
+R12	supports Arg1:T3 Arg2:T1
+R13	supports Arg1:T4 Arg2:T1

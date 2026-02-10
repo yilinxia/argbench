@@ -1,0 +1,22 @@
+T1	MajorClaim 1600 1849 In conclusion, I strongly hold my point that any descriptions of crimes should not go unchecked as any longer, as they may be false, may further drive up the already-high crime rate and may bring even more suffering to the victims of crimes.
+T2	Premise 346 484 It is widely known that the press provide the public with criminal content in order to increase newspaper circulation and TV rating.
+T3	Premise 485 680 These days the primary purpose of journalists covering the details of criminal acts is, more often than that, to boost newspaper circulations and TV ratings.
+T4	Claim 681 830 Consequently, a great deal of crime coverage is rather biased, exaggerated or fraudulent, which only result to terrorize communities and leave law-aiding people increasingly apprehensive of about crimes.
+T5	Claim 831 1032 An even more detrimental fact is that detailed reports of crimes exposured on the press may provide the potential criminals with instructive learning materials, which would be hard to obtain otherwise.
+T6	Premise 1033 1218 This may help those who are in the process of panning a criminal act perfect their plans, avoid the pitfalls and make themselves harder to be tracked down by the police.
+T7	Claim 1219 1304 Thus, without the prevention on criminal details, the unlawful behavior would be more and more severe and the social harmony would be broken.
+T8	Claim 1305 1496 Most importantly, particular coverage of heinous crimes may further traumatize the victims of crimes because they have already suffered greatly for what they have experienced.
+T9	Premise 1497 1600 Without their consent, this could only add to theses innocent people's mental suffering and they may do some extreme actions.
+A1	Stance T4 For
+A2	Stance T5 For
+A3	Stance T7 For
+A4	Stance T8 For
+R1	supports Arg1:T4 Arg2:T1
+R2	supports Arg1:T5 Arg2:T1
+R3	supports Arg1:T7 Arg2:T1
+R4	supports Arg1:T8 Arg2:T1
+R5	supports Arg1:T2 Arg2:T4
+R6	supports Arg1:T3 Arg2:T4
+R7	supports Arg1:T6 Arg2:T5
+R8	supports Arg1:T5 Arg2:T7
+R9	supports Arg1:T9 Arg2:T8

@@ -1,0 +1,22 @@
+T1	MajorClaim 1739 1816	I think governments should help and encourage artists to continue their work.
+T2	Claim 517 594	art helps to improve the quality of our lives as well as attracting tourists.
+A1	Stance T2 For
+T3	Premise 608 773	monuments that represent each city do not only illustrate the city's history and culture, but also make the city more beautiful and an attractive place for tourists.
+T4	Premise 783 963	some countries depend on tourism as their main source of revenue, thus, the governments should help arts because their work crafts are very necessary to boost the tourist industry.
+T5	Claim 1114 1182	culture and history of a country can be reserved and assured by art.
+A2	Stance T5 For
+T6	Premise 977 1102	sculptures and paintings in the museums and art galleries generally reflect the culture and civilization of every generation.
+T7	Premise 1183 1307	Young people are also able to get more knowledge about their country's history and culture by observing various work crafts.
+T8	Claim 1363 1424	talent in art is extremely precious and should not be wasted.
+A3	Stance T8 For
+T9	Premise 1433 1504	not many people are blessed in the talent of paintings and work crafts.
+T10	Premise 1512 1615	this type of talent has to be valued as other types of talents such as talent in science or literature.
+R1	supports Arg1:T2 Arg2:T1
+R2	supports Arg1:T3 Arg2:T2
+R3	supports Arg1:T4 Arg2:T2
+R4	supports Arg1:T5 Arg2:T1
+R5	supports Arg1:T6 Arg2:T5
+R6	supports Arg1:T7 Arg2:T5
+R7	supports Arg1:T8 Arg2:T1
+R8	supports Arg1:T9 Arg2:T8
+R9	supports Arg1:T10 Arg2:T8

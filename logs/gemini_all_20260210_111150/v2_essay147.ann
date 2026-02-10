@@ -1,0 +1,30 @@
+T1	MajorClaim 194 281	However, in my opinion, games are no longer too important for them for several reasons.
+T2	Claim 282 368	The first reason is that games become unnecessary for people when their careers begin.
+A1	Stance T2 Against
+T3	Premise 369 449	Someone may argue that games help adults relax and become more balanced in life.
+T4	Premise 450 672	But, more often, the pressure of work and family commitment force them to abandon their lifelong hobbies, and as a result, they cannot spend enough time and effort to their favorite games as they did in 15 or 20 years ago.
+T5	Premise 673 837	For example, in my country, except for a minor part of professional athletes, the majority of people stop playing games seriously as soon as they find a decent job.
+T6	Premise 838 931	They often feel that such games become more troublesome than enjoyable for their daily lives.
+T7	Claim 932 1093	Another reason should be mentioned is that adults often do not pursue games as a competitive activity, while children are always keen on competition and winning.
+A2	Stance T7 Against
+T8	Premise 1094 1235	For youngsters, maintaining their desire to win often develops many outstanding characteristics whether they participate sport events or not.
+T9	Premise 1236 1391	For example, my younger sister likes fencing, and thanks to her desire to win, she never gives up when facing a difficult situation, or even becoming hurt.
+T10	Premise 1392 1486	On the other hand, adults often consider such behaviors as childish and drop them immediately.
+T11	Premise 1487 1585	In fact, a competitive person usually finds it difficult to cooperate with friends and colleagues.
+T12	Premise 1586 1713	Because of that, they no longer play games for any moderate achievements, and gradually lose their interest in such activities.
+T13	Claim 1714 1868	To sum up, I think adults do need to play games, but their styles are often distinct from children's, which are often less competitive and more enjoyable.
+A3	Stance T13 Against
+T14	Premise 1869 2034	Along with the high requirement for family and work, games are just some leisure activities for adults, not something necessary as they are meant to be for children.
+R1	attacks Arg1:T3 Arg2:T2
+R2	supports Arg1:T4 Arg2:T2
+R3	attacks Arg1:T4 Arg2:T3
+R4	supports Arg1:T5 Arg2:T4
+R5	supports Arg1:T6 Arg2:T4
+R6	supports Arg1:T8 Arg2:T7
+R7	supports Arg1:T9 Arg2:T8
+R8	supports Arg1:T10 Arg2:T7
+R9	supports Arg1:T11 Arg2:T10
+R10	supports Arg1:T12 Arg2:T7
+R11	supports Arg1:T13 Arg2:T1
+R12	supports Arg1:T14 Arg2:T1
+R13	supports Arg1:T14 Arg2:T13

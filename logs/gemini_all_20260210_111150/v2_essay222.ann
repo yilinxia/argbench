@@ -1,0 +1,35 @@
+T1	MajorClaim 28 159	It is obvious that parents are the first teachers who teach babies how to walk and speak and make children to become a good person.
+T2	Claim 160 291	Moreover, parents provide their children the best social skills and knowledge in order to prepare for their children's future life.
+A1	Stance T2 For
+T3	Claim 292 384	First, children are taught basic things, which influence their whole life, by their parents.
+A2	Stance T3 For
+T4	Premise 385 479	As a baby, they do not know any thing all around but they learn everything from their parents.
+T5	Premise 480 611	Parents always try to explain and describe tenderly all things in simple way so that their baby can understand and learn from that.
+T6	Premise 612 718	Consequently, parents bring the whole world of wonderful and colorful thing into their baby's little mind.
+T7	Claim 719 781	Second, parents train their child how to become a good person.
+A3	Stance T7 For
+T8	Premise 782 864	They always make their children basically say thanks and apology in the right way.
+T9	Premise 865 948	On the one hand, it is common that they try to explain who is a good or bad person.
+T10	Premise 949 1018	On the other hand, children are shown how to behave well with others.
+T11	Premise 1019 1166	This seems to be easy but this can influence positively their future children and makes children's behavior better before they face the real world.
+T12	Premise 1167 1277	Third, it is clear that parents are ones who loves their children most and always take care of their children.
+T13	Claim 1278 1370	Thus, they tend to provide the best knowledge and advice from their experience for children.
+A4	Stance T13 For
+T14	Premise 1371 1527	Unlike a professional, parents always support children and give them much social skill so they can communicate well with others and have good habit in life.
+T15	Premise 1528 1609	In fact, parents' support is one factor which makes people succeed in their life.
+T16	Premise 1701 1840	Based on love, they always try their best to make good condition for their children development in order to prepare children's future life.
+R1	supports Arg1:T2 Arg2:T1
+R2	supports Arg1:T3 Arg2:T1
+R3	supports Arg1:T4 Arg2:T3
+R4	supports Arg1:T5 Arg2:T3
+R5	supports Arg1:T6 Arg2:T3
+R6	supports Arg1:T7 Arg2:T1
+R7	supports Arg1:T8 Arg2:T7
+R8	supports Arg1:T9 Arg2:T7
+R9	supports Arg1:T10 Arg2:T7
+R10	supports Arg1:T11 Arg2:T7
+R11	supports Arg1:T12 Arg2:T13
+R12	supports Arg1:T13 Arg2:T1
+R13	supports Arg1:T14 Arg2:T13
+R14	supports Arg1:T15 Arg2:T13
+R15	supports Arg1:T16 Arg2:T1

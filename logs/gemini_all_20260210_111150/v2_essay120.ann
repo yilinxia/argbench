@@ -1,0 +1,29 @@
+T1	MajorClaim 1670 1778	I firmly object to it because it is absurd and inhumane. Furthermore, it can be replaced by a life sentence.
+T2	Claim 157 247	it may be true that the death penalty is an efficient retribution to admonish the violence
+A1	Stance T2 For
+T3	Claim 249 385	However, as the society grows, human rights become more highly respected, "murdering" criminals is therefore immoral and hard to accept.
+A2	Stance T3 Against
+R1	attacks Arg1:T3 Arg2:T2
+R2	supports Arg1:T3 Arg2:T1
+T4	Claim 386 515	First of all, it is recognized that every human being has the right to live and no authority is empowered to deprive one of life.
+A3	Stance T4 Against
+R3	supports Arg1:T4 Arg2:T1
+T5	Premise 516 676	Although what criminals cause to the society, specifically to the victims, is indeed significantly offensive, they are humans and their lives need to be valued.
+R4	supports Arg1:T5 Arg2:T4
+T6	Premise 677 870	In addition, execution does not resolve the consequences of crime, not to mention it could put the criminal's family through hardship while the pain of the victim's kin is never to be consoled.
+R5	supports Arg1:T6 Arg2:T4
+T7	Claim 871 1070	Secondly, capital punishment is certainly not the only option to control the amount of crimes, life imprisonment is just as effective by detaining the criminals in prison for the rest of their lives.
+A4	Stance T7 Against
+R6	supports Arg1:T7 Arg2:T1
+T8	Premise 1071 1289	Moreover, in terms of punishment, living a miserable life with restriction to the world outside and sustaining the feeling of guilt every day in a dark bounded room are much more obsessing than being killed right away.
+R7	supports Arg1:T8 Arg2:T7
+T9	Claim 1290 1403	The third reason why the death penalty should be banned is the chance that innocent people are wrongly convicted.
+A5	Stance T9 Against
+R8	supports Arg1:T9 Arg2:T1
+T10	Premise 1404 1456	Juries are also humans, they may lack of discretion.
+R9	supports Arg1:T10 Arg2:T9
+T11	Premise 1457 1580	Thus, many people are executed for the crime they did not commit, which leads to a question of fairness in judicial system.
+R10	supports Arg1:T11 Arg2:T9
+T12	Claim 1596 1668	although capital punishment presents an extreme warning to the community
+A6	Stance T12 For
+R11	attacks Arg1:T1 Arg2:T12

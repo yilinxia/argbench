@@ -1,0 +1,18 @@
+T1	MajorClaim 254 301	both public services and arts worth investment.
+T2	Claim 302 414	It is obvious axiomatic that indispensable public services like hospital and school worth every penny investing.
+T3	Premise 415 538	Investing in hospitals helps improve people's health, also, in schools assists with raising our children's education level.
+T4	Premise 539 638	Apparently if these facilities were not spent adequately, our standard of living would deteriorate.
+T5	Claim 639 748	But our standard of living also depend on another factor - spiritual life which is related closely with arts.
+T6	Premise 749 822	Arts include many forms and music as well as cinema are the most typical.
+T7	Claim 823 939	These two art forms not only provide the public with entertainment but also contribute significantly to the economy.
+T8	Premise 940 1149	The income of film and music industries produce millions of dollars each year for the Goverment, for instance K-pop and Hollywood, and these industries can not survive without goverment's financial assistance.
+A1	Stance T2 For
+A2	Stance T5 For
+A3	Stance T7 For
+R1	supports Arg1:T2 Arg2:T1
+R2	supports Arg1:T3 Arg2:T2
+R3	supports Arg1:T4 Arg2:T2
+R4	supports Arg1:T5 Arg2:T1
+R5	supports Arg1:T6 Arg2:T7
+R6	supports Arg1:T7 Arg2:T1
+R7	supports Arg1:T8 Arg2:T7

@@ -1,0 +1,16 @@
+T1	MajorClaim 199 365	I am totally agreed with the view that there should not be any room for partiality in terms of gender while allocating seats for students in every university courses.
+T2	Claim 455 608	To begin with, judging student's skills and abilities should only be based on their academic qualifications and talents rather than gender in particular.
+A1	Stance T2 For
+T3	Premise 609 759	Nowadays, both male and female students are equally competitive to each other and deserve to produce impressive results in various field of education.
+T4	Premise 760 916	In India, for example, female students are more often likely to grab more number of top scorer positions in every year higher secondary school examinations.
+T5	Claim 918 1113	Furthermore, female students are highly interested in learning courses such as mechanical engineering which demands physical activities in their lab workshops, unlike previous generation females.
+A2	Stance T5 For
+T6	Claim 1114 1357	In addition, due to increasing exposure on current affairs and knowledge on cutting-edge technological developments, female graduates are more willing to take huge responsibilities in their workplace, despite its intensive stress and pressure.
+A3	Stance T6 For
+T7	Premise 1358 1537	For example, Chanda Kochhar, who is the CEO of India's second largest bank called ICICI bank and prominently awarded as the country's most powerful female head in business sector.
+R1	supports Arg1:T2 Arg2:T1
+R2	supports Arg1:T3 Arg2:T2
+R3	supports Arg1:T4 Arg2:T3
+R4	supports Arg1:T5 Arg2:T1
+R5	supports Arg1:T6 Arg2:T1
+R6	supports Arg1:T7 Arg2:T6

@@ -1,0 +1,29 @@
+T1	MajorClaim 264 382	I am in favor of that idea because of their advantages and the fact we can see today about the use of these new means.
+T2	Claim 383 536	First of all, it is easy to point out many benefits users can get from email and text messaging, which answers to the question of their great popularity.
+A1	Stance T2 For
+T3	Premise 537 666	Before email and mobile phone, human beings communicated by meeting directly, sending letters or later, calling from home phones.
+T4	Premise 667 809	Such ways usually made people have troubles for the expensiveness, difficulties in far communication or emergency and the loss of information.
+T5	Premise 810 875	However, email and cell phones have improved the obstacles above.
+T6	Premise 876 953	People can send or receive electronic letters anywhere and anytime they want.
+T7	Premise 954 1129	Especially, thanks to the function provided by email and text messaging (SMS), it is cheaper and faster to transfer a lot of information, even to many people at the same time.
+T8	Premise 1130 1237	They are so convenient that the majority of population prefer to use them instead of some traditional ways.
+T9	Claim 1238 1346	The popularity of email and text messaging, as a result, leads to the losing of written language's position.
+A2	Stance T9 For
+T10	Premise 1347 1477	People tend to use slangs and abbreviated words to shorten their writing and save more time in communicating for other activities.
+T11	Premise 1478 1546	The outcome is that language in writing is not in its original form.
+T12	Premise 1547 1725	Even in some cases, people compose a message with only emoticons (the expressions by face created by service providers), which means there is no room for writing or typing texts.
+T13	Premise 1726 1845	Moreover, it is more dangerous that youngsters sometimes use such new languages in their studying, writing assignments.
+T14	Premise 1846 1953	If that tendency continues at a rapid pace, written language may face up to a real problem about its stand.
+R1	supports Arg1:T2 Arg2:T1
+R2	supports Arg1:T5 Arg2:T2
+R3	supports Arg1:T6 Arg2:T5
+R4	supports Arg1:T7 Arg2:T5
+R5	supports Arg1:T8 Arg2:T2
+R6	supports Arg1:T4 Arg2:T5
+R7	supports Arg1:T3 Arg2:T4
+R8	supports Arg1:T9 Arg2:T1
+R9	supports Arg1:T10 Arg2:T9
+R10	supports Arg1:T11 Arg2:T10
+R11	supports Arg1:T12 Arg2:T11
+R12	supports Arg1:T13 Arg2:T9
+R13	supports Arg1:T14 Arg2:T9

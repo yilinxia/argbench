@@ -1,0 +1,40 @@
+T1 MajorClaim 0 60 Technology inspires children's creativity instead of weakening it
+T2 Claim 304 360 technology has made children less creative.
+A1 Stance T2 Against
+R1 attacks Arg1:T2 Arg2:T1
+T3 Claim 384 422 I think technology makes children even more creative.
+A2 Stance T3 For
+R2 supports Arg1:T3 Arg2:T1
+T4 Claim 424 473 technology inspires children to create new things.
+A3 Stance T4 For
+R3 supports Arg1:T4 Arg2:T1
+T5 Premise 475 628 Children are curious about everything around them, so when they come across a high-tech product like a cellphone, they will be obsessed with its mysterious functions and eager to know how it works.
+R4 supports Arg1:T5 Arg2:T4
+T6 Premise 630 847 For example, Bill Gates was attracted by the original huge computer, then he did everything he could to understand how it worked. After he had figured out all the stuff, he then began to promote the computer. In the end, he successfully invented a computer that was easy to use and lightweight.
+R5 supports Arg1:T6 Arg2:T4
+T7 Premise 849 918 Therefore, instead of interfering children's creativity, technology actually encourages them to learn and to create.
+R6 supports Arg1:T7 Arg2:T4
+R7 supports Arg1:T7 Arg2:T1
+T8 Claim 920 956 technology widen children's knowledge.
+A4 Stance T8 For
+R8 supports Arg1:T8 Arg2:T1
+T9 Premise 958 1148 In the past, children were only able to see things from one perspective. However, with highly advanced technology, children are able to get information from foreign countries and even communicate with foreign friends.
+R9 supports Arg1:T9 Arg2:T8
+T10 Premise 1150 1238 Therefore, they will be able to learn about different cultures and different ways of thinking.
+R10 supports Arg1:T10 Arg2:T8
+T11 Premise 1240 1271 Knowledge is the base of creativity.
+R11 supports Arg1:T11 Arg2:T8
+R12 supports Arg1:T11 Arg2:T1
+T12 Premise 1273 1395 The diverse knowledge that children gained from different parts of the world, inspires children and encourage them to create new things.
+R13 supports Arg1:T12 Arg2:T8
+R14 supports Arg1:T12 Arg2:T1
+T13 Claim 1398 1445 technology may have negative effects on children.
+A5 Stance T13 Against
+R15 attacks Arg1:T13 Arg2:T1
+T14 Premise 1447 1493 Technology has made life too easy for most children.
+R16 supports Arg1:T14 Arg2:T13
+T15 Premise 1495 1589 In comfortable conditions, children may be satisfied with the world around them and refuse to make a change.
+R17 supports Arg1:T15 Arg2:T13
+T16 Premise 1591 1761 Nonetheless, with the development of technology, increasingly more young people become obsessed with high-tech products. They kept researching new technology and became successful at a very young age.
+R18 supports Arg1:T16 Arg2:T1
+R19 attacks Arg1:T16 Arg2:T13

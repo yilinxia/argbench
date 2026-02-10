@@ -1,0 +1,22 @@
+T1	MajorClaim 274 360	Having one's own hobbies and doing physical activities can bring us a lot of benefits.
+T2	Claim 368 441	having hobbies and doing physical activities is the best way to keep fit.
+T3	Premise 442 590	Looking at the computer screen all day long can make us daze, so doing some sport and hobbies can prevent us from becoming too fat or short-sighted.
+T4	Premise 591 893	My neighbor Tom once was a computer engineer in a big company. He ate fast food everyday and never went out to exercise. When he found out that he was too fat to find a girlfriend, he made up his mind to loose weight. He started to jog every morning. After a moth, he is thinner and finds a girlfriend.
+T5	Claim 900 1000	doing something for a long time can be boring, having hobbies and doing sports can refresh our mind.
+T6	Premise 1001 1130	For example, at school, students have breaks every class so that they can relax for a few minutes and prepare for the next class.
+T7	Premise 1131 1267	Humans are not robots; we can't keep working for twenty-four hours. Doing sports or hobbies for a short time can recharge our batteries.
+T8	Claim 1274 1398	we should develop at least one personal hobby, not to show off, but express our emotion when we feel depressed or pressured.
+T9	Premise 1399 1614	Playing musical instrument is a good way, I can play classical guitar. When I meet difficulties in studies, I will take my guitar and play the song Green Sleeves. It makes me feel better and gives me the confidence.
+T10	Premise 1691 1788	doing so can bring us a healthy body, a refreshed mind and a way to release pressure and sadness.
+A1	Stance T2 For
+A2	Stance T5 For
+A3	Stance T8 For
+R1	supports Arg1:T2 Arg2:T1
+R2	supports Arg1:T3 Arg2:T2
+R3	supports Arg1:T4 Arg2:T2
+R4	supports Arg1:T5 Arg2:T1
+R5	supports Arg1:T6 Arg2:T5
+R6	supports Arg1:T7 Arg2:T5
+R7	supports Arg1:T8 Arg2:T1
+R8	supports Arg1:T9 Arg2:T8
+R9	supports Arg1:T10 Arg2:T1

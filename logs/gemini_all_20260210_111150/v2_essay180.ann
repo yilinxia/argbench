@@ -1,0 +1,32 @@
+T1	MajorClaim 219 311	In my point of view, groups provide a place for people to gain experiences or achieve goals.
+T2	Claim 451 555	Most of all, the groups play an essential role in the process of socialization, from children to adults.
+A1	Stance T2 For
+T3	Premise 556 718	We begin taking part in groups or organizations during the early days of life, and especially most people continue their social participation in all through life.
+T4	Premise 719 805	By making teamwork, the children in schools may learn to how to get along with others.
+T5	Premise 806 960	As university students, it is likely for them to join student organization of their major in order to expand their experiences or communicate with others.
+T6	Premise 961 1080	After graduating from schools, employees might go to business associations for various business resources and benefits.
+T7	Claim 1135 1255	By participating in an organization, it is a positive way for people to obtain some experiences on a particular purpose.
+A2	Stance T7 For
+T8	Premise 1256 1369	A solid group can be a suited environment, which provides people to improve themselves or broaden their horizons.
+T9	Premise 1478 1611	When being in the department of art, I have not only learned how to do a project, but also known some famous artists during the term.
+T10	Premise 1612 1719	Above all, it is advantage which increase an opportunity on my resume for the sake of getting a better job.
+T11	Claim 1720 1813	Furthermore, groups and organizations would lead people to take action or achieve their goal.
+A3	Stance T11 For
+T12	Premise 1876 2013	Tzu Chi, a non-profit Buddhism organization in Taiwan, is famous for contributing to the social and community services, and medical care.
+T13	Premise 2014 2077	They bring hopes and inspire others with their generous spirit.
+T14	Premise 2078 2203	For accomplishing their missions, the charity should gather people who are volunteers and sponsors for those difficult tasks.
+T15	Premise 2204 2349	As a result, they lit the light for the poor and victims; in addition, they could have chance to help the people in need from all over the world.
+R1	supports Arg1:T3 Arg2:T2
+R2	supports Arg1:T4 Arg2:T2
+R3	supports Arg1:T5 Arg2:T2
+R4	supports Arg1:T6 Arg2:T2
+R5	supports Arg1:T2 Arg2:T1
+R6	supports Arg1:T8 Arg2:T7
+R7	supports Arg1:T9 Arg2:T7
+R8	supports Arg1:T10 Arg2:T7
+R9	supports Arg1:T7 Arg2:T1
+R10	supports Arg1:T12 Arg2:T11
+R11	supports Arg1:T13 Arg2:T11
+R12	supports Arg1:T14 Arg2:T11
+R13	supports Arg1:T15 Arg2:T11
+R14	supports Arg1:T11 Arg2:T1

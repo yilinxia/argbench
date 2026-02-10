@@ -1,0 +1,25 @@
+T1	MajorClaim 141 343 high school should permit students to choose courses they want for several reasons which are freedom of choice, to have progress in students grades and knowledge as well as to help students explore their aptitude.
+T2	Claim 376 434 students should have a right to choose what they want to study.
+A1	Stance T2 For
+T3	Premise 436 504 Not allowing students their desired subjects to be chosen is a restriction of human rights.
+T4	Premise 506 619 As children of independent country we should know our rights and opportunities we have in order to achieve our goals and dreams.
+T5	Claim 626 699 students should choose their classes to have progress in their studies and grades.
+A2	Stance T5 For
+T6	Premise 707 827 we can avoid conflicts among students and teachers which can be enjoyable and productive for both instructor and students.
+T7	Premise 829 932 For example, when I was taking art class everyone shared the same interests and it was easy to understand each other.
+T8	Premise 934 993 Giving chance students to choose their interested fields of study is merit.
+T9	Claim 1032 1095 he or she can explore in an area she/he has an aptitude.
+A3	Stance T9 For
+T10	Premise 1097 1269 When schools can give such kind of opportunity the students are likely do their best and succeed in their future lives which is one of the point most people get education.
+T11	Premise 1271 1332 Furthermore, this type of opportunities can raise future geniuses.
+T12	Premise 1349 1530 as a young women I want my children to get knowledge they have desire to study in order to have distinguished achievement so it has advantage not only for him or her but for society as well.
+T13	Premise 1532 1630 Having three reasons helps us to bring up students who are well-educated, with a bright and independent mind.
+R1	supports Arg1:T3 Arg2:T2
+R2	supports Arg1:T4 Arg2:T3
+R3	supports Arg1:T6 Arg2:T5
+R4	supports Arg1:T7 Arg2:T6
+R5	supports Arg1:T8 Arg2:T5
+R6	supports Arg1:T10 Arg2:T9
+R7	supports Arg1:T11 Arg2:T9
+R8	supports Arg1:T12 Arg2:T1
+R9	supports Arg1:T13 Arg2:T1

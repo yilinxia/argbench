@@ -1,0 +1,22 @@
+T1	MajorClaim 1601 1738	In my opinion, however, I do not approve of this trend due to negative effects such as low quality of life and affecting the environment.
+T2	Claim 306 457	the major cause that leads to urban migration of young adults is that cities often offer more well-paid jobs and study chances compared to rural areas.
+T3	Premise 458 590	Obviously, many large companies and universities often locate in cities which are hailed as promising lands to develop their career.
+T4	Premise 591 710	Therefore they move to big cities to pursue academic career and find jobs in order to have a higher standard of living.
+T5	Premise 711 927	For example, if a gradate stays in the city after leaving his college and seeks a job with good salary instead of returning his village to do farm work, he could perhaps buy a house or his own car after a short time.
+T6	Claim 938 1000	this phenomenon sometimes poses several negative consequences.
+T7	Claim 1001 1145	There can be no doubt that the burgeoning number of young adults from the countryside flocking to cities gives rise to overpopulation in cities.
+T8	Premise 1146 1280	As a result, cities cannot provide adequate space for thousands of dwellers that might lead to poor housing conditions and sanitation.
+T9	Claim 1281 1334	Additionally, it might put strain on the environment.
+T10	Premise 1335 1456	If there are more people in the cities, there would be large numbers of vehicles on the road, which causes air pollution.
+A1	Stance T2 Against
+A2	Stance T6 For
+A3	Stance T7 For
+A4	Stance T9 For
+R1	supports Arg1:T3 Arg2:T2
+R2	supports Arg1:T4 Arg2:T2
+R3	supports Arg1:T5 Arg2:T4
+R4	supports Arg1:T6 Arg2:T1
+R5	supports Arg1:T7 Arg2:T6
+R6	supports Arg1:T8 Arg2:T7
+R7	supports Arg1:T9 Arg2:T6
+R8	supports Arg1:T10 Arg2:T9

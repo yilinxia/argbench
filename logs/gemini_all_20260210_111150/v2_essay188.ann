@@ -1,0 +1,33 @@
+T1	MajorClaim 154 238	I nevertheless believe that physical exercise is a crucial part of every school day.
+T2	Claim 239 318	Exercise is good not only for having a good health body, but also for the mind.
+T3	Claim 332 465	including exercise in children's daily routine, it is a good way to teach them the importance of physical activity from an early age.
+T4	Claim 466 531	Physical activity helps children to grow up physically healthier.
+T5	Premise 532 750	As studies have shown that the rate of obesity in children has increased every year, it will be very beneficial for children to have a daily physical activity and get a break from being sitting several hours at school.
+T6	Premise 751 887	In addition, exercise will help them to not be less exposed to illness related with cardiovascular, higher blood and cholesterol issues.
+T7	Claim 888 955	Daily exercise will help also to develop children's brain function.
+T8	Premise 956 1054	It is well known how important it is to exercise regularly to help the body system to work better.
+T9	Premise 1055 1187	When people exercise, the respiratory system's function is enhanced, helping all organs, including the brain, to get more oxygen in.
+T10	Premise 1188 1292	Daily exercise will provide children with a mental break which will boost them to be efficient learners.
+T11	Claim 1293 1448	Having children in the daily exercise routine from an early age will teach them the important value of having physical activity in their every day routine.
+T12	Premise 1449 1603	Children are bombarded with lectures about nutrition and physical activity; however, they will be more beneficed if that knowledge can be put in practice.
+T13	Premise 1604 1718	Moreover, they can stick with the routine and make the daily physical activities a good habit on their whole life.
+T14	MajorClaim 1720 1803	Including physical activity in children's school day should be strongly considered.
+T15	Premise 1804 2031	It will meliorate not only mental and body health, but also will establish in children a habit of doing it, giving them the opportunity to measure the worth of including such an important activity in their daily live schedules.
+A1	Stance T2 For
+A2	Stance T3 For
+A3	Stance T4 For
+A4	Stance T7 For
+A5	Stance T11 For
+R1	supports Arg1:T2 Arg2:T1
+R2	supports Arg1:T3 Arg2:T1
+R3	supports Arg1:T4 Arg2:T2
+R4	supports Arg1:T5 Arg2:T4
+R5	supports Arg1:T6 Arg2:T4
+R6	supports Arg1:T7 Arg2:T2
+R7	supports Arg1:T8 Arg2:T7
+R8	supports Arg1:T9 Arg2:T7
+R9	supports Arg1:T10 Arg2:T7
+R10	supports Arg1:T11 Arg2:T3
+R11	supports Arg1:T12 Arg2:T11
+R12	supports Arg1:T13 Arg2:T11
+R13	supports Arg1:T15 Arg2:T14

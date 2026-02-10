@@ -1,0 +1,28 @@
+T1	MajorClaim 582 675	I disagree to the aforementioned resolution due to the reasons that I will put forward below.
+T2	Claim 779 865	once they return to the society, they tend to relapse and get involved in drugs again.
+T3	Premise 883 1029	in the prisons, there would not be any programs or talks that can enlighten and transform them as well as change their perspectives towards drugs.
+T4	Premise 1039 1102	all the efforts of putting them behind bars are simply in vain.
+T5	Claim 1112 1307	if the addicts are sent to rehabilitation centres, they will treated for their addiction. On top of that, counselors can provide them with counseling and motivation to help them build a new life.
+T6	Claim 1343 1447	if the drug addicts are not given intense punishment, they will not change and continue to misuse drugs.
+T7	Claim 1461 1556	I believe that this is mainly due to the society not accepting the prisoners as a part of them.
+T8	Premise 1557 1695	If only the society or the people surrounding the addicts give them a second chance, I am sure that they will never abuse drugs once more.
+T9	Premise 1831 1981	Thus, with more public awareness, drug abuse can be certainly be reduced and eventually brought to a halt without having to put the addicts into jail.
+T10	Premise 1982 2093	Everyone of us deserves a second chance in life. After all, we are human beings and we learn from our mistakes.
+T11	Premise 2094 2244	Referring to the consequentalist theory, the society should allow leniency for people to experiment and learn, as long as it is on their own expenses.
+T12	Claim 2285 2539	sending the drug addicts to rehabilitation centres acts as a beacon of hope for the affected individuals and is also a crucial step in helping them redeem their lives and rejuvenate their lost hopes for a better future rather than sending them to prison.
+A1	Stance T2 Against
+A2	Stance T5 Against
+A3	Stance T6 For
+A4	Stance T7 Against
+A5	Stance T12 Against
+R1	supports Arg1:T3 Arg2:T2
+R2	supports Arg1:T4 Arg2:T2
+R3	supports Arg1:T2 Arg2:T1
+R4	supports Arg1:T5 Arg2:T1
+R5	attacks Arg1:T7 Arg2:T6
+R6	supports Arg1:T8 Arg2:T7
+R7	supports Arg1:T9 Arg2:T7
+R8	supports Arg1:T7 Arg2:T1
+R9	supports Arg1:T10 Arg2:T1
+R10	supports Arg1:T11 Arg2:T1
+R11	supports Arg1:T12 Arg2:T1

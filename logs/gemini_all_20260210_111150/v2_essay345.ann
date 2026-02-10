@@ -1,0 +1,25 @@
+T1	MajorClaim 506 635	In my opinion, a balance between personal and professional life should be created by restricting maximum number of working hours.
+T2	Claim 398 505	people working for extended hours have been found having adverse effects on their health and personal life.
+T3	Claim 651 774	many of us would agree to the fact that people; who prefer working longer hours, do not find time to focus on their health.
+T4	Claim 1235 1358	these workaholic people do not spend time for the contribution of society by actively participating in any social campaign.
+T5	Claim 1888 2074	Government must include the clause of maximum number of working hours in its Labor Law and enforce to all companies for ensuring their employees do not spend extended hours in companies.
+T6	Premise 775 950	By working too long, they often become tired, lazy and reluctant to carry out physical exercise in order to remain fit and healthy and eventually loose health and become sick.
+T7	Premise 951 1043	Moreover, they become extensively addicted to their work and become workaholic type persons.
+T8	Premise 1044 1224	The repercussion are so severe that their families and friends remain deprived off their attention and in the end they end up losing balance between their family and personal life.
+T9	Premise 1359 1463	As they usually remain busy in their office so they do not find leisure time for such social activities.
+T10	Premise 1464 1828	For instance, I would take my boss's example; he has been working for extended hours in office for many years. Recently, his health and personal life was drastically affected as he broke up with his wife and his family life has totally been in chaos and cries. He started regretting afterwards and now trying to manage his work but it seems to be too late for him.
+T11	Premise 2075 2208	This will help in uplift of society, and bring the lost equilibrium between personal and professional life of each individual person.
+A1	Stance T2 For
+A2	Stance T3 For
+A3	Stance T4 For
+A4	Stance T5 For
+R1	supports Arg1:T2 Arg2:T1
+R2	supports Arg1:T3 Arg2:T2
+R3	supports Arg1:T6 Arg2:T3
+R4	supports Arg1:T7 Arg2:T3
+R5	supports Arg1:T8 Arg2:T3
+R6	supports Arg1:T4 Arg2:T2
+R7	supports Arg1:T9 Arg2:T4
+R8	supports Arg1:T10 Arg2:T2
+R9	supports Arg1:T5 Arg2:T1
+R10	supports Arg1:T11 Arg2:T5

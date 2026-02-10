@@ -1,0 +1,23 @@
+T1	MajorClaim 200 276	I believe that criminal minds that breed violence not stringent gun control.
+T2	Claim 317 415	if there is gun control somehow crime has to decrease because fewer guns available mean less crime
+A1	Stance T2 Against
+T3	Claim 472 530	stringent gun control does not decrease violence and crime
+A2	Stance T3 For
+R1	attacks Arg1:T3 Arg2:T2
+R2	supports Arg1:T3 Arg2:T1
+T4	Premise 539 599	most gun violence is committed with guns obtained illegally.
+R3	supports Arg1:T4 Arg2:T3
+T5	Premise 600 762	People who are intent to commit crime and control cities through gang violence and other means will find a way to continue to use guns, regardless of gun control.
+R4	supports Arg1:T5 Arg2:T3
+T6	Premise 774 868	there will be law non-abiding people anywhere in the world, either polices or common citizens.
+T7	Claim 882 942	the root of violence is criminal mind not the weapon itself.
+A3	Stance T7 For
+R5	supports Arg1:T6 Arg2:T7
+R6	supports Arg1:T7 Arg2:T1
+T8	Claim 954 1097	if a government wants to control crime in a community, it is important to manage their people's actions rather than gun used in violent crimes.
+A4	Stance T8 For
+R7	supports Arg1:T7 Arg2:T8
+R8	supports Arg1:T8 Arg2:T1
+T9	Claim 1130 1221	there is a poor relationship between polices carrying guns and an increasing violence rate.
+A5	Stance T9 For
+R9	supports Arg1:T9 Arg2:T1

@@ -1,0 +1,25 @@
+T1 MajorClaim 184 284	In my opinion, there is a likelihood that future developments in IT will put the users at their own expense.
+T2 Claim 286 357	With the rapid developing pace, IT seems to have turned its users to its slaves.
+T3 Premise 359 531	In the past, there used to be World Wide Web or e-mail, but the cyber world now varies form games, online TV shows to means of communication, and probably still keeps going.
+T4 Premise 533 669	Such irrisistible temptations drift people from the real world to the unreal ones, resulting in their dependence on technical equipment.
+T5 Premise 671 852	What is more, the lack of soft skills attained form outdoor activities will agitate the IT addict, therefore, staying inside with computer and mobile phone will always be the first alternative.
+T6 Claim 854 911	Future IT has also aroused concern on health issues.
+T7 Premise 913 1018	The existence of Skype, Viber or Yahoo has notably reduced even the longest distance into one click.
+T8 Premise 1020 1162	As a result, rarely do people go out of their comfot zone, provided with snack and air conditioner, to assemble with others in flesh.
+T9 Premise 1164 1290	Needless to say, their action will make a beeline for obesity, short-sighted, diabetes and other heart-related problems.
+T10 Claim 1292 1445	In conclusion, despite the contribution of IT to the society, its effect on the users' independence and prositution should not be out of concern.
+T11 Claim 1447 1563	To my mind, there have to be some alterations before IT has more serious impact on each individual's life.
+A1 Stance T2 Against
+A2 Stance T6 Against
+A3 Stance T10 Against
+A4 Stance T11 Against
+R1 supports Arg1:T2 Arg2:T1
+R2 supports Arg1:T3 Arg2:T2
+R3 supports Arg1:T4 Arg2:T2
+R4 supports Arg1:T5 Arg2:T2
+R5 supports Arg1:T6 Arg2:T1
+R6 supports Arg1:T7 Arg2:T6
+R7 supports Arg1:T8 Arg2:T6
+R8 supports Arg1:T9 Arg2:T6
+R9 supports Arg1:T10 Arg2:T1
+R10 supports Arg1:T11 Arg2:T1

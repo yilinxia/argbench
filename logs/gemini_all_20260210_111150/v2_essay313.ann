@@ -1,0 +1,25 @@
+T1	MajorClaim 354 417	pets should be treated like human beings for different reasons.
+T2	Claim 425 482	pets are our friends as well as certain human beings are.
+T3	Premise 513 573	they are always with us and they are there if we feel alone.
+T4	Premise 574 656	We can talk to them because they listen to us, more than some people will ever do.
+T5	Premise 720 1038	When I was 14 years old, my uncle passed away and I felt like everything was no longer important. Talking to my friends was frustrating because none of them have ever felt that way. Since I was all alone at home for a long time, my dog was near me and it seemed to me that only him could understand my deeply feelings.
+T6	Premise 1048 1125	although pets aren't able to speak with us, we can nonetheless count on them.
+T7	Claim 1136 1176	pets are useful for a variety of things.
+T8	Premise 1190 1252	nowadays the pet therapy is becoming more popular than before.
+T9	Premise 1253 1340	Researchers have discovered that pets can bring benefits in a huge amount of illnesses.
+T10	Premise 1341 1456	There are dogs who lead blind people around the city and therefore without them they could not go around all alone.
+T11	Premise 1470 1563	pets are important for depressed people as well because their presence make them feel better.
+T12	Premise 1574 1682	there are dogs who are educated in order to find out criminals or to use their sense of smell to find drugs.
+A1	Stance T2 For
+A2	Stance T7 For
+R1	supports Arg1:T2 Arg2:T1
+R2	supports Arg1:T3 Arg2:T2
+R3	supports Arg1:T4 Arg2:T2
+R4	supports Arg1:T5 Arg2:T2
+R5	supports Arg1:T6 Arg2:T2
+R6	supports Arg1:T7 Arg2:T1
+R7	supports Arg1:T8 Arg2:T7
+R8	supports Arg1:T9 Arg2:T7
+R9	supports Arg1:T10 Arg2:T7
+R10	supports Arg1:T11 Arg2:T7
+R11	supports Arg1:T12 Arg2:T7

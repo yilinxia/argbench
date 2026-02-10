@@ -1,0 +1,53 @@
+T1	MajorClaim 69 174	Some people think that working at home brings to workers and employees too much convenience, but i don't.
+A1	Stance T1 Against
+T2	Claim 175 268	Because the best conditions are sometimes not likely to be good as the expectation of people.
+A2	Stance T2 Against
+T3	Claim 269 352	Working without pressure and interaction are some examples for these disadvantages.
+A3	Stance T3 Against
+T4	Premise 353 376	Pressure is motivation.
+T5	Premise 377 461	Each office has its rules that keep workers do their job as effectively as possible.
+T6	Premise 462 532	The directors manage employers and give them the deadline of projects.
+T7	Premise 533 602	Then again, the workers must try their best to finish the time limit.
+T8	Claim 603 673	Doing all jobs at home don't make employees attempt to work like this.
+A4	Stance T8 Against
+T9	Claim 675 769	Computers and modems bring works to home but these still have many things distract their mind.
+A5	Stance T9 Against
+T10	Premise 770 898	Facebook or Yahoo have been the entertaining websites, however, they are the reasons why people cannot concentrate on their job.
+T11	Premise 899 984	The dos and don't at office play important role to prevent these things from workers.
+T12	Premise 985 1055	In condition, doing all jobs alone makes employees fall asleep easily.
+T13	Premise 1056 1099	As a result, the project cannot being done.
+T14	Claim 1100 1148	The best condition might not be good for people.
+A6	Stance T14 Against
+T15	Claim 1150 1207	Interaction has been an advantage for workers at offices.
+A7	Stance T15 Against
+T16	Premise 1208 1364	Discussing and debating Projects together increase working ability because all we know that the target can be reached fast thanks to working of many people.
+T17	Premise 1365 1505	Besides, interaction help employees improve their communicational skills, therefore, they will have more and more friends and relationships.
+T18	Premise 1506 1557	Interaction is a factor increasing working quality.
+T19	Claim 1558 1621	There will have many disadvantages if the workers work at home.
+A8	Stance T19 Against
+T20	Claim 1622 1740	Mitigating process, no interaction and pressure are these things people should examine when they want to work at home.
+A9	Stance T20 Against
+R1	supports Arg1:T2 Arg2:T1
+R2	supports Arg1:T3 Arg2:T1
+R3	supports Arg1:T8 Arg2:T1
+R4	supports Arg1:T9 Arg2:T1
+R5	supports Arg1:T14 Arg2:T1
+R6	supports Arg1:T15 Arg2:T1
+R7	supports Arg1:T19 Arg2:T1
+R8	supports Arg1:T20 Arg2:T1
+R9	supports Arg1:T4 Arg2:T8
+R10	supports Arg1:T5 Arg2:T8
+R11	supports Arg1:T6 Arg2:T8
+R12	supports Arg1:T7 Arg2:T8
+R13	supports Arg1:T10 Arg2:T9
+R14	supports Arg1:T11 Arg2:T9
+R15	supports Arg1:T9 Arg2:T14
+R16	supports Arg1:T12 Arg2:T14
+R17	supports Arg1:T13 Arg2:T14
+R18	supports Arg1:T16 Arg2:T15
+R19	supports Arg1:T17 Arg2:T15
+R20	supports Arg1:T18 Arg2:T15
+R21	supports Arg1:T3 Arg2:T20
+R22	supports Arg1:T8 Arg2:T20
+R23	supports Arg1:T9 Arg2:T20
+R24	supports Arg1:T15 Arg2:T20

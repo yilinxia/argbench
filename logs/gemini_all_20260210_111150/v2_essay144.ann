@@ -1,0 +1,24 @@
+T1	MajorClaim 309 420	it should be better to leave this type of type of training for a certain group of good, knowledgeable learners.
+T2	Claim 428 559	focusing only on talented students is a better option because it helps academic institutions maintain their high education quality.
+A1	Stance T2 For
+R1	supports Arg1:T2 Arg2:T1
+T3	Premise 560 716	Unlike middle school or high school, university and college require far a lot of ability and skills to keep up with an enormous amount of complex knowledge.
+R2	supports Arg1:T3 Arg2:T2
+T4	Premise 717 841	In fact, some students may be capable in high schools, but the pressure of higher education is tough even for talented ones.
+R3	supports Arg1:T4 Arg2:T2
+T5	Premise 842 1046	That explains why it is only suitable for a limited people, and opening up for everyone will be fatal for institutions, since they need to somehow lower the materials so that it is practical for everyone.
+R4	supports Arg1:T5 Arg2:T2
+T6	Claim 1057 1168	university should only accept good students because it gives better human resources for sophisticated purposes.
+A2	Stance T6 For
+R5	supports Arg1:T6 Arg2:T1
+T7	Premise 1298 1351	but actually it gives no harm to the whole community.
+R6	supports Arg1:T7 Arg2:T6
+T8	Premise 1352 1523	Those standard jobs will always be available for everyone, while complex ones should be only handled by the best people, who start their career from the best institutions.
+R7	supports Arg1:T8 Arg2:T6
+T9	Premise 1524 1775	I think limiting the number of people who can be admitted by universities is a good choice since it will reward the motivation of students and constantly keep them in the difficult level of learning, which makes them do the best to improve themselves.
+R8	supports Arg1:T9 Arg2:T6
+T10	Premise 1776 1913	Ultimately, this improves the overall quality of education and gives the best people to serve in the most necessary needs of the society.
+R9	supports Arg1:T10 Arg2:T6
+T11	Claim 2084 2203	This will improve the quality of both universities and students, thus placing people in positions which suit them most.
+A3	Stance T11 For
+R10	supports Arg1:T11 Arg2:T1

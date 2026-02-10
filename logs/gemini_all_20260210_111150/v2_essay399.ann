@@ -1,0 +1,19 @@
+T1	MajorClaim 1323 1550	media should shift its focus from covering celebrities to elsewhere. Meanwhile, children's access to the celebrities news on the media should be restricted and they should study only from the celebrities who can act positively.
+T2	Claim 367 430	this is a worrying tread which has negative impact on children.
+T3	Claim 1086 1172	some celebrities, e.g. writers, passionate entrepreneurs are good examples to children
+T4	Premise 527 646	This gives children the idea that it is not necessary to study hard at school for a better career and earning a living.
+T5	Premise 431 526	The first impression of the celebrities seems that they are rich while not having to work hard.
+T6	Premise 647 738	Further more, they will not value other people's hard work and take everything for granted.
+T7	Premise 953 1074	Worse still, without proper parenting, children may perceive that this is the cool life people are supposed to be living.
+T8	Premise 787 952	It is not uncommon to see on the media that some of them are committing to crimes or misbehaving such as being addicted to drugs or alcohols, having messy sex lives.
+T9	Premise 1177 1307	they share fascinating stories or how to pursue their goal by doing something that has a meaning to them and may change the world.
+A1	Stance T2 For
+A2	Stance T3 Against
+R1	supports Arg1:T2 Arg2:T1
+R2	supports Arg1:T4 Arg2:T2
+R3	supports Arg1:T5 Arg2:T4
+R4	supports Arg1:T6 Arg2:T2
+R5	supports Arg1:T7 Arg2:T2
+R6	supports Arg1:T8 Arg2:T7
+R7	supports Arg1:T9 Arg2:T3
+R8	attacks Arg1:T3 Arg2:T1

@@ -1,0 +1,28 @@
+T1	MajorClaim 157 338	I personally prefer studying in a group due to these noticeable features, getting help from other students, improving my attitude for learning, managing my time in an effective way.
+T2	Claim 378 438	all member of group have the same chance to help each other.
+T3	Claim 735 821	Increasing the motivation and competence spirit are another benefit of group-studying.
+T4	Claim 1390 1453	time management is another brilliant benefit of group-studying.
+T5	Premise 439 515	They can work together for understanding the complicated aspect of a course.
+T6	Premise 516 617	For example, when a group faces with complex math problem, they can share their opinions to solve it.
+T7	Premise 618 733	In addition, such a remarkable effect has incorporation that all students can improve their weak points in a group.
+T8	Premise 822 904	In a group of student, the best of those always encourages others to study harder.
+T9	Premise 905 1010	Besides, pupils often have a tangible competence in order that they can get the highest grade in a group.
+T10	Premise 1011 1104	Clearly, better learning is one of noticeable result of these competences and encouragements.
+T11	Premise 1218 1378	Group-studying causes some kind of internal obligation to manage the time, inasmuch as we always care about other people and we do not want to waste their time.
+T12	Premise 1470 1589	I strongly prefer studying in a group of my friends because of some important opportunities gaining with this activity.
+T13	Premise 1590 1739	I can receive some helps from other student as well as improving my learning skills, also managing of time is another achievements of group-studying.
+A1	Stance T2 For
+A2	Stance T3 For
+A3	Stance T4 For
+R1	supports Arg1:T2 Arg2:T1
+R2	supports Arg1:T3 Arg2:T1
+R3	supports Arg1:T4 Arg2:T1
+R4	supports Arg1:T5 Arg2:T2
+R5	supports Arg1:T6 Arg2:T5
+R6	supports Arg1:T7 Arg2:T2
+R7	supports Arg1:T8 Arg2:T3
+R8	supports Arg1:T9 Arg2:T3
+R9	supports Arg1:T10 Arg2:T3
+R10	supports Arg1:T11 Arg2:T4
+R11	supports Arg1:T12 Arg2:T1
+R12	supports Arg1:T13 Arg2:T12

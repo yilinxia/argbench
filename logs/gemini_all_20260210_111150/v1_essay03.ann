@@ -1,0 +1,23 @@
+T1	MajorClaim 353 477	it has contributed to the economic development as well as preserved the culture and environment of the tourist destinations.
+T2	Claim 488 615	international tourism promotes many aspects of the destination country’s economy in order to serve various demands of tourists.
+A1	Stance T2 For
+T3	Premise 616 786	Take Cambodia for example, a large number of visitors coming to visit the Angkowat ancient temple need services like restaurants, hotels, souvenir shops and other stores.
+T4	Premise 787 945	These demands trigger related business in the surrounding settings which in turn create many jobs for local people improve infrastructure and living standard.
+T5	Claim 956 1014	tourism has clearly improved lives in the tourist country.
+A2	Stance T5 For
+T6	Claim 1025 1137	through tourism industry, many cultural values have been preserved and natural environments have been protected.
+A3	Stance T6 For
+T7	Premise 1138 1331	For instance, in Vietnam, many cultural costumes and natural scenes, namely ‘Trong Dong’ drum performance and ‘Ha Long’ bay, are being encouraged to preserve and funded by the tourism ministry.
+T8	Premise 1332 1448	Without this support and profit from tourism, many traditional cultures would disappear due to its low income works.
+T9	Claim 1455 1528	tourism has survived many non-tangible cultural values and beauty scenes.
+A4	Stance T9 For
+R1	supports Arg1:T2 Arg2:T1
+R2	supports Arg1:T3 Arg2:T2
+R3	supports Arg1:T4 Arg2:T2
+R4	supports Arg1:T5 Arg2:T1
+R5	supports Arg1:T4 Arg2:T5
+R6	supports Arg1:T6 Arg2:T1
+R7	supports Arg1:T7 Arg2:T6
+R8	supports Arg1:T8 Arg2:T6
+R9	supports Arg1:T9 Arg2:T1
+R10	supports Arg1:T8 Arg2:T9

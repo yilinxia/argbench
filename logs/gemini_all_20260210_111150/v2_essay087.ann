@@ -1,0 +1,28 @@
+T1	MajorClaim 287 347	I would prefer to work for myself, and have my own business.
+T2	Claim 458 571	there are a large number of opportunities in privat works that you cannot find them when you work for the others.
+A1	Stance T2 For
+T3	Claim 787 855	when people work for themselves they make more profit for themselves
+A2	Stance T3 For
+T4	Claim 1091 1212	there are some authorities in privat jobs that workers are always looking for them while they are working for the others.
+A3	Stance T4 For
+T5	Premise 572 611	In your job you can be boss of yourself
+T6	Premise 622 667	in the other jobs someone else are your boss.
+T7	Premise 668 772	You always have to be responsible for your task, and it make a stressful situation that I never like it.
+T8	Premise 861 931	in the other jobs you make profits for the other such as your manager.
+T9	Premise 932 1081	Unfortunately nowadays most of them pick up this profit without sharing a small sum of it with their workers, and from my point of view it is unfair.
+T10	Premise 1213 1289	When you work for yourself you can punch in and punch out whenever you want.
+T11	Premise 1415 1504	For all of them we have to ask for a permission, and most of the time we are not allowed.
+T12	Premise 1505 1575	There is no doubt that working for the other have some advantages, too
+T13	Premise 1649 1704	They have more opportunities, profits, and authorities.
+R1	supports Arg1:T5 Arg2:T2
+R2	supports Arg1:T6 Arg2:T2
+R3	supports Arg1:T7 Arg2:T2
+R4	supports Arg1:T8 Arg2:T3
+R5	supports Arg1:T9 Arg2:T3
+R6	supports Arg1:T10 Arg2:T4
+R7	supports Arg1:T11 Arg2:T4
+R8	supports Arg1:T2 Arg2:T1
+R9	supports Arg1:T3 Arg2:T1
+R10	supports Arg1:T4 Arg2:T1
+R11	attacks Arg1:T12 Arg2:T1
+R12	supports Arg1:T13 Arg2:T1

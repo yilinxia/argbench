@@ -1,0 +1,19 @@
+T1	MajorClaim 181 232	To some extent, I do not agree with this statement.
+T2	Claim 565 642	the young generation these days is very conscious toward positive lifestyles.
+A1	Stance T2 For
+T3	Premise 643 757	They are mostly being educated at very early ages by family or schools as to distinguish what is benefit for them.
+T4	Claim 769 864	it is not easy to influence young people these days when they are well equipped of life skills.
+A2	Stance T4 For
+T5	Claim 896 984	not many people can exist in the celebrities' world without any talents or achievements.
+A3	Stance T5 For
+T6	Premise 985 1135	We are giving chances to many teenagers to show their intelligence in different talent shows, for example; The Voice, X Factor or Next Top Models etc.
+T7	Premise 1136 1264	As a result, to become a star and an inspiration for people, a person need to have real talent to compete with other candidates.
+T8	Premise 1265 1442	Thus, only money and glamour look are not enough for a person to be recognized anymore, it is importance that they have to have achievements in order to be a muse to youngsters.
+R1	supports Arg1:T3 Arg2:T2
+R2	supports Arg1:T2 Arg2:T4
+R3	supports Arg1:T6 Arg2:T5
+R4	supports Arg1:T7 Arg2:T5
+R5	supports Arg1:T8 Arg2:T5
+R6	supports Arg1:T2 Arg2:T1
+R7	supports Arg1:T4 Arg2:T1
+R8	supports Arg1:T5 Arg2:T1

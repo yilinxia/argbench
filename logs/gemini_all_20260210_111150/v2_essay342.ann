@@ -1,0 +1,33 @@
+T1 MajorClaim 1366 1459 schools and adults should put a sense of cooperation in children to make them becoming a useful adult whether in society or community.
+T2 Claim 304 352 A strong competition sense helps children having urge to learn or to practice for being the best among peers
+A1 Stance T2 Against
+T3 Premise 354 469 and this factor is initially arises from the schools and parents, to encourage children to get the highest scores through the grading system.
+T4 Claim 471 547 a competitive child is usually more motivated to pursue a goal or to face difficulties independently
+A2 Stance T4 Against
+T5 Claim 554 600 children are becoming too competitive to cooperating with others.
+A3 Stance T5 For
+T6 Claim 602 660 Being competitive leads them to success, but could also restrict them in many ways.
+A4 Stance T6 For
+T7 Premise 662 737 For example, it might be hard for a competitive person to deal or manage in a team work project.
+T8 Claim 811 889 cooperation is also an essential quality for children, no matter in school activities or in communities.
+A5 Stance T8 For
+T9 Premise 891 1001 Having a good cooperating spirit helps kids to communicate and get along with others, which gives them more possibility to solve problems or to achieve a goal easily by working as a team.
+T10 Premise 1003 1066 After all, in society, there is hardly anyone who could has big achievement by oneself.
+T11 Premise 1068 1160 For example, famous singers or movie stars, despite of their talent to make them successful, there are always a team to manage works or deal with things.
+T12 Claim 1177 1269 though competitive child would have more motivation and perspective that leads them to success
+A6 Stance T12 Against
+T13 Claim 1271 1357 but it would not help them much once they enter to society or company which required more about skill of team work.
+A7 Stance T13 For
+R1 supports Arg1:T3 Arg2:T2
+R2 supports Arg1:T7 Arg2:T5
+R3 supports Arg1:T7 Arg2:T6
+R4 supports Arg1:T9 Arg2:T8
+R5 supports Arg1:T10 Arg2:T8
+R6 supports Arg1:T11 Arg2:T10
+R7 attacks Arg1:T2 Arg2:T1
+R8 attacks Arg1:T4 Arg2:T1
+R9 supports Arg1:T5 Arg2:T1
+R10 supports Arg1:T6 Arg2:T1
+R11 supports Arg1:T8 Arg2:T1
+R12 attacks Arg1:T12 Arg2:T1
+R13 supports Arg1:T13 Arg2:T1

@@ -1,0 +1,28 @@
+T1	MajorClaim 311 480	In my point of view, computers brought convenience and easiness to our life since they enabled easier access to information and increased qualities of the communication.
+T2	Claim 482 554	First, computers through internet made our access to information easier.
+T3	Premise 555 687	Through computers we can collect appropriate data very quickly, store it in the hard disc as long as we want and use it when needed.
+T4	Premise 688 847	Search engines such as google, yandex with many features relevant to the characteristics of the information needed enable search of information in few minutes.
+T5	Premise 848 1010	Social networks such as facebook, twitter have changed traditional sources of information and decreasing the monopolization of the information by the governments.
+T6	Premise 1011 1128	Hence, with the use of computers we spend less time in search for information, and can get it from different sources.
+T7	Claim 1130 1230	Second, in a globalized world that we live computers made communications faster, visual and cheaper.
+T8	Premise 1231 1337	With the use of email our messages can be delivered to any person in any part of the world in few minutes.
+T9	Premise 1338 1573	In addition, it is convenient because you do not need to mile to the post office, but just click the mouse of your computer from the convenience of your arm chair in order to reach your friends, family members in any part of the world.
+T10	Premise 1574 1648	Internet facilities such as msn, skype made visual communication possible.
+T11	Premise 1649 1808	For example, via skype people not just communicate with their family members and friends, but also make interviews for employment, enrolment into universities.
+T12	Premise 1809 1872	In result, communication has become cheaper, faster and visual.
+T13	MajorClaim 1874 2103	Finally, I believe that computers have made life easier and more convenient in the ways that it broadened the sources of information and made access more quick, a long with the improving quality of the communication in many ways.
+A1	Stance T2 For
+A2	Stance T7 For
+R1	supports Arg1:T3 Arg2:T2
+R2	supports Arg1:T4 Arg2:T2
+R3	supports Arg1:T5 Arg2:T2
+R4	supports Arg1:T6 Arg2:T2
+R5	supports Arg1:T2 Arg2:T1
+R6	supports Arg1:T8 Arg2:T7
+R7	supports Arg1:T9 Arg2:T7
+R8	supports Arg1:T10 Arg2:T7
+R9	supports Arg1:T11 Arg2:T10
+R10	supports Arg1:T12 Arg2:T7
+R11	supports Arg1:T7 Arg2:T1
+R12	supports Arg1:T2 Arg2:T13
+R13	supports Arg1:T7 Arg2:T13

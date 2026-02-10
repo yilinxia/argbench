@@ -1,0 +1,20 @@
+T1	MajorClaim 1539 1796	from above mentioned facts it can easily be deduced that nuclear power may apear silver bullet for energy crisis but its disadvantages far outweigh the adavantages. Thus i suggest that use of nuclear technology should be discouraged even for civil purposes.
+T2	Claim 535 615	pursuit of nuclear technology one way or the other leads towards atomic weapons.
+A1	Stance T2 Against
+T3	Premise 616 671	Last centuary has witnesed the horrors of such weapons.
+T4	Premise 672 779	If each country pursues the fusion and fission process some of them may try to mold it for millitary usage.
+T5	Claim 825 896	even civil usages of atomic power pose a dire threat of radio activity.
+A2	Stance T5 Against
+T6	Premise 897 1066	For example recently there has been an incident in which an atomic power house leaked tons of radio active material into air when an earthquake hit the surrounding area.
+T7	Premise 1067 1166	This unfortunate event proves that no matter how much careful we are such accidents are unevitable.
+T8	Claim 1320 1426	Safely getting rid of nuclear waste is a daunting task and there has not been any permanat solution of it.
+A3	Stance T8 Against
+T9	Premise 1427 1524	This waste is many times more lethal to our environment than any of the other hazordous material.
+R1	supports Arg1:T3 Arg2:T2
+R2	supports Arg1:T4 Arg2:T2
+R3	supports Arg1:T6 Arg2:T5
+R4	supports Arg1:T7 Arg2:T5
+R5	supports Arg1:T9 Arg2:T8
+R6	supports Arg1:T2 Arg2:T1
+R7	supports Arg1:T5 Arg2:T1
+R8	supports Arg1:T8 Arg2:T1

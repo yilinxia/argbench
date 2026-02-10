@@ -1,0 +1,25 @@
+T1	MajorClaim 390 461	I agree that in this occasion the government is not granted to hand in.
+T2	Claim 532 661	the modern artists who implement their creative thinking onto high value creation are paid with immense sum by the art collector.
+A1	Stance T2 For
+T3	Claim 668 782	the high sum which modern artists receive is related to the quality instead of the quantity and their rare talent.
+A2	Stance T3 For
+T4	Premise 796 894	a 15 centimeter Buddha temple made by hand is granted times in comparison with factory production.
+T5	Claim 914 1049	modern artists also devote themselves find a unique concept in which ordinary people cannot do, such making impossible become possible.
+A3	Stance T5 For
+T6	Premise 1050 1231	Pieter Padang, Minion creator, has brilliant idea to alter part of song lyric "I swear" become "underwear" when the Minion sing in Despicable Me. He granted huge sums for such idea.
+T7	Premise 1232 1370	Striking contrast, labor working in the merchandise factory receive coin of dollar even they make a hundred of 15 cm Buddha temples a day.
+T8	Claim 1384 1531	a musician playing "I swear" several times receives different earnings that Padang got because the musician re-plays the song without any creation.
+A4	Stance T8 For
+T9	Claim 1542 1684	government cannot equalize the price of creation of modern artist because there is no certain parameter to value it, art value is about taste.
+A5	Stance T9 For
+T10	Claim 1871 1997	government cannot take steps to make the salary between modern artists and other job similar because art price is about taste.
+A6	Stance T10 For
+R1	supports Arg1:T2 Arg2:T1
+R2	supports Arg1:T3 Arg2:T1
+R3	supports Arg1:T4 Arg2:T3
+R4	supports Arg1:T5 Arg2:T1
+R5	supports Arg1:T6 Arg2:T5
+R6	supports Arg1:T7 Arg2:T9
+R7	supports Arg1:T8 Arg2:T1
+R8	supports Arg1:T9 Arg2:T1
+R9	supports Arg1:T10 Arg2:T1

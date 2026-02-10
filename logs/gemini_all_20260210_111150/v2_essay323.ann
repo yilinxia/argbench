@@ -1,0 +1,24 @@
+T1	MajorClaim 1770 1837	To conclude, I strongly believe that parents are our best teachers.
+T2	Claim 382 453	Firstly, parents are our teachers from the very early time in our life.
+A1	Stance T2 For
+T3	Premise 454 591	As we were born, parents taught us from the very little things such as how to smile, how to walk to the ordinary routines such as eating.
+R1	supports Arg1:T3 Arg2:T2
+T4	Premise 592 731	Moreover, when we grow bigger, they teach us many fairy tales and several important ethic lessons that affect us till the end of our lives.
+R2	supports Arg1:T4 Arg2:T2
+R3	supports Arg1:T2 Arg2:T1
+T5	Claim 732 848	Secondly, at school we study bigger things about sciences and languages, but after school we learn from our parents.
+A2	Stance T5 For
+R4	supports Arg1:T5 Arg2:T1
+T6	Premise 849 934	In my opinion, we spend most of our time at home with our families than it at school.
+R5	supports Arg1:T6 Arg2:T5
+T7	Premise 935 1168	I think when we leave school, maybe we will forget parts of the lessons we learn at school if we do not experience them in life, but I strongly believe we will never forget what our parents have taught us because we use it every day.
+R6	supports Arg1:T7 Arg2:T5
+T8	Premise 1169 1289	For example, I believe I will never forget what my parents told me about how to be grateful to other people who help me.
+R7	supports Arg1:T8 Arg2:T7
+T9	Claim 1290 1370	Thirdly, I totally believe parents love their sons or daughters unconditionally.
+A3	Stance T9 For
+R8	supports Arg1:T9 Arg2:T1
+T10	Premise 1371 1574	Therefore, even when we grow older, get married and then have our own families with spouses and children, parents always keep watching us and help us to realize which is right and which is wrong in life.
+R9	supports Arg1:T10 Arg2:T9
+T11	Premise 1575 1769	For instance, my older brother has got married and lived independently for two years but when he faces difficulties in his work or his life, he comes back to meet our parents and ask for advice.
+R10	supports Arg1:T11 Arg2:T10

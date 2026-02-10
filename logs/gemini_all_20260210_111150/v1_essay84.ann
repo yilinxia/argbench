@@ -1,0 +1,37 @@
+T1	MajorClaim 2289 2461	the suggestion of providing those who are jobless with mobile phones that are accessible to internet is not a proper and the best way to trim down the rate of unemployment.
+T2	Claim 546 685	when people without jobs have hand phones that have access to the Internet, they will be able to browse the net for more job opportunities.
+A1	Stance T2 Against
+T3	Claim 1081 1228	if the government provides those without work with a mobile phone, they will be able to find themselves an occupation in order to live and survive.
+A2	Stance T3 Against
+T4	Claim 1276 1351	supplying hand phones to the unemployed is a waste of the taxpayers' money.
+A3	Stance T4 For
+T5	Claim 1768 1862	when hand phones are provided for free, many would want to take advantage of this opportunity.
+A4	Stance T5 For
+T6	Claim 2089 2129	the public's money is spent worthlessly.
+A5	Stance T6 For
+T7	Claim 2146 2263	till now, there are no surveys or evidences that prove this method in effective in reducing the rate of unemployment.
+A6	Stance T7 For
+T8	Premise 699 788	they can surf the The Star Onlines' work section to find a job that is suitable for them.
+T9	Premise 789 948	With the help of the net, they can also do more research on the work that they have found apart from looking up on how they can prepare themselves for the job.
+T10	Premise 964 1070	the mobile phones can also be used to make calls with the companies in which they would like to work with.
+T11	Premise 1368 1486	the money instead of being used to supply the electronic gadget can be used for other useful purposes for the country.
+T12	Premise 1515 1648	the money can be used to build more amenities for the public or given to the poor so that they can use it to help them earn a living.
+T13	Premise 1894 1958	in order to obtain a mobile phone, they make themselves jobless.
+T14	Premise 1959 2071	Some might even go to the extent of lying that they are on unemployment to make them eligible to get the phones.
+T15	Premise 2598 2764	the public money should be utilized for the benefit of the society and not just for some of them who are not willing to put in more effort to find them a proper work.
+R1	supports Arg1:T8 Arg2:T2
+R2	supports Arg1:T9 Arg2:T2
+R3	supports Arg1:T10 Arg2:T2
+R4	supports Arg1:T2 Arg2:T3
+R5	supports Arg1:T11 Arg2:T4
+R6	supports Arg1:T12 Arg2:T11
+R7	supports Arg1:T13 Arg2:T5
+R8	supports Arg1:T14 Arg2:T5
+R9	supports Arg1:T5 Arg2:T6
+R10	supports Arg1:T7 Arg2:T6
+R11	attacks Arg1:T2 Arg2:T1
+R12	attacks Arg1:T3 Arg2:T1
+R13	supports Arg1:T4 Arg2:T1
+R14	supports Arg1:T6 Arg2:T1
+R15	supports Arg1:T7 Arg2:T1
+R16	supports Arg1:T15 Arg2:T1

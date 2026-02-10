@@ -1,0 +1,19 @@
+T1	MajorClaim 235 407	It is my personal belief that freedom of expressing thoughts and ideas should always be eulogized and it's rather iniquitous to impose a shackle on artists' will to create.
+T2	Claim 557 669	I believe the audiences have their own judgement and are not likely to be misled or influenced by some art work.
+A1	Stance T2 For
+T3	Premise 697 918	art inevitably involves imagination, exaggeration and sometimes is purely fabricated; regardless of whether the work of art is based on truth or not, it is the public's authority to determine how to interpret its meaning.
+T4	Premise 919 1062	If the art displays unreality, the public audiences certainly have the acumen to recognise its untruthfulness and only appreciate its art value
+T5	Premise 1064 1274	if the art reflects the reality, then what would be the intention to ban it if it was not for covering the dirty truth? Would it be autocratic if the government clamp down the artists who are telling the truth?
+T6	Premise 1275 1349	In a word, the notion of being afraid of social misleading is unjustified.
+T7	Claim 1710 1935	in the case of adults being the audience, there's really nothing to hide – these negative things objectively exist on this planet and it is impossible for adults to be brain-washed only because of some pieces of creative art.
+A2	Stance T7 For
+T8	Premise 1785 1935	these negative things objectively exist on this planet and it is impossible for adults to be brain-washed only because of some pieces of creative art.
+T9	Claim 1958 2110	I do not root for the idea that restrictions should be put on artists work; on the contrary, they should be encouraged to express their innovative ideas
+A3	Stance T9 For
+T10	Premise 2113 2160	this world needs them to make itself colourful.
+R1	supports Arg1:T3 Arg2:T2
+R2	supports Arg1:T4 Arg2:T2
+R3	supports Arg1:T5 Arg2:T2
+R4	supports Arg1:T6 Arg2:T2
+R5	supports Arg1:T8 Arg2:T7
+R6	supports Arg1:T10 Arg2:T9

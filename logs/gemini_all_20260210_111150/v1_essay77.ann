@@ -1,0 +1,26 @@
+T1	MajorClaim 287 420	I would not go along with their viewpoint as zoos have irreplaceable benefits in terms of animal preservation and children education.
+T2	Claim 645 767	zoo is a good alternative choice for protecting animals as various animals could be better protected by specialized staff.
+T3	Premise 768 835	Once the animal got sick, professional vet will help them promptly.
+T4	Premise 836 917	Thanks to the considerate care, the diversity of wild animal could be guaranteed.
+T5	Claim 932 1038	zoos afford a platform to education teenagers, helping to establish eco-friendly behavior towards animals.
+T6	Premise 1136 1337	When children pay a visit to the zoos, they still could observe the eating behavior or leisure activities among animals, which would definitely enrich their knowledge associated with different animals.
+T7	Premise 1338 1463	Further, children could acquire the information regarding how to protect wild animals according to guided tour or volunteers.
+T8	Claim 1555 1670	some zoos are lack of systematic management which attributes to numerous wild animals die because of food shortage.
+T9	Claim 1671 1821	Also, being caged in the zoos for long render wildlife lost the ability to survive in nature where is full of cruel competition among various animals.
+T10	Claim 1851 2008	from my perspective, zoos offer a good man-made environment which could prolong the life span of wild animals and cultivate the notion of protecting animals.
+T11	Premise 2009 2133	What the zoos should do is improvement of the management system and use the income wisely in preserving wild animals better.
+A1	Stance T2 For
+A2	Stance T5 For
+A3	Stance T8 Against
+A4	Stance T9 Against
+A5	Stance T10 For
+R1	supports Arg1:T2 Arg2:T1
+R2	supports Arg1:T3 Arg2:T2
+R3	supports Arg1:T4 Arg2:T2
+R4	supports Arg1:T5 Arg2:T1
+R5	supports Arg1:T6 Arg2:T5
+R6	supports Arg1:T7 Arg2:T5
+R7	attacks Arg1:T8 Arg2:T1
+R8	attacks Arg1:T9 Arg2:T1
+R9	supports Arg1:T10 Arg2:T1
+R10	supports Arg1:T11 Arg2:T10

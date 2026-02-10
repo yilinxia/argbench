@@ -1,0 +1,53 @@
+T1	MajorClaim 265 373	many of us who do not indulge are pro-legalization because we see that prohibition does more harm than good.
+T2	Claim 374 443	The legalization of marijuana would help get the economy going again.
+T3	Premise 444 562	Despite great efforts by the federal government against marijuana, it has become a large part of the national economy.
+T4	Premise 563 708	Imagine if we were to legalize and tax it, the government would make tons of profit and we could start paying off this $16trillion national debt.
+T5	Premise 709 813	Not to mention it would create tons of jobs and people in prison for marijuana crimes would be released.
+T6	Premise 814 1030	In a country with only 5% of the earth's population, the United States holds 25% of the world's prisoners ("Marijuana Prison Statistics"). A significant amount of those criminals are in there for drug related crimes.
+T7	Claim 1031 1070	The war on drugs is a complete failure.
+T8	Premise 1071 1185	It's done nothing but waste tax payer dollars, fill prisons with non violent criminals, and create a black market.
+T9	Premise 1186 1292	The main reason cannabis remains illegal is because lobbyists are making tons of money off of prohibition.
+T10	Premise 1306 1453	Pharmaceutical companies lobby against cannabis because at a lower price, there are so many drugs (painkillers, sleep medication) it could replace.
+T11	Premise 1454 1528	Another group that benefits greatly from prohibition are the drug cartels.
+T12	Premise 1529 1628	Legalize marijuana and you cut a huge percent of their profits, army strength, and political power.
+T13	Premise 1629 1712	Otherwise they're going to do whatever they can to save the marijuana black market.
+T14	Premise 1805 1930	But then you'd have to explain why alcohol and tobacco are legal because those substances are way more harmful than cannabis.
+T15	Premise 1931 2031	79,000 people a year die from alcohol poisoning, while zero people have died from overdosing on pot.
+T16	Claim 2182 2268	It's a whole lot easier for kids to obtain marijuana as opposed to alcohol or tobacco.
+T17	Premise 2269 2325	A drug dealer doesn't check for ID like a cashier would.
+T18	Claim 2326 2533	Teens are susceptible to harsher drugs after trying marijuana because they are introduced to these hardcore drugs in the same underground market where they got the marijuana, not because it's a gateway drug.
+T19	Premise 2652 2755	This is an unfair statement, anything has the potential to be abused, even something as simple as food.
+T20	Premise 2830 2954	Many musicians admit that cannabis helps them get creative with their music and opens their minds to new ideas and concepts.
+T21	Premise 2955 3082	Many cancer patients have used medical marijuana as a way of dealing with nausea after treatment or stimulating their appetite.
+T22	Claim 3083 3185	The point is people have benefited from marijuana whether it was for medical or recreational purposes.
+T23	Claim 3389 3460	who are you to tell people what they can and can't put in their bodies?
+T24	Premise 3461 3544	Expecting everyone to adapt to your beliefs or morals is extremely narrowed minded.
+A1	Stance T2 For
+A2	Stance T7 For
+A3	Stance T16 For
+A4	Stance T18 For
+A5	Stance T22 For
+A6	Stance T23 For
+R1	supports Arg1:T3 Arg2:T2
+R2	supports Arg1:T4 Arg2:T2
+R3	supports Arg1:T5 Arg2:T2
+R4	supports Arg1:T6 Arg2:T5
+R5	supports Arg1:T8 Arg2:T7
+R6	supports Arg1:T9 Arg2:T7
+R7	supports Arg1:T10 Arg2:T9
+R8	supports Arg1:T11 Arg2:T9
+R9	supports Arg1:T12 Arg2:T7
+R10	supports Arg1:T13 Arg2:T9
+R11	supports Arg1:T15 Arg2:T14
+R12	supports Arg1:T17 Arg2:T16
+R13	supports Arg1:T20 Arg2:T22
+R14	supports Arg1:T21 Arg2:T22
+R15	supports Arg1:T24 Arg2:T23
+R16	supports Arg1:T2 Arg2:T1
+R17	supports Arg1:T7 Arg2:T1
+R18	supports Arg1:T16 Arg2:T1
+R19	supports Arg1:T18 Arg2:T1
+R20	supports Arg1:T22 Arg2:T1
+R21	supports Arg1:T23 Arg2:T1
+R22	supports Arg1:T14 Arg2:T1
+R23	supports Arg1:T19 Arg2:T1

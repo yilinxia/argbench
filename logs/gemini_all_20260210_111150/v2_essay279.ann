@@ -1,0 +1,28 @@
+T1	MajorClaim 323 475	In my opinion, I agree with the latter because the internet gives daily necessary information, people can gain knowledge and they can explore the world.
+T2	Claim 578 701	Sometimes, they want an information that can help them in daily life which the internet can provide all of these to people.
+A1	Stance T2 For
+T3	Premise 702 852	For example, a businessman who has no time to watch a television or read a newspaper can receive news and check stock markets easily via the internet.
+T4	Claim 866 960	people can gain more knowledge by using the internet, the most useful technology in the world.
+A2	Stance T4 For
+T5	Premise 961 1099	Many people such as students can take online courses to study at home or they can watch beneficial videos which also teach them knowledge.
+T6	Premise 1178 1276	For instance, people who have problems with their health can search for more information about it.
+T7	Claim 1297 1364	The internet makes the world becomes smaller which is a good thing.
+A3	Stance T7 For
+T8	Premise 1381 1484	people who have no time or have financial problems could travel around the world by using the internet.
+T9	Premise 1485 1552	They can see lots of picture and videos of many interesting places.
+T10	Premise 1553 1676	Moreover, people can learn other countries's culture and tradition which makes them have more knowledge about that nations.
+T11	Claim 1690 1830	people are satisfied with the internet and sometimes even thanks it because it helps us in studying, doing business and exploring the world.
+A4	Stance T11 For
+T12	Claim 1831 1909	With valuable information it provides, people can enjoy their lives much more.
+A5	Stance T12 For
+R1	supports Arg1:T3 Arg2:T2
+R2	supports Arg1:T2 Arg2:T1
+R3	supports Arg1:T5 Arg2:T4
+R4	supports Arg1:T6 Arg2:T4
+R5	supports Arg1:T4 Arg2:T1
+R6	supports Arg1:T8 Arg2:T7
+R7	supports Arg1:T9 Arg2:T7
+R8	supports Arg1:T10 Arg2:T7
+R9	supports Arg1:T7 Arg2:T1
+R10	supports Arg1:T11 Arg2:T1
+R11	supports Arg1:T12 Arg2:T1

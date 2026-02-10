@@ -1,0 +1,16 @@
+T1	MajorClaim 251 325	teenagers need more attention and help in comparison with the higher ages.
+T2	Claim 411 539	parents and other adult relatives are more experienced towards children, therefore they are the best advisor for their children.
+T3	Premise 540 686	They have experienced a large numbers of stuffs during their life, so if children listen to their advices they can prevent happening worst things.
+T4	Premise 687 796	Also, they can save value things in their life such as time and money, and enjoy they life with the best way.
+T5	Claim 835 1029	parents and adults relatives are the best friends and consular for the teenagers, because unfortunately nowadays there are some individuals who cheat the others for gaining more power and money.
+T6	Premise 1030 1121	They cheat young ages because they believe they are immature and they can trap them easily.
+T7	Claim 1233 1381	sometimes to prevent some problems coming up for young individuals , it is a good idea to ask parents and adult relatives to give a piece of advice.
+A1	Stance T2 For
+A2	Stance T5 For
+A3	Stance T7 For
+R1	supports Arg1:T3 Arg2:T2
+R2	supports Arg1:T4 Arg2:T2
+R3	supports Arg1:T2 Arg2:T1
+R4	supports Arg1:T6 Arg2:T5
+R5	supports Arg1:T5 Arg2:T1
+R6	supports Arg1:T7 Arg2:T1

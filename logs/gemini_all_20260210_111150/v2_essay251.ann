@@ -1,0 +1,49 @@
+T1	MajorClaim 0 72	People who can’t accept others’ criticism can’t succeed in group working
+T2	Claim 760 949	It doesn't work if one member solely insists on his/her idea and doesn't take other member's criticism because the work belongs to every member, not a personal show for specific one member.
+T3	Claim 1003 1090	Second, taking criticism is a virtue as you take someone's opinion that is against you.
+T4	Claim 1369 1460	Those who don't even take a word of criticism will eventually lose chances to get improved.
+T5	Claim 1945 2140	In my point of view, even if you are right, criticism is still helpful because in this case it not only is a fixer, but it also serves as a practice to test you how much you know about your work.
+T6	Claim 2307 2420	In conclusion, criticism is essential especially in group working but in other occasions we still need criticism.
+T7	Premise 425 473	First, the core of group working is "consensus".
+T8	Premise 474 521	It's the idea that everyone’s opinion accounts.
+T9	Premise 522 675	In group works, group members gather together to have brain-storming discussion, think over every possible solutions and then finally reach an agreement.
+T10	Premise 676 759	In this long process of discussion, there must be different opinions sparkling out.
+T11	Premise 950 1002	It's every member's duty to respect other's opinion.
+T12	Premise 1091 1172	Even if you are not working in a group, you still need to take others' criticism.
+T13	Premise 1173 1269	Criticism definitely hurts because it points out your drawbacks and forces you to confront them.
+T14	Premise 1270 1368	However, criticism can help you detect those drawbacks and fix them if you are willing to take it.
+T15	Premise 1461 1607	In other words, if you can't take any criticism, not only will you fail in cooperating with other people, but also get defeated in personal works.
+T16	Premise 1608 1669	As one Chinese idiom goes: "The good medicine tastes bitter“.
+T17	Premise 1670 1724	Criticism might be the most powerful solution to heal.
+T18	Premise 2141 2210	Taking criticism doesn't necessary mean that you have to take it all.
+T19	Premise 2211 2250	You should have your own judgments too!
+T20	Premise 2251 2306	And it's kind of art to make the best use of criticism.
+T21	Premise 2421 2547	It's just like a picky mirror through which we can see the bad side of us and thus try to become more beautiful and confident.
+A1	Stance T2 For
+A2	Stance T3 For
+A3	Stance T4 For
+A4	Stance T5 For
+A5	Stance T6 For
+R1	supports Arg1:T7 Arg2:T2
+R2	supports Arg1:T8 Arg2:T7
+R3	supports Arg1:T9 Arg2:T7
+R4	supports Arg1:T9 Arg2:T2
+R5	supports Arg1:T10 Arg2:T2
+R6	supports Arg1:T11 Arg2:T2
+R7	supports Arg1:T2 Arg2:T1
+R8	supports Arg1:T12 Arg2:T3
+R9	supports Arg1:T13 Arg2:T14
+R10	supports Arg1:T14 Arg2:T4
+R11	supports Arg1:T15 Arg2:T4
+R12	supports Arg1:T16 Arg2:T3
+R13	supports Arg1:T16 Arg2:T14
+R14	supports Arg1:T17 Arg2:T3
+R15	supports Arg1:T17 Arg2:T14
+R16	supports Arg1:T3 Arg2:T1
+R17	supports Arg1:T4 Arg2:T1
+R18	supports Arg1:T18 Arg2:T5
+R19	supports Arg1:T19 Arg2:T5
+R20	supports Arg1:T20 Arg2:T5
+R21	supports Arg1:T5 Arg2:T1
+R22	supports Arg1:T21 Arg2:T6
+R23	supports Arg1:T6 Arg2:T1

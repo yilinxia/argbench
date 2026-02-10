@@ -1,0 +1,48 @@
+T1	MajorClaim 1980 2050	computers can do most difficult tasks which leads to make life easier.
+T2	Premise 60 124	Computers have revolutionized our lifestyle during last century.
+T3	Claim 134 251	some people especially young ones use computers extremely and this excessive usage lead to increase stress among them
+T4	Claim 333 432	computers have an important and inevitable role in economic, business, and other part of societies.
+T5	Claim 446 509	they make the way of living easier by doing our routine duties.
+T6	Claim 523 591	by using computers in many industries human's role has been reduced.
+T7	Premise 602 705	computer can control and perform some routine activities in industries, which were early done by human.
+T8	Premise 706 830	Many industries use computers to command to robots in order to do many regular tasks, which were carried out by human early.
+T9	Premise 844 943	many processes of production of cars are carrying out by robots, which are controlled by computers.
+T10	Premise 957 1035	car companies use computers to simulate and analyze car accident by computers.
+T11	Claim 1061 1109	by coming computers many jobs has been vanished.
+T12	Premise 1110 1219	A large number of industries fire many forces because of doing their works by new technologies and computers.
+T13	Claim 1221 1282	Computers have an important role in social and personal life.
+T14	Premise 1283 1342	Computers have opened up a network connection among people.
+T15	Premise 1343 1420	This technology makes easier for people to send and receive personal message.
+T16	Premise 1421 1485	Teenagers and adolescents spend free time in front of computers.
+T17	Premise 1496 1567	People can use computers to extract their essential information easily.
+T18	Claim 1581 1638	excessive use of computers has brought many difficulties.
+T19	Premise 1639 1748	The results show that teenagers who are addicted to computer games show more violent and stressful behaviors.
+T20	Premise 1749 1829	People who have type by computers may suffer from such disease related to knees.
+T21	MajorClaim 1907 1966	People benefit more from coming computers into their lives.
+A1	Stance T3 Against
+A2	Stance T4 For
+A3	Stance T5 For
+A4	Stance T6 Against
+A5	Stance T11 Against
+A6	Stance T13 For
+A7	Stance T18 Against
+R1	supports Arg1:T2 Arg2:T4
+R2	attacks Arg1:T3 Arg2:T21
+R3	supports Arg1:T4 Arg2:T21
+R4	supports Arg1:T5 Arg2:T21
+R5	attacks Arg1:T6 Arg2:T21
+R6	supports Arg1:T7 Arg2:T6
+R7	supports Arg1:T8 Arg2:T6
+R8	supports Arg1:T9 Arg2:T8
+R9	supports Arg1:T10 Arg2:T4
+R10	attacks Arg1:T11 Arg2:T21
+R11	supports Arg1:T12 Arg2:T11
+R12	supports Arg1:T13 Arg2:T21
+R13	supports Arg1:T14 Arg2:T13
+R14	supports Arg1:T15 Arg2:T14
+R15	supports Arg1:T16 Arg2:T13
+R16	supports Arg1:T17 Arg2:T13
+R17	attacks Arg1:T18 Arg2:T21
+R18	supports Arg1:T19 Arg2:T18
+R19	supports Arg1:T20 Arg2:T18
+R20	supports Arg1:T1 Arg2:T21

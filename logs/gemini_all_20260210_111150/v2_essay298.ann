@@ -1,0 +1,50 @@
+T1	MajorClaim 315 435	In my view, it is good for a teenager to do a part time job while he/she is still a student and this is for two reasons.
+T2	Claim 436 545	The main reason is that students can learn lots of things from part time job, before starting their real job.
+A1	Stance T2 For
+R1	supports Arg1:T2 Arg2:T1
+T3	Premise 546 640	Students can learn about time management, money management and convince people by their words.
+R2	supports Arg1:T3 Arg2:T2
+T4	Premise 641 728	For example, when I was in my high school I worked as a sales-man in a shop for a year.
+R3	supports Arg1:T4 Arg2:T3
+T5	Premise 729 821	As i had to spend some of my time in my job, therefore, i had to manage my time efficiently.
+R4	supports Arg1:T5 Arg2:T3
+T6	Premise 822 884	I had to manage my boss as well as had to prepare my homework.
+R5	supports Arg1:T6 Arg2:T5
+T7	Premise 885 970	This taught me how to manage time efficiently and do any job quickly and effectively.
+R6	supports Arg1:T7 Arg2:T5
+T8	Premise 971 1006	Moreover, I learn money management.
+R7	supports Arg1:T8 Arg2:T2
+T9	Premise 1007 1090	When my boss was out of the shop, i had to manage the accounts section of the shop.
+R8	supports Arg1:T9 Arg2:T8
+T10	Premise 1091 1142	From this i learned, how to manage money correctly.
+R9	supports Arg1:T10 Arg2:T9
+T11	Premise 1143 1229	This experience taught me, doing part time job can help students to learn many things.
+R10	supports Arg1:T11 Arg2:T2
+T12	Claim 1230 1327	Another reason is that from part time jobs students can earn money, which can help their parents.
+A2	Stance T12 For
+R11	supports Arg1:T12 Arg2:T1
+T13	Premise 1328 1393	For instance, when i was in high school I worked as a home tutor.
+R12	supports Arg1:T13 Arg2:T12
+T14	Premise 1394 1435	I taught math to two kids of my neighbor.
+R13	supports Arg1:T14 Arg2:T13
+T15	Premise 1436 1498	I helped them to understand the difficult topics of the books.
+R14	supports Arg1:T15 Arg2:T14
+T16	Premise 1499 1565	By tutoring them, i earned some money and bought me books with it.
+R15	supports Arg1:T16 Arg2:T12
+T17	Premise 1566 1657	Moreover, after taking that part time job i stopped taking my pocket money form my parents.
+R16	supports Arg1:T17 Arg2:T12
+T18	Premise 1658 1762	As you can see, part time job can help students earn money and which can help their parents financially.
+R17	supports Arg1:T18 Arg2:T12
+T19	Claim 1846 1905	They will argue, it can destruct students from their study.
+A3	Stance T19 Against
+R18	attacks Arg1:T19 Arg2:T1
+T20	Premise 1915 1995	as i did part time job in my high school and it did not hurt my academic result;
+R19	attacks Arg1:T20 Arg2:T19
+T21	Claim 2007 2057	i believe part time job will be good for students.
+A4	Stance T21 For
+R20	supports Arg1:T21 Arg2:T1
+R21	supports Arg1:T20 Arg2:T21
+T22	Claim 2058 2173	Every Student should do part time job beside their study if they want to prepare more efficiently for their future.
+A5	Stance T22 For
+R22	supports Arg1:T22 Arg2:T1
+R23	supports Arg1:T21 Arg2:T22

@@ -1,0 +1,51 @@
+T1	Premise 85 164	Many people consider that the drawbacks of this phenomenon outweigh its merits.
+T2	Premise 165 227	However, it is possible that this idea is not completely true.
+T3	Claim 251 298	news media not only brings people entertainment
+A1	Stance T3 For
+T4	Claim 300 339	but also polishes up people' knowledge.
+A2	Stance T4 For
+T5	Claim 340 424	Therefore, it seems not unreasonable to suggest that this is a positive development.
+A3	Stance T5 For
+T6	Claim 445 512	today entertainment is easier for people to enjoy than ever before.
+A4	Stance T6 For
+T7	Premise 513 668	The fact is that such news media as televisions, radios, or newspapers are bringing many news on entertainment sector from all over the world to everybody.
+T8	Premise 669 789	People can sit in front of their televisions and watch whatever they want, from musical concerts to live football match.
+T9	Premise 790 845	This is a convenient way of relaxation after hard work.
+T10	Claim 846 916	Obviously, the popularity of news media is beneficial to human beings.
+A5	Stance T10 For
+T11	Claim 938 985	news media help people broaden their knowledge.
+A6	Stance T11 For
+T12	Premise 986 1158	It is clearly seen that mass media provide people with a variety of global news on all fields, including political situation, economic change, global warming, and so forth.
+T13	Premise 1159 1247	Hence, there is a strong likelihood that today people are able to know the world better.
+T14	Premise 1248 1356	This is particularly essential when the globalization process has been permeating into all areas of society.
+T15	Claim 1357 1427	Indeed, the fast growth of news media is helpful for people worldwide.
+A7	Stance T15 For
+T16	Claim 1443 1532	the development of news media has been making great inroads into the lives of all people.
+A8	Stance T16 For
+T17	Claim 1533 1585	It relaxes people with plentiful entertainment news.
+A9	Stance T17 For
+T18	Claim 1586 1644	It enriches people's knowledge with worldwide information.
+A10	Stance T18 For
+T19	Claim 1645 1714	It also positively affects the way people live in many other aspects.
+A11	Stance T19 For
+T20	MajorClaim 1715 1784	Therefore, the progress of news media is an advantageous development.
+R1	attacks Arg1:T2 Arg2:T1
+R2	supports Arg1:T3 Arg2:T5
+R3	supports Arg1:T4 Arg2:T5
+R4	supports Arg1:T6 Arg2:T3
+R5	supports Arg1:T7 Arg2:T6
+R6	supports Arg1:T8 Arg2:T7
+R7	supports Arg1:T9 Arg2:T6
+R8	supports Arg1:T10 Arg2:T6
+R9	supports Arg1:T10 Arg2:T5
+R10	supports Arg1:T11 Arg2:T4
+R11	supports Arg1:T12 Arg2:T11
+R12	supports Arg1:T13 Arg2:T12
+R13	supports Arg1:T14 Arg2:T13
+R14	supports Arg1:T15 Arg2:T11
+R15	supports Arg1:T15 Arg2:T5
+R16	supports Arg1:T16 Arg2:T20
+R17	supports Arg1:T17 Arg2:T20
+R18	supports Arg1:T18 Arg2:T20
+R19	supports Arg1:T19 Arg2:T20
+R20	supports Arg1:T5 Arg2:T20

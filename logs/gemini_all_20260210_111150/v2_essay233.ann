@@ -1,0 +1,20 @@
+T1	MajorClaim 188 258	With that change, people’s lives are a lot better for several reasons.
+T2	Premise 369 420	Firstly, people normally have lots of things to do.
+T3	Premise 421 488	Because of that, they don’t have much time to spend in the kitchen.
+T4	Claim 489 591	But being able to prepare a tasty food just putting it into the microwave or into the oven is awesome.
+A1	Stance T4 For
+T5	Premise 592 781	For example, if an engineer needs to make a project, but he needs to deliver it tomorrow, he could save hours preparing a food with the microwave instead of cooking everything from scratch.
+T6	Claim 782 996	Secondly, when someone wants to prepare a good food alone for some reason, some time ago he/she would need to be a very good cook to prepare that food, but nowadays is very easy to prepare a healthy and tasty food.
+A2	Stance T6 For
+T7	Premise 997 1121	For example, if a guy wants to prepare a dinner to his girlfriend, he could just buy some food that comes with instructions.
+T8	Premise 1122 1188	Normally you just need to put it into the oven and wait some time.
+T9	Claim 1327 1489	But people should be careful with what they eat, because some industrial foods are very bad for their health, so they should buy only food from well known brands.
+A3	Stance T9 Against
+R1	supports Arg1:T2 Arg2:T4
+R2	supports Arg1:T3 Arg2:T4
+R3	supports Arg1:T5 Arg2:T4
+R4	supports Arg1:T4 Arg2:T1
+R5	supports Arg1:T7 Arg2:T6
+R6	supports Arg1:T8 Arg2:T6
+R7	supports Arg1:T6 Arg2:T1
+R8	attacks Arg1:T9 Arg2:T1

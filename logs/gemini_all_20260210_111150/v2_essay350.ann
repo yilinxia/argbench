@@ -1,0 +1,35 @@
+T1	MajorClaim 394 478	I agree to the argument that newspapers and magazines will be history with the time.
+T2	Premise 634 783	A very important responsibility of media is to publish information about the current affairs as quickly as possible specially when there is a crisis.
+T3	Premise 784 838	This helps readers to get updated and act accordingly.
+T4	Premise 839 954	For example, when the aircraft MH 370 went missing, everyone wanted to know the details about this tragic incident.
+T5	Premise 955 1037	The friends and families of passengers and crews were impatient to know the truth.
+T6	Claim 1038 1124	In such situations, newspapers and magazines can not respond as fast as digital media.
+T7	Premise 1125 1269	Instead of waiting for next publication, people can get trustworthy information about the current incidents from internet within an hour or two.
+T8	Claim 1270 1337	This explains why digital media will rule over paper and magazines.
+T9	Premise 1338 1453	People often want to access news from past for various reasons like to prepare for research, satisfy interest, etc.
+T10	Premise 1454 1584	For example, one research fellow may want to know how a small village named Oramaki in Japan was suffering after Second World War.
+T11	Claim 1585 1719	It is very difficult to get this sort of information from past in newspapers and magazines as one has to know before where to look at.
+T12	Premise 1720 1819	But internet provides efficient search facility where one can search the topic and get the details.
+T13	Premise 1820 1895	This feature of digital media is not supported by newspapers and magazines.
+T14	Claim 1896 2059	To conclude, the fast responding internet media with vast information will be replacing newspapers and magazines as new and information provider for valid reasons.
+A1	Stance T6 For
+A2	Stance T8 For
+A3	Stance T11 For
+A4	Stance T14 For
+R1	supports Arg1:T6 Arg2:T1
+R2	supports Arg1:T8 Arg2:T1
+R3	supports Arg1:T11 Arg2:T1
+R4	supports Arg1:T14 Arg2:T1
+R5	supports Arg1:T2 Arg2:T6
+R6	supports Arg1:T3 Arg2:T2
+R7	supports Arg1:T4 Arg2:T6
+R8	supports Arg1:T5 Arg2:T4
+R9	supports Arg1:T7 Arg2:T6
+R10	supports Arg1:T7 Arg2:T8
+R11	supports Arg1:T9 Arg2:T11
+R12	supports Arg1:T10 Arg2:T9
+R13	supports Arg1:T12 Arg2:T11
+R14	supports Arg1:T13 Arg2:T11
+R15	supports Arg1:T6 Arg2:T14
+R16	supports Arg1:T8 Arg2:T14
+R17	supports Arg1:T11 Arg2:T14

@@ -1,0 +1,35 @@
+T1	MajorClaim 481 576	I firmly believe that we should attach more importance to cooperation during primary education.
+T2	Premise 55 141	It is always said that competition can effectively promote the development of economy.
+T3	Premise 142 284	In order to survive in the competition, companies continue to improve their products and service, and as a result, the whole society prospers.
+T4	Claim 285 455	However, when we discuss the issue of competition or cooperation, what we are concerned about is not the whole society, but the development of an individual's whole life.
+T5	Claim 577 715	First of all, through cooperation, children can learn about interpersonal skills which are significant in the future life of all students.
+T6	Premise 716 852	What we acquired from team work is not only how to achieve the same goal with others but more importantly, how to get along with others.
+T7	Premise 853 1087	During the process of cooperation, children can learn about how to listen to opinions of others, how to communicate with others, how to think comprehensively, and even how to compromise with other team members when conflicts occurred.
+T8	Premise 1088 1192	All of these skills help them to get on well with other people and will benefit them for the whole life.
+T9	Claim 1212 1302	the significance of competition is that how to become more excellence to gain the victory.
+T10	Premise 1303 1377	Hence it is always said that competition makes the society more effective.
+T11	Claim 1378 1493	However, when we consider about the question that how to win the game, we always find that we need the cooperation.
+T12	Premise 1494 1548	The greater our goal is, the more competition we need.
+T13	Premise 1549 1847	Take Olympic games which is a form of competition for instance, it is hard to imagine how an athlete could win the game without the training of his or her coach, and the help of other professional staffs such as the people who take care of his diet, and those who are in charge of the medical care.
+T14	Premise 1848 1916	The winner is the athlete but the success belongs to the whole team.
+T15	Claim 1917 1993	Therefore without the cooperation, there would be no victory of competition.
+A1	Stance T4 For
+A2	Stance T5 For
+A3	Stance T9 Against
+A4	Stance T11 For
+A5	Stance T15 For
+R1	supports Arg1:T3 Arg2:T2
+R2	attacks Arg1:T4 Arg2:T2
+R3	supports Arg1:T4 Arg2:T1
+R4	supports Arg1:T5 Arg2:T1
+R5	supports Arg1:T6 Arg2:T5
+R6	supports Arg1:T7 Arg2:T5
+R7	supports Arg1:T8 Arg2:T5
+R8	supports Arg1:T10 Arg2:T9
+R9	attacks Arg1:T11 Arg2:T9
+R10	supports Arg1:T11 Arg2:T1
+R11	supports Arg1:T12 Arg2:T9
+R12	supports Arg1:T13 Arg2:T11
+R13	supports Arg1:T14 Arg2:T11
+R14	supports Arg1:T15 Arg2:T11
+R15	supports Arg1:T15 Arg2:T1

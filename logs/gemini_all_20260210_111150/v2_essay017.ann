@@ -1,0 +1,28 @@
+T1	MajorClaim 331 394	I agree with that idea that television devastate families ties.
+T2	Claim 443 476	it is really time consuming task.
+T3	Premise 477 542	Emergence of new television channels or shows are not surprising.
+T4	Premise 543 664	We kill time by tracking these channels so at the end of the day we understand it is late for doing any other activities.
+T5	Premise 716 780	At the end, there is no time for call to our parents or friends.
+T6	Claim 797 840	watching television programs makes us lazy.
+T7	Premise 841 983	We usually spend our times in front of television for at least three ours a day when we come back home after eight-hour working in the office.
+T8	Premise 984 1086	Hence, we do not have time to spend for healthy activity such as going to a gym or doing other sports.
+T9	Premise 1087 1220	This makes us a lazy person who prefers to do sedentary activities like watching television shows rather than be active and sociable.
+T10	Claim 1241 1300	some television programs have a negative effect on viewers.
+T11	Premise 1301 1394	Some thriller or action movies advertise negative activities such as doing criminal activity.
+T12	Premise 1395 1462	These genre of programs has more negative effects on our teenagers.
+T13	Premise 1463 1538	They usually try to mimic what they see on movies in their daily behaviors.
+A1	Stance T2 For
+A2	Stance T6 For
+A3	Stance T10 For
+R1	supports Arg1:T2 Arg2:T1
+R2	supports Arg1:T3 Arg2:T2
+R3	supports Arg1:T4 Arg2:T2
+R4	supports Arg1:T5 Arg2:T2
+R5	supports Arg1:T6 Arg2:T1
+R6	supports Arg1:T7 Arg2:T6
+R7	supports Arg1:T8 Arg2:T6
+R8	supports Arg1:T9 Arg2:T6
+R9	supports Arg1:T10 Arg2:T1
+R10	supports Arg1:T11 Arg2:T10
+R11	supports Arg1:T12 Arg2:T10
+R12	supports Arg1:T13 Arg2:T10

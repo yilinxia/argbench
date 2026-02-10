@@ -1,0 +1,24 @@
+T1	MajorClaim 316 389	I believe that advertisement bring more benefits than harms to our lives.
+T2	Claim 407 551	it is clear that most advertisements so exaggerate the quality of their products that they often ignore some negative effects of what they sell.
+A1	Stance T2 Against
+T3	Claim 573 692	all of things are advertised as the best ones result in the confusing for users in picking out the most suitable goods.
+A2	Stance T3 Against
+T4	Premise 706 846	some kinds of shampoo, namely Sunsilk, Clear, Dove are publicized as magic items to recreate injured hair with the number of other benefits.
+T5	Premise 856 969	the fact is that not all customers are satisfied with what they bought under the introduction from advertisement.
+T6	Claim 990 1190	it is undeniable fact that advertising market gives lots of working opportunities from producers, writers to models and cameramen for all of people as long as their qualification adapt to the demands.
+A3	Stance T6 For
+T7	Claim 1201 1329	advertisement enables to support users in getting accustomed to enterprises and know thoroughly items sold from these producers.
+A4	Stance T7 For
+T8	Premise 1330 1466	Take Coca cola for an example, this drinking firm is well-known as one of companies invested a major part of their money in advertising.
+T9	Premise 1467 1564	No wonder why this drinking title becomes more and more familiar with customers around the world.
+T10	Claim 1585 1723	online advertisement is one of the easiest approaches due to their potential gains such as cheaper cost, convenience and easily observing.
+A5	Stance T10 For
+R1	attacks Arg1:T2 Arg2:T1
+R2	attacks Arg1:T3 Arg2:T1
+R3	supports Arg1:T4 Arg2:T3
+R4	supports Arg1:T5 Arg2:T2
+R5	supports Arg1:T6 Arg2:T1
+R6	supports Arg1:T7 Arg2:T1
+R7	supports Arg1:T8 Arg2:T7
+R8	supports Arg1:T9 Arg2:T7
+R9	supports Arg1:T10 Arg2:T1

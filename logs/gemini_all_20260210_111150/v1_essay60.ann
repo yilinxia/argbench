@@ -1,0 +1,48 @@
+T1	MajorClaim 257 345	However, a break of one year is good for young people after finishing their high school.
+T2	Claim 441 520	A relaxation of one year to young minds will give them a quintessential change.
+A1	Stance T2 For
+T3	Claim 750 889	Importantly, when students start their university studies after a break, they will feel fresh and full of energy to take the new challenge.
+A2	Stance T3 For
+T4	Claim 998 1100	Working or travelling for some time, after high school, can help them to find their field of interest.
+A3	Stance T4 For
+T5	Claim 1164 1262	Financially,students can save a little money to support their university education by doing a job.
+A4	Stance T5 For
+T6	Claim 1263 1351	Some students even utilise this time for preparation of their desired university course.
+A5	Stance T6 For
+T7	Claim 1391 1455	A break can disturb the focus of students and prove detrimental.
+A6	Stance T7 Against
+T8	Claim 1946 1994	A break gives students more benefits than harms.
+A7	Stance T8 For
+T9	Claim 2097 2205	Thus, a break should be necessarily allowed to young minds between their high school and university studies.
+A8	Stance T9 For
+T10	Claim 2358 2433	One year break can help young people to prepare for the challenges of life.
+A9	Stance T10 For
+T11	Premise 521 632	A continous study pressure for over 10 years makes the mind saturated and like a robot, to follow instructions.
+T12	Premise 633 749	Personally, a break will give students some time to refresh their systems, by travelling or following their hobbies.
+T13	Premise 904 997	during high school, many students face a dilemma to decide which stream should they major in.
+T14	Premise 1101 1163	It will also help them to learn professional setup by working.
+T15	Premise 1456 1597	When students work during these breaks, the feel of money gives them an illusion that such salary is enough for them and they go in a utopia.
+T16	Premise 1598 1762	For instance, my cousin started working in a customer care centre after high school and got distracted. When he started his university studies, he failed miserably.
+T17	Premise 1763 1829	Students can also indulge in smoking or drinking during this time.
+T18	Premise 1830 1945	But , the break should be an optional thing. It varies from individual to individual, how they utilise that period.
+T19	Premise 2008 2096	the sole purpose of education is to nurture a young mind and not thrust studies on them.
+T20	Premise 2293 2357	young minds are delicate and they face a cut-throat competition.
+R1	supports Arg1:T2 Arg2:T1
+R2	supports Arg1:T3 Arg2:T1
+R3	supports Arg1:T4 Arg2:T1
+R4	supports Arg1:T5 Arg2:T1
+R5	supports Arg1:T6 Arg2:T1
+R6	attacks Arg1:T7 Arg2:T1
+R7	supports Arg1:T8 Arg2:T1
+R8	supports Arg1:T9 Arg2:T1
+R9	supports Arg1:T10 Arg2:T1
+R10	supports Arg1:T11 Arg2:T2
+R11	supports Arg1:T12 Arg2:T2
+R12	supports Arg1:T13 Arg2:T4
+R13	supports Arg1:T14 Arg2:T4
+R14	supports Arg1:T15 Arg2:T7
+R15	supports Arg1:T16 Arg2:T15
+R16	supports Arg1:T17 Arg2:T7
+R17	attacks Arg1:T18 Arg2:T7
+R18	supports Arg1:T19 Arg2:T9
+R19	supports Arg1:T20 Arg2:T10

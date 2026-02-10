@@ -1,0 +1,39 @@
+T1	MajorClaim 2128 2342	My country need to focus more on the agriculture by establishing centers for research in this field, which will have some very positive consequences on agriculture people work, on the economy and on the employment.
+T2	Claim 238 442	If a university plans to develop a new research in my country and I have to choose between establishing a centre for business research or a centre for agriculture research, I would opt for the second one.
+T3	Claim 575 667	The centre for research in agriculture can help my co-citizens to better exploit these land.
+T4	Claim 668 751	This centre can also help people there to solve their issues related to their land.
+T5	Claim 828 910	the centre for research in agriculture helps the economy of my country to improve.
+T6	Claim 1465 1504	the first one can create a lot of jobs.
+T7	Claim 1741 1888	a centre of business research is more important because we have to be in parallel with the advanced countries which have focused in business field.
+T8	Premise 457 522	my country has a lot of land which is useful for the agriculture.
+T9	Premise 523 574	Most of these lands are left without any treatment.
+T10	Premise 752 817	Especially, if they have no knowledge or education in this field.
+T11	Premise 911 974	The agriculture field has only thirty percent as a market part.
+T12	Premise 975 1077	The centre of research can raise the market part of this field by developing the agriculture products.
+T13	Premise 1091 1158	the dates are the most important agriculture product in my country.
+T14	Premise 1159 1335	The centre of research for agriculture can make some research in how to get a good quality of this product, how to treat the Palme and maybe how to treat the land of the palms.
+T15	Premise 1516 1716	showing people how to exploit a land and get good agriculture products will push people to think about working in the field of agriculture rather than working in business or other field to make money.
+T16	Premise 1797 1888	we have to be in parallel with the advanced countries which have focused in business field.
+T17	Premise 1896 2127	being a developed country does not mean that we have to focus only in business, but we have to focus on what really bring us to the level of self satisfaction, and the agriculture for our country is the field that can realize that.
+A1	Stance T2 For
+A2	Stance T3 For
+A3	Stance T4 For
+A4	Stance T5 For
+A5	Stance T6 For
+A6	Stance T7 Against
+R1	supports Arg1:T2 Arg2:T1
+R2	supports Arg1:T3 Arg2:T1
+R3	supports Arg1:T4 Arg2:T1
+R4	supports Arg1:T5 Arg2:T1
+R5	supports Arg1:T6 Arg2:T1
+R6	attacks Arg1:T7 Arg2:T1
+R7	supports Arg1:T8 Arg2:T3
+R8	supports Arg1:T9 Arg2:T3
+R9	supports Arg1:T10 Arg2:T4
+R10	supports Arg1:T11 Arg2:T5
+R11	supports Arg1:T12 Arg2:T5
+R12	supports Arg1:T13 Arg2:T12
+R13	supports Arg1:T14 Arg2:T12
+R14	supports Arg1:T15 Arg2:T6
+R15	supports Arg1:T16 Arg2:T7
+R16	attacks Arg1:T17 Arg2:T7

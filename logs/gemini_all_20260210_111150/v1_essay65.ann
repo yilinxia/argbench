@@ -1,0 +1,33 @@
+T1	MajorClaim 1916 2148	budgets should be allocated more on medical care and education rather than on building entertaining facilities, because the former is more essential, non-profit oriented to the public and can be accessed by the majority of citizens.
+T2	Claim 398 544	Taking care of thousands of citizens who suffer from disease or illiteracy is more urgent and pragmatic than building theaters or sports stadiums.
+A1	Stance T2 For
+T3	Premise 566 746	an uneducated person may barely appreciate musicals, whereas a physical damaged person, resulting from the lack of medical treatment, may no longer participate in any sports games.
+T4	Claim 758 847	providing education and medical care is more essential and prioritized to the government.
+A2	Stance T4 For
+T5	Claim 848 945	Entertaining facilities such as cinemas, theaters and sports stadiums are mostly profit-oriented.
+A3	Stance T5 For
+T6	Premise 946 1059	Their existences are based on their marketing strategies, the condition of facilities and the volume of audience.
+T7	Claim 1060 1194	The competition among each of these facilities is an inevitable part of the free market, which should not be interfered by government.
+A4	Stance T7 For
+T8	Claim 1195 1394	Instead, the establishment of medical facilities or educational institutes is aimed to improve the health or education standard rather than earning profits, which deserves more funds from government.
+A5	Stance T8 For
+T9	Claim 1408 1512	putting taxpayers' money on building theaters or sports stadiums is unfair to those who cannot use them.
+A6	Stance T9 For
+T10	Premise 1526 1581	not everyone is a fan of watching musicals on the spot.
+T11	Claim 1593 1699	it is a bit inappropriate to use the majority of citizens' tax funds to meet a minority of people's needs.
+A7	Stance T11 For
+T12	Claim 1723 1799	sectors such as medical care and education deserve more governmental support
+A8	Stance T12 For
+T13	Premise 1809 1879	they are accessed by every individual in our society on a daily basis.
+R1	supports Arg1:T3 Arg2:T2
+R2	supports Arg1:T2 Arg2:T4
+R3	supports Arg1:T4 Arg2:T1
+R4	supports Arg1:T6 Arg2:T5
+R5	supports Arg1:T5 Arg2:T7
+R6	supports Arg1:T7 Arg2:T1
+R7	supports Arg1:T8 Arg2:T1
+R8	supports Arg1:T10 Arg2:T9
+R9	supports Arg1:T9 Arg2:T11
+R10	supports Arg1:T11 Arg2:T1
+R11	supports Arg1:T13 Arg2:T12
+R12	supports Arg1:T12 Arg2:T1

@@ -1,0 +1,13 @@
+T1	MajorClaim 176 269	I claim that there are other equally vital aspects that need to be considered in this regard.
+T2	Claim 391 542	aspects such as: friendly colleagues, environment and work-place condition, sometimes, have even more impact on person's happiness and quality of life.
+T3	Premise 543 691	People, for instance, who don't like their co-workers and working condition are considered less satisfied with their jobs, despite of a high salary.
+T4	Claim 808 931	most of the satisfaction of a job comes to people from their professional achievements, skills and the position they reach.
+T5	Premise 948 1117	career promotion or getting some kind of credit from the administration of a company or organization are, likely, more enjoyable achievements than getting a high salary.
+T6	Premise 1131 1302	people, who work in monotonous jobs, where no achievements or a new positions can be reached feel themselves more dissatisfied, even though they have a very good salaries.
+A1	Stance T2 For
+A2	Stance T4 For
+R1	supports Arg1:T2 Arg2:T1
+R2	supports Arg1:T3 Arg2:T2
+R3	supports Arg1:T4 Arg2:T1
+R4	supports Arg1:T5 Arg2:T4
+R5	supports Arg1:T6 Arg2:T4

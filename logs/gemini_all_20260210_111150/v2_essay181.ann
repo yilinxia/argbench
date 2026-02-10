@@ -1,0 +1,26 @@
+T1	MajorClaim 49 146	I will be happy to hear that the government has a plan to build a new university in my community.
+T2	Claim 373 471	This new university will allow a great number of people in my community to have a chance to study.
+T3	Premise 472 814	For example, suppose you live in a faraway community where there is no single university and you might not want to leave your family. If you would like to attend a business school, you have to travel across the country to get to a distant university. He or she definitely can get in the business school in the proposed community's university.
+T4	Claim 815 1006	Undoubtedly, the university will have to hire professors, employees and etc. Thus, a number vacant positions need to be filled. Also there will be more opportunities to work in the community.
+T5	Premise 1007 1140	Moreover, when people have jobs, they will have money to spend on goods and services. This can also help stimulate the local economy.
+T6	Claim 1142 1208	However, building the university may lead to some social problems.
+T7	Premise 1209 1325	A number of people then may come from any other communities in order to get in to or get the jobs at the university.
+T8	Premise 1326 1423	When many people congregate in one place, I think that some kinds of social problems will follow.
+T9	Premise 1424 1512	Traffic may worsen. More wastes have to be managed. Maybe crime rate will also increase.
+T10	Premise 1513 1583	These social problems may impair the quality of life in the community.
+T11	MajorClaim 1585 1646	In sum, I myself agree with the plan to build the university.
+T12	Claim 1647 1700	I believe the benefit from it will outweigh the cost.
+A1	Stance T2 For
+A2	Stance T4 For
+A3	Stance T6 Against
+A4	Stance T12 For
+R1	supports Arg1:T3 Arg2:T2
+R2	supports Arg1:T5 Arg2:T4
+R3	supports Arg1:T7 Arg2:T6
+R4	supports Arg1:T8 Arg2:T6
+R5	supports Arg1:T9 Arg2:T6
+R6	supports Arg1:T10 Arg2:T6
+R7	supports Arg1:T2 Arg2:T1
+R8	supports Arg1:T4 Arg2:T1
+R9	attacks Arg1:T6 Arg2:T1
+R10	supports Arg1:T12 Arg2:T11

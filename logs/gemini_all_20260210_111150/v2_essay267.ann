@@ -1,0 +1,33 @@
+T1	MajorClaim 249 312	Television has destroyed communication among friends and family
+T2	Claim 314 365	Some People spend a lot of time watching television
+A1	Stance T2 For
+R1	supports Arg1:T2 Arg2:T1
+T3	Claim 367 402	others even eat watching television
+A2	Stance T3 For
+R2	supports Arg1:T3 Arg2:T1
+T4	Claim 404 449	and some others make of this media a priority
+A3	Stance T4 For
+R3	supports Arg1:T4 Arg2:T1
+T5	Claim 465 516	some people spend a lot of time watching television
+A4	Stance T5 For
+R4	supports Arg1:T5 Arg2:T2
+T6	Premise 518 604	Instead of spend time with family and friends, they like to seat on a chair for hours.
+R5	supports Arg1:T6 Arg2:T5
+T7	Premise 605 930	I know someone who wakes up in the morning and before even eat he turns the television on, he even records the programs he cannot watch during work hours. Sometimes his wife wants to talk before they go to work, but he only let her talk during commercials. So, she is used to his habit that she prefers to write him an email.
+R6	supports Arg1:T7 Arg2:T5
+T8	Premise 931 1035	Time with the family is gold, some people have to realize that and take quality of time to talk to them.
+R7	supports Arg1:T8 Arg2:T5
+T9	Claim 1095 1168	some people cannot even seat at the table and have dinner with the family
+A5	Stance T9 For
+R8	supports Arg1:T9 Arg2:T3
+T10	Premise 1170 1284	This is the time, when if they have children, they can share everything about school, a project and even concerns.
+R9	supports Arg1:T10 Arg2:T9
+T11	Premise 1285 1421	Also, when there is a dinner with friends, some people do not have a fluid conversation because the television is again in between them.
+R10	supports Arg1:T11 Arg2:T9
+T12	Premise 1422 1539	When family or friends gather together to have a good time eating and talking, this is not the reality in some cases.
+R11	supports Arg1:T12 Arg2:T9
+T13	Claim 1549 1591	some people make the television a priority
+A6	Stance T13 For
+R12	supports Arg1:T13 Arg2:T4
+T14	Premise 1414 1601	I remember a friend told one day that because she was watching a telenovela I could not go to her house a certain time during the night. Honestly, I was in shock! How she could say that to me?.
+R13	supports Arg1:T14 Arg2:T13

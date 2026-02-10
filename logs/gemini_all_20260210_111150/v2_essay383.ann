@@ -1,0 +1,16 @@
+T1	MajorClaim 1524 1613	I totally believe that technology has a great contribution to our lives and civilization.
+T2	Claim 557 599	human life has been improved dramatically.
+A1	Stance T2 For
+R1	supports Arg1:T2 Arg2:T1
+T3	Premise 600 778	Air-conditioners, computers, cellphones, washing machines, for example, is likely to be seen as greatest inventions helping people to reduce stress and time for other activities.
+R2	supports Arg1:T3 Arg2:T2
+T4	Premise 779 926	Moreover, applying technological science into the preparation of medications also plays a significant role in saving the number of patients' lives.
+R3	supports Arg1:T4 Arg2:T2
+T5	Claim 1053 1158	technological products have devastated the natural environment indirectly through its production process.
+A2	Stance T5 Against
+R4	attacks Arg1:T5 Arg2:T1
+T6	Premise 1159 1324	This is because exploiting and collecting raw materials as well as essential fuels to serve the production of technological products have destroyed nature seriously.
+R5	supports Arg1:T6 Arg2:T5
+T7	Claim 1325 1508	Last but not least, technology may decrease a great deal of creativity in certain groups of people especially children and the youth due to the dependence upon available achievements.
+A3	Stance T7 Against
+R6	attacks Arg1:T7 Arg2:T1

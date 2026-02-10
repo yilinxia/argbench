@@ -1,0 +1,27 @@
+T1	MajorClaim 258 385	international sporting occasions are essential in easing international tensions and releasing patriotic emotions in a safe way.
+T2	Claim 70 185	International sporting events are a good change to create a multi-nation community of fans having the same passion.
+T3	Claim 186 250	It will help people around the world understand each other more.
+T4	Claim 596 686	People can understand more about a country, it is useful to ease tensions between nations.
+T5	Premise 386 494	An international sporting event is normal held in a country with huge interest from fans all over the world.
+T6	Premise 495 595	For the time of occasions, people regardless of nationality, origin and religion will live together.
+T7	Premise 687 1042	For example in FIFA World Cup 2010, the relation between North Korea and South Korea is dangerous for the warship sinking. The world suspected North Korea of the aggressive action. However, due to this event North Korea showed a friendship and enthuasism. It is rare times when people can learn about this country. It really help to alleviate the tension.
+T8	Claim 1068 1157	an international sporting event also helps fans release patriotic emotions in a safe way.
+T9	Premise 1158 1250	When they garther together to encourage their team, they will show their patriotic emotions.
+T10	Premise 1251 1382	Regardless of the competition between teams, their emotions are always released in a safe way due to the sole passion of the sport.
+T11	Premise 1383 1569	Moreover, all fans know that a sport event will attract the attention of whole the world and a lot of public media. They will try to create a beautiful image about their land and people.
+T12	Premise 1570 1969	In Olympic Beijing 2008, Chinese tried thier best to bring the world a spectacular image about their country. First of all, foreigners came here always received the support of friendly volunteers who were young students. They were welcomed by each Chinese hospitality, beauty in each cities. Everythings is created by patriotic emotions of Chinese who wanted to bring a beautiful China to the world.
+A1	Stance T2 For
+A2	Stance T3 For
+A3	Stance T4 For
+A4	Stance T8 For
+R1	supports Arg1:T2 Arg2:T3
+R2	supports Arg1:T3 Arg2:T4
+R3	supports Arg1:T4 Arg2:T1
+R4	supports Arg1:T5 Arg2:T4
+R5	supports Arg1:T6 Arg2:T4
+R6	supports Arg1:T7 Arg2:T4
+R7	supports Arg1:T8 Arg2:T1
+R8	supports Arg1:T9 Arg2:T8
+R9	supports Arg1:T10 Arg2:T8
+R10	supports Arg1:T11 Arg2:T8
+R11	supports Arg1:T12 Arg2:T8

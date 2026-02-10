@@ -1,0 +1,34 @@
+T1	Claim 93 176	Some people think that all the countries in the world cannot have a single culture.
+T2	MajorClaim 198 286	a single modern culture is being created by modern technology for the following reasons.
+T3	Claim 296 371	most of the countries have the same educational system based on technology.
+T4	Premise 372 571	Teachers give topics to the students who should research on the internet to find data, and then students should type their research by using computer and even give a presentation by using PowerPoint.
+T5	Premise 585 727	students who are studying in Iran use the same software, Microsoft, to type their homework or have presentation compared to Canadian students.
+T6	Claim 738 804	new technology has created some similar jobs all around the world.
+T7	Premise 805 925	Computer technology is a growing job in most of the countries, and students are being encouraged to study in this field.
+T8	Premise 939 1087	many immigrants in Canada who have the degree in computer technology fields can easily go to Canadian universities and find jobs with good salaries.
+T9	Premise 1088 1187	This example shows that jobs that are related to technology are in demand in most of the countries.
+T10	Claim 1188 1329	Some people might argue that there are some cultures such as making foods which are unicq in each culture, and technology cannot affect them.
+T11	Claim 1382 1517	many countries such as Canada, the USA, and British have many restaurants which serve many foods form different countries and cultures.
+T12	Premise 1527 1587	cooks can find many new food recipes easily on the Internet.
+T13	Premise 1601 1714	two days ago, I went to a Canadian restaurant, and I ate noodle, sushi, which are Chinese foods, and Greek salad.
+T14	MajorClaim 1726 1827	new technology has affected cultures of the world, and we can see many similarities in many cultures.
+T15	Premise 1837 1918	new technology has influences on educational system, jobs and foods in the world.
+A1	Stance T1 Against
+A2	Stance T3 For
+A3	Stance T6 For
+A4	Stance T10 Against
+A5	Stance T11 For
+R1	attacks Arg1:T1 Arg2:T2
+R2	supports Arg1:T3 Arg2:T2
+R3	supports Arg1:T4 Arg2:T3
+R4	supports Arg1:T5 Arg2:T3
+R5	supports Arg1:T6 Arg2:T2
+R6	supports Arg1:T7 Arg2:T6
+R7	supports Arg1:T8 Arg2:T6
+R8	supports Arg1:T9 Arg2:T6
+R9	attacks Arg1:T10 Arg2:T2
+R10	attacks Arg1:T11 Arg2:T10
+R11	supports Arg1:T11 Arg2:T2
+R12	supports Arg1:T12 Arg2:T11
+R13	supports Arg1:T13 Arg2:T11
+R14	supports Arg1:T15 Arg2:T14

@@ -1,0 +1,36 @@
+T1	MajorClaim 336 465	I strongly agree that alternative means of transportation and international laws in controlling automobiles should be introduced.
+T2	Claim 561 639	an increase in the number of automobiles brings about environmental pollution.
+T3	Premise 640 810	Since automobile exhaust and carbon dioxides emission have bad impacts on the air, the air gets to be polluted and it causes respiratory disease of the local inhabitants.
+T4	Claim 822 934	it is crucial to alter automobiles to the other means of transportation and to legislate to control automobiles.
+T5	Claim 945 1021	an increase in the number of automobiles causes terrible traffic congestion.
+T6	Premise 1022 1214	Once we get into the traffic jam, it forces us to waste our time for a while. What is worse, traffic congestion irritates drivers and as a result, it leads to an increase of traffic accidents.
+T7	Claim 1221 1352	the methods to reduce the number of automobiles and to control car ownership and use should be immediately planned and implemented.
+T8	Claim 1387 1508	alternative forms of transportation and international laws to control automobiles ownership and use can work effectively.
+T9	Claim 1536 1624	alternative forms which emit less carbon dioxides and gasses than automobiles are ideal.
+T10	Premise 1625 1986	For example, rental bicycle system has been introduced in several European countries. This system is that at the corner of each district, the rental bicycles are placed and the people can ride it to the other districts with a small fee. Since bicycle expels neither carbon dioxides nor harmful gasses, it is a better form to protect environment than automobile.
+T11	Claim 2012 2073	the introduction of international laws can be also effective.
+T12	Premise 2074 2200	For instance, there are some regulations to limit the use of automobiles by time and to allow the people possess one car only.
+T13	Claim 2207 2300	these attempts to reduce automobiles can ease traffic congestion and environmental pollution.
+T14	Claim 2374 2566	I would state that alternative forms of transport and international laws on controlling automobiles are necessary due to the environmental protection and the alleviation of traffic congestion.
+A1	Stance T2 For
+A2	Stance T4 For
+A3	Stance T5 For
+A4	Stance T7 For
+A5	Stance T8 For
+A6	Stance T9 For
+A7	Stance T11 For
+A8	Stance T13 For
+A9	Stance T14 For
+R1	supports Arg1:T3 Arg2:T2
+R2	supports Arg1:T2 Arg2:T4
+R3	supports Arg1:T4 Arg2:T1
+R4	supports Arg1:T6 Arg2:T5
+R5	supports Arg1:T5 Arg2:T7
+R6	supports Arg1:T7 Arg2:T1
+R7	supports Arg1:T10 Arg2:T9
+R8	supports Arg1:T9 Arg2:T8
+R9	supports Arg1:T12 Arg2:T11
+R10	supports Arg1:T11 Arg2:T8
+R11	supports Arg1:T8 Arg2:T1
+R12	supports Arg1:T13 Arg2:T1
+R13	supports Arg1:T14 Arg2:T1

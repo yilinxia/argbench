@@ -1,0 +1,19 @@
+T1	MajorClaim 1378 1671	To sum up, students can learn outside the textbook and classroom with a real working experiences that can be a great opportunity for future job consideration whereas organizations earn much more as they can not only save time and money but also be enlightened by what young people have to say.
+T2	Claim 388 507	students can learn invaluable experiences through the period of time working for the institutions they are assigned to.
+A1	Stance T2 For
+T3	Premise 508 635	In most school curriculums, the courses are theoretical and often by instructors speaking to students sitting in the classroom.
+T4	Premise 649 773	students might have little idea of the real challenges or the true situation when they enter the workforce after graduation.
+T5	Premise 791 881	the internship, although without pay, can give them the experiences that money cannot buy.
+T6	Claim 904 952	the unpaid interns can no doubt save some money.
+A2	Stance T6 For
+T7	Claim 966 1203	the younger generations can help them generate new ideas as the students are not bound to restricted workload and they tend to have greater imagination, which can be essentially helpful when they are making a new advertisement or slogan.
+A3	Stance T7 For
+T8	Claim 1213 1377	they can start looking for potential employees and begin the training, therefore save the time and resources for searching new staffs and organizing an orientation.
+A4	Stance T8 For
+R1	supports Arg1:T3 Arg2:T2
+R2	supports Arg1:T4 Arg2:T2
+R3	supports Arg1:T5 Arg2:T2
+R4	supports Arg1:T2 Arg2:T1
+R5	supports Arg1:T6 Arg2:T1
+R6	supports Arg1:T7 Arg2:T1
+R7	supports Arg1:T8 Arg2:T1

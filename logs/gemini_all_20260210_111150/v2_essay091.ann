@@ -1,0 +1,22 @@
+T1	MajorClaim 238 358	a universal language playing the dominant role in the international community is of vital significance to global people.
+T2	Claim 410 494	a single international language plays a pivotal role in global economic cooperation.
+A1	Stance T2 For
+T3	Premise 495 694	As businessmen from different countries have access to the same language, they can communicate with each other more efficiently and deeply on trade, which can intensify the transnational cooperation.
+T4	Premise 695 892	In contrast, without the availability of the same language, there might be a chance that misunderstanding and conflicts would ensue over business negotiations, impeding collaborations between them.
+T5	Claim 970 1054	a universal language is an integral part of cultural communication and interactions.
+A2	Stance T5 For
+T6	Premise 1055 1328	If people are equipped with a single international language, they can tell each other smoothly about their countries' specific cultures such as the traditional customs or the modern lifestyles, which enables people to expand their outlooks, viewing the world in new angles.
+T7	Premise 1329 1558	For example, when people travel to foreign countries, the local people can introduce the tourist attractions to such people with the command of the universal language, helping foreign visitors have an enjoyable exotic experience.
+T8	Claim 1675 1768	a single international language may, to some extent, erode the cultural identity of a nation.
+A3	Stance T8 Against
+T9	Premise 1769 1904	This is because people may be impressed by the cultural values brought with the universal language, eroding a sense of national belong.
+T10	Premise 1905 2182	For instance, some Asians are seeking individualism, previously denied by many Asian countries, due to the fact that they have gradually identified with such values expressed in American movies, which are imported by the governments as a result of the proliferation of English.
+R1	supports Arg1:T3 Arg2:T2
+R2	supports Arg1:T4 Arg2:T2
+R3	supports Arg1:T2 Arg2:T1
+R4	supports Arg1:T6 Arg2:T5
+R5	supports Arg1:T7 Arg2:T5
+R6	supports Arg1:T5 Arg2:T1
+R7	supports Arg1:T9 Arg2:T8
+R8	supports Arg1:T10 Arg2:T8
+R9	attacks Arg1:T8 Arg2:T1

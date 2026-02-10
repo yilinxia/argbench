@@ -1,0 +1,39 @@
+T1	MajorClaim 289 407	if I had to choose, I would prefer to live in an apartment in the community rather than in the university dormitories.
+T2	Claim 415 473	an apartment provides a lot more freedom than a dormitory.
+A1	Stance T2 For
+T3	Premise 526 566	in the apartment you set your own rules.
+T4	Premise 567 639	You are free to have visits at any time or to be left alone if you want.
+T5	Claim 640 758	An apartment offers more privacy because you can choose to have your own room instead of sharing with another student.
+A2	Stance T5 For
+T6	Premise 795 849	you also get more space than you would in a dormitory.
+T7	Claim 890 945	people often argue that an apartment is more expensive.
+A3	Stance T7 Against
+T8	Claim 946 1071	This is only partially true, you could rent the extra rooms in the apartment to other people and rent would be a lot cheaper.
+A4	Stance T8 For
+T9	Claim 1072 1163	Transportation is another issue, you have to go to and return from the university everyday.
+A5	Stance T9 Against
+T10	Premise 1164 1246	You could choose to use public transportation, a cheaper option, or to have a car.
+T11	Premise 1247 1331	The car is an expensive option, but also offers freedom of schedule and destination.
+T12	Claim 1340 1480	the studying conditions are better in an apartment because you don't have all the noise and distractions that you often have in dormitories.
+A6	Stance T12 For
+T13	Premise 1481 1606	A lot of students often complain about their roommate playing music too loud or bringing friends over at inappropriate times.
+T14	Premise 1607 1741	Since in an apartment you don't have a roommate, you won't have this problem, and as a result you would be able to concentrate better.
+T15	Premise 1742 1903	For the same reason, you won't have a problem if you are the one who wants to play music, bring friends over, or study late at night. You set your own schedules.
+T16	Claim 1904 2068	In the other hand, living in a dormitory, and being surrounded by students also has some advantages, like being able to get help with any academic issues from them.
+A7	Stance T16 Against
+R1	supports Arg1:T2 Arg2:T1
+R2	supports Arg1:T3 Arg2:T2
+R3	supports Arg1:T4 Arg2:T2
+R4	supports Arg1:T5 Arg2:T1
+R5	supports Arg1:T6 Arg2:T5
+R6	attacks Arg1:T7 Arg2:T1
+R7	attacks Arg1:T8 Arg2:T7
+R8	supports Arg1:T8 Arg2:T1
+R9	attacks Arg1:T9 Arg2:T1
+R10	attacks Arg1:T10 Arg2:T9
+R11	supports Arg1:T11 Arg2:T10
+R12	supports Arg1:T12 Arg2:T1
+R13	supports Arg1:T13 Arg2:T12
+R14	supports Arg1:T14 Arg2:T12
+R15	supports Arg1:T15 Arg2:T12
+R16	attacks Arg1:T16 Arg2:T1

@@ -1,0 +1,30 @@
+T1	MajorClaim 185 282	In my opinion, although using machines have many benefits, we cannot ignore its negative effects.
+T2	Claim 283 337	It is undoubted that machines can bring many benefits.
+T3	Claim 353 392	machines are more effective than human.
+T4	Premise 393 556	Not like human, machines do not need rest, which means they can work as long as employers want and consistently produce high quality products without any mistakes.
+T5	Claim 570 610	using machines can save company's money.
+T6	Premise 611 738	Because machines never ask for salary, over-time pay or pension, so employers do not need to spend money on employee's welfare.
+T7	Premise 739 883	The company only needs some technicians to make sure machines are working on the right track or replace some part when machines are not working.
+T8	Claim 885 975	However, the disadvantages of machines that bring to us should not be neglected by people.
+T9	Claim 991 1058	because of extensive of using machines, many people loss their job.
+T10	Premise 1059 1163	Especially in large population countries, high unemployment rate may cause crime and social instability.
+T11	Claim 1181 1254	using of machines are also pose serious pollution and energy dissipation.
+T12	Premise 1255 1645	For example, nowadays people prefer to use dish-washing machine to wash dishes and plates rather than hand washing. But they did not know that compared with hand washing dish-washing machine consume at least 2 times water and electricity to wash these tableware. As you can imagine, if thousands of families use dish-washing machines, how many water and how much electricity will be wasted!
+T13	MajorClaim 1646 1810	In conclusion, although we cannot deny machines are play a vital role in people living and working, problems posed by machines should draws more attentions as well.
+A1	Stance T2 For
+A2	Stance T3 For
+A3	Stance T5 For
+A4	Stance T8 Against
+A5	Stance T9 Against
+A6	Stance T11 Against
+R1	supports Arg1:T2 Arg2:T1
+R2	supports Arg1:T3 Arg2:T2
+R3	supports Arg1:T4 Arg2:T3
+R4	supports Arg1:T5 Arg2:T2
+R5	supports Arg1:T6 Arg2:T5
+R6	supports Arg1:T7 Arg2:T5
+R7	supports Arg1:T8 Arg2:T1
+R8	supports Arg1:T9 Arg2:T8
+R9	supports Arg1:T10 Arg2:T9
+R10	supports Arg1:T11 Arg2:T8
+R11	supports Arg1:T12 Arg2:T11

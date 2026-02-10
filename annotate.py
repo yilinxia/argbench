@@ -14,6 +14,7 @@ import glob
 from pathlib import Path
 from datetime import datetime
 from collections import defaultdict
+from concurrent.futures import ThreadPoolExecutor, as_completed
 
 # Load configuration
 def load_config():
@@ -372,30 +373,39 @@ def main():
     parser = argparse.ArgumentParser(description="Argument Mining Annotation Script")
     parser.add_argument("--model", type=str, required=True, choices=["gemini", "claude", "azure"],
                         help="Model to use for annotation (required)")
+    parser.add_argument("--dataset", type=str, default="all", choices=["v1", "v2", "all"],
+                        help="Dataset version to process: v1, v2, or all (default: all)")
     parser.add_argument("--limit", type=int, default=None, 
                         help="Limit number of essays to process (for testing)")
+    parser.add_argument("--workers", type=int, default=5,
+                        help="Number of parallel workers (default: 5)")
     args = parser.parse_args()
     
     # Setup directories
-    text_dir = Path("text")
+    text_dir = Path("data/text")
     log_base_dir = Path("logs")
     log_base_dir.mkdir(exist_ok=True)
     
     # Create timestamp for this run
     timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
     
-    # Get all text files
-    essay_files = sorted(glob.glob(str(text_dir / "*.txt")))
+    # Get text files based on dataset selection
+    if args.dataset == "v1":
+        essay_files = sorted(glob.glob(str(text_dir / "v1_*.txt")))
+    elif args.dataset == "v2":
+        essay_files = sorted(glob.glob(str(text_dir / "v2_*.txt")))
+    else:  # all
+        essay_files = sorted(glob.glob(str(text_dir / "*.txt")))
     
     # Apply limit if specified
     if args.limit:
         essay_files = essay_files[:args.limit]
     
     if not essay_files:
-        print("No essay files found in text/ directory")
+        print(f"No essay files found in {text_dir}/ directory for dataset '{args.dataset}'")
         return
     
-    print(f"Found {len(essay_files)} essays to process\n")
+    print(f"Found {len(essay_files)} essays to process (dataset: {args.dataset})\n")
     
     # Map model name to call function
     model_map = {
@@ -407,13 +417,14 @@ def main():
     model_name = args.model
     call_func = model_map[model_name]
     
-    # Create output directory with model name and timestamp
-    output_dir = log_base_dir / f"{model_name}_{timestamp}"
+    # Create output directory with model name, dataset, and timestamp
+    output_dir = log_base_dir / f"{model_name}_{args.dataset}_{timestamp}"
     output_dir.mkdir(exist_ok=True)
     
     print(f"{'='*50}")
-    print(f"Processing with {model_name.upper()}")
+    print(f"Processing with {model_name.upper()} (dataset: {args.dataset})")
     print(f"Output: {output_dir}")
+    print(f"Workers: {args.workers}")
     print(f"{'='*50}")
     
     success_count = 0
@@ -421,15 +432,38 @@ def main():
     all_stats = []
     per_file_stats = {}
     
-    for essay_path in essay_files:
-        success, essay_name, stats = process_essay(essay_path, model_name, call_func, output_dir)
-        if success:
-            success_count += 1
-            all_stats.append(stats)
-            per_file_stats[essay_name] = stats
-        else:
-            fail_count += 1
-            per_file_stats[essay_name] = None
+    # Process essays in parallel
+    with ThreadPoolExecutor(max_workers=args.workers) as executor:
+        # Submit all tasks
+        future_to_essay = {
+            executor.submit(process_essay, essay_path, model_name, call_func, output_dir): essay_path
+            for essay_path in essay_files
+        }
+        
+        # Process completed tasks as they finish
+        completed = 0
+        total = len(essay_files)
+        for future in as_completed(future_to_essay):
+            essay_path = future_to_essay[future]
+            completed += 1
+            try:
+                success, essay_name, stats = future.result()
+                if success:
+                    success_count += 1
+                    all_stats.append(stats)
+                    per_file_stats[essay_name] = stats
+                else:
+                    fail_count += 1
+                    per_file_stats[essay_name] = None
+            except Exception as e:
+                essay_name = Path(essay_path).stem
+                print(f"  ✗ {essay_name}: {str(e)}")
+                fail_count += 1
+                per_file_stats[essay_name] = None
+            
+            # Print progress
+            if completed % 10 == 0 or completed == total:
+                print(f"Progress: {completed}/{total} ({success_count} succeeded, {fail_count} failed)")
     
     # Aggregate statistics
     total_stats = aggregate_statistics(all_stats)

@@ -1,0 +1,24 @@
+T1	MajorClaim 1716 1891	people are now more conscious to gain more educational qualification and also are more interested to work on various fields simultaneously to earn more and support themselves.
+T2	Claim 285 467	new generations are more interested to perform several jobs and also would like to gain multiple higher educational certificates in order to earn more and to gain financial security.
+T3	Claim 580 692	with the recent recession, almost all the countries all over the world are seeing significant economic downfall.
+T4	Premise 693 767	This overwhelming crisis is prompting delayering and reduction of workers.
+T5	Premise 781 891	people are focusing on doing several jobs or gaining further qualification to secure their economic condition.
+T6	Claim 902 994	the arrival of technology has also been playing a major role promoting further unemployment.
+T7	Premise 1058 1225	North American economists have published reports after scrutinizing the recent American economic situation that, technology is eliminating more jobs than creating one.
+T8	Premise 1226 1419	For example, robots, automation and softwares are taking over manual human workers professions such as clerks, interpreters, security services, retails and specially in manufacturing companies.
+T9	Premise 1425 1466	many people's jobs are now at high stake.
+T10	Claim 1551 1667	corporational policy to to pay less to inferiors is another reason that drives labours to work on different sectors.
+A1	Stance T2 For
+A2	Stance T3 For
+A3	Stance T6 For
+A4	Stance T10 For
+R1	supports Arg1:T2 Arg2:T1
+R2	supports Arg1:T3 Arg2:T1
+R3	supports Arg1:T4 Arg2:T3
+R4	supports Arg1:T5 Arg2:T3
+R5	supports Arg1:T5 Arg2:T1
+R6	supports Arg1:T6 Arg2:T1
+R7	supports Arg1:T7 Arg2:T6
+R8	supports Arg1:T8 Arg2:T7
+R9	supports Arg1:T9 Arg2:T6
+R10	supports Arg1:T10 Arg2:T1

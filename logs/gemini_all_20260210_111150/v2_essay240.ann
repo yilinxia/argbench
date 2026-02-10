@@ -1,0 +1,16 @@
+T1	MajorClaim 336 475	From my point of view, I am in favor the former statement that some tough experiences people met before will be helpful in their life path.
+T2	Claim 476 671	To start with, hardship makes people realize how to cherish and compliment the common but wonderful little things happened in their life such as, a shining weather, a delicious breakfast and etc.
+T3	Premise 672 825	People who have such nice spirit usually know how to find the true love in their life instead of being seduced by greed as to lose themselves in the end.
+T4	Premise 826 935	As a result, experiences of difficulties teach them how to keep a nice mood and have confidence all the time.
+T5	Claim 936 1034	What's more, people who experienced lots of difficulties will be calmer when they are in troubles.
+T6	Premise 1035 1185	Because they already have such experiences of overcoming some difficulties, they are conscious of what to do and how to do when fierce crisis happens.
+T7	Premise 1186 1379	Those people are more likely to achieve their ambitions in their career because they are aware of how to lead people to reach success despite what kind of difficulties are getting in their way.
+T8	MajorClaim 1380 1596	So, to sum it up, both not afraid of difficulties and appreciating common but pleasant things in their lives drive me to believe that most tough experiences in people's life path will be a priceless treasure to them.
+A1	Stance T2 For
+A2	Stance T5 For
+R1	supports Arg1:T2 Arg2:T1
+R2	supports Arg1:T3 Arg2:T2
+R3	supports Arg1:T4 Arg2:T2
+R4	supports Arg1:T5 Arg2:T1
+R5	supports Arg1:T6 Arg2:T5
+R6	supports Arg1:T7 Arg2:T5

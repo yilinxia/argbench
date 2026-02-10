@@ -1,0 +1,23 @@
+T1	MajorClaim 171 295	I do not agree that this explosion in technology will 'innovate' the education system, by replacing teachers with computers.
+T2	Claim 381 421	computers need to be operated by people.
+A1	Stance T2 For
+R1	supports Arg1:T2 Arg2:T1
+T3	Premise 671 786	scientists prove that every classroom needs trained staff to use these interactive and innovative ways of teaching.
+R2	supports Arg1:T3 Arg2:T2
+T4	Premise 787 952	I agree that nowadays the learning process benefits greatly from computers, but they are just tools for teachers and they cannot work properly without human's touch.
+R3	supports Arg1:T4 Arg2:T2
+T5	Premise 422 506	No one can argue that technological tools are must-haves for the classroom of today.
+R4	supports Arg1:T5 Arg2:T2
+T6	Premise 507 661	For example, lessons are more attractive and easier to understand when they are put on a Power Point presentation and then presented with a LCD Projector.
+R5	supports Arg1:T6 Arg2:T5
+T7	Claim 963 996	children need human interactions.
+A2	Stance T7 For
+R6	supports Arg1:T7 Arg2:T1
+T8	Premise 997 1118	No matter how advanced technology will be, it is clear that a computer will never be able to communicate with its pupils.
+R7	supports Arg1:T8 Arg2:T7
+T9	Premise 1119 1479	As a recent interview with Josh Trumm – the founder of the 'Teachers Global Group'- reveals, human interactions will never be imitated by computers: 'This verbal and non-verbal communication between teachers and children is the first step towards a proper education. Without someone who can explain and understand their problems, pupils cannot actually learn'.
+R8	supports Arg1:T9 Arg2:T7
+T10	Premise 1480 1611	I am inclined to agree with this scientific view, because only a teacher can feel and connect with pupils, be a friend and a model.
+R9	supports Arg1:T10 Arg2:T7
+T11	Premise 1792 1863	Teachers are not just teachers, they are also friends and conseilieurs.
+R10	supports Arg1:T11 Arg2:T1

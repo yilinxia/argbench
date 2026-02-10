@@ -1,0 +1,24 @@
+T1	MajorClaim 0 79	Parents are the best teachers because they are more special than everybody else
+T2	Premise 135 268	Children normally think that their parents are somehow special and that makes them the most important people in the children’s lives.
+T3	Claim 278 338	the things that parents say have great power to their child.
+T4	Premise 393 617	For example, if someone tells a kid that something is wrong and they shouldn't do it, but his father told him/her that it was right, the kid will listen to the father instead of the other person, even if his father is wrong.
+T5	Claim 628 772	a child normally spends more time with their parents than with other people, so their parents have more time to teach him/her than anybody else.
+T6	Premise 773 834	They have more contact and more intimacy with their children.
+T7	Claim 844 896	children usually mirror themselves on their parents.
+T8	Premise 897 1052	That’s as important thing because even if the parents don’t intend to teach their children something, they are always observing and learning by themselves.
+T9	Premise 1053 1174	So, if there is a man that beats his wife and treats her bad, his child probably is going to be rude and treat girls bad.
+T10	Premise 1175 1233	All in all, I agree that parents are the greatest teachers
+T11	Premise 1234 1374	and I think that they should be very careful with what they say and do in front of their child, because it can define who he is going to be.
+A1	Stance T3 For
+A2	Stance T5 For
+A3	Stance T7 For
+R1	supports Arg1:T2 Arg2:T1
+R2	supports Arg1:T3 Arg2:T1
+R3	supports Arg1:T4 Arg2:T3
+R4	supports Arg1:T5 Arg2:T1
+R5	supports Arg1:T6 Arg2:T5
+R6	supports Arg1:T7 Arg2:T1
+R7	supports Arg1:T8 Arg2:T7
+R8	supports Arg1:T9 Arg2:T7
+R9	supports Arg1:T10 Arg2:T1
+R10	supports Arg1:T11 Arg2:T1

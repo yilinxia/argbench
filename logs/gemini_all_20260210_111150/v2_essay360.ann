@@ -1,0 +1,13 @@
+T1	MajorClaim 1803 1961	although some celebrities misguide young people by showing their external wealth and appearance, other celebrities do lead young people in the right direction
+T2	Claim 596 760	If they continue to behave in such a way, it will create a misleading image to young people who may think that extraordinary life can be achieved without hard work.
+A1	Stance T2 For
+T3	Premise 443 595	some movie starts enjoy wearing luxury brand clothes and showing their expensive life style in front of the media, thereby gaining the public attention.
+R1	supports Arg1:T3 Arg2:T2
+T4	Premise 775 922	the attention of young people may become focused on chasing the dream of celebrity status. This is detrimental to study and work ethics and habits.
+R2	supports Arg1:T4 Arg2:T2
+T5	Claim 924 1050	Nevertheless, I believe that other celebrities do set up role models to young people because of their visible accomplishments.
+A2	Stance T5 For
+T6	Premise 1051 1413	Firstly, celebrities such as sports player whose performance and professional skills can be directly seen by their fans. This means that people understand that the great deal of efforts on training is directly linked to their results. Therefore, this kind of self-made celebrity can inspire children to develop their talents through application and perseverance.
+R3	supports Arg1:T6 Arg2:T5
+T7	Premise 1414 1789	Secondly, other celebrities such as musician also have achieved great success in their career. Take Michael Jackson as an example, his works are widely spread around the world, and have been extremely welcomed by the younger generation. His songs spread the idea that people should care about each other, which suggests to young people how to become a good member of society.
+R4	supports Arg1:T7 Arg2:T5

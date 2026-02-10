@@ -1,0 +1,39 @@
+T1	MajorClaim 393 475	I agree with this notion that students should be asked to evaluate their teachers.
+T2	Claim 152 237	evaluating from students is one of the ways to improve quality of educational system.
+T3	Claim 238 381	Not only teachers could amplify their performance but the whole education system are also improve performance from evaluation made by students.
+T4	Claim 491 564	Evaluating teachers made by students could improve teachers' performance.
+T5	Claim 1052 1113	this evaluation from students could improve schools' quality.
+T6	Claim 1563 1625	people who get the most advantage from evaluation is students.
+T7	Premise 0 70	Getting opinions from many sources could augment people's performance.
+T8	Premise 578 711	evaluation made by students is similar to feedback from customer that business owners need to know in order to improve their product.
+T9	Premise 712 820	Students might complain about their teachers spoke too fast that students could not catch up on information.
+T10	Premise 835 964	teachers could improve themselves by speaking slower to make sure that students could get all information that they want to give.
+T11	Premise 1114 1151	Teachers could augment their quality.
+T12	Premise 1166 1257	When school gather teachers that have great performance, school are gaining higher quality.
+T13	Premise 1272 1409	in many cooperation such as Microsoft that could produce many great products because they have employees whose performance are very high.
+T14	Premise 1410 1553	Schools could produce intellectual students because school have teachers who are always improve their quality from evaluation made by students.
+T15	Premise 1626 1720	Students could study in class that have teachers who have experienced and greater performance.
+T16	Premise 1721 1882	Because teachers are always adapt the way they teach in order to make students easy to understand their subjects, students could comprehend their subject easily.
+T17	Premise 1896 2036	students, who study from great schools which have great performance teacher, graduate with great knowledge to survive in next steps of life.
+A1	Stance T2 For
+A2	Stance T3 For
+A3	Stance T4 For
+A4	Stance T5 For
+A5	Stance T6 For
+R1	supports Arg1:T2 Arg2:T1
+R2	supports Arg1:T3 Arg2:T1
+R3	supports Arg1:T4 Arg2:T1
+R4	supports Arg1:T5 Arg2:T1
+R5	supports Arg1:T6 Arg2:T1
+R6	supports Arg1:T7 Arg2:T2
+R7	supports Arg1:T8 Arg2:T4
+R8	supports Arg1:T9 Arg2:T4
+R9	supports Arg1:T10 Arg2:T4
+R10	supports Arg1:T11 Arg2:T5
+R11	supports Arg1:T12 Arg2:T5
+R12	supports Arg1:T13 Arg2:T5
+R13	supports Arg1:T14 Arg2:T5
+R14	supports Arg1:T15 Arg2:T6
+R15	supports Arg1:T16 Arg2:T6
+R16	supports Arg1:T17 Arg2:T6
+R17	supports Arg1:T4 Arg2:T11

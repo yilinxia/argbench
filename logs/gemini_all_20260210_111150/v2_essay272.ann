@@ -1,0 +1,26 @@
+T1	MajorClaim 217 339	I personally disagree with this notion that these types of communication, telephones and email, made people less personal.
+T2	Claim 406 499	telephones and email help people, who live far away from other people, to connect each other.
+T3	Premise 500 598	Unlike email, send message by using mail service could be lost and could be sent to wrong address.
+T4	Premise 599 691	I can using telephones and email to talk or write directly to people I want to connect with.
+T5	Premise 692 907	For example, right now, I am in the U.S. It is not possible to have conversation in person with my parents, who live in my country. Consequently, I can make a phone call or write email to my parents whenever I want.
+T6	Premise 908 962	Telephones and email made me feel close to my parents.
+T7	Claim 971 1072	using telephones and email could express some important words better than face-to-face communication.
+T8	Premise 1073 1305	For instant, sometime when I argue with my friends, I cannot express my self to my friends at that moment. So, when I have a time to realize what had happened, I could explain the real thought that I want to express without emotion.
+T9	Premise 1306 1364	Thus, these types of communications make me feel personal.
+T10	Claim 1365 1465	Telephones and email make me feel personal because I could directly connect with people that I love.
+T11	Claim 1474 1539	I could express my personal thought through telephones and email.
+T12	MajorClaim 1540 1644	As a result, I believe that telephones and email do not make communication between people less personal.
+A1	Stance T2 For
+A2	Stance T7 For
+A3	Stance T10 For
+A4	Stance T11 For
+R1	supports Arg1:T3 Arg2:T2
+R2	supports Arg1:T4 Arg2:T2
+R3	supports Arg1:T5 Arg2:T4
+R4	supports Arg1:T6 Arg2:T2
+R5	supports Arg1:T2 Arg2:T1
+R6	supports Arg1:T8 Arg2:T7
+R7	supports Arg1:T9 Arg2:T7
+R8	supports Arg1:T7 Arg2:T1
+R9	supports Arg1:T10 Arg2:T12
+R10	supports Arg1:T11 Arg2:T12

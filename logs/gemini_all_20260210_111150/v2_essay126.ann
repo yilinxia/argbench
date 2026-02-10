@@ -1,0 +1,43 @@
+T1	MajorClaim 179 304	However, I still agree that it's better to have one or two close friends than to have a large number of casual acquaintances.
+T2	Claim 305 395	We can not deny that being a friend with someone is different from only being acquaintant.
+T3	Claim 403 444	it's not easy to make friend with anyone.
+T4	Premise 445 519	I believe friends are people who have great compatibility with each other.
+T5	Premise 520 708	After two years in college I have found sometimes there is more differences between people than similarities, for we are growing in the different families and was educated in various ways.
+T6	Premise 709 756	Sometimes acquaintances are just acquaintances.
+T7	Premise 757 809	We spend time together but we could never be friend.
+T8	Premise 810 894	So, it's much easier to have some casual acquaintances than have some close friends.
+T9	Claim 903 960	close friends can easily understand each others feelings.
+T10	Premise 961 1079	Because of the similarity I talked before, acquaintances probably not able to understand you better than your friends.
+T11	Premise 1080 1146	Moreover, they wouldn't even spare time to consider your feelings.
+T12	Premise 1147 1214	Everyone play the role of acquaintance and friend at the same time.
+T13	Premise 1215 1300	Being friendly is a good way to treat a acquaintance but way not enough for a friend.
+T14	Premise 1301 1437	When my friend is sick, I would not only ask if he is okay like an acquaintance but do my best to make him get well as soon as possible.
+T15	Premise 1438 1592	If my friend is going to the wrong direction in his life trail, I will try my best to pull him back, but not stand and stare like it's not of my business.
+T16	Premise 1593 1640	And I believe my friend will do the same to me.
+T17	Premise 1656 1692	a friend is a person you care about.
+T18	Claim 1701 1770	friends are the most important people in my life second to my family.
+T19	Premise 1771 1887	I am the kind of person who has only one or two close friends, and I am fully content that I have such nice friends.
+T20	Premise 1888 1977	If someone exchange my friends with thousands of acquaintances, I will definitely say NO.
+A1	Stance T2 For
+A2	Stance T3 For
+A3	Stance T9 For
+A4	Stance T18 For
+R1	supports Arg1:T2 Arg2:T1
+R2	supports Arg1:T3 Arg2:T1
+R3	supports Arg1:T4 Arg2:T3
+R4	supports Arg1:T5 Arg2:T4
+R5	supports Arg1:T6 Arg2:T3
+R6	supports Arg1:T7 Arg2:T3
+R7	supports Arg1:T8 Arg2:T3
+R8	supports Arg1:T9 Arg2:T1
+R9	supports Arg1:T10 Arg2:T9
+R10	supports Arg1:T11 Arg2:T9
+R11	supports Arg1:T12 Arg2:T9
+R12	supports Arg1:T13 Arg2:T9
+R13	supports Arg1:T14 Arg2:T9
+R14	supports Arg1:T15 Arg2:T9
+R15	supports Arg1:T16 Arg2:T9
+R16	supports Arg1:T17 Arg2:T9
+R17	supports Arg1:T18 Arg2:T1
+R18	supports Arg1:T19 Arg2:T18
+R19	supports Arg1:T20 Arg2:T18

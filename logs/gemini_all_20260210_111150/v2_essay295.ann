@@ -1,0 +1,36 @@
+T1	MajorClaim 0 57	Learning with a teacher is more efficient than by myself.
+T2	Claim 147 207	As for the learning by yourself, it has some certain profit.
+A1	Stance T2 Against
+T3	Premise 208 374	It gives you a chance to concentrate on what you learn cause there is no one who distracts your attention in presence of you, and your learning becomes more profound.
+T4	Premise 375 484	In addition, the learning with a teacher makes us bear more burdens of studies cause they assign us homework,
+T5	Claim 571 682	The distinguishing fact of the learning with a teacher is that you can ask about problems related your studies.
+A2	Stance T5 For
+T6	Premise 683 859	In other words, when we encounter difficulty in our study which we can not make out, that asking the difficulty from our teacher is propitious way for us to solve it instantly.
+T7	Premise 860 998	In addition, professors and teachers have much experience and knowledge, and are so dextrous with letting students understand their study.
+T8	Premise 999 1086	They know something which are not incorporated in such materials as books and webpages.
+T9	Premise 1087 1265	Hence I, in my class, often communicate with my teacher to find a coordinated answer to a my faced problem, and my classmates are so accustomed to communicating with the teacher.
+T10	Claim 1277 1350	in my mind, the learning with a teacher is more efficient than by myself.
+A3	Stance T10 For
+T11	Premise 1351 1454	We can accomplish our assignments with little help of a teacher within less time than do it by ourself.
+T12	Premise 1455 1534	Furthermore, the teachers play important role in leading us to right direction.
+T13	Premise 1535 1621	Moreover, This gives us opportunity to rise our educational level to an exited degree.
+T14	Premise 1622 1680	knowledge may be thereby better improved and strengthened.
+T15	Claim 1701 1742	being without a teacher has shortcomings.
+A4	Stance T15 For
+T16	Premise 1743 1933	Notable one of the shortcomings is that if someone faced so complicated confusion in his study and his many endeavors on making out it were miscarried, this might be ended in disappointment.
+T17	Premise 1934 2091	I think that for one who depends on only himself in learning, his improvement of ability, with regard to cooperation and express his opinion, is unpromising.
+R1	supports Arg1:T3 Arg2:T2
+R2	supports Arg1:T4 Arg2:T2
+R3	supports Arg1:T5 Arg2:T1
+R4	supports Arg1:T6 Arg2:T5
+R5	supports Arg1:T7 Arg2:T5
+R6	supports Arg1:T8 Arg2:T7
+R7	supports Arg1:T9 Arg2:T5
+R8	supports Arg1:T10 Arg2:T1
+R9	supports Arg1:T11 Arg2:T10
+R10	supports Arg1:T12 Arg2:T10
+R11	supports Arg1:T13 Arg2:T12
+R12	supports Arg1:T14 Arg2:T13
+R13	supports Arg1:T15 Arg2:T1
+R14	supports Arg1:T16 Arg2:T15
+R15	supports Arg1:T17 Arg2:T15

@@ -1,0 +1,45 @@
+T1	MajorClaim 245 299	I believe that the zoo is invaluable for human beings.
+T2	Claim 300 332	It is very crucial for learning.
+T3	Claim 333 368	It helps animals out of extinction.
+T4	Claim 369 411	Also, it is a interesting travel location.
+T5	Claim 412 461	First of all, the zoo gives humans new knowledge.
+T6	Claim 978 1069	Secondly, the zoo preserves a large number of rare animals and provides them safe habitats.
+T7	Claim 1265 1385	Last but not least, because of all weird, acute, and beautiful animals in the zoo, it can be a great tourist attraction.
+T8	Premise 571 634	Inevitably, the zoo is the important place for innate learning.
+T9	Premise 635 707	The zoo also let students have a chance to learning biology practically.
+T10	Premise 708 765	They are able to observe animals' behaviors and features.
+T11	Premise 766 843	Moreover, practical learning help students relax from a boring lecture class.
+T12	Premise 844 934	Besides, researchers need the zoo to pick up some examples of animals for their researches
+T13	Premise 935 977	because it has diverse species of animals.
+T14	Premise 1070 1118	In the zoo, there is not so harmful as a forest.
+T15	Premise 1119 1180	They, fed by zookeepers, do not need to find food themselves.
+T16	Premise 1181 1264	Furthermore, we can do artificial insemenation to maintain nearly extinct wildlife.
+T17	Premise 1386 1452	There are a lot of tourists who seek to see those animals closely.
+T18	Premise 1453 1560	If the zoo has a large number of both national and foreign tourists, it will receive a great deal of money.
+T19	Premise 1561 1621	That also make money flow, and then economics become better.
+T20	Premise 1622 1655	It benefits to a certain country.
+A1	Stance T2 For
+A2	Stance T3 For
+A3	Stance T4 For
+A4	Stance T5 For
+A5	Stance T6 For
+A6	Stance T7 For
+R1	supports Arg1:T2 Arg2:T1
+R2	supports Arg1:T3 Arg2:T1
+R3	supports Arg1:T4 Arg2:T1
+R4	supports Arg1:T5 Arg2:T2
+R5	supports Arg1:T8 Arg2:T5
+R6	supports Arg1:T9 Arg2:T5
+R7	supports Arg1:T10 Arg2:T9
+R8	supports Arg1:T11 Arg2:T9
+R9	supports Arg1:T12 Arg2:T5
+R10	supports Arg1:T13 Arg2:T12
+R11	supports Arg1:T6 Arg2:T3
+R12	supports Arg1:T14 Arg2:T6
+R13	supports Arg1:T15 Arg2:T6
+R14	supports Arg1:T16 Arg2:T6
+R15	supports Arg1:T7 Arg2:T4
+R16	supports Arg1:T17 Arg2:T7
+R17	supports Arg1:T18 Arg2:T7
+R18	supports Arg1:T19 Arg2:T18
+R19	supports Arg1:T20 Arg2:T19

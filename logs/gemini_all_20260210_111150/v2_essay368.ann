@@ -1,0 +1,25 @@
+T1	MajorClaim 339 447	Thus, it is argued that smoking should be made prohibited in public places such as bus and railway stations.
+T2	Premise 52 142	People the world over have designated smoothing as a shameful practice and a lethal habit.
+T3	Premise 143 220	Several millions of smokers die suffering from cancers such as lung and oral.
+T4	Premise 221 338	This bad habit also responsible for causing health hazards to passive-smokers: who are around smoking is taken place.
+T5	Claim 566 653	To start, non-smoking public would be undoubtedly benefited by enforcing such restrain.
+T6	Premise 654 758	Prior to 1980's public places in Sri Lanka, illustrates unpleasant situation where people smoked freely.
+T7	Premise 759 882	Even in public transportation they engaged in this intolerant bad habit, some instances that lead to belligerent incidents.
+T8	Premise 883 989	After enforcing restrictions the situation came to control and this act as benefit rendered to the public.
+T9	Claim 990 1114	In addition to this, introducing smoking ban in public places would greatly discourage people from engaging tobacco puffing.
+T10	Premise 1115 1276	For instance, further enforcement banned smoking in capital in Sri Lanka has reduced this consumption related diseases and deaths, as per the ministry of health.
+T11	Premise 1277 1420	As this shows, smoking restrictions has successfully daunted public from this bad puffing that put less strain on country's healthcare systems.
+T12	Premise 1421 1547	After analyzing smoke illegalization in public places in Sri Lanka, it has been proven benefits people enjoy this arrangement.
+A1	Stance T5 For
+A2	Stance T9 For
+R1	supports Arg1:T2 Arg2:T1
+R2	supports Arg1:T3 Arg2:T1
+R3	supports Arg1:T4 Arg2:T1
+R4	supports Arg1:T5 Arg2:T1
+R5	supports Arg1:T6 Arg2:T5
+R6	supports Arg1:T7 Arg2:T6
+R7	supports Arg1:T8 Arg2:T5
+R8	supports Arg1:T9 Arg2:T1
+R9	supports Arg1:T10 Arg2:T9
+R10	supports Arg1:T11 Arg2:T9
+R11	supports Arg1:T12 Arg2:T1

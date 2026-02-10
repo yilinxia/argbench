@@ -1,0 +1,26 @@
+T1	MajorClaim 1323 1513	In modern life, zoos have become even more important in serving as places for people to study and enjoy the nature while a lot of natural destruction is made to build towers and skyscrapers.
+T2	Claim 428 464	humanities benefit so much from zoos
+A1	Stance T2 For
+T3	Claim 480 524	zoos are fascinating places of entertainment
+A2	Stance T3 For
+T4	Premise 562 689	the very nature and wildness are all brought into zoos and spending time there help us to forget all stress as well as pressure
+T5	Claim 691 748	Another function that all zoos serve relates to education
+A3	Stance T5 For
+T6	Premise 750 859	Many students as well as people find zoos as good places for witnessing and researching the true animal world
+T7	Claim 871 957	some zoos are also reservation sites of many animals that are about to become extinct.
+A4	Stance T7 For
+T8	Claim 1019 1057	zoos just take away freedom of animals
+A5	Stance T8 Against
+T9	Premise 1059 1161	Being confined, animals may lose their own nature as well as wildness and feel upset and discontented.
+T10	Premise 1180 1269	zoos are some kind of prisons and it's so cruel and wrong to keep animal in such prisons.
+T11	Premise 1514 1721	Besides, recently, zookeepers have also tried their best to make animals feel more comfortable by making artificial landscapes more familiar to the nature, taking care all animals in both feeding and sanity.
+R1	supports Arg1:T2 Arg2:T1
+R2	supports Arg1:T3 Arg2:T1
+R3	supports Arg1:T4 Arg2:T3
+R4	supports Arg1:T5 Arg2:T1
+R5	supports Arg1:T6 Arg2:T5
+R6	supports Arg1:T7 Arg2:T1
+R7	attacks Arg1:T8 Arg2:T1
+R8	supports Arg1:T9 Arg2:T8
+R9	supports Arg1:T10 Arg2:T8
+R10	supports Arg1:T11 Arg2:T1

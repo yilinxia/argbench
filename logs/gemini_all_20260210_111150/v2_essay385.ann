@@ -1,0 +1,33 @@
+T1	MajorClaim 236 369	Personally, I tend to disagree with this statement, while I believe that other factors contribute a slight incline level of violence.
+T2	Claim 370 497	On the one hand, I agree that a police holds a responsibility to tackle of violence in the urban or suburban areas using a gun.
+T3	Premise 498 666	An obvious example of this happens in The United State, a man killed more than ten people in the cinema using a weapon, while a police shot in the foot to paralyze him.
+T4	Premise 667 837	Obviously, police officers can force a criminal to surrender, because they have a weapon which will prevent an escaping criminal who poses a serious danger to the public.
+T5	Claim 838 966	As a result, some military weapons need encouraging for police officers to protect the public and minimize the rate of violence.
+T6	Claim 967 1075	On the other hand, there are some reason why the level of bloody increases significantly in the communities.
+T7	Premise 1076 1192	Firstly, the number of unemployment rate has risen to 15 percent in several globalized and non-globalized countries.
+T8	Premise 1193 1281	Many well-qualified and well-educated person cannot earn some money to live comfortably.
+T9	Premise 1282 1534	Secondly, cost of living in the big city is extremely expensive, so this problem impresses some people who live under the poverty line to do anything to pay their basic needs. Many baggers chose to be a pickpocket in the public transport, for instance.
+T10	Claim 1535 1656	In conclusion, it seems to me that the guns which are used by police have not been a trigger of higher level of violence.
+T11	Claim 1657 1750	However, some cases occupy a crucial reason to do a criminality in society such unemployment.
+T12	Claim 1751 1840	In my view, the main focus is decreasing a level of unemployment to avoid a criminal act.
+A1	Stance T2 For
+A2	Stance T5 For
+A3	Stance T6 For
+A4	Stance T10 For
+A5	Stance T11 For
+A6	Stance T12 For
+R1	supports Arg1:T2 Arg2:T1
+R2	supports Arg1:T3 Arg2:T2
+R3	supports Arg1:T4 Arg2:T2
+R4	supports Arg1:T3 Arg2:T5
+R5	supports Arg1:T4 Arg2:T5
+R6	supports Arg1:T5 Arg2:T1
+R7	supports Arg1:T6 Arg2:T1
+R8	supports Arg1:T7 Arg2:T6
+R9	supports Arg1:T8 Arg2:T7
+R10	supports Arg1:T9 Arg2:T6
+R11	supports Arg1:T10 Arg2:T1
+R12	supports Arg1:T11 Arg2:T1
+R13	supports Arg1:T11 Arg2:T10
+R14	supports Arg1:T12 Arg2:T11
+R15	supports Arg1:T12 Arg2:T1

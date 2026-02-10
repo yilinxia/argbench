@@ -1,0 +1,35 @@
+T1	MajorClaim 363 491	In this essay, the reasons for why I agree that people should sometimes do things that they do not enjoy doing will be explored.
+T2	Claim 70 137	People should sometimes do things, even though they don't enjoy it.
+T3	Premise 0 68	In personal live, we have some responsibilities towards other people
+T4	Premise 138 170	This is basic part of the lives.
+T5	Premise 171 291	There may be small or big things, but at last people should accept them, because most of them is about responsibilities.
+T6	Premise 292 362	Moreover, sometimes by doing things helps the people learn about live.
+T7	Claim 493 572	Firstly, most people's lives are filled with tasks that they don't enjoy doing.
+T8	Premise 572 701	In personal live, we have some responsibilities towards to other people, there is nobody who likes all of these responsibilities.
+T9	Premise 702 877	For instance, housework is very difficult for me, although my husband helps me some of them, but it is my responsibility. I really don't like any of them, however I should do.
+T10	Claim 879 966	Secondly,professional lives are filled with tasks that is neccessary parts of the jobs.
+T11	Premise 967 1060	Nobody likes attending boring conferences, or working a person who isn't well in with anyone.
+T12	Premise 1061 1308	I'm a research asistant at a university, and as any of the univesity in ours we have a professor who isn't good at human relationships, most of the asistans don't enjoy to talk with him about any situation, although we have to ask about his field.
+T13	Claim 1310 1390	Thirdly, doing something which an individual doesn't enjoy can led to enjoyment.
+T14	Premise 1391 1503	People sometimes can attend any activities by insisting on any of their friends although they don't really want.
+T15	Premise 1504 1790	For example, one of our friends tell my husband and me about a dance course which we both don't like. After insisting on some of our friends, we attended, and got really enjoyable time, we continued the course about six months although most of our friends left the course after a month.
+T16	Premise 1791 1989	Nobody has a life with a lot of fun; there are sometimes unpleasant and boring parts which is not liked by anyone, but most of them are about responsibilities which is the part of individual's live.
+A1	Stance T2 For
+A2	Stance T7 For
+A3	Stance T10 For
+A4	Stance T13 For
+R1	supports Arg1:T3 Arg2:T2
+R2	supports Arg1:T4 Arg2:T2
+R3	supports Arg1:T5 Arg2:T2
+R4	supports Arg1:T6 Arg2:T2
+R5	supports Arg1:T2 Arg2:T1
+R6	supports Arg1:T8 Arg2:T7
+R7	supports Arg1:T9 Arg2:T7
+R8	supports Arg1:T7 Arg2:T1
+R9	supports Arg1:T11 Arg2:T10
+R10	supports Arg1:T12 Arg2:T10
+R11	supports Arg1:T10 Arg2:T1
+R12	supports Arg1:T14 Arg2:T13
+R13	supports Arg1:T15 Arg2:T13
+R14	supports Arg1:T13 Arg2:T1
+R15	supports Arg1:T16 Arg2:T1

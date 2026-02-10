@@ -1,0 +1,53 @@
+T1	MajorClaim 0 46	I'm against providing more money to professors
+T2	Claim 277 357	The professors are essential, however, the schools are established for students.
+A1	Stance T2 Against
+T3	Claim 358 482	Money should spend on facilities in school or update resources, which are beneficial to school rather than just instructors.
+A2	Stance T3 Against
+T4	Claim 530 600	the school should put more emphasis on students instead of professors.
+A3	Stance T4 Against
+T5	Claim 1526 1613	To improve education, spending more money to raise professors' salary is inappropriate.
+A4	Stance T5 Against
+T6	Claim 1777 1903	High-salary instructors don't teach students harder because they earn more money. There won't be any effect if school does so.
+A5	Stance T6 Against
+T7	Claim 2205 2238	At school, students are priority.
+A6	Stance T7 Against
+T8	Premise 601 700	I think the most efficient way to improve the education is to guide the students to learn actively.
+T9	Premise 701 799	By renewing some facilities in school so students will spend more time at school doing assignment.
+T10	Premise 800 860	A comfortable environment can attract people to stay longer.
+T11	Premise 861 941	Thus, students spend more time on school to make a good circulation of learning.
+T12	Premise 942 1074	That is to say, students have a better environment to working on their assignments so the quality of their assignments will improve.
+T13	Premise 1075 1144	Thus, the competition between peers enhances and forms a circulation.
+T14	Premise 1145 1218	In my school, the classrooms in my university are old and kind of shabby.
+T15	Premise 1219 1313	For me, I prefer spending money in a coffee shop to staying at school to finish my assignment.
+T16	Premise 1314 1348	It's unpleasant to stay at school.
+T17	Premise 1349 1446	However, coffee shops are not always quiet, so my classmates and I often finish our work roughly.
+T18	Premise 1456 1525	the ultimate purpose is to change, to motivate students to be better.
+T19	Premise 1682 1728	Some professors don't deserve the money at all
+T20	Premise 1904 2203	There was news about raising professors' salary in my country. This event provoked a demonstration composing of students mostly. The proposal of the demonstration was eliminating the raising salaries. As you can see, if the policy of raising salary was supported, the demonstration would not happen.
+T21	Premise 2239 2341	Students' tuition is not only for the professors but also for their quality of learning at university.
+T22	Premise 2342 2410	That's the main reason I against providing more money to professors.
+T23	Premise 2411 2476	Students are those who suppose to enjoy the use of their tuition.
+R1	supports Arg1:T2 Arg2:T1
+R2	supports Arg1:T3 Arg2:T1
+R3	supports Arg1:T4 Arg2:T1
+R4	supports Arg1:T8 Arg2:T4
+R5	supports Arg1:T9 Arg2:T4
+R6	supports Arg1:T9 Arg2:T3
+R7	supports Arg1:T10 Arg2:T9
+R8	supports Arg1:T11 Arg2:T10
+R9	supports Arg1:T12 Arg2:T11
+R10	supports Arg1:T13 Arg2:T12
+R11	supports Arg1:T14 Arg2:T9
+R12	supports Arg1:T15 Arg2:T14
+R13	supports Arg1:T16 Arg2:T14
+R14	supports Arg1:T17 Arg2:T15
+R15	supports Arg1:T5 Arg2:T1
+R16	supports Arg1:T18 Arg2:T5
+R17	supports Arg1:T19 Arg2:T5
+R18	supports Arg1:T6 Arg2:T1
+R19	supports Arg1:T6 Arg2:T5
+R20	supports Arg1:T20 Arg2:T6
+R21	supports Arg1:T7 Arg2:T1
+R22	supports Arg1:T21 Arg2:T7
+R23	supports Arg1:T22 Arg2:T1
+R24	supports Arg1:T23 Arg2:T7

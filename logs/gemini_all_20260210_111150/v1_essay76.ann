@@ -1,0 +1,27 @@
+T1	MajorClaim 1675 1828	Personally, I think the government should fund the deprived for their health care and education, who are the group in real need for the authority's help.
+T2	Claim 320 440	Some people argue that it is the government that should be obligated to fund the health care and education for citizens.
+A1	Stance T2 For
+T3	Premise 441 599	This is because citizens enjoy the right to live in a harmonious and stable environment, which should be enabled by the government, the leader of the society.
+T4	Premise 600 723	If citizens had no access to health care and education, their physical health and psychological soundness would be at risk.
+T5	Premise 724 880	As a result, such people might fail to get cured in time, thus influencing their working efficiency, which would destabilize the production of the industry.
+T6	Premise 881 1026	Also, without sufficient guidance of teachers, these citizens might misbehave or even commit crimes, posing a threat to other citizens' security.
+T7	Claim 1027 1147	Therefore, the government should be accountable for citizens' health care and education to keep society safe and stable.
+A2	Stance T7 For
+T8	Claim 1148 1321	On the other hand, some people oppose the argument, saying it is a waste of public money for the government to subsidize health care and education of each citizen in society
+A3	Stance T8 Against
+T9	Premise 1323 1416	since a great number of people, in fact, have had the capacity to pay for the both privately.
+T10	Claim 1417 1674	Instead, the government should give priority to more pressing problems related to social members' wellbeing, such as soaring crime rate, AIDS epidemic or the shortage of infrastructure, which are requiring financial resources from the government to address.
+A4	Stance T10 Against
+T11	Claim 1829 1950	At the same time, citizens available for the both should encourage the government to allocate money to more urgent areas.
+A5	Stance T11 For
+T12	Premise 1951 2044	After all, the harmonious society calls for the joint efforts of the government and citizens.
+R1	supports Arg1:T3 Arg2:T7
+R2	supports Arg1:T4 Arg2:T7
+R3	supports Arg1:T5 Arg2:T7
+R4	supports Arg1:T6 Arg2:T7
+R5	supports Arg1:T9 Arg2:T8
+R6	supports Arg1:T7 Arg2:T1
+R7	supports Arg1:T8 Arg2:T1
+R8	supports Arg1:T10 Arg2:T1
+R9	supports Arg1:T11 Arg2:T1
+R10	supports Arg1:T12 Arg2:T1

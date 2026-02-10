@@ -1,0 +1,36 @@
+T1	MajorClaim 2046 2360	To wrap it all up, it is indeed true that university education is pivotal in a person's life in order for one to prosper. However, it would be wrong to say that one's success completely depends on the education he or she receives at the institutions. Natural talent and hard work also contribute to their progress.
+T2	Claim 460 614	First and foremost, it is certainly true that university education is of paramount importance for certain professions such as doctor, engineer and lawyer.
+A1	Stance T2 For
+R1	supports Arg1:T2 Arg2:T1
+T3	Premise 615 725	Without proper training and knowledge, it would be impossible for them to perform their best in their careers.
+R2	supports Arg1:T3 Arg2:T2
+T4	Premise 726 887	Not only that, when they are in a university, they will have the opportunity to share their knowledge as well as to network for business associates and partners.
+R3	supports Arg1:T4 Arg2:T2
+T5	Premise 888 981	This can benefit them in future when they intend to open up their own companies or hospitals.
+R4	supports Arg1:T5 Arg2:T4
+T6	Claim 982 1130	Looking from another perspective, there are also a significant number of people who are very successful in their fields without going to university.
+A2	Stance T6 Against
+R5	attacks Arg1:T6 Arg2:T1
+T7	Premise 1131 1184	Take for instance those who start their own business.
+R6	supports Arg1:T7 Arg2:T6
+T8	Premise 1185 1234	These people depend solely on hard work and luck.
+R7	supports Arg1:T8 Arg2:T6
+T9	Premise 1235 1300	Interestingly, for some of them it proved to be a profitable job.
+R8	supports Arg1:T9 Arg2:T6
+T10	Premise 1301 1392	To cite an example, Michael Dell who is the founder and the CEO of Dell left college at 19.
+R9	supports Arg1:T10 Arg2:T6
+T11	Premise 1393 1461	Initially, he started his computer company in his college dorm room.
+R10	supports Arg1:T11 Arg2:T10
+T12	Premise 1462 1565	Eventually, he used his earnings as well as his family's loan in order to progress to be who he is now.
+R11	supports Arg1:T12 Arg2:T10
+T13	Claim 1566 1651	In addition, people with natural talents are also most likely to excel in their life.
+A3	Stance T13 Against
+R12	attacks Arg1:T13 Arg2:T1
+T14	Premise 1652 1717	This is especially true in sectors like entertainment and sports.
+R13	supports Arg1:T14 Arg2:T13
+T15	Premise 1718 1831	The introduction of increasing number of reality shows have made it possible for all those lucky ones to triumph.
+R14	supports Arg1:T15 Arg2:T13
+T16	Premise 1832 1947	To illustrate this further, David Archuleta who was once a nobody has now taken up a large space in hearts of many.
+R15	supports Arg1:T16 Arg2:T13
+T17	Premise 1948 2045	Hence, it is evident that individuals born with talents have also a high chance to be successful.
+R16	supports Arg1:T17 Arg2:T13

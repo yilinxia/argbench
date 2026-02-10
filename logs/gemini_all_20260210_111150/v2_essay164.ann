@@ -1,0 +1,24 @@
+T1	MajorClaim 246 328	providing professional training can be effective in encouraging further good work.
+T2	Claim 386 483	training time can provide employee interesting time outside working office to refresh their mind.
+A1	Stance T2 For
+T3	Premise 484 633	Clearly, in company we always have to deal with so many stressful situations such as negotiating with difficult customer, complaining from boss, etc.
+T4	Premise 634 757	Therefore, we can unleash uncomfortable in training classes by making new friends, joking in class, enjoying new knowledge.
+T5	Claim 768 826	employees fell that they are valuable if they are trained.
+A2	Stance T5 For
+T6	Premise 827 940	In this case, the employees know that their company is investing on them for future development of their company.
+T7	Premise 941 1021	So obviously, they will think about develop long term career with their company.
+T8	Premise 1022 1157	For another thing, employees will be very proud of themselves when they are provided training while others don't have this opportunity.
+T9	Claim 1168 1303	providing training will make employees happy with their current job because it help them improve their professional business knowledge.
+A3	Stance T9 For
+T10	Premise 1304 1456	Having professional training help employees gain more confidence in their business, so I believe that they will finish their jobs with excellent result.
+T11	Premise 1457 1541	Of course, excellent working result will make them very happy as well as their boss.
+R1	supports Arg1:T3 Arg2:T2
+R2	supports Arg1:T4 Arg2:T2
+R3	supports Arg1:T2 Arg2:T1
+R4	supports Arg1:T6 Arg2:T5
+R5	supports Arg1:T7 Arg2:T5
+R6	supports Arg1:T8 Arg2:T5
+R7	supports Arg1:T5 Arg2:T1
+R8	supports Arg1:T10 Arg2:T9
+R9	supports Arg1:T11 Arg2:T9
+R10	supports Arg1:T9 Arg2:T1

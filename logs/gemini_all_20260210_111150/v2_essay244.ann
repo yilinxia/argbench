@@ -1,0 +1,31 @@
+T1	MajorClaim 333 462	However, from my point of view, television has more bad than good because it has made people not to have conversation each other.
+T2	Premise 79 167	There are many interesting programs on television which anyone can enjoy at little cost.
+T3	Premise 168 332	Compared to other hobbies such as going to theater or going to sports stadium, it is a very cost-effective hobby that gives viewer quiet a few indirect experiences.
+T4	Claim 478 539	television shows make people forget what is really important.
+T5	Premise 540 769	One who has favorite programs tends to be obessed with them when they are on air. Thus, they cannot make appointment or go out with their family or friends at that time since they think the programs are so crucial to their lives.
+T6	Premise 770 925	One of my friends, for example, once cancelled an appointment to play basketball with in order to watch the favorite television show "Infinete Challenges".
+T7	Premise 926 1067	This is not only about basketball, but also about our friendship, which depends on how often we meet and have a chance to talk to each other.
+T8	Premise 1068 1175	That is, watching television alone at home, my friend lost the opportunity to increase cohesion between us.
+T9	Claim 1176 1302	Moreover, even when people watch television together, there is no chance for them to have conversation in front of television.
+T10	Premise 1303 1395	Watching television program together is not that different from watching same program alone.
+T11	Premise 1396 1495	Thus, it is not good for them to watch television if they want to improve their sense of closeness.
+T12	Premise 1496 1631	To illustrate my point, it is reported that most of people don't converse with their family when they are watching television together.
+T13	Premise 1632 1727	It is natural they behave in that way because television shows don't require any participation.
+T14	Premise 1728 1908	In conclusion, I firmly believe that it is detrimental to communication among members in group, family or friends or whatever, to sit in front of television and just stare forward.
+T15	Premise 1909 2009	It is because television not only makes people be obsessed with it but also makes their mouth close.
+A1	Stance T4 For
+A2	Stance T9 For
+R1	attacks Arg1:T2 Arg2:T1
+R2	supports Arg1:T3 Arg2:T2
+R3	supports Arg1:T4 Arg2:T1
+R4	supports Arg1:T5 Arg2:T4
+R5	supports Arg1:T6 Arg2:T5
+R6	supports Arg1:T7 Arg2:T6
+R7	supports Arg1:T8 Arg2:T7
+R8	supports Arg1:T9 Arg2:T1
+R9	supports Arg1:T10 Arg2:T9
+R10	supports Arg1:T11 Arg2:T9
+R11	supports Arg1:T12 Arg2:T11
+R12	supports Arg1:T13 Arg2:T12
+R13	supports Arg1:T14 Arg2:T1
+R14	supports Arg1:T15 Arg2:T1

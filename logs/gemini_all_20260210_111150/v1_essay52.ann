@@ -1,0 +1,23 @@
+T1	MajorClaim 1525 1752	Personally, English as an elegant language should be advocated in many fields to expand the global trade and communications. But, we still need preserve other languages for sake of keeping the linguistic and cultural diversity.
+T2	Claim 274 344	the prevalent of English brings a great number of benefits for people.
+A1	Stance T2 For
+T3	Claim 359 463	it promotes the communication and interaction between different countries more conveniently and clearly.
+A2	Stance T3 For
+T4	Premise 464 747	In the ancient time, the different languages and geography set barriers for people to exchange their goods and ideas. Fortunately, the innovation of plane and train solved the geographical barriers. If we can popularize the use of English, the language hinder will disappear as well.
+T5	Claim 761 861	English is a beautiful language, which is more systematical and extensive than many other languages.
+A3	Stance T5 For
+T6	Premise 862 946	Learning English can foster people's sentiment and nourish their literature and art.
+T7	Claim 983 1091	the dominated status of English has destroyed culture diversity and many less-used languages become extinct.
+A4	Stance T7 Against
+T8	Premise 1092 1252	Even English is a sophisticated language; it does not express every detail of life especially in Asia countries, which have totally different linguistic system.
+T9	Premise 1253 1395	It is undeniable that language contains many aspects of people's daily life, which is influenced by culture, environment as well as religious.
+T10	Premise 1396 1524	Obviously, these languages have special significance for people who belong to them and using English to replace them is crudity.
+R1	supports Arg1:T2 Arg2:T1
+R2	supports Arg1:T3 Arg2:T2
+R3	supports Arg1:T4 Arg2:T3
+R4	supports Arg1:T5 Arg2:T2
+R5	supports Arg1:T6 Arg2:T5
+R6	supports Arg1:T7 Arg2:T1
+R7	supports Arg1:T8 Arg2:T7
+R8	supports Arg1:T9 Arg2:T7
+R9	supports Arg1:T10 Arg2:T7

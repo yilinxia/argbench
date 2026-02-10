@@ -1,0 +1,40 @@
+T1	MajorClaim 385 456	So, I definitely believe that you should focus on what you are good at.
+T2	Claim 64 148	You may love to try new things and take risks even if you aren't good at the things.
+T3	Premise 149 241	That may help you expand experiences, look for your personalities and find your new talents.
+T4	Claim 242 299	This ideal, however, doesn't necessarily be accomplished.
+T5	Premise 300 384	If not, you might lose another chance that you could use to accomplish other things.
+T6	Claim 457 514	Focusing what you are good at helps you attain your goal.
+T7	Premise 515 630	Without doubt, the more time you spend on what you do well, the more likely to achieve something great you will be.
+T8	Premise 631 820	For instance, Albert Einstein, one of the most competent physicians in history, devoted most of his life to develop theory in physics and finally established special and general relativity.
+T9	Premise 821 867	Instead, he hardly cared about something else.
+T10	Premise 868 1040	It is said that, surprisingly, he never tried to distinguish a hand soup and a facial soup because, at least for him, using two different soups properly was quite annoying.
+T11	Premise 1041 1161	As the example above indicates, you will be more likely to accomplish your purpose by concentrating on what you do well.
+T12	Claim 1162 1235	If you keep doing what you already do well, you can be better good at it.
+T13	Premise 1236 1325	When you're doing something well, you will feel more satisfied and more interested in it.
+T14	Premise 1326 1370	Then, you will motivate yourself to do more.
+T15	Premise 1371 1450	To give an example, I used to be good at math when I was in junior high school.
+T16	Premise 1451 1594	Because I was really satisfied with the fact that I could do preferably, I became to absorb myself to try more advanced level of math problems.
+T17	Premise 1595 1701	As a result, I could not only get higher scores in math test but also solve the university-level problems.
+T18	Premise 1702 1764	Thus, by doing what you are good at, you will be better at it.
+T19	Premise 1765 1870	In summary, doing what you can already do well helps you make a big accomplishment and do it much better.
+A1	Stance T2 Against
+A2	Stance T4 For
+A3	Stance T6 For
+A4	Stance T12 For
+R1	supports Arg1:T3 Arg2:T2
+R2	attacks Arg1:T4 Arg2:T2
+R3	supports Arg1:T5 Arg2:T4
+R4	supports Arg1:T6 Arg2:T1
+R5	supports Arg1:T7 Arg2:T6
+R6	supports Arg1:T8 Arg2:T6
+R7	supports Arg1:T9 Arg2:T6
+R8	supports Arg1:T10 Arg2:T6
+R9	supports Arg1:T11 Arg2:T6
+R10	supports Arg1:T12 Arg2:T1
+R11	supports Arg1:T13 Arg2:T12
+R12	supports Arg1:T14 Arg2:T12
+R13	supports Arg1:T15 Arg2:T12
+R14	supports Arg1:T16 Arg2:T12
+R15	supports Arg1:T17 Arg2:T12
+R16	supports Arg1:T18 Arg2:T12
+R17	supports Arg1:T19 Arg2:T1

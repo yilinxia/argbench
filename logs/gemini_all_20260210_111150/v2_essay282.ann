@@ -1,0 +1,28 @@
+T1	MajorClaim 375 479	reducing stress by listening to music, playing sports, and doing meditation are easy and practical ways.
+T2	Claim 494 537	listening to music is a great way to relax.
+T3	Premise 538 838	For example, when I go to office, I use public transport. I see many things such as traffic jam, crowded people at bus stop, and all so crowded people in buses. These make me stress. So that I always listen music from my mp3 player. I could enjoy listening music without thinking of people around me.
+T4	Premise 839 886	Consequently, I feel happy when I listen music.
+T5	Claim 895 976	another way that is perfectly work for everyone to reduce the stress is exercise.
+T6	Premise 977 1240	For instance, I alway have many things in my mind such as a difficult of my work that I have to finish in time. These problem sometime make me hard to fall asleep because it make me stress. Thus, after work, I always do exercise, and jogging is my favorite sport.
+T7	Premise 1241 1299	I feel that after working out, I am easily to fall asleep.
+T8	Premise 1300 1372	Exercising not only reduce my stress but also make me get a good health.
+T9	Claim 1380 1433	meditation also one of the ways to reduce the stress.
+T10	Premise 1434 1520	when I have many things to think about, and this make me stress, I will do meditation.
+T11	Premise 1521 1618	Meditation is easy way to relax because it is not require any equipment, and it take few minutes.
+T12	Premise 1619 1738	A way to do meditation is that I just sit down, close my eyes, and count my breath. These could relieve me from stress.
+T13	Premise 1939 1965	It is are easy and usable.
+A1	Stance T2 For
+A2	Stance T5 For
+A3	Stance T9 For
+R1	supports Arg1:T2 Arg2:T1
+R2	supports Arg1:T3 Arg2:T2
+R3	supports Arg1:T4 Arg2:T2
+R4	supports Arg1:T5 Arg2:T1
+R5	supports Arg1:T6 Arg2:T5
+R6	supports Arg1:T7 Arg2:T5
+R7	supports Arg1:T8 Arg2:T5
+R8	supports Arg1:T9 Arg2:T1
+R9	supports Arg1:T10 Arg2:T9
+R10	supports Arg1:T11 Arg2:T9
+R11	supports Arg1:T12 Arg2:T9
+R12	supports Arg1:T13 Arg2:T1

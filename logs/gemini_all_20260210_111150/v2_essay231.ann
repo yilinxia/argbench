@@ -1,0 +1,22 @@
+T1	MajorClaim 40 100	It’s certainly better for children to grow up in a big city.
+T2	Claim 228 446	Some people thinks that if a child grows up in a big city they will be all day at home at the computer or at the video-game, but this is not true if you live in a neighborhood with other people about your age as I did.
+T3	Claim 602 669	In a big city there are more kinds of people and more things to do.
+T4	Claim 796 854	This is another downside of growing up in the countryside.
+T5	Claim 855 936	In a big city you have more qualified teachers and a better access to technology.
+T6	Claim 937 1097	Growing up in the countryside is not such a good experience, you won’t know a lot of people, there are gossips everywhere, and your life will be really limited.
+T7	Premise 447 541	My friends and I used to play soccer, bike, climb trees and do a lot of other stuff every day.
+T8	Premise 542 601	We did play video-games, but that wasn't our main activity.
+T9	Premise 719 795	He said that he had to study a lot to pass the test to enter the university.
+A1	Stance T2 For
+A2	Stance T3 For
+A3	Stance T4 For
+A4	Stance T5 For
+A5	Stance T6 For
+R1	supports Arg1:T2 Arg2:T1
+R2	supports Arg1:T7 Arg2:T2
+R3	supports Arg1:T8 Arg2:T2
+R4	supports Arg1:T3 Arg2:T1
+R5	supports Arg1:T9 Arg2:T4
+R6	supports Arg1:T4 Arg2:T1
+R7	supports Arg1:T5 Arg2:T1
+R8	supports Arg1:T6 Arg2:T1

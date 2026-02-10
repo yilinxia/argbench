@@ -1,0 +1,33 @@
+T1 MajorClaim 1341 1393 traditional skills and ways are always valuable and will last forever
+T2 Claim 268 318 traditional skills and ways belong to value of culture.
+T3 Premise 319 350 They make differences between countries.
+T4 Premise 351 414 Every country has unique tradtions which show their creation, intelligence.
+T5 Premise 415 505 Consequently, people feel pround of their country, so they keep reserving conventions.
+T6 Premise 506 615 For example, ways to build a house in every country are different and they distinguish between countries.
+T7 Claim 639 696 traditional way can not replace by a new technology.
+T8 Premise 697 778 Lot of people like to use traditional things because if their quality and durability.
+T9 Premise 779 832 In paticular, vases are made by hand would be used more.
+T10 Premise 833 908 Futhermore, there are plenty of works that using traditional way is unique method.
+T11 Premise 909 970 For instance, making cone hats from leaves have to use hand.
+T12 Premise 971 1039 Not only because there is no machine for the work, but also it looks more beautiful when it is made by hand, so resulting in greater value economy.
+T13 Claim 1074 1152 Traditional skills and ways of life will help youngsters study and know more history.
+T14 Premise 1153 1238 Methods which their ancestors used in the past will be displayed again for new generations.
+T15 Premise 1239 1297 After that, they might create somethings that are useful for life.
+A1 Stance T2 For
+A2 Stance T7 For
+A3 Stance T13 For
+R1 supports Arg1:T3 Arg2:T2
+R2 supports Arg1:T4 Arg2:T3
+R3 supports Arg1:T5 Arg2:T2
+R4 supports Arg1:T6 Arg2:T3
+R5 supports Arg1:T7 Arg2:T1
+R6 supports Arg1:T8 Arg2:T7
+R7 supports Arg1:T9 Arg2:T8
+R8 supports Arg1:T10 Arg2:T7
+R9 supports Arg1:T11 Arg2:T10
+R10 supports Arg1:T12 Arg2:T11
+R11 supports Arg1:T12 Arg2:T10
+R12 supports Arg1:T13 Arg2:T1
+R13 supports Arg1:T14 Arg2:T13
+R14 supports Arg1:T15 Arg2:T13
+R15 supports Arg1:T2 Arg2:T1

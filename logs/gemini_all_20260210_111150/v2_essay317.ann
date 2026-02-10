@@ -1,0 +1,53 @@
+T1	MajorClaim 71 216	I agree with the statement that our life seems tough at the time but those difficult experiences of life become important lessons for the future.
+T2	Claim 254 298	Every tough experience makes us more skilled
+A1	Stance T2 For
+T3	Claim 300 328	improves our decision making
+A2	Stance T3 For
+T4	Claim 333 366	makes us more compatible for life
+A3	Stance T4 For
+T5	Premise 368 463	The best example of it is how babies learn about basics survival habits during their childhood.
+T6	Premise 464 649	Every day comes with new challenges for them like walking, eating, etc., but those challenges of their initial life teach them important survival lessons which help them for whole life.
+T7	Premise 650 741	For example, when they tried to learn walking, they stumble and hurt themselves many times.
+T8	Premise 742 799	But they slowly tune their technique and learned to walk.
+T9	Claim 800 874	All inventions and experiments are based on many unfortunate observations.
+A4	Stance T9 For
+T10	Premise 875 923	No known scientist has success in first attempt.
+T11	Premise 924 989	Scientists try and test many specimens before they get they want.
+T12	Premise 990 1075	It was said that Thomas Edison tested around 10000 bulbs before inventing Light bulb.
+T13	Premise 1076 1302	So, all the initial experiments would be difficult and frustrating for him but he searched for more options and learnt new findings with each experiment even when he was failing in his attempts and finally found break through.
+T14	Claim 1303 1372	Our difficult experiences also make us robust and strong unknowingly.
+A5	Stance T14 For
+T15	Premise 1373 1550	We might be facing a toughest time of life at the time, but when we think back about those moments later in life, we feel more confident about our decisions and about ourselves.
+T16	Premise 1551 1721	When I moved to college hostel after school, first few days were very unsettling for me because first time I was away from parent and staying with people I had not known.
+T17	Premise 1722 1856	I had felt very fragile and emotionally distracted, but then slowly I started adjusting with roommates and built connection with them.
+T18	Premise 1857 1983	I also became more casual and social with others, this experience increased my communication skill and social speaking skills.
+T19	Claim 1985 2167	Therefore, to conclude my opinion on this statement, I want to mentioned that every experience in life whether it is good or bad always gives us something to learn and keep for life.
+A6	Stance T19 For
+T20	Premise 2168 2246	Good experiences give us good memories and bad ones teach us lessons for life.
+R1	supports Arg1:T2 Arg2:T1
+R2	supports Arg1:T3 Arg2:T1
+R3	supports Arg1:T4 Arg2:T1
+R4	supports Arg1:T5 Arg2:T2
+R5	supports Arg1:T5 Arg2:T4
+R6	supports Arg1:T6 Arg2:T5
+R7	supports Arg1:T7 Arg2:T6
+R8	supports Arg1:T8 Arg2:T7
+R9	supports Arg1:T8 Arg2:T6
+R10	supports Arg1:T9 Arg2:T2
+R11	supports Arg1:T9 Arg2:T3
+R12	supports Arg1:T10 Arg2:T9
+R13	supports Arg1:T11 Arg2:T10
+R14	supports Arg1:T12 Arg2:T11
+R15	supports Arg1:T13 Arg2:T12
+R16	supports Arg1:T13 Arg2:T9
+R17	supports Arg1:T14 Arg2:T1
+R18	supports Arg1:T14 Arg2:T4
+R19	supports Arg1:T15 Arg2:T14
+R20	supports Arg1:T15 Arg2:T3
+R21	supports Arg1:T16 Arg2:T15
+R22	supports Arg1:T17 Arg2:T16
+R23	supports Arg1:T18 Arg2:T17
+R24	supports Arg1:T18 Arg2:T2
+R25	supports Arg1:T18 Arg2:T14
+R26	supports Arg1:T19 Arg2:T1
+R27	supports Arg1:T20 Arg2:T19

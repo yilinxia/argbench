@@ -1,0 +1,34 @@
+T1	MajorClaim 214 281	I prefer to spend my entire live in one place which is my hometown.
+T2	Claim 298 344	I have a lot of friends and good relationships
+T3	Claim 346 372	I love the traffic in here
+T4	Claim 378 407	the environment is wonderful.
+T5	Premise 408 453	I was born and grew up in here, a small town.
+T6	Premise 454 593	In here, I have a lot of friends, and we usually spend free time to play sports like soccer, basketball and of course we have a lot of fun.
+T7	Premise 594 673	Every people in my town have known each others, and we have good relationships.
+T8	Premise 674 739	If anyone needs help, his neighbor will help as much as possible.
+T9	Premise 740 790	Nowhere else can give me some people like in here.
+T10	Premise 791 853	I want to live here because I love the traffic system in here.
+T11	Premise 854 924	We have large streets but few cars, so we can move easily to anywhere.
+T12	Premise 925 1074	Last week, I went to the city center to meet my friends. The traffic in the city was too crowed. I have to wait for an hour to go to my friend house.
+T13	Premise 1075 1111	I also love the environment in here.
+T14	Premise 1112 1270	I have been gone to some places to travel and stay for a short time, and I realize that the environment in some place isn't clean and fresh like my home town.
+T15	Premise 1271 1337	There were a lot of people so the environment can't be keep clean.
+T16	Premise 1435 1620	Moving some places can give to you a lot of experiences but living in one place like your hometown can make you feel comfortable about the traffic, people and of course the environment.
+A1	Stance T2 For
+A2	Stance T3 For
+A3	Stance T4 For
+R1	supports Arg1:T2 Arg2:T1
+R2	supports Arg1:T3 Arg2:T1
+R3	supports Arg1:T4 Arg2:T1
+R4	supports Arg1:T5 Arg2:T2
+R5	supports Arg1:T6 Arg2:T2
+R6	supports Arg1:T7 Arg2:T2
+R7	supports Arg1:T8 Arg2:T2
+R8	supports Arg1:T9 Arg2:T2
+R9	supports Arg1:T10 Arg2:T3
+R10	supports Arg1:T11 Arg2:T3
+R11	supports Arg1:T12 Arg2:T3
+R12	supports Arg1:T13 Arg2:T4
+R13	supports Arg1:T14 Arg2:T4
+R14	supports Arg1:T15 Arg2:T4
+R15	supports Arg1:T16 Arg2:T1

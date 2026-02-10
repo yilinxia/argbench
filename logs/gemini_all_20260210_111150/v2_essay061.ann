@@ -1,0 +1,47 @@
+T1	MajorClaim 2276 2374	Human life today can't be imagined without computers, so not depending on them is out of question.
+T2	Claim 344 395	In the modern world, computers are used everywhere.
+A2	Stance T2 For
+T3	Premise 396 540	Right from flying planes to sending a small document, computers are needed. They are used in space programs, wars, hospitals, schools and so on.
+T4	Claim 541 613	Computers have made human life more easy, convenient and lightning fast.
+A4	Stance T4 For
+T5	Premise 614 800	For example, in earlier days, if one had to send a message to someone in other country, it used to take months. But today, it can be sent in few minutes by typing a email and few clicks.
+T6	Claim 801 946	Computers provide speed, increase efficiency, accuracy, precision, help to increase productivity and other countless benefits are provided by it.
+A6	Stance T6 For
+T7	Claim 957 1003	future prospects of computers are very bright.
+A7	Stance T7 For
+T8	Premise 1004 1086	From a computer as big as a room, it has now been minimized to the size of a palm.
+T9	Premise 1087 1166	Nanotechnology is working to make computers to the order of microscopic levels.
+T10	Premise 1167 1257	Research on making computerized drone soldiers (unmanned computer controlled) is going on.
+T11	Premise 1258 1304	There is no end to the evolution of computers.
+T12	Claim 1344 1386	Computers have made humans over-dependent.
+A12	Stance T12 Against
+T13	Premise 1387 1542	Virus programs, privacy breach, leak of confidential documents, cyber attacks, identity theft, frauds etc. are some of its demerits, from a countless list.
+T14	Premise 1543 1589	Computers expose children to vulgar materials.
+T15	Premise 1590 1739	They have even invaded mental health of humans, for example, FAD (Facebook Addiction Disorder - excessive use of social networking website Facebook).
+T16	Premise 1740 1848	Computers have intruded our lives to the effect that a satellite can peep into our homes and privates lives.
+T17	Premise 1849 1948	The recent case of Wikileaks, leaking confidential data is an example of how computers are harmful.
+T18	Claim 1963 2052	with all the mentioned demerits, computers have provided security and sophistication too.
+A18	Stance T18 For
+T19	Claim 2059 2102	dependence on computers is not a bad thing.
+A19	Stance T19 For
+T20	Claim 2191 2275	Computer was invented for the benefit of mankind and it has fulfilled its objective.
+A20	Stance T20 For
+R1	supports Arg1:T3 Arg2:T2
+R2	supports Arg1:T5 Arg2:T4
+R3	supports Arg1:T8 Arg2:T7
+R4	supports Arg1:T9 Arg2:T7
+R5	supports Arg1:T10 Arg2:T7
+R6	supports Arg1:T11 Arg2:T7
+R7	supports Arg1:T13 Arg2:T12
+R8	supports Arg1:T14 Arg2:T12
+R9	supports Arg1:T15 Arg2:T12
+R10	supports Arg1:T16 Arg2:T12
+R11	supports Arg1:T17 Arg2:T12
+R12	supports Arg1:T2 Arg2:T1
+R13	supports Arg1:T4 Arg2:T1
+R14	supports Arg1:T6 Arg2:T1
+R15	supports Arg1:T7 Arg2:T1
+R16	attacks Arg1:T12 Arg2:T1
+R17	supports Arg1:T18 Arg2:T1
+R18	supports Arg1:T19 Arg2:T1
+R19	supports Arg1:T20 Arg2:T1

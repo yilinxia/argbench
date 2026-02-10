@@ -1,0 +1,30 @@
+T1	MajorClaim 79 162	I believe that it is a good idea to build a large shopping center in our community.
+T2	Claim 213 324	the establishment of a large shopping center will provide the residents a more convenient place to go shopping.
+A1	Stance T2 For
+R1	supports Arg1:T2 Arg2:T1
+T3	Premise 353 563	Queens Center Mall, a shopping mall located in Queens borough of New York City, provides a wide vairtey of stores, products and services, from clothing to electronics and restaurants, that consumers can choose.
+R2	supports Arg1:T3 Arg2:T2
+T4	Premise 564 641	It is widely thought that it is one of the most productive malls in New York.
+R3	supports Arg1:T4 Arg2:T2
+T5	Premise 642 752	I found that I could find virtually every brand or store, including Macy's and JCPenney, when I visited there.
+R4	supports Arg1:T5 Arg2:T2
+T6	Premise 753 871	As far as I am concerned, a large shopping mall provides a location for residents to pursue during their leisure time.
+R5	supports Arg1:T6 Arg2:T2
+T7	Claim 885 949	it not only provides a place to shop but also offer people jobs.
+A2	Stance T7 For
+R6	supports Arg1:T7 Arg2:T1
+T8	Premise 950 1054	There may be a great number of job vacancies in the need of opening the new stores in the shopping mall.
+R7	supports Arg1:T8 Arg2:T7
+T9	Premise 1055 1148	It could be an opportunity for people who are looking for a part-time job or a full time job.
+R8	supports Arg1:T9 Arg2:T7
+T10	Premise 1149 1250	Some students and retirees may work there in order to whiling away their free time and earning money.
+R9	supports Arg1:T10 Arg2:T9
+T11	Claim 1259 1372	it is more likely for us to buy goods in lower price in the shopping center, and save our time on the other hand.
+A3	Stance T11 For
+R10	supports Arg1:T11 Arg2:T1
+T12	Premise 1373 1483	There may be a competition between the new shopping center and other existing stores to attract the customers.
+R11	supports Arg1:T12 Arg2:T11
+T13	Premise 1484 1605	Accordingly, with sales promotion, it is easy for consumers to compare the price of the same merchandise before they buy.
+R12	supports Arg1:T13 Arg2:T11
+T14	Premise 1606 1741	In addition, the residents do not have a problem spending time on commute in the hope of setting up a shopping center near their homes.
+R13	supports Arg1:T14 Arg2:T11

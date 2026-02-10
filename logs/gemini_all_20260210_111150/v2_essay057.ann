@@ -1,0 +1,46 @@
+T1 MajorClaim 161 248 Hence, creative artists must be given the freedom to express their ideas without any restrictions.
+T2 Premise 0 54 Creativity is the ability to think beyond the obvious.
+T3 Premise 55 125 Many governments restrict the artistic works of the creative minds.
+T4 Premise 127 160 Creativity originates in a free mind.
+T5 Premise 250 399 Time and again, creative artists like Michaelangelo, Picasso, Salman Rushdie, Shakespeare etc. have made artistic works which gave a social message.
+T6 Premise 400 527 Right from sculptures to paintings, books to drama and movies, all these artistic works have reflected the contemporary social issues of different eras.
+T7 Claim 528 598 Creative works help to create social awareness by giving a social message.
+T8 Premise 600 707 Nonetheless, innovative works makes people realize things in a peaceful way and peep into their own conscience.
+T9 Claim 708 782 It helps to raise issues and criticize the wrong doings of the governments.
+T10 Premise 783 931 For instance, Bangladeshi writer Taslima Nasrin was accused of acting against the government, just because she raised a social issue.
+T11 Premise 932 988 This type of approach is a hurdle in promoting creative minds.
+T12 Premise 989 1033 In addition, creativity also gives aesthetic charm.
+T13 Premise 1035 1082 Unfortunately, many governments restrict the artists.
+T14 Premise 1083 1160 Frank Zappa once said, "Mind is like a parachute, it doesn't work if its not open“.
+T15 Claim 1161 1258 Restrictions would just curb the innovative ideas of the artists and would limit their brains.
+T16 Premise 1259 1333 Like the media, artists should also be given the freedom to express their ideas freely.
+T17 Claim 1335 1411 However, artists should also know not to hurt the sentiments of the people.
+T18 Premise 1412 1540 Many artists have been involved in controversies because of hurting the religious or social beliefs of the common people.
+T19 Premise 1541 1667 Artists should have self-awareness not to create vulgar, hurtful or useless works which do not serve any purpose.
+T20 Premise 1668 1739 I firmly believe that artists should be given the freedom of expression.
+T21 Premise 1740 1792 Mind can not work when it is chained in boundaries.
+T22 Premise 1793 1912 Imagination is at its best when the mind is relaxed and free from the fear of government or any restrictive laws.
+A1 Stance T7 For
+A2 Stance T9 For
+A3 Stance T15 For
+A4 Stance T17 Against
+R1 supports Arg1:T4 Arg2:T1
+R2 supports Arg1:T5 Arg2:T7
+R3 supports Arg1:T6 Arg2:T7
+R4 supports Arg1:T7 Arg2:T1
+R5 supports Arg1:T8 Arg2:T9
+R6 supports Arg1:T10 Arg2:T9
+R7 supports Arg1:T9 Arg2:T1
+R8 supports Arg1:T11 Arg2:T1
+R9 supports Arg1:T12 Arg2:T1
+R10 supports Arg1:T13 Arg2:T15
+R11 supports Arg1:T14 Arg2:T15
+R12 supports Arg1:T15 Arg2:T1
+R13 supports Arg1:T16 Arg2:T1
+R14 supports Arg1:T18 Arg2:T17
+R15 supports Arg1:T19 Arg2:T17
+R16 attacks Arg1:T17 Arg2:T1
+R17 supports Arg1:T20 Arg2:T1
+R18 supports Arg1:T21 Arg2:T1
+R19 supports Arg1:T22 Arg2:T1
+R20 supports Arg1:T3 Arg2:T1

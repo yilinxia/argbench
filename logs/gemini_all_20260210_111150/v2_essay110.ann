@@ -1,0 +1,23 @@
+T1	Premise 296 406	Taxes are the income for every country in the world and they are extremely important for developing countries.
+T2	Premise 407 536	If people are paying taxes, that means they are taking part in the development of their country as well as the country's economy.
+T3	Claim 548 592	they have fulfilled their duty as a citizen.
+T4	Claim 742 804	citizens must obey laws, which were imposed by the government.
+T5	Premise 805 926	In this way, the crime rate is reduced and society becomes a peaceful place, so the country will develop at a rapid pace.
+T6	Claim 940 1016	being a citizen in society should protect the country's culture and history.
+T7	Premise 1017 1169	For instance, people should have knowledge about their own culture and history by studying at school with full concentration or reading them from books.
+T8	Claim 1189 1276	a person has to unite with other people in the community so as to develop their nation.
+T9	Premise 1277 1431	Indeed, if people in society have a strong bond with each other, society will become a peaceful place, where people are helping and sharing to each other.
+T10	MajorClaim 1464 1641	I strongly believe that being a citizen involves in a number of duties, other than paying taxes. People in society must do more than paying taxes to contribute to their society.
+A1	Stance T3 Against
+A2	Stance T4 For
+A3	Stance T6 For
+A4	Stance T8 For
+R1	supports Arg1:T1 Arg2:T2
+R2	supports Arg1:T2 Arg2:T3
+R3	supports Arg1:T5 Arg2:T4
+R4	supports Arg1:T7 Arg2:T6
+R5	supports Arg1:T9 Arg2:T8
+R6	attacks Arg1:T3 Arg2:T10
+R7	supports Arg1:T4 Arg2:T10
+R8	supports Arg1:T6 Arg2:T10
+R9	supports Arg1:T8 Arg2:T10

@@ -1,0 +1,34 @@
+T1	MajorClaim 261 349	I believe, this great invention in the 21st century causes many problems in our society.
+T2	Claim 370 461	spending too much time on mobiles phones many exert an adverse effect on our social skills.
+A1	Stance T2 For
+T3	Premise 475 723	as people, especially teenagers increasingly tend to focus on their phones, they may lose their interests on daily activities such as meeting with friends, and this lack of communication may impair their future negotiation and interpersonal skills.
+T4	Claim 734 823	continuous use of mobile phones may also damage children's eyesight and physical posture.
+A2	Stance T4 For
+T5	Claim 837 890	it is harmful for us to use mobile phones frequently.
+A3	Stance T5 For
+T6	Claim 904 977	the growing number of mobiles games will impact their mental development.
+A4	Stance T6 For
+T7	Premise 992 1086	there many game applications available online and many of them are quite aggressive in nature.
+T8	Premise 1087 1300	In these games, children are rewarded to help their characters to kill or shoot monsters or characters controlled by other players, and this many lead to development of aggressive feelings, thoughts and behaviors.
+T9	Premise 1315 1365	frequent conflicts may occur during communication.
+T10	Claim 1429 1515	Mobile phones , such as smart phones, has made our communication easy and convenience.
+A5	Stance T10 Against
+T11	Premise 1536 1730	as most of the telecommunication companies provide us with access to the internet via our phones, people are able to enjoy sending instant messages and making international calls free of charge.
+T12	Premise 1731 1796	Thus, mobile phones have shortened the distance of communication.
+T13	Claim 1809 1963	although mobile phones make our communication faster, it also gives rise to many social problems such as children's social skills and their mental health.
+A6	Stance T13 For
+T14	Claim 1964 2080	Therefore, i highly advocate that we should use mobile phone in moderation in order to avoid these serious problems.
+A7	Stance T14 For
+R1	supports Arg1:T3 Arg2:T2
+R2	supports Arg1:T2 Arg2:T5
+R3	supports Arg1:T4 Arg2:T5
+R4	supports Arg1:T5 Arg2:T1
+R5	supports Arg1:T7 Arg2:T6
+R6	supports Arg1:T8 Arg2:T6
+R7	supports Arg1:T9 Arg2:T6
+R8	supports Arg1:T6 Arg2:T1
+R9	supports Arg1:T11 Arg2:T10
+R10	supports Arg1:T12 Arg2:T10
+R11	attacks Arg1:T10 Arg2:T1
+R12	supports Arg1:T13 Arg2:T14
+R13	supports Arg1:T14 Arg2:T1

@@ -1,0 +1,39 @@
+T1	MajorClaim 24 86	I highly prefer living in a big city to living in countryside.
+T2	Claim 87 162	The big cities have lots of advantages and facilities over the small towns.
+A1	Stance T2 For
+T3	Premise 163 323	Where a person lives and grow up is very important to his future life, because the environment that a person grow up, build the personality and his/her culture.
+T4	Claim 324 444	There are lots of social places in big cities like restaurants, museums, bars, sporting clubs, cinemas, theatre and etc.
+A2	Stance T4 For
+T5	Premise 445 699	People in big cities have many options to enjoy their life and spend their times with their friends in social places in contrary to people living in small towns who have few choices and at most cases one bar or one cinema to socialize with their friends.
+T6	Claim 700 816	In big cities educational facilities is quite better than small towns with more experienced and profession teachers.
+A3	Stance T6 For
+T7	Premise 817 925	It’s undisputed that in this modern world education has a very important role in the human kind future life.
+T8	Premise 926 984	Better education results better career and been well paid.
+T9	Claim 985 1083	So persons in big cities have more chance to get the better job than people living in small towns.
+A4	Stance T9 For
+T10	Premise 1084 1187	Also lots of companies placed in big cities and there are more job positions in there than small towns.
+T11	Premise 1188 1408	But by living in big cities one sacrifices quiet and peaceful life with breathing fresh air and loses much time in traffic and anyway for transportation, because distances in big cities often are too far to pass quickly.
+T12	Premise 1409 1591	Every technology has it’s good and bad effects but I prefer having the technologies with their disadvantages to living like 16 century without any of modern facilities of technology.
+T13	Claim 1623 1678	medical technologies is completely better in big cities
+A5	Stance T13 For
+T14	Premise 1679 1769	and in my view this profit overcomes all the bad influences of technologies on human kind.
+T15	MajorClaim 1770 1989	In conclusion, in my view living in big cities is quite funnier and better and more exciting than living in small towns because of many more social places, technologies facilities, better education and medical services.
+R1	supports Arg1:T2 Arg2:T1
+R2	supports Arg1:T3 Arg2:T2
+R3	supports Arg1:T4 Arg2:T2
+R4	supports Arg1:T5 Arg2:T4
+R5	supports Arg1:T6 Arg2:T2
+R6	supports Arg1:T7 Arg2:T6
+R7	supports Arg1:T8 Arg2:T6
+R8	supports Arg1:T9 Arg2:T2
+R9	supports Arg1:T6 Arg2:T9
+R10	supports Arg1:T8 Arg2:T9
+R11	supports Arg1:T10 Arg2:T9
+R12	attacks Arg1:T11 Arg2:T1
+R13	attacks Arg1:T12 Arg2:T11
+R14	supports Arg1:T13 Arg2:T2
+R15	supports Arg1:T14 Arg2:T13
+R16	attacks Arg1:T14 Arg2:T11
+R17	supports Arg1:T4 Arg2:T15
+R18	supports Arg1:T6 Arg2:T15
+R19	supports Arg1:T13 Arg2:T15

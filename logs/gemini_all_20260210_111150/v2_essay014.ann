@@ -1,0 +1,26 @@
+T1	MajorClaim 1494 1586	Personally, I think that students learn far more from their teachers than from other source.
+T2	Claim 397 505	Many people find that students at schools and universities still learn much more from lessons with teachers.
+T3	Claim 931 1136	Those who feel that students learn far more from other sources, such as the Internet and television, firmly believe that within this sources students learn lots of things which they can't learn in classes.
+T4	Claim 1587 1680	Because not only do teachers teach us knowledge but also the skills to tell right from wrong.
+T5	Premise 522 610	teachers teach students how to write, read and calculate since they are in kindergarten.
+T6	Premise 611 732	And when they are in primary school, teachers teach them more further knowledge, like writing skills and using computers.
+T7	Premise 733 791	It is teachers that help them with obstacles in schooling.
+T8	Premise 792 930	On the other hand, students gain most of the knowledge through teachers and learn what is right and wrong with the assistance of teachers.
+T9	Premise 1137 1297	They can only input some key words and google it, and then there are numberless articles and websites related to it. In this case, students learn things easily.
+T10	Premise 1298 1369	Moreover, they contend that good television programs do teach students.
+T11	Premise 1370 1493	For instance, Discovery Channel has many instructive episodes. Students have knowledge of others cultures, outer space etc.
+T12	Premise 1681 1832	Just imagine: if a student can't even make out whether the source is reasonable or not, then how can he get the right information to help him to learn?
+A1	Stance T2 For
+A2	Stance T3 Against
+A3	Stance T4 For
+R1	supports Arg1:T2 Arg2:T1
+R2	supports Arg1:T4 Arg2:T1
+R3	attacks Arg1:T3 Arg2:T1
+R4	supports Arg1:T5 Arg2:T2
+R5	supports Arg1:T6 Arg2:T2
+R6	supports Arg1:T7 Arg2:T2
+R7	supports Arg1:T8 Arg2:T2
+R8	supports Arg1:T9 Arg2:T3
+R9	supports Arg1:T10 Arg2:T3
+R10	supports Arg1:T11 Arg2:T10
+R11	supports Arg1:T12 Arg2:T4

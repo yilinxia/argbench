@@ -1,0 +1,18 @@
+T1	MajorClaim 287 357	this trend reflects and enhances the high level of violence in society
+T2	Premise 657 821	criminals todays are very sophisticated so they spend a large amount of money to acquire modern weapons to cope with the police and serve their own nefarious needs.
+T3	Claim 828 907	citizens in that society can be shot by both police and offenders accidentally.
+A1	Stance T3 For
+T4	Premise 918 1052	while on duty, not only are private citizens affected but facilities such as cars, houses, streets are likely to be destroyed by guns.
+T5	Claim 1064 1157	a society that its police force carries guns will be definitely seen as a highly violent one.
+A2	Stance T5 For
+T6	Premise 1168 1223	police force carries guns only in high crime societies.
+T7	Premise 1231 1373	people and police in those ones usually deal with dangerous diverse crime's categories such as theft, robbery, murder, rape, vandalism, arson.
+T8	Claim 1385 1486	Those are possibly the strongest evidences to determine a society suffering a high level of violence.
+A3	Stance T8 For
+R1	supports Arg1:T2 Arg2:T3
+R2	supports Arg1:T3 Arg2:T1
+R3	supports Arg1:T4 Arg2:T5
+R4	supports Arg1:T5 Arg2:T1
+R5	supports Arg1:T6 Arg2:T8
+R6	supports Arg1:T7 Arg2:T8
+R7	supports Arg1:T8 Arg2:T1

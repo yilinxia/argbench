@@ -1,0 +1,39 @@
+T1	MajorClaim 237 263	I disagree with this view.
+T2	Claim 277 339	tourism can have a negative impact on the natural environment.
+T3	Premise 340 538	In order to meet the needs of tourists, local governments are likely to build more facilities and infrastructures around tourist attractions, which may result in the destruction of natural habitats.
+T4	Premise 539 724	Tourism also creates more pollution and waste, including growing emission of greenhouse gases, dumped leftovers and overuse of water, power and other kind of energy in luxurious hotels.
+T5	Claim 763 857	tourism puts great pressure on ecosystem and local resources, and it should not be encouraged.
+T6	Claim 867 946	flourishing tourism in a place can be very rewarding in terms of local economy.
+T7	Premise 947 1116	Holiday makers flocking to other countries are not only bound to spend on tickets of attractions, but also pay for food, accommodation, transportation and entertainment.
+T8	Premise 1117 1265	Both local people and governments can make a large amount of money through these services, and more employment opportunities can be created as well.
+T9	Claim 1281 1381	the revenue earned form tourism can be used in turn to reduce pollution and protect the environment.
+T10	Claim 1395 1464	the increasing development of tourism is a boon to travelers as well.
+T11	Premise 1465 1564	The provision of direct airlines makes it possible for them to travel conveniently and comfortably.
+T12	Premise 1565 1682	With adequate local facilities and services available, they can spend more of their holidays having fun and relaxing.
+T13	Claim 1696 1875	both locals and tourists can experience more cultures than ever before, and they can be more open-minded to eliminate preconceptions and deepen mutual understanding among nations.
+T14	Claim 1891 1967	the prosperity of tourism can provide benefits for people on a global scale.
+T15	Claim 2013 2095	they are outweighed by advantages and can be tackled if proper measures are taken.
+A1	Stance T2 Against
+A2	Stance T5 Against
+A3	Stance T6 For
+A4	Stance T9 For
+A5	Stance T10 For
+A6	Stance T13 For
+A7	Stance T14 For
+A8	Stance T15 For
+R1	attacks Arg1:T2 Arg2:T1
+R2	attacks Arg1:T5 Arg2:T1
+R3	supports Arg1:T3 Arg2:T2
+R4	supports Arg1:T4 Arg2:T2
+R5	supports Arg1:T3 Arg2:T5
+R6	supports Arg1:T4 Arg2:T5
+R7	supports Arg1:T7 Arg2:T6
+R8	supports Arg1:T8 Arg2:T6
+R9	supports Arg1:T6 Arg2:T1
+R10	supports Arg1:T9 Arg2:T1
+R11	supports Arg1:T11 Arg2:T10
+R12	supports Arg1:T12 Arg2:T10
+R13	supports Arg1:T10 Arg2:T1
+R14	supports Arg1:T13 Arg2:T1
+R15	supports Arg1:T14 Arg2:T1
+R16	supports Arg1:T15 Arg2:T1

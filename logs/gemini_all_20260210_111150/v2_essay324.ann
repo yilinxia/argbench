@@ -1,0 +1,56 @@
+T1	MajorClaim 0 54	Different types of tasks endow more colors to our life
+T2	MajorClaim 2603 2690	I still hold the firm view that different types of tasks endow more colors to our life.
+T3	Claim 525 576	from my perspective, I am on the side of my father.
+A1	Stance T3 For
+T4	Claim 623 652	It allows us to achieve more.
+A2	Stance T4 Against
+T5	Premise 653 730	As a authoritative dentist in my province, my mother has worked for 25 years.
+T6	Premise 731 895	Gandhi devoted his whole life to fight against British-ruled government and inspire movements for civil rights in India, finally he became the father of the nation.
+T7	Claim 896 995	These examples make it obvious that great achievement needs someone keen on one task for long time.
+A3	Stance T7 Against
+T8	Claim 1030 1079	different type of jobs can be responsible factor.
+A4	Stance T8 For
+T9	Claim 1080 1145	Doing different tasks makes employees and employers much happier.
+A5	Stance T9 For
+T10	Premise 1146 1239	Workers, who work for an ordinary company or industry, will be sick of same tasks day by day.
+T11	Premise 1240 1333	Although they can be familiar with their job, changing of job is what serve to their happier.
+T12	Premise 1334 1504	Changing the type of work will be fresh and elicit their potential to adapt a new environment, which, according to psychology theories, makes workers relaxed and happier.
+T13	Premise 1505 1649	To set another example, consider every workers have ability to do several kinds of work, employers will be satisfied by the generating benefits.
+T14	Premise 1650 1730	They both will be happy because the change of job, not the same task day by day.
+T15	Claim 1731 1816	Different types of tasks during workday brings more challenges, making life colorful.
+A6	Stance T15 For
+T16	Premise 1817 1883	Just like a song, if I did not have challenge, life would be blue.
+T17	Premise 1884 1987	As an engineering researcher, I will surely be disappointed for failure, and exited for new challenges.
+T18	Premise 1988 2141	New challenges from different tasks amounts far more than more works, it also means through dealing with it, I will obtain more knowledge and experience.
+T19	Premise 2142 2316	As the saying of a Chinese writer, the color of life is rooted not in Japanese cherry blossom or Canadian maple leaf, but rather there always exists new things and challenge.
+T20	Premise 2317 2490	After all, doing same task day and night just server to increase our psychological burden, connecting with different types of job is capable give us more colors to our life.
+R1	supports Arg1:T3 Arg2:T1
+R2	supports Arg1:T3 Arg2:T2
+R3	attacks Arg1:T4 Arg2:T1
+R4	attacks Arg1:T4 Arg2:T2
+R5	supports Arg1:T5 Arg2:T4
+R6	supports Arg1:T6 Arg2:T4
+R7	supports Arg1:T5 Arg2:T7
+R8	supports Arg1:T6 Arg2:T7
+R9	supports Arg1:T7 Arg2:T4
+R10	attacks Arg1:T7 Arg2:T1
+R11	attacks Arg1:T7 Arg2:T2
+R12	supports Arg1:T8 Arg2:T1
+R13	supports Arg1:T8 Arg2:T2
+R14	supports Arg1:T9 Arg2:T1
+R15	supports Arg1:T9 Arg2:T2
+R16	supports Arg1:T9 Arg2:T8
+R17	supports Arg1:T10 Arg2:T9
+R18	supports Arg1:T11 Arg2:T9
+R19	supports Arg1:T12 Arg2:T9
+R20	supports Arg1:T13 Arg2:T9
+R21	supports Arg1:T14 Arg2:T9
+R22	supports Arg1:T15 Arg2:T1
+R23	supports Arg1:T15 Arg2:T2
+R24	supports Arg1:T16 Arg2:T15
+R25	supports Arg1:T17 Arg2:T15
+R26	supports Arg1:T18 Arg2:T15
+R27	supports Arg1:T19 Arg2:T15
+R28	supports Arg1:T20 Arg2:T15
+R29	supports Arg1:T20 Arg2:T1
+R30	supports Arg1:T20 Arg2:T2

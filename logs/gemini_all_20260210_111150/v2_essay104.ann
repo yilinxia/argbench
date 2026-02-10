@@ -1,0 +1,33 @@
+T1	MajorClaim 509 609	Personally, I believe that the Internet will pave way for a more accessible and convenient learning.
+T2	Claim 630 752	the Internet is an adequate source of academic information, which will potentially fulfill the needs of university pupils.
+A1	Stance T2 For
+T3	Premise 753 903	Nowadays, not only are lectures available online, it is also applicable to find reference e-books as well as multi-aspect documents on the cyberspace.
+T4	Premise 904 979	As such, the Internet has grown to become the largest virtual library ever.
+T5	Claim 990 1069	with the use of the Internet, distance and time seem to be no more a hindrance.
+A2	Stance T5 For
+T6	Premise 1070 1221	College students can save their time browsing for necessary information through the web instead of spending hours wandering in bookstores or libraries.
+T7	Claim 1242 1312	the Internet offers a more effective and practical method of studying.
+A3	Stance T7 For
+T8	Premise 1313 1481	While virtual flowcharts and animations may simplify complicated scientific processes, Google and Wikipedia are always accessible for detailed responses to every query.
+T9	Claim 1502 1618	the Internet will become an indispensable part in academic training, for the enormous benefits that it brings about.
+A4	Stance T9 For
+T10	Premise 1619 1827	Have you ever imagined what it would be like to stay at home and attend a lecture by a famous speaker in Finland simultaneously? This fairy tale turns out to be true thanks to technical and internet advances.
+T11	Claim 1828 1980	Critics may argue that the Internet have several drawbacks which can affect the education system negatively, for instance internet abuse and black webs.
+A5	Stance T11 Against
+T12	Premise 1981 2127	However, we should bear in mind that these problems are mainly triggered by students' wrong approach towards the Internet not the Internet itself.
+T13	Premise 2128 2241	Thus, what we are to do is a change in learners' attitude not an elimination of the Internet from academic study.
+T14	Claim 2375 2443	the benefits of the Internet undoubtedly outweigh its disadvantages.
+A6	Stance T14 For
+R1	supports Arg1:T3 Arg2:T2
+R2	supports Arg1:T4 Arg2:T2
+R3	supports Arg1:T6 Arg2:T5
+R4	supports Arg1:T8 Arg2:T7
+R5	supports Arg1:T10 Arg2:T9
+R6	attacks Arg1:T12 Arg2:T11
+R7	attacks Arg1:T13 Arg2:T11
+R8	supports Arg1:T2 Arg2:T1
+R9	supports Arg1:T5 Arg2:T1
+R10	supports Arg1:T7 Arg2:T1
+R11	supports Arg1:T9 Arg2:T1
+R12	attacks Arg1:T11 Arg2:T1
+R13	supports Arg1:T14 Arg2:T1

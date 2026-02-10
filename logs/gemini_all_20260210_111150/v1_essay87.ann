@@ -1,0 +1,41 @@
+T1	MajorClaim 1951 2239	To conclude, I personally believe the government should take some actions such as classifying the payment, boosting the public transport and encouraging individuals to adopt the zero-emission cars, rather than raising the price of petrol, to get rid of the traffic and pollution problems.
+T2	Claim 355 416	From my perspective, I think their view is overly simplistic.
+A1	Stance T2 Against
+T3	Claim 417 511	Undeniably, making the fuel cost more money could limit the number of vehicles to some extent.
+A2	Stance T3 For
+T4	Premise 512 670	Due to the increasing number of petrol stations, the competition in this field is more and more fierce, thus the price of petrol could be lower in the future.
+T5	Premise 671 778	Therefore, those who are suffering from the inefficiency of public transport tend to own a car immediately.
+T6	Premise 779 862	Moreover, some families purchase even more than three cars just for their own sake.
+T7	Premise 863 989	In such case if they must pay more money on fuel, they may consider about that price of purchasing additionally for more time.
+T8	Claim 990 1068	Nevertheless, such an argument may restrict the real necessity of automobiles.
+A3	Stance T8 Against
+T9	Premise 1069 1120	In fact, some families really need one or two cars.
+T10	Premise 1121 1295	For example, three family members have to work or study in three place separated so far with each other, then they need to acquire at least two cars or they may both be late.
+T11	Claim 1296 1461	On the other hand, the development of automobile industry could be restrained as well as the employments offered by it, which could have negative effects on economy.
+A4	Stance T11 Against
+T12	Claim 1462 1522	Therefore, I can hardly agree that the solution is the best.
+A5	Stance T12 Against
+T13	Claim 1523 1589	From my mind, I think there are three ways tosolve these problems.
+A6	Stance T13 Against
+T14	Claim 1590 1659	Firstly, a new method of expenditure classification could be adopted.
+A7	Stance T14 Against
+T15	Premise 1660 1757	For instance, individuals had to pay much more for fuel if they possess more than three vehicles;
+T16	Claim 1758 1849	secondly, the government should develop the public transport to meet the residents' demand;
+A8	Stance T16 Against
+T17	Claim 1850 1950	last but not least, the people should be encouraged to use electric car to reduce the car emissions.
+A9	Stance T17 Against
+R1	supports Arg1:T2 Arg2:T1
+R2	supports Arg1:T4 Arg2:T2
+R3	supports Arg1:T5 Arg2:T2
+R4	supports Arg1:T6 Arg2:T2
+R5	supports Arg1:T7 Arg2:T2
+R6	supports Arg1:T8 Arg2:T1
+R7	supports Arg1:T9 Arg2:T8
+R8	supports Arg1:T10 Arg2:T9
+R9	supports Arg1:T11 Arg2:T1
+R10	supports Arg1:T12 Arg2:T1
+R11	supports Arg1:T13 Arg2:T1
+R12	supports Arg1:T14 Arg2:T13
+R13	supports Arg1:T15 Arg2:T14
+R14	supports Arg1:T16 Arg2:T13
+R15	supports Arg1:T17 Arg2:T13

@@ -1,0 +1,32 @@
+T1	MajorClaim 357 418	my greater interest in knowledge accumulated from experience.
+T2	Premise 509 595	books are often written by professors, experts, or authorities in a variety of fields.
+T3	Claim 607 709	knowledge acquired from books is greatly accepted, which means that it is right to the bulk of people.
+T4	Premise 809 1037	To cite an example, it is common in books that water boils at 100 Celcius degree. However, the result is not always the same in reality because it also depends on the height, the purity of the water, and even the measuring tool.
+T5	Premise 1198 1312	information contained in books is usually put in criteria so that many people can read and understand the content.
+T6	Claim 1327 1387	it is difficult to apply knowledge from books into practice.
+T7	Claim 1397 1453	it is easy to put knowledge from experience in real life
+T8	Premise 1454 1509	because it is acquired from what have happened to them.
+T9	Premise 1510 1802	For instance, a student decides to learn about chemical reactions from books. This method is likely to be fast, simple, and even safe. Nevertheless, there is an increased likelihood that he neither remembers the necessary information for a long time nor knows how to do an make an experiment.
+T10	Premise 1803 1992	Meanwhile, if he goes to the library and carries out the reactions, he is certain to have a thorough grasp of the phenomena seen. He is also able to use this information for the next times.
+T11	Claim 1993 2076	Indeed, knowledge from experience helps people more than knowledge from books does.
+T12	Claim 2113 2153	knowledge from books is widely accepted.
+T13	Claim 2163 2274	I consider knowledge from experience as the more important source because of its negative impacts on real life.
+T14	Premise 2275 2362	Experiencing a thing and drawing information from it is really interesting and helpful.
+A1	Stance T3 Against
+A2	Stance T6 For
+A3	Stance T7 For
+A4	Stance T11 For
+A5	Stance T12 Against
+A6	Stance T13 For
+R1	supports Arg1:T2 Arg2:T3
+R2	attacks Arg1:T4 Arg2:T3
+R3	supports Arg1:T5 Arg2:T6
+R4	supports Arg1:T8 Arg2:T7
+R5	supports Arg1:T9 Arg2:T6
+R6	supports Arg1:T10 Arg2:T7
+R7	supports Arg1:T6 Arg2:T11
+R8	supports Arg1:T7 Arg2:T11
+R9	supports Arg1:T11 Arg2:T1
+R10	attacks Arg1:T12 Arg2:T1
+R11	supports Arg1:T13 Arg2:T1
+R12	supports Arg1:T14 Arg2:T13

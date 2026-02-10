@@ -1,0 +1,26 @@
+T1	MajorClaim 91 192	it is time for the government to take action to control the proliferation of violent scenes in media.
+T2	Claim 299 608	This will definitely set a bad example for the immature audiences who, lacking correct parental guidance and abilities to differentiate the right from wrong, are prone to go astray by imitating the violent behaviors and committing real violent crimes as they regard the violence as reasonable and justifiable.
+T3	Claim 890 1013	excessive violence would offer misleading information to the public and exert detrimental influence to the society as well.
+T4	Claim 1378 1491	What the government should do immediately is to strengthen censorship to control the amount of violence in media.
+T5	Premise 204 298	violence in the media is often portrayed as extreme as possible in order to attract audiences.
+T6	Premise 628 731	media, such as TV or film, is considered as the correct information source regulated by the government.
+T7	Premise 732 801	It should be reporting and reflecting true phenomenon in the society.
+T8	Premise 802 880	Violence, as one of the facts in the real world, certainly has to be reported.
+T9	Premise 1014 1165	It is recently reported in the news that a seventeen-year-old boy killed all his family members, one sister and two parents out of hatred and jealousy.
+T10	Premise 1166 1287	In the real world, we are inclined to take extreme approach to tackle a small problem due to excessive violence exposure.
+T11	Premise 1288 1377	We cannot deny that our society is occupied with the violent scenes and plots at present.
+T12	Premise 1492 1576	Otherwise, the violent crime rate will rise continuously and out of control someday.
+A1	Stance T2 For
+A2	Stance T3 For
+A3	Stance T4 For
+R1	supports Arg1:T5 Arg2:T2
+R2	supports Arg1:T2 Arg2:T1
+R3	supports Arg1:T6 Arg2:T3
+R4	supports Arg1:T7 Arg2:T3
+R5	supports Arg1:T8 Arg2:T3
+R6	supports Arg1:T9 Arg2:T10
+R7	supports Arg1:T10 Arg2:T3
+R8	supports Arg1:T3 Arg2:T1
+R9	supports Arg1:T11 Arg2:T4
+R10	supports Arg1:T12 Arg2:T4
+R11	supports Arg1:T4 Arg2:T1

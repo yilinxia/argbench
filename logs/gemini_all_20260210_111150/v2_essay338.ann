@@ -1,0 +1,15 @@
+T1	MajorClaim 225 336	I totally agree that using of these soft devices have cut much of time people need to see with their relatives.
+T2	Claim 552 753	Obviousness, there are other ways like social media that they could to use it for meeting theirs buddies such as Twitter and Facebook, also make the communication become feasible and limitless of time.
+T3	Claim 754 864	Another perspective, using of these facilities has influenced netizens to keep themselves becoming unsociable.
+T4	Premise 865 979	It caused they were swept away by virtual atmosphere, so they do not do much social live interactions with others.
+T5	Premise 980 1105	The consequence of this case made some people become geek, as too much of using email and messaging, without direct contacts.
+T6	Claim 1106 1248	However, people have had own minded to keep connection with their friends as a good relationship, meet them and talk by face to face directly.
+A1	Stance T1 For
+A2	Stance T2 For
+A3	Stance T3 Against
+A4	Stance T6 For
+R1	supports Arg1:T2 Arg2:T1
+R2	attacks Arg1:T3 Arg2:T1
+R3	supports Arg1:T4 Arg2:T3
+R4	supports Arg1:T5 Arg2:T3
+R5	attacks Arg1:T6 Arg2:T3

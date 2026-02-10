@@ -1,0 +1,32 @@
+T1	MajorClaim 1595 1725	Following both the point of views, the option of working or studying from home is thought to provide more benefits than drawbacks.
+T2	Claim 467 550	the benefit that professionals or students get by connecting from home is enormous.
+T3	Claim 560 614	it helps working people to maintain work life balance.
+T4	Claim 706 772	People also get the desired flexibility in terms of working hours.
+T5	Claim 773 834	For students too, studying from home is an attractive option.
+T6	Claim 1097 1203	one part of the society, has doubt over the productivity of people who prefers to work or study from home.
+T7	Claim 1353 1390	This harms an employee's deliverable.
+T8	Claim 1499 1537	Due to this they lag in their studies.
+T9	Premise 615 705	The best example is the new mother who can join her work as well as take care of her baby.
+T10	Premise 835 920	They save the travelling time to Universities and utilize that time on their studies.
+T11	Premise 921 991	In a busy city like Tokyo, students waste a lot of time in travelling.
+T12	Premise 1204 1352	Many employers argue that once an employee works from isolation, he or she spends a lot of time in communication via phone or email with colleagues.
+T13	Premise 1391 1498	Teachers think that students get affected too as they can not clear their doubts in study topics instantly.
+A1	Stance T2 For
+A2	Stance T3 For
+A3	Stance T4 For
+A4	Stance T5 For
+A5	Stance T6 Against
+A6	Stance T7 Against
+A7	Stance T8 Against
+R1	supports Arg1:T2 Arg2:T1
+R2	supports Arg1:T3 Arg2:T2
+R3	supports Arg1:T9 Arg2:T3
+R4	supports Arg1:T4 Arg2:T2
+R5	supports Arg1:T5 Arg2:T2
+R6	supports Arg1:T10 Arg2:T5
+R7	supports Arg1:T11 Arg2:T10
+R8	attacks Arg1:T6 Arg2:T1
+R9	supports Arg1:T12 Arg2:T6
+R10	supports Arg1:T7 Arg2:T6
+R11	supports Arg1:T13 Arg2:T6
+R12	supports Arg1:T8 Arg2:T6

@@ -1,0 +1,25 @@
+T1	MajorClaim 1915 2027	I strongly believe that non-academic subjects are as essential as academic subjects for a student’s development.
+T2	Claim 385 435	schools should not only deliver academic subjects.
+T3	Premise 436 552	If physical education is removed from the syllabus, there will be considerable negative effects on students’ health.
+T4	Premise 567 815	after studying and sitting in the classroom for the whole morning, it is better for students to do some outdoor activities, such as stretching, jogging and playing ball games, in order to improve their learning ability during the afternoon classes.
+T5	Premise 816 963	Removing physical classes from school education will not only be harmful to young people’s health, it will also decrease their learning capability.
+T6	Claim 977 1056	schools are responsible for developing their students into well-rounded people.
+T7	Premise 1057 1144	It is more important for a person to success in life than to success only academically.
+T8	Premise 1145 1342	Success in life should be the ultimate goal of a student, which requires more than academic knowledge, but also practical life skills such as cooking, good communication skills and teamwork spirit.
+T9	Premise 1343 1513	Thus, school education should not only focus on the academic development of a student as it is much more crucial to teach them how to be independent and live a good life.
+T10	Claim 1541 1615	students can learn practical skills after school hours from their parents.
+T11	Premise 1670 1797	most young people would rather watch TV or play computer games after school instead of learning life skills from their parents.
+T12	Premise 1808 1899	parents are usually too busy with their daily jobs to teach their children the life skills.
+A1	Stance T2 For
+A2	Stance T6 For
+A3	Stance T10 Against
+R1	supports Arg1:T2 Arg2:T1
+R2	supports Arg1:T3 Arg2:T2
+R3	supports Arg1:T4 Arg2:T3
+R4	supports Arg1:T5 Arg2:T2
+R5	supports Arg1:T6 Arg2:T1
+R6	supports Arg1:T7 Arg2:T6
+R7	supports Arg1:T8 Arg2:T7
+R8	supports Arg1:T9 Arg2:T6
+R9	attacks Arg1:T11 Arg2:T10
+R10	attacks Arg1:T12 Arg2:T10

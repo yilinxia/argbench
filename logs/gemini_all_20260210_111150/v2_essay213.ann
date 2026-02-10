@@ -1,0 +1,27 @@
+T1	MajorClaim 234 312	I still believe that the capability of working independly is more significant.
+T2	Claim 385 480	in many important cases when team-working is not possible, the ability to work alone will help.
+T3	Premise 481 566	The apperant example is that there are a lot of tests that do not allow team-working.
+T4	Premise 567 769	Let's imagine that you perform really well when you can discuss the problems with other people, but you have no experience of working alone, standardized tests such as SAT, TOEFL may be your nightmares.
+T5	Premise 770 879	Testing is a very important aspect of life, and still the majority of tests do not allow you to work in team.
+T6	Claim 891 1041	if you want to get brilliant achievements such as going to college, acing your school's final tests, you should consider learning to work on your own.
+T7	Claim 1052 1140	the ability to work alone will help you increase your ability to work with other people.
+T8	Premise 1141 1219	Working in team does not mean that you do not have to come up with your ideas.
+T9	Premise 1220 1314	Everybody in a team must have his/her own opinion first, then discuss them with other members.
+T10	Premise 1315 1414	When we work in team, we still think individually because our brain are not connected but separate.
+T11	Premise 1415 1522	When everyone in a team can come up with his/her own ideas, working in team will definitely more effective.
+T12	Claim 1675 1806	the capablity of working alone is the foundation for the skill to work in team and plays a significant role in a lot of situations.
+A1	Stance T2 For
+A2	Stance T6 For
+A3	Stance T7 For
+A4	Stance T12 For
+R1	supports Arg1:T3 Arg2:T6
+R2	supports Arg1:T4 Arg2:T6
+R3	supports Arg1:T5 Arg2:T6
+R4	supports Arg1:T6 Arg2:T2
+R5	supports Arg1:T2 Arg2:T1
+R6	supports Arg1:T8 Arg2:T7
+R7	supports Arg1:T9 Arg2:T7
+R8	supports Arg1:T10 Arg2:T7
+R9	supports Arg1:T11 Arg2:T7
+R10	supports Arg1:T7 Arg2:T1
+R11	supports Arg1:T12 Arg2:T1

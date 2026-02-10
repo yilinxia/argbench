@@ -1,0 +1,40 @@
+T1	MajorClaim 443 518	I hold the contention that no additional payment should be charged on them.
+T2	Claim 791 857	charging them extra fee might seems to be out of the jurisdiction.
+T3	Premise 552 653	Capitalism enfranchised people's right to own properties, and consequently, their rights to use them.
+T4	Premise 743 772	laws protect drivers to do so
+T5	Claim 886 991	traffic jam is a natural phenomenon that nobody is able to shun or ban; so it is out of drivers' control.
+T6	Premise 992 1075	Why drivers should pay a fine only for driving their own cars in a particular time?
+T7	Premise 1076 1171	Wars are notorious, but you can't blame the soldiers who are justing fight for their countries.
+T8	Claim 1327 1390	Charging drivers one more fee makes no sense and is ridiculous.
+T9	Premise 1172 1326	Buying a car spends hundreds of thousand; paying for all sorts of fee takes another several-these are all ready too much for most of the families to bear.
+T10	Premise 1391 1567	Majority of the families buy cars simply for a safer and easier conveyance, and charging them too much fee adds a lot to their burden and is actually jeopardizing their rights.
+T11	Claim 1626 1856	government should instead, be more active on advocating the use of more efficient and environmental-friendly energy or planning out more reasonable and convenient layout that allow people to reach their destinations with less oil.
+T12	Claim 1991 2065	the one who should be charged for a fine is the city planner, not drivers.
+T13	Premise 1857 1974	Sometimes traffic jam occur only due to the malfunction of a traffic light, or unreasonable organization of roadways.
+T14	Claim 2078 2179	charging drivers fees regardless of the causes of the problems could be ridiculous and even unlawful.
+T15	Claim 2196 2426	"rush hours" are usually not the direct consequence of drivers. Instead, the real causes of traffic jam may fall on various of grounds, and therefore, charging drivers for another fee for this could be unreasonable and irrational.
+A1	Stance T2 Against
+A2	Stance T5 Against
+A3	Stance T8 Against
+A4	Stance T11 Against
+A5	Stance T12 Against
+A6	Stance T14 Against
+A7	Stance T15 Against
+R1	supports Arg1:T3 Arg2:T2
+R2	supports Arg1:T4 Arg2:T2
+R3	supports Arg1:T2 Arg2:T1
+R4	supports Arg1:T6 Arg2:T5
+R5	supports Arg1:T7 Arg2:T5
+R6	supports Arg1:T5 Arg2:T1
+R7	supports Arg1:T9 Arg2:T8
+R8	supports Arg1:T10 Arg2:T8
+R9	supports Arg1:T8 Arg2:T1
+R10	supports Arg1:T11 Arg2:T1
+R11	supports Arg1:T13 Arg2:T12
+R12	supports Arg1:T12 Arg2:T1
+R13	supports Arg1:T2 Arg2:T14
+R14	supports Arg1:T12 Arg2:T14
+R15	supports Arg1:T14 Arg2:T1
+R16	supports Arg1:T5 Arg2:T15
+R17	supports Arg1:T12 Arg2:T15
+R18	supports Arg1:T15 Arg2:T1

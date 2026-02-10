@@ -1,0 +1,21 @@
+T1	MajorClaim 241 377	I would contend that this industry has affected the cultural attributes and damaged the natural environment of the tourist destinations.
+T2	Claim 387 531	it is an undeniable fact that tourists from different cultures will probably cause changes to the cultural identity of the tourist destinations.
+T3	Premise 532 819	Take Thailand for example, in the Vietnam War, many American soldiers came to Thailand for a break and involved in sexual and drug activities, these huge demands caused many local businesses opened and expanded, even illegally involved in under-age prostitutes to maximize their profits.
+T4	Premise 820 925	This was due to the lack of adequate controls by authorities and lead to a bad image of Thailand tourism.
+T5	Premise 926 1032	Therefore this proves that international tourism can create negative impacts on the destination countries.
+T6	Claim 1043 1159	there are clear evidences that tourism increasingly create harms to the natural habitats of the destination appeals.
+T7	Premise 1160 1414	As the Australia’s Great Barrier Reef has shown, the billion visitors per annum has generated immense destruction to this nature wonder, namely breaking the corals caused by walking or throwing boat’s anchors, dropping fuel and other sorts of pollutions.
+T8	Premise 1415 1551	For this reason, many marine lives have been endangered, in the extremes part of the reef become uninhabitable for these marine species.
+T9	Premise 1552 1625	Thus, it is apparent that tourism has threatened the nature environments.
+T10	Premise 1626 1759	To conclude, I strongly believe that the tourism has created threatening pressure on both the sociocultural and natural environments.
+A1	Stance T2 For
+A2	Stance T6 For
+R1	supports Arg1:T2 Arg2:T1
+R2	supports Arg1:T3 Arg2:T2
+R3	supports Arg1:T4 Arg2:T2
+R4	supports Arg1:T5 Arg2:T2
+R5	supports Arg1:T6 Arg2:T1
+R6	supports Arg1:T7 Arg2:T6
+R7	supports Arg1:T8 Arg2:T6
+R8	supports Arg1:T9 Arg2:T6
+R9	supports Arg1:T10 Arg2:T1

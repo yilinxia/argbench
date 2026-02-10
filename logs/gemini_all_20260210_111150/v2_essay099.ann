@@ -1,0 +1,28 @@
+T1	MajorClaim 1539 1630	In my view point, I would agree to idea of taking a break before starting higher education.
+T2	Claim 375 487	Experience gained through traveling to different places, meeting different people and even at job goes long way.
+T3	Premise 488 569	It not only enhances the confidence of a student but also makes them independent.
+T4	Premise 570 687	Student's who works tend to gather better financial resources which they can rely on during their university studies.
+T5	Premise 688 772	This experience also makes them aware of what they would like to make of their life.
+T6	Premise 773 863	They develop broader view and can make a better choice of their future studies or courses.
+T7	Claim 864 946	Taking a break not just has benefits but it also comes with some negative impacts.
+T8	Premise 947 1071	Once student's starts earning, they might not like to go back to studies where they would lose their financial independence.
+T9	Premise 1072 1140	They might even find it difficult to adapt to education environment.
+T10	Premise 1141 1224	There is also a risk of student never going back to university or higher education.
+T11	Premise 1225 1538	Probably some might take some short term courses instead of proper and complete university education, which will help them to get a better job and salaries. This might only help them in a short run as it is a known fact that to make a reasonable career in longer runs, one needs a proper and higher qualification.
+T12	Claim 1631 1722	Students who take break, gain lot of benefits by traveling around the places or by working.
+T13	Premise 1723 1817	They tend to contribute more due to their real world experiences which makes them more mature.
+A1	Stance T2 For
+A2	Stance T7 Against
+A3	Stance T12 For
+R1	supports Arg1:T2 Arg2:T1
+R2	supports Arg1:T3 Arg2:T2
+R3	supports Arg1:T4 Arg2:T2
+R4	supports Arg1:T5 Arg2:T2
+R5	supports Arg1:T6 Arg2:T2
+R6	attacks Arg1:T7 Arg2:T1
+R7	supports Arg1:T8 Arg2:T7
+R8	supports Arg1:T9 Arg2:T7
+R9	supports Arg1:T10 Arg2:T7
+R10	supports Arg1:T11 Arg2:T10
+R11	supports Arg1:T12 Arg2:T1
+R12	supports Arg1:T13 Arg2:T12

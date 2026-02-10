@@ -1,0 +1,19 @@
+T1	MajorClaim 216 317	for the more higher education like university, the students or their parents should pay for the fees.
+T2	Claim 421 571	I don't think it is also fair for the government as the government has been paying a lot of money for their students' primary and secondary education.
+A1	Stance T2 For
+T3	Premise 572 721	It is better for them to use the money to pay for the other students' education so that all people in their country could receive the same education.
+R1	supports Arg1:T3 Arg2:T2
+T4	Claim 732 899	students that already have a basic knowledge and education can get a part-time job and they can pay for their own studies when their parent could not afford to pay it.
+A2	Stance T4 For
+T5	Premise 900 983	They will be more responsible with their studies when they pay the fees themselves.
+R2	supports Arg1:T5 Arg2:T4
+T6	Premise 1005 1109	the students will become more independent and it will build their characters in the marketplace as well.
+R3	supports Arg1:T6 Arg2:T4
+T7	Claim 1123 1302	this will encourage all the parents to think of the way to help their children to achieve more in their lives as they need to make some contribution too for their children future.
+A3	Stance T7 For
+T8	Claim 1400 1559	this will make both the parents and students in charge for their future themselves not just depend on the government to do all their responsibilities for them.
+A4	Stance T8 For
+R4	supports Arg1:T2 Arg2:T1
+R5	supports Arg1:T4 Arg2:T1
+R6	supports Arg1:T7 Arg2:T1
+R7	supports Arg1:T8 Arg2:T1

@@ -1,0 +1,27 @@
+T1	MajorClaim 1909 2044	a government should spare effort on young children education as well as universities, both are crucial on the way to a brighter future.
+T2	Claim 468 539	a government is supposed to offer sufficient financial support for both
+T3	Claim 689 771	government should guarantee that all people have equal and convenient access to it
+T4	Premise 557 687	elementary education, like the base of a architecture, is the fundamental requirement to be a qualified citizen in today's society
+T5	Premise 776 943	a lack of well-established primary education goes hand in hand with a high rate of illiteracy, and this interplay seriously compromises a country's future development.
+T6	Premise 960 1168	if countries, especially the developing countries, are determined to take off, one of the key points governments should set on agenda is to educate more qualified future citizens through elementary education.
+T7	Claim 1188 1332	for higher education, which represent the cutting edge of a country's academic achievements, act as the vanguard in economic and social advance.
+T8	Premise 1333 1488	The high technology and new ideas applied into practice may not only lead a country to flourish but also elevate its status in the international community.
+T9	Premise 1489 1573	Some may argue that universities can support themselve well by donation or invention
+T10	Claim 1579 1604	this argument is invalid.
+T11	Premise 1605 1672	Researches into humanities and art still need large amount of money
+T12	Premise 1687 1841	government's big budget on universities may attract more excellent intellectuals and researchers into the country and enjoy a higher reputation worldwide.
+A1	Stance T2 For
+A2	Stance T3 For
+A3	Stance T7 For
+A4	Stance T10 For
+R1	supports Arg1:T2 Arg2:T1
+R2	supports Arg1:T3 Arg2:T1
+R3	supports Arg1:T4 Arg2:T3
+R4	supports Arg1:T5 Arg2:T3
+R5	supports Arg1:T6 Arg2:T3
+R6	supports Arg1:T7 Arg2:T1
+R7	supports Arg1:T8 Arg2:T7
+R8	attacks Arg1:T10 Arg2:T9
+R9	supports Arg1:T11 Arg2:T10
+R10	supports Arg1:T12 Arg2:T10
+R11	supports Arg1:T10 Arg2:T7

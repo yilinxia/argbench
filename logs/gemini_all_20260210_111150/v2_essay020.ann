@@ -1,0 +1,25 @@
+T1	MajorClaim 177 303	I believe that more responsibilities should put on private individuals and companies such as paying to clean up air pollution.
+T2	Claim 703 857	If these companies were obliged to pay to clean up the air pollution, they would at least make an effort to reduce the amount of air pollution they cause.
+T3	Premise 428 537	The waste products and harmful gases produced by these factories cause a significant amount of air pollution.
+T4	Premise 538 702	While these companies make a huge amount of money from their businesses, most of them are not considering to take precautions to reduce the amount of air pollution.
+T5	Claim 1207 1349	In my opinion, by charging private individuals for causing air pollution, that will at least contribute to reduce the amount of the pollution.
+T6	Premise 866 972	private individuals cause air pollution in several ways such as inessential use of cars and house heating.
+T7	Premise 973 1131	As house heating is a major need in the winter time, some households do not consider to use filters to reduce the amount of pollution that the heating causes.
+T8	Premise 1132 1206	Instead of this, some expensive vehicles cause a huge amount of pollution.
+T9	Claim 1370 1493	I believe that governments should restrict the use of products that cause air pollution for both individuals and companies.
+T10	Claim 1494 1660	Governments also should use an amount of money from their budgets to clean up the air, instead of putting all the responsibility to companies and private individuals.
+T11	Premise 1677 1846	due to the fact that governments are responsible to provide a healthy environment for their inhabitants and they should be responsible from cleaning up the air pollution
+A1	Stance T2 For
+A2	Stance T5 For
+A3	Stance T9 Against
+A4	Stance T10 Against
+R1	supports Arg1:T3 Arg2:T2
+R2	supports Arg1:T4 Arg2:T2
+R3	supports Arg1:T2 Arg2:T1
+R4	supports Arg1:T6 Arg2:T5
+R5	supports Arg1:T7 Arg2:T6
+R6	supports Arg1:T8 Arg2:T6
+R7	supports Arg1:T5 Arg2:T1
+R8	attacks Arg1:T9 Arg2:T1
+R9	attacks Arg1:T10 Arg2:T1
+R10	supports Arg1:T11 Arg2:T10

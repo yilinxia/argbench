@@ -1,0 +1,38 @@
+T1	MajorClaim 299 353	professors should be encouraged to mainly do research.
+T2	Claim 368 430	doing research is a method of self-improvement for professors.
+A1	Stance T2 For
+T3	Premise 431 540	Universities are relatively fenced environment. The research projects provide communication with the outside.
+T4	Premise 541 650	In addition, by doing research, professors could catch up with the latest development of modern technologies.
+T5	Premise 651 904	I still remembered that my professor took part in several research projects when I was in college. He was often invited to do speech in other universities. Although my university is not in the high-ranking list, he gained a reputation by those projects.
+T6	Premise 905 966	The research projects like windows opened to the wider world.
+T7	Claim 977 1064	professors should fully use the research-friendly environment provided by universities.
+A2	Stance T7 For
+T8	Premise 1065 1134	It is very common to see state-of-the-art laboratories in the campus.
+T9	Premise 1135 1220	Also, you could not find another place with so much talent people gathering together.
+T10	Premise 1221 1314	Consequently, there is really no reason to discourage professors from using those advantages.
+T11	Premise 1315 1421	We all know that Einstein developed the theory of general relativity when he was a professor in HU Berlin.
+T12	Premise 1422 1481	Universities positively contribute the professors' success.
+T13	Claim 1503 1558	doing research could also improve the teaching quality.
+A3	Stance T13 For
+T14	Premise 1559 1676	With the help of research projects, professors could lead their students into the practical world from the classroom.
+T15	Premise 1677 1747	They can easily teach students how to imply the knowledge in practice.
+T16	Premise 1748 1945	I still remembered the experience of being an assistant in one of my professor's research project. By participating in it, I had opportunities to use theories on textbooks in real life experiments.
+T17	Premise 1946 2009	The research project provides a more efficient way of teaching.
+T18	Premise 2108 2225	While extending the way of their own development, the outcomes of the researches will also benefit the whole society.
+R1	supports Arg1:T3 Arg2:T2
+R2	supports Arg1:T4 Arg2:T2
+R3	supports Arg1:T5 Arg2:T2
+R4	supports Arg1:T6 Arg2:T2
+R5	supports Arg1:T8 Arg2:T7
+R6	supports Arg1:T9 Arg2:T7
+R7	supports Arg1:T10 Arg2:T7
+R8	supports Arg1:T11 Arg2:T7
+R9	supports Arg1:T12 Arg2:T7
+R10	supports Arg1:T14 Arg2:T13
+R11	supports Arg1:T15 Arg2:T13
+R12	supports Arg1:T16 Arg2:T13
+R13	supports Arg1:T17 Arg2:T13
+R14	supports Arg1:T2 Arg2:T1
+R15	supports Arg1:T7 Arg2:T1
+R16	supports Arg1:T13 Arg2:T1
+R17	supports Arg1:T18 Arg2:T1

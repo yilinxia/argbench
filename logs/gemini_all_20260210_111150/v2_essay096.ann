@@ -1,0 +1,28 @@
+T1	MajorClaim 394 514	I, for one, agree to this resolution whole-heartedly as it poses advantages to various parties as I shall discuss below.
+T2	Claim 550 662	it would be easier for the juries to make a decision if they know about the past information about the criminal.
+T3	Premise 680 792	knowing their background very well will enable the juries to analyze the crime before coming up with a judgment.
+T4	Premise 793 1098	For instance, take a person who has not murdered anyone but is suddenly found to be guilty. The juries will be able to know weather the individual committed the crime intentionally or due to circumstances by knowing the facts about the person. Then, punishment can be given in accordance to the condition.
+T5	Claim 1116 1145	a fair trial can be achieved.
+T6	Premise 1146 1238	As all of us know, juries are a group of people who have no or less knowledge regarding law.
+T7	Premise 1239 1422	Thus, exposing them to the past records of the criminal can give them more room to think rationally and finally put the pieces together in order to produce a more meaningful decision.
+T8	Premise 1423 1550	By doing so, the juries will have a sense of relief that they have come up with better conclusion based on plenty of evidences.
+T9	Premise 1551 1612	Not only that, the convicted will also receive a fair action.
+T10	Claim 1635 1766	when the background of the convicted is 'dug' deeper and is revealed to mass of anonymous people, his privacy is being jeopardized.
+T11	Premise 1767 1844	If finally he is proven innocent, he may feel embarrassed to face the public.
+T12	Claim 1869 2008	the crimes done by criminals should be brought to light and the public should be aware of it so that they will not become a victim as well.
+T13	Premise 2188 2320	This is of paramount importance so that they will be able to give a better and reliable as well as a fair judgment to the convicted.
+A1	Stance T2 For
+A2	Stance T5 For
+A3	Stance T10 Against
+A4	Stance T12 For
+R1	supports Arg1:T3 Arg2:T2
+R2	supports Arg1:T4 Arg2:T3
+R3	supports Arg1:T2 Arg2:T1
+R4	supports Arg1:T6 Arg2:T7
+R5	supports Arg1:T7 Arg2:T5
+R6	supports Arg1:T8 Arg2:T7
+R7	supports Arg1:T9 Arg2:T5
+R8	supports Arg1:T5 Arg2:T1
+R9	supports Arg1:T11 Arg2:T10
+R10	attacks Arg1:T12 Arg2:T10
+R11	supports Arg1:T13 Arg2:T1

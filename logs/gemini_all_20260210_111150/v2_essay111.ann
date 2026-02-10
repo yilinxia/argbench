@@ -1,0 +1,33 @@
+T1	MajorClaim 1598 1734	For the reasons mentioned above, it seems to me that testing on animals has no clear result and consequently, it should be made illegal.
+T2	Claim 324 392	I believe that primates should have the same rights as human beings.
+T3	Claim 465 497	the costs outweigh the benefits.
+T4	Claim 780 821	animals are kept in unnatural conditions.
+T5	Claim 1150 1207	sacrificing animals is an expensive and painful activity.
+T6	Claim 1240 1311	many ethical and genetic principles are broken when testing on animals.
+T7	Claim 1506 1597	human beings have no moral right to use animals in ways that do not benefit the individual.
+T8	Premise 154 248	Many medical treatments have been discovered by animal testing, including cancer and HIV drugs
+T9	Premise 498 634	Every year, cosmetic companies, farms or medical schools kill millions of animals to test their products, without any beneficial result.
+T10	Premise 635 769	Animal testing costs an enormous amount of money, since they must be fed, cared for and treated with drugs or experimental substances.
+T11	Premise 822 936	Recent studies point out that animals are neglected and treated poorly, which influences their reactions to drugs.
+T12	Premise 937 1122	In March 2003, a lab technician shot a video inside a lab, which revealed primates in cages without pain medication, for instance one baboon with a metal cylinder screwed into its head.
+T13	Premise 1312 1479	Many people agree that it is not only inhumane and cruel to cause pain to animals, but also misleading, since animals and people's response to a drug can be different.
+A1	Stance T2 For
+A2	Stance T3 For
+A3	Stance T4 For
+A4	Stance T5 For
+A5	Stance T6 For
+A6	Stance T7 For
+R1	supports Arg1:T2 Arg2:T1
+R2	supports Arg1:T3 Arg2:T1
+R3	supports Arg1:T4 Arg2:T1
+R4	supports Arg1:T5 Arg2:T1
+R5	supports Arg1:T6 Arg2:T1
+R6	supports Arg1:T7 Arg2:T1
+R7	attacks Arg1:T8 Arg2:T2
+R8	supports Arg1:T9 Arg2:T3
+R9	supports Arg1:T10 Arg2:T3
+R10	supports Arg1:T11 Arg2:T4
+R11	supports Arg1:T12 Arg2:T11
+R12	supports Arg1:T11 Arg2:T5
+R13	supports Arg1:T12 Arg2:T5
+R14	supports Arg1:T13 Arg2:T6
