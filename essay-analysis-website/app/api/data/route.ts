@@ -195,17 +195,16 @@ function parseBratComponents(annotation: string): { start: number; end: number; 
   const lines = annotation.split("\n")
   
   for (const line of lines) {
-    if (line.startsWith("T")) {
-      const parts = line.split("\t")
-      if (parts.length >= 2) {
-        const typeAndSpan = parts[1].split(" ")
-        if (typeAndSpan.length >= 3) {
-          const type = typeAndSpan[0]
-          const start = parseInt(typeAndSpan[1], 10)
-          const end = parseInt(typeAndSpan[2], 10)
-          if (!isNaN(start) && !isNaN(end)) {
-            components.push({ start, end, type })
-          }
+    const trimmed = line.trim()
+    if (trimmed.startsWith("T")) {
+      // Match: T1<tab or space>MajorClaim 391 490<tab or space>text content
+      const match = trimmed.match(/^T\d+[\t\s]+(\w+)\s+(\d+)\s+(\d+)/)
+      if (match) {
+        const type = match[1]
+        const start = parseInt(match[2], 10)
+        const end = parseInt(match[3], 10)
+        if (!isNaN(start) && !isNaN(end)) {
+          components.push({ start, end, type })
         }
       }
     }

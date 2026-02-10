@@ -16,8 +16,8 @@ export function parseBrat(bratText: string): Annotation {
 
     if (trimmed.startsWith("T")) {
       // Entity: T1\tMajorClaim 391 490\ttext content
-      // Note: some outputs use space instead of tab before text
-      const match = trimmed.match(/^(T\d+)\t(\w+)\s+(\d+)\s+(\d+)[\t\s](.+)$/)
+      // Note: some outputs use space instead of tab as delimiter
+      const match = trimmed.match(/^(T\d+)[\t\s]+(\w+)\s+(\d+)\s+(\d+)[\t\s]+(.+)$/)
       if (match) {
         components.push({
           id: match[1],
@@ -29,7 +29,8 @@ export function parseBrat(bratText: string): Annotation {
       }
     } else if (trimmed.startsWith("A")) {
       // Attribute: A1\tStance T2 Against
-      const match = trimmed.match(/^A\d+\tStance\s+(T\d+)\s+(\w+)$/)
+      // Note: some outputs use space instead of tab as delimiter
+      const match = trimmed.match(/^A\d+[\t\s]+Stance\s+(T\d+)\s+(\w+)$/)
       if (match) {
         stances.push({
           componentId: match[1],
@@ -38,7 +39,8 @@ export function parseBrat(bratText: string): Annotation {
       }
     } else if (trimmed.startsWith("R")) {
       // Relation: R1\tsupports Arg1:T3 Arg2:T1
-      const match = trimmed.match(/^(R\d+)\t(\w+)\s+Arg1:(T\d+)\s+Arg2:(T\d+)$/)
+      // Note: some outputs use space instead of tab as delimiter
+      const match = trimmed.match(/^(R\d+)[\t\s]+(\w+)\s+Arg1:(T\d+)\s+Arg2:(T\d+)$/)
       if (match) {
         relations.push({
           id: match[1],
