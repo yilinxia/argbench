@@ -1,0 +1,31 @@
+T1	MajorClaim 0 83	Technology designed to make people's lives simpler often make them more complicated
+T2	Claim 477 549	we would have to admit that technologies made our lives more complicated
+A1	Stance T2 For
+T3	Claim 666 704	it takes time for people to adapt them
+A2	Stance T3 For
+T4	Premise 706 821	Since we are informed with devices that are produced with new features nearly every day, many people often get lost
+T5	Premise 837 887	I use new Iphone which I personally think is great
+T6	Premise 898 999	even though I used it for couple months, I still do not know how to use all the features proficiently
+T7	Premise 1001 1159	At first, I tried to go through all the instructions but, soon, I gave up because I found out that it is time-consuming and there are too many things to learn
+T8	Claim 1168 1200	technology destroys the language
+A3	Stance T8 For
+T9	Premise 1202 1316	Ever since people used computers or cellphones to chat with others, they created their own language to communicate
+T10	Premise 1318 1425	Because people try to type as fast as they are talking, they use a lot of abbreviations and broken language
+T11	Premise 1427 1484	This has gotten worse with twitter, myspace, and facebook
+T12	Premise 1486 1617	What are even worse, young people who are still in the early ages are exposed to them and impeded by the newly developed inventions
+T13	Premise 1631 1762	my younger brother does not know how to spell the words correctly and he talks to his friends with terms that I have never heard of
+T14	Premise 1764 1854	I have tried to correct him for couple times but he just thinks that I am too conservative
+T15	MajorClaim 1856 1991	Although technologies allowed us to have a convenient life, it has made our lives more chaotic according to the reasons mentioned above
+R1	supports Arg1:T2 Arg2:T1
+R2	supports Arg1:T3 Arg2:T2
+R3	supports Arg1:T4 Arg2:T3
+R4	supports Arg1:T5 Arg2:T3
+R5	supports Arg1:T6 Arg2:T3
+R6	supports Arg1:T7 Arg2:T6
+R7	supports Arg1:T8 Arg2:T2
+R8	supports Arg1:T9 Arg2:T8
+R9	supports Arg1:T10 Arg2:T8
+R10	supports Arg1:T11 Arg2:T8
+R11	supports Arg1:T12 Arg2:T8
+R12	supports Arg1:T13 Arg2:T12
+R13	supports Arg1:T14 Arg2:T13

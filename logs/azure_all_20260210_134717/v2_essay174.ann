@@ -1,0 +1,35 @@
+T1	MajorClaim 32 100	I prefer the serious movies which are simple, touching and powerful.
+T2	Claim 123 181	First, most serious movies have a wide variety of content.
+T3	Premise 182 230	Entertaining movies are created to amuse people.
+T4	Premise 231 291	However, most entertaining movies are empty and nonsensical.
+T5	Premise 292 385	Compared with the entertainment film, the serious film may be more worthwhile and meaningful.
+T6	Premise 386 531	Serious movies usually designed to express one or more thinking about love, humaneness; moreover, it may point out the dark sides of the society.
+T7	Claim 532 577	Second, not all of serious movies are boring.
+T8	Premise 578 722	"Click" is a very interesting comedy, with a serious approach about the importance of having a balanced life between family and work businesses.
+T9	Premise 723 870	The movie is humorous and satiric,which leads us to think what is the most valuable of our lives, and it reminds us how important our families are.
+T10	Premise 871 987	Thus, the hidden meanings of serious movies are usually beyond words and images which make us think about ourselves.
+T11	Claim 988 1077	Moreover, some of serious movies try to make you think about the dark sides of the world.
+T12	Premise 1078 1192	"Blood diamond", an adaptation of a real story in South Africa, focuses on the link between diamonds and conflict.
+T13	Premise 1193 1266	After watching the movie, we may learn a lesson between jewels and death.
+T14	Premise 1267 1372	Diamonds are not rare or a sign of true love; indeed, the hidden meaning of a diamond is a cruel reality.
+T15	Premise 1373 1449	As a result, serious movie tell you how to see the world in a different way.
+T16	Claim 1450 1571	For the above reasons, I prefer to see those serious movies which make people have deep thoughts toward their real lives.
+A1	Stance T2 For
+A2	Stance T7 For
+A3	Stance T11 For
+A4	Stance T16 For
+R1	supports Arg1:T2 Arg2:T1
+R2	supports Arg1:T3 Arg2:T2
+R3	supports Arg1:T4 Arg2:T2
+R4	supports Arg1:T5 Arg2:T2
+R5	supports Arg1:T6 Arg2:T2
+R6	supports Arg1:T7 Arg2:T1
+R7	supports Arg1:T8 Arg2:T7
+R8	supports Arg1:T9 Arg2:T7
+R9	supports Arg1:T10 Arg2:T7
+R10	supports Arg1:T11 Arg2:T1
+R11	supports Arg1:T12 Arg2:T11
+R12	supports Arg1:T13 Arg2:T11
+R13	supports Arg1:T14 Arg2:T11
+R14	supports Arg1:T15 Arg2:T11
+R15	supports Arg1:T16 Arg2:T1

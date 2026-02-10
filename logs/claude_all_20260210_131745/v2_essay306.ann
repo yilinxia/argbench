@@ -1,0 +1,27 @@
+T1	MajorClaim 0 63	Technology makes people's lives simpler rather than complicated
+T2	Claim 366 399	the convenience it brings is more
+T3	MajorClaim 366 399	the convenience it brings is more
+T4	Claim 507 589	there is no doubt that the technology in automobile has made people's life simpler
+A1	Stance T4 For
+T5	Premise 591 684	With a private car, you can reach the destination in another city just sitting in the vehicle
+T6	Premise 686 846	Alternatively, if you would like to have a trip across the ocean, a plane can carry you there in only a few hours, which is hard to imagine in the ancient times
+T7	Claim 856 894	technology also makes teaching simpler
+A2	Stance T7 For
+T8	Premise 896 1050	In the past, teachers have to write what they want to convey to students on the chalkboard, resulting in a great waste of time and the fatigue of teachers
+T9	Premise 1052 1295	With the advent of iPads in e-learning, paper books become unnecessary, so does the blackboards, it is because all the knowledge and information are stored in the iPads, with a single click, and they would appear right before your eyes at once
+T10	Claim 1309 1375	to some extent, technology may make people's life more complicated
+A3	Stance T10 Against
+T11	Premise 1377 1559	For example, the cell phone, which used to be simply a tool to deliver messages to your contacts in a distance, now are playing a role more than just a phone in social communications
+T12	Premise 1561 1691	For instance, folks have to check their Facebooks, Twitters, and Forums accounts every minute, which add too much pressure to them
+T13	Premise 1693 1837	In addition, games on their phone exert a tremendous fascination on teenagers, leading to a large problem that they got addicted to their phones
+T14	MajorClaim 1976 2099	although technology may make people's life complicated in some cases, the convenience it brings in people's are significant
+R1	supports Arg1:T5 Arg2:T4
+R2	supports Arg1:T6 Arg2:T4
+R3	supports Arg1:T8 Arg2:T7
+R4	supports Arg1:T9 Arg2:T7
+R5	supports Arg1:T11 Arg2:T10
+R6	supports Arg1:T12 Arg2:T10
+R7	supports Arg1:T13 Arg2:T10
+R8	supports Arg1:T4 Arg2:T1
+R9	supports Arg1:T7 Arg2:T1
+R10	attacks Arg1:T10 Arg2:T1

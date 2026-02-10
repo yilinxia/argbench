@@ -1,0 +1,35 @@
+T1	MajorClaim 517 604	That's why I believe that the excellent knowledge of this job will be more significant.
+T2	Claim 605 1052	Admittedly, the ability to adapt oneself to the new environment has been proven to be part of job. This ability is helpful in communicating with other workmates, cooperating with other workers needs this ability, too. But working alone is a longer-term job than communicating, that is, the ability of adapting oneself to a new environment may be necessary for a fresh worker, but the excellent knowledge of this job will be benefit till one leave.
+T3	Premise 704 766	This ability is helpful in communicating with other workmates,
+T4	Premise 767 822	cooperating with other workers needs this ability, too.
+T5	Premise 823 1052	But working alone is a longer-term job than communicating, that is, the ability of adapting oneself to a new environment may be necessary for a fresh worker, but the excellent knowledge of this job will be benefit till one leave.
+T6	Claim 1054 1120	The company will benefit from every worker of excellent knowledge.
+T7	Premise 1121 1287	The core and most profitable technology of an IT company is invented by a worker with excellent computer knowledge, not a worker with outstanding communicating skill.
+T8	Premise 1288 1449	The high reputation and popularity of a company is earned by some brilliant workers in public relation department with excellent skill to propagate this company.
+T9	Premise 1450 1545	So the company will earn more money and reputation from these workers with excellent knowledge.
+T10	Claim 1547 1620	Employees will obtain reward from hard-work pursuing excellent knowledge.
+T11	Premise 1621 1844	Through our whole study life, undergraduate and graduate, we keep learning with the purpose of exerting these knowledge and experience on our job, just like an old Chinese scholar said, the essence of study is utilizing it.
+T12	Premise 1845 2079	After we get a job, the destination of we keep accumulating and collecting knowledge is rooted not in fawn on our manager with the ability to adapt this kind of business culture, but in making us excellent and totally master this job.
+T13	Premise 2080 2120	Finally, we will be rewarded with pride.
+T14	Premise 2121 2182	That's why we can obtain reward from out excellent knowledge.
+T15	Claim 2183 2344	To sum up, I would have to say that although we can use the ability of adapting oneself in a new environment, the excellent knowledge will be of more importance.
+T16	Premise 2345 2428	Because it can not only benefit our employers, but also ourselves will be rewarded.
+A1	Stance T2	For
+A2	Stance T6	For
+A3	Stance T10	For
+A4	Stance T15	For
+R1	supports Arg1:T3 Arg2:T2
+R2	supports Arg1:T4 Arg2:T2
+R3	supports Arg1:T5 Arg2:T2
+R4	supports Arg1:T2 Arg2:T1
+R5	supports Arg1:T7 Arg2:T6
+R6	supports Arg1:T8 Arg2:T6
+R7	supports Arg1:T9 Arg2:T6
+R8	supports Arg1:T6 Arg2:T1
+R9	supports Arg1:T11 Arg2:T10
+R10	supports Arg1:T12 Arg2:T10
+R11	supports Arg1:T13 Arg2:T10
+R12	supports Arg1:T14 Arg2:T10
+R13	supports Arg1:T10 Arg2:T1
+R14	supports Arg1:T16 Arg2:T15
+R15	supports Arg1:T15 Arg2:T1

@@ -1,0 +1,40 @@
+T1	MajorClaim 1907 2054	Therefore, scientists should not place less emphasis on technological solutions, but try to pay more attention to develop new technologies instead.
+T2	Claim 421 474	Personally, I partly disagree with this point of view
+T3	Claim 556 603	technology plays an integral part in our lives.
+T4	Premise 604 709	With the invention of computers and the Internet, we now can get easy access to all kinds of information.
+T5	Premise 710 801	In addition, hi-tech devices also have a very positive impact on many aspects of our lives.
+T6	Premise 802 899	They help us to work and study more efficiently, thus leading to an improvement in our abilities.
+T7	Premise 900 969	Medical advances can improve our health and cure many fatal diseases.
+T8	Premise 970 1128	Besides, modern technology enables us to predict natural disasters much faster and more accurately, so we can reduce the number of deaths and property damage.
+T9	Claim 1663 1703	technology is very crucial for our lives
+T10	Claim 1705 1754	in can also result in several negative drawbacks.
+T11	Premise 1204 1281	First, deadly and powerful weapons can be a huge threat to the world's peace.
+T12	Premise 1282 1357	Second, a lot of people spend too much time using hi-tech devices nowadays.
+T13	Premise 1358 1435	They abuse them so severely that they feel they can hardly live without them.
+T14	Premise 1436 1602	This can have a detrimental effect on their health, since they are likely to develop many dangerous diseases, including obesity, heart attack and high blood-pressure.
+T15	Claim 1138 1203	there are some serious problems springing from modern technology.
+T16	Claim 1618 1626	although
+T17	Claim 1603 1617	In conclusion,
+T18	Claim 1755 1906	However, I strongly believe that its advantages clearly outweigh its disadvantages, and that it can contribute greatly to the development of the world.
+A1	Stance T2 Against
+A2	Stance T3 For
+A3	Stance T9 For
+A4	Stance T10 Against
+A5	Stance T15 Against
+A6	Stance T16 For
+A7	Stance T17 For
+A8	Stance T18 For
+R1	supports Arg1:T2 Arg2:T1
+R2	supports Arg1:T3 Arg2:T2
+R3	supports Arg1:T4 Arg2:T3
+R4	supports Arg1:T5 Arg2:T3
+R5	supports Arg1:T6 Arg2:T3
+R6	supports Arg1:T7 Arg2:T3
+R7	supports Arg1:T8 Arg2:T3
+R8	supports Arg1:T9 Arg2:T18
+R9	supports Arg1:T10 Arg2:T18
+R10	supports Arg1:T11 Arg2:T15
+R11	supports Arg1:T12 Arg2:T15
+R12	supports Arg1:T13 Arg2:T12
+R13	supports Arg1:T14 Arg2:T13
+R14	supports Arg1:T18 Arg2:T1

@@ -1,0 +1,38 @@
+T1	MajorClaim 324 398	Universities must admit both in equal numbers, depending on their choices.
+T2	Claim 399 468	Right to education is a basic human right of both, males and females.
+A1	Stance T2 For
+T3	Premise 469 587	The whole world aims for women empowerment, and to achieve this, females should be given equal opportunities as males.
+T4	Premise 588 741	When universities will accept them in equal number, both genders will be able to nurture their talent and a healthy competitive environment will develop.
+T5	Claim 742 802	Co-education helps both genders to gel well with each other.
+A2	Stance T5 For
+T6	Premise 803 863	It helps them how to behave and cooperate and work together.
+T7	Premise 864 1067	For example, students studying in boy's colleges do not generally know how to talk to a female or behave in front of them. On the other hand, females studying in girl's colleges are too shy to face boys.
+T8	Premise 1068 1133	Co-education will help to eradicate this kind of demerit in both.
+T9	Premise 1134 1258	Universities giving both genders equal opportunities, will prepare them for future challenges and will help in the long run.
+T10	Claim 1398 1484	This kind of gender biased approach is detrimental for the development of the society.
+A3	Stance T10 For
+T11	Premise 1485 1547	Time and again, women have proved their mettle in every field.
+T12	Premise 1548 1657	Women like Margaret Thatcher, Indira Gandhi, Mari Curie etc., are symbols of women's intelligence and skills.
+T13	Claim 1658 1770	Thus, I firmly believe that both genders have equal rights and universities should accept them in equal numbers.
+A4	Stance T13 For
+T14	Premise 1771 1833	Equality in education will help in development of the society.
+T15	Claim 1834 1919	Both genders are the fulcrum of the society and none of them is superior or inferior.
+A5	Stance T15 For
+T16	Premise 1920 2021	Choice of course should be the discretion of the student and their merit, irrespective of the gender.
+T17	Premise 2022 2071	Educational rights must be given to both genders.
+R1	supports Arg1:T2 Arg2:T1
+R2	supports Arg1:T3 Arg2:T2
+R3	supports Arg1:T4 Arg2:T1
+R4	supports Arg1:T5 Arg2:T1
+R5	supports Arg1:T6 Arg2:T5
+R6	supports Arg1:T7 Arg2:T5
+R7	supports Arg1:T8 Arg2:T5
+R8	supports Arg1:T9 Arg2:T1
+R9	supports Arg1:T10 Arg2:T1
+R10	supports Arg1:T11 Arg2:T10
+R11	supports Arg1:T12 Arg2:T10
+R12	supports Arg1:T13 Arg2:T1
+R13	supports Arg1:T14 Arg2:T1
+R14	supports Arg1:T15 Arg2:T1
+R15	supports Arg1:T16 Arg2:T1
+R16	supports Arg1:T17 Arg2:T1

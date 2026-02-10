@@ -1,0 +1,38 @@
+T1	MajorClaim 207 303	However, I do not think these disadvantages will outweigh the advantages brought by cell phones.
+T2	Claim 304 395	In this essay, I would like to analyse these three issues in order to support my viewpoint.
+A1	Stance T2 For
+T3	Claim 410 498	almost everything that changed our lifestyle a lot will also cause some social problems.
+A2	Stance T3 For
+T4	Premise 499 540	Mobile phones are not out of expectation.
+T5	Premise 541 670	Speaking loudly on the phone in public areas, such as schools, libraries and hospitals appears to be very impolite and offensive.
+T6	Premise 671 839	What is worse , some students utilize their cell phones as an effective cheating tools in examinations in which they can send and receive answers by texting each other.
+T7	Claim 840 969	Nevertheless, it is not impossible to solve these problems, as long as some regulations and rules can be effectively implemented.
+A3	Stance T7 For
+T8	Claim 1003 1049	some harmful effects on our health are lethal.
+A4	Stance T8 Against
+T9	Premise 1050 1257	It has been proved that overusing of the electronic devices including mobile phones could lead to higher possibility of suffering hearing loss and even cancers, although the further investigation are needed.
+T10	Claim 1258 1304	Another debatable problem is about techniques.
+A5	Stance T10 Against
+T11	Premise 1305 1395	There is panic among people that their conversation can be intercepted by the third party.
+T12	Premise 1396 1433	This possibility exists all the time.
+T13	Claim 1434 1542	But a more efficient and reliable system can also be invented to guarantee the private information of users.
+A6	Stance T13 For
+T14	Claim 1553 1640	the mobile phone has become a dispensable multifunctional tools in people's daily life.
+A7	Stance T14 For
+T15	Premise 1641 1771	Not only used for communication, but it also functions as an Internet browser, a music player , a personal organiser and so forth.
+T16	MajorClaim 1772 2017	In conclusion, nothing can be overused without side effects. The contribution of the mobile phone to our modern society is prominent and people's dependence on it is irreversible, although it has a number of problems that should be well handled.
+R1	supports Arg1:T2 Arg2:T1
+R2	supports Arg1:T3 Arg2:T1
+R3	supports Arg1:T4 Arg2:T3
+R4	supports Arg1:T5 Arg2:T3
+R5	supports Arg1:T6 Arg2:T3
+R6	supports Arg1:T7 Arg2:T1
+R7	supports Arg1:T9 Arg2:T8
+R8	attacks Arg1:T8 Arg2:T1
+R9	attacks Arg1:T10 Arg2:T1
+R10	supports Arg1:T11 Arg2:T10
+R11	supports Arg1:T12 Arg2:T10
+R12	supports Arg1:T13 Arg2:T1
+R13	supports Arg1:T14 Arg2:T1
+R14	supports Arg1:T15 Arg2:T14
+R15	supports Arg1:T1 Arg2:T16

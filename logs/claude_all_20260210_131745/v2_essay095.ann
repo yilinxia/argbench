@@ -1,0 +1,33 @@
+T1	MajorClaim 351 424	it seems not unreasonable to suggest that this is a positive development.
+T2	Claim 445 511	today entertainment is easier for people to enjoy than ever before
+A1	Stance T2 For
+T3	Premise 513 667	The fact is that such news media as televisions, radios, or newspapers are bringing many news on entertainment sector from all over the world to everybody
+T4	Premise 669 788	People can sit in front of their televisions and watch whatever they want, from musical concerts to live football match
+T5	Premise 790 844	This is a convenient way of relaxation after hard work
+T6	Claim 857 915	the popularity of news media is beneficial to human beings
+A2	Stance T6 For
+T7	Claim 938 984	news media help people broaden their knowledge
+A3	Stance T7 For
+T8	Premise 986 1157	It is clearly seen that mass media provide people with a variety of global news on all fields, including political situation, economic change, global warming, and so forth
+T9	Premise 1166 1246	there is a strong likelihood that today people are able to know the world better
+T10	Premise 1248 1355	This is particularly essential when the globalization process has been permeating into all areas of society
+T11	Claim 1365 1426	the fast growth of news media is helpful for people worldwide
+A4	Stance T11 For
+T12	MajorClaim 1443 1531	the development of news media has been making great inroads into the lives of all people
+T13	Premise 1533 1584	It relaxes people with plentiful entertainment news
+T14	Premise 1586 1643	It enriches people's knowledge with worldwide information
+T15	Premise 1645 1713	It also positively affects the way people live in many other aspects
+T16	MajorClaim 1726 1783	the progress of news media is an advantageous development
+R1	supports Arg1:T3 Arg2:T2
+R2	supports Arg1:T4 Arg2:T2
+R3	supports Arg1:T5 Arg2:T2
+R4	supports Arg1:T2 Arg2:T6
+R5	supports Arg1:T6 Arg2:T1
+R6	supports Arg1:T8 Arg2:T7
+R7	supports Arg1:T9 Arg2:T7
+R8	supports Arg1:T10 Arg2:T7
+R9	supports Arg1:T7 Arg2:T11
+R10	supports Arg1:T11 Arg2:T1
+R11	supports Arg1:T13 Arg2:T12
+R12	supports Arg1:T14 Arg2:T12
+R13	supports Arg1:T15 Arg2:T12

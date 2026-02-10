@@ -1,0 +1,37 @@
+T1	MajorClaim 0 62	Students should be required to take regular standardized tests
+T2	Claim 240 404	I believe that standardized tests are valuable option for educational system as long as it would help teachers to know if the students are really getting knowledge.
+T3	Claim 414 517	standardized tests are preferable due to the fact that they help teachers to fairly grade the students.
+T4	Premise 518 625	For example some students are not so active on the lessons, cause they are already familiar with the issue.
+T5	Premise 626 722	Therefore, exams could be the only way for teachers to see the real abilities of those students.
+T6	Premise 723 872	In addition, many teachers rely only on the exam results while grading the class, so the usage of standardized tests is the superior option for them.
+T7	Claim 887 975	standardized tests can be good chance for students to apply their knowledge on practice.
+T8	Premise 976 1121	Since, some students may get used to simply rewriting solved problems from the blackboard, so they will never try to solve problems on their own.
+T9	Premise 1122 1173	However, standardized tests offer them such chance.
+T10	Claim 1180 1300	it is clear that schools should require students to take standardized tests, as long as this option helps to both sides.
+T11	Claim 1323 1468	requirement to take standardized tests is the right choice, since in this case teachers can compare the level of knowledge of different students.
+T12	Premise 1469 1595	In any class there will be students who will show low academic performance, so teachers could work with them more intensively.
+T13	Premise 1596 1798	I support the points of those who say that standardized tests are required over those who don’t because if the teacher would know the level of each student he would fairly share his time to all of them.
+T14	Claim 1799 1897	Ultimately I feel that schools which obligate their students to take standardized tests are right.
+T15	Premise 1898 2034	I belive this, due to the fact that these schools can qualitatively check if they are giving an appropriate education to their students.
+A1	Stance T2 For
+A2	Stance T3 For
+A3	Stance T7 For
+A4	Stance T10 For
+A5	Stance T11 For
+A6	Stance T14 For
+R1	supports Arg1:T2 Arg2:T1
+R2	supports Arg1:T3 Arg2:T1
+R3	supports Arg1:T4 Arg2:T3
+R4	supports Arg1:T5 Arg2:T3
+R5	supports Arg1:T6 Arg2:T3
+R6	supports Arg1:T7 Arg2:T1
+R7	supports Arg1:T8 Arg2:T7
+R8	supports Arg1:T9 Arg2:T7
+R9	supports Arg1:T10 Arg2:T1
+R10	supports Arg1:T7 Arg2:T10
+R11	supports Arg1:T3 Arg2:T10
+R12	supports Arg1:T11 Arg2:T1
+R13	supports Arg1:T12 Arg2:T11
+R14	supports Arg1:T13 Arg2:T11
+R15	supports Arg1:T14 Arg2:T1
+R16	supports Arg1:T15 Arg2:T14

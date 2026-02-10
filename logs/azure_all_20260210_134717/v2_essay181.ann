@@ -1,0 +1,49 @@
+T1	MajorClaim 49 146	I will be happy to hear that the government has a plan to build a new university in my community.
+T2	Claim 147 295	There are many advantages setting up the university such as more opportunities to people in the community to pursue their studies, creation of jobs.
+A1	Stance T2 For
+T3	Claim 305 372	they come together with some disadvantages such as social problems.
+A2	Stance T3 Against
+T4	Claim 373 471	This new university will allow a great number of people in my community to have a chance to study.
+A3	Stance T4 For
+T5	Premise 472 605	For example, suppose you live in a faraway community where there is no single university and you might not want to leave your family.
+T6	Premise 606 722	If you would like to attend a business school, you have to travel across the country to get to a distant university.
+T7	Premise 723 814	He or she definitely can get in the business school in the proposed community's university.
+T8	Claim 815 942	Undoubtedly, the university will have to hire professors, employees and etc. Thus, a number vacant positions need to be filled.
+A4	Stance T8 For
+T9	Claim 943 1006	Also there will be more opportunities to work in the community.
+A5	Stance T9 For
+T10	Premise 1007 1092	Moreover, when people have jobs, they will have money to spend on goods and services.
+T11	Premise 1093 1140	This can also help stimulate the local economy.
+T12	Claim 1142 1208	However, building the university may lead to some social problems.
+A6	Stance T12 Against
+T13	Premise 1209 1325	A number of people then may come from any other communities in order to get in to or get the jobs at the university.
+T14	Premise 1326 1423	When many people congregate in one place, I think that some kinds of social problems will follow.
+T15	Premise 1424 1443	Traffic may worsen.
+T16	Premise 1444 1475	More wastes have to be managed.
+T17	Premise 1476 1512	Maybe crime rate will also increase.
+T18	Claim 1513 1583	These social problems may impair the quality of life in the community.
+A7	Stance T18 Against
+T19	MajorClaim 1585 1646	In sum, I myself agree with the plan to build the university.
+T20	MajorClaim 1647 1700	I believe the benefit from it will outweigh the cost.
+T21	Claim 1701 1829	However, it would be indispensable that the government conduct a survey about the community opinion on the new university first.
+A8	Stance T21 For
+R1	supports Arg1:T2 Arg2:T1
+R2	attacks Arg1:T3 Arg2:T1
+R3	supports Arg1:T4 Arg2:T2
+R4	supports Arg1:T5 Arg2:T4
+R5	supports Arg1:T6 Arg2:T4
+R6	supports Arg1:T7 Arg2:T4
+R7	supports Arg1:T8 Arg2:T2
+R8	supports Arg1:T9 Arg2:T2
+R9	supports Arg1:T10 Arg2:T9
+R10	supports Arg1:T11 Arg2:T9
+R11	attacks Arg1:T12 Arg2:T1
+R12	supports Arg1:T13 Arg2:T12
+R13	supports Arg1:T14 Arg2:T12
+R14	supports Arg1:T15 Arg2:T12
+R15	supports Arg1:T16 Arg2:T12
+R16	supports Arg1:T17 Arg2:T12
+R17	supports Arg1:T18 Arg2:T12
+R18	supports Arg1:T19 Arg2:T1
+R19	supports Arg1:T20 Arg2:T19
+R20	supports Arg1:T21 Arg2:T19

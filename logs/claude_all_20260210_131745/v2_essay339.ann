@@ -1,0 +1,21 @@
+T1	MajorClaim 0 62	People should create a sense of co-operation in their children
+T2	Claim 409 507	Competitive children are more likely to be confident enough to handle the situations independently
+A1	Stance T2 Against
+T3	Premise 509 735	This factor initially arises from the school, where teacher encourages student to feel more competitive through the grading system, and this is the place where children are trying to get on the top by scoring the highest marks
+R1	supports Arg1:T3 Arg2:T2
+T4	Premise 737 843	This factor will lead them to be successful in their lives ahead, but will also restrict them in many ways
+R2	supports Arg1:T4 Arg2:T2
+T5	Premise 858 1006	MNCs are mainly focusing on a team work, and a person with the competitive mind would be having a difficulty in managing the situation with the team
+R3	supports Arg1:T5 Arg2:T4
+T6	Claim 1017 1161	those who wants to create a sense of co-operation in their children is a symbol that they want to make them sensible enough in their lives ahead
+A2	Stance T6 For
+T7	Premise 1163 1349	Although, they will not be having a pace and an eager to get on the top as the competitors do, but they shall have an art of managing different situations of life with the help of a team
+R4	supports Arg1:T7 Arg2:T6
+T8	Claim 1366 1546	though competitive children will be far more clever and faster than the co-operative child in an initial level, but it will not help them to be on the success path for the long run
+A3	Stance T8 For
+T9	Claim 1571 1692	co-operative child will have a potential of structuring and implementing new and innovative ideas with the help of a team
+A4	Stance T9 For
+R5	supports Arg1:T9 Arg2:T1
+R6	supports Arg1:T8 Arg2:T1
+T10	MajorClaim 1724 1830	people should create a sense of co-operation in their children to make them feel more accomplished in life
+R7	supports Arg1:T6 Arg2:T1

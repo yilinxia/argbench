@@ -1,0 +1,36 @@
+T1	MajorClaim 289 513	As the impacts for those pollution and traffic issues are extremely far-reaching, it is insufficient to increase the petrol price only to solve problems, though it is a promising method discussed in the contemporary society.
+T2	Claim 1384 1551	authorities should spare no efforts in improving public transportation facilities, such as constructing more bus lines, in order to reducing the usage of private cars.
+A1	Stance T2 For
+T3	Claim 1552 1696	Furthermore, temporarily targets should be set, with regard to the limitations of pollutants in a certain period of time, for example, a season.
+A2	Stance T3 For
+T4	Claim 1697 1767	Plus with supervisory institutions built to find and address problems.
+A3	Stance T4 For
+T5	Claim 1768 1943	Meanwhile, cultivating a sense of environmental protection would also work out, though it might not be into effect immediately, but in the long run, it would be a wise choice.
+A4	Stance T5 For
+T6	Claim 1959 2210	addressing pollution and traffic issues only by increasing oil price is not adequate, while improving transportation facilities and building supervisory institution would be preferable, plus with the awareness of environmental protection being raised.
+A5	Stance T6 For
+T7	Premise 528 763	price control institution has been used in plenty of social areas, for example, in the farming products and in the real estate area; however, whether it can work out for alleviating traffic and pollution pressure ought to be evaluated.
+T8	Premise 764 953	On one hand, governments have a macro-economic perspective to control price in various areas according to social demands. Consequently, it seems not easy to increase petrol price instantly.
+T9	Premise 954 1111	On the other hand, pollutions are not just caused by the burning of oil, chemical pollutants, extra lights, also constitute considerable amount of pollution.
+T10	Premise 1112 1253	In addition, the improvements of work efficiency also attribute to the speed-up of working pace, resulting in traffic jams during rush-hours.
+T11	Claim 1125 1253	the improvements of work efficiency also attribute to the speed-up of working pace, resulting in traffic jams during rush-hours.
+A6	Stance T11 For
+T12	Claim 973 1111	pollutions are not just caused by the burning of oil, chemical pollutants, extra lights, also constitute considerable amount of pollution.
+A7	Stance T12 For
+T13	Claim 900 953	it seems not easy to increase petrol price instantly.
+A8	Stance T13 For
+T14	Claim 1277 1943	several other solutions can be introduced to assist in reducing pollution and traffic problems. Primarily, authorities should spare no efforts in improving public transportation facilities, such as constructing more bus lines, in order to reducing the usage of private cars. Furthermore, temporarily targets should be set, with regard to the limitations of pollutants in a certain period of time, for example, a season. Plus with supervisory institutions built to find and address problems. Meanwhile, cultivating a sense of environmental protection would also work out, though it might not be into effect immediately, but in the long run, it would be a wise choice.
+A9	Stance T14 For
+R1	supports Arg1:T7 Arg2:T1
+R2	supports Arg1:T8 Arg2:T13
+R3	supports Arg1:T13 Arg2:T1
+R4	supports Arg1:T9 Arg2:T12
+R5	supports Arg1:T12 Arg2:T1
+R6	supports Arg1:T10 Arg2:T11
+R7	supports Arg1:T11 Arg2:T1
+R8	supports Arg1:T2 Arg2:T1
+R9	supports Arg1:T3 Arg2:T1
+R10	supports Arg1:T4 Arg2:T1
+R11	supports Arg1:T5 Arg2:T1
+R12	supports Arg1:T6 Arg2:T1
+R13	supports Arg1:T14 Arg2:T1

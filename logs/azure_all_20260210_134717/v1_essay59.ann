@@ -1,0 +1,50 @@
+T1	MajorClaim 242 316	However, strict laws, like capital punishment, are essential in a society.
+T2	Claim 386 451	Its first and foremost objective is safety of other human beings.
+A1	Stance T2 For
+T3	Premise 452 582	When a criminal becomes a threat to the society, such that they can commit heinous crimes, then they are given capital punishment.
+T4	Claim 583 653	Thus, capital punishment protects the society from hardcore criminals.
+A2	Stance T4 For
+T5	Claim 654 743	Moreover, capital punishment curbs the inspiration and prospects of other hateful crimes.
+A3	Stance T5 For
+T6	Premise 744 840	When a criminal mind knows the quantum of punishment, they will fear and not commit such crimes.
+T7	Claim 841 903	Thus, the rate of crime and violence is effectively decreased.
+A4	Stance T7 For
+T8	Claim 904 1029	Importantly, capital punishment saves a lot of government funding which is wasted in maintenance of these hardcore criminals.
+A5	Stance T8 For
+T9	Premise 1030 1163	Criminals who don't have any chance of improvement or who have a past record of such crimes are, therefore, given capital punishment.
+T10	Claim 1164 1269	However, the jury giving the verdict are also humans. They have the life of a person at their discretion.
+A6	Stance T10 Against
+T11	Premise 1270 1367	They can make mistakes which can sometimes affect an innocent, circumstantially marred criminals.
+T12	Claim 1368 1451	The jury must therefore, take into account the circumstances of committing a crime.
+A7	Stance T12 Against
+T13	Premise 1452 1549	For example, if an individual murders someone for self-defence, then such a crime is not heinous.
+T14	Claim 1550 1666	Only deserving criminals, who commit such hateful crimes in their proper senses are subjected to capital punishment.
+A8	Stance T14 For
+T15	Claim 1667 1734	Capital punishment is essential to control violence in the society.
+A9	Stance T15 For
+T16	Claim 1735 1870	I firmly believe that psychopaths, terrorists or any other criminal who lacks empathy for other human lives deserve capital punishment.
+A10	Stance T16 For
+T17	Claim 1871 1955	Capital punishment helps to safeguard human rights in a strict and effective manner.
+A11	Stance T17 For
+T18	Claim 1956 2106	However, it should be considered as the last option by the jury and all circumstances must be taken into account before pronouncing the final verdict.
+A12	Stance T18 Against
+R1	supports Arg1:T2 Arg2:T1
+R2	supports Arg1:T3 Arg2:T4
+R3	supports Arg1:T4 Arg2:T2
+R4	supports Arg1:T4 Arg2:T1
+R5	supports Arg1:T5 Arg2:T1
+R6	supports Arg1:T6 Arg2:T7
+R7	supports Arg1:T7 Arg2:T5
+R8	supports Arg1:T7 Arg2:T1
+R9	supports Arg1:T8 Arg2:T1
+R10	supports Arg1:T9 Arg2:T8
+R11	attacks Arg1:T10 Arg2:T1
+R12	supports Arg1:T11 Arg2:T10
+R13	supports Arg1:T13 Arg2:T12
+R14	attacks Arg1:T12 Arg2:T1
+R15	supports Arg1:T14 Arg2:T1
+R16	supports Arg1:T15 Arg2:T1
+R17	supports Arg1:T16 Arg2:T15
+R18	supports Arg1:T17 Arg2:T1
+R19	attacks Arg1:T18 Arg2:T1
+R20	supports Arg1:T18 Arg2:T12

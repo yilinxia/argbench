@@ -1,0 +1,33 @@
+T1	MajorClaim 287 347	I would prefer to work for myself, and have my own business.
+T2	Claim 348 436	There are many benefits when people work for themselves rather than work for the others.
+A1	Stance T2 For
+R1	supports Arg1:T2 Arg2:T1
+T3	Claim 458 571	there are a large number of opportunities in privat works that you cannot find them when you work for the others.
+A2	Stance T3 For
+R2	supports Arg1:T3 Arg2:T1
+T4	Premise 572 667	In your job you can be boss of yourself; however, in the other jobs someone else are your boss.
+R3	supports Arg1:T4 Arg2:T3
+T5	Premise 668 772	You always have to be responsible for your task, and it make a stressful situation that I never like it.
+R4	supports Arg1:T5 Arg2:T3
+T6	Claim 787 931	when people work for themselves they make more profit for themselves, but in the other jobs you make profits for the other such as your manager.
+A3	Stance T6 For
+R5	supports Arg1:T6 Arg2:T1
+T7	Premise 932 1081	Unfortunately nowadays most of them pick up this profit without sharing a small sum of it with their workers, and from my point of view it is unfair.
+R6	supports Arg1:T7 Arg2:T6
+T8	Claim 1091 1212	there are some authorities in privat jobs that workers are always looking for them while they are working for the others.
+A4	Stance T8 For
+R7	supports Arg1:T8 Arg2:T1
+T9	Premise 1213 1289	When you work for yourself you can punch in and punch out whenever you want.
+R8	supports Arg1:T9 Arg2:T8
+T10	Premise 1290 1414	Sometimes some occasions happen to people for example a disease, sticking in a traffic jam and sometime going on a vacation.
+R9	supports Arg1:T10 Arg2:T8
+T11	Premise 1415 1504	For all of them we have to ask for a permission, and most of the time we are not allowed.
+R10	supports Arg1:T11 Arg2:T8
+T12	Claim 1505 1576	There is no doubt that working for the other have some advantages, too,
+A5	Stance T12 Against
+R11	attacks Arg1:T12 Arg2:T1
+T13	Claim 1577 1648	but I imagine people that have their own business are more comfortable.
+A6	Stance T13 For
+R12	supports Arg1:T13 Arg2:T1
+T14	Premise 1649 1704	They have more opportunities, profits, and authorities.
+R13	supports Arg1:T14 Arg2:T13

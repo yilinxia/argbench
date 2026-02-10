@@ -1,0 +1,25 @@
+T1	MajorClaim 1894 1968	the idea that advertising is a positive part of life can be more supported
+T2	Claim 250 369	Many believe that advertising has brought great benefits to lives therefore it should be considered a positive activity
+A1	Stance T2 For
+T3	Claim 540 671	advertising is carried out with the main purpose of promoting different products and services or encouraging people to consume more
+A2	Stance T3 For
+T4	Premise 673 774	Advertisements are, therefore, very important for many businesses to increase sales and hence profits
+T5	Claim 782 836	to consumers, advertising can bring them many benefits
+A3	Stance T5 For
+T6	Premise 838 1069	For example, customers of telecommunication services will have an idea about the current offers of different companies and hence they can compare them and then have a better decision in choosing their internet or mobile phone plans
+T7	Claim 1090 1191	it is easy to see why the idea that advertising is a positive part of life will garner strong support
+A4	Stance T7 For
+T8	Claim 1222 1293	some people have argued against advertising due to its negative impacts
+A5	Stance T8 Against
+T9	Premise 1295 1512	Firstly, a huge amount of different advertisements could be sent automatically by a system to personal phones or email addresses, this is generally known as spam, and causes discomfort or even annoyance to many people
+T10	Premise 1514 1641	Secondly, advertising can be very expensive and not every advertising campaign can be done successfully and brings good results
+T11	Claim 1643 1719	Therefore, advertising is believed by many, a financial burden to businesses
+A6	Stance T11 Against
+R1	supports Arg1:T4 Arg2:T3
+R2	supports Arg1:T6 Arg2:T5
+R3	supports Arg1:T3 Arg2:T1
+R4	supports Arg1:T5 Arg2:T1
+R5	supports Arg1:T9 Arg2:T8
+R6	supports Arg1:T10 Arg2:T11
+R7	attacks Arg1:T8 Arg2:T1
+R8	attacks Arg1:T11 Arg2:T1

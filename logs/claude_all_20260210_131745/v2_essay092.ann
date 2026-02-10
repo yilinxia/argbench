@@ -1,0 +1,27 @@
+T1	MajorClaim 433 530	fashion trends have a more essential role to play in people's lives than personal dressing styles
+T2	Claim 548 638	following fashion trends enables people to keep up with the world's latest transformations
+A1	Stance T2 For
+T3	Premise 640 741	which is of vital importance if we consider the fact that people are living in a global village today
+T4	Premise 743 983	When individuals keep the habit of grasping the world's cutting-edge fashion information, they are gradually changing their attitudes to viewing the world, which means they are more open to accept diverse voices from people around the world
+T5	Premise 985 1151	In contrast, if they stuck to their own fashion styles, disregarding the world's top fashion designers' achievements, they would stay conservative in their own worlds
+T6	Premise 1153 1196	As a result, they might fall behind shortly
+T7	Claim 1211 1356	people with inadequate aesthetic knowledge or poor originality develop their own senses of fashion when treasuring the latest fashion information
+A2	Stance T7 For
+T8	Premise 1358 1501	Without following fashion trends, such people would have a hard time choosing and matching clothes, let alone forming their own dressing styles
+T9	Claim 1517 1615	it is undeniable that following fashion trends constantly may undermine individuals' personalities
+A3	Stance T9 Against
+T10	Premise 1617 1775	Individuals purchase their clothes according to the latest fashion trends, which may result in the phenomenon that people would wear the same style of clothes
+T11	Premise 1777 1822	Consequently, the world would look monotonous
+T12	MajorClaim 1876 2032	people should, especially for ones lacking basic aesthetic knowledge, care more about fashion trends in lives as they can keep pace with the world's changes
+T13	Claim 2053 2161	creative design talents can value their own dressing ideas, developing their own fashion styles as they like
+A4	Stance T13 For
+R1	supports Arg1:T3 Arg2:T2
+R2	supports Arg1:T4 Arg2:T2
+R3	supports Arg1:T5 Arg2:T2
+R4	supports Arg1:T6 Arg2:T2
+R5	supports Arg1:T2 Arg2:T1
+R6	supports Arg1:T8 Arg2:T7
+R7	supports Arg1:T7 Arg2:T1
+R8	supports Arg1:T10 Arg2:T9
+R9	supports Arg1:T11 Arg2:T9
+R10	attacks Arg1:T9 Arg2:T1

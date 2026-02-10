@@ -1,0 +1,29 @@
+T1	MajorClaim 48 228	My view is that the government should give priorities to invest more money on the basic social welfares such as education and housing instead of subsidizing arts relative programs.
+T2	Claim 229 299	Art is not the key determination of quality of life, but education is.
+A1	Stance T2 For
+T3	Claim 300 483	In order to make people better off, it is more urgent for governments to commit money to some fundamental help such as setting more scholarships in education section for all citizens.
+A2	Stance T3 For
+T4	Premise 484 630	This is simply because knowledge and wisdom is the guarantee of the enhancement of the quality of people's lives for a well-rounded social system.
+T5	Claim 631 724	Admittedly, art, to some extent, serve a valuable function about enriching one's daily lives,
+A3	Stance T5 Against
+T6	Premise 725 852	for example, it could bring release one's heavy burden of study pressure and refresh human bodies through a hard day from work.
+T7	Claim 853 950	However, it is unrealistic to pursuit of this high standard of life in many developing countries,
+A4	Stance T7 For
+T8	Premise 951 1086	in which the basic housing supply has still been a huge problem with plenty of lower income family have squeezed in a small tight room.
+T9	Claim 1087 1162	By comparison to these issues, the pursuit of art seems unimportant at all.
+A5	Stance T9 For
+T10	Claim 1163 1249	To conclude, art could play an active role in improving the quality of people's lives,
+A6	Stance T10 Against
+T11	Claim 1250 1445	but I think that governments should attach heavier weight to other social issues such as education and housing needs because those are the most essential ways enable to make people a decent life.
+A7	Stance T11 For
+R1	supports Arg1:T2 Arg2:T1
+R2	supports Arg1:T3 Arg2:T1
+R3	supports Arg1:T4 Arg2:T3
+R4	attacks Arg1:T5 Arg2:T1
+R5	supports Arg1:T6 Arg2:T5
+R6	supports Arg1:T7 Arg2:T1
+R7	supports Arg1:T8 Arg2:T7
+R8	supports Arg1:T9 Arg2:T1
+R9	supports Arg1:T8 Arg2:T9
+R10	attacks Arg1:T10 Arg2:T1
+R11	supports Arg1:T11 Arg2:T1

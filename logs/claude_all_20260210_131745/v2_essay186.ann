@@ -1,0 +1,31 @@
+T1	MajorClaim 373 463	I agree with the opinion human needs for farmland, housing and industry are more important
+T2	Claim 520 602	land used for farmland, housing and industry can benefit more to the whole society
+A1	Stance T2 For
+T3	Premise 604 815	There is no deny that the economy of the whole society will be developed with the help of agriculture, real estate industry and industry, in particularly industry which is the pillar industry of national economy
+T4	Premise 817 855	because they produce plenty of profits
+T5	Premise 871 943	the society will be stable and harmony due to more farmland and industry
+T6	Premise 945 1096	It is widely acknowledged that more farmlands and industries can provide more job opportunities which can decrease the unemployment rate and crime rate
+T7	Claim 1176 1264	farmland, housing and industry can satisfy the desire of human that living a better life
+A2	Stance T7 For
+T8	Premise 1266 1413	It is clearly understood that farming, housing and industry provide us the food we eat, place we live, clothes we wear, which are essential to live
+T9	Premise 1415 1484	Especially in some poor areas, survival is the most significant thing
+T10	Premise 1499 1614	highly developed agriculture and industry can improve our living conditions which allow us have a good quality life
+T11	Claim 1648 1789	even though farmland, housing and industry will occupy the land used for endangered animals, it can do good to protect the endangered animals
+A3	Stance T11 For
+T12	Premise 1791 1882	According to the discuss above, agriculture and industry make a contribution to the economy
+T13	Premise 1884 1982	With the economy development, we can have more advanced methods to take care of endangered animals
+T14	Premise 1984 2107	For instant, we can invent new technique to help endangered animals to produce offspring to be sure they would not distinct
+T15	MajorClaim 105 170	human needs for farmland, housing and industry are more important
+R1	supports Arg1:T3 Arg2:T2
+R2	supports Arg1:T4 Arg2:T3
+R3	supports Arg1:T5 Arg2:T2
+R4	supports Arg1:T6 Arg2:T5
+R5	supports Arg1:T2 Arg2:T1
+R6	supports Arg1:T8 Arg2:T7
+R7	supports Arg1:T9 Arg2:T7
+R8	supports Arg1:T10 Arg2:T7
+R9	supports Arg1:T7 Arg2:T1
+R10	supports Arg1:T12 Arg2:T11
+R11	supports Arg1:T13 Arg2:T11
+R12	supports Arg1:T14 Arg2:T13
+R13	supports Arg1:T11 Arg2:T1

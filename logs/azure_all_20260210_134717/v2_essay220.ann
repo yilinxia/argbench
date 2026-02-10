@@ -1,0 +1,56 @@
+T1	MajorClaim 0 56	Learning to be independent is essential for young adults
+T2	Claim 190 309	In my point of view, staying with the parents for longer time does more benefits than disadvantages to the young adult.
+A1	Stance T2 For
+T3	Premise 310 410	My opinion is based on creating memories with parents, saving money, and taking advice from parents.
+T4	Claim 425 527	one of the most significant upsides is that the young adult can have more experience with his parents.
+A2	Stance T4 For
+T5	Premise 528 612	The young adult has to try to create memories with his dad and mom in the early age.
+T6	Premise 613 683	When having a job, it is of low possibilities to work in his hometown.
+T7	Premise 684 806	If he lives with his parents for longer time, they have more chances to share the feelings, exercise, and travel together.
+T8	Premise 807 864	All memories become priceless treasure as time passes by.
+T9	Claim 865 917	Thus, I think undergoing with parents is worthwhile.
+A3	Stance T9 For
+T10	Claim 931 977	living at home costs less than living outside.
+A4	Stance T10 For
+T11	Premise 978 1052	Learning to be independent means that the young adult needs to leave home.
+T12	Premise 1053 1141	Therefore, he may have to rent a house and the rental would become a burden for parents.
+T13	Premise 1142 1209	Moreover, another daily expense is also the considerable outgoings.
+T14	Premise 1210 1293	Spending much money may not result in what the parents expect their children to be.
+T15	Claim 1294 1373	In a word, the parents can save money, if their children live with them longer.
+A5	Stance T15 For
+T16	Claim 1374 1464	The third convincing reason is that the young adult needs father and mother's suggestions.
+A6	Stance T16 For
+T17	Premise 1465 1534	When in dilemma, the parents can comfort him and give him a big hand.
+T18	Premise 1535 1643	They are the people who are most familiar with him can give a suitable advice and lead him to the right way.
+T19	Premise 1644 1722	If the parents do not help him immediately, he would have to suffer more pain.
+T20	Claim 1723 1806	Hence, taking advice from parents, the young adult can go through obstacles easily.
+A7	Stance T20 For
+T21	Claim 1807 1916	To sum up, living with parents longer brings about memories with parents, less cost, and advice from parents.
+A8	Stance T21 For
+T22	MajorClaim 1917 1971	Hence, staying longer with parents is a better choice.
+R1	supports Arg1:T2 Arg2:T22
+R2	supports Arg1:T3 Arg2:T2
+R3	supports Arg1:T4 Arg2:T2
+R4	supports Arg1:T5 Arg2:T4
+R5	supports Arg1:T6 Arg2:T4
+R6	supports Arg1:T7 Arg2:T4
+R7	supports Arg1:T8 Arg2:T4
+R8	supports Arg1:T9 Arg2:T2
+R9	supports Arg1:T4 Arg2:T9
+R10	supports Arg1:T10 Arg2:T2
+R11	supports Arg1:T11 Arg2:T10
+R12	supports Arg1:T12 Arg2:T10
+R13	supports Arg1:T13 Arg2:T10
+R14	supports Arg1:T14 Arg2:T10
+R15	supports Arg1:T15 Arg2:T2
+R16	supports Arg1:T10 Arg2:T15
+R17	supports Arg1:T16 Arg2:T2
+R18	supports Arg1:T17 Arg2:T16
+R19	supports Arg1:T18 Arg2:T16
+R20	supports Arg1:T19 Arg2:T16
+R21	supports Arg1:T20 Arg2:T2
+R22	supports Arg1:T16 Arg2:T20
+R23	supports Arg1:T21 Arg2:T22
+R24	supports Arg1:T9 Arg2:T21
+R25	supports Arg1:T15 Arg2:T21
+R26	supports Arg1:T20 Arg2:T21

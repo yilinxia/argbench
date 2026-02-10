@@ -1,0 +1,24 @@
+T1	MajorClaim 1272 1429	In conclusion, I agree that IT discoveries are likely to have more disadvantages than benefits and people should know how to use their developments properly.
+T2	Claim 430 462	there are some negative aspects.
+T3	Premise 463 516	Firstly, connecting people by email is easy and fast.
+T4	Premise 530 636	World Wide Web offers humanity to access to information, which they want to know for less than 10 seconds.
+T5	Claim 637 666	These are two of the benefits
+T6	Premise 906 1026	For example, before centeries, there were not washing machines, which clean your clothes, while a person do another job.
+T7	Claim 1027 1079	Secondly, there are some drawbacks about this issue.
+T8	Premise 1080 1212	Scientists believe that one day people will face their developments, for instance robots, and they will not succeed to control them.
+T9	Premise 1213 1271	All this inventions will try to take control of the Earth.
+T10	Claim 62 319	Decade after decade, every day, scientists discover magnificent devices in the field of IT, such as interactive boards, multicore computers and laptops, tablets, which have an incredible resolution and also mobile phones, which have the power of a computer.
+A1	Stance T2	Against
+A2	Stance T5	For
+A3	Stance T7	Against
+A4	Stance T10	For
+R1	supports Arg1:T3 Arg2:T5
+R2	supports Arg1:T4 Arg2:T5
+R3	supports Arg1:T5 Arg2:T10
+R4	supports Arg1:T6 Arg2:T10
+R5	attacks Arg1:T2 Arg2:T10
+R6	supports Arg1:T7 Arg2:T1
+R7	supports Arg1:T8 Arg2:T7
+R8	supports Arg1:T9 Arg2:T7
+R9	attacks Arg1:T10 Arg2:T1
+R10	supports Arg1:T2 Arg2:T1

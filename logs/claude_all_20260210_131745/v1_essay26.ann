@@ -1,0 +1,33 @@
+T1	MajorClaim 193 344	it is obvious that cooked food can bring about some negative influence result from utilizing the artificial ingredients, ignoring the nutrition of food
+T2	MajorClaim 349 381	modifying people's eating habits
+T3	Claim 557 674	almost every producer adds a wide range of artificial ingredients in to the food that is now purchased by most people
+T4	Premise 676 734	Some ingredients being added have caused dire consequences
+T5	Premise 736 901	For instance, there are usually some articles in newspapers and magazines which report the relationship between certain chemical components in some food and diseases
+T6	Claim 903 975	Thus, easy-to-cook foods sometimes could be dangerous for human's health
+T7	Claim 977 1039	Not cooking fresh food will also lead to the lack of nutrition
+T8	Premise 1041 1135	It is truth that cooking prepared foods needs much less time in comparison with the fresh food
+T9	Premise 1138 1298	whereas some research has apparently demonstrated that prepared foods are unable to support enough nutrients we need, especially for children who are growing up
+T10	Claim 1314 1350	cooking is one of arts humans create
+T11	Claim 1352 1415	The more cooked food we chosen, the more cooking skills we lose
+T12	Premise 1417 1564	At the increasing living pace, the majority of people tend to choose microwave as their unique cooker that help them prepare a dish in five minutes
+T13	Premise 1566 1725	But rare people have been aware that this has contributed to a modification of cooking habits, which may cause the loss of our custom and culture about cooking
+T14	MajorClaim 1858 1880	it is not a good thing
+T15	Claim 1882 1966	Cooking is not a waste of time, contrarily, it is crucial for our health and culture
+A1	Stance T3 For
+A2	Stance T6 For
+A3	Stance T7 For
+A4	Stance T10 For
+A5	Stance T11 For
+A6	Stance T15 For
+R1	supports Arg1:T4 Arg2:T3
+R2	supports Arg1:T5 Arg2:T4
+R3	supports Arg1:T3 Arg2:T6
+R4	supports Arg1:T6 Arg2:T1
+R5	supports Arg1:T8 Arg2:T7
+R6	supports Arg1:T9 Arg2:T7
+R7	supports Arg1:T7 Arg2:T1
+R8	supports Arg1:T12 Arg2:T11
+R9	supports Arg1:T13 Arg2:T11
+R10	supports Arg1:T10 Arg2:T2
+R11	supports Arg1:T11 Arg2:T2
+R12	supports Arg1:T15 Arg2:T14

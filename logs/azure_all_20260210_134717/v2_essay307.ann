@@ -1,0 +1,22 @@
+T1	MajorClaim 0 39	Famous people are bothered by the media
+T2	MajorClaim 365 436	mass media deal too much with superficial things for different reasons.
+T3	Claim 438 564	One reason is that television and newspapers focus on famous peoples' lives in order to increase their audience or readership.
+T4	Premise 565 662	Gutter press and Tabloid TV are more and more replacing quality papers or documentaries programs.
+T5	Premise 663 884	Thanks to the Internet, we can go online and have access to information from all over the world and therefore mass media don't need any more to keep informed people but their goal is to have enough readers or TV audience.
+T6	Claim 886 986	Another reason is that we live in a society where the most important thing is appearance and gossip.
+T7	Premise 987 1105	Nowadays, unscrupulous paparazzi constantly follow celebrities just to take a photo while they are eating or training.
+T8	Premise 1106 1242	Newspapers often receive accusations of checkbook journalism; this means that magazines pay people a lot of money for stories or photos.
+T9	Premise 1243 1399	Additionally, there are Reality TV, television programs in which people are put into artificial environments and situations, for example like "Big Brother".
+T10	Claim 1400 1689	To sum up, it is clear that television, magazines and newspapers pay too much attention of peoples' private lives for all the reasons mentioned above, namely to increase audience or readership and to give exciting and shocking news to a society which feed upon gutter press and Tabloid TV.
+A1	Stance T3 For
+A2	Stance T6 For
+A3	Stance T10 For
+R1	supports Arg1:T3 Arg2:T2
+R2	supports Arg1:T4 Arg2:T3
+R3	supports Arg1:T5 Arg2:T3
+R4	supports Arg1:T6 Arg2:T2
+R5	supports Arg1:T7 Arg2:T6
+R6	supports Arg1:T8 Arg2:T6
+R7	supports Arg1:T9 Arg2:T6
+R8	supports Arg1:T10 Arg2:T2
+R9	supports Arg1:T2 Arg2:T1

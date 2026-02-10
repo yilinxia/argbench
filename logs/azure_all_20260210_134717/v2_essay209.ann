@@ -1,0 +1,58 @@
+T1	MajorClaim 1391 1530	In my opinion, it will yield more negative results than positive ones. That's why it should be made available for a wide range of learners.
+T2	Claim 360 469	To begin with, outstanding academic students are eligible for university due to their intellectual advantage.
+A1	Stance T2	Against
+T3	Premise 470 632	To be precise, such abstract or complicated informatin, easily absorbed by those students, may prove as a matter of pressure for those who lack equivalent skills.
+T4	Premise 633 694	Besides, it is undeniable that one deserves what he has done.
+T5	Premise 695 780	University is like a gift presented to those who have gone to great length to attain.
+T6	Claim 781 1042	However, university is not just about academic studies but also a place to nurture artistic talent and develop soft skills. Therefore, it should be up for grabs for a majority of young people, who wish to pursue their passion as well as develop comprehensively.
+A2	Stance T6	For
+T7	Claim 1044 1161	What is more, there is a tendency for social vices to rise if university is to be restricted to only the best people.
+A3	Stance T7	For
+T8	Premise 944 944
+T9	Premise 945 945
+T10	Premise 944 944
+T11	Premise 944 944
+T12	Premise 944 944
+T13	Premise 944 944
+T14	Premise 944 944
+T15	Premise 944 944
+T16	Premise 944 944
+T17	Premise 944 944
+T18	Premise 944 944
+T19	Premise 944 944
+T20	Premise 944 944
+T21	Premise 944 944
+T22	Premise 944 944
+T23	Premise 944 944
+T24	Premise 944 944
+T25	Premise 944 944
+T26	Premise 944 944
+T27	Premise 944 944
+T28	Premise 944 944
+T29	Premise 944 944
+T30	Premise 944 944
+T31	Premise 944 944
+T32	Premise 944 944
+T33	Premise 944 944
+T34	Premise 944 944
+T35	Premise 944 944
+T36	Premise 944 944
+T37	Premise 944 944
+T38	Premise 944 944
+T39	Premise 944 944
+T40	Premise 944 944
+T41	Premise 944 944
+T42	Premise 944 944
+T43	Premise 944 944
+T44	Premise 944 944
+T45	Premise 944 944
+T46	Premise 944 944
+T47	Premise 944 944
+T48	Premise 944 944
+T49	Premise 944 944
+T50	Premise 944 944
+R1	supports Arg1:T3 Arg2:T2
+R2	supports Arg1:T4 Arg2:T2
+R3	supports Arg1:T5 Arg2:T2
+R4	supports Arg1:T6 Arg2:T1
+R5	supports Arg1:T7 Arg2:T1

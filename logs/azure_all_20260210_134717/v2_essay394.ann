@@ -1,0 +1,25 @@
+T1	MajorClaim 241 351	From my point of view, children are those who need to be under instruction of handwriting for several reasons.
+T2	Claim 404 463	handwriting still plays a vital role in students' learning.
+A1	Stance T2 For
+T3	Premise 473 575	this approach is a basis tool used in several fields such as taking notes, doing homework and writing.
+T4	Premise 576 680	It enables to improve learners' spelling capacity and accompany reading or writing disabilities as well.
+T5	Premise 681 773	Under the guidance of parents or teachers, children can benefit from practicing handwriting.
+T6	Premise 774 910	This way of writing will encourage them to pay more attention on content, elaborate in details and develop their organization abilities.
+T7	Claim 921 1083	parents and schools should give priority on directing their kids about handwriting as poor handwriting can have a negative impact on students' school performance.
+A2	Stance T7 For
+T8	Premise 1101 1191	kids who are bad at handwriting meet difficulties in taking notes and catching up lessons.
+T9	Premise 1192 1277	It resulted in the missing of information and the lack of details during their works.
+T10	Premise 1288 1416	the increasing taking advantage of advanced equipment could make students be lazier and more subjective in their writing skills.
+T11	Premise 1430 1570	with the assistance of automatic grammar and spelling checking in office word, learners are now no need for noticing much in their mistakes.
+T12	MajorClaim 1572 1750	To conclude, no matter how fast and convenient modern devices bring to us in writing, handwriting is still a needed skill for all of people, especially students at the early age.
+R1	supports Arg1:T2 Arg2:T1
+R2	supports Arg1:T3 Arg2:T2
+R3	supports Arg1:T4 Arg2:T2
+R4	supports Arg1:T5 Arg2:T2
+R5	supports Arg1:T6 Arg2:T2
+R6	supports Arg1:T7 Arg2:T1
+R7	supports Arg1:T8 Arg2:T7
+R8	supports Arg1:T9 Arg2:T7
+R9	supports Arg1:T10 Arg2:T7
+R10	supports Arg1:T11 Arg2:T10
+R11	supports Arg1:T1 Arg2:T12

@@ -1,0 +1,41 @@
+T1	MajorClaim 0 57	Learning with a teacher is more efficient than by myself.
+T2	Premise 59 145	Every person learn in their own manner which they think that is most expedient to them
+T3	Premise 208 332	It gives you a chance to concentrate on what you learn cause there is no one who distracts your attention in presence of you
+T4	Premise 338 373	your learning becomes more profound
+T5	Premise 388 483	the learning with a teacher makes us bear more burdens of studies cause they assign us homework
+T6	Claim 499 559	I prefer to learn with a teacher rather than learn by myself
+A1	Stance T6 For
+T7	Premise 571 681	The distinguishing fact of the learning with a teacher is that you can ask about problems related your studies
+T8	Premise 683 858	In other words, when we encounter difficulty in our study which we can not make out, that asking the difficulty from our teacher is propitious way for us to solve it instantly
+T9	Premise 873 997	professors and teachers have much experience and knowledge, and are so dextrous with letting students understand their study
+T10	Premise 999 1085	They know something which are not incorporated in such materials as books and webpages
+T11	Premise 1087 1193	Hence I, in my class, often communicate with my teacher to find a coordinated answer to a my faced problem
+T12	Premise 1199 1264	my classmates are so accustomed to communicating with the teacher
+T13	Claim 1289 1349	the learning with a teacher is more efficient than by myself
+A2	Stance T13 For
+T14	Premise 1351 1453	We can accomplish our assignments with little help of a teacher within less time than do it by ourself
+T15	Premise 1468 1533	the teachers play important role in leading us to right direction
+T16	Premise 1545 1620	This gives us opportunity to rise our educational level to an exited degree
+T17	Premise 1622 1679	knowledge may be thereby better improved and strengthened
+T18	Premise 1701 1741	being without a teacher has shortcomings
+T19	Premise 1743 1932	Notable one of the shortcomings is that if someone faced so complicated confusion in his study and his many endeavors on making out it were miscarried, this might be ended in disappointment
+T20	Premise 1934 2090	I think that for one who depends on only himself in learning, his improvement of ability, with regard to cooperation and express his opinion, is unpromising
+T21	MajorClaim 2092 2161	Hence I support this point that the learning with a teacher is better
+R1	supports Arg1:T6 Arg2:T1
+R2	supports Arg1:T7 Arg2:T6
+R3	supports Arg1:T8 Arg2:T7
+R4	supports Arg1:T9 Arg2:T7
+R5	supports Arg1:T10 Arg2:T9
+R6	supports Arg1:T11 Arg2:T7
+R7	supports Arg1:T12 Arg2:T11
+R8	supports Arg1:T13 Arg2:T1
+R9	supports Arg1:T14 Arg2:T13
+R10	supports Arg1:T15 Arg2:T13
+R11	supports Arg1:T16 Arg2:T13
+R12	supports Arg1:T17 Arg2:T16
+R13	supports Arg1:T18 Arg2:T21
+R14	supports Arg1:T19 Arg2:T18
+R15	supports Arg1:T20 Arg2:T18
+R16	attacks Arg1:T3 Arg2:T6
+R17	attacks Arg1:T4 Arg2:T6
+R18	attacks Arg1:T5 Arg2:T6

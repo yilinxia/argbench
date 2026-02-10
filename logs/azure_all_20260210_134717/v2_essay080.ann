@@ -1,0 +1,28 @@
+T1	MajorClaim 1802 1851	in my own view, more good come from zoos than bad
+T2	Claim 366 403	keeping animals in captivity is wrong
+A1	Stance T2 Against
+T3	Premise 412 507	animals should be considered non-human persons and they should have the right of having freedom
+T4	Premise 509 616	This is so unfair for them to be taken out of their natural environment and to be kept in small enclosures.
+T5	Premise 634 751	many zoos, especially the ones in developing countries, do not provide care and attention which their animals require
+T6	Premise 753 859	The animals are often undernourished and do not have sufficient quality and quantity of medical treatment.
+T7	Premise 873 968	sometimes animals from hot countries have to survive in the cold winter of somewhere in Europe.
+T8	Claim 1016 1114	zoos provide the public with good entertainment and also help to ensure the balance of the ecology
+A2	Stance T8 For
+T9	Premise 1116 1295	Many people, especially young children enjoy going to zoos and see their favorite animals, cute baby-born animals and the animals that are from the different corners of the world.
+T10	Premise 1296 1384	Zoos provide educational information about the lives of different animals to the public.
+T11	Premise 1391 1502	zoos play an important role in reserving many breeds of animal and preventing them from being missing from life
+T12	Premise 1534 1687	in zoos, animals are kept in enclosures which simulate their own habitats and also endangered animals are being protected from their predators or hunters
+T13	Claim 1879 1998	the standards of zoos should be leveled up to ensure that the animals in zoos are provided with good care and attention
+A3	Stance T13 For
+R1	supports Arg1:T3 Arg2:T2
+R2	supports Arg1:T4 Arg2:T2
+R3	supports Arg1:T5 Arg2:T2
+R4	supports Arg1:T6 Arg2:T5
+R5	supports Arg1:T7 Arg2:T2
+R6	supports Arg1:T9 Arg2:T8
+R7	supports Arg1:T10 Arg2:T8
+R8	supports Arg1:T11 Arg2:T8
+R9	supports Arg1:T12 Arg2:T11
+R10	supports Arg1:T8 Arg2:T1
+R11	attacks Arg1:T2 Arg2:T1
+R12	supports Arg1:T13 Arg2:T1

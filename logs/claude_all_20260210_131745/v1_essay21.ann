@@ -1,0 +1,29 @@
+T1	MajorClaim 325 404	advertising is the major reason for high sales of a product for several reasons
+T2	Claim 407 466	We are mainly introduced to products through advertisements
+A1	Stance T2 For
+T3	Premise 468 569	Therefore, advertisers push the limits of creativity to dispose the consumers to purchase the product
+T4	Premise 571 714	When the consumers are impressed by the way a product is advertised, they can be convinced to consider that the product is a need in some cases
+T5	Premise 716 795	Recently, there is a very creative advertisements of a soft drink product on TV
+T6	Premise 797 909	The story delivers a desired call to drink that soft drink that people tend to drink when the weather is too hot
+T7	Premise 911 984	As a result of this, the number of that product being sold will increases
+T8	Claim 993 1095	the more an advertisement of a product takes place in mass media, the more popular the product becomes
+A2	Stance T8 For
+T9	Premise 1097 1167	Advertisement is the most effective way to create a well-known product
+T10	Premise 1169 1295	Consumers tend to purchase the most known product when it comes to picking one out of two different brands of the same product
+T11	Premise 1297 1399	When a product is commonly used, it becomes trustworthy for the society, no matter what quality it is.
+T12	Claim 1479 1567	advertisements have undeniable affects on the society about the product being advertised
+A3	Stance T12 For
+T13	Premise 1569 1601	They make the product preferable
+T14	MajorClaim 1701 1769	high sales are obviously a reflection of the powerful advertisements
+R1	supports Arg1:T3 Arg2:T2
+R2	supports Arg1:T4 Arg2:T2
+R3	supports Arg1:T5 Arg2:T4
+R4	supports Arg1:T6 Arg2:T5
+R5	supports Arg1:T7 Arg2:T2
+R6	supports Arg1:T2 Arg2:T1
+R7	supports Arg1:T9 Arg2:T8
+R8	supports Arg1:T10 Arg2:T8
+R9	supports Arg1:T11 Arg2:T8
+R10	supports Arg1:T8 Arg2:T1
+R11	supports Arg1:T13 Arg2:T12
+R12	supports Arg1:T12 Arg2:T1

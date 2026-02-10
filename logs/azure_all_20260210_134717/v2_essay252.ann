@@ -1,0 +1,38 @@
+T1	MajorClaim 343 472	In my opinion, I agree that children should learn music and art in a young age because they do contribute several merits to them.
+T2	Claim 474 568	First, it's very suitable for children to develop senses of music and art when they are young.
+T3	Premise 569 668	Children absorb things quickly and they bear exact the ability needed in music and art-imagination.
+T4	Premise 669 818	Music and art are not like math or language which has more strict rules. They are more abstract, requiring creativity and imagination to be enriched.
+T5	Premise 819 978	Children are privileged to have these abilities because they are given more freedom and their imagination has not yet been killed due to reality circumstances.
+T6	Premise 979 1120	Even if their performances are just some simple drawings and melodies, music and art still bring out children's joy of flying in imagination.
+T7	Claim 1121 1189	Second, music and art are life-long cultivation worthy of investing.
+T8	Premise 1190 1268	They teach us how to appreciate beauty and express feelings in a creative way.
+T9	Premise 1269 1310	They are essential to our spiritual life.
+T10	Premise 1311 1484	Therefore, even if children are not going to be great musicians or artists, learning music and art is still worthy because it can nourish your temper and serve as a leisure.
+T11	Claim 1485 1634	However, some people might argue that parents shouldn't put so much stress on children, since learning too many skills seems to be a burden for them.
+T12	Claim 1635 1715	In my opinion, it depends on how you value these learning activities to be like.
+T13	Premise 1716 1843	If parents push their 5 years old child to play piano 8 hours a day just like a professional performer, that might be too much.
+T14	Premise 1844 1976	In a child stage, music and art are more like an open door to introduce the art world than training area to acquire specific skills.
+T15	Premise 1977 2031	In this way, it will not be such pressure on children.
+T16	Claim 2033 2203	In conclusion, young age is the perfect time for children to learn music and art and they are indeed valuable to people not only in their young stage, but in every stage.
+T17	Premise 2204 2300	Music and art can accompany a spirit as long as they are given the chance to enter his/her life.
+A1	Stance T2 For
+A2	Stance T7 For
+A3	Stance T11 Against
+A4	Stance T12 For
+A5	Stance T16 For
+R1	supports Arg1:T2 Arg2:T1
+R2	supports Arg1:T3 Arg2:T2
+R3	supports Arg1:T4 Arg2:T2
+R4	supports Arg1:T5 Arg2:T2
+R5	supports Arg1:T6 Arg2:T2
+R6	supports Arg1:T7 Arg2:T1
+R7	supports Arg1:T8 Arg2:T7
+R8	supports Arg1:T9 Arg2:T7
+R9	supports Arg1:T10 Arg2:T7
+R10	attacks Arg1:T11 Arg2:T1
+R11	supports Arg1:T12 Arg2:T1
+R12	supports Arg1:T13 Arg2:T12
+R13	supports Arg1:T14 Arg2:T12
+R14	supports Arg1:T15 Arg2:T12
+R15	supports Arg1:T16 Arg2:T1
+R16	supports Arg1:T17 Arg2:T16

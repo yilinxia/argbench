@@ -1,0 +1,26 @@
+T1	MajorClaim 359 483	I totally agree with this viewpoint for some specific reasons which would be given and analyzed in the following paragraphs.
+T2	Claim 1053 1157	Therefore, a society that its police force carries guns will be definitely seen as a highly violent one.
+A1	Stance T2 For
+T3	Claim 1374 1486	Obviously, Those are possibly the strongest evidences to determine a society suffering a high level of violence.
+A2	Stance T3 For
+T4	Claim 1487 1632	In conclusion, from the above views, although being armed with guns in the police force is necessary, it will bring the higher level of violence.
+A3	Stance T4 For
+T5	Premise 484 643	First of all, we need to consider that police armed with guns or any other kinds of legal weapons just attempts to protect not only civilians but also himself.
+T6	Premise 644 821	As a result, criminals todays are very sophisticated so they spend a large amount of money to acquire modern weapons to cope with the police and serve their own nefarious needs.
+T7	Premise 822 907	Thus, citizens in that society can be shot by both police and offenders accidentally.
+T8	Premise 908 1052	Moreover, while on duty, not only are private citizens affected but facilities such as cars, houses, streets are likely to be destroyed by guns.
+T9	Premise 1158 1223	Secondly, police force carries guns only in high crime societies.
+T10	Premise 1224 1373	Hence, people and police in those ones usually deal with dangerous diverse crime's categories such as theft, robbery, murder, rape, vandalism, arson.
+T11	Premise 1633 1809	Additionally, the government should to impose strict laws in carrying weapons as well as give professional training to them in order to avoid any influence on civilians' lives.
+R1	supports Arg1:T2 Arg2:T1
+R2	supports Arg1:T3 Arg2:T1
+R3	supports Arg1:T4 Arg2:T1
+R4	supports Arg1:T5 Arg2:T2
+R5	supports Arg1:T6 Arg2:T2
+R6	supports Arg1:T7 Arg2:T2
+R7	supports Arg1:T8 Arg2:T2
+R8	supports Arg1:T9 Arg2:T3
+R9	supports Arg1:T10 Arg2:T3
+R10	supports Arg1:T4 Arg2:T2
+R11	supports Arg1:T4 Arg2:T3
+R12	supports Arg1:T11 Arg2:T4

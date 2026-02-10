@@ -1,0 +1,31 @@
+T1	MajorClaim 0 72	Learning facts has more subsequent advantages for students' future lives
+T2	Claim 308 409	I am in the conviction that learning facts has more subsequent advantages for students' future lives.
+T3	Claim 469 600	First, when students learn facts more in school, they would be ready for facing problems in their own life after their graduations.
+T4	Premise 601 734	As a case in point, more information about facts would make students more familiar with the real life other that only their concepts.
+T5	Premise 735 836	As a result, they would prepare to encounter their life out of school to solve their problems better.
+T6	Claim 838 889	Second, it would improve students' social behavior.
+T7	Premise 890 993	If students only rely on concepts and ideas theorically, they would not realize human's mind very well.
+T8	Premise 994 1092	They should understand objects more that concepts to obtain the ability of analyzing matters well.
+T9	Premise 1093 1235	Thus, if they deal more with facts, they can realize social situations effectively and so improve their social communication in everyday life.
+T10	Claim 1237 1330	Moreover, these way students are teached to control their fears and concerns in facing facts.
+T11	Premise 1331 1452	As a matter of fact, when a student understands a fact and its consequences, he or she can encounter it more confidently.
+T12	Premise 1453 1534	In my viewpoint, concerns and anxieties are very destructive in everybody's life.
+T13	Premise 1535 1598	It can prevent person to progress and thrive in every position.
+T14	MajorClaim 1600 1757	All in all, I am in the belief that learning facts is more beneficial for students in both social and individual life in the view of above-mentioned reasons.
+A1	Stance T2 For
+A2	Stance T3 For
+A3	Stance T6 For
+A4	Stance T10 For
+R1	supports Arg1:T2 Arg2:T1
+R2	supports Arg1:T3 Arg2:T1
+R3	supports Arg1:T4 Arg2:T3
+R4	supports Arg1:T5 Arg2:T3
+R5	supports Arg1:T6 Arg2:T1
+R6	supports Arg1:T7 Arg2:T6
+R7	supports Arg1:T8 Arg2:T6
+R8	supports Arg1:T9 Arg2:T6
+R9	supports Arg1:T10 Arg2:T1
+R10	supports Arg1:T11 Arg2:T10
+R11	supports Arg1:T12 Arg2:T10
+R12	supports Arg1:T13 Arg2:T12
+R13	supports Arg1:T14 Arg2:T1

@@ -1,0 +1,24 @@
+T1	MajorClaim 0 93	Type of temper and advantages of individual work as best arguments in favor of studying alone
+T2	Claim 316 367	I favor the latter because of the following reasons
+T3	Claim 384 479	type of temper is one of the reasons that make me to choose individual work instead of team one
+T4	Premise 481 600	Being by nature introvert, I have to spend much time and efforts on adjusting to surroundings and especially new people
+T5	Premise 602 781	Once, when I was working on presentation with strangers, I sat aside and so prepared more than half of work myself instead of making attempts to get acquainted with unknown people
+T6	Claim 794 873	my productivity boosts when style of work is appropriate with my type of temper
+T7	Claim 897 1008	working alone allows me to avoid spending time and efforts on many things that are an integral part of teamwork
+T8	Premise 1026 1148	I must not divide tasks and duties between team members, share responsibility and benefits, and spend time on teambuilding
+T9	Premise 1150 1225	These advantages are especially important in situations of shortage of time
+T10	Premise 1227 1392	About a year ago I was lucky to become a participant of student brainstorming game. To my rivals' surprise, being the only member of my own "team" I gained a victory
+T11	MajorClaim 1409 1541	from my point of view, type of temper and advantages of individual work are the most persuasive arguments in favor of studying alone
+A1	Stance T2 For
+A2	Stance T3 For
+A3	Stance T6 For
+A4	Stance T7 For
+R1	supports Arg1:T2 Arg2:T1
+R2	supports Arg1:T3 Arg2:T1
+R3	supports Arg1:T4 Arg2:T3
+R4	supports Arg1:T5 Arg2:T3
+R5	supports Arg1:T6 Arg2:T3
+R6	supports Arg1:T7 Arg2:T1
+R7	supports Arg1:T8 Arg2:T7
+R8	supports Arg1:T9 Arg2:T7
+R9	supports Arg1:T10 Arg2:T7

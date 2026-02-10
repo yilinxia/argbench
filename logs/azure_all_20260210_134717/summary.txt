@@ -1,0 +1,2549 @@
+============================================================
+Argument Mining Annotation Run Summary
+============================================================
+
+Model: azure
+Timestamp: 2026-02-10 14:08:04
+Essays processed: 492
+Successful: 492
+Failed: 0
+
+------------------------------------------------------------
+AGGREGATE STATISTICS
+------------------------------------------------------------
+
+Entity Counts:
+  MajorClaim: 706
+  Claim: 2545
+  Premise: 3893
+
+Stance Attributes:
+  For: 2035
+  Against: 515
+
+Relation Counts:
+  supports: 6443
+  attacks: 412
+
+------------------------------------------------------------
+PER-FILE STATISTICS
+------------------------------------------------------------
+
+v1_essay01:
+  MajorClaim: 1, Claim: 4, Premise: 5
+  Stance (For/Against): 4/0
+  Relations (supports/attacks): 9/0
+
+v1_essay02:
+  MajorClaim: 1, Claim: 5, Premise: 6
+  Stance (For/Against): 5/0
+  Relations (supports/attacks): 13/0
+
+v1_essay03:
+  MajorClaim: 2, Claim: 5, Premise: 4
+  Stance (For/Against): 5/0
+  Relations (supports/attacks): 10/0
+
+v1_essay04:
+  MajorClaim: 1, Claim: 6, Premise: 4
+  Stance (For/Against): 6/0
+  Relations (supports/attacks): 14/0
+
+v1_essay05:
+  MajorClaim: 1, Claim: 6, Premise: 4
+  Stance (For/Against): 5/1
+  Relations (supports/attacks): 9/1
+
+v1_essay06:
+  MajorClaim: 1, Claim: 14, Premise: 24
+  Stance (For/Against): 14/0
+  Relations (supports/attacks): 38/0
+
+v1_essay07:
+  MajorClaim: 1, Claim: 7, Premise: 7
+  Stance (For/Against): 7/0
+  Relations (supports/attacks): 17/0
+
+v1_essay08:
+  MajorClaim: 1, Claim: 8, Premise: 9
+  Stance (For/Against): 5/3
+  Relations (supports/attacks): 14/0
+
+v1_essay09:
+  MajorClaim: 1, Claim: 13, Premise: 16
+  Stance (For/Against): 8/5
+  Relations (supports/attacks): 20/10
+
+v1_essay10:
+  MajorClaim: 2, Claim: 3, Premise: 24
+  Stance (For/Against): 3/0
+  Relations (supports/attacks): 31/0
+
+v1_essay11:
+  MajorClaim: 2, Claim: 9, Premise: 43
+  Stance (For/Against): 10/0
+  Relations (supports/attacks): 61/0
+
+v1_essay12:
+  MajorClaim: 1, Claim: 7, Premise: 20
+  Stance (For/Against): 7/0
+  Relations (supports/attacks): 30/0
+
+v1_essay13:
+  MajorClaim: 2, Claim: 3, Premise: 8
+  Stance (For/Against): 2/1
+  Relations (supports/attacks): 10/1
+
+v1_essay14:
+  MajorClaim: 1, Claim: 2, Premise: 13
+  Stance (For/Against): 1/1
+  Relations (supports/attacks): 14/1
+
+v1_essay15:
+  MajorClaim: 1, Claim: 3, Premise: 5
+  Stance (For/Against): 3/0
+  Relations (supports/attacks): 8/0
+
+v1_essay16:
+  MajorClaim: 2, Claim: 3, Premise: 5
+  Stance (For/Against): 1/2
+  Relations (supports/attacks): 8/1
+
+v1_essay17:
+  MajorClaim: 1, Claim: 5, Premise: 5
+  Stance (For/Against): 4/1
+  Relations (supports/attacks): 9/1
+
+v1_essay18:
+  MajorClaim: 1, Claim: 5, Premise: 12
+  Stance (For/Against): 3/2
+  Relations (supports/attacks): 17/0
+
+v1_essay19:
+  MajorClaim: 2, Claim: 5, Premise: 3
+  Stance (For/Against): 5/0
+  Relations (supports/attacks): 9/0
+
+v1_essay20:
+  MajorClaim: 2, Claim: 7, Premise: 3
+  Stance (For/Against): 5/2
+  Relations (supports/attacks): 9/2
+
+v1_essay21:
+  MajorClaim: 1, Claim: 4, Premise: 9
+  Stance (For/Against): 4/0
+  Relations (supports/attacks): 13/0
+
+v1_essay22:
+  MajorClaim: 1, Claim: 3, Premise: 6
+  Stance (For/Against): 2/1
+  Relations (supports/attacks): 8/1
+
+v1_essay23:
+  MajorClaim: 2, Claim: 7, Premise: 7
+  Stance (For/Against): 5/2
+  Relations (supports/attacks): 13/2
+
+v1_essay24:
+  MajorClaim: 2, Claim: 3, Premise: 6
+  Stance (For/Against): 3/0
+  Relations (supports/attacks): 13/0
+
+v1_essay25:
+  MajorClaim: 2, Claim: 4, Premise: 6
+  Stance (For/Against): 3/1
+  Relations (supports/attacks): 10/1
+
+v1_essay26:
+  MajorClaim: 2, Claim: 6, Premise: 6
+  Stance (For/Against): 6/0
+  Relations (supports/attacks): 13/0
+
+v1_essay27:
+  MajorClaim: 1, Claim: 7, Premise: 4
+  Stance (For/Against): 7/0
+  Relations (supports/attacks): 11/0
+
+v1_essay28:
+  MajorClaim: 1, Claim: 5, Premise: 7
+  Stance (For/Against): 0/5
+  Relations (supports/attacks): 11/1
+
+v1_essay29:
+  MajorClaim: 1, Claim: 6, Premise: 5
+  Stance (For/Against): 6/0
+  Relations (supports/attacks): 11/0
+
+v1_essay30:
+  MajorClaim: 2, Claim: 6, Premise: 1
+  Stance (For/Against): 6/0
+  Relations (supports/attacks): 12/1
+
+v1_essay31:
+  MajorClaim: 1, Claim: 7, Premise: 9
+  Stance (For/Against): 7/0
+  Relations (supports/attacks): 19/0
+
+v1_essay32:
+  MajorClaim: 1, Claim: 8, Premise: 8
+  Stance (For/Against): 2/6
+  Relations (supports/attacks): 15/1
+
+v1_essay33:
+  MajorClaim: 1, Claim: 3, Premise: 3
+  Stance (For/Against): 2/1
+  Relations (supports/attacks): 5/1
+
+v1_essay34:
+  MajorClaim: 2, Claim: 4, Premise: 9
+  Stance (For/Against): 3/1
+  Relations (supports/attacks): 12/1
+
+v1_essay35:
+  MajorClaim: 1, Claim: 3, Premise: 7
+  Stance (For/Against): 1/2
+  Relations (supports/attacks): 8/2
+
+v1_essay36:
+  MajorClaim: 2, Claim: 4, Premise: 7
+  Stance (For/Against): 4/0
+  Relations (supports/attacks): 14/0
+
+v1_essay37:
+  MajorClaim: 3, Claim: 3, Premise: 16
+  Stance (For/Against): 3/0
+  Relations (supports/attacks): 20/0
+
+v1_essay38:
+  MajorClaim: 2, Claim: 6, Premise: 5
+  Stance (For/Against): 5/1
+  Relations (supports/attacks): 12/2
+
+v1_essay39:
+  MajorClaim: 1, Claim: 5, Premise: 9
+  Stance (For/Against): 4/1
+  Relations (supports/attacks): 13/1
+
+v1_essay40:
+  MajorClaim: 2, Claim: 4, Premise: 10
+  Stance (For/Against): 4/0
+  Relations (supports/attacks): 15/0
+
+v1_essay41:
+  MajorClaim: 1, Claim: 5, Premise: 3
+  Stance (For/Against): 5/0
+  Relations (supports/attacks): 8/0
+
+v1_essay42:
+  MajorClaim: 1, Claim: 4, Premise: 5
+  Stance (For/Against): 0/4
+  Relations (supports/attacks): 8/3
+
+v1_essay43:
+  MajorClaim: 2, Claim: 4, Premise: 6
+  Stance (For/Against): 4/0
+  Relations (supports/attacks): 14/0
+
+v1_essay44:
+  MajorClaim: 2, Claim: 4, Premise: 7
+  Stance (For/Against): 4/0
+  Relations (supports/attacks): 11/0
+
+v1_essay45:
+  MajorClaim: 2, Claim: 4, Premise: 7
+  Stance (For/Against): 2/2
+  Relations (supports/attacks): 13/2
+
+v1_essay46:
+  MajorClaim: 1, Claim: 8, Premise: 1
+  Stance (For/Against): 8/0
+  Relations (supports/attacks): 9/0
+
+v1_essay47:
+  MajorClaim: 1, Claim: 8, Premise: 4
+  Stance (For/Against): 1/7
+  Relations (supports/attacks): 11/1
+
+v1_essay48:
+  MajorClaim: 1, Claim: 7, Premise: 4
+  Stance (For/Against): 5/2
+  Relations (supports/attacks): 10/1
+
+v1_essay49:
+  MajorClaim: 1, Claim: 6, Premise: 5
+  Stance (For/Against): 4/2
+  Relations (supports/attacks): 10/2
+
+v1_essay50:
+  MajorClaim: 1, Claim: 3, Premise: 10
+  Stance (For/Against): 2/1
+  Relations (supports/attacks): 13/0
+
+v1_essay51:
+  MajorClaim: 1, Claim: 6, Premise: 3
+  Stance (For/Against): 4/2
+  Relations (supports/attacks): 7/2
+
+v1_essay52:
+  MajorClaim: 1, Claim: 2, Premise: 8
+  Stance (For/Against): 1/1
+  Relations (supports/attacks): 9/1
+
+v1_essay53:
+  MajorClaim: 1, Claim: 3, Premise: 0
+  Stance (For/Against): 0/0
+  Relations (supports/attacks): 0/0
+
+v1_essay54:
+  MajorClaim: 1, Claim: 3, Premise: 5
+  Stance (For/Against): 2/1
+  Relations (supports/attacks): 7/1
+
+v1_essay55:
+  MajorClaim: 1, Claim: 5, Premise: 7
+  Stance (For/Against): 4/1
+  Relations (supports/attacks): 11/1
+
+v1_essay56:
+  MajorClaim: 2, Claim: 6, Premise: 10
+  Stance (For/Against): 5/1
+  Relations (supports/attacks): 15/2
+
+v1_essay57:
+  MajorClaim: 1, Claim: 8, Premise: 12
+  Stance (For/Against): 6/2
+  Relations (supports/attacks): 18/2
+
+v1_essay58:
+  MajorClaim: 2, Claim: 11, Premise: 14
+  Stance (For/Against): 11/0
+  Relations (supports/attacks): 25/0
+
+v1_essay59:
+  MajorClaim: 1, Claim: 12, Premise: 5
+  Stance (For/Against): 9/3
+  Relations (supports/attacks): 17/3
+
+v1_essay60:
+  MajorClaim: 1, Claim: 7, Premise: 16
+  Stance (For/Against): 5/2
+  Relations (supports/attacks): 21/2
+
+v1_essay61:
+  MajorClaim: 1, Claim: 11, Premise: 15
+  Stance (For/Against): 10/1
+  Relations (supports/attacks): 24/1
+
+v1_essay62:
+  MajorClaim: 2, Claim: 7, Premise: 9
+  Stance (For/Against): 7/0
+  Relations (supports/attacks): 16/0
+
+v1_essay63:
+  MajorClaim: 3, Claim: 6, Premise: 9
+  Stance (For/Against): 5/1
+  Relations (supports/attacks): 16/2
+
+v1_essay64:
+  MajorClaim: 1, Claim: 5, Premise: 8
+  Stance (For/Against): 4/1
+  Relations (supports/attacks): 12/1
+
+v1_essay65:
+  MajorClaim: 2, Claim: 8, Premise: 3
+  Stance (For/Against): 8/0
+  Relations (supports/attacks): 13/0
+
+v1_essay66:
+  MajorClaim: 2, Claim: 5, Premise: 6
+  Stance (For/Against): 4/1
+  Relations (supports/attacks): 11/2
+
+v1_essay67:
+  MajorClaim: 1, Claim: 5, Premise: 3
+  Stance (For/Against): 4/1
+  Relations (supports/attacks): 11/0
+
+v1_essay68:
+  MajorClaim: 1, Claim: 5, Premise: 4
+  Stance (For/Against): 4/1
+  Relations (supports/attacks): 8/1
+
+v1_essay69:
+  MajorClaim: 2, Claim: 4, Premise: 6
+  Stance (For/Against): 4/0
+  Relations (supports/attacks): 10/4
+
+v1_essay70:
+  MajorClaim: 2, Claim: 9, Premise: 1
+  Stance (For/Against): 0/9
+  Relations (supports/attacks): 11/0
+
+v1_essay71:
+  MajorClaim: 1, Claim: 7, Premise: 4
+  Stance (For/Against): 6/1
+  Relations (supports/attacks): 10/2
+
+v1_essay72:
+  MajorClaim: 1, Claim: 7, Premise: 6
+  Stance (For/Against): 0/7
+  Relations (supports/attacks): 14/0
+
+v1_essay73:
+  MajorClaim: 1, Claim: 5, Premise: 8
+  Stance (For/Against): 2/3
+  Relations (supports/attacks): 10/3
+
+v1_essay74:
+  MajorClaim: 2, Claim: 6, Premise: 8
+  Stance (For/Against): 4/2
+  Relations (supports/attacks): 12/2
+
+v1_essay75:
+  MajorClaim: 2, Claim: 4, Premise: 3
+  Stance (For/Against): 3/1
+  Relations (supports/attacks): 8/0
+
+v1_essay76:
+  MajorClaim: 1, Claim: 5, Premise: 5
+  Stance (For/Against): 3/2
+  Relations (supports/attacks): 8/2
+
+v1_essay77:
+  MajorClaim: 1, Claim: 7, Premise: 6
+  Stance (For/Against): 2/5
+  Relations (supports/attacks): 12/1
+
+v1_essay78:
+  MajorClaim: 2, Claim: 4, Premise: 9
+  Stance (For/Against): 3/1
+  Relations (supports/attacks): 13/1
+
+v1_essay79:
+  MajorClaim: 3, Claim: 5, Premise: 8
+  Stance (For/Against): 3/2
+  Relations (supports/attacks): 19/0
+
+v1_essay80:
+  MajorClaim: 1, Claim: 4, Premise: 8
+  Stance (For/Against): 3/1
+  Relations (supports/attacks): 11/1
+
+v1_essay81:
+  MajorClaim: 1, Claim: 9, Premise: 9
+  Stance (For/Against): 8/1
+  Relations (supports/attacks): 18/2
+
+v1_essay82:
+  MajorClaim: 1, Claim: 9, Premise: 4
+  Stance (For/Against): 6/3
+  Relations (supports/attacks): 10/2
+
+v1_essay83:
+  MajorClaim: 1, Claim: 8, Premise: 5
+  Stance (For/Against): 0/8
+  Relations (supports/attacks): 12/2
+
+v1_essay84:
+  MajorClaim: 2, Claim: 8, Premise: 8
+  Stance (For/Against): 2/6
+  Relations (supports/attacks): 18/1
+
+v1_essay85:
+  MajorClaim: 2, Claim: 8, Premise: 7
+  Stance (For/Against): 7/1
+  Relations (supports/attacks): 14/3
+
+v1_essay86:
+  MajorClaim: 2, Claim: 3, Premise: 1
+  Stance (For/Against): 3/0
+  Relations (supports/attacks): 6/0
+
+v1_essay87:
+  MajorClaim: 2, Claim: 8, Premise: 7
+  Stance (For/Against): 1/7
+  Relations (supports/attacks): 15/1
+
+v1_essay88:
+  MajorClaim: 1, Claim: 5, Premise: 15
+  Stance (For/Against): 4/1
+  Relations (supports/attacks): 22/1
+
+v1_essay89:
+  MajorClaim: 1, Claim: 7, Premise: 6
+  Stance (For/Against): 5/2
+  Relations (supports/attacks): 11/1
+
+v1_essay90:
+  MajorClaim: 2, Claim: 3, Premise: 10
+  Stance (For/Against): 2/1
+  Relations (supports/attacks): 14/2
+
+v2_essay001:
+  MajorClaim: 1, Claim: 3, Premise: 6
+  Stance (For/Against): 3/0
+  Relations (supports/attacks): 9/0
+
+v2_essay002:
+  MajorClaim: 1, Claim: 5, Premise: 7
+  Stance (For/Against): 5/0
+  Relations (supports/attacks): 13/1
+
+v2_essay003:
+  MajorClaim: 2, Claim: 5, Premise: 4
+  Stance (For/Against): 5/0
+  Relations (supports/attacks): 11/0
+
+v2_essay004:
+  MajorClaim: 2, Claim: 4, Premise: 5
+  Stance (For/Against): 4/0
+  Relations (supports/attacks): 10/0
+
+v2_essay005:
+  MajorClaim: 1, Claim: 6, Premise: 4
+  Stance (For/Against): 5/1
+  Relations (supports/attacks): 9/1
+
+v2_essay006:
+  MajorClaim: 2, Claim: 5, Premise: 13
+  Stance (For/Against): 5/0
+  Relations (supports/attacks): 18/0
+
+v2_essay007:
+  MajorClaim: 1, Claim: 6, Premise: 7
+  Stance (For/Against): 6/0
+  Relations (supports/attacks): 16/0
+
+v2_essay008:
+  MajorClaim: 1, Claim: 3, Premise: 2
+  Stance (For/Against): 3/0
+  Relations (supports/attacks): 5/0
+
+v2_essay009:
+  MajorClaim: 1, Claim: 5, Premise: 8
+  Stance (For/Against): 5/0
+  Relations (supports/attacks): 12/0
+
+v2_essay010:
+  MajorClaim: 1, Claim: 5, Premise: 11
+  Stance (For/Against): 5/0
+  Relations (supports/attacks): 15/2
+
+v2_essay011:
+  MajorClaim: 1, Claim: 7, Premise: 9
+  Stance (For/Against): 7/0
+  Relations (supports/attacks): 16/0
+
+v2_essay012:
+  MajorClaim: 1, Claim: 4, Premise: 9
+  Stance (For/Against): 4/0
+  Relations (supports/attacks): 13/0
+
+v2_essay013:
+  MajorClaim: 1, Claim: 5, Premise: 10
+  Stance (For/Against): 4/1
+  Relations (supports/attacks): 13/2
+
+v2_essay014:
+  MajorClaim: 1, Claim: 2, Premise: 10
+  Stance (For/Against): 1/1
+  Relations (supports/attacks): 11/1
+
+v2_essay015:
+  MajorClaim: 1, Claim: 3, Premise: 5
+  Stance (For/Against): 3/0
+  Relations (supports/attacks): 8/0
+
+v2_essay016:
+  MajorClaim: 2, Claim: 2, Premise: 4
+  Stance (For/Against): 1/1
+  Relations (supports/attacks): 6/1
+
+v2_essay017:
+  MajorClaim: 1, Claim: 5, Premise: 11
+  Stance (For/Against): 5/0
+  Relations (supports/attacks): 19/0
+
+v2_essay018:
+  MajorClaim: 2, Claim: 4, Premise: 11
+  Stance (For/Against): 2/2
+  Relations (supports/attacks): 14/1
+
+v2_essay019:
+  MajorClaim: 1, Claim: 3, Premise: 10
+  Stance (For/Against): 3/0
+  Relations (supports/attacks): 13/0
+
+v2_essay020:
+  MajorClaim: 2, Claim: 4, Premise: 6
+  Stance (For/Against): 2/2
+  Relations (supports/attacks): 9/2
+
+v2_essay021:
+  MajorClaim: 1, Claim: 4, Premise: 9
+  Stance (For/Against): 4/0
+  Relations (supports/attacks): 13/0
+
+v2_essay022:
+  MajorClaim: 2, Claim: 5, Premise: 6
+  Stance (For/Against): 3/2
+  Relations (supports/attacks): 10/2
+
+v2_essay023:
+  MajorClaim: 1, Claim: 8, Premise: 7
+  Stance (For/Against): 5/3
+  Relations (supports/attacks): 12/3
+
+v2_essay024:
+  MajorClaim: 2, Claim: 5, Premise: 5
+  Stance (For/Against): 5/0
+  Relations (supports/attacks): 11/0
+
+v2_essay025:
+  MajorClaim: 1, Claim: 6, Premise: 6
+  Stance (For/Against): 5/1
+  Relations (supports/attacks): 12/1
+
+v2_essay026:
+  MajorClaim: 2, Claim: 3, Premise: 9
+  Stance (For/Against): 0/3
+  Relations (supports/attacks): 13/0
+
+v2_essay027:
+  MajorClaim: 2, Claim: 5, Premise: 4
+  Stance (For/Against): 5/0
+  Relations (supports/attacks): 11/0
+
+v2_essay028:
+  MajorClaim: 2, Claim: 5, Premise: 8
+  Stance (For/Against): 0/5
+  Relations (supports/attacks): 12/2
+
+v2_essay029:
+  MajorClaim: 2, Claim: 4, Premise: 6
+  Stance (For/Against): 4/0
+  Relations (supports/attacks): 16/0
+
+v2_essay030:
+  MajorClaim: 1, Claim: 5, Premise: 3
+  Stance (For/Against): 4/1
+  Relations (supports/attacks): 7/2
+
+v2_essay031:
+  MajorClaim: 2, Claim: 8, Premise: 9
+  Stance (For/Against): 7/1
+  Relations (supports/attacks): 17/1
+
+v2_essay032:
+  MajorClaim: 2, Claim: 7, Premise: 8
+  Stance (For/Against): 5/2
+  Relations (supports/attacks): 13/2
+
+v2_essay033:
+  MajorClaim: 1, Claim: 3, Premise: 3
+  Stance (For/Against): 2/1
+  Relations (supports/attacks): 5/1
+
+v2_essay034:
+  MajorClaim: 2, Claim: 3, Premise: 8
+  Stance (For/Against): 2/1
+  Relations (supports/attacks): 12/2
+
+v2_essay035:
+  MajorClaim: 1, Claim: 3, Premise: 8
+  Stance (For/Against): 1/2
+  Relations (supports/attacks): 9/2
+
+v2_essay036:
+  MajorClaim: 2, Claim: 5, Premise: 6
+  Stance (For/Against): 5/0
+  Relations (supports/attacks): 15/0
+
+v2_essay037:
+  MajorClaim: 1, Claim: 3, Premise: 16
+  Stance (For/Against): 3/0
+  Relations (supports/attacks): 19/0
+
+v2_essay038:
+  MajorClaim: 2, Claim: 6, Premise: 5
+  Stance (For/Against): 5/1
+  Relations (supports/attacks): 13/2
+
+v2_essay039:
+  MajorClaim: 1, Claim: 5, Premise: 8
+  Stance (For/Against): 5/0
+  Relations (supports/attacks): 13/0
+
+v2_essay040:
+  MajorClaim: 2, Claim: 3, Premise: 10
+  Stance (For/Against): 3/0
+  Relations (supports/attacks): 14/0
+
+v2_essay041:
+  MajorClaim: 1, Claim: 6, Premise: 3
+  Stance (For/Against): 6/0
+  Relations (supports/attacks): 9/0
+
+v2_essay042:
+  MajorClaim: 1, Claim: 4, Premise: 5
+  Stance (For/Against): 0/4
+  Relations (supports/attacks): 5/4
+
+v2_essay043:
+  MajorClaim: 1, Claim: 6, Premise: 6
+  Stance (For/Against): 6/0
+  Relations (supports/attacks): 12/0
+
+v2_essay044:
+  MajorClaim: 1, Claim: 4, Premise: 7
+  Stance (For/Against): 4/0
+  Relations (supports/attacks): 11/0
+
+v2_essay045:
+  MajorClaim: 1, Claim: 5, Premise: 7
+  Stance (For/Against): 3/2
+  Relations (supports/attacks): 11/1
+
+v2_essay046:
+  MajorClaim: 2, Claim: 3, Premise: 4
+  Stance (For/Against): 3/0
+  Relations (supports/attacks): 8/0
+
+v2_essay047:
+  MajorClaim: 1, Claim: 7, Premise: 4
+  Stance (For/Against): 6/1
+  Relations (supports/attacks): 10/1
+
+v2_essay048:
+  MajorClaim: 1, Claim: 6, Premise: 5
+  Stance (For/Against): 5/1
+  Relations (supports/attacks): 11/1
+
+v2_essay049:
+  MajorClaim: 1, Claim: 5, Premise: 7
+  Stance (For/Against): 2/3
+  Relations (supports/attacks): 10/2
+
+v2_essay050:
+  MajorClaim: 2, Claim: 9, Premise: 6
+  Stance (For/Against): 6/3
+  Relations (supports/attacks): 15/1
+
+v2_essay051:
+  MajorClaim: 1, Claim: 4, Premise: 14
+  Stance (For/Against): 4/0
+  Relations (supports/attacks): 18/0
+
+v2_essay052:
+  MajorClaim: 1, Claim: 2, Premise: 9
+  Stance (For/Against): 1/1
+  Relations (supports/attacks): 10/1
+
+v2_essay053:
+  MajorClaim: 2, Claim: 5, Premise: 6
+  Stance (For/Against): 2/3
+  Relations (supports/attacks): 9/3
+
+v2_essay054:
+  MajorClaim: 1, Claim: 4, Premise: 4
+  Stance (For/Against): 3/1
+  Relations (supports/attacks): 6/1
+
+v2_essay055:
+  MajorClaim: 1, Claim: 7, Premise: 7
+  Stance (For/Against): 4/3
+  Relations (supports/attacks): 11/4
+
+v2_essay056:
+  MajorClaim: 2, Claim: 5, Premise: 10
+  Stance (For/Against): 4/1
+  Relations (supports/attacks): 14/1
+
+v2_essay057:
+  MajorClaim: 2, Claim: 4, Premise: 4
+  Stance (For/Against): 4/0
+  Relations (supports/attacks): 8/1
+
+v2_essay058:
+  MajorClaim: 2, Claim: 11, Premise: 14
+  Stance (For/Against): 8/3
+  Relations (supports/attacks): 23/1
+
+v2_essay059:
+  MajorClaim: 1, Claim: 12, Premise: 5
+  Stance (For/Against): 9/3
+  Relations (supports/attacks): 14/3
+
+v2_essay060:
+  MajorClaim: 2, Claim: 8, Premise: 14
+  Stance (For/Against): 6/2
+  Relations (supports/attacks): 21/2
+
+v2_essay061:
+  MajorClaim: 1, Claim: 9, Premise: 14
+  Stance (For/Against): 8/1
+  Relations (supports/attacks): 22/1
+
+v2_essay062:
+  MajorClaim: 1, Claim: 5, Premise: 11
+  Stance (For/Against): 5/0
+  Relations (supports/attacks): 16/0
+
+v2_essay063:
+  MajorClaim: 3, Claim: 6, Premise: 9
+  Stance (For/Against): 5/1
+  Relations (supports/attacks): 15/2
+
+v2_essay064:
+  MajorClaim: 2, Claim: 6, Premise: 6
+  Stance (For/Against): 5/1
+  Relations (supports/attacks): 13/1
+
+v2_essay065:
+  MajorClaim: 2, Claim: 9, Premise: 4
+  Stance (For/Against): 9/0
+  Relations (supports/attacks): 22/0
+
+v2_essay066:
+  MajorClaim: 2, Claim: 5, Premise: 6
+  Stance (For/Against): 4/1
+  Relations (supports/attacks): 11/1
+
+v2_essay067:
+  MajorClaim: 1, Claim: 6, Premise: 6
+  Stance (For/Against): 5/1
+  Relations (supports/attacks): 14/1
+
+v2_essay068:
+  MajorClaim: 1, Claim: 8, Premise: 3
+  Stance (For/Against): 7/1
+  Relations (supports/attacks): 10/1
+
+v2_essay069:
+  MajorClaim: 2, Claim: 4, Premise: 6
+  Stance (For/Against): 3/1
+  Relations (supports/attacks): 10/2
+
+v2_essay070:
+  MajorClaim: 1, Claim: 9, Premise: 4
+  Stance (For/Against): 9/0
+  Relations (supports/attacks): 13/0
+
+v2_essay071:
+  MajorClaim: 1, Claim: 7, Premise: 3
+  Stance (For/Against): 6/1
+  Relations (supports/attacks): 9/2
+
+v2_essay072:
+  MajorClaim: 1, Claim: 2, Premise: 11
+  Stance (For/Against): 2/0
+  Relations (supports/attacks): 13/0
+
+v2_essay073:
+  MajorClaim: 1, Claim: 3, Premise: 10
+  Stance (For/Against): 1/2
+  Relations (supports/attacks): 11/2
+
+v2_essay074:
+  MajorClaim: 1, Claim: 6, Premise: 8
+  Stance (For/Against): 4/2
+  Relations (supports/attacks): 12/2
+
+v2_essay075:
+  MajorClaim: 1, Claim: 7, Premise: 3
+  Stance (For/Against): 5/2
+  Relations (supports/attacks): 9/2
+
+v2_essay076:
+  MajorClaim: 1, Claim: 5, Premise: 5
+  Stance (For/Against): 2/3
+  Relations (supports/attacks): 9/1
+
+v2_essay077:
+  MajorClaim: 1, Claim: 4, Premise: 5
+  Stance (For/Against): 3/1
+  Relations (supports/attacks): 8/1
+
+v2_essay078:
+  MajorClaim: 2, Claim: 6, Premise: 8
+  Stance (For/Against): 4/2
+  Relations (supports/attacks): 14/1
+
+v2_essay079:
+  MajorClaim: 1, Claim: 7, Premise: 8
+  Stance (For/Against): 4/3
+  Relations (supports/attacks): 15/0
+
+v2_essay080:
+  MajorClaim: 1, Claim: 3, Premise: 9
+  Stance (For/Against): 2/1
+  Relations (supports/attacks): 11/1
+
+v2_essay081:
+  MajorClaim: 1, Claim: 8, Premise: 11
+  Stance (For/Against): 7/1
+  Relations (supports/attacks): 17/2
+
+v2_essay082:
+  MajorClaim: 2, Claim: 8, Premise: 4
+  Stance (For/Against): 5/3
+  Relations (supports/attacks): 11/1
+
+v2_essay083:
+  MajorClaim: 2, Claim: 5, Premise: 6
+  Stance (For/Against): 0/5
+  Relations (supports/attacks): 12/0
+
+v2_essay084:
+  MajorClaim: 2, Claim: 9, Premise: 8
+  Stance (For/Against): 2/7
+  Relations (supports/attacks): 14/3
+
+v2_essay085:
+  MajorClaim: 2, Claim: 9, Premise: 5
+  Stance (For/Against): 7/2
+  Relations (supports/attacks): 13/5
+
+v2_essay086:
+  MajorClaim: 1, Claim: 5, Premise: 7
+  Stance (For/Against): 5/0
+  Relations (supports/attacks): 12/2
+
+v2_essay087:
+  MajorClaim: 1, Claim: 6, Premise: 7
+  Stance (For/Against): 5/1
+  Relations (supports/attacks): 12/1
+
+v2_essay088:
+  MajorClaim: 1, Claim: 4, Premise: 2
+  Stance (For/Against): 4/0
+  Relations (supports/attacks): 6/0
+
+v2_essay089:
+  MajorClaim: 2, Claim: 3, Premise: 6
+  Stance (For/Against): 3/0
+  Relations (supports/attacks): 12/0
+
+v2_essay090:
+  MajorClaim: 2, Claim: 5, Premise: 7
+  Stance (For/Against): 5/0
+  Relations (supports/attacks): 13/0
+
+v2_essay091:
+  MajorClaim: 1, Claim: 7, Premise: 6
+  Stance (For/Against): 4/3
+  Relations (supports/attacks): 11/2
+
+v2_essay092:
+  MajorClaim: 1, Claim: 5, Premise: 6
+  Stance (For/Against): 3/2
+  Relations (supports/attacks): 9/2
+
+v2_essay093:
+  MajorClaim: 1, Claim: 3, Premise: 7
+  Stance (For/Against): 3/0
+  Relations (supports/attacks): 10/0
+
+v2_essay094:
+  MajorClaim: 2, Claim: 3, Premise: 10
+  Stance (For/Against): 2/1
+  Relations (supports/attacks): 13/1
+
+v2_essay095:
+  MajorClaim: 2, Claim: 2, Premise: 11
+  Stance (For/Against): 2/0
+  Relations (supports/attacks): 13/0
+
+v2_essay096:
+  MajorClaim: 1, Claim: 4, Premise: 10
+  Stance (For/Against): 4/0
+  Relations (supports/attacks): 13/1
+
+v2_essay097:
+  MajorClaim: 1, Claim: 4, Premise: 10
+  Stance (For/Against): 4/0
+  Relations (supports/attacks): 12/2
+
+v2_essay098:
+  MajorClaim: 1, Claim: 6, Premise: 5
+  Stance (For/Against): 5/1
+  Relations (supports/attacks): 10/2
+
+v2_essay099:
+  MajorClaim: 1, Claim: 3, Premise: 11
+  Stance (For/Against): 2/1
+  Relations (supports/attacks): 12/2
+
+v2_essay100:
+  MajorClaim: 1, Claim: 8, Premise: 12
+  Stance (For/Against): 2/6
+  Relations (supports/attacks): 16/4
+
+v2_essay101:
+  MajorClaim: 2, Claim: 6, Premise: 10
+  Stance (For/Against): 6/0
+  Relations (supports/attacks): 17/0
+
+v2_essay102:
+  MajorClaim: 2, Claim: 4, Premise: 9
+  Stance (For/Against): 3/1
+  Relations (supports/attacks): 16/1
+
+v2_essay103:
+  MajorClaim: 1, Claim: 3, Premise: 3
+  Stance (For/Against): 1/2
+  Relations (supports/attacks): 4/2
+
+v2_essay104:
+  MajorClaim: 1, Claim: 9, Premise: 8
+  Stance (For/Against): 8/1
+  Relations (supports/attacks): 14/3
+
+v2_essay105:
+  MajorClaim: 1, Claim: 9, Premise: 7
+  Stance (For/Against): 6/3
+  Relations (supports/attacks): 19/2
+
+v2_essay106:
+  MajorClaim: 1, Claim: 5, Premise: 4
+  Stance (For/Against): 5/0
+  Relations (supports/attacks): 11/0
+
+v2_essay107:
+  MajorClaim: 1, Claim: 4, Premise: 10
+  Stance (For/Against): 4/0
+  Relations (supports/attacks): 14/0
+
+v2_essay108:
+  MajorClaim: 1, Claim: 2, Premise: 8
+  Stance (For/Against): 1/1
+  Relations (supports/attacks): 9/1
+
+v2_essay109:
+  MajorClaim: 2, Claim: 4, Premise: 7
+  Stance (For/Against): 3/1
+  Relations (supports/attacks): 10/2
+
+v2_essay110:
+  MajorClaim: 2, Claim: 4, Premise: 7
+  Stance (For/Against): 2/2
+  Relations (supports/attacks): 10/2
+
+v2_essay111:
+  MajorClaim: 3, Claim: 6, Premise: 5
+  Stance (For/Against): 6/0
+  Relations (supports/attacks): 14/0
+
+v2_essay112:
+  MajorClaim: 1, Claim: 3, Premise: 8
+  Stance (For/Against): 2/1
+  Relations (supports/attacks): 10/1
+
+v2_essay113:
+  MajorClaim: 2, Claim: 5, Premise: 10
+  Stance (For/Against): 5/0
+  Relations (supports/attacks): 16/0
+
+v2_essay114:
+  MajorClaim: 1, Claim: 6, Premise: 8
+  Stance (For/Against): 0/6
+  Relations (supports/attacks): 13/1
+
+v2_essay115:
+  MajorClaim: 1, Claim: 3, Premise: 8
+  Stance (For/Against): 1/2
+  Relations (supports/attacks): 10/1
+
+v2_essay116:
+  MajorClaim: 2, Claim: 3, Premise: 6
+  Stance (For/Against): 3/0
+  Relations (supports/attacks): 12/0
+
+v2_essay117:
+  MajorClaim: 1, Claim: 4, Premise: 9
+  Stance (For/Against): 2/2
+  Relations (supports/attacks): 12/2
+
+v2_essay118:
+  MajorClaim: 1, Claim: 6, Premise: 10
+  Stance (For/Against): 5/1
+  Relations (supports/attacks): 15/1
+
+v2_essay119:
+  MajorClaim: 1, Claim: 5, Premise: 6
+  Stance (For/Against): 3/2
+  Relations (supports/attacks): 11/0
+
+v2_essay120:
+  MajorClaim: 1, Claim: 5, Premise: 6
+  Stance (For/Against): 0/5
+  Relations (supports/attacks): 10/5
+
+v2_essay121:
+  MajorClaim: 1, Claim: 4, Premise: 4
+  Stance (For/Against): 0/4
+  Relations (supports/attacks): 7/1
+
+v2_essay122:
+  MajorClaim: 1, Claim: 9, Premise: 8
+  Stance (For/Against): 8/1
+  Relations (supports/attacks): 14/3
+
+v2_essay123:
+  MajorClaim: 1, Claim: 3, Premise: 5
+  Stance (For/Against): 3/0
+  Relations (supports/attacks): 8/0
+
+v2_essay124:
+  MajorClaim: 2, Claim: 3, Premise: 5
+  Stance (For/Against): 3/0
+  Relations (supports/attacks): 10/0
+
+v2_essay125:
+  MajorClaim: 1, Claim: 9, Premise: 11
+  Stance (For/Against): 9/0
+  Relations (supports/attacks): 19/0
+
+v2_essay126:
+  MajorClaim: 1, Claim: 6, Premise: 11
+  Stance (For/Against): 6/0
+  Relations (supports/attacks): 17/0
+
+v2_essay127:
+  MajorClaim: 2, Claim: 3, Premise: 12
+  Stance (For/Against): 3/0
+  Relations (supports/attacks): 16/0
+
+v2_essay128:
+  MajorClaim: 2, Claim: 4, Premise: 6
+  Stance (For/Against): 4/0
+  Relations (supports/attacks): 13/0
+
+v2_essay129:
+  MajorClaim: 4, Claim: 8, Premise: 3
+  Stance (For/Against): 7/1
+  Relations (supports/attacks): 11/3
+
+v2_essay130:
+  MajorClaim: 1, Claim: 7, Premise: 8
+  Stance (For/Against): 6/1
+  Relations (supports/attacks): 12/3
+
+v2_essay131:
+  MajorClaim: 1, Claim: 4, Premise: 6
+  Stance (For/Against): 4/0
+  Relations (supports/attacks): 10/0
+
+v2_essay132:
+  MajorClaim: 1, Claim: 2, Premise: 10
+  Stance (For/Against): 2/0
+  Relations (supports/attacks): 12/0
+
+v2_essay133:
+  MajorClaim: 1, Claim: 5, Premise: 5
+  Stance (For/Against): 5/0
+  Relations (supports/attacks): 10/0
+
+v2_essay134:
+  MajorClaim: 1, Claim: 4, Premise: 9
+  Stance (For/Against): 3/1
+  Relations (supports/attacks): 12/1
+
+v2_essay135:
+  MajorClaim: 1, Claim: 3, Premise: 7
+  Stance (For/Against): 2/1
+  Relations (supports/attacks): 9/1
+
+v2_essay136:
+  MajorClaim: 2, Claim: 5, Premise: 5
+  Stance (For/Against): 5/0
+  Relations (supports/attacks): 12/0
+
+v2_essay137:
+  MajorClaim: 1, Claim: 4, Premise: 8
+  Stance (For/Against): 4/0
+  Relations (supports/attacks): 12/0
+
+v2_essay138:
+  MajorClaim: 2, Claim: 5, Premise: 5
+  Stance (For/Against): 3/2
+  Relations (supports/attacks): 9/2
+
+v2_essay139:
+  MajorClaim: 2, Claim: 5, Premise: 5
+  Stance (For/Against): 3/2
+  Relations (supports/attacks): 11/0
+
+v2_essay140:
+  MajorClaim: 1, Claim: 6, Premise: 3
+  Stance (For/Against): 6/0
+  Relations (supports/attacks): 9/0
+
+v2_essay141:
+  MajorClaim: 2, Claim: 7, Premise: 13
+  Stance (For/Against): 6/1
+  Relations (supports/attacks): 18/2
+
+v2_essay142:
+  MajorClaim: 1, Claim: 7, Premise: 4
+  Stance (For/Against): 6/1
+  Relations (supports/attacks): 10/2
+
+v2_essay143:
+  MajorClaim: 1, Claim: 9, Premise: 7
+  Stance (For/Against): 8/1
+  Relations (supports/attacks): 14/2
+
+v2_essay144:
+  MajorClaim: 1, Claim: 5, Premise: 6
+  Stance (For/Against): 5/0
+  Relations (supports/attacks): 11/0
+
+v2_essay145:
+  MajorClaim: 2, Claim: 10, Premise: 9
+  Stance (For/Against): 9/1
+  Relations (supports/attacks): 18/3
+
+v2_essay146:
+  MajorClaim: 1, Claim: 10, Premise: 8
+  Stance (For/Against): 10/0
+  Relations (supports/attacks): 18/0
+
+v2_essay147:
+  MajorClaim: 2, Claim: 3, Premise: 9
+  Stance (For/Against): 2/1
+  Relations (supports/attacks): 11/2
+
+v2_essay148:
+  MajorClaim: 1, Claim: 6, Premise: 7
+  Stance (For/Against): 5/1
+  Relations (supports/attacks): 15/2
+
+v2_essay149:
+  MajorClaim: 1, Claim: 6, Premise: 11
+  Stance (For/Against): 6/0
+  Relations (supports/attacks): 19/0
+
+v2_essay150:
+  MajorClaim: 2, Claim: 5, Premise: 9
+  Stance (For/Against): 4/1
+  Relations (supports/attacks): 13/2
+
+v2_essay151:
+  MajorClaim: 1, Claim: 5, Premise: 9
+  Stance (For/Against): 4/1
+  Relations (supports/attacks): 13/1
+
+v2_essay152:
+  MajorClaim: 1, Claim: 4, Premise: 6
+  Stance (For/Against): 4/0
+  Relations (supports/attacks): 10/0
+
+v2_essay153:
+  MajorClaim: 1, Claim: 6, Premise: 2
+  Stance (For/Against): 6/0
+  Relations (supports/attacks): 8/0
+
+v2_essay154:
+  MajorClaim: 1, Claim: 8, Premise: 14
+  Stance (For/Against): 8/0
+  Relations (supports/attacks): 22/0
+
+v2_essay155:
+  MajorClaim: 1, Claim: 5, Premise: 14
+  Stance (For/Against): 5/0
+  Relations (supports/attacks): 19/0
+
+v2_essay156:
+  MajorClaim: 2, Claim: 4, Premise: 11
+  Stance (For/Against): 4/0
+  Relations (supports/attacks): 16/0
+
+v2_essay157:
+  MajorClaim: 2, Claim: 2, Premise: 6
+  Stance (For/Against): 2/0
+  Relations (supports/attacks): 11/0
+
+v2_essay158:
+  MajorClaim: 2, Claim: 5, Premise: 5
+  Stance (For/Against): 4/1
+  Relations (supports/attacks): 9/1
+
+v2_essay159:
+  MajorClaim: 1, Claim: 4, Premise: 8
+  Stance (For/Against): 4/0
+  Relations (supports/attacks): 14/0
+
+v2_essay160:
+  MajorClaim: 2, Claim: 6, Premise: 5
+  Stance (For/Against): 3/3
+  Relations (supports/attacks): 13/3
+
+v2_essay161:
+  MajorClaim: 1, Claim: 8, Premise: 17
+  Stance (For/Against): 7/1
+  Relations (supports/attacks): 24/2
+
+v2_essay162:
+  MajorClaim: 2, Claim: 5, Premise: 7
+  Stance (For/Against): 1/4
+  Relations (supports/attacks): 12/3
+
+v2_essay163:
+  MajorClaim: 2, Claim: 4, Premise: 10
+  Stance (For/Against): 4/0
+  Relations (supports/attacks): 15/0
+
+v2_essay164:
+  MajorClaim: 1, Claim: 5, Premise: 7
+  Stance (For/Against): 5/0
+  Relations (supports/attacks): 12/0
+
+v2_essay165:
+  MajorClaim: 2, Claim: 3, Premise: 7
+  Stance (For/Against): 3/0
+  Relations (supports/attacks): 10/0
+
+v2_essay166:
+  MajorClaim: 2, Claim: 6, Premise: 10
+  Stance (For/Against): 6/0
+  Relations (supports/attacks): 16/0
+
+v2_essay167:
+  MajorClaim: 2, Claim: 3, Premise: 9
+  Stance (For/Against): 3/0
+  Relations (supports/attacks): 13/0
+
+v2_essay168:
+  MajorClaim: 1, Claim: 4, Premise: 10
+  Stance (For/Against): 4/0
+  Relations (supports/attacks): 14/0
+
+v2_essay169:
+  MajorClaim: 1, Claim: 11, Premise: 14
+  Stance (For/Against): 9/2
+  Relations (supports/attacks): 23/2
+
+v2_essay170:
+  MajorClaim: 2, Claim: 4, Premise: 8
+  Stance (For/Against): 3/1
+  Relations (supports/attacks): 12/0
+
+v2_essay171:
+  MajorClaim: 3, Claim: 2, Premise: 5
+  Stance (For/Against): 2/0
+  Relations (supports/attacks): 9/0
+
+v2_essay172:
+  MajorClaim: 2, Claim: 4, Premise: 13
+  Stance (For/Against): 2/2
+  Relations (supports/attacks): 15/1
+
+v2_essay173:
+  MajorClaim: 1, Claim: 4, Premise: 15
+  Stance (For/Against): 3/1
+  Relations (supports/attacks): 17/2
+
+v2_essay174:
+  MajorClaim: 1, Claim: 4, Premise: 11
+  Stance (For/Against): 4/0
+  Relations (supports/attacks): 15/0
+
+v2_essay175:
+  MajorClaim: 2, Claim: 7, Premise: 4
+  Stance (For/Against): 7/0
+  Relations (supports/attacks): 11/1
+
+v2_essay176:
+  MajorClaim: 1, Claim: 5, Premise: 8
+  Stance (For/Against): 5/0
+  Relations (supports/attacks): 13/0
+
+v2_essay177:
+  MajorClaim: 2, Claim: 3, Premise: 9
+  Stance (For/Against): 3/0
+  Relations (supports/attacks): 16/0
+
+v2_essay178:
+  MajorClaim: 2, Claim: 4, Premise: 10
+  Stance (For/Against): 4/0
+  Relations (supports/attacks): 15/0
+
+v2_essay179:
+  MajorClaim: 2, Claim: 4, Premise: 5
+  Stance (For/Against): 4/0
+  Relations (supports/attacks): 14/0
+
+v2_essay180:
+  MajorClaim: 2, Claim: 5, Premise: 13
+  Stance (For/Against): 5/0
+  Relations (supports/attacks): 19/0
+
+v2_essay181:
+  MajorClaim: 3, Claim: 8, Premise: 10
+  Stance (For/Against): 5/3
+  Relations (supports/attacks): 18/2
+
+v2_essay182:
+  MajorClaim: 1, Claim: 5, Premise: 12
+  Stance (For/Against): 5/0
+  Relations (supports/attacks): 17/0
+
+v2_essay183:
+  MajorClaim: 2, Claim: 4, Premise: 7
+  Stance (For/Against): 4/0
+  Relations (supports/attacks): 12/0
+
+v2_essay184:
+  MajorClaim: 1, Claim: 3, Premise: 11
+  Stance (For/Against): 3/0
+  Relations (supports/attacks): 14/0
+
+v2_essay185:
+  MajorClaim: 2, Claim: 6, Premise: 9
+  Stance (For/Against): 0/6
+  Relations (supports/attacks): 16/0
+
+v2_essay186:
+  MajorClaim: 1, Claim: 6, Premise: 9
+  Stance (For/Against): 6/0
+  Relations (supports/attacks): 16/0
+
+v2_essay187:
+  MajorClaim: 2, Claim: 4, Premise: 8
+  Stance (For/Against): 3/1
+  Relations (supports/attacks): 12/1
+
+v2_essay188:
+  MajorClaim: 1, Claim: 6, Premise: 9
+  Stance (For/Against): 6/0
+  Relations (supports/attacks): 15/0
+
+v2_essay189:
+  MajorClaim: 1, Claim: 6, Premise: 15
+  Stance (For/Against): 0/6
+  Relations (supports/attacks): 20/1
+
+v2_essay190:
+  MajorClaim: 1, Claim: 5, Premise: 5
+  Stance (For/Against): 4/1
+  Relations (supports/attacks): 9/1
+
+v2_essay191:
+  MajorClaim: 0, Claim: 0, Premise: 0
+  Stance (For/Against): 6/0
+  Relations (supports/attacks): 14/0
+
+v2_essay192:
+  MajorClaim: 1, Claim: 4, Premise: 2
+  Stance (For/Against): 4/0
+  Relations (supports/attacks): 6/0
+
+v2_essay193:
+  MajorClaim: 1, Claim: 8, Premise: 10
+  Stance (For/Against): 8/0
+  Relations (supports/attacks): 19/0
+
+v2_essay194:
+  MajorClaim: 1, Claim: 3, Premise: 10
+  Stance (For/Against): 3/0
+  Relations (supports/attacks): 11/0
+
+v2_essay195:
+  MajorClaim: 1, Claim: 7, Premise: 8
+  Stance (For/Against): 6/1
+  Relations (supports/attacks): 13/2
+
+v2_essay196:
+  MajorClaim: 1, Claim: 6, Premise: 12
+  Stance (For/Against): 6/0
+  Relations (supports/attacks): 18/0
+
+v2_essay197:
+  MajorClaim: 2, Claim: 4, Premise: 7
+  Stance (For/Against): 3/1
+  Relations (supports/attacks): 11/1
+
+v2_essay198:
+  MajorClaim: 2, Claim: 3, Premise: 8
+  Stance (For/Against): 3/0
+  Relations (supports/attacks): 12/0
+
+v2_essay199:
+  MajorClaim: 1, Claim: 3, Premise: 7
+  Stance (For/Against): 3/0
+  Relations (supports/attacks): 10/0
+
+v2_essay200:
+  MajorClaim: 2, Claim: 3, Premise: 10
+  Stance (For/Against): 3/0
+  Relations (supports/attacks): 14/0
+
+v2_essay201:
+  MajorClaim: 1, Claim: 4, Premise: 8
+  Stance (For/Against): 4/0
+  Relations (supports/attacks): 12/0
+
+v2_essay202:
+  MajorClaim: 1, Claim: 5, Premise: 9
+  Stance (For/Against): 5/0
+  Relations (supports/attacks): 14/0
+
+v2_essay203:
+  MajorClaim: 1, Claim: 5, Premise: 14
+  Stance (For/Against): 5/0
+  Relations (supports/attacks): 19/0
+
+v2_essay204:
+  MajorClaim: 1, Claim: 4, Premise: 11
+  Stance (For/Against): 4/0
+  Relations (supports/attacks): 15/0
+
+v2_essay205:
+  MajorClaim: 2, Claim: 4, Premise: 15
+  Stance (For/Against): 4/0
+  Relations (supports/attacks): 20/0
+
+v2_essay206:
+  MajorClaim: 1, Claim: 5, Premise: 8
+  Stance (For/Against): 5/0
+  Relations (supports/attacks): 13/0
+
+v2_essay207:
+  MajorClaim: 1, Claim: 4, Premise: 7
+  Stance (For/Against): 2/2
+  Relations (supports/attacks): 10/1
+
+v2_essay208:
+  MajorClaim: 2, Claim: 4, Premise: 5
+  Stance (For/Against): 4/0
+  Relations (supports/attacks): 10/0
+
+v2_essay209:
+  MajorClaim: 1, Claim: 3, Premise: 3
+  Stance (For/Against): 2/1
+  Relations (supports/attacks): 5/0
+
+v2_essay210:
+  MajorClaim: 2, Claim: 3, Premise: 5
+  Stance (For/Against): 3/0
+  Relations (supports/attacks): 9/0
+
+v2_essay211:
+  MajorClaim: 1, Claim: 7, Premise: 7
+  Stance (For/Against): 1/6
+  Relations (supports/attacks): 14/1
+
+v2_essay212:
+  MajorClaim: 2, Claim: 2, Premise: 12
+  Stance (For/Against): 2/0
+  Relations (supports/attacks): 15/0
+
+v2_essay213:
+  MajorClaim: 2, Claim: 5, Premise: 7
+  Stance (For/Against): 3/2
+  Relations (supports/attacks): 14/2
+
+v2_essay214:
+  MajorClaim: 1, Claim: 6, Premise: 9
+  Stance (For/Against): 6/0
+  Relations (supports/attacks): 14/0
+
+v2_essay215:
+  MajorClaim: 1, Claim: 5, Premise: 8
+  Stance (For/Against): 5/0
+  Relations (supports/attacks): 13/0
+
+v2_essay216:
+  MajorClaim: 1, Claim: 5, Premise: 12
+  Stance (For/Against): 5/0
+  Relations (supports/attacks): 20/0
+
+v2_essay217:
+  MajorClaim: 1, Claim: 6, Premise: 10
+  Stance (For/Against): 6/0
+  Relations (supports/attacks): 16/0
+
+v2_essay218:
+  MajorClaim: 2, Claim: 3, Premise: 10
+  Stance (For/Against): 3/0
+  Relations (supports/attacks): 16/0
+
+v2_essay219:
+  MajorClaim: 2, Claim: 5, Premise: 7
+  Stance (For/Against): 5/0
+  Relations (supports/attacks): 12/0
+
+v2_essay220:
+  MajorClaim: 2, Claim: 8, Premise: 12
+  Stance (For/Against): 8/0
+  Relations (supports/attacks): 26/0
+
+v2_essay221:
+  MajorClaim: 3, Claim: 6, Premise: 12
+  Stance (For/Against): 6/0
+  Relations (supports/attacks): 20/0
+
+v2_essay222:
+  MajorClaim: 1, Claim: 4, Premise: 10
+  Stance (For/Against): 4/0
+  Relations (supports/attacks): 14/0
+
+v2_essay223:
+  MajorClaim: 1, Claim: 5, Premise: 15
+  Stance (For/Against): 5/0
+  Relations (supports/attacks): 20/0
+
+v2_essay224:
+  MajorClaim: 2, Claim: 5, Premise: 12
+  Stance (For/Against): 5/0
+  Relations (supports/attacks): 21/0
+
+v2_essay225:
+  MajorClaim: 1, Claim: 5, Premise: 9
+  Stance (For/Against): 5/0
+  Relations (supports/attacks): 14/0
+
+v2_essay226:
+  MajorClaim: 2, Claim: 8, Premise: 24
+  Stance (For/Against): 8/0
+  Relations (supports/attacks): 16/0
+
+v2_essay227:
+  MajorClaim: 1, Claim: 5, Premise: 6
+  Stance (For/Against): 2/3
+  Relations (supports/attacks): 10/2
+
+v2_essay228:
+  MajorClaim: 1, Claim: 8, Premise: 2
+  Stance (For/Against): 0/8
+  Relations (supports/attacks): 9/1
+
+v2_essay229:
+  MajorClaim: 1, Claim: 8, Premise: 5
+  Stance (For/Against): 7/1
+  Relations (supports/attacks): 12/1
+
+v2_essay230:
+  MajorClaim: 1, Claim: 5, Premise: 5
+  Stance (For/Against): 5/0
+  Relations (supports/attacks): 10/0
+
+v2_essay231:
+  MajorClaim: 1, Claim: 6, Premise: 6
+  Stance (For/Against): 6/0
+  Relations (supports/attacks): 12/0
+
+v2_essay232:
+  MajorClaim: 1, Claim: 5, Premise: 6
+  Stance (For/Against): 5/0
+  Relations (supports/attacks): 11/0
+
+v2_essay233:
+  MajorClaim: 1, Claim: 6, Premise: 9
+  Stance (For/Against): 6/0
+  Relations (supports/attacks): 14/1
+
+v2_essay234:
+  MajorClaim: 1, Claim: 6, Premise: 8
+  Stance (For/Against): 6/0
+  Relations (supports/attacks): 16/0
+
+v2_essay235:
+  MajorClaim: 1, Claim: 4, Premise: 6
+  Stance (For/Against): 4/0
+  Relations (supports/attacks): 10/0
+
+v2_essay236:
+  MajorClaim: 3, Claim: 4, Premise: 12
+  Stance (For/Against): 4/0
+  Relations (supports/attacks): 18/0
+
+v2_essay237:
+  MajorClaim: 1, Claim: 5, Premise: 2
+  Stance (For/Against): 5/0
+  Relations (supports/attacks): 7/0
+
+v2_essay238:
+  MajorClaim: 1, Claim: 4, Premise: 4
+  Stance (For/Against): 3/1
+  Relations (supports/attacks): 7/2
+
+v2_essay239:
+  MajorClaim: 1, Claim: 6, Premise: 10
+  Stance (For/Against): 5/1
+  Relations (supports/attacks): 15/1
+
+v2_essay240:
+  MajorClaim: 1, Claim: 6, Premise: 5
+  Stance (For/Against): 5/1
+  Relations (supports/attacks): 10/1
+
+v2_essay241:
+  MajorClaim: 3, Claim: 7, Premise: 6
+  Stance (For/Against): 6/1
+  Relations (supports/attacks): 13/1
+
+v2_essay242:
+  MajorClaim: 2, Claim: 3, Premise: 13
+  Stance (For/Against): 2/1
+  Relations (supports/attacks): 16/1
+
+v2_essay243:
+  MajorClaim: 1, Claim: 4, Premise: 18
+  Stance (For/Against): 4/0
+  Relations (supports/attacks): 22/0
+
+v2_essay244:
+  MajorClaim: 1, Claim: 3, Premise: 11
+  Stance (For/Against): 3/0
+  Relations (supports/attacks): 14/0
+
+v2_essay245:
+  MajorClaim: 1, Claim: 5, Premise: 8
+  Stance (For/Against): 5/0
+  Relations (supports/attacks): 13/0
+
+v2_essay246:
+  MajorClaim: 1, Claim: 6, Premise: 4
+  Stance (For/Against): 6/0
+  Relations (supports/attacks): 12/0
+
+v2_essay247:
+  MajorClaim: 1, Claim: 5, Premise: 13
+  Stance (For/Against): 5/0
+  Relations (supports/attacks): 18/0
+
+v2_essay248:
+  MajorClaim: 1, Claim: 8, Premise: 11
+  Stance (For/Against): 6/2
+  Relations (supports/attacks): 18/1
+
+v2_essay249:
+  MajorClaim: 1, Claim: 7, Premise: 11
+  Stance (For/Against): 5/2
+  Relations (supports/attacks): 18/2
+
+v2_essay250:
+  MajorClaim: 1, Claim: 5, Premise: 10
+  Stance (For/Against): 4/1
+  Relations (supports/attacks): 13/2
+
+v2_essay251:
+  MajorClaim: 1, Claim: 8, Premise: 14
+  Stance (For/Against): 8/0
+  Relations (supports/attacks): 22/0
+
+v2_essay252:
+  MajorClaim: 1, Claim: 5, Premise: 11
+  Stance (For/Against): 4/1
+  Relations (supports/attacks): 15/1
+
+v2_essay253:
+  MajorClaim: 1, Claim: 3, Premise: 7
+  Stance (For/Against): 3/0
+  Relations (supports/attacks): 10/0
+
+v2_essay254:
+  MajorClaim: 2, Claim: 5, Premise: 9
+  Stance (For/Against): 4/1
+  Relations (supports/attacks): 12/3
+
+v2_essay255:
+  MajorClaim: 2, Claim: 9, Premise: 6
+  Stance (For/Against): 7/2
+  Relations (supports/attacks): 14/2
+
+v2_essay256:
+  MajorClaim: 1, Claim: 12, Premise: 7
+  Stance (For/Against): 9/3
+  Relations (supports/attacks): 15/6
+
+v2_essay257:
+  MajorClaim: 1, Claim: 4, Premise: 18
+  Stance (For/Against): 4/0
+  Relations (supports/attacks): 22/0
+
+v2_essay258:
+  MajorClaim: 3, Claim: 5, Premise: 12
+  Stance (For/Against): 5/0
+  Relations (supports/attacks): 19/0
+
+v2_essay259:
+  MajorClaim: 2, Claim: 3, Premise: 8
+  Stance (For/Against): 3/0
+  Relations (supports/attacks): 11/0
+
+v2_essay260:
+  MajorClaim: 2, Claim: 3, Premise: 6
+  Stance (For/Against): 3/0
+  Relations (supports/attacks): 11/0
+
+v2_essay261:
+  MajorClaim: 1, Claim: 7, Premise: 9
+  Stance (For/Against): 7/0
+  Relations (supports/attacks): 16/0
+
+v2_essay262:
+  MajorClaim: 1, Claim: 4, Premise: 10
+  Stance (For/Against): 4/0
+  Relations (supports/attacks): 14/0
+
+v2_essay263:
+  MajorClaim: 2, Claim: 4, Premise: 4
+  Stance (For/Against): 3/1
+  Relations (supports/attacks): 7/2
+
+v2_essay264:
+  MajorClaim: 2, Claim: 2, Premise: 10
+  Stance (For/Against): 2/0
+  Relations (supports/attacks): 13/0
+
+v2_essay265:
+  MajorClaim: 1, Claim: 5, Premise: 5
+  Stance (For/Against): 5/0
+  Relations (supports/attacks): 10/0
+
+v2_essay266:
+  MajorClaim: 2, Claim: 5, Premise: 11
+  Stance (For/Against): 5/0
+  Relations (supports/attacks): 16/0
+
+v2_essay267:
+  MajorClaim: 1, Claim: 4, Premise: 9
+  Stance (For/Against): 4/0
+  Relations (supports/attacks): 13/0
+
+v2_essay268:
+  MajorClaim: 2, Claim: 4, Premise: 7
+  Stance (For/Against): 4/0
+  Relations (supports/attacks): 15/0
+
+v2_essay269:
+  MajorClaim: 2, Claim: 4, Premise: 7
+  Stance (For/Against): 3/1
+  Relations (supports/attacks): 11/1
+
+v2_essay270:
+  MajorClaim: 2, Claim: 6, Premise: 11
+  Stance (For/Against): 4/2
+  Relations (supports/attacks): 17/2
+
+v2_essay271:
+  MajorClaim: 1, Claim: 6, Premise: 6
+  Stance (For/Against): 6/0
+  Relations (supports/attacks): 12/0
+
+v2_essay272:
+  MajorClaim: 2, Claim: 4, Premise: 7
+  Stance (For/Against): 4/0
+  Relations (supports/attacks): 16/0
+
+v2_essay273:
+  MajorClaim: 2, Claim: 5, Premise: 7
+  Stance (For/Against): 4/1
+  Relations (supports/attacks): 14/1
+
+v2_essay274:
+  MajorClaim: 1, Claim: 3, Premise: 11
+  Stance (For/Against): 3/0
+  Relations (supports/attacks): 16/0
+
+v2_essay275:
+  MajorClaim: 1, Claim: 4, Premise: 7
+  Stance (For/Against): 4/0
+  Relations (supports/attacks): 12/0
+
+v2_essay276:
+  MajorClaim: 2, Claim: 3, Premise: 9
+  Stance (For/Against): 3/0
+  Relations (supports/attacks): 13/0
+
+v2_essay277:
+  MajorClaim: 2, Claim: 4, Premise: 8
+  Stance (For/Against): 4/0
+  Relations (supports/attacks): 13/0
+
+v2_essay278:
+  MajorClaim: 2, Claim: 3, Premise: 11
+  Stance (For/Against): 3/0
+  Relations (supports/attacks): 18/0
+
+v2_essay279:
+  MajorClaim: 1, Claim: 5, Premise: 9
+  Stance (For/Against): 5/0
+  Relations (supports/attacks): 14/0
+
+v2_essay280:
+  MajorClaim: 2, Claim: 7, Premise: 9
+  Stance (For/Against): 7/0
+  Relations (supports/attacks): 17/0
+
+v2_essay281:
+  MajorClaim: 2, Claim: 6, Premise: 18
+  Stance (For/Against): 6/0
+  Relations (supports/attacks): 29/0
+
+v2_essay282:
+  MajorClaim: 2, Claim: 3, Premise: 15
+  Stance (For/Against): 3/0
+  Relations (supports/attacks): 19/0
+
+v2_essay283:
+  MajorClaim: 2, Claim: 5, Premise: 17
+  Stance (For/Against): 0/5
+  Relations (supports/attacks): 24/0
+
+v2_essay284:
+  MajorClaim: 1, Claim: 7, Premise: 13
+  Stance (For/Against): 6/1
+  Relations (supports/attacks): 20/1
+
+v2_essay285:
+  MajorClaim: 2, Claim: 4, Premise: 14
+  Stance (For/Against): 0/4
+  Relations (supports/attacks): 19/0
+
+v2_essay286:
+  MajorClaim: 2, Claim: 10, Premise: 13
+  Stance (For/Against): 10/0
+  Relations (supports/attacks): 23/0
+
+v2_essay287:
+  MajorClaim: 2, Claim: 4, Premise: 7
+  Stance (For/Against): 4/0
+  Relations (supports/attacks): 13/0
+
+v2_essay288:
+  MajorClaim: 1, Claim: 4, Premise: 17
+  Stance (For/Against): 4/0
+  Relations (supports/attacks): 21/0
+
+v2_essay289:
+  MajorClaim: 3, Claim: 3, Premise: 11
+  Stance (For/Against): 3/0
+  Relations (supports/attacks): 16/0
+
+v2_essay290:
+  MajorClaim: 1, Claim: 5, Premise: 8
+  Stance (For/Against): 5/0
+  Relations (supports/attacks): 13/0
+
+v2_essay291:
+  MajorClaim: 1, Claim: 4, Premise: 8
+  Stance (For/Against): 2/2
+  Relations (supports/attacks): 11/0
+
+v2_essay292:
+  MajorClaim: 1, Claim: 4, Premise: 5
+  Stance (For/Against): 3/1
+  Relations (supports/attacks): 8/1
+
+v2_essay293:
+  MajorClaim: 2, Claim: 4, Premise: 8
+  Stance (For/Against): 3/1
+  Relations (supports/attacks): 13/2
+
+v2_essay294:
+  MajorClaim: 1, Claim: 4, Premise: 14
+  Stance (For/Against): 4/0
+  Relations (supports/attacks): 18/0
+
+v2_essay295:
+  MajorClaim: 1, Claim: 10, Premise: 9
+  Stance (For/Against): 7/3
+  Relations (supports/attacks): 16/3
+
+v2_essay296:
+  MajorClaim: 1, Claim: 5, Premise: 9
+  Stance (For/Against): 4/1
+  Relations (supports/attacks): 15/1
+
+v2_essay297:
+  MajorClaim: 2, Claim: 4, Premise: 9
+  Stance (For/Against): 4/0
+  Relations (supports/attacks): 17/0
+
+v2_essay298:
+  MajorClaim: 1, Claim: 6, Premise: 14
+  Stance (For/Against): 4/2
+  Relations (supports/attacks): 18/3
+
+v2_essay299:
+  MajorClaim: 1, Claim: 4, Premise: 7
+  Stance (For/Against): 4/0
+  Relations (supports/attacks): 11/0
+
+v2_essay300:
+  MajorClaim: 1, Claim: 3, Premise: 9
+  Stance (For/Against): 3/0
+  Relations (supports/attacks): 12/0
+
+v2_essay301:
+  MajorClaim: 1, Claim: 5, Premise: 8
+  Stance (For/Against): 5/0
+  Relations (supports/attacks): 13/0
+
+v2_essay302:
+  MajorClaim: 2, Claim: 3, Premise: 9
+  Stance (For/Against): 3/0
+  Relations (supports/attacks): 13/0
+
+v2_essay303:
+  MajorClaim: 2, Claim: 3, Premise: 11
+  Stance (For/Against): 3/0
+  Relations (supports/attacks): 17/0
+
+v2_essay304:
+  MajorClaim: 2, Claim: 2, Premise: 9
+  Stance (For/Against): 2/0
+  Relations (supports/attacks): 12/0
+
+v2_essay305:
+  MajorClaim: 1, Claim: 7, Premise: 14
+  Stance (For/Against): 6/1
+  Relations (supports/attacks): 20/1
+
+v2_essay306:
+  MajorClaim: 2, Claim: 4, Premise: 7
+  Stance (For/Against): 3/1
+  Relations (supports/attacks): 14/1
+
+v2_essay307:
+  MajorClaim: 2, Claim: 3, Premise: 5
+  Stance (For/Against): 3/0
+  Relations (supports/attacks): 9/0
+
+v2_essay308:
+  MajorClaim: 2, Claim: 6, Premise: 7
+  Stance (For/Against): 6/0
+  Relations (supports/attacks): 14/0
+
+v2_essay309:
+  MajorClaim: 1, Claim: 6, Premise: 8
+  Stance (For/Against): 3/3
+  Relations (supports/attacks): 12/3
+
+v2_essay310:
+  MajorClaim: 1, Claim: 5, Premise: 11
+  Stance (For/Against): 5/0
+  Relations (supports/attacks): 16/0
+
+v2_essay311:
+  MajorClaim: 1, Claim: 6, Premise: 10
+  Stance (For/Against): 5/1
+  Relations (supports/attacks): 16/1
+
+v2_essay312:
+  MajorClaim: 1, Claim: 4, Premise: 20
+  Stance (For/Against): 0/4
+  Relations (supports/attacks): 24/0
+
+v2_essay313:
+  MajorClaim: 2, Claim: 2, Premise: 12
+  Stance (For/Against): 2/0
+  Relations (supports/attacks): 17/0
+
+v2_essay314:
+  MajorClaim: 1, Claim: 4, Premise: 11
+  Stance (For/Against): 4/0
+  Relations (supports/attacks): 15/0
+
+v2_essay315:
+  MajorClaim: 1, Claim: 6, Premise: 5
+  Stance (For/Against): 6/0
+  Relations (supports/attacks): 11/0
+
+v2_essay316:
+  MajorClaim: 2, Claim: 3, Premise: 8
+  Stance (For/Against): 3/0
+  Relations (supports/attacks): 12/0
+
+v2_essay317:
+  MajorClaim: 2, Claim: 5, Premise: 9
+  Stance (For/Against): 5/0
+  Relations (supports/attacks): 15/0
+
+v2_essay318:
+  MajorClaim: 2, Claim: 6, Premise: 6
+  Stance (For/Against): 6/0
+  Relations (supports/attacks): 13/0
+
+v2_essay319:
+  MajorClaim: 2, Claim: 8, Premise: 10
+  Stance (For/Against): 7/1
+  Relations (supports/attacks): 21/2
+
+v2_essay320:
+  MajorClaim: 2, Claim: 4, Premise: 5
+  Stance (For/Against): 4/0
+  Relations (supports/attacks): 9/0
+
+v2_essay321:
+  MajorClaim: 1, Claim: 5, Premise: 5
+  Stance (For/Against): 5/0
+  Relations (supports/attacks): 10/0
+
+v2_essay322:
+  MajorClaim: 1, Claim: 8, Premise: 8
+  Stance (For/Against): 8/0
+  Relations (supports/attacks): 16/0
+
+v2_essay323:
+  MajorClaim: 2, Claim: 3, Premise: 7
+  Stance (For/Against): 3/0
+  Relations (supports/attacks): 11/0
+
+v2_essay324:
+  MajorClaim: 1, Claim: 5, Premise: 14
+  Stance (For/Against): 4/1
+  Relations (supports/attacks): 18/1
+
+v2_essay325:
+  MajorClaim: 1, Claim: 4, Premise: 11
+  Stance (For/Against): 4/0
+  Relations (supports/attacks): 15/0
+
+v2_essay326:
+  MajorClaim: 1, Claim: 7, Premise: 11
+  Stance (For/Against): 5/2
+  Relations (supports/attacks): 13/3
+
+v2_essay327:
+  MajorClaim: 1, Claim: 5, Premise: 8
+  Stance (For/Against): 5/0
+  Relations (supports/attacks): 13/0
+
+v2_essay328:
+  MajorClaim: 2, Claim: 3, Premise: 11
+  Stance (For/Against): 2/1
+  Relations (supports/attacks): 14/1
+
+v2_essay329:
+  MajorClaim: 1, Claim: 7, Premise: 7
+  Stance (For/Against): 6/1
+  Relations (supports/attacks): 12/1
+
+v2_essay330:
+  MajorClaim: 1, Claim: 4, Premise: 6
+  Stance (For/Against): 4/0
+  Relations (supports/attacks): 10/0
+
+v2_essay331:
+  MajorClaim: 1, Claim: 5, Premise: 11
+  Stance (For/Against): 5/0
+  Relations (supports/attacks): 16/0
+
+v2_essay332:
+  MajorClaim: 1, Claim: 8, Premise: 5
+  Stance (For/Against): 7/1
+  Relations (supports/attacks): 13/2
+
+v2_essay333:
+  MajorClaim: 2, Claim: 3, Premise: 7
+  Stance (For/Against): 2/1
+  Relations (supports/attacks): 10/1
+
+v2_essay334:
+  MajorClaim: 2, Claim: 4, Premise: 9
+  Stance (For/Against): 2/2
+  Relations (supports/attacks): 14/0
+
+v2_essay335:
+  MajorClaim: 1, Claim: 4, Premise: 5
+  Stance (For/Against): 2/2
+  Relations (supports/attacks): 8/2
+
+v2_essay336:
+  MajorClaim: 1, Claim: 3, Premise: 4
+  Stance (For/Against): 3/0
+  Relations (supports/attacks): 7/0
+
+v2_essay337:
+  MajorClaim: 2, Claim: 5, Premise: 5
+  Stance (For/Against): 3/2
+  Relations (supports/attacks): 13/4
+
+v2_essay338:
+  MajorClaim: 2, Claim: 5, Premise: 3
+  Stance (For/Against): 2/3
+  Relations (supports/attacks): 5/2
+
+v2_essay339:
+  MajorClaim: 1, Claim: 17, Premise: 2
+  Stance (For/Against): 14/3
+  Relations (supports/attacks): 9/1
+
+v2_essay340:
+  MajorClaim: 2, Claim: 3, Premise: 6
+  Stance (For/Against): 3/0
+  Relations (supports/attacks): 11/0
+
+v2_essay341:
+  MajorClaim: 2, Claim: 4, Premise: 6
+  Stance (For/Against): 3/1
+  Relations (supports/attacks): 11/2
+
+v2_essay342:
+  MajorClaim: 1, Claim: 21, Premise: 6
+  Stance (For/Against): 21/1
+  Relations (supports/attacks): 9/0
+
+v2_essay343:
+  MajorClaim: 1, Claim: 5, Premise: 5
+  Stance (For/Against): 4/1
+  Relations (supports/attacks): 9/1
+
+v2_essay344:
+  MajorClaim: 1, Claim: 5, Premise: 6
+  Stance (For/Against): 5/0
+  Relations (supports/attacks): 11/0
+
+v2_essay345:
+  MajorClaim: 1, Claim: 4, Premise: 6
+  Stance (For/Against): 4/0
+  Relations (supports/attacks): 10/0
+
+v2_essay346:
+  MajorClaim: 2, Claim: 5, Premise: 4
+  Stance (For/Against): 0/5
+  Relations (supports/attacks): 7/5
+
+v2_essay347:
+  MajorClaim: 1, Claim: 7, Premise: 5
+  Stance (For/Against): 4/3
+  Relations (supports/attacks): 9/3
+
+v2_essay348:
+  MajorClaim: 1, Claim: 6, Premise: 9
+  Stance (For/Against): 2/4
+  Relations (supports/attacks): 13/4
+
+v2_essay349:
+  MajorClaim: 2, Claim: 5, Premise: 5
+  Stance (For/Against): 4/1
+  Relations (supports/attacks): 10/1
+
+v2_essay350:
+  MajorClaim: 1, Claim: 5, Premise: 10
+  Stance (For/Against): 4/1
+  Relations (supports/attacks): 14/1
+
+v2_essay351:
+  MajorClaim: 1, Claim: 3, Premise: 3
+  Stance (For/Against): 3/0
+  Relations (supports/attacks): 6/0
+
+v2_essay352:
+  MajorClaim: 1, Claim: 9, Premise: 4
+  Stance (For/Against): 0/9
+  Relations (supports/attacks): 12/1
+
+v2_essay353:
+  MajorClaim: 1, Claim: 6, Premise: 4
+  Stance (For/Against): 0/6
+  Relations (supports/attacks): 4/6
+
+v2_essay354:
+  MajorClaim: 1, Claim: 3, Premise: 7
+  Stance (For/Against): 2/1
+  Relations (supports/attacks): 9/1
+
+v2_essay355:
+  MajorClaim: 3, Claim: 6, Premise: 4
+  Stance (For/Against): 3/3
+  Relations (supports/attacks): 9/3
+
+v2_essay356:
+  MajorClaim: 1, Claim: 7, Premise: 7
+  Stance (For/Against): 5/2
+  Relations (supports/attacks): 13/2
+
+v2_essay357:
+  MajorClaim: 1, Claim: 9, Premise: 6
+  Stance (For/Against): 9/0
+  Relations (supports/attacks): 15/0
+
+v2_essay358:
+  MajorClaim: 1, Claim: 2, Premise: 11
+  Stance (For/Against): 1/1
+  Relations (supports/attacks): 12/1
+
+v2_essay359:
+  MajorClaim: 1, Claim: 5, Premise: 8
+  Stance (For/Against): 5/0
+  Relations (supports/attacks): 13/0
+
+v2_essay360:
+  MajorClaim: 2, Claim: 5, Premise: 10
+  Stance (For/Against): 4/1
+  Relations (supports/attacks): 16/1
+
+v2_essay361:
+  MajorClaim: 2, Claim: 6, Premise: 5
+  Stance (For/Against): 3/3
+  Relations (supports/attacks): 10/2
+
+v2_essay362:
+  MajorClaim: 1, Claim: 5, Premise: 9
+  Stance (For/Against): 4/1
+  Relations (supports/attacks): 13/1
+
+v2_essay363:
+  MajorClaim: 1, Claim: 4, Premise: 7
+  Stance (For/Against): 3/1
+  Relations (supports/attacks): 10/1
+
+v2_essay364:
+  MajorClaim: 2, Claim: 3, Premise: 11
+  Stance (For/Against): 3/0
+  Relations (supports/attacks): 15/0
+
+v2_essay365:
+  MajorClaim: 1, Claim: 3, Premise: 8
+  Stance (For/Against): 3/0
+  Relations (supports/attacks): 11/0
+
+v2_essay366:
+  MajorClaim: 1, Claim: 4, Premise: 7
+  Stance (For/Against): 4/0
+  Relations (supports/attacks): 11/0
+
+v2_essay367:
+  MajorClaim: 1, Claim: 3, Premise: 6
+  Stance (For/Against): 3/0
+  Relations (supports/attacks): 9/0
+
+v2_essay368:
+  MajorClaim: 1, Claim: 4, Premise: 5
+  Stance (For/Against): 4/0
+  Relations (supports/attacks): 9/0
+
+v2_essay369:
+  MajorClaim: 1, Claim: 5, Premise: 7
+  Stance (For/Against): 5/0
+  Relations (supports/attacks): 15/0
+
+v2_essay370:
+  MajorClaim: 1, Claim: 4, Premise: 6
+  Stance (For/Against): 0/4
+  Relations (supports/attacks): 10/0
+
+v2_essay371:
+  MajorClaim: 1, Claim: 3, Premise: 8
+  Stance (For/Against): 3/0
+  Relations (supports/attacks): 7/4
+
+v2_essay372:
+  MajorClaim: 1, Claim: 4, Premise: 5
+  Stance (For/Against): 3/1
+  Relations (supports/attacks): 8/1
+
+v2_essay373:
+  MajorClaim: 2, Claim: 6, Premise: 14
+  Stance (For/Against): 6/0
+  Relations (supports/attacks): 21/0
+
+v2_essay374:
+  MajorClaim: 1, Claim: 5, Premise: 6
+  Stance (For/Against): 5/0
+  Relations (supports/attacks): 11/0
+
+v2_essay375:
+  MajorClaim: 1, Claim: 4, Premise: 6
+  Stance (For/Against): 3/1
+  Relations (supports/attacks): 9/1
+
+v2_essay376:
+  MajorClaim: 2, Claim: 2, Premise: 5
+  Stance (For/Against): 2/0
+  Relations (supports/attacks): 8/0
+
+v2_essay377:
+  MajorClaim: 1, Claim: 3, Premise: 4
+  Stance (For/Against): 2/1
+  Relations (supports/attacks): 6/1
+
+v2_essay378:
+  MajorClaim: 2, Claim: 5, Premise: 6
+  Stance (For/Against): 5/0
+  Relations (supports/attacks): 12/0
+
+v2_essay379:
+  MajorClaim: 1, Claim: 6, Premise: 5
+  Stance (For/Against): 2/4
+  Relations (supports/attacks): 7/4
+
+v2_essay380:
+  MajorClaim: 2, Claim: 3, Premise: 6
+  Stance (For/Against): 2/1
+  Relations (supports/attacks): 9/1
+
+v2_essay381:
+  MajorClaim: 1, Claim: 3, Premise: 7
+  Stance (For/Against): 3/0
+  Relations (supports/attacks): 12/0
+
+v2_essay382:
+  MajorClaim: 2, Claim: 3, Premise: 5
+  Stance (For/Against): 3/0
+  Relations (supports/attacks): 10/0
+
+v2_essay383:
+  MajorClaim: 2, Claim: 6, Premise: 3
+  Stance (For/Against): 2/4
+  Relations (supports/attacks): 5/4
+
+v2_essay384:
+  MajorClaim: 2, Claim: 4, Premise: 5
+  Stance (For/Against): 4/0
+  Relations (supports/attacks): 14/0
+
+v2_essay385:
+  MajorClaim: 1, Claim: 6, Premise: 6
+  Stance (For/Against): 4/2
+  Relations (supports/attacks): 12/0
+
+v2_essay386:
+  MajorClaim: 1, Claim: 3, Premise: 4
+  Stance (For/Against): 3/0
+  Relations (supports/attacks): 7/0
+
+v2_essay387:
+  MajorClaim: 2, Claim: 4, Premise: 6
+  Stance (For/Against): 4/0
+  Relations (supports/attacks): 11/0
+
+v2_essay388:
+  MajorClaim: 1, Claim: 8, Premise: 2
+  Stance (For/Against): 7/1
+  Relations (supports/attacks): 8/2
+
+v2_essay389:
+  MajorClaim: 1, Claim: 4, Premise: 11
+  Stance (For/Against): 4/0
+  Relations (supports/attacks): 15/0
+
+v2_essay390:
+  MajorClaim: 1, Claim: 6, Premise: 6
+  Stance (For/Against): 4/2
+  Relations (supports/attacks): 10/1
+
+v2_essay391:
+  MajorClaim: 1, Claim: 8, Premise: 5
+  Stance (For/Against): 6/2
+  Relations (supports/attacks): 12/2
+
+v2_essay392:
+  MajorClaim: 1, Claim: 4, Premise: 7
+  Stance (For/Against): 4/0
+  Relations (supports/attacks): 11/0
+
+v2_essay393:
+  MajorClaim: 2, Claim: 3, Premise: 5
+  Stance (For/Against): 3/0
+  Relations (supports/attacks): 11/0
+
+v2_essay394:
+  MajorClaim: 2, Claim: 2, Premise: 8
+  Stance (For/Against): 2/0
+  Relations (supports/attacks): 11/0
+
+v2_essay395:
+  MajorClaim: 2, Claim: 4, Premise: 6
+  Stance (For/Against): 3/1
+  Relations (supports/attacks): 9/1
+
+v2_essay396:
+  MajorClaim: 2, Claim: 3, Premise: 7
+  Stance (For/Against): 3/0
+  Relations (supports/attacks): 11/0
+
+v2_essay397:
+  MajorClaim: 2, Claim: 4, Premise: 4
+  Stance (For/Against): 4/0
+  Relations (supports/attacks): 9/0
+
+v2_essay398:
+  MajorClaim: 1, Claim: 6, Premise: 7
+  Stance (For/Against): 0/6
+  Relations (supports/attacks): 13/0
+
+v2_essay399:
+  MajorClaim: 1, Claim: 5, Premise: 4
+  Stance (For/Against): 4/1
+  Relations (supports/attacks): 8/1
+
+v2_essay400:
+  MajorClaim: 2, Claim: 3, Premise: 5
+  Stance (For/Against): 3/0
+  Relations (supports/attacks): 10/0
+
+v2_essay401:
+  MajorClaim: 2, Claim: 3, Premise: 6
+  Stance (For/Against): 3/0
+  Relations (supports/attacks): 12/0
+
+v2_essay402:
+  MajorClaim: 2, Claim: 2, Premise: 11
+  Stance (For/Against): 2/0
+  Relations (supports/attacks): 15/0
+
+============================================================
+PROMPT USED
+============================================================
+
+You are an expert in argument mining and discourse analysis. Your task is to annotate argumentative essays by identifying argument components and their relationships.
+
+## Annotation Schema
+
+### Entity Types:
+1. **MajorClaim**: The main thesis or central claim of the essay. Usually appears in the introduction or conclusion.
+2. **Claim**: A statement that supports or attacks the MajorClaim. Claims express the author's stance on sub-topics.
+3. **Premise**: Evidence, reasoning, or examples that support or attack a Claim.
+
+### Attributes:
+- **Stance**: For Claims only. Indicates whether the Claim supports (For) or opposes (Against) the MajorClaim.
+
+### Relations:
+- **supports**: The source argument component provides support for the target.
+- **attacks**: The source argument component opposes or contradicts the target.
+
+## Output Format (BRAT Standoff Format)
+
+Generate annotations in this exact format:
+
+1. **Entity annotations** (T lines):
+   `T<id>	<Type> <start_offset> <end_offset>	<text>`
+   - id: Sequential number starting from 1
+   - Type: MajorClaim, Claim, or Premise
+   - start_offset: Character position where the span starts (0-indexed)
+   - end_offset: Character position where the span ends
+   - text: The exact text span from the essay
+
+2. **Attribute annotations** (A lines):
+   `A<id>	Stance T<entity_id> <For|Against>`
+   - Only for Claim entities
+   - For: The claim supports the MajorClaim
+   - Against: The claim opposes the MajorClaim
+
+3. **Relation annotations** (R lines):
+   `R<id>	<supports|attacks> Arg1:T<source_id> Arg2:T<target_id>`
+   - source_id: The entity providing support/attack
+   - target_id: The entity being supported/attacked
+
+## Important Rules:
+1. Character offsets must be EXACT - count characters precisely from the start of the text (0-indexed).
+2. The text span must match EXACTLY what appears at those offsets.
+3. Every Claim must have a Stance attribute.
+4. Relations typically flow: Premise -> Claim -> MajorClaim
+5. Claims can also support/attack other Claims.
+6. Premises can support/attack Claims or other Premises.
+7. Do NOT include any explanation or commentary - output ONLY the annotation lines.
+
+## Essay to Annotate:
+
+{essay_text}
+
+## Your Annotation (output ONLY the annotation lines, nothing else):
+

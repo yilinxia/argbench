@@ -1,0 +1,36 @@
+T1	MajorClaim 24 159	I believe public museums and art galleries will still be necessary, even though we can see the art works and historical objects online.
+T2	Claim 160 283	Most people nowadays prefer to use the Internet to search for art work because the Internet really brings them convenience.
+A1	Stance T2 Against
+T3	Premise 284 343	We can browse the art work from all over the world at home.
+T4	Claim 344 451	However, people may not get a spiritual experience since pictures online are only limited to a screen size.
+A2	Stance T4 For
+T5	Premise 452 563	By contrast, the exhibits in museums or galleries are all life size and visitors can get a more direct felling.
+T6	Premise 564 637	For example, only when we see the real mummy, can we experience mystique.
+T7	Claim 638 782	In order to help visitors to learn more about the exhibits, museums hold various activities which make visitors be part of what they are seeing.
+A3	Stance T7 For
+T8	Premise 783 1007	For example, at American Museum of Natural History, you can make a bone-by-bone reproduction of the museum's stegosaurus; at Museum of Art in New York, you can look at 17th century instruments while listening to their music.
+T9	Premise 1008 1096	While if you "visit" the museum online, you may not able to get this kind of experience.
+T10	Claim 1097 1184	Seeing an art work on computer screen is not the same as you watch it by your own eyes.
+A4	Stance T10 For
+T11	Premise 1185 1303	For instance, you can't see the texture of the artwork which is very important to study the skills used by the artist.
+T12	Premise 1304 1388	What's more, not all the details of the artwork can be shown on the computer screen.
+T13	Premise 1389 1475	Some details might be dim since the resolution ratio of the screen is not high enough.
+T14	Premise 1476 1552	These may influence the comprehension of the art work or historical objects.
+T15	MajorClaim 1553 1756	In conclusion, I believe we still need museums and art galleries but computers can be introduced to museums and galleries in order to help visitors to know more about the art works or historical objects.
+R1	supports Arg1:T3 Arg2:T2
+R2	supports Arg1:T5 Arg2:T4
+R3	supports Arg1:T6 Arg2:T4
+R4	attacks Arg1:T4 Arg2:T2
+R5	supports Arg1:T8 Arg2:T7
+R6	supports Arg1:T9 Arg2:T7
+R7	supports Arg1:T11 Arg2:T10
+R8	supports Arg1:T12 Arg2:T10
+R9	supports Arg1:T13 Arg2:T12
+R10	supports Arg1:T14 Arg2:T10
+R11	supports Arg1:T2 Arg2:T1
+R12	supports Arg1:T4 Arg2:T1
+R13	supports Arg1:T7 Arg2:T1
+R14	supports Arg1:T10 Arg2:T1
+R15	supports Arg1:T7 Arg2:T15
+R16	supports Arg1:T10 Arg2:T15
+R17	supports Arg1:T4 Arg2:T15

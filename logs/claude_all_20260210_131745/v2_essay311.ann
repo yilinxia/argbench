@@ -1,0 +1,41 @@
+T1	MajorClaim 0 61	It is not necessary for university students to attend classes
+T2	Claim 379 513	from my perspective, students can acquire university knowledge without the prerequisite of passing exam. The reasons to be illustrated
+T3	MajorClaim 400 482	students can acquire university knowledge without the prerequisite of passing exam
+T4	Claim 537 602	the students are not constantly expert in every part of a subject
+T5	Premise 604 786	For example, I love Physics. But I don't like electronics, because electronics cannot always be seen in the real world. And I have had 0 in physics score when I study the electronics
+T6	Premise 788 861	But I constantly achieve 100 score when I study other part of the physics
+T7	Premise 863 1025	And if I cannot attend the classes until I pass the exam of electronics, I could not pass the entire part of physics, and I will fail the exam over and over again
+T8	Premise 1027 1115	Luckily, in our university, you can attend the classes regardless of the score you reach
+T9	Premise 1117 1180	And I can study physics without consideration of my electronics
+T10	Premise 1182 1241	And at last, I took the electronics again and pass the exam
+T11	Claim 1253 1392	if the university take the policy that no one can attend the classes without passing exam, students are highly likely to leave uncultivated
+T12	Premise 1394 1489	If one fail most of the exam, it means that he or she cannot participate in most of the classes
+T13	Premise 1491 1545	And the students will have nothing to do in the campus
+T14	Premise 1547 1600	Then he or she will play online games days and nights
+T15	Premise 1602 1639	The academic achievement will decline
+T16	Premise 1641 1698	In the end, this student will become a loser in the world
+T17	Premise 1700 1780	And all this is due to that the university don't permit them to attend the class
+T18	Premise 1782 1860	This is not the failure of the university but also the entire education system
+T19	Claim 1874 2023	the university student may don't reach a high if the university allow student to participate in the class no matter whether they pass the test or not
+T20	Premise 2025 2107	But the benefit of free to access to the classes eclipse the issue of lower points
+T21	MajorClaim 2121 2359	the university should allow the student to participate in the classed without passing the test because not only is every students expert in every part of one subject but also it will reduce the student in the campus who leave uncultivated
+A1	Stance T4 For
+A2	Stance T11 For
+A3	Stance T19 Against
+R1	supports Arg1:T5 Arg2:T4
+R2	supports Arg1:T6 Arg2:T4
+R3	supports Arg1:T7 Arg2:T4
+R4	supports Arg1:T8 Arg2:T4
+R5	supports Arg1:T9 Arg2:T4
+R6	supports Arg1:T10 Arg2:T4
+R7	supports Arg1:T4 Arg2:T3
+R8	supports Arg1:T12 Arg2:T11
+R9	supports Arg1:T13 Arg2:T11
+R10	supports Arg1:T14 Arg2:T11
+R11	supports Arg1:T15 Arg2:T11
+R12	supports Arg1:T16 Arg2:T11
+R13	supports Arg1:T17 Arg2:T11
+R14	supports Arg1:T18 Arg2:T11
+R15	supports Arg1:T11 Arg2:T3
+R16	attacks Arg1:T19 Arg2:T3
+R17	attacks Arg1:T20 Arg2:T19

@@ -1,0 +1,38 @@
+T1	MajorClaim 253 331	I strongly believe that online classes should never replace classroom learning
+T2	Claim 377 460	classroom learning is the best way to provide education comparing to online classes
+A1	Stance T2 For
+T3	Premise 462 593	In the classroom environment you can learn from your classmates, because if you see any of your classmates who is performing better
+T4	Premise 595 652	it will force you for making your performance more better
+T5	Premise 667 858	When I was in First Year in B Com, I was not serious in my study, but when I saw some of my friends who took better grades than me, it influenced me and I intended to do better in my subjects
+T6	Premise 860 896	Finally I got 1st rank in final exam
+T7	Claim 906 967	in classroom learning you have to complete study work on time
+A2	Stance T7 For
+T8	Premise 969 1015	It makes you perfect in time management skills
+T9	Premise 1017 1104	Moreover you can learn by participating in group studies how to communicate with others
+T10	Premise 1106 1217	It makes you communication and of course your group skills better, which can help you in your future and career
+T11	Claim 1226 1274	professors play vital role in classroom learning
+A3	Stance T11 For
+T12	Premise 1276 1390	most of them are specialists is their subjects, and they help you by giving valuable information and useful skills
+T13	Premise 1392 1510	You can improve your skills by work under any professor; you can ask questions face to face, it will clear your doubts
+T14	Premise 1512 1539	In result you learn quickly
+T15	Premise 1554 1833	I have my personal experience. For Toefl IBT Coaching first I was depend on some online courses, but after 1 month I realized that I was wasting my time so I joined an institute for preparation of Toefl IBT, and in 1 month I felt that my English skills have been improving faster
+T16	Claim 1835 1930	It's undeniable that online classes have some advantages so they could be used as supplementary
+A4	Stance T16 Against
+T17	Claim 1936 1995	they could not be substitute of existing classroom learning
+A5	Stance T17 For
+T18	MajorClaim 2063 2140	the classroom learning is the best way to provide education for these reasons
+R1	supports Arg1:T3 Arg2:T2
+R2	supports Arg1:T4 Arg2:T2
+R3	supports Arg1:T5 Arg2:T2
+R4	supports Arg1:T6 Arg2:T2
+R5	supports Arg1:T8 Arg2:T7
+R6	supports Arg1:T9 Arg2:T7
+R7	supports Arg1:T10 Arg2:T7
+R8	supports Arg1:T12 Arg2:T11
+R9	supports Arg1:T13 Arg2:T11
+R10	supports Arg1:T14 Arg2:T11
+R11	supports Arg1:T15 Arg2:T11
+R12	supports Arg1:T2 Arg2:T1
+R13	supports Arg1:T7 Arg2:T1
+R14	supports Arg1:T11 Arg2:T1
+R15	supports Arg1:T17 Arg2:T1

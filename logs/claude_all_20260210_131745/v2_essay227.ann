@@ -1,0 +1,28 @@
+T1	MajorClaim 0 64	Nowadays, spending budget on space exploration is not reasonable
+T2	MajorClaim 280 402	In my opinion, spending the budget for space exploration is an important activity to save living of humanity in the future
+T3	Claim 405 490	Many governments believe that space exploration is an activity that wastes the budget
+A1	Stance T3 Against
+T4	Claim 498 600	the essential challenge of humanity in the future would be the discovery of a new place for the living
+A2	Stance T4 For
+T5	Premise 602 796	In 20th century, although human being succeeded to achieve out of space by means of new technologies such as rockets, but finding a new place for living in another planet is impossible until now
+T6	Premise 798 928	In during history, our planet is threatening by many of other planets or stars and it is an enormous danger for living of humanity
+T7	Claim 941 1011	it is very significant to find a new place for living in other planets
+A3	Stance T7 For
+T8	Premise 1014 1086	Space exploration has used as a tools for military power in the cold war
+T9	Claim 1088 1199	In the future, many countries will try to prevent attach of other countries by using and invention new missiles
+A4	Stance T9 For
+T10	Premise 1201 1284	In the past, the space race happened between the United Stated and the Soviet Union
+T11	Premise 1286 1365	Both countries tried to send man to the moon and show their power to each other
+T12	Claim 1380 1445	space exploration will use as a military power for many countries
+A5	Stance T12 For
+T13	MajorClaim 1459 1573	spending budget for space exploring is not the waste budget, because it may helps to save civilization of humanity
+T14	Premise 1575 1768	Although exploring space used for discovery of other planets, nowadays most of governments have used many rockets for military purposes and therefore the purposes of exploring space has altered
+R1	supports Arg1:T4 Arg2:T2
+R2	supports Arg1:T5 Arg2:T4
+R3	supports Arg1:T6 Arg2:T7
+R4	supports Arg1:T7 Arg2:T2
+R5	supports Arg1:T8 Arg2:T9
+R6	supports Arg1:T10 Arg2:T12
+R7	supports Arg1:T11 Arg2:T12
+R8	supports Arg1:T12 Arg2:T13
+R9	supports Arg1:T14 Arg2:T13

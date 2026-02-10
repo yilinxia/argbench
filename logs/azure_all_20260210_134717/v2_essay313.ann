@@ -1,0 +1,35 @@
+T1	MajorClaim 308 417	The issue is controversial but in my opinion, pets should be treated like human beings for different reasons.
+T2	Claim 418 482	First, pets are our friends as well as certain human beings are.
+T3	Premise 483 573	Similarly to friends, indeed, they are always with us and they are there if we feel alone.
+T4	Premise 574 656	We can talk to them because they listen to us, more than some people will ever do.
+T5	Premise 657 719	To illustrate this point, I can write about my own experience.
+T6	Premise 720 817	When I was 14 years old, my uncle passed away and I felt like everything was no longer important.
+T7	Premise 818 901	Talking to my friends was frustrating because none of them have ever felt that way.
+T8	Premise 902 1038	Since I was all alone at home for a long time, my dog was near me and it seemed to me that only him could understand my deeply feelings.
+T9	Premise 1039 1125	Clearly, although pets aren't able to speak with us, we can nonetheless count on them.
+T10	Claim 1126 1176	Secondly, pets are useful for a variety of things.
+T11	Premise 1177 1252	For example, nowadays the pet therapy is becoming more popular than before.
+T12	Premise 1253 1340	Researchers have discovered that pets can bring benefits in a huge amount of illnesses.
+T13	Premise 1341 1456	There are dogs who lead blind people around the city and therefore without them they could not go around all alone.
+T14	Premise 1457 1563	In addition, pets are important for depressed people as well because their presence make them feel better.
+T15	Premise 1564 1682	Moreover, there are dogs who are educated in order to find out criminals or to use their sense of smell to find drugs.
+T16	MajorClaim 1684 1885	To sum up, I am strongly convinced that pets deserve to be treated like family members because of all the reasons mentioned above, namely they are our friends and they can be useful in many situations.
+A1	Stance T2 For
+A2	Stance T10 For
+R1	supports Arg1:T2 Arg2:T1
+R2	supports Arg1:T3 Arg2:T2
+R3	supports Arg1:T4 Arg2:T2
+R4	supports Arg1:T5 Arg2:T2
+R5	supports Arg1:T6 Arg2:T2
+R6	supports Arg1:T7 Arg2:T2
+R7	supports Arg1:T8 Arg2:T2
+R8	supports Arg1:T9 Arg2:T2
+R9	supports Arg1:T10 Arg2:T1
+R10	supports Arg1:T11 Arg2:T10
+R11	supports Arg1:T12 Arg2:T10
+R12	supports Arg1:T13 Arg2:T10
+R13	supports Arg1:T14 Arg2:T10
+R14	supports Arg1:T15 Arg2:T10
+R15	supports Arg1:T2 Arg2:T16
+R16	supports Arg1:T10 Arg2:T16
+R17	supports Arg1:T16 Arg2:T1

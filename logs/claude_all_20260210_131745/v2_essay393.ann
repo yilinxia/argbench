@@ -1,0 +1,25 @@
+T1	MajorClaim 239 315	I believe such details should be strictly censored, if not banned altogether
+T2	Claim 317 448	It is widely known that the press provide the public with criminal content in order to increase newspaper circulation and TV rating
+A1	Stance T2 For
+T3	Premise 450 606	These days the primary purpose of journalists covering the details of criminal acts is, more often than that, to boost newspaper circulations and TV ratings
+T4	Premise 622 810	a great deal of crime coverage is rather biased, exaggerated or fraudulent, which only result to terrorize communities and leave law-aiding people increasingly apprehensive of about crimes
+T5	Claim 812 971	An even more detrimental fact is that detailed reports of crimes exposured on the press may provide the potential criminals with instructive learning materials
+A2	Stance T5 For
+T6	Premise 973 1012	which would be hard to obtain otherwise
+T7	Premise 1014 1182	This may help those who are in the process of panning a criminal act perfect their plans, avoid the pitfalls and make themselves harder to be tracked down by the police
+T8	Premise 1190 1324	without the prevention on criminal details, the unlawful behavior would be more and more severe and the social harmony would be broken
+T9	Claim 1326 1426	Most importantly, particular coverage of heinous crimes may further traumatize the victims of crimes
+A3	Stance T9 For
+T10	Premise 1427 1500	because they have already suffered greatly for what they have experienced
+T11	Premise 1502 1626	Without their consent, this could only add to theses innocent people's mental suffering and they may do some extreme actions
+T12	MajorClaim 1643 1868	I strongly hold my point that any descriptions of crimes should not go unchecked as any longer, as they may be false, may further drive up the already-high crime rate and may bring even more suffering to the victims of crimes
+R1	supports Arg1:T3 Arg2:T2
+R2	supports Arg1:T4 Arg2:T2
+R3	supports Arg1:T6 Arg2:T5
+R4	supports Arg1:T7 Arg2:T5
+R5	supports Arg1:T8 Arg2:T5
+R6	supports Arg1:T10 Arg2:T9
+R7	supports Arg1:T11 Arg2:T9
+R8	supports Arg1:T2 Arg2:T1
+R9	supports Arg1:T5 Arg2:T1
+R10	supports Arg1:T9 Arg2:T1

@@ -1,0 +1,37 @@
+T1	MajorClaim 225 338	While some people believe that non-academic subjects should be completely removed, I strongly disagree with that.
+T2	Claim 354 435	from the health point of view, schools should not only deliver academic subjects.
+A1	Stance T2 Against
+T3	Premise 436 552	If physical education is removed from the syllabus, there will be considerable negative effects on students’ health.
+T4	Premise 553 815	For instance, after studying and sitting in the classroom for the whole morning, it is better for students to do some outdoor activities, such as stretching, jogging and playing ball games, in order to improve their learning ability during the afternoon classes.
+T5	Premise 816 963	Removing physical classes from school education will not only be harmful to young people’s health, it will also decrease their learning capability.
+T6	Claim 977 1056	schools are responsible for developing their students into well-rounded people.
+A2	Stance T6 Against
+T7	Premise 1057 1144	It is more important for a person to success in life than to success only academically.
+T8	Premise 1145 1342	Success in life should be the ultimate goal of a student, which requires more than academic knowledge, but also practical life skills such as cooking, good communication skills and teamwork spirit.
+T9	Claim 1349 1513	school education should not only focus on the academic development of a student as it is much more crucial to teach them how to be independent and live a good life.
+A3	Stance T9 Against
+T10	Claim 1514 1615	Some people may argue that students can learn practical skills after school hours from their parents.
+A4	Stance T10 For
+T11	Claim 1616 1661	However, I believe that it is not a good idea
+A5	Stance T11 Against
+T12	Premise 1670 1797	most young people would rather watch TV or play computer games after school instead of learning life skills from their parents.
+T13	Premise 1808 1899	parents are usually too busy with their daily jobs to teach their children the life skills.
+T14	Claim 1915 2027	I strongly believe that non-academic subjects are as essential as academic subjects for a student’s development.
+A6	Stance T14 Against
+T15	Claim 2039 2080	schools should not remove these subjects.
+A7	Stance T15 Against
+R1	supports Arg1:T2 Arg2:T1
+R2	supports Arg1:T3 Arg2:T2
+R3	supports Arg1:T4 Arg2:T3
+R4	supports Arg1:T5 Arg2:T2
+R5	supports Arg1:T6 Arg2:T1
+R6	supports Arg1:T7 Arg2:T6
+R7	supports Arg1:T8 Arg2:T6
+R8	supports Arg1:T9 Arg2:T6
+R9	supports Arg1:T10 Arg2:T1
+R10	attacks Arg1:T11 Arg2:T10
+R11	supports Arg1:T12 Arg2:T11
+R12	supports Arg1:T13 Arg2:T11
+R13	supports Arg1:T14 Arg2:T1
+R14	supports Arg1:T15 Arg2:T1
+R15	supports Arg1:T15 Arg2:T14

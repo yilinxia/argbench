@@ -1,0 +1,23 @@
+T1	MajorClaim 364 506	online-teaching should be widely used among colleges and universities in terms of convenience and optimizing cost for educational institutions
+T2	Claim 523 613	distance-learning brings significant convenience for students in every corner of the world
+A1	Stance T2 For
+T3	Premise 615 803	In earlier times, students who were tired of commuting had to attend schools nearby, regardless of any differences in teaching facilities, teacher's qualifications or the school reputation
+T4	Premise 810 929	however, students are able to apply for online-courses provided by top-of-the-range universities and colleges worldwide
+T5	Premise 944 1033	the presence of video conferencing allows a teacher to teach a greater number of students
+T6	Claim 1049 1137	educational institutions are able to optimize costs by increasing teacher-student ratios
+A2	Stance T6 For
+T7	Premise 1139 1352	Thanks to the economical online-teaching, universities and colleges are able to offer grants for students who have outstanding academic achievements but are unable to attend schools because of financial constrains
+T8	Claim 1413 1524	attending lectures in person provides students an opportunity to communicate with teachers and other classmates
+A3	Stance T8 Against
+T9	Premise 1554 1676	traditional teaching approaches involving discussion and cooperation among students play a significant role in campus life
+T10	Premise 1678 1769	It is the real interactions and communications in class make education much more attractive
+T11	MajorClaim 1814 1910	distance-learning will become increasingly important in the future as the pace of life increases
+R1	supports Arg1:T3 Arg2:T2
+R2	supports Arg1:T4 Arg2:T2
+R3	supports Arg1:T5 Arg2:T6
+R4	supports Arg1:T7 Arg2:T6
+R5	supports Arg1:T2 Arg2:T1
+R6	supports Arg1:T6 Arg2:T1
+R7	supports Arg1:T9 Arg2:T8
+R8	supports Arg1:T10 Arg2:T8
+R9	attacks Arg1:T8 Arg2:T1

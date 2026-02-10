@@ -1,0 +1,26 @@
+T1	MajorClaim 97 309	international tourism not only causes tension but also leads to understanding between people from different culture, because most people will be trying to understand each other after they have conflict or debates
+T2	Claim 334 398	some behaviors of the tourists are not welcome in the local area
+A1	Stance T2 For
+T3	Premise 409 469	some people leave the rubbish after visiting the attractions
+T4	Premise 482 610	those local residents have to clean the place frequently so that the new batch of tourists will have a tidy and neat environment
+T5	Claim 622 700	tourists may offend the local people due to their different culture background
+A2	Stance T5 For
+T6	Premise 715 761	Indians don't eat beef since they worship cows
+T7	Premise 769 864	if tourists want to respect the tradition, they will not order any beef in the local restaurant
+T8	Claim 886 1017	in order to avoid the conflicts between foreigners and locals, people are trying to understand different culture and find solutions
+A3	Stance T8 For
+T9	Premise 1033 1132	tourists are given the brochures about the local traditions and customs before they visit the place
+T10	Premise 1147 1237	the tour guide are willing to help tourists to understand the culture from other countries
+T11	Premise 1245 1335	the possibility of the conflicts is reduced because the understanding between both parties
+T12	MajorClaim 1348 1483	people are looking for the solution such as understanding each other while they encounter the conflicts caused by international tourism
+T13	MajorClaim 1492 1599	I think international tourism leads to both tension and understanding between people from different culture
+R1	supports Arg1:T3 Arg2:T2
+R2	supports Arg1:T4 Arg2:T2
+R3	supports Arg1:T6 Arg2:T5
+R4	supports Arg1:T7 Arg2:T5
+R5	supports Arg1:T9 Arg2:T8
+R6	supports Arg1:T10 Arg2:T8
+R7	supports Arg1:T11 Arg2:T8
+R8	supports Arg1:T2 Arg2:T1
+R9	supports Arg1:T5 Arg2:T1
+R10	supports Arg1:T8 Arg2:T1

@@ -1,0 +1,37 @@
+T1	MajorClaim 95 161	The new high school will bring a lot of advantages to my community
+T2	Premise 163 281	The high school of my district is pretty old and lacks in necessities for students, so they can't get enough education
+T3	MajorClaim 283 382	I really believe that new high school is a great addition to the educational system of my community
+T4	Claim 407 496	the new high school will bring a lots of opportunities for student concerned in education
+T5	Premise 498 616	Their old high school is pretty old and need in new educational materials, repairing of the place for sport activities
+T6	Premise 618 736	Also the laboratory of physics and chemistry was in bad condition, so the students can't study well during the classes
+T7	Premise 738 804	They will study with new breath and great enthusiasm in new school
+T8	Claim 817 943	the new high school will be a place for new connections between the student of different communities and districts of the city
+T9	Premise 945 1077	After classes students and not only the students will get together in building of high school, participate in different competitions
+T10	Premise 1079 1216	For instance during the football match the students of different high schools will come and after the competition they will keep in touch
+T11	Premise 1218 1275	This will increase the social connections of the students
+T12	Claim 1277 1335	The only disadvantage is the noisiness of the competitions
+T13	Premise 1337 1398	The people living in the neighborhood will be a bit perturbed
+T14	Claim 1404 1470	I think this isn't a important reason for ceasing the competitions
+T15	Premise 1484 1685	this new construction has a lot of advantages like new connections between students from different communities, also the new educational equipment will increase the students' enthusiasm toward studying
+T16	Premise 1687 1772	The only disadvantage is the nosiness of competitions which students will participate
+T17	Claim 1778 1810	I think that it isn't a big deal
+T18	MajorClaim 1815 1878	the new high school will be a great addition for my environment
+A1	Stance T4 For
+A2	Stance T8 For
+A3	Stance T12 Against
+A4	Stance T14 For
+A5	Stance T17 For
+R1	supports Arg1:T2 Arg2:T1
+R2	supports Arg1:T5 Arg2:T4
+R3	supports Arg1:T6 Arg2:T4
+R4	supports Arg1:T7 Arg2:T4
+R5	supports Arg1:T4 Arg2:T3
+R6	supports Arg1:T9 Arg2:T8
+R7	supports Arg1:T10 Arg2:T8
+R8	supports Arg1:T11 Arg2:T8
+R9	supports Arg1:T8 Arg2:T3
+R10	supports Arg1:T13 Arg2:T12
+R11	attacks Arg1:T14 Arg2:T12
+R12	supports Arg1:T15 Arg2:T18
+R13	supports Arg1:T16 Arg2:T17
+R14	attacks Arg1:T17 Arg2:T12

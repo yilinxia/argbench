@@ -1,0 +1,26 @@
+T1	MajorClaim 359 479	I believe that it should taken into consideration the situation and conditions, that forces to a person to be a criminal
+T2	Claim 494 592	if there will be a fixed punishment for each type of crime then it will lead to increase the crime
+T3	Premise 593 720	because the punishment will be clear in the mind of professional criminals and they will not feel fear while committing a crime
+T4	Claim 732 821	laws and rules are there for people therefore it is necessary to have a look behind crime
+T5	Premise 835 939	"a women steals feed for her child should be treated same as a women, who steals for her drug addiction"
+T6	Premise 941 1052	The person who committed crime first time and the professional criminals should not be imprisoned at same place
+T7	Claim 1071 1205	fixed punishment will reduce the time taken by judges to give their judgement and it will be effective economically for the Government
+T8	Claim 1207 1241	Everyone should be treated equally
+T9	Premise 1250 1464	sometimes we see that a poor person who do not have much money for hiring a good lawyer they get imprisoned even without committing a crime and when they come back to the society they become a professional criminal
+T10	Premise 1476 1601	fixed punishment will reduce the space between poor and rich people and everyone will understand the importance of each other
+T11	MajorClaim 1616 1674	Government should decide for punishment case by case basis
+T12	Premise 1676 1725	In doing so crime can be eliminated from a nation
+A1	Stance T2 For
+A2	Stance T4 For
+A3	Stance T7 Against
+A4	Stance T8 Against
+R1	supports Arg1:T3 Arg2:T2
+R2	supports Arg1:T2 Arg2:T1
+R3	supports Arg1:T5 Arg2:T4
+R4	supports Arg1:T6 Arg2:T4
+R5	supports Arg1:T4 Arg2:T1
+R6	attacks Arg1:T7 Arg2:T1
+R7	supports Arg1:T9 Arg2:T8
+R8	supports Arg1:T10 Arg2:T8
+R9	attacks Arg1:T8 Arg2:T1
+R10	supports Arg1:T12 Arg2:T11

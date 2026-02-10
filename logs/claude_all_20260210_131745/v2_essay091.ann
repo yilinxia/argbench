@@ -1,0 +1,31 @@
+T1	MajorClaim 238 357	a universal language playing the dominant role in the international community is of vital significance to global people
+T2	Claim 359 493	It is especially true if we consider the fact that a single international language plays a pivotal role in global economic cooperation
+A1	Stance T2 For
+T3	Premise 495 693	As businessmen from different countries have access to the same language, they can communicate with each other more efficiently and deeply on trade, which can intensify the transnational cooperation
+T4	Premise 708 891	without the availability of the same language, there might be a chance that misunderstanding and conflicts would ensue over business negotiations, impeding collaborations between them
+T5	Claim 904 962	a single international language serves an economic purpose
+A2	Stance T5 For
+T6	Claim 970 1053	a universal language is an integral part of cultural communication and interactions
+A3	Stance T6 For
+T7	Premise 1055 1327	If people are equipped with a single international language, they can tell each other smoothly about their countries' specific cultures such as the traditional customs or the modern lifestyles, which enables people to expand their outlooks, viewing the world in new angles
+T8	Premise 1342 1557	when people travel to foreign countries, the local people can introduce the tourist attractions to such people with the command of the universal language, helping foreign visitors have an enjoyable exotic experience
+T9	Claim 1577 1652	the disadvantages of the promotion of a universal language cannot be denied
+A4	Stance T9 Against
+T10	Claim 1675 1767	a single international language may, to some extent, erode the cultural identity of a nation
+A5	Stance T10 Against
+T11	Premise 1785 1903	people may be impressed by the cultural values brought with the universal language, eroding a sense of national belong
+T12	Premise 1919 2181	some Asians are seeking individualism, previously denied by many Asian countries, due to the fact that they have gradually identified with such values expressed in American movies, which are imported by the governments as a result of the proliferation of English
+T13	MajorClaim 2216 2327	a single international language contributes to global community in terms of economic and cultural communication
+T14	Claim 2348 2438	every country should by no means disregard the preservation of their own cultural heritage
+A6	Stance T14 For
+R1	supports Arg1:T3 Arg2:T2
+R2	supports Arg1:T4 Arg2:T2
+R3	supports Arg1:T2 Arg2:T1
+R4	supports Arg1:T5 Arg2:T1
+R5	supports Arg1:T6 Arg2:T1
+R6	supports Arg1:T7 Arg2:T6
+R7	supports Arg1:T8 Arg2:T6
+R8	supports Arg1:T10 Arg2:T9
+R9	supports Arg1:T11 Arg2:T10
+R10	supports Arg1:T12 Arg2:T10
+R11	attacks Arg1:T9 Arg2:T1

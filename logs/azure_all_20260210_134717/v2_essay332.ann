@@ -1,0 +1,37 @@
+T1	MajorClaim 312 411	Personally, I believe that young adults should live with their parents for a longer period of time.
+T2	Claim 412 462	Living on your own is a huge financial commitment.
+T3	Premise 463 629	At younger age people are less likely to get a high paying job, so It can be a difficult task to pay for rent, food, utilities and other expenses to sustain yourself.
+T4	Claim 630 779	So, I believe that living with parents is a wise choice for adults until they get a head start to their professional career with a reasonable income.
+T5	Claim 780 896	Another advantage of living with parents for a longer period of time is the enhanced emotional attachment with them.
+T6	Premise 897 995	Parents have valuable advice to their children as they go through the changes in their adult life.
+T7	Premise 996 1131	Living together develops the environment of discussing adult's physiological and psychological changes face to face with their parents.
+T8	Premise 1132 1302	Young adults will feel reluctant to discuss such problems with their parents if they move out and live on their own, and thus missing the valuable input of their parents.
+T9	Claim 1303 1409	While some critics may argue that, young adults living with parents will not be free to do what they want.
+T10	Claim 1410 1523	However, I believe that most young adults are inclined to take unprecedented advantages of the freedom they have.
+T11	Premise 1524 1641	It is good thing if living with parents does not give freedom for young people to party all night, smoke or do drugs.
+T12	Claim 1643 1784	In a nutshell, I believe that young adults should only consider living on their own only after they are sure they could sustain on their own.
+T13	Claim 1785 1911	It is unwise to trade the opportunity of living with parents for a longer period of time for some late night parties or drugs.
+T14	Claim 1912 2174	Thus, to cope with the physiological and psychological changes of adult life, to make financial life a less struggle and to prevent oneself digress from their destined path, it is important for young adults to live with their parents for a longer period of time.
+A1	Stance T2 For
+A2	Stance T4 For
+A3	Stance T5 For
+A4	Stance T9 Against
+A5	Stance T10 For
+A6	Stance T12 For
+A7	Stance T13 For
+A8	Stance T14 For
+R1	supports Arg1:T2 Arg2:T1
+R2	supports Arg1:T3 Arg2:T2
+R3	supports Arg1:T4 Arg2:T1
+R4	supports Arg1:T3 Arg2:T4
+R5	supports Arg1:T5 Arg2:T1
+R6	supports Arg1:T6 Arg2:T5
+R7	supports Arg1:T7 Arg2:T5
+R8	supports Arg1:T8 Arg2:T5
+R9	attacks Arg1:T9 Arg2:T1
+R10	attacks Arg1:T10 Arg2:T9
+R11	supports Arg1:T11 Arg2:T10
+R12	supports Arg1:T12 Arg2:T1
+R13	supports Arg1:T13 Arg2:T1
+R14	supports Arg1:T11 Arg2:T13
+R15	supports Arg1:T14 Arg2:T1

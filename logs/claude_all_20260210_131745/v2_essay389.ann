@@ -1,0 +1,32 @@
+T1	MajorClaim 308 400	I believe that education is the single most important factor in the development of a country
+T2	Claim 402 479	In a developing country, not many can afford to send their children to school
+A1	Stance T2 For
+T3	Premise 481 612	There are government schools where tuition fees are practically free but they are not aplenty and mostly are situated in the cities
+T4	Premise 614 685	They are not reachable by children who live in the mountains or islands
+T5	Premise 687 858	These children whose parents are either farmers or fishermen, can hardly eat three meals a day, let alone afford to pay for transportation to get to these schools everyday
+T6	Claim 860 950	As a result, these children remain uneducated and will have the same fate as their parents
+A2	Stance T6 For
+T7	Claim 952 1063	Development through education does not necessarily mean raising a country full of doctors, lawyers or engineers
+A3	Stance T7 For
+T8	Premise 1065 1116	Basic education teaches one child to read and write
+T9	Premise 1118 1192	Supplementary education provides him with useful knowledge and information
+T10	Premise 1194 1305	A further specific education can teach an individual with skills enough to make a living and be self-sufficient
+T11	Premise 1307 1367	A well-informed man can act sensibly and make sound judgment
+T12	Premise 1369 1453	In the same way, a skillful man contributes favorably and is valuable to the society
+T13	Claim 1455 1544	Collectively, the benefits of education can make a man, a society and a developed country
+A4	Stance T13 For
+T14	MajorClaim 1561 1635	education plays an important role in the socioeconomic status of a country
+T15	Premise 1637 1717	The more people in the country become educated, the better chance it can develop
+R1	supports Arg1:T3 Arg2:T2
+R2	supports Arg1:T4 Arg2:T2
+R3	supports Arg1:T5 Arg2:T2
+R4	supports Arg1:T2 Arg2:T6
+R5	supports Arg1:T6 Arg2:T1
+R6	supports Arg1:T8 Arg2:T7
+R7	supports Arg1:T9 Arg2:T7
+R8	supports Arg1:T10 Arg2:T7
+R9	supports Arg1:T11 Arg2:T13
+R10	supports Arg1:T12 Arg2:T13
+R11	supports Arg1:T7 Arg2:T13
+R12	supports Arg1:T13 Arg2:T1
+R13	supports Arg1:T15 Arg2:T14

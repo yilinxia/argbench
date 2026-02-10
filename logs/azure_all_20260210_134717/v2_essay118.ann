@@ -1,0 +1,39 @@
+T1	MajorClaim 2005 2119	From all analysis suggested above, professional athletes and singers are overpaid in terms of their contributions.
+T2	Claim 261 401	I believe that their salary at a lower level would be more appropriate compared with other peoples in scientific or social, economic fields.
+A1	Stance T2 For
+T3	Claim 416 559	some people claim that athletes and singers deserve their current salary because they have an exceptional ability that other people do not own.
+A2	Stance T3 Against
+T4	Premise 560 724	For example, hardly anyone could play basketball as skillfully as Michael Jordan - a legendary former American player who won several times in the NBA championship.
+T5	Premise 725 907	They also point out that these people have to undergo painstaking and industrious training, let alone participate in a great number of contests to be recognized and prove themselves.
+T6	Premise 908 1021	In addition, although there are many singers and athletes, few of whom could rise to fame and victory ultimately.
+T7	Premise 1022 1128	Overcoming all these obstacles, they should be paid a great deal of money for their extraordinary efforts.
+T8	Claim 1130 1177	However, their talents should not be overrated.
+A3	Stance T8 For
+T9	Claim 1178 1292	Other people say that singers and athletes, in fact, contribute insignificantly to the development of the society.
+A4	Stance T9 For
+T10	Premise 1293 1413	It is assumed the amazing performances they give to the audiences are only valuable in aesthetic and entertaining terms.
+T11	Premise 1414 1670	While scientists invent machines serving daily lives, doctors take care of patients and cure their diseases and policemen help to ensure the safety and stability of the nation, singers and athletes do not play a helpful part in improving the material life.
+T12	Premise 1671 1749	They commit themselves to promoting relaxation and enjoyment for the audience.
+T13	Premise 1750 1851	Indeed, their contribution is less important than those from doctors or scientists, albeit necessary.
+T14	Claim 1852 1902	Hence, their privilege of salary seems groundless,
+A5	Stance T14 For
+T15	Premise 1903 2004	while the main work forces receive modest salaries which only enable them to afford bare necessities.
+T16	Claim 2120 2263	I think that there should be a modification in the salary of professional singers and athletes to balance with those of people in other fields,
+A6	Stance T16 For
+T17	Premise 2264 2352	namely science and society, who are the driving forces for the prosperity of the nation.
+R1	supports Arg1:T2 Arg2:T1
+R2	attacks Arg1:T3 Arg2:T1
+R3	supports Arg1:T4 Arg2:T3
+R4	supports Arg1:T5 Arg2:T3
+R5	supports Arg1:T6 Arg2:T3
+R6	supports Arg1:T7 Arg2:T3
+R7	supports Arg1:T8 Arg2:T3
+R8	supports Arg1:T9 Arg2:T1
+R9	supports Arg1:T10 Arg2:T9
+R10	supports Arg1:T11 Arg2:T9
+R11	supports Arg1:T12 Arg2:T9
+R12	supports Arg1:T13 Arg2:T9
+R13	supports Arg1:T14 Arg2:T1
+R14	supports Arg1:T15 Arg2:T14
+R15	supports Arg1:T16 Arg2:T1
+R16	supports Arg1:T17 Arg2:T16

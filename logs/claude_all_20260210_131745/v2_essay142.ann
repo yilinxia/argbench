@@ -1,0 +1,28 @@
+T1	MajorClaim 240 343	I am inclined to believe that the advanced medical care brings with it more benefits than disadvantages
+T2	Claim 398 458	people are better taken care so that they have a good health
+A1	Stance T2 For
+T3	Premise 460 578	They can contribute effectively to the development of the economy because healthy workers can create more productivity
+T4	Premise 596 711	they do not have to spend more time in health checking or treatment so this saves an amount of time as well as cost
+T5	Claim 726 844	a community with the elderly who have a good health has a major role to play in a sustainable development of a society
+A2	Stance T5 For
+T6	Premise 856 925	young people will be happy as their parents, grandparents are healthy
+T7	Premise 927 1013	It can be said that the improvement of medical care makes a better life for all people
+T8	Claim 1060 1135	the increase in life expectancy puts a high pressure on the economic system
+A3	Stance T8 Against
+T9	Premise 1144 1244	more pension have to spend for Medicare instead of investing in other sectors of the economic system
+T10	Claim 1298 1441	the capital that spend on taking care the elderly is contributed by these people during their working time, so they are worth to have good care
+A4	Stance T10 For
+T11	Premise 1443 1577	They have given their effort to the society so that young people, the governments have a responsibility to improve the Medicare system
+T12	MajorClaim 1617 1690	the development of the health care system helps people have a better life
+T13	Premise 1692 1788	It helps people build a sustainable society where people can live a happy life when they are old
+R1	supports Arg1:T3 Arg2:T2
+R2	supports Arg1:T4 Arg2:T2
+R3	supports Arg1:T2 Arg2:T1
+R4	supports Arg1:T6 Arg2:T5
+R5	supports Arg1:T7 Arg2:T5
+R6	supports Arg1:T5 Arg2:T1
+R7	supports Arg1:T9 Arg2:T8
+R8	attacks Arg1:T8 Arg2:T1
+R9	attacks Arg1:T10 Arg2:T8
+R10	supports Arg1:T11 Arg2:T10
+R11	supports Arg1:T13 Arg2:T12

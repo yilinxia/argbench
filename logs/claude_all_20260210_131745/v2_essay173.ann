@@ -1,0 +1,45 @@
+T1	MajorClaim 305 472	I strongly disagree with this affirmation because I believe zoos provide social interaction, education, and develop qualities such as animal respect and understanding.
+T2	Claim 473 592	When people visit the zoo, they normally do it in a group, with their families, or as a part of a school group activity
+A1	Stance T2 For
+T3	Premise 594 780	In the zoo they interact with each other and are able to relax and look at the animals, play with some of them, comment on their appearance and behavior, and laugh at their funny customs
+R1	supports Arg1:T3 Arg2:T2
+T4	Premise 782 874	Nowadays families do not spend as much time together as they used to a couple of decades ago
+R2	supports Arg1:T4 Arg2:T5
+T5	Claim 876 1037	The zoo is a great reason for spending time with the family, it is a great activity that can be enjoyed every family member, from little children to grandparents
+A2	Stance T5 For
+T6	Premise 1040 1151	Animals, the different species, their habitats and behaviors are a subject of study at schools and universities
+T7	Claim 1153 1278	We can learn a lot from books and lectures, but there is an even better way to learn, that is visuals and personal experience
+A3	Stance T7 For
+R3	supports Arg1:T6 Arg2:T7
+T8	Premise 1280 1441	If you visit the zoo, you get to watch the animals, their customs, what they eat and how they eat it, as well as which characteristics the different species have
+R4	supports Arg1:T8 Arg2:T7
+T9	Premise 1443 1557	In the zoo you can see an animal and their different variations, the male and the female or the baby and the adult
+R5	supports Arg1:T9 Arg2:T7
+T10	Premise 1559 1735	It offers a great opportunity to observe their reactions to different situations, such as weather, specie and genre interaction, defense behavior, or protection of their babies
+R6	supports Arg1:T10 Arg2:T7
+T11	Premise 1737 1806	Moreover, it will also help identify which animals could be dangerous
+R7	supports Arg1:T11 Arg2:T7
+T12	Claim 1808 1885	Visiting the zoo would help the students understand what they learn at school
+A4	Stance T12 For
+R8	supports Arg1:T7 Arg2:T12
+T13	Claim 1888 1983	Finally, a visit to the zoo will help increasing someone's respect and appreciation for animals
+A5	Stance T13 For
+T14	Premise 1985 2071	It is a lot easier to appreciate something after you have seen it, and learned from it
+R9	supports Arg1:T14 Arg2:T13
+T15	Premise 2073 2206	This is especially true for people living in the city, where the only animals they normally interact with are pets like cats and dogs
+R10	supports Arg1:T15 Arg2:T13
+T16	Premise 2208 2261	In the present there is a lack of respect for animals
+R11	supports Arg1:T16 Arg2:T13
+T17	Premise 2263 2427	Being able to see the animals in real life and learning facts about them would help by making people aware of the importance of animals and the respect they deserve
+R12	supports Arg1:T17 Arg2:T13
+T18	Claim 2429 2585	The reason why most people oppose to zoos is that in some of them the animals are not very well taken care of and they do not have good and clean facilities
+A6	Stance T18 Against
+T19	Premise 2587 2649	This is mostly true but does not relate to the purpose of zoos
+R13	attacks Arg1:T19 Arg2:T18
+T20	Claim 2651 2775	It would be great if every zoo kept the animals in perfect conditions, but regardless of the condition, zoos are very useful
+A7	Stance T20 For
+R14	supports Arg1:T2 Arg2:T1
+R15	supports Arg1:T5 Arg2:T1
+R16	supports Arg1:T12 Arg2:T1
+R17	supports Arg1:T13 Arg2:T1
+R18	supports Arg1:T20 Arg2:T1

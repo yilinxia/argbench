@@ -1,0 +1,49 @@
+T1	MajorClaim 2208 2347	Even though the purposes could be various, everybody who is studying in university should concentrate on the objectives and try their best.
+T2	Claim 248 335	the three most reasons are increased knowledge, career preparation and new experiences.
+A1	Stance T2 For
+T3	Claim 367 436	university is an ideal place for them to develop their understanding.
+A2	Stance T3 For
+T4	Premise 449 609	in this wonderful academic environment, everyone is provided with varieties and gigantic number of information by a lot of professors and well-trained teachers.
+T5	Premise 616 662	people are able to strengthen their knowledge.
+T6	Premise 673 833	through the instructions of teachers, the sufficient infrastructure such as laboratory, library, students is capable of doing research on every academic aspect.
+T7	Premise 845 900	they can gain a deep sight into what are they studying.
+T8	Claim 911 1041	studying in university means that you have totally turned into a different page of your life, which included many new experiences.
+A3	Stance T8 For
+T9	Premise 1042 1151	The number of individual who enroll in university are enormous, more than any school one person have studied.
+T10	Premise 1158 1314	students are given such fantastic chance to create new and wide relationships with a lot of people from any corner of one nation, even from the whole world.
+T11	Premise 1315 1586	For instance, my brother are studying in an international university with a mixed community include Vietnam, Brazil, Argentina, etc. And he told me that he is very excited for experiencing such new environment, which is one of his main purposes when attending university.
+T12	Claim 1608 1668	preparing for career is an essential function of university.
+A4	Stance T12 For
+T13	Premise 1669 1805	Students not only do homework, assignment and attend class but also need to participate in volunteer work, internship and part time job.
+T14	Premise 1806 1903	Thus, they can have some experiences in the outside world and discover what their life goals are.
+T15	Premise 1904 2001	After all, they know where and what to put high emphasis on in order to achieve their objectives.
+T16	Premise 1608 1668	preparing for career is an essential function of university.
+T17	Claim 1468 1586	he is very excited for experiencing such new environment, which is one of his main purposes when attending university.
+A5	Stance T17 For
+T18	Claim 616 662	people are able to strengthen their knowledge.
+A6	Stance T18 For
+T19	Claim 845 900	they can gain a deep sight into what are they studying.
+A7	Stance T19 For
+T20	Claim 1812 1903	they can have some experiences in the outside world and discover what their life goals are.
+A8	Stance T20 For
+T21	Claim 1915 2001	they know where and what to put high emphasis on in order to achieve their objectives.
+A9	Stance T21 For
+R1	supports Arg1:T2 Arg2:T1
+R2	supports Arg1:T3 Arg2:T2
+R3	supports Arg1:T4 Arg2:T3
+R4	supports Arg1:T5 Arg2:T3
+R5	supports Arg1:T6 Arg2:T3
+R6	supports Arg1:T7 Arg2:T3
+R7	supports Arg1:T8 Arg2:T2
+R8	supports Arg1:T9 Arg2:T8
+R9	supports Arg1:T10 Arg2:T8
+R10	supports Arg1:T11 Arg2:T8
+R11	supports Arg1:T12 Arg2:T2
+R12	supports Arg1:T13 Arg2:T12
+R13	supports Arg1:T14 Arg2:T12
+R14	supports Arg1:T15 Arg2:T12
+R15	supports Arg1:T17 Arg2:T8
+R16	supports Arg1:T18 Arg2:T3
+R17	supports Arg1:T19 Arg2:T3
+R18	supports Arg1:T20 Arg2:T12
+R19	supports Arg1:T21 Arg2:T12

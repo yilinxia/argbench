@@ -1,0 +1,37 @@
+T1	MajorClaim 1951 2075	it is far better to protect our living environment rather than focus on job or work since the goal people is for good livers
+T2	Claim 275 350	I believe that living environment is more important than job for most of us
+A1	Stance T2 Against
+T3	Claim 364 390	job can bring us happiness
+A2	Stance T3 For
+T4	Premise 392 451	People can receive a sense of values and respected from job
+T5	Premise 453 538	If people receive respect from others, they will feel achievement and self-confidence
+T6	Premise 553 580	job can provide money to us
+T7	Claim 592 658	people should concern more about their living environment than job
+A3	Stance T7 Against
+T8	Premise 667 723	for most of us, job is only a tool to maintain our lives
+T9	Premise 725 826	Few people can feel happiness from their job because they have to continue to work more than 30 years
+T10	Premise 841 971	Workers in the FOXCONN factory, which is the main manufacture of APPLE Company, just repeat one action more than 8 hours every day
+T11	Premise 973 1097	These labor works cannot provide workers with a lot of happiness because they feel tired and frustrated after long hour work
+T12	Claim 1108 1221	beautiful environment is one of basic physiological needs, which are the most fundamental requirements for people
+A4	Stance T12 Against
+T13	Premise 1223 1313	Without beautiful environment, people are not able to feel happiness and will fell anxiety
+T14	Premise 1315 1409	Nowadays, the fast development of economy is gradually destroying our environment very quickly
+T15	Premise 1411 1474	Factories released a huge amount of wasters into river and soil
+T16	Premise 1476 1539	In order to build city and factory, people destroy huge forests
+T17	Premise 1541 1713	In China, some residents who live in nearby some toxic factories became sick because these factories release a lot of toxic water and wasters into environment around people
+R1	supports Arg1:T4 Arg2:T3
+R2	supports Arg1:T5 Arg2:T3
+R3	supports Arg1:T6 Arg2:T3
+R4	supports Arg1:T8 Arg2:T7
+R5	supports Arg1:T9 Arg2:T7
+R6	supports Arg1:T10 Arg2:T9
+R7	supports Arg1:T11 Arg2:T7
+R8	supports Arg1:T13 Arg2:T12
+R9	supports Arg1:T14 Arg2:T12
+R10	supports Arg1:T15 Arg2:T14
+R11	supports Arg1:T16 Arg2:T14
+R12	supports Arg1:T17 Arg2:T12
+R13	supports Arg1:T3 Arg2:T1
+R14	supports Arg1:T7 Arg2:T1
+R15	supports Arg1:T12 Arg2:T1
+R16	supports Arg1:T2 Arg2:T1

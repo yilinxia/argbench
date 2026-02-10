@@ -1,0 +1,37 @@
+T1	MajorClaim 512 577	having a large scale of different knowledge is the key to success
+T2	Claim 631 716	when one knows different region's works, it will help one to get a friend much easier
+T3	Premise 731 796	I worked in a large company, which has many different departments
+T4	Premise 798 851	I was in the Management Information System department
+T5	Premise 853 933	What we do every day is to solve the problem that our clients asked in the phone
+T6	Premise 935 1107	While some of the problems are the Engineering department's part, I went there and discussed with the colleagues there, since I have studied some of the engineering courses
+T7	Premise 1109 1257	It is much easier for us to contact than any other person in my department, which made me popular there, and much easier to get the help that I need
+T8	Claim 1267 1371	when you want to translate your major, it is important to know some of the things about different fields
+T9	Premise 1373 1421	Take my cousin Jeff and his friend as an example
+T10	Premise 1423 1474	They majored in financing when they were in college
+T11	Premise 1481 1537	they decided to enroll in the art system after graduated
+T12	Premise 1539 1635	Thanks to Jeff's hard working during his leisure time, he learned a lot about the history of art
+T13	Premise 1637 1768	Things ended up that he joined in a great team, while his friend who only knew financing issues can do nothing but worked in a bank
+T14	Claim 1846 1940	if one can't success one's own major, what else things he can do in different filed
+T15	Premise 2059 2114	Of course, it may be true when talking about this topic
+T16	Premise 2116 2194	However, what if one finally find out him or her has the talent in other filed
+T17	Premise 2064 2107	In this way, it won't be a problem at all
+T18	MajorClaim 2481 2540	a broad knowledge of different subjects is really important
+A1	Stance T2 For
+A2	Stance T8 For
+A3	Stance T14 Against
+R1	supports Arg1:T2 Arg2:T1
+R2	supports Arg1:T3 Arg2:T2
+R3	supports Arg1:T4 Arg2:T2
+R4	supports Arg1:T5 Arg2:T2
+R5	supports Arg1:T6 Arg2:T2
+R6	supports Arg1:T7 Arg2:T2
+R7	supports Arg1:T8 Arg2:T1
+R8	supports Arg1:T9 Arg2:T8
+R9	supports Arg1:T10 Arg2:T8
+R10	supports Arg1:T11 Arg2:T8
+R11	supports Arg1:T12 Arg2:T8
+R12	supports Arg1:T13 Arg2:T8
+R13	attacks Arg1:T14 Arg2:T1
+R14	supports Arg1:T15 Arg2:T14
+R15	attacks Arg1:T16 Arg2:T14
+R16	attacks Arg1:T17 Arg2:T14

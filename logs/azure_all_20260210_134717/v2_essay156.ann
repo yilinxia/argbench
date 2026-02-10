@@ -1,0 +1,37 @@
+T1	MajorClaim 250 348	violence in movies has negative effects on youngsters mostly on their behaviors, emotions & study.
+T2	Claim 369 468	children behaviors are the most concerning matter which parents are always trying to do their best.
+T3	Premise 469 520	Nowadays children are more involved in TV programs.
+T4	Premise 521 587	Imagine an actor who is a child’s favorite is doing violent roles.
+T5	Premise 588 677	In this case, the child would imitate the actor's behaviors in order to look like to him.
+T6	Premise 678 752	Thus, unexpectedly the violent behavior has effected on child’s behaviors.
+T7	Claim 764 822	human beings are very sensitive, especially of youngsters.
+T8	Premise 823 879	For instance, dying is always a disappointing happening.
+T9	Premise 880 910	Furthermore, killing is worse.
+T10	Premise 911 1032	Therefore, if these scenes are in TV, they would probably have their negative effects on the viewer who could be a child.
+T11	Claim 1076 1129	the study of youngsters shall always been controlled.
+T12	Premise 1130 1179	For example, a child watches a frightening movie.
+T13	Premise 1180 1228	On the other hand, he has to study for the exam.
+T14	Premise 1229 1396	In this condition, because he is thinking about the movie or whatever has happened in it, it is obvious that he wouldn’t be able to concentrate on his study perfectly.
+T15	Premise 1397 1453	Hence, the study of a youngster would affected terribly.
+T16	MajorClaim 1494 1616	growing of violence in films have definitely negative effects on youngsters mostly on their study, emotions and behaviors.
+T17	Claim 1636 1704	this matter should be controlled by parents or somehow by directors.
+A1	Stance T2 For
+A2	Stance T7 For
+A3	Stance T11 For
+A4	Stance T17 For
+R1	supports Arg1:T16 Arg2:T1
+R2	supports Arg1:T2 Arg2:T1
+R3	supports Arg1:T3 Arg2:T2
+R4	supports Arg1:T4 Arg2:T2
+R5	supports Arg1:T5 Arg2:T2
+R6	supports Arg1:T6 Arg2:T2
+R7	supports Arg1:T7 Arg2:T1
+R8	supports Arg1:T8 Arg2:T7
+R9	supports Arg1:T9 Arg2:T7
+R10	supports Arg1:T10 Arg2:T7
+R11	supports Arg1:T11 Arg2:T1
+R12	supports Arg1:T12 Arg2:T11
+R13	supports Arg1:T13 Arg2:T11
+R14	supports Arg1:T14 Arg2:T11
+R15	supports Arg1:T15 Arg2:T11
+R16	supports Arg1:T17 Arg2:T1

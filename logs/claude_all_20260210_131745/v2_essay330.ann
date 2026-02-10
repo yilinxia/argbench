@@ -1,0 +1,23 @@
+T1	MajorClaim 70 136	People should sometimes do things, even though they don't enjoy it
+T2	Claim 502 581	most people's lives are filled with tasks that they don't enjoy doing.In person
+T3	Premise 584 714	live, we have some responsibilities towards to other people, there is nobody who likes all of these responsibilities. For instance
+T4	Premise 716 859	housework is very difficult for me, although my husband helps me some of them, but it is my responsibility. I really don't like any of them, ho
+T5	Claim 879 963	Secondly,professional lives are filled with tasks that is neccessary parts of the jo
+T6	Premise 967 1069	Nobody likes attending boring conferences, or working a person who isn't well in with anyone. I'm a re
+T7	Premise 1069 1270	search asistant at a university, and as any of the univesity in ours we have a professor who isn't good at human relationships, most of the asistans don't enjoy to talk with him about any situation, al
+T8	Claim 1310 1384	Thirdly, doing something which an individual doesn't enjoy can led to enjo
+T9	Premise 1391 1518	People sometimes can attend any activities by insisting on any of their friends although they don't really want. For example, o
+T10	Premise 1518 1780	ne of our friends tell my husband and me about a dance course which we both don't like. After insisting on some of our friends, we attended, and got really enjoyable time, we continued the course about six months although most of our friends left the course afte
+T11	MajorClaim 1791 1953	Nobody has a life with a lot of fun; there are sometimes unpleasant and boring parts which is not liked by anyone, but most of them are about responsibilities whi
+A1	Stance T2 For
+A2	Stance T5 For
+A3	Stance T8 For
+R1	supports Arg1:T3 Arg2:T2
+R2	supports Arg1:T4 Arg2:T2
+R3	supports Arg1:T6 Arg2:T5
+R4	supports Arg1:T7 Arg2:T5
+R5	supports Arg1:T9 Arg2:T8
+R6	supports Arg1:T10 Arg2:T8
+R7	supports Arg1:T2 Arg2:T1
+R8	supports Arg1:T5 Arg2:T1
+R9	supports Arg1:T8 Arg2:T1

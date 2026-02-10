@@ -1,0 +1,20 @@
+T1	MajorClaim 264 382	I am in favor of that idea because of their advantages and the fact we can see today about the use of these new means.
+T2	Claim 1238 1346	The popularity of email and text messaging, as a result, leads to the losing of written language's position.
+A1	Stance T2 For
+T3	Premise 1347 1477	People tend to use slangs and abbreviated words to shorten their writing and save more time in communicating for other activities.
+T4	Premise 1478 1546	The outcome is that language in writing is not in its original form.
+T5	Premise 1547 1725	Even in some cases, people compose a message with only emoticons (the expressions by face created by service providers), which means there is no room for writing or typing texts.
+T6	Premise 1726 1845	Moreover, it is more dangerous that youngsters sometimes use such new languages in their studying, writing assignments.
+T7	Premise 1846 1953	If that tendency continues at a rapid pace, written language may face up to a real problem about its stand.
+T8	Claim 1954 2092	In conclusion, we cannot deny the threat from email and text messaging to the status of written language because their obvious popularity.
+A2	Stance T8 For
+T9	Claim 2093 2300	Nevertheless, educators and individuals themselves, especially the youths should pay ore attention to this matter so that we can take advantages of the new language along with preserving the traditional one.
+A3	Stance T9 For
+R1	supports Arg1:T2 Arg2:T1
+R2	supports Arg1:T3 Arg2:T2
+R3	supports Arg1:T4 Arg2:T2
+R4	supports Arg1:T5 Arg2:T2
+R5	supports Arg1:T6 Arg2:T2
+R6	supports Arg1:T7 Arg2:T2
+R7	supports Arg1:T8 Arg2:T1
+R8	supports Arg1:T9 Arg2:T1

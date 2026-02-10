@@ -1,0 +1,31 @@
+T1	MajorClaim 603 678	I would definitely agree that the art and music should be required to study
+T2	Claim 694 774	art and music would broaden student's horizon and therefore make them thoughtful
+A1	Stance T2 For
+T3	Premise 776 966	It is well known that the art and music are not bound by country border, and they are something that is shared by the people from every parts of this world and is symbols of various cultures
+T4	Premise 993 1140	learning art and music enables students to appreciate the fruits of eminent artists and musicians and to feel the fascination of different cultures
+T5	Premise 1156 1295	students are able to feel the greatest music masterpiece in Euopren as the symphony of destiny-Beethoven's most notable workpiece is played
+T6	Claim 1311 1400	studying art and music is also the appropriate outlets of stress and superb ways to relax
+A2	Stance T6 For
+T7	Premise 1413 1624	with the improvement of life rhythm, people have currently suffered too much pressure from their studies or jobs, and these pressure are likely to destroy one person if he cannot find a way to emancipate himself
+T8	Premise 1626 1751	Art and music are, of course most accessible tools for modern people to liberate themselves from the extremely stressful life
+T9	Premise 1753 1970	When enjoying one piece of brilliant paintings, such as the Mona Lisa, people would put all their pressure down on the ground and just think about what the most proficient and mysterious smile in this world stands for
+T10	Premise 1972 2080	At this moment, they would totally involve in the ocean of art and their stressful nervous would be relieved
+T11	Premise 2094 2157	this sense towards art is built on the initial study on the art
+T12	Claim 2171 2251	the study of art and music is supposed to rely on younger student's own interest
+A3	Stance T12 Against
+T13	Premise 2253 2320	The education of art and music would not work if students resist it
+T14	Premise 2328 2492	the school should replace some basic science class with some art and music class in order to cultivate student's interest of art without adding extra study pressure
+T15	MajorClaim 2532 2733	since understanding of the lengthen and depth of the world is important and meanwhile people have burdened excessive pressure, younger students' art and music education should not take the second place
+R1	supports Arg1:T3 Arg2:T2
+R2	supports Arg1:T4 Arg2:T2
+R3	supports Arg1:T5 Arg2:T2
+R4	supports Arg1:T7 Arg2:T6
+R5	supports Arg1:T8 Arg2:T6
+R6	supports Arg1:T9 Arg2:T6
+R7	supports Arg1:T10 Arg2:T6
+R8	supports Arg1:T11 Arg2:T6
+R9	supports Arg1:T13 Arg2:T12
+R10	supports Arg1:T14 Arg2:T12
+R11	supports Arg1:T2 Arg2:T1
+R12	supports Arg1:T6 Arg2:T1
+R13	attacks Arg1:T12 Arg2:T1

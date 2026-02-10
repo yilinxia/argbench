@@ -1,0 +1,38 @@
+T1	MajorClaim 0 66	Government should spend money on ARTs, not only on public services
+T2	Claim 465 535	the government should give priority to public services and facilities.
+T3	Premise 536 723	This is because the government plays the role of a leader among citizens, which should discharge the responsibility of making optimal use of the tax money to keep society safe and stable.
+T4	Premise 740 931	public services such as education system or medical care can meet people's basic demand of survival, security and knowledge, thus making them feel comfortable, which can lower the crime rate.
+T5	Claim 943 1057	public services and facilities should be given adequate attention by the authorities to maintain social stability.
+T6	Claim 1077 1146	I believe arts should by no means been disregarded by the government.
+T7	Premise 1161 1201	arts can enrich people's cultural lives.
+T8	Premise 1213 1303	people are increasingly occupied with their work and studies due to the stiff competition.
+T9	Premise 1318 1430	they require various entertainment such as music, movies or books to them ease their minds and release pressure.
+T10	Premise 1431 1505	Without arts, people would be at risk of suffering psychological problems.
+T11	Claim 1545 1619	funding arts is beneficial to the local cultural and economic development.
+T12	Premise 1620 1676	Cultural heritage constitutes an essential part of arts.
+T13	Premise 1688 1894	preserving local arts may promote the preservation of the local cultural heritage, which not only helps the local people have a sense of belonging but also contributes to the booming local tourism industry.
+T14	Claim 1909 1951	arts serve cultural and economic purposes.
+T15	Claim 2004 2086	public services and facilities are an integral part of the government expenditure.
+T16	Claim 2105 2208	the authorities should also respect the value of arts which are individually and socially advantageous.
+A1	Stance T2 Against
+A2	Stance T5 Against
+A3	Stance T6 For
+A4	Stance T11 For
+A5	Stance T14 For
+A6	Stance T15 Against
+A7	Stance T16 For
+R1	supports Arg1:T3 Arg2:T2
+R2	supports Arg1:T4 Arg2:T2
+R3	supports Arg1:T2 Arg2:T5
+R4	supports Arg1:T5 Arg2:T1
+R5	supports Arg1:T7 Arg2:T6
+R6	supports Arg1:T8 Arg2:T9
+R7	supports Arg1:T9 Arg2:T6
+R8	supports Arg1:T10 Arg2:T6
+R9	supports Arg1:T6 Arg2:T1
+R10	supports Arg1:T12 Arg2:T11
+R11	supports Arg1:T13 Arg2:T11
+R12	supports Arg1:T11 Arg2:T14
+R13	supports Arg1:T14 Arg2:T1
+R14	supports Arg1:T15 Arg2:T1
+R15	supports Arg1:T16 Arg2:T1

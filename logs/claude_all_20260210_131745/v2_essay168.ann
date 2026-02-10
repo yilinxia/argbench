@@ -1,0 +1,41 @@
+T1	MajorClaim 69 173	Some people think that working at home brings to workers and employees too much convenience, but i don't
+T2	Claim 269 351	Working without pressure and interaction are some examples for these disadvantages
+A1	Stance T2 For
+T3	Claim 353 375	Pressure is motivation
+A2	Stance T3 For
+T4	Premise 377 460	Each office has its rules that keep workers do their job as effectively as possible
+T5	Premise 462 531	The directors manage employers and give them the deadline of projects
+T6	Premise 533 601	Then again, the workers must try their best to finish the time limit
+T7	Premise 603 672	Doing all jobs at home don't make employees attempt to work like this
+T8	Premise 675 768	Computers and modems bring works to home but these still have many things distract their mind
+T9	Premise 770 897	Facebook or Yahoo have been the entertaining websites, however, they are the reasons why people cannot concentrate on their job
+T10	Premise 899 983	The dos and don't at office play important role to prevent these things from workers
+T11	Premise 985 1054	In condition, doing all jobs alone makes employees fall asleep easily
+T12	Premise 1056 1098	As a result, the project cannot being done
+T13	Claim 1100 1147	The best condition might not be good for people
+A3	Stance T13 For
+T14	Claim 1150 1206	Interaction has been an advantage for workers at offices
+A4	Stance T14 For
+T15	Premise 1208 1363	Discussing and debating Projects together increase working ability because all we know that the target can be reached fast thanks to working of many people
+T16	Premise 1365 1504	Besides, interaction help employees improve their communicational skills, therefore, they will have more and more friends and relationships
+T17	Claim 1506 1556	Interaction is a factor increasing working quality
+A5	Stance T17 For
+T18	MajorClaim 1558 1620	There will have many disadvantages if the workers work at home
+T19	Premise 1622 1739	Mitigating process, no interaction and pressure are these things people should examine when they want to work at home
+R1	supports Arg1:T4 Arg2:T3
+R2	supports Arg1:T5 Arg2:T3
+R3	supports Arg1:T6 Arg2:T3
+R4	supports Arg1:T7 Arg2:T3
+R5	supports Arg1:T8 Arg2:T13
+R6	supports Arg1:T9 Arg2:T13
+R7	supports Arg1:T10 Arg2:T13
+R8	supports Arg1:T11 Arg2:T13
+R9	supports Arg1:T12 Arg2:T13
+R10	supports Arg1:T15 Arg2:T14
+R11	supports Arg1:T16 Arg2:T17
+R12	supports Arg1:T3 Arg2:T2
+R13	supports Arg1:T13 Arg2:T1
+R14	supports Arg1:T14 Arg2:T2
+R15	supports Arg1:T17 Arg2:T2
+R16	supports Arg1:T2 Arg2:T1
+R17	supports Arg1:T19 Arg2:T18

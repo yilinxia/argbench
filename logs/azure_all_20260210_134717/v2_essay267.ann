@@ -1,0 +1,31 @@
+T1	MajorClaim 225 313	Therefore, I agree that Television has destroyed communication among friends and family.
+T2	Claim 451 517	First of all, some people spend a lot of time watching television.
+A1	Stance T2 For
+T3	Premise 518 604	Instead of spend time with family and friends, they like to seat on a chair for hours.
+T4	Premise 605 861	I know someone who wakes up in the morning and before even eat he turns the television on, he even records the programs he cannot watch during work hours. Sometimes his wife wants to talk before they go to work, but he only let her talk during commercials.
+T5	Premise 862 930	So, she is used to his habit that she prefers to write him an email.
+T6	Premise 931 1035	Time with the family is gold, some people have to realize that and take quality of time to talk to them.
+T7	Claim 1036 1169	Another way television has destroyed communication is when some people cannot even seat at the table and have dinner with the family.
+A2	Stance T7 For
+T8	Premise 1170 1284	This is the time, when if they have children, they can share everything about school, a project and even concerns.
+T9	Premise 1285 1421	Also, when there is a dinner with friends, some people do not have a fluid conversation because the television is again in between them.
+T10	Premise 1422 1539	When family or friends gather together to have a good time eating and talking, this is not the reality in some cases.
+T11	Claim 1540 1592	Finally, some people make the television a priority.
+A3	Stance T11 For
+T12	Premise 1593 1732	I remember a friend told me one day that because she was watching a telenovela I could not go to her house a certain time during the night.
+T13	Premise 1733 1789	Honestly, I was in shock! How she could say that to me?.
+T14	Claim 1791 2073	As I have said, television is a great tool to learn, entertain and inform what is happening, but I agree that television has destroyed communication among friends and family as soon as television become a priority, spend a lot of time watching it and eat in front of the television.
+A4	Stance T14 For
+R1	supports Arg1:T2 Arg2:T1
+R2	supports Arg1:T3 Arg2:T2
+R3	supports Arg1:T4 Arg2:T2
+R4	supports Arg1:T5 Arg2:T2
+R5	supports Arg1:T6 Arg2:T2
+R6	supports Arg1:T7 Arg2:T1
+R7	supports Arg1:T8 Arg2:T7
+R8	supports Arg1:T9 Arg2:T7
+R9	supports Arg1:T10 Arg2:T7
+R10	supports Arg1:T11 Arg2:T1
+R11	supports Arg1:T12 Arg2:T11
+R12	supports Arg1:T13 Arg2:T11
+R13	supports Arg1:T14 Arg2:T1

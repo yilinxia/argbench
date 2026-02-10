@@ -1,0 +1,31 @@
+T1	MajorClaim 24 158	I believe public museums and art galleries will still be necessary, even though we can see the art works and historical objects online
+T2	Premise 160 282	Most people nowadays prefer to use the Internet to search for art work because the Internet really brings them convenience
+T3	Premise 284 342	We can browse the art work from all over the world at home
+T4	Claim 344 450	However, people may not get a spiritual experience since pictures online are only limited to a screen size
+A1	Stance T4 For
+T5	Premise 465 562	the exhibits in museums or galleries are all life size and visitors can get a more direct felling
+T6	Premise 577 636	only when we see the real mummy, can we experience mystique
+T7	Claim 638 781	In order to help visitors to learn more about the exhibits, museums hold various activities which make visitors be part of what they are seeing
+A2	Stance T7 For
+T8	Premise 796 903	at American Museum of Natural History, you can make a bone-by-bone reproduction of the museum's stegosaurus
+T9	Premise 905 1006	at Museum of Art in New York, you can look at 17th century instruments while listening to their music
+T10	Premise 1008 1095	While if you "visit" the museum online, you may not able to get this kind of experience
+T11	Claim 1097 1183	Seeing an art work on computer screen is not the same as you watch it by your own eyes
+A3	Stance T11 For
+T12	Premise 1199 1302	you can't see the texture of the artwork which is very important to study the skills used by the artist
+T13	Premise 1317 1387	not all the details of the artwork can be shown on the computer screen
+T14	Premise 1389 1474	Some details might be dim since the resolution ratio of the screen is not high enough
+T15	Premise 1476 1551	These may influence the comprehension of the art work or historical objects
+T16	MajorClaim 1568 1755	I believe we still need museums and art galleries but computers can be introduced to museums and galleries in order to help visitors to know more about the art works or historical objects
+R1	supports Arg1:T5 Arg2:T4
+R2	supports Arg1:T6 Arg2:T4
+R3	supports Arg1:T4 Arg2:T1
+R4	supports Arg1:T8 Arg2:T7
+R5	supports Arg1:T9 Arg2:T7
+R6	supports Arg1:T10 Arg2:T7
+R7	supports Arg1:T7 Arg2:T1
+R8	supports Arg1:T12 Arg2:T11
+R9	supports Arg1:T13 Arg2:T11
+R10	supports Arg1:T14 Arg2:T13
+R11	supports Arg1:T15 Arg2:T11
+R12	supports Arg1:T11 Arg2:T1

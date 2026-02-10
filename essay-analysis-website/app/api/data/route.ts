@@ -4,6 +4,8 @@ import path from "path"
 
 const ROOT_DIR = path.join(process.cwd(), "..")
 const STATIC_DATA_PATH = path.join(process.cwd(), "public", "data", "all-data.json")
+const TEXT_DIR = path.join(ROOT_DIR, "data", "text")
+const GOLD_DIR = path.join(ROOT_DIR, "data", "gold_arg")
 
 // Check if we're using static data (production/Vercel) or filesystem (development)
 const useStaticData = fs.existsSync(STATIC_DATA_PATH)
@@ -93,10 +95,12 @@ function getLogRuns(): LogRun[] {
   const runs: LogRun[] = []
   
   for (const folder of folders) {
-    // Parse folder name: model_timestamp (e.g., gemini_20260209_143755)
-    const match = folder.match(/^(\w+)_(\d{8}_\d{6})$/)
+    // Parse folder name: model_timestamp or model_all_timestamp (e.g., gemini_20260209_143755 or gemini_all_20260210_111150)
+    const match = folder.match(/^(\w+?)(?:_all)?_(\d{8}_\d{6})$/)
     if (match) {
-      const [, model, timestamp] = match
+      const [, baseModel, timestamp] = match
+      // Extract just the base model name (azure, claude, gemini)
+      const model = baseModel
       // Format timestamp for display: 20260209_143755 -> 2026-02-09 14:37:55
       const formattedTime = `${timestamp.slice(0, 4)}-${timestamp.slice(4, 6)}-${timestamp.slice(6, 8)} ${timestamp.slice(9, 11)}:${timestamp.slice(11, 13)}:${timestamp.slice(13, 15)}`
       
@@ -110,12 +114,16 @@ function getLogRuns(): LogRun[] {
       
       const modelDisplayName = MODEL_DISPLAY_NAMES[model] || model.charAt(0).toUpperCase() + model.slice(1)
       
+      // Add indicator if this is an "all" run
+      const isAllRun = folder.includes("_all_")
+      const runType = isAllRun ? " (All)" : ""
+      
       runs.push({
         model,
         modelDisplayName,
         timestamp,
         folder,
-        displayName: `${modelDisplayName} (${formattedTime})`,
+        displayName: `${modelDisplayName}${runType} (${formattedTime})`,
         prompt
       })
     }
@@ -134,8 +142,8 @@ function getEssays(): EssayData[] {
   }
   
   // Fall back to filesystem (development)
-  const textDir = path.join(ROOT_DIR, "text")
-  const goldDir = path.join(ROOT_DIR, "gold_arg")
+  const textDir = TEXT_DIR
+  const goldDir = GOLD_DIR
   
   if (!fs.existsSync(textDir)) {
     return []
@@ -143,7 +151,23 @@ function getEssays(): EssayData[] {
   
   const textFiles = fs.readdirSync(textDir)
     .filter(f => f.endsWith(".txt"))
-    .sort()
+    .sort((a, b) => {
+      // Custom sort to ensure v1 comes before v2 and proper numeric ordering
+      const aMatch = a.match(/^(v\d+)_essay(\d+)\.txt$/)
+      const bMatch = b.match(/^(v\d+)_essay(\d+)\.txt$/)
+      
+      if (aMatch && bMatch) {
+        // Compare versions first
+        if (aMatch[1] !== bMatch[1]) {
+          return aMatch[1].localeCompare(bMatch[1])
+        }
+        // Then compare essay numbers numerically
+        return parseInt(aMatch[2]) - parseInt(bMatch[2])
+      }
+      
+      // Fallback to regular sort
+      return a.localeCompare(b)
+    })
   
   const essays: EssayData[] = []
   
@@ -180,10 +204,23 @@ function getAnnotation(logFolder: string, essayId: string): string | null {
   }
   
   // Fall back to filesystem (development)
-  const annPath = path.join(ROOT_DIR, "logs", logFolder, `${essayId}.ann`)
+  // Try with full essay ID first (e.g., v1_essay01.ann)
+  let annPath = path.join(ROOT_DIR, "logs", logFolder, `${essayId}.ann`)
   
   if (fs.existsSync(annPath)) {
     return fs.readFileSync(annPath, "utf-8")
+  }
+  
+  // If not found and essayId has version prefix, try without it
+  // This handles older logs that don't have version prefix in filenames
+  const versionMatch = essayId.match(/^v\d+_(.+)$/)
+  if (versionMatch) {
+    const essayIdWithoutVersion = versionMatch[1]
+    annPath = path.join(ROOT_DIR, "logs", logFolder, `${essayIdWithoutVersion}.ann`)
+    
+    if (fs.existsSync(annPath)) {
+      return fs.readFileSync(annPath, "utf-8")
+    }
   }
   
   return null
@@ -358,6 +395,55 @@ export async function GET(request: Request) {
     
     const annotation = getAnnotation(logFolder, essayId)
     return NextResponse.json({ annotation })
+  }
+  
+  if (action === "availableEssays") {
+    // Get list of essay IDs that have annotations in a specific log run
+    const logFolder = searchParams.get("logFolder")
+    
+    if (!logFolder) {
+      return NextResponse.json({ error: "Missing logFolder" }, { status: 400 })
+    }
+    
+    const essayIds: string[] = []
+    
+    if (useStaticData) {
+      const data = getStaticData()
+      const folderAnnotations = data.annotations[logFolder]
+      if (folderAnnotations) {
+        essayIds.push(...Object.keys(folderAnnotations))
+      }
+    } else {
+      // Check filesystem
+      const logPath = path.join(ROOT_DIR, "logs", logFolder)
+      if (fs.existsSync(logPath)) {
+        const annFiles = fs.readdirSync(logPath)
+          .filter(f => f.endsWith(".ann"))
+        
+        const essays = getEssays()
+        const essayIdSet = new Set(essays.map(e => e.id))
+        
+        for (const annFile of annFiles) {
+          const baseId = annFile.replace(".ann", "")
+          
+          // Check if this matches any essay ID directly
+          if (essayIdSet.has(baseId)) {
+            essayIds.push(baseId)
+          } else {
+            // Check if we need to add version prefix
+            for (const essayId of essayIdSet) {
+              const versionMatch = essayId.match(/^(v\d+)_(.+)$/)
+              if (versionMatch && versionMatch[2] === baseId) {
+                essayIds.push(essayId)
+                break
+              }
+            }
+          }
+        }
+      }
+    }
+    
+    return NextResponse.json({ essayIds })
   }
   
   if (action === "stats") {

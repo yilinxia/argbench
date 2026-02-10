@@ -1,0 +1,17 @@
+T1	MajorClaim 1909 2043	a government should spare effort on young children education as well as universities, both are crucial on the way to a brighter future
+T2	Claim 446 539	there's no doubt that a government is supposed to offer sufficient financial support for both
+A1	Stance T2 For
+T3	Claim 541 687	Concerning that elementary education, like the base of a architecture, is the fundamental requirement to be a qualified citizen in today's society
+T4	Claim 689 771	government should guarantee that all people have equal and convenient access to it
+A2	Stance T4 For
+T5	Premise 776 942	a lack of well-established primary education goes hand in hand with a high rate of illiteracy, and this interplay seriously compromises a country's future development
+T6	Premise 944 1167	In other words, if countries, especially the developing countries, are determined to take off, one of the key points governments should set on agenda is to educate more qualified future citizens through elementary education
+T7	Claim 1169 1331	That's not enough, for higher education, which represent the cutting edge of a country's academic achievements, act as the vanguard in economic and social advance
+A3	Stance T7 For
+T8	Premise 1333 1487	The high technology and new ideas applied into practice may not only lead a country to flourish but also elevate its status in the international community
+R1	supports Arg1:T3 Arg2:T4
+R2	supports Arg1:T5 Arg2:T4
+R3	supports Arg1:T6 Arg2:T4
+R4	supports Arg1:T8 Arg2:T7
+R5	supports Arg1:T4 Arg2:T1
+R6	supports Arg1:T7 Arg2:T1

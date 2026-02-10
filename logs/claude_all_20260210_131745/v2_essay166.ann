@@ -1,0 +1,36 @@
+T1	MajorClaim 262 303	I think I would prefer to live in a city.
+T2	Claim 304 345	Big city life provides many opportunities
+T3	Premise 347 424	First of all, it will be easier for me to find an engineering job in the city
+T4	Premise 426 498	Electrical engineering deals with problems concerning electricity supply
+T5	Premise 511 572	a big city can offer me many more vacancies than a small town
+T6	Claim 574 648	At the weekends, there is a great number of things to do in the metropolis
+T7	Premise 650 727	There are numerous bars, cafes and restaurants where I can go with my friends
+T8	Premise 729 799	Multinational cities have restaurants with different national cuisines
+T9	Premise 801 905	I am fond of Italian food, and if there is an Italian restaurant in the city, I will definitely visit it
+T10	Premise 907 969	A night club is an interesting place to visit for young people
+T11	Premise 971 1048	There a person can listen to music, make new friends or enjoy a a drink alone
+T12	Claim 1050 1109	Cultural life of a metropolis is always an entertaining one
+T13	Premise 1111 1249	I am keen on museums and it would be a pleasure for me to spend several hours a week in front of famous paintings, sculptures or artifacts
+T14	Premise 1251 1355	On special dates, city offers free exhibitions which are available for everyone who is interested in art
+T15	Claim 1357 1431	What's more, cities have better medical facilities than in the countryside
+T16	Premise 1433 1517	This can at least assure me that if I feel bad, city can provide a high quality help
+T17	MajorClaim 1668 1734	Considering all the benefits, I would choose to live in a big city
+A1	Stance T2 For
+A2	Stance T6 For
+A3	Stance T12 For
+A4	Stance T15 For
+R1	supports Arg1:T2 Arg2:T1
+R2	supports Arg1:T3 Arg2:T2
+R3	supports Arg1:T4 Arg2:T3
+R4	supports Arg1:T5 Arg2:T3
+R5	supports Arg1:T6 Arg2:T1
+R6	supports Arg1:T7 Arg2:T6
+R7	supports Arg1:T8 Arg2:T6
+R8	supports Arg1:T9 Arg2:T8
+R9	supports Arg1:T10 Arg2:T6
+R10	supports Arg1:T11 Arg2:T10
+R11	supports Arg1:T12 Arg2:T1
+R12	supports Arg1:T13 Arg2:T12
+R13	supports Arg1:T14 Arg2:T12
+R14	supports Arg1:T15 Arg2:T1
+R15	supports Arg1:T16 Arg2:T15

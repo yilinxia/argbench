@@ -1,0 +1,27 @@
+T1	MajorClaim 338 475	I agree with the latter because the internet gives daily necessary information, people can gain knowledge and they can explore the world.
+T2	Claim 490 576	everybody would like to know what is going on around the world in their everyday lives
+T3	Premise 578 700	Sometimes, they want an information that can help them in daily life which the internet can provide all of these to people
+T4	Premise 702 851	For example, a businessman who has no time to watch a television or read a newspaper can receive news and check stock markets easily via the internet
+T5	Claim 866 959	people can gain more knowledge by using the internet, the most useful technology in the world
+T6	Premise 961 1098	Many people such as students can take online courses to study at home or they can watch beneficial videos which also teach them knowledge
+T7	Premise 1100 1176	Not only students but also everyone could get more information and knowledge
+T8	Premise 1178 1275	For instance, people who have problems with their health can search for more information about it
+T9	Claim 1297 1363	The internet makes the world becomes smaller which is a good thing
+T10	Premise 1365 1483	This is because people who have no time or have financial problems could travel around the world by using the internet
+T11	Premise 1485 1551	They can see lots of picture and videos of many interesting places
+T12	Premise 1553 1675	Moreover, people can learn other countries's culture and tradition which makes them have more knowledge about that nations
+T13	MajorClaim 1690 1829	people are satisfied with the internet and sometimes even thanks it because it helps us in studying, doing business and exploring the world
+A1	Stance T2 For
+A2	Stance T5 For
+A3	Stance T9 For
+R1	supports Arg1:T3 Arg2:T2
+R2	supports Arg1:T4 Arg2:T2
+R3	supports Arg1:T2 Arg2:T1
+R4	supports Arg1:T6 Arg2:T5
+R5	supports Arg1:T7 Arg2:T5
+R6	supports Arg1:T8 Arg2:T5
+R7	supports Arg1:T5 Arg2:T1
+R8	supports Arg1:T10 Arg2:T9
+R9	supports Arg1:T11 Arg2:T9
+R10	supports Arg1:T12 Arg2:T9
+R11	supports Arg1:T9 Arg2:T1

@@ -1,0 +1,26 @@
+T1	MajorClaim 264 353	I personally consider this fact as the harmful thing that television has brought upon us.
+T2	Claim 368 440	since people watch television too much, they can be isolated from others
+A1	Stance T2 For
+T3	Premise 442 654	Children, for example, pay more attention on movies, music show provided by television and do not want to do anything else such as going to school or practicing exercise with friends will be taken apart by others
+T4	Premise 656 728	Gradually, their friends leave them behind either activities or studying
+T5	Claim 787 847	each family has three or four TV in each room is more common
+A2	Stance T5 For
+T6	Premise 849 958	Parents and even children do not want to communicate with each other instead of watching TV in their own room
+T7	Premise 978 1054	children will learn behavior from what they see on TV not from their parents
+T8	Premise 1066 1153	parents are not able to function their parental care as the necessary thing to children
+T9	Claim 1168 1225	communication between family members is visibly destroyed
+A3	Stance T9 For
+T10	Claim 1247 1350	watching too much television people will unconsciously learn bad behavior that sow division among human
+A4	Stance T10 For
+T11	Premise 1365 1455	watching film about terrorist children will be able to consider terrorism as a right thing
+T12	MajorClaim 1601 1695	though television has some good sides, it has destroyed communication among friends and family
+R1	supports Arg1:T3 Arg2:T2
+R2	supports Arg1:T4 Arg2:T2
+R3	supports Arg1:T6 Arg2:T9
+R4	supports Arg1:T7 Arg2:T9
+R5	supports Arg1:T8 Arg2:T9
+R6	supports Arg1:T5 Arg2:T9
+R7	supports Arg1:T11 Arg2:T10
+R8	supports Arg1:T2 Arg2:T1
+R9	supports Arg1:T9 Arg2:T1
+R10	supports Arg1:T10 Arg2:T1

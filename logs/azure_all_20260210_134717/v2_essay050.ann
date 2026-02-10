@@ -1,0 +1,42 @@
+T1	MajorClaim 1809 1926	In conclusion, I think that in order to be a competitive worker, students must know their field in an advanced level.
+T2	MajorClaim 1999 2094	An integration of music into learning process bound to be successful when it is not compulsory.
+T3	Claim 267 375	It is obvious that music has a great power which can positively influence on human being and its psychology.
+A1	Stance T3 For
+T4	Premise 376 508	Therefore, many university authorities provide music lessons for their students so that they live and study in a harmony with music.
+T5	Claim 509 696	I have an impression that students, who spend a great deal of their time studying different academic subjects should have an opportunity to cope with the stress gained during school time.
+A2	Stance T5 For
+T6	Premise 697 758	In this case, music can be a useful and interesting solution.
+T7	Claim 759 935	Moreover, if musical activity involves many participants, there will be co-operation and developed team work in the group, which is, of course, beneficial in their future life.
+A3	Stance T7 For
+T8	Claim 936 1025	In fact, students with a quite poor academic background can show themselves in the music.
+A4	Stance T8 For
+T9	Premise 1026 1090	Consequently, the calm atmosphere in the class might be created.
+T10	Claim 1091 1180	By contrast, it is clear that music can have many mentally enhancing effects on students.
+A5	Stance T10 For
+T11	Claim 1181 1300	In our hectic life, however, demand is not for musically orientated students, but for academically developed employees.
+A6	Stance T11 Against
+T12	Premise 1301 1403	Hence, I agree with the majority, because music is the art which requires special attitude towards it.
+T13	Premise 1404 1516	Increasingly however, students can not obtain supposed impacts, unless they get interested in it more seriously.
+T14	Claim 1517 1585	Therefore, music and other entertaining subjects should be optional.
+A7	Stance T14 Against
+T15	Premise 1586 1656	Nowadays, time is the most valuable thing in life with increased pace.
+T16	Claim 1657 1808	To my mind, students are to develop their professional skills by learning occupation-related subjects, rather than playing on guitar or singing a song.
+A8	Stance T16 Against
+T17	Claim 1927 1998	On the other hand, music can help an individual to shape its character.
+A9	Stance T17 For
+R1	supports Arg1:T4 Arg2:T3
+R2	supports Arg1:T6 Arg2:T5
+R3	supports Arg1:T9 Arg2:T8
+R4	supports Arg1:T3 Arg2:T2
+R5	supports Arg1:T5 Arg2:T2
+R6	supports Arg1:T7 Arg2:T2
+R7	supports Arg1:T8 Arg2:T2
+R8	supports Arg1:T10 Arg2:T2
+R9	supports Arg1:T17 Arg2:T2
+R10	supports Arg1:T11 Arg2:T1
+R11	supports Arg1:T12 Arg2:T14
+R12	supports Arg1:T13 Arg2:T14
+R13	supports Arg1:T15 Arg2:T16
+R14	supports Arg1:T16 Arg2:T1
+R15	supports Arg1:T14 Arg2:T2
+R16	attacks Arg1:T1 Arg2:T2

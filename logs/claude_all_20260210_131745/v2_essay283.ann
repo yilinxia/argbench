@@ -1,0 +1,52 @@
+T1	MajorClaim 271 372	paying for teacher base on grade that students got is not appropriate, and it is not fair for teacher
+T2	Claim 383 410	I disagree with this notion
+T3	Premise 427 527	in schools, main task of teacher to give knowledge to students, and this role have to finish in time
+T4	Premise 529 583	there are certain period of time for teachers to teach
+T5	Claim 585 686	In these short time, it is not possible for teachers to pay attention to individual students in class
+T6	Premise 688 745	Teachers have to manage to teach every topics by schedule
+T7	Premise 747 912	If teachers pay attention to specific students, their work might not finish on time, and this might make many student miss some field in topics that they should know
+T8	Claim 922 970	learning abilities in each students is different
+T9	Premise 972 1054	It is not possible that they all comprehend all lessons in the same period of time
+T10	Premise 1056 1135	Some students might understand all topics that they had learnt but some are not
+T11	Premise 1137 1176	Therefore, testing result are different
+T12	Premise 1178 1224	This problems depend on how hard study they do
+T13	Premise 1226 1250	It is not teachers fault
+T14	Claim 1258 1321	teachers should not be paid by testing result that students get
+T15	Claim 1331 1415	there could lead to a big problem if schools pay teachers by grade that students get
+T16	Premise 1417 1456	That is problem in quality of education
+T17	Premise 1458 1546	Teacher may not care about how they have to teach to make students understand the topics
+T18	Premise 1548 1603	Teachers may just give high grades to get higher salary
+T19	Premise 1605 1640	This problem should not be happened
+T20	Claim 1653 1712	grade that students get should not be in evaluating teacher
+T21	MajorClaim 1729 1829	I totally disagree with this statement that teachers should be paid by how much their students learn
+T22	Premise 1838 1895	teacher could not pay attention to each students in class
+T23	Premise 1906 1949	learning abilities of student are different
+T24	Premise 1961 2019	there are problems if paying teacher by grade students get
+A1	Stance T2 Against
+A2	Stance T5 Against
+A3	Stance T8 Against
+A4	Stance T14 Against
+A5	Stance T15 Against
+A6	Stance T20 Against
+R1	supports Arg1:T2 Arg2:T1
+R2	supports Arg1:T3 Arg2:T5
+R3	supports Arg1:T4 Arg2:T5
+R4	supports Arg1:T6 Arg2:T5
+R5	supports Arg1:T7 Arg2:T5
+R6	supports Arg1:T5 Arg2:T1
+R7	supports Arg1:T9 Arg2:T8
+R8	supports Arg1:T10 Arg2:T8
+R9	supports Arg1:T11 Arg2:T14
+R10	supports Arg1:T12 Arg2:T14
+R11	supports Arg1:T13 Arg2:T14
+R12	supports Arg1:T8 Arg2:T14
+R13	supports Arg1:T14 Arg2:T1
+R14	supports Arg1:T16 Arg2:T15
+R15	supports Arg1:T17 Arg2:T15
+R16	supports Arg1:T18 Arg2:T15
+R17	supports Arg1:T19 Arg2:T20
+R18	supports Arg1:T15 Arg2:T20
+R19	supports Arg1:T20 Arg2:T1
+R20	supports Arg1:T22 Arg2:T21
+R21	supports Arg1:T23 Arg2:T21
+R22	supports Arg1:T24 Arg2:T21

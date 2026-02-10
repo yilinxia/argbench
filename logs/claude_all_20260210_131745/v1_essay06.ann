@@ -1,0 +1,62 @@
+T1	MajorClaim 540 613	It is a crucial element for living a healthier, longer, and happier life.
+T2	Claim 615 699	The number one reason why people should exercise is because it will keep you healthy
+A1	Stance T2 For
+T3	Premise 701 825	Americans are eating enormous amounts of fast foods these days, so cardiovascular diseases are becoming more and more common
+T4	Premise 827 980	One out of every four Americans are suffering from some form of cardiovascular diseases, which results in more than forty-five percent of deaths annually
+T5	Premise 982 1026	The main cause for this condition is obesity
+T6	Premise 1028 1100	The more body fat that you have, the greater your risk for heart disease
+T7	Premise 1102 1177	However, this condition can easily be prevented or controlled by exercising
+T8	Premise 1179 1222	Exercising makes the heart muscles stronger
+T9	Premise 1224 1384	When your heart muscle is strong it can do the same amount of work at a lower heart rate, so the heart doesn't have to work as hard as it does with weak muscles
+T10	Premise 1386 1535	In today's society people are less concerned with the food they eat and their physical condition, so many serious illnesses are becoming quite common
+T11	Premise 1537 1680	Exercising not only helps prevent cardiovascular diseases, but it also helps prevent strokes, type 2 diabetes, and even certain types of cancer
+T12	Claim 1683 1762	The second benefit to exercising is that it improves self-esteem and confidence
+A2	Stance T12 For
+T13	Premise 1764 1862	Most people think of exercising as only being a physical activity, but it's also a mental activity
+T14	Premise 1864 1970	There have been studies that show evidence that people who exercise have higher self esteem and confidence
+T15	Premise 1972 2052	It also showed that active people are less likely to have depression and anxiety
+T16	Premise 2054 2176	Exercising gives people energy, which helps people have positive outlooks on life and it helps relieves tension and stress
+T17	Premise 2178 2282	When you exercise you body releases endorphins, which are chemicals that create a happy feeling in brain
+T18	Premise 2284 2396	Plus, when you're exercising you're bringing more oxygen into you lungs and your brain appreciates the extra air
+T19	Premise 2398 2462	Exercising also helps improve you brain function and your memory
+T20	Claim 2464 2529	In my opinion the best reason to exercise is that it's really fun
+A3	Stance T20 For
+T21	Premise 2531 2617	Most people think that exercising takes up a lot of time and it requires too much work
+T22	Premise 2619 2713	When people actually take the time to try exercising they realize it's an enjoyable experience
+T23	Premise 2715 2782	It doesn't matter how you exercise, as long as you are being active
+T24	Premise 2784 2885	Everyone enjoys different sports or activities, so it's important to figure out which is best for you
+T25	Premise 2887 2986	When you having fun you don't even realize that your exercising and you look forward to it everyday
+T26	Premise 3075 3180	There is no greater feeling than achieving a weight lose goal and being able to feel good about your body
+T27	MajorClaim 3232 3304	exercising is the key to making your life healthier, longer, and happier
+T28	Premise 3306 3392	It is one of the most important things in life and it's one hundred percent beneficial
+T29	Claim 3571 3672	Everyone should take time out of their days to exercise, so they can improve their lives in many ways
+A4	Stance T29 For
+T30	Premise 3787 3827	It is extremely rewarding and worthwhile
+R1	supports Arg1:T3 Arg2:T2
+R2	supports Arg1:T4 Arg2:T2
+R3	supports Arg1:T5 Arg2:T2
+R4	supports Arg1:T6 Arg2:T2
+R5	supports Arg1:T7 Arg2:T2
+R6	supports Arg1:T8 Arg2:T2
+R7	supports Arg1:T9 Arg2:T8
+R8	supports Arg1:T10 Arg2:T2
+R9	supports Arg1:T11 Arg2:T2
+R10	supports Arg1:T2 Arg2:T1
+R11	supports Arg1:T13 Arg2:T12
+R12	supports Arg1:T14 Arg2:T12
+R13	supports Arg1:T15 Arg2:T12
+R14	supports Arg1:T16 Arg2:T12
+R15	supports Arg1:T17 Arg2:T12
+R16	supports Arg1:T18 Arg2:T12
+R17	supports Arg1:T19 Arg2:T12
+R18	supports Arg1:T12 Arg2:T1
+R19	supports Arg1:T21 Arg2:T20
+R20	supports Arg1:T22 Arg2:T20
+R21	supports Arg1:T23 Arg2:T20
+R22	supports Arg1:T24 Arg2:T20
+R23	supports Arg1:T25 Arg2:T20
+R24	supports Arg1:T26 Arg2:T20
+R25	supports Arg1:T20 Arg2:T1
+R26	supports Arg1:T28 Arg2:T27
+R27	supports Arg1:T29 Arg2:T27
+R28	supports Arg1:T30 Arg2:T29

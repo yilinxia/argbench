@@ -1,0 +1,24 @@
+T1	MajorClaim 291 492	In my opinion, I agree with the second idea that the best way for teachers to make students more interested in a subject is to explain how that subject can help and apply to their lives outside school.
+T2	Claim 493 698	First of all, by explaining how the subject contributes to daily life, students will have vivid impression on that subject thus become more interested and active in acquiring the knowledge on that subject.
+A1	Stance T2 For
+T3	Premise 699 1001	Take chemistry for example, merely memorizing the names of the substances and the structural formulas seems to be very boring, while representing where and how those chemical reactions really happen near students will raise their curiosity and lead them to digest those theories learned from the class.
+T4	Premise 1002 1205	While I was in senior high school, my chemical teacher once showed us how the detergent dissolves oil by an experiment and later on taught us how to describe this process with formal structural formulas.
+T5	Premise 1206 1283	This type of learning method is more fun and eventually the results are good.
+T6	Premise 1284 1422	I connected the visual images of that experiment with the formula and I barely forget, even though now I'm not studying chemistry anymore.
+T7	Claim 1423 1593	Second, by bridging the theories with daily life events, students are given the chance to apply knowledge to their lives and develop their own ability of problem-solving.
+A2	Stance T7 For
+T8	Premise 1594 1695	This will address students' interests because it's the assignment that needs real life participation.
+T9	Premise 1696 1864	For example, in law class, students are informed their rights and duties and they are taught how they can apply law to different situations that might happen upon them.
+T10	Premise 1865 1961	When any one of the situations occurs, they can think independently and figure out how to react.
+T11	Claim 1962 2277	In conclusion, using life experiences and examples to demonstrate the knowledge on a subject is an effective way to attract students' attention and keep them eager on learning, not only because it reinforces students' impression on the knowledge but also invites students to practice the knowledge out on their own.
+A3	Stance T11 For
+R1	supports Arg1:T2 Arg2:T1
+R2	supports Arg1:T3 Arg2:T2
+R3	supports Arg1:T4 Arg2:T2
+R4	supports Arg1:T5 Arg2:T2
+R5	supports Arg1:T6 Arg2:T2
+R6	supports Arg1:T7 Arg2:T1
+R7	supports Arg1:T8 Arg2:T7
+R8	supports Arg1:T9 Arg2:T7
+R9	supports Arg1:T10 Arg2:T7
+R10	supports Arg1:T11 Arg2:T1

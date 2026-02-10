@@ -1,0 +1,36 @@
+T1	MajorClaim 261 360	In my opinion, life in the old days brings more happiness to people than today for several reasons.
+T2	Claim 361 408	The first reason is life is simple in the past.
+T3	Premise 409 447	Nowadays, all humans compete together.
+T4	Premise 448 517	Since world population getting higher, competition is getting fierce.
+T5	Premise 518 600	If you are not able to handle your jobs, then someone will replace you right away.
+T6	Premise 601 668	People need to put much more effort to keep their living condition.
+T7	Premise 669 723	Therefore, lives in the old days is easier than today.
+T8	Claim 724 773	Second, the environment today is serious damaged.
+T9	Premise 774 870	Looking out the windows, what I see isn't sky, trees or mountains, but is coldly high buildings.
+T10	Premise 871 955	Everyday, I walk on hard roads, breath in polluted air, and live in a limited space.
+T11	Premise 956 1063	What's worse, it has been proved that living in this kind of condition will result in some mental diseases.
+T12	Premise 1064 1139	Thus, the environment our grandparents live is more comfortable than today.
+T13	Claim 1140 1182	The third reason is that the pace of life.
+T14	Premise 1183 1402	Today, we are able to read the news all over the world, to chat with people through the Internet, or to travel around the world by planes; however, it also means that any thing happens in the world will affect our life.
+T15	Premise 1403 1490	If we cannot react properly and immediately, then we will be in a vulnerable situation.
+T16	Premise 1491 1541	We have no choice but have to live in a fast pace.
+T17	MajorClaim 1637 1797	People are put too much focus on making wealth and progress in technology; nevertheless, behind the glamorous facade of it, what we loss will never be returned.
+A1	Stance T2 For
+A2	Stance T8 For
+A3	Stance T13 For
+R1	supports Arg1:T2 Arg2:T1
+R2	supports Arg1:T3 Arg2:T2
+R3	supports Arg1:T4 Arg2:T2
+R4	supports Arg1:T5 Arg2:T2
+R5	supports Arg1:T6 Arg2:T2
+R6	supports Arg1:T7 Arg2:T2
+R7	supports Arg1:T8 Arg2:T1
+R8	supports Arg1:T9 Arg2:T8
+R9	supports Arg1:T10 Arg2:T8
+R10	supports Arg1:T11 Arg2:T8
+R11	supports Arg1:T12 Arg2:T8
+R12	supports Arg1:T13 Arg2:T1
+R13	supports Arg1:T14 Arg2:T13
+R14	supports Arg1:T15 Arg2:T13
+R15	supports Arg1:T16 Arg2:T13
+R16	supports Arg1:T1 Arg2:T17

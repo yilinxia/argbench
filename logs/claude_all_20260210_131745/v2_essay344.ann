@@ -1,0 +1,26 @@
+T1	MajorClaim 390 461	I agree that in this occasion the government is not granted to hand in.
+T2	Claim 462 513	Proficiency brings perfectness in terms of art work
+T3	Premise 515 660	It is true while the modern artists who implement their creative thinking onto high value creation are paid with immense sum by the art collector
+T4	Premise 668 781	the high sum which modern artists receive is related to the quality instead of the quantity and their rare talent
+T5	Premise 783 893	For example, a 15 centimeter Buddha temple made by hand is granted times in comparison with factory production
+T6	Premise 914 1048	modern artists also devote themselves find a unique concept in which ordinary people cannot do, such making impossible become possible
+T7	Premise 1050 1194	Pieter Padang, Minion creator, has brilliant idea to alter part of song lyric "I swear" become "underwear" when the Minion sing in Despicable Me
+T8	Premise 1196 1231	He granted huge sums for such idea.
+T9	Premise 1232 1369	Striking contrast, labor working in the merchandise factory receive coin of dollar even they make a hundred of 15 cm Buddha temples a day
+T10	Premise 1384 1530	a musician playing "I swear" several times receives different earnings that Padang got because the musician re-plays the song without any creation
+T11	Claim 1542 1683	government cannot equalize the price of creation of modern artist because there is no certain parameter to value it, art value is about taste
+T12	Premise 1685 1856	Having said that the huge sums of modern artists receives related to their struggle in the field of art, while the term of struggle might different with other field of job
+T13	MajorClaim 1858 1996	I agree that government cannot take steps to make the salary between modern artists and other job similar because art price is about taste
+A1	Stance T2 For
+A2	Stance T11 For
+R1	supports Arg1:T3 Arg2:T2
+R2	supports Arg1:T4 Arg2:T2
+R3	supports Arg1:T5 Arg2:T2
+R4	supports Arg1:T6 Arg2:T2
+R5	supports Arg1:T7 Arg2:T6
+R6	supports Arg1:T8 Arg2:T7
+R7	supports Arg1:T9 Arg2:T11
+R8	supports Arg1:T10 Arg2:T11
+R9	supports Arg1:T2 Arg2:T1
+R10	supports Arg1:T11 Arg2:T1
+R11	supports Arg1:T12 Arg2:T13

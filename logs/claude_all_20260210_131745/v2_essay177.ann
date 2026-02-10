@@ -1,0 +1,40 @@
+T1	MajorClaim 63 127	I don't think that technology can replace teachers and classroom
+T2	Claim 151 201	Studying at home by using technology is convenient
+T3	Premise 203 291	The biggest advantage is that your classroom and instructor are available 24 hours a day
+T4	Premise 293 384	In addition, you could make your own schedule for completing the requirements of the course
+T5	Premise 386 417	You can study any time you want
+T6	Claim 428 552	if you aren't extremely dedicated or have good time management skills, it may be very difficult to complete a course at home
+T7	Claim 561 632	attending an education course at home requires persistence and patience
+T8	Premise 634 784	Especially when you don't have an instructor there to guide you, it is up to you to make sure that you understand and complete all course requirements
+T9	Premise 786 891	Students may raise questions and they may have problems of understanding some specific topics or subjects
+T10	Premise 893 988	Unfortunately, it may be a predicament when you face some problems in learning without any help
+T11	Claim 999 1059	studying at home is very different from traditional learning
+T12	Premise 1061 1205	Unlike traditional classes, distance education courses don't take place in a classroom, where you are surrounded by your teachers and classmates
+T13	Premise 1207 1286	Students may find that it is hard to study without being kept under supervision
+T14	Premise 1288 1383	If you are the type that gets easily distracted, a distance-learning program may not be for you
+T15	Claim 1398 1499	there is an advantage of traditional school - socialization- establishes relationship with classmates
+T16	Premise 1501 1624	We can learn a lot from programs at home; however, our computers or televisions can't teach us how to get along with people
+T17	Premise 1626 1704	For example, students may learn how to cooperate with classmates from teamwork
+T18	Premise 1706 1793	Studying alone at home might deprive us of these significant and valuable opportunities
+T19	MajorClaim 1832 1883	distance education can't replace traditional school
+A1	Stance T2 Against
+A2	Stance T6 For
+A3	Stance T7 For
+A4	Stance T11 For
+A5	Stance T15 For
+R1	supports Arg1:T3 Arg2:T2
+R2	supports Arg1:T4 Arg2:T2
+R3	supports Arg1:T5 Arg2:T2
+R4	supports Arg1:T6 Arg2:T1
+R5	supports Arg1:T8 Arg2:T7
+R6	supports Arg1:T9 Arg2:T7
+R7	supports Arg1:T10 Arg2:T7
+R8	supports Arg1:T7 Arg2:T1
+R9	supports Arg1:T12 Arg2:T11
+R10	supports Arg1:T13 Arg2:T11
+R11	supports Arg1:T14 Arg2:T11
+R12	supports Arg1:T11 Arg2:T1
+R13	supports Arg1:T16 Arg2:T15
+R14	supports Arg1:T17 Arg2:T15
+R15	supports Arg1:T18 Arg2:T15
+R16	supports Arg1:T15 Arg2:T1

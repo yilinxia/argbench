@@ -1,0 +1,37 @@
+T1	MajorClaim 0 33	Living in a higher pace is better
+T2	Claim 472 594	The first and foremost reason lies in the inevitable fact that we need to save time for accomplishing some important tasks
+A1	Stance T2 For
+T3	Premise 674 899	I just failed to participate in the university entrance exam because I thought I had enough time for eating breakfast and transporting to the testing place; while I was stocked in a traffic jam and then missed the first test.
+T4	Claim 900 971	Therefore, we can start to agree that we have to be eager in our lives.
+A2	Stance T4 For
+T5	Claim 1016 1116	another equally important aspect is keeping in high pace condition can prevent me from getting lazy.
+A3	Stance T5 For
+T6	Premise 1117 1225	If I can avoid being a sluggish person, I can have a higher probability of fulfilling my dream successfully.
+T7	Premise 1226 1374	For instance, I had spent more time on practicing playing piano so that I won a piano competition, defeating those spending less time on practicing.
+T8	Claim 1375 1465	Hence, from this case we are capable of stating that keeping our pace higher is important.
+A4	Stance T8 For
+T9	Claim 1498 1683	there might be some people proclaiming that with a slower pace can enjoy their lives more because it is not necessary for them to notice the time control or acquire the fame of succeed.
+A5	Stance T9 Against
+T10	Claim 1684 1768	However, from my limited understanding, I just doubt the credibility of that saying.
+A6	Stance T10 For
+T11	Claim 1769 1868	I do not think that those people with slower pace losing the piano competition can be really happy.
+A7	Stance T11 For
+T12	Claim 1869 1973	In contrast, it is really joyful for me that I can immerse in the joy of the victory and accomplishment.
+A8	Stance T12 For
+T13	MajorClaim 1975 2148	Based on the reasons demonstrated above, I believe that living in a higher pace is better because the advantages of this are qualitatively greater than that of the opposite.
+T14	MajorClaim 2149 2195	In other words, I prefer to live in high pace.
+T15	MajorClaim 2277 2399	Still, I am firmly convinced that the reasons I proposed in favor of my own sentiment are much more tenable and plausible.
+R1	supports Arg1:T2 Arg2:T13
+R2	supports Arg1:T3 Arg2:T2
+R3	supports Arg1:T4 Arg2:T2
+R4	supports Arg1:T5 Arg2:T13
+R5	supports Arg1:T6 Arg2:T5
+R6	supports Arg1:T7 Arg2:T5
+R7	supports Arg1:T8 Arg2:T5
+R8	attacks Arg1:T9 Arg2:T13
+R9	attacks Arg1:T10 Arg2:T9
+R10	attacks Arg1:T11 Arg2:T9
+R11	supports Arg1:T12 Arg2:T11
+R12	supports Arg1:T1 Arg2:T13
+R13	supports Arg1:T13 Arg2:T14
+R14	supports Arg1:T13 Arg2:T15

@@ -1,0 +1,49 @@
+T1	MajorClaim 261 364	However, I prefer e-mail due to 3 reasons: convenience, honest expression and fluency in communicating.
+T2	Claim 365 431	Everyone agrees that e-mail has been a great way of communication.
+T3	Premise 432 475	You can talk to others from thousands mile.
+T4	Premise 476 611	For instance, if you are in Vietnam and another person is in the US - half of the Earth, no matter how far it is, you can keep contact.
+T5	Premise 612 687	We will never have to worry if our mails will be sent to the right address.
+T6	Premise 688 743	If the address is wrong, then you will know right away.
+T7	Premise 744 802	Moreover, e-mail doesn't take too much time: just a click.
+T8	Claim 803 861	In addition, writing e-mail helps people express honestly.
+T9	Premise 862 938	Some people think that the face-to-face conversations make them feel stupid.
+T10	Premise 939 1006	Sometimes, their ideas are not expressed as exactly as they expect.
+T11	Premise 1007 1153	For instance, I want to talk to my friend about a ticklish problem like her behavior, it's hard for me to face her and explain what she should do.
+T12	Premise 1154 1213	Therefore, e-mail will be a good tool to help me speak out.
+T13	Premise 1214 1303	She will just read my e-mail instead of listening to my voice which can make her annoyed.
+T14	Premise 1304 1388	I don't have to worry about any other thing can make my opinion become unpersuasive.
+T15	Claim 1389 1519	Last but not least, every communication needs fluency so people can understand each other exactly and remember it for a long time.
+T16	Premise 1520 1616	Voice email or face-to-face conversations sometimes make reserve people feel not very confident.
+T17	Premise 1617 1709	For example, when I face my parents, I can't speak out every idea and express consecutively.
+T18	Premise 1710 1799	They may stop me, speak something against it and that makes me forget what I want to say.
+T19	Premise 1800 1854	Anyone can meet this problem once in any conversation.
+T20	Premise 1855 1920	E-mail helps me arrange my idea perfectly and make it persuasive.
+T21	Claim 1922 2048	On the whole, to compare to all ways of communication, I really think that e-mail is the greatest way for major people to use.
+T22	Premise 2049 2080	Its convenience saves our time.
+T23	Premise 2081 2201	Additionally, honesty is necessary for every conversation and also fluency can't be missing for a persuasive expression.
+A1	Stance T2 For
+A2	Stance T8 For
+A3	Stance T15 For
+A4	Stance T21 For
+R1	supports Arg1:T2 Arg2:T1
+R2	supports Arg1:T3 Arg2:T2
+R3	supports Arg1:T4 Arg2:T3
+R4	supports Arg1:T5 Arg2:T2
+R5	supports Arg1:T6 Arg2:T5
+R6	supports Arg1:T7 Arg2:T2
+R7	supports Arg1:T8 Arg2:T1
+R8	supports Arg1:T9 Arg2:T8
+R9	supports Arg1:T10 Arg2:T8
+R10	supports Arg1:T11 Arg2:T8
+R11	supports Arg1:T12 Arg2:T11
+R12	supports Arg1:T13 Arg2:T12
+R13	supports Arg1:T14 Arg2:T8
+R14	supports Arg1:T15 Arg2:T1
+R15	supports Arg1:T16 Arg2:T15
+R16	supports Arg1:T17 Arg2:T16
+R17	supports Arg1:T18 Arg2:T17
+R18	supports Arg1:T19 Arg2:T16
+R19	supports Arg1:T20 Arg2:T15
+R20	supports Arg1:T21 Arg2:T1
+R21	supports Arg1:T22 Arg2:T21
+R22	supports Arg1:T23 Arg2:T21

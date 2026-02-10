@@ -1,0 +1,35 @@
+T1	MajorClaim 1870 1964	workers over 50 have proven themselves subordinate to the following generation in all aspects.
+T2	Claim 206 287	younger workers are preferably employed and promoted rather than over-50 workers.
+A1	Stance T2 For
+T3	Claim 397 474	old workers are not a patch on the younger ones for their unchanged paradigm.
+A2	Stance T3 For
+T4	Premise 475 595	The old were raised in poverty, probably caused by war, look at the world from a negative and pessimistic point of view.
+T5	Premise 596 726	The misery is so ingrained in their mind that they refuse to change, or more precisely, to accept the existence of such modernity.
+T6	Premise 727 913	For example, most would rather choose to piece together parts of a machine than have it done by a robot for their disbelief of its efficiency and safety compared with human's capability.
+T7	Claim 924 996	their unresponsiveness can be attributed to their attitude towards life.
+A3	Stance T7 For
+T8	Premise 1013 1140	that they are aware of their deteriorating health and lack of enthusiasm comes with their taste for monotony and safe ideology.
+T9	Premise 1141 1216	This, by all means, is outweigh by youngsters' adventurousness and bravery.
+T10	Premise 1217 1373	Blatantly seen, success of most companies stems from young people, whose enterprising ideas that catch up with the world is regarded as wind of refreshment.
+T11	Claim 1394 1482	knowledge is worth mentioning as a key factor to help young workers outrank the elderly.
+A4	Stance T11 For
+T12	Premise 1483 1681	Who would the employer choose, an old man with old-fashioned education and a young man who is not only good at fundermentaly subject, but also knows how to program or how to speak foreign languages.
+T13	Premise 1558 1681	a young man who is not only good at fundermentaly subject, but also knows how to program or how to speak foreign languages.
+T14	Premise 1514 1553	an old man with old-fashioned education
+T15	Premise 1456 1455
+T16	Claim 1995 2116	it is still of great importance to remain the harmonious coexistence of both sides for the smooth sailing of the company.
+A5	Stance T16 Against
+R1	supports Arg1:T2 Arg2:T1
+R2	supports Arg1:T3 Arg2:T2
+R3	supports Arg1:T4 Arg2:T3
+R4	supports Arg1:T5 Arg2:T3
+R5	supports Arg1:T6 Arg2:T3
+R6	supports Arg1:T7 Arg2:T2
+R7	supports Arg1:T8 Arg2:T7
+R8	supports Arg1:T9 Arg2:T7
+R9	supports Arg1:T10 Arg2:T7
+R10	supports Arg1:T11 Arg2:T2
+R11	supports Arg1:T12 Arg2:T11
+R12	supports Arg1:T14 Arg2:T12
+R13	supports Arg1:T13 Arg2:T12
+R14	attacks Arg1:T16 Arg2:T1

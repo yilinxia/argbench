@@ -1,0 +1,23 @@
+T1	MajorClaim 315 359	each of these arguments has its own validity
+T2	Claim 370 462	museums such as art and music can offer people with a wide range of entertainment activities
+A1	Stance T2 For
+T3	Premise 477 615	they often organise traditional music events performed by local or other famous artists that people can attend to and enjoy to some extent
+T4	Premise 639 780	many visitors nowadays may choose to come to museums just for pleasure or as one of the activities that they take part in their holiday trips
+T5	Claim 788 856	therefore, makes museums a place to entertain in people leisure time
+A2	Stance T5 For
+T6	Claim 878 1001	the establishment of a particular museum like history, science, or oceanography is usually attached to educational purposes
+A3	Stance T6 For
+T7	Premise 1019 1221	school and university students and teachers are always the guests of museums because the places are where they can discover and obtain a large amount of information related to their studies and teaching
+T8	Premise 1236 1386	there are a number of seminars and conferences held at museums that are informative and necessary for scholars and experts in their fields of research
+T9	Claim 1401 1453	museums prove the supporting role in human education
+A4	Stance T9 For
+T10	MajorClaim 1470 1547	visiting museums is clearly seen as both means of entertainment and education
+T11	MajorClaim 1577 1682	people should perceive the value of museums in enhancing their own knowledge about the world they live in
+R1	supports Arg1:T3 Arg2:T2
+R2	supports Arg1:T4 Arg2:T5
+R3	supports Arg1:T2 Arg2:T1
+R4	supports Arg1:T5 Arg2:T1
+R5	supports Arg1:T7 Arg2:T6
+R6	supports Arg1:T8 Arg2:T9
+R7	supports Arg1:T6 Arg2:T1
+R8	supports Arg1:T9 Arg2:T1

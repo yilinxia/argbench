@@ -1,0 +1,32 @@
+T1	MajorClaim 0 63	International tourism leads to both - tension and understanding
+T2	Claim 65 310	I agree with both opinions that international tourism not only causes tension but also leads to understanding between people from different culture, because most people will be trying to understand each other after they have conflict or debates.
+T3	Claim 311 399	There is no doubt that some behaviors of the tourists are not welcome in the local area.
+T4	Premise 400 470	Firstly, some people leave the rubbish after visiting the attractions.
+T5	Premise 471 611	Therefore, those local residents have to clean the place frequently so that the new batch of tourists will have a tidy and neat environment.
+T6	Premise 612 701	Moreover, tourists may offend the local people due to their different culture background.
+T7	Premise 702 762	For example, Indians don't eat beef since they worship cows.
+T8	Premise 763 865	Thus, if tourists want to respect the tradition, they will not order any beef in the local restaurant.
+T9	Claim 867 1018	On the other hand, in order to avoid the conflicts between foreigners and locals, people are trying to understand different culture and find solutions.
+T10	Premise 1019 1133	For instance, tourists are given the brochures about the local traditions and customs before they visit the place.
+T11	Premise 1134 1238	Furthermore, the tour guide are willing to help tourists to understand the culture from other countries.
+T12	Premise 1239 1336	Thus, the possibility of the conflicts is reduced because the understanding between both parties.
+T13	Claim 1337 1484	Obviously, people are looking for the solution such as understanding each other while they encounter the conflicts caused by international tourism.
+T14	Claim 1485 1600	Hence, I think international tourism leads to both tension and understanding between people from different culture.
+A1	Stance T2 For
+A2	Stance T3 For
+A3	Stance T9 For
+A4	Stance T13 For
+A5	Stance T14 For
+R1	supports Arg1:T2 Arg2:T1
+R2	supports Arg1:T3 Arg2:T1
+R3	supports Arg1:T4 Arg2:T3
+R4	supports Arg1:T5 Arg2:T3
+R5	supports Arg1:T6 Arg2:T3
+R6	supports Arg1:T7 Arg2:T6
+R7	supports Arg1:T8 Arg2:T6
+R8	supports Arg1:T9 Arg2:T1
+R9	supports Arg1:T10 Arg2:T9
+R10	supports Arg1:T11 Arg2:T9
+R11	supports Arg1:T12 Arg2:T9
+R12	supports Arg1:T13 Arg2:T1
+R13	supports Arg1:T14 Arg2:T1

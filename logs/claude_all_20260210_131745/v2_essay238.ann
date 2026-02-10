@@ -1,0 +1,19 @@
+T1	MajorClaim 146 290	I personaly tend to visit museums when I'm in a new place because it's good for me know about the culture, tradition and history of other places
+T2	Premise 393 571	museums provide a tremendous amount of information about different aspects of the history and culture of that place, as I said back. And also taking the chance for making friends
+T3	Claim 573 685	Visit museums can bring you the opportunity to establish relations and knowledge to participate in conversations
+A1	Stance T3 For
+T4	Premise 687 739	And that kind of knowledge speaks very highly of you
+T5	Claim 750 817	other people visit museums are the most boring expirience of a trip
+A2	Stance T5 Against
+T6	Premise 819 943	My cousin Pedro literaly hates to visit museums but he really enjoyed his visit to the famous London - Madame Tussaud museum
+T7	Premise 945 1138	it was kind of art entertainment but also that visit helped him to understand the artist works, and in addition he started to respect and admire other types of arts that offers in other museums
+T8	MajorClaim 1154 1254	the museums are a visual source to know the history, tradition and culture of any place in the world
+T9	Claim 1256 1288	I think it's fun and educational
+A3	Stance T9 For
+R1	supports Arg1:T2 Arg2:T3
+R2	supports Arg1:T4 Arg2:T3
+R3	supports Arg1:T3 Arg2:T1
+R4	attacks Arg1:T6 Arg2:T5
+R5	attacks Arg1:T7 Arg2:T5
+R6	attacks Arg1:T5 Arg2:T1
+R7	supports Arg1:T9 Arg2:T8

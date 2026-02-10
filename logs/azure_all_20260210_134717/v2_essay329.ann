@@ -1,0 +1,35 @@
+T1	MajorClaim 0 39	The biggest risk is not taking any risk
+T2	Claim 84 169	The ones who have a big dream, they need to be brave and dare to live new situations.
+A1	Stance T2 For
+T3	Claim 371 452	Therefore, it is essential to take chances and believe this is going to work out.
+A2	Stance T3 For
+T4	Premise 170 370	It is not guaranteed that you are going to achieve your dream if you had planned carefully as the same way when you take risks, but it is more frustrating if you had made plans and then it went wrong.
+T5	Claim 454 526	Assuming new opportunities is indispensable to have diverse experiences.
+A3	Stance T5 For
+T6	Premise 527 671	In fact, life may not be easy; it will have various challenges especially when you take risks, but in the end, it can be surprisingly wonderful.
+T7	Premise 672 1082	For instance, some people abandon their job, family and friends and go to other country without knowing what the future holds for them. In the beginning, it can be tough to fit in this new place and find any opportunity, but after fighting against the obstacles blocking the way to get what is desired; it is possible to conquer what they are craving as well as start to build a new life in this other country.
+T8	Claim 1084 1139	In fact, many people are afraid to take risks and fail.
+A4	Stance T8 Against
+T9	Claim 1187 1234	but it is vital to never give up on your dream.
+A5	Stance T9 For
+T10	Premise 1140 1186	It is possible to get frustrate along the way,
+T11	Premise 1235 1310	To illustrate, Walt Disney, whose career is famous, had a challenging life.
+T12	Premise 1311 1423	One of the difficulties was some of his histories, such as Mickey Mouse and Three Little Pigs, were turned down.
+T13	Premise 1424 1586	He heard lots of "no", furthermore one editor fired him alleging that he had no imagination, after all what he had gone through, he never stop chasing his dreams.
+T14	Claim 1588 1679	To conclude, in this competitive world you have to be fearless and face all new situations.
+A6	Stance T14 For
+T15	Claim 1680 1887	Even though sometimes you consider backing down and stay in the same routine that you are used to, it is necessary to have courage to take risks, be different and pursue your dream to have a successful life.
+A7	Stance T15 For
+R1	supports Arg1:T2 Arg2:T1
+R2	supports Arg1:T4 Arg2:T3
+R3	supports Arg1:T3 Arg2:T1
+R4	supports Arg1:T5 Arg2:T1
+R5	supports Arg1:T6 Arg2:T5
+R6	supports Arg1:T7 Arg2:T5
+R7	attacks Arg1:T8 Arg2:T1
+R8	supports Arg1:T10 Arg2:T9
+R9	supports Arg1:T11 Arg2:T9
+R10	supports Arg1:T12 Arg2:T11
+R11	supports Arg1:T13 Arg2:T9
+R12	supports Arg1:T14 Arg2:T1
+R13	supports Arg1:T15 Arg2:T1

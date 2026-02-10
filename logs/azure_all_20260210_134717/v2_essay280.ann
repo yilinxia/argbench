@@ -1,0 +1,42 @@
+T1	MajorClaim 307 369	In my point of view, studying many subjects is better that one
+T2	Claim 370 432	because students can study in subjects that they interested in
+A1	Stance T2 For
+T3	Claim 434 477	they can gain knowledge more than one field
+A2	Stance T3 For
+T4	Claim 482 531	they will have more chance to choose their future
+A3	Stance T4 For
+T5	Claim 845 906	requiring students to study in many subjects is good for them
+A4	Stance T5 For
+T6	Premise 547 677	when students finished their high schools, they are confused about subjects that they are going to choose to study in universities
+T7	Premise 679 757	This is because they interested in many subjects and they want to try them all
+T8	Premise 759 832	For example, pupil who want to study science are also like to learn music
+T9	Claim 921 992	people who know a wide range of is better than people who know just one
+A5	Stance T9 For
+T10	Premise 994 1064	Students can gain more knowledge in every different subjects thy study
+T11	Premise 1066 1153	For instance, university students who study business are also know history of the world
+T12	Claim 1155 1283	Furthermore, students not only gain knowledge but they also have more experience because they will meet new friends and teachers
+A6	Stance T12 For
+T13	Premise 1285 1347	Hence, they all can share opinion and knowledge to one another
+T14	Claim 1358 1517	students who graduated with a variety of courses during university and lots of experience are definitely have more opportunity to choose their future or career
+A7	Stance T14 For
+T15	Premise 1519 1618	This is because graduates can work in various kind of works which they can select a job they prefer
+T16	Premise 1620 1720	For example, students will choose a career that they want including the job with high salary include
+T17	Premise 1722 1814	Moreover, bachelors can earn lots of money by working in other fields due to their knowledge
+T18	MajorClaim 1816 2039	In concluding, learning several subjects in universities is better than specialize in one subject because it makes students have more chance to gain knowledge to use in their lives and opportunity to choose their own future
+R1	supports Arg1:T2 Arg2:T1
+R2	supports Arg1:T3 Arg2:T1
+R3	supports Arg1:T4 Arg2:T1
+R4	supports Arg1:T6 Arg2:T5
+R5	supports Arg1:T7 Arg2:T5
+R6	supports Arg1:T8 Arg2:T5
+R7	supports Arg1:T5 Arg2:T1
+R8	supports Arg1:T10 Arg2:T9
+R9	supports Arg1:T11 Arg2:T9
+R10	supports Arg1:T9 Arg2:T1
+R11	supports Arg1:T13 Arg2:T12
+R12	supports Arg1:T12 Arg2:T1
+R13	supports Arg1:T15 Arg2:T14
+R14	supports Arg1:T16 Arg2:T14
+R15	supports Arg1:T17 Arg2:T14
+R16	supports Arg1:T14 Arg2:T1
+R17	supports Arg1:T1 Arg2:T18

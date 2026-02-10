@@ -1,0 +1,28 @@
+T1	MajorClaim 331 440	From my perspective, I agree with the view that students can acquire more benefits from the remote education.
+T2	Claim 441 528	To begin with, studying at home save the pupils enormous time and considerable expense.
+A1	Stance T2 For
+T3	Premise 529 680	Students who use distance-learning programs can cut down their commuting time, tuition fees, textbook fees and so forth just by an internet connection.
+T4	Premise 681 847	This especially makes a significant difference for the children who live in the far-off countryside and the children whose families are living below the poverty-line.
+T5	Claim 848 999	Besides that, long-distance education provides students the opportunity to access the immense knowledge resources and a variety of teaching approaches.
+A2	Stance T5 For
+T6	Premise 1000 1136	Pupils can obtain materials for their curricula just by one mouse click, such as science reports, study posts, documentary records, etc.
+T7	Premise 1137 1323	A student can even select a specific online course based on his own preference and time schedule so he can control the learning progress and make satisfactory achievement on this course.
+T8	Claim 1324 1461	It is undeniable that traditional education has its advantages in face-to-face communication, mental inspiration and physical educations.
+A3	Stance T8 Against
+T9	Premise 1462 1569	These make remarkable contributions in providing immediate feedbacks and cultivating pupils' personalities.
+T10	Claim 1570 1709	But with the improvements in streaming and sensor technologies, remote education can eliminate the obstacles of distance and body contacts.
+A4	Stance T10 For
+T11	MajorClaim 1854 2060	However, distance-learning outweighs the conventional way not only with its efficiency, convenience and economic value, but also with the self-regulated education that pupils can study on their own purpose.
+T12	Claim 1710 1853	In conclusion, I concede that traditional education has some merits like feedbacks and inspirations that cannot be replaced in the near future.
+A5	Stance T12 Against
+R1	supports Arg1:T2 Arg2:T1
+R2	supports Arg1:T3 Arg2:T2
+R3	supports Arg1:T4 Arg2:T2
+R4	supports Arg1:T5 Arg2:T1
+R5	supports Arg1:T6 Arg2:T5
+R6	supports Arg1:T7 Arg2:T5
+R7	attacks Arg1:T8 Arg2:T1
+R8	supports Arg1:T9 Arg2:T8
+R9	supports Arg1:T10 Arg2:T1
+R10	attacks Arg1:T12 Arg2:T1
+R11	supports Arg1:T11 Arg2:T1

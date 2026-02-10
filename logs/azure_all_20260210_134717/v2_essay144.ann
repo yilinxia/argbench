@@ -1,0 +1,28 @@
+T1	MajorClaim 0 63	University education should be only available for good students
+T2	Claim 309 420	it should be better to leave this type of type of training for a certain group of good, knowledgeable learners.
+T3	Claim 428 559	focusing only on talented students is a better option because it helps academic institutions maintain their high education quality.
+T4	Premise 560 716	Unlike middle school or high school, university and college require far a lot of ability and skills to keep up with an enormous amount of complex knowledge.
+T5	Premise 717 841	In fact, some students may be capable in high schools, but the pressure of higher education is tough even for talented ones.
+T6	Premise 842 1046	That explains why it is only suitable for a limited people, and opening up for everyone will be fatal for institutions, since they need to somehow lower the materials so that it is practical for everyone.
+T7	Claim 1057 1168	university should only accept good students because it gives better human resources for sophisticated purposes.
+T8	Premise 1352 1523	Those standard jobs will always be available for everyone, while complex ones should be only handled by the best people, who start their career from the best institutions.
+T9	Claim 1524 1775	I think limiting the number of people who can be admitted by universities is a good choice since it will reward the motivation of students and constantly keep them in the difficult level of learning, which makes them do the best to improve themselves.
+T10	Premise 1776 1913	Ultimately, this improves the overall quality of education and gives the best people to serve in the most necessary needs of the society.
+T11	Claim 1914 2083	To sum thing up, I agree that everyone should have a compulsory education level up to high school, but the above divisions should be only the realm of the best students.
+T12	Premise 2084 2203	This will improve the quality of both universities and students, thus placing people in positions which suit them most.
+A1	Stance T2 For
+A2	Stance T3 For
+A3	Stance T7 For
+A4	Stance T9 For
+A5	Stance T11 For
+R1	supports Arg1:T2 Arg2:T1
+R2	supports Arg1:T3 Arg2:T1
+R3	supports Arg1:T4 Arg2:T3
+R4	supports Arg1:T5 Arg2:T3
+R5	supports Arg1:T6 Arg2:T3
+R6	supports Arg1:T7 Arg2:T1
+R7	supports Arg1:T8 Arg2:T7
+R8	supports Arg1:T9 Arg2:T1
+R9	supports Arg1:T10 Arg2:T9
+R10	supports Arg1:T11 Arg2:T1
+R11	supports Arg1:T12 Arg2:T11

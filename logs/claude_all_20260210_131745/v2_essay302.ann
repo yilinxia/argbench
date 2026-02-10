@@ -1,0 +1,29 @@
+T1	MajorClaim 285 522	Im my opinion, saving some part of your earnings is essential due to the fact that you can not predict future developments, neither in your professional nor your personal life, furthermore with savings you can fulfill some of your dreams
+T2	Claim 531 593	there are several uncertainties about your professional future
+A1	Stance T2 For
+T3	Premise 595 753	The global economic conditions in these days are tough and there are many unpredictable factors that make it necessary to have some money on your bank account
+T4	Premise 755 855	As example I remember some friends who lost their jobs recently due to the economic crisis in Europe
+T5	Premise 857 888	Some of them had no own savings
+T6	Premise 890 1002	They could not afford the rent, so they had to move back in with their families and they lost their independence
+T7	Claim 1017 1080	you can not be sure about the development in your personal life
+A2	Stance T7 For
+T8	Premise 1082 1192	It is possible that in the future you have some unavoidable expenses that you could not afford without savings
+T9	Premise 1194 1376	Back in university I remember a friend of mine who had just little savings and he had to deal with a major repair of his car. He could not afford the maintenance so he had to sell it
+T10	Claim 1388 1460	with savings you can afford some luxurious goods and fulfill your dreams
+A3	Stance T10 For
+T11	Premise 1462 1622	Working hard and saving money for later on investments is a great way of getting a satisfying feeling and to reward yourself for something you have accomplished
+T12	Premise 1624 1725	For instance, I made a month-long backpack trip through Southeast Asia last summer with my girlfriend
+T13	Premise 1727 1792	Without our savings we could not have pursued our long-time dream
+T14	MajorClaim 1841 1919	from my point of view there is no other choice than saving money for some time
+R1	supports Arg1:T3 Arg2:T2
+R2	supports Arg1:T4 Arg2:T2
+R3	supports Arg1:T5 Arg2:T2
+R4	supports Arg1:T6 Arg2:T2
+R5	supports Arg1:T2 Arg2:T1
+R6	supports Arg1:T8 Arg2:T7
+R7	supports Arg1:T9 Arg2:T7
+R8	supports Arg1:T7 Arg2:T1
+R9	supports Arg1:T11 Arg2:T10
+R10	supports Arg1:T12 Arg2:T10
+R11	supports Arg1:T13 Arg2:T10
+R12	supports Arg1:T10 Arg2:T1

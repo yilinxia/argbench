@@ -1,0 +1,18 @@
+T1	MajorClaim 189 302	That's why it is so important to be well-informed. I consider the statement above to be right for several reasons
+T2	Claim 329 403	by using different sources of information we can guarantee its reliability
+T3	Premise 405 541	Some people may disinform you on purpose, that's why it is rather unwise to make conclusions before you are confident of the information
+T4	Premise 543 833	For example, Russian news announced that the war between Osetia and Georgia had been initiated by Georgia, however, european news announced that it was initiated by Russia. After a while the situation became clear, but before that a lot of people had already condemned the actions of Russia
+T5	Claim 845 995	it is very important to know facts about some events or problem, not only estimations, because it can help you to make your own conclusion or estimate
+T6	Premise 997 1184	Sometimes it can be really difficult to find out the facts, especially in the internet, that's why you have to look through different sources before you manage to find some reliable facts
+T7	Premise 1186 1333	It is possible to make a wrong decision because you have just used someone's personal opinion as a source of information, but it was actually wrong
+T8	Premise 1335 1627	For example, several years ago in Moscow salt became two times more expensive only in one week, because people thought that soon there would be no salt in the shops. The gossip-based information dramatically influenced the prices and only after official announcement the "salt-panic" was over
+T9	MajorClaim 1662 1804	it is very important to be confident of the information, which you use, especially when your conclusion or decision may have a great influence
+A1	Stance T2 For
+A2	Stance T5 For
+R1	supports Arg1:T3 Arg2:T2
+R2	supports Arg1:T4 Arg2:T2
+R3	supports Arg1:T2 Arg2:T1
+R4	supports Arg1:T6 Arg2:T5
+R5	supports Arg1:T7 Arg2:T5
+R6	supports Arg1:T8 Arg2:T5
+R7	supports Arg1:T5 Arg2:T1

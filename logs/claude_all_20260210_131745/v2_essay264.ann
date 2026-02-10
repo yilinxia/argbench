@@ -1,0 +1,27 @@
+T1	MajorClaim 0 47	Successful people try new things and take risks
+T2	Claim 263 410	one of the main reasons for supporting this statement is that successful people can learn important and very valuable points from trying new things
+A1	Stance T2 For
+T3	Claim 437 478	great success requires taking great risks
+T4	Premise 480 595	There are always interesting and useful experiences that successful people can learn them only by trying new things
+A2	Stance T3 For
+T5	Premise 610 757	if you want to know how to act effectively when communicating with people, you can try something new like salesmanship in various stores and places
+T6	Premise 759 969	By selling goods or other commodities you will face different people with different behaviors and personalities and as a result you will learn how to behave people in different situations and jobs in the future
+T7	Premise 935 1016	These experiences can only be obtained by trying new things and can't be always found in books
+T8	Claim 1068 1127	I do believe that great success requires taking great risks
+A3	Stance T8 For
+T9	Premise 1129 1324	If you want to gain very high profits in investments, you should use great and very high amounts of money in very risky financial decisions and dealings in which you may lose much amount of money
+T10	Premise 1326 1486	If you want to achieve a remarkable success in an important exam, you should risk studying all the time and sacrificing your free time and your favorite hobbies
+T11	Premise 1488 1547	The more you take risks, the greater your successes will be
+T12	Premise 1475 1545	If you don't take any risks, you will have an ordinary life with average successes
+T13	MajorClaim 1698 1808	success and trying new things and taking risks go hand in hand and to achieve success you should consider them
+R1	supports Arg1:T4 Arg2:T2
+R2	supports Arg1:T5 Arg2:T2
+R3	supports Arg1:T6 Arg2:T2
+R4	supports Arg1:T7 Arg2:T2
+R5	supports Arg1:T2 Arg2:T1
+R6	supports Arg1:T9 Arg2:T8
+R7	supports Arg1:T10 Arg2:T8
+R8	supports Arg1:T11 Arg2:T8
+R9	supports Arg1:T12 Arg2:T8
+R10	supports Arg1:T8 Arg2:T1
+R11	supports Arg1:T3 Arg2:T1

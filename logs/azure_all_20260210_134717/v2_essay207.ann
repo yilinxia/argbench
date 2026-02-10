@@ -1,0 +1,27 @@
+T1	MajorClaim 1601 1738	In my opinion, however, I do not approve of this trend due to negative effects such as low quality of life and affecting the environment.
+T2	Claim 185 251	I think it has some drawbacks that will be discussed in this essay
+T3	Claim 306 457	the major cause that leads to urban migration of young adults is that cities often offer more well-paid jobs and study chances compared to rural areas.
+T4	Premise 469 590	many large companies and universities often locate in cities which are hailed as promising lands to develop their career.
+T5	Premise 601 710	they move to big cities to pursue academic career and find jobs in order to have a higher standard of living.
+T6	Premise 724 927	if a gradate stays in the city after leaving his college and seeks a job with good salary instead of returning his village to do farm work, he could perhaps buy a house or his own car after a short time.
+T7	Claim 938 1000	this phenomenon sometimes poses several negative consequences.
+T8	Premise 1028 1145	the burgeoning number of young adults from the countryside flocking to cities gives rise to overpopulation in cities.
+T9	Premise 1159 1280	cities cannot provide adequate space for thousands of dwellers that might lead to poor housing conditions and sanitation.
+T10	Premise 1295 1334	it might put strain on the environment.
+T11	Premise 1335 1456	If there are more people in the cities, there would be large numbers of vehicles on the road, which causes air pollution.
+T12	Claim 1472 1600	young people tend to study or work in urban areas since these provide them many educational opportunities and career potentials.
+A1	Stance T2 Against
+A2	Stance T3 For
+A3	Stance T7 Against
+A4	Stance T12 For
+R1	supports Arg1:T2 Arg2:T1
+R2	supports Arg1:T3 Arg2:T12
+R3	supports Arg1:T4 Arg2:T3
+R4	supports Arg1:T5 Arg2:T3
+R5	supports Arg1:T6 Arg2:T5
+R6	supports Arg1:T7 Arg2:T1
+R7	supports Arg1:T8 Arg2:T7
+R8	supports Arg1:T9 Arg2:T8
+R9	supports Arg1:T10 Arg2:T7
+R10	supports Arg1:T11 Arg2:T10
+R11	attacks Arg1:T12 Arg2:T1

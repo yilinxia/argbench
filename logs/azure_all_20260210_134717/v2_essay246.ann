@@ -1,0 +1,29 @@
+T1	MajorClaim 120 153	this statement is completely true
+T2	Claim 193 307	making a quick decision means that it's not very thought out, and that it hasn't been checked from all its aspects
+T3	Claim 323 375	making quick decisions leads to probable bad results
+T4	Premise 390 550	if someone decided to quit his job without really thinking about the alternative, or a plan B, he could end up being unemployed, because of his speedy decision.
+T5	Claim 564 662	making a rushed decision could also mean that the person is missing out on a potential opportunity
+T6	Premise 681 833	if this person had waited and thought his decision through he wouldn't have missed out on the job opening in the same firm, but at a different position.
+T7	Premise 834 874	Hence, he wouldn't have been unemployed.
+T8	Claim 896 989	hasty decisions, not only goes to waste, but also, could affect the entire life of the person
+T9	Premise 1022 1202	after this person has quit his job and became unemployed, he can no longer pay his bills nor buy what he needs for his everyday needs, thus, his life had taken a turn to the worst.
+T10	Claim 1237 1282	a hurried decision is almost never a good one
+T11	Claim 1295 1427	one should always study his decision carefully and slowly, to ensure that the decision that the person is making is the best for him
+A1	Stance T2 For
+A2	Stance T3 For
+A3	Stance T5 For
+A4	Stance T8 For
+A5	Stance T10 For
+A6	Stance T11 For
+R1	supports Arg1:T2 Arg2:T1
+R2	supports Arg1:T2 Arg2:T3
+R3	supports Arg1:T3 Arg2:T1
+R4	supports Arg1:T4 Arg2:T3
+R5	supports Arg1:T5 Arg2:T1
+R6	supports Arg1:T6 Arg2:T5
+R7	supports Arg1:T7 Arg2:T5
+R8	supports Arg1:T8 Arg2:T1
+R9	supports Arg1:T9 Arg2:T8
+R10	supports Arg1:T10 Arg2:T1
+R11	supports Arg1:T11 Arg2:T1
+R12	supports Arg1:T10 Arg2:T11

@@ -1,0 +1,42 @@
+T1	MajorClaim 360 479	in my opinion, reducing stress by listening to music, playing sports, and doing meditation are easy and practical ways.
+T2	Claim 480 537	First of all, listening to music is a great way to relax.
+T3	Premise 538 595	For example, when I go to office, I use public transport.
+T4	Premise 596 698	I see many things such as traffic jam, crowded people at bus stop, and all so crowded people in buses.
+T5	Premise 699 720	These make me stress.
+T6	Premise 721 770	So that I always listen music from my mp3 player.
+T7	Premise 771 838	I could enjoy listening music without thinking of people around me.
+T8	Premise 839 886	Consequently, I feel happy when I listen music.
+T9	Claim 887 976	Second, another way that is perfectly work for everyone to reduce the stress is exercise.
+T10	Premise 977 1088	For instance, I alway have many things in my mind such as a difficult of my work that I have to finish in time.
+T11	Premise 1089 1166	These problem sometime make me hard to fall asleep because it make me stress.
+T12	Premise 1167 1240	Thus, after work, I always do exercise, and jogging is my favorite sport.
+T13	Premise 1241 1299	I feel that after working out, I am easily to fall asleep.
+T14	Premise 1300 1372	Exercising not only reduce my stress but also make me get a good health.
+T15	Claim 1373 1433	Third, meditation also one of the ways to reduce the stress.
+T16	Premise 1434 1520	when I have many things to think about, and this make me stress, I will do meditation.
+T17	Premise 1521 1618	Meditation is easy way to relax because it is not require any equipment, and it take few minutes.
+T18	Premise 1619 1702	A way to do meditation is that I just sit down, close my eyes, and count my breath.
+T19	Premise 1703 1738	These could relieve me from stress.
+T20	MajorClaim 1797 1938	In my point of view, listening to music, exercising, and doing meditation are the most activities that people could do to escape from stress.
+A1	Stance T2 For
+A2	Stance T9 For
+A3	Stance T15 For
+R1	supports Arg1:T2 Arg2:T1
+R2	supports Arg1:T3 Arg2:T2
+R3	supports Arg1:T4 Arg2:T2
+R4	supports Arg1:T5 Arg2:T4
+R5	supports Arg1:T6 Arg2:T2
+R6	supports Arg1:T7 Arg2:T2
+R7	supports Arg1:T8 Arg2:T2
+R8	supports Arg1:T9 Arg2:T1
+R9	supports Arg1:T10 Arg2:T9
+R10	supports Arg1:T11 Arg2:T10
+R11	supports Arg1:T12 Arg2:T9
+R12	supports Arg1:T13 Arg2:T9
+R13	supports Arg1:T14 Arg2:T9
+R14	supports Arg1:T15 Arg2:T1
+R15	supports Arg1:T16 Arg2:T15
+R16	supports Arg1:T17 Arg2:T15
+R17	supports Arg1:T18 Arg2:T15
+R18	supports Arg1:T19 Arg2:T15
+R19	supports Arg1:T20 Arg2:T1

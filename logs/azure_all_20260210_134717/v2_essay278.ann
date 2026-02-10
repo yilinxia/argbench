@@ -1,0 +1,37 @@
+T1	MajorClaim 374 452	I think that these activities have the same efficient role in students' lives.
+T2	Claim 932 1001	sports are necessary for students to acquire their energy and health.
+T3	Premise 518 603	besides the good body shape, sports have very vital effects on human's healthfulness.
+T4	Premise 621 686	our body and moral health depend to physical activities directly.
+T5	Premise 687 842	As a case in point, last month I had very difficult exam that I forced to study for one week back to back. After that exam, I felt depressed and exhausted.
+T6	Premise 843 918	Therefore, I decided to go to gym to recuperate and it responded very well!
+T7	Claim 1467 1530	social activities have same rights to receive monetary support.
+T8	Premise 1010 1115	besides the academic knowledge, the awareness of social behavior is an important factor for human's life.
+T9	Premise 1116 1213	As a practical epitome, students should be prepared to present in society after their graduation.
+T10	Premise 1214 1310	Thus social activities can help them to be familiar with other's mind and different environment.
+T11	Premise 1311 1462	In my opinion, social groups and classes are significant factors to prepare students to contribute in discussion and encounter real social environment.
+T12	Claim 1541 1621	they bring about students to be happier and to have more fun and entertainments.
+T13	Premise 1622 1762	If we follow just one wing of my life i.e., studying as a student, after some whiles it would be boring and we wouldn't have any motivation.
+T14	Premise 1763 1844	Such activities can help us to pick up with other students and have more friends.
+T15	Premise 1845 1950	In my perspective, more friends and new experience inspire the feeling of happiness and excitement in me.
+T16	MajorClaim 1951 2101	All in all, I am in the conviction that sports and social activities should obtain analogous concern and money in the view of above-mentioned reasons.
+A1	Stance T2 For
+A2	Stance T7 For
+A3	Stance T12 For
+R1	supports Arg1:T2 Arg2:T1
+R2	supports Arg1:T3 Arg2:T2
+R3	supports Arg1:T4 Arg2:T2
+R4	supports Arg1:T5 Arg2:T2
+R5	supports Arg1:T6 Arg2:T2
+R6	supports Arg1:T7 Arg2:T1
+R7	supports Arg1:T8 Arg2:T7
+R8	supports Arg1:T9 Arg2:T7
+R9	supports Arg1:T10 Arg2:T7
+R10	supports Arg1:T11 Arg2:T7
+R11	supports Arg1:T12 Arg2:T1
+R12	supports Arg1:T13 Arg2:T12
+R13	supports Arg1:T14 Arg2:T12
+R14	supports Arg1:T15 Arg2:T12
+R15	supports Arg1:T1 Arg2:T16
+R16	supports Arg1:T2 Arg2:T16
+R17	supports Arg1:T7 Arg2:T16
+R18	supports Arg1:T12 Arg2:T16

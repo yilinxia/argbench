@@ -1,0 +1,26 @@
+T1	MajorClaim 159 237	I completely argue that people's health would therefore be affected negatively
+T2	Claim 239 334	Environment pollution one of the primary reasons why life in cities is becoming worse than ever
+A1	Stance T2 For
+T3	Premise 343 473	Exhaust from transportation, especially cars, and factories' tosix fumes can lead people to face with various respiratory deseases
+T4	Premise 484 542	water pollution makes people's health become more critical
+T5	Premise 544 741	The fact is that dangerous bacterias and germs in polluted water can go indirectly into people's bodies and create severe problems, which may result in death if the patients are not treated in time
+T6	Claim 754 836	it is likely that many foods in big cities are not safe for people to eat or drink
+A2	Stance T6 For
+T7	Premise 838 922	Recent investigations reveal that toxic foods are sold pervasively in today's market
+T8	Claim 930 1032	overpopulation may make people suffer from infectious deseases, especially cough, sneezing and illness
+A3	Stance T8 For
+T9	Claim 1047 1111	living in such cities also means living in high crime rate areas
+A4	Stance T9 For
+T10	Premise 1113 1282	Unemployed workers or school dropouts can easily commit crime from petty offence to felony such as burglary, pickpocketing, trickery, vandalism, smuggling or even murder
+T11	Premise 1284 1385	Earning money for living becomes more difficult, living healthy in such places is getting harder also
+T12	MajorClaim 1402 1480	I believe that life in big cities can have negative effects on people's health
+R1	supports Arg1:T3 Arg2:T2
+R2	supports Arg1:T4 Arg2:T2
+R3	supports Arg1:T5 Arg2:T2
+R4	supports Arg1:T7 Arg2:T6
+R5	supports Arg1:T10 Arg2:T9
+R6	supports Arg1:T11 Arg2:T9
+R7	supports Arg1:T2 Arg2:T1
+R8	supports Arg1:T6 Arg2:T1
+R9	supports Arg1:T8 Arg2:T1
+R10	supports Arg1:T9 Arg2:T1

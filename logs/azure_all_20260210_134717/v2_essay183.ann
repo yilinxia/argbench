@@ -1,0 +1,29 @@
+T1	MajorClaim 264 353	I personally consider this fact as the harmful thing that television has brought upon us.
+T2	Claim 368 441	since people watch television too much, they can be isolated from others.
+T3	Premise 442 655	Children, for example, pay more attention on movies, music show provided by television and do not want to do anything else such as going to school or practicing exercise with friends will be taken apart by others.
+T4	Premise 656 729	Gradually, their friends leave them behind either activities or studying.
+T5	Claim 740 959	with the rapid change of the standard of life, each family has three or four TV in each room is more common. Parents and even children do not want to communicate with each other instead of watching TV in their own room.
+T6	Premise 960 1055	As a consequence, children will learn behavior from what they see on TV not from their parents.
+T7	Premise 1056 1154	Moreover, parents are not able to function their parental care as the necessary thing to children.
+T8	Premise 1155 1226	In this way, communication between family members is visibly destroyed.
+T9	Claim 1247 1351	watching too much television people will unconsciously learn bad behavior that sow division among human.
+T10	Premise 1352 1456	For example, watching film about terrorist children will be able to consider terrorism as a right thing.
+T11	Premise 1457 1532	What happens if they do act exactly the terrorist in Hollywood movies does?
+T12	MajorClaim 1586 1696	In conclusion, though television has some good sides, it has destroyed communication among friends and family.
+T13	Claim 1697 1864	We need to quickly find the way to address this problem as soon as possible and the first concern is to reducing violent behaviors that children learn from television.
+A1	Stance T2 For
+A2	Stance T5 For
+A3	Stance T9 For
+A4	Stance T13 For
+R1	supports Arg1:T2 Arg2:T1
+R2	supports Arg1:T3 Arg2:T2
+R3	supports Arg1:T4 Arg2:T2
+R4	supports Arg1:T5 Arg2:T1
+R5	supports Arg1:T6 Arg2:T5
+R6	supports Arg1:T7 Arg2:T5
+R7	supports Arg1:T8 Arg2:T5
+R8	supports Arg1:T9 Arg2:T1
+R9	supports Arg1:T10 Arg2:T9
+R10	supports Arg1:T11 Arg2:T9
+R11	supports Arg1:T13 Arg2:T12
+R12	supports Arg1:T12 Arg2:T1

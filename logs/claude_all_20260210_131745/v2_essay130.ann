@@ -1,0 +1,28 @@
+T1	MajorClaim 0 74	Under suitable administration, tourism enhances local economic development
+T2	Claim 400 547	through proper management and regulation, a booming tourist industry is an excellent source of economic growth and wealth for rural and urban areas
+A1	Stance T2 For
+T3	Claim 549 657	The most obvious merit is that tourism can vastly boost economic development in a particular state or region
+A2	Stance T3 For
+T4	Premise 659 858	This takes place, not only through direct expenditure from tourists, but also because it provides direct and indirect jobs to the community, including retail, agriculture, and in the service industry
+T5	Premise 860 1022	The increasing tax and the expansion of local markets for accommodation, luxury goods amongst others are also a result of a solid, well-regulated tourism programs
+T6	Premise 1024 1199	Furthermore, tourism provides a considerable number of direct and indirect jobs to the community, including retail, hotels, transport, agriculture, and in the service industry
+T7	Premise 1201 1361	This increase of job opportunities allows more people to make significant contribution to society through the purchasing of commodities by their growing incomes
+T8	Premise 1363 1463	As a result, this gives energy to the economic cycle, generating local economic prosperity in return
+T9	Claim 1465 1562	Some people may oppose these, citing the environmental and cultural destruction caused by tourism
+A3	Stance T9 Against
+T10	Premise 1564 1693	In fact, compared to the tourism industry, other alternatives, like resource extraction and manufacture, are far worse destroyers
+T11	Premise 1695 1817	For instance, paper mills pour hundreds and thousands of tons of contamination into rivers, causing severe water pollution
+T12	Premise 1819 1995	On the other hand, the dramatic majority of tourist, particularly those who tend to spending a wealth of time and money locating and visiting rustic villages, are well educated
+T13	Premise 1997 2107	It is illogical to believe that these rational folks will not conduct themselves decently if required to do so
+T14	MajorClaim 2259 2355	it is evident that under suitable administration, the benefits of tourism outweigh its drawbacks
+R1	supports Arg1:T4 Arg2:T3
+R2	supports Arg1:T5 Arg2:T3
+R3	supports Arg1:T6 Arg2:T3
+R4	supports Arg1:T7 Arg2:T3
+R5	supports Arg1:T8 Arg2:T3
+R6	supports Arg1:T3 Arg2:T1
+R7	attacks Arg1:T10 Arg2:T9
+R8	supports Arg1:T11 Arg2:T10
+R9	attacks Arg1:T12 Arg2:T9
+R10	supports Arg1:T13 Arg2:T12
+R11	supports Arg1:T2 Arg2:T1

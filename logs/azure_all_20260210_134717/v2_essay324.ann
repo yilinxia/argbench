@@ -1,0 +1,44 @@
+T1	MajorClaim 0 54	Different types of tasks endow more colors to our life
+T2	Claim 896 995	These examples make it obvious that great achievement needs someone keen on one task for long time.
+T3	Premise 577 622	Most of workers have adapted to do same task.
+T4	Premise 623 652	It allows us to achieve more.
+T5	Premise 653 730	As a authoritative dentist in my province, my mother has worked for 25 years.
+T6	Premise 731 895	Gandhi devoted his whole life to fight against British-ruled government and inspire movements for civil rights in India, finally he became the father of the nation.
+T7	Claim 996 1079	While when it comes to "happier", different type of jobs can be responsible factor.
+T8	Claim 1080 1145	Doing different tasks makes employees and employers much happier.
+T9	Premise 1146 1239	Workers, who work for an ordinary company or industry, will be sick of same tasks day by day.
+T10	Premise 1240 1333	Although they can be familiar with their job, changing of job is what serve to their happier.
+T11	Premise 1334 1504	Changing the type of work will be fresh and elicit their potential to adapt a new environment, which, according to psychology theories, makes workers relaxed and happier.
+T12	Premise 1505 1649	To set another example, consider every workers have ability to do several kinds of work, employers will be satisfied by the generating benefits.
+T13	Premise 1650 1730	They both will be happy because the change of job, not the same task day by day.
+T14	Claim 1731 1816	Different types of tasks during workday brings more challenges, making life colorful.
+T15	Premise 1817 1883	Just like a song, if I did not have challenge, life would be blue.
+T16	Premise 1884 1987	As an engineering researcher, I will surely be disappointed for failure, and exited for new challenges.
+T17	Premise 1988 2141	New challenges from different tasks amounts far more than more works, it also means through dealing with it, I will obtain more knowledge and experience.
+T18	Premise 2142 2316	As the saying of a Chinese writer, the color of life is rooted not in Japanese cherry blossom or Canadian maple leaf, but rather there always exists new things and challenge.
+T19	Premise 2317 2490	After all, doing same task day and night just server to increase our psychological burden, connecting with different types of job is capable give us more colors to our life.
+T20	Claim 2491 2690	To sum up, I admire my father's choice, while the same task give us opportunities to be an expert, like my mom, I still hold the firm view that different types of tasks endow more colors to our life.
+A1	Stance T2 Against
+A2	Stance T7 For
+A3	Stance T8 For
+A4	Stance T14 For
+A5	Stance T20 For
+R1	supports Arg1:T3 Arg2:T2
+R2	supports Arg1:T4 Arg2:T2
+R3	supports Arg1:T5 Arg2:T2
+R4	supports Arg1:T6 Arg2:T2
+R5	supports Arg1:T7 Arg2:T1
+R6	supports Arg1:T8 Arg2:T1
+R7	supports Arg1:T9 Arg2:T8
+R8	supports Arg1:T10 Arg2:T8
+R9	supports Arg1:T11 Arg2:T8
+R10	supports Arg1:T12 Arg2:T8
+R11	supports Arg1:T13 Arg2:T8
+R12	supports Arg1:T14 Arg2:T1
+R13	supports Arg1:T15 Arg2:T14
+R14	supports Arg1:T16 Arg2:T14
+R15	supports Arg1:T17 Arg2:T14
+R16	supports Arg1:T18 Arg2:T14
+R17	supports Arg1:T19 Arg2:T1
+R18	supports Arg1:T20 Arg2:T1
+R19	attacks Arg1:T2 Arg2:T1

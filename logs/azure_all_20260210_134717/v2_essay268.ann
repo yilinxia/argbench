@@ -1,0 +1,32 @@
+T1	MajorClaim 370 516	But I don't think that equal amount of money should be spent on academic issues like libraries and laboratories and physical or social activities.
+T2	Claim 517 685	First, in my view spending too much money for equipping the gyms or constructing football/basketball courts are really not necessary to encourage students to do sports.
+T3	Premise 686 821	For example, my roommate, Mary, always wakes up 6 in the morning and spends 1 hour doing sport in the park which is near our dormitory.
+T4	Premise 822 938	When she gets to the dorm, she is really full of energy and after taking a shower, she is ready to start a good day.
+T5	Premise 939 997	As you see, she is doing exercise without spending a cent.
+T6	Premise 998 1232	What the university should do is informing the students the benefits of doing sport by hanging some posters in the campus, inviting some athletes to lecture for students and encourage them to spend some time for their body and health.
+T7	Claim 1233 1388	In addition, students choose their major based on their interests. The university should provide the best equipment needed for physical education students.
+T8	Premise 1389 1455	Because their major in completely involved in physical activities.
+T9	Claim 1456 1709	In contrast, for an engineer or a medicine student I do not find it fair enough to equip gyms instead of their laboratories, because it really make the students enthusiastic to use innovative technology to learn and maybe find new things in their field.
+T10	Claim 1710 1780	Finally, spending money on social activities looks like wasting money.
+T11	Premise 1781 1927	For students who want to gather with their friends or want to go out to meet new people, university programs are the last place they would choose.
+T12	Premise 1928 2106	For example when I and my friends want to spend time with each other, we prefer to go out of university to the places where we do not want to be disturbed by any familiar people.
+T13	MajorClaim 2108 2326	In conclusion, I do not deny the importance of doing sports in the success of university students, but I think both sports and social activities should not receive equal amount of money with libraries and laboratories.
+A1	Stance T2 For
+A2	Stance T7 For
+A3	Stance T9 For
+A4	Stance T10 For
+R1	supports Arg1:T2 Arg2:T1
+R2	supports Arg1:T3 Arg2:T2
+R3	supports Arg1:T4 Arg2:T2
+R4	supports Arg1:T5 Arg2:T2
+R5	supports Arg1:T6 Arg2:T2
+R6	supports Arg1:T7 Arg2:T1
+R7	supports Arg1:T8 Arg2:T7
+R8	supports Arg1:T9 Arg2:T1
+R9	supports Arg1:T10 Arg2:T1
+R10	supports Arg1:T11 Arg2:T10
+R11	supports Arg1:T12 Arg2:T11
+R12	supports Arg1:T2 Arg2:T13
+R13	supports Arg1:T7 Arg2:T13
+R14	supports Arg1:T9 Arg2:T13
+R15	supports Arg1:T10 Arg2:T13

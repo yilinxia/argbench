@@ -1,0 +1,36 @@
+T1	MajorClaim 352 433	Both ways are good to follow because they all have their own distinct advantages.
+T2	Claim 447 559	the way of learning life through listening to the advice of family and friends is more realistic than the latter
+T3	Premise 561 693	Family members such as your parents are experienced in life so they can give you proper and sincere guidance on every aspect of life
+T4	Premise 699 857	friends, people who are the same generation with you, they are understand your favorite and ability enough to tell you which is suitable for you, which is not
+T5	Premise 859 954	By listening to your family and friends advice, you can definitely avoid many unexpected things
+T6	Claim 975 1067	finding out life through personal experience can help you become more independent and mature
+T7	Premise 1084 1173	there are so many grate things that you can missed if you don't experience it by yourself
+T8	Premise 1175 1338	For example, a friend told you not to try skydiving because it was so dangerous. If you did as he told, you could fail to see how wonderful it is to be fall freely
+T9	Premise 1353 1427	family and friends accidentally harm you by giving you advice all the time
+T10	Premise 1429 1470	You will grow to be dependent and reliant
+T11	Premise 1485 1607	free yourself and do what you desire without notice about consequences is the way that success people would like to choose
+T12	Claim 1630 1673	both ways are good, but I prefer the latter
+T13	Premise 1689 1746	growth is a long process that experience is indispensable
+T14	Premise 1748 1845	I believe that experiencing the real life by myself, I could learn more than just obey the advice
+T15	Premise 1847 1968	Parents and other predecessors used to experience their own life by themselves, why don't the younger try to do the same?
+T16	MajorClaim 1981 2024	each way learning life has its own benefits
+T17	Claim 2026 2107	But to me, learning about life through personal experience seems more appropriate
+A1	Stance T2 For
+A2	Stance T6 For
+A3	Stance T12 For
+A4	Stance T17 For
+R1	supports Arg1:T3 Arg2:T2
+R2	supports Arg1:T4 Arg2:T2
+R3	supports Arg1:T5 Arg2:T2
+R4	supports Arg1:T7 Arg2:T6
+R5	supports Arg1:T8 Arg2:T7
+R6	supports Arg1:T9 Arg2:T6
+R7	supports Arg1:T10 Arg2:T9
+R8	supports Arg1:T11 Arg2:T6
+R9	supports Arg1:T13 Arg2:T12
+R10	supports Arg1:T14 Arg2:T12
+R11	supports Arg1:T15 Arg2:T12
+R12	supports Arg1:T2 Arg2:T1
+R13	supports Arg1:T6 Arg2:T1
+R14	supports Arg1:T12 Arg2:T16
+R15	supports Arg1:T17 Arg2:T16

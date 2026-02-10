@@ -1,0 +1,38 @@
+T1	MajorClaim 0 55	More important to work quickly and risk making mistakes
+T2	Claim 534 595	if persons work rapidly, they will have more chance to study.
+A1	Stance T2 For
+T3	Premise 596 723	Attending in some classes which try to increase the skills of employees can be considered as an absolutely effective parameter.
+T4	Premise 724 828	If people learn how should increase their speed at work by studying, they can stares in their workplace.
+T5	Premise 829 1037	For example, I have a friend who was working so slowly. He has been threatened by his boss who was going to fire him. My friend went to a course where he learned how should work rapidly and now he is working.
+T6	Claim 1056 1150	people prone to work in two or three firms in a week because the expenses have been increased.
+A2	Stance T6 For
+T7	Premise 1151 1219	If they work just in one organization they cannot earn enough money.
+T8	Premise 1220 1268	This fact pushes them to work faster and faster.
+T9	Premise 1269 1390	For example, because applying to study abroad needs a lot of money, I am working in two organization to gain more salary.
+T10	Premise 1391 1424	The more money, the more chances.
+T11	Claim 1445 1500	people who work slowly can no longer handle more tasks.
+A3	Stance T11 For
+T12	Premise 1501 1635	If you show in your workplace that you are the one who can work more than other even carelessly, your boss will assign you more tasks.
+T13	Premise 1636 1730	If you do them fast too, the first acknowledgement of your boss encourages you to work harder.
+T14	Premise 1731 1800	It turns you to a person who has skill of working without hesitation.
+T15	Premise 1801 1894	Even if we ignore this result, by the same token, you can get higher position and more money.
+T16	Claim 1906 1997	I completely approve of the statement which says people should work faster even more risky.
+A4	Stance T16 For
+T17	Claim 1998 2136	Gaining more skills by study, having more than one job, and handling more tasks are the benefits of it which overweighs its disadvantages.
+A5	Stance T17 For
+R1	supports Arg1:T2 Arg2:T1
+R2	supports Arg1:T3 Arg2:T2
+R3	supports Arg1:T4 Arg2:T2
+R4	supports Arg1:T5 Arg2:T2
+R5	supports Arg1:T6 Arg2:T1
+R6	supports Arg1:T7 Arg2:T6
+R7	supports Arg1:T8 Arg2:T6
+R8	supports Arg1:T9 Arg2:T6
+R9	supports Arg1:T10 Arg2:T6
+R10	supports Arg1:T11 Arg2:T1
+R11	supports Arg1:T12 Arg2:T11
+R12	supports Arg1:T13 Arg2:T11
+R13	supports Arg1:T14 Arg2:T11
+R14	supports Arg1:T15 Arg2:T11
+R15	supports Arg1:T16 Arg2:T1
+R16	supports Arg1:T17 Arg2:T1

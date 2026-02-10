@@ -1,0 +1,23 @@
+T1	MajorClaim 439 477	I strongly agree about this statement.
+T2	Claim 980 1057	female students are indicated having the same potential and capability as men
+A1	Stance T2 For
+T3	Premise 478 560	The proportion of women is rising year by year in many parts of the world recently
+T4	Premise 562 750	Automatically, the issue stimulates the stakeholders from many places to think what kind of preparations they should take for stabilising the economic growth and the quality life of people
+T5	Premise 752 898	We can see now that women tend to work in various fields which in the past normally done by men such as being engineers, and dealing with machines
+T6	Premise 752 967	We can see now that women tend to work in various fields which in the past normally done by men such as being engineers, and dealing with machines. Those activities have proven that women can also do the men's works
+T7	Claim 1059 1166	Another reason is order to gaining higher education degree as it is required to establish a person's career
+A2	Stance T7 For
+T8	Premise 1168 1286	These days, it is so hard for young people to get a proper job when they have not degree certificate from Universities
+T9	Premise 1292 1471	learning from human's history, education provides someone to widen his or her knowledge and experience for facing the real situation of workplace through subject taught in college
+T10	Claim 1500 1555	giving equal education for both men and women is a must
+A3	Stance T10 For
+T11	MajorClaim 1572 1734	the needs for having developed-skills and gaining degree certificate in order to build someone's career are totally needed to implement and applied for any gender
+T12	MajorClaim 1736 1875	As the world's situation is always changing, act for distributing education needs are absolutely important to compete the future challenges
+R1	supports Arg1:T3 Arg2:T2
+R2	supports Arg1:T4 Arg2:T2
+R3	supports Arg1:T6 Arg2:T2
+R4	supports Arg1:T2 Arg2:T1
+R5	supports Arg1:T8 Arg2:T7
+R6	supports Arg1:T9 Arg2:T10
+R7	supports Arg1:T7 Arg2:T1
+R8	supports Arg1:T10 Arg2:T1

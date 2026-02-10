@@ -1,0 +1,30 @@
+T1	MajorClaim 0 47	Society should ban all forms of the advertising
+T2	Claim 475 636	Society does need an advertising but it is our responsibility to control the content and what kind of goods and services we would like to offer to our customers.
+T3	Claim 637 770	First of all, I do support the idea that advertising alcohol, cigarettes, goods and services with adult content should be prohibited.
+T4	Premise 771 839	Because these kind of ads will have negative effect to our children.
+T5	Premise 840 944	Youngsters might be tempted to buy cigarettes or alcohol and later to start consume it on a daily basis.
+T6	Premise 945 1097	Fortunately, some countries take this issue seriously and advertising alcohol, cigarettes and materials with adult content is banned on those countries.
+T7	Claim 1098 1209	On the other hand by advertising companies, businesses, firms and individuals promote their goods and services.
+T8	Premise 1210 1309	Thanks to ads we learn about new products, we can compare them and choose whats it the best for us.
+T9	Claim 1310 1397	These days, not only many businesses, but also governments have to rely on advertising.
+T10	Premise 1398 1599	For example, tourism makes up one-third of the Czech Republic's economy. In order to promote the country's attractions, the Czech government has to advertise and sell its services to foreign consumers.
+T11	Premise 1600 1696	Only well planned and well targeted advertising will bring more foreign tourists to the country.
+T12	Claim 1697 1758	In conclusion, I think that modern society needs advertising.
+T13	Premise 1759 1947	Ads will keep as well informed about new products and services, but we should also bear in mind that advertising cigarettes and alcohol will definitely affect our children in negative way.
+A1	Stance T2 Against
+A2	Stance T3 Against
+A3	Stance T7 Against
+A4	Stance T9 Against
+A5	Stance T12 Against
+R1	attacks Arg1:T2 Arg2:T1
+R2	supports Arg1:T3 Arg2:T2
+R3	supports Arg1:T4 Arg2:T3
+R4	supports Arg1:T5 Arg2:T4
+R5	supports Arg1:T6 Arg2:T3
+R6	supports Arg1:T7 Arg2:T2
+R7	supports Arg1:T8 Arg2:T7
+R8	supports Arg1:T9 Arg2:T2
+R9	supports Arg1:T10 Arg2:T9
+R10	supports Arg1:T11 Arg2:T9
+R11	supports Arg1:T12 Arg2:T2
+R12	supports Arg1:T13 Arg2:T12

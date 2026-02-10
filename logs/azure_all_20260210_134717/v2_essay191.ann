@@ -1,0 +1,34 @@
+T1	MajorClaim 103-234	I personally prefer studying in a group due to these noticeable features, getting help from other students, improving my attitude for learning, managing my time in an effective way.
+T2	Claim 235-348	When pupils make a group for studying, all member of group have the same chance to help each other.
+A1	Stance T2 For
+T3	Premise 349-423	They can work together for understanding the complicated aspect of a course.
+T4	Premise 424-508	For example, when a group faces with complex math problem, they can share their opinions to solve it.
+T5	Claim 522-653	In addition, such a remarkable effect has incorporation that all students can improve their weak points in a group.
+A2	Stance T5 For
+T6	Claim 655-730	Increasing the motivation and competence spirit are another benefit of group-studying.
+A3	Stance T6 For
+T7	Premise 731-811	In a group of student, the best of those always encourages others to study harder.
+T8	Premise 821-906	Besides, pupils often have a tangible competence in order that they can get the highest grade in a group.
+T9	Premise 908-997	Clearly, better learning is one of noticeable result of these competences and encouragements.
+T10	Claim 999-1100	When the students study with their friends, they should have schedule to use their time in an effective manner.
+A4	Stance T10 For
+T11	Premise 1101-1235	Group-studying causes some kind of internal obligation to manage the time, inasmuch as we always care about other people and we do not want to waste their time.
+T12	Claim 1236-1313	Therefore, time management is another brilliant benefit of group-studying.
+A5	Stance T12 For
+T13	Claim 1328-1452	In conclusion, I strongly prefer studying in a group of my friends because of some important opportunities gaining with this activity.
+A6	Stance T13 For
+T14	Premise 1453-1572	I can receive some helps from other student as well as improving my learning skills, also managing of time is another achievements of group-studying.
+R1	supports Arg1:T2 Arg2:T1
+R2	supports Arg1:T3 Arg2:T2
+R3	supports Arg1:T4 Arg2:T3
+R4	supports Arg1:T5 Arg2:T1
+R5	supports Arg1:T6 Arg2:T1
+R6	supports Arg1:T7 Arg2:T6
+R7	supports Arg1:T8 Arg2:T6
+R8	supports Arg1:T9 Arg2:T6
+R9	supports Arg1:T10 Arg2:T1
+R10	supports Arg1:T11 Arg2:T10
+R11	supports Arg1:T12 Arg2:T1
+R12	supports Arg1:T11 Arg2:T12
+R13	supports Arg1:T13 Arg2:T1
+R14	supports Arg1:T14 Arg2:T13

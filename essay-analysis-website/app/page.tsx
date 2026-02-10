@@ -310,6 +310,69 @@ export default function Home() {
     loadStats()
   }, [selectedRuns])
 
+  // Filter essays based on what's available in selected runs
+  const [availableEssayIds, setAvailableEssayIds] = useState<Set<string>>(new Set())
+  
+  // Load available essays when selected runs change
+  useEffect(() => {
+    if (Object.keys(selectedRuns).length === 0) return
+    
+    async function loadAvailableEssays() {
+      const essayIds = new Set<string>()
+      
+      // Check which essays are available across all selected runs
+      const promises = Object.entries(selectedRuns).map(async ([model, folder]) => {
+        try {
+          const res = await fetch(`/api/data?action=availableEssays&logFolder=${folder}`)
+          const data = await res.json()
+          if (data.essayIds) {
+            return data.essayIds as string[]
+          }
+        } catch (error) {
+          console.error(`Failed to load available essays for ${folder}:`, error)
+        }
+        return []
+      })
+      
+      const results = await Promise.all(promises)
+      
+      // Find essays that are available in ALL selected runs
+      if (results.length > 0 && results[0].length > 0) {
+        // Start with essays from first model
+        const firstModelEssays = new Set(results[0])
+        
+        // Keep only essays that exist in all other models
+        for (let i = 1; i < results.length; i++) {
+          const modelEssays = new Set(results[i])
+          for (const essayId of firstModelEssays) {
+            if (!modelEssays.has(essayId)) {
+              firstModelEssays.delete(essayId)
+            }
+          }
+        }
+        
+        setAvailableEssayIds(firstModelEssays)
+      }
+    }
+    
+    loadAvailableEssays()
+  }, [selectedRuns])
+  
+  const filteredEssays = useMemo(() => {
+    if (availableEssayIds.size === 0) {
+      return essays
+    }
+    return essays.filter(essay => availableEssayIds.has(essay.id))
+  }, [essays, availableEssayIds])
+
+  // Update selected essay when filtered essays change
+  useEffect(() => {
+    if (filteredEssays.length > 0 && !filteredEssays.find(e => e.id === selectedEssayId)) {
+      // Current essay is not in filtered list, select the first available one
+      setSelectedEssayId(filteredEssays[0].id)
+    }
+  }, [filteredEssays, selectedEssayId])
+
   // Build essay object for viewer
   const selectedEssayData = essays.find(e => e.id === selectedEssayId)
   
@@ -343,6 +406,7 @@ export default function Home() {
   }
 
   const essayCount = essays.length
+  const filteredEssayCount = filteredEssays.length
   const totalRuns = logRuns.length
 
   return (
@@ -360,7 +424,7 @@ export default function Home() {
           </div>
           <div className="flex items-center gap-3 text-sm text-muted-foreground">
             <span className="px-2.5 py-1 bg-muted rounded-md font-mono text-xs">
-              {essayCount} essay{essayCount !== 1 ? "s" : ""}
+              {filteredEssayCount} / {essayCount} essay{essayCount !== 1 ? "s" : ""}
             </span>
             <span className="px-2.5 py-1 bg-muted rounded-md font-mono text-xs">
               {modelNames.length} models
@@ -395,7 +459,7 @@ export default function Home() {
                   const selectedFolder = selectedRuns[model]
                   const selectedRun = runsByModel[model]?.find(r => r.folder === selectedFolder)
                   const selectedTime = selectedRun ? 
-                    `${selectedRun.timestamp.slice(4, 6)}/${selectedRun.timestamp.slice(6, 8)} ${selectedRun.timestamp.slice(9, 11)}:${selectedRun.timestamp.slice(11, 13)}` 
+                    `${selectedRun.timestamp.slice(4, 6)}/${selectedRun.timestamp.slice(6, 8)} ${selectedRun.timestamp.slice(9, 11)}:${selectedRun.timestamp.slice(11, 13)}${selectedRun.folder.includes("_all_") ? " (All)" : ""}` 
                     : ""
                   // Get the display name from the first run of this model
                   const modelDisplayName = runsByModel[model]?.[0]?.modelDisplayName || model
@@ -420,9 +484,11 @@ export default function Home() {
                           {runsByModel[model]?.map(run => {
                             // Format: MM/DD HH:MM
                             const formattedTime = `${run.timestamp.slice(4, 6)}/${run.timestamp.slice(6, 8)} ${run.timestamp.slice(9, 11)}:${run.timestamp.slice(11, 13)}`
+                            const isAllRun = run.folder.includes("_all_")
+                            const label = isAllRun ? `${formattedTime} (All)` : formattedTime
                             return (
                               <SelectItem key={run.folder} value={run.folder} className="text-xs">
-                                {formattedTime}
+                                {label}
                               </SelectItem>
                             )
                           })}
@@ -440,7 +506,19 @@ export default function Home() {
                 Essay
               </h2>
               <span className="text-[10px] text-muted-foreground block mb-2">
-                {essayCount} available
+                {(() => {
+                  const v1Count = filteredEssays.filter(e => e.id.startsWith('v1_')).length
+                  const v2Count = filteredEssays.filter(e => e.id.startsWith('v2_')).length
+                  if (v1Count > 0 && v2Count > 0) {
+                    return `${v1Count} V1 + ${v2Count} V2 = ${filteredEssays.length} available`
+                  } else if (v1Count > 0) {
+                    return `${v1Count} V1 essays available`
+                  } else if (v2Count > 0) {
+                    return `${v2Count} V2 essays available`
+                  } else {
+                    return `${filteredEssays.length} available`
+                  }
+                })()}
               </span>
               
               <Select
@@ -451,14 +529,22 @@ export default function Home() {
                   <SelectValue placeholder="Select an essay" />
                 </SelectTrigger>
                 <SelectContent>
-                  {essays.map((essay, index) => {
+                  {filteredEssays.map((essay) => {
                     const stats = essayStats[essay.id]
+                    // Extract version and number from essay ID (e.g., v1_essay01 -> v1, 01)
+                    const versionMatch = essay.id.match(/^(v\d+)_essay(\d+)$/)
+                    const version = versionMatch ? versionMatch[1].toUpperCase() : ""
+                    const essayNum = versionMatch ? versionMatch[2] : essay.id
+                    
                     return (
                       <SelectItem key={essay.id} value={essay.id} className="text-xs">
                         <div className="flex items-center gap-2">
-                          <span className="font-mono">{String(index + 1).padStart(2, '0')}.</span>
-                          <span className="truncate max-w-[180px]">
-                            {essay.name.length > 30 ? essay.name.slice(0, 30) + "..." : essay.name}
+                          <span className="font-mono font-semibold text-[10px] px-1 rounded bg-muted">
+                            {version}
+                          </span>
+                          <span className="font-mono">{essayNum}</span>
+                          <span className="truncate max-w-[150px]">
+                            {essay.name.length > 25 ? essay.name.slice(0, 25) + "..." : essay.name}
                           </span>
                           {stats && (
                             <div className="flex items-center gap-1 ml-auto">
@@ -599,9 +685,22 @@ export default function Home() {
               <>
                 <div className="mb-4 flex items-center justify-between flex-wrap gap-3">
                   <div className="flex items-center gap-3 flex-wrap">
-                    <h3 className="text-lg font-semibold text-foreground">
-                      Essay {String(essays.findIndex(e => e.id === selectedEssayId) + 1).padStart(2, '0')}: {selectedEssay.title}
-                    </h3>
+                    {(() => {
+                      const versionMatch = selectedEssayId.match(/^(v\d+)_essay(\d+)$/)
+                      const version = versionMatch ? versionMatch[1].toUpperCase() : ""
+                      const essayNum = versionMatch ? versionMatch[2] : selectedEssayId
+                      
+                      return (
+                        <>
+                          <h3 className="text-lg font-semibold text-foreground flex items-center gap-2">
+                            <span className="text-sm font-semibold px-2 py-0.5 rounded bg-muted text-muted-foreground">
+                              {version}
+                            </span>
+                            Essay {essayNum}: {selectedEssay.title}
+                          </h3>
+                        </>
+                      )
+                    })()}
                     <span className="text-xs text-muted-foreground font-mono px-2 py-1 bg-muted rounded">
                       {selectedEssay.text.length} chars
                     </span>
@@ -614,15 +713,15 @@ export default function Home() {
                   <div className="flex items-center gap-2">
                     <button
                       onClick={() => {
-                        const currentIndex = essays.findIndex(e => e.id === selectedEssayId)
+                        const currentIndex = filteredEssays.findIndex(e => e.id === selectedEssayId)
                         if (currentIndex > 0) {
-                          setSelectedEssayId(essays[currentIndex - 1].id)
+                          setSelectedEssayId(filteredEssays[currentIndex - 1].id)
                         }
                       }}
-                      disabled={essays.findIndex(e => e.id === selectedEssayId) === 0}
+                      disabled={filteredEssays.findIndex(e => e.id === selectedEssayId) === 0}
                       className={cn(
                         "px-3 py-1.5 text-xs font-medium rounded-md flex items-center gap-1 transition-colors",
-                        essays.findIndex(e => e.id === selectedEssayId) === 0
+                        filteredEssays.findIndex(e => e.id === selectedEssayId) === 0
                           ? "bg-muted text-muted-foreground cursor-not-allowed"
                           : "bg-muted hover:bg-muted/80 text-foreground"
                       )}
@@ -633,19 +732,19 @@ export default function Home() {
                       Prev
                     </button>
                     <span className="text-xs text-muted-foreground">
-                      {essays.findIndex(e => e.id === selectedEssayId) + 1} / {essays.length}
+                      {filteredEssays.findIndex(e => e.id === selectedEssayId) + 1} / {filteredEssays.length}
                     </span>
                     <button
                       onClick={() => {
-                        const currentIndex = essays.findIndex(e => e.id === selectedEssayId)
-                        if (currentIndex < essays.length - 1) {
-                          setSelectedEssayId(essays[currentIndex + 1].id)
+                        const currentIndex = filteredEssays.findIndex(e => e.id === selectedEssayId)
+                        if (currentIndex < filteredEssays.length - 1) {
+                          setSelectedEssayId(filteredEssays[currentIndex + 1].id)
                         }
                       }}
-                      disabled={essays.findIndex(e => e.id === selectedEssayId) === essays.length - 1}
+                      disabled={filteredEssays.findIndex(e => e.id === selectedEssayId) === filteredEssays.length - 1}
                       className={cn(
                         "px-3 py-1.5 text-xs font-medium rounded-md flex items-center gap-1 transition-colors",
-                        essays.findIndex(e => e.id === selectedEssayId) === essays.length - 1
+                        filteredEssays.findIndex(e => e.id === selectedEssayId) === filteredEssays.length - 1
                           ? "bg-muted text-muted-foreground cursor-not-allowed"
                           : "bg-muted hover:bg-muted/80 text-foreground"
                       )}

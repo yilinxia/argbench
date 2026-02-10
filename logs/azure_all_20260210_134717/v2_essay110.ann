@@ -1,0 +1,29 @@
+T1	MajorClaim 0 45	Citizen's only responsibility is to pay taxes
+T2	Claim 296 406	Taxes are the income for every country in the world and they are extremely important for developing countries.
+T3	Premise 407 536	If people are paying taxes, that means they are taking part in the development of their country as well as the country's economy.
+T4	Claim 537 592	Therefore, they have fulfilled their duty as a citizen.
+T5	Claim 593 701	Some people argue that individuals of a country are responsible for many other things apart from paying tax.
+T6	Premise 702 804	In fact, in order to develop a country, citizens must obey laws, which were imposed by the government.
+T7	Premise 805 926	In this way, the crime rate is reduced and society becomes a peaceful place, so the country will develop at a rapid pace.
+T8	Premise 927 1016	Furthermore, being a citizen in society should protect the country's culture and history.
+T9	Premise 1017 1169	For instance, people should have knowledge about their own culture and history by studying at school with full concentration or reading them from books.
+T10	Premise 1170 1276	On the other hand, a person has to unite with other people in the community so as to develop their nation.
+T11	Premise 1277 1431	Indeed, if people in society have a strong bond with each other, society will become a peaceful place, where people are helping and sharing to each other.
+T12	MajorClaim 1432 1560	Taking everything into account, I strongly believe that being a citizen involves in a number of duties, other than paying taxes.
+T13	Claim 1561 1641	People in society must do more than paying taxes to contribute to their society.
+A1	Stance T2 For
+A2	Stance T4 For
+A3	Stance T5 Against
+A4	Stance T13 Against
+R1	supports Arg1:T3 Arg2:T4
+R2	supports Arg1:T2 Arg2:T4
+R3	supports Arg1:T4 Arg2:T1
+R4	supports Arg1:T6 Arg2:T5
+R5	supports Arg1:T7 Arg2:T6
+R6	supports Arg1:T8 Arg2:T5
+R7	supports Arg1:T9 Arg2:T8
+R8	supports Arg1:T10 Arg2:T5
+R9	supports Arg1:T11 Arg2:T10
+R10	attacks Arg1:T5 Arg2:T1
+R11	supports Arg1:T13 Arg2:T12
+R12	attacks Arg1:T12 Arg2:T1

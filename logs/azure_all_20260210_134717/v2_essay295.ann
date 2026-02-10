@@ -1,0 +1,49 @@
+T1	MajorClaim 0 57	Learning with a teacher is more efficient than by myself.
+T2	Claim 59 146	Every person learn in their own manner which they think that is most expedient to them.
+A1	Stance T2	Against
+T3	Claim 147 207	As for the learning by yourself, it has some certain profit.
+A2	Stance T3	Against
+T4	Premise 208 374	It gives you a chance to concentrate on what you learn cause there is no one who distracts your attention in presence of you, and your learning becomes more profound.
+T5	Claim 375 484	In addition, the learning with a teacher makes us bear more burdens of studies cause they assign us homework,
+A3	Stance T5	Against
+T6	Claim 485 560	Nevertheless, I prefer to learn with a teacher rather than learn by myself.
+A4	Stance T6	For
+T7	Claim 562 682	Firstly, The distinguishing fact of the learning with a teacher is that you can ask about problems related your studies.
+A5	Stance T7	For
+T8	Premise 683 859	In other words, when we encounter difficulty in our study which we can not make out, that asking the difficulty from our teacher is propitious way for us to solve it instantly.
+T9	Claim 860 998	In addition, professors and teachers have much experience and knowledge, and are so dextrous with letting students understand their study.
+A6	Stance T9	For
+T10	Premise 999 1086	They know something which are not incorporated in such materials as books and webpages.
+T11	Premise 1087 1265	Hence I, in my class, often communicate with my teacher to find a coordinated answer to a my faced problem, and my classmates are so accustomed to communicating with the teacher.
+T12	Claim 1267 1350	Secondly, in my mind, the learning with a teacher is more efficient than by myself.
+A7	Stance T12	For
+T13	Premise 1351 1454	We can accomplish our assignments with little help of a teacher within less time than do it by ourself.
+T14	Premise 1455 1534	Furthermore, the teachers play important role in leading us to right direction.
+T15	Premise 1535 1621	Moreover, This gives us opportunity to rise our educational level to an exited degree.
+T16	Premise 1622 1680	knowledge may be thereby better improved and strengthened.
+T17	Claim 1681 1742	Finally, of course, being without a teacher has shortcomings.
+A8	Stance T17	For
+T18	Premise 1743 1933	Notable one of the shortcomings is that if someone faced so complicated confusion in his study and his many endeavors on making out it were miscarried, this might be ended in disappointment.
+T19	Claim 1934 2091	I think that for one who depends on only himself in learning, his improvement of ability, with regard to cooperation and express his opinion, is unpromising.
+A9	Stance T19	For
+T20	Claim 2092 2162	Hence I support this point that the learning with a teacher is better.
+A10	Stance T20	For
+R1	supports Arg1:T6 Arg2:T1
+R2	supports Arg1:T4 Arg2:T3
+R3	attacks Arg1:T3 Arg2:T1
+R4	attacks Arg1:T5 Arg2:T1
+R5	supports Arg1:T7 Arg2:T1
+R6	supports Arg1:T8 Arg2:T7
+R7	supports Arg1:T9 Arg2:T1
+R8	supports Arg1:T10 Arg2:T9
+R9	supports Arg1:T11 Arg2:T9
+R10	supports Arg1:T12 Arg2:T1
+R11	supports Arg1:T13 Arg2:T12
+R12	supports Arg1:T14 Arg2:T12
+R13	supports Arg1:T15 Arg2:T12
+R14	supports Arg1:T16 Arg2:T12
+R15	supports Arg1:T17 Arg2:T1
+R16	supports Arg1:T18 Arg2:T17
+R17	supports Arg1:T19 Arg2:T1
+R18	supports Arg1:T20 Arg2:T1
+R19	attacks Arg1:T2 Arg2:T1

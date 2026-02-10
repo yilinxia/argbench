@@ -1,0 +1,36 @@
+T1	MajorClaim 179 283	stress management, how to survive our unbearable stress, is the most important skill that we should have
+T2	Premise 307 413	Stress, our body's way of responding to any kind of demand, can be caused by both good and bad experiences
+T3	Premise 415 473	Stress may be a positive mobilization to drive for success
+T4	Premise 484 598	it is widely thought that we experience stress any time, which comes across unexpectedly that frustrates our goals
+T5	Claim 613 699	if we don't have a good stress management skill, it may lead to some critical problems
+T6	Premise 701 931	In the frenetic, fast-paced world, it is a very common predicament that all of us, from the young to the senior, feel depressed caused by stress, such as financial problems, exam stress, relationship difficulties and work overload
+T7	Premise 933 1040	Some people regard stress as a power, which overcomes the obstacles to motivate themselves to do their best
+T8	Premise 1042 1133	other people cannot charge of their thoughts, emotions, and the way they deal with problems
+T9	Claim 1146 1224	stress management recently becomes a more significant issue in our realization
+T10	Claim 1239 1272	stress takes a toll on our health
+T11	Premise 1291 1363	the modern life is frequently full of hassles, frustrations, and demands
+T12	Premise 1365 1438	This is one of the reasons why people were overwhelmed by constant stress
+T13	Premise 1446 1512	some people have physical problems, such as insomnia and headaches
+T14	Premise 1514 1591	Melancholia, the most fatal problem, even leads some people to commit suicide
+T15	Claim 1607 1712	it is necessary that we should reduce and cope with our stress in the goal of balancing our mind and body
+T16	Premise 1714 1899	To avoid being a pessimist, we may try to conquer our distress by sharing our worry with friends or families, doing exercise regularly, and trying to see our troubles in a different way
+T17	MajorClaim 1939 2045	stress management is an essential skill for everyone to learn and find their own way to solve their stress
+A1	Stance T5 For
+A2	Stance T9 For
+A3	Stance T10 For
+A4	Stance T15 For
+R1	supports Arg1:T2 Arg2:T5
+R2	supports Arg1:T3 Arg2:T5
+R3	supports Arg1:T4 Arg2:T5
+R4	supports Arg1:T5 Arg2:T1
+R5	supports Arg1:T6 Arg2:T9
+R6	supports Arg1:T7 Arg2:T9
+R7	supports Arg1:T8 Arg2:T9
+R8	supports Arg1:T9 Arg2:T1
+R9	supports Arg1:T11 Arg2:T10
+R10	supports Arg1:T12 Arg2:T10
+R11	supports Arg1:T13 Arg2:T10
+R12	supports Arg1:T14 Arg2:T10
+R13	supports Arg1:T10 Arg2:T1
+R14	supports Arg1:T16 Arg2:T15
+R15	supports Arg1:T15 Arg2:T1

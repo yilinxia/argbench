@@ -1,0 +1,37 @@
+T1	MajorClaim 1719 1803	I disagree with reducing the cost of medicines, which may exacerbate their qualities
+T2	Claim 207 313	companies in developed countries ought to reduce their price of medicines to avoid such unnecessary deaths
+A1	Stance T2 Against
+T3	Claim 327 385	more lives will be saved by the use of effective medicines
+A2	Stance T3 Against
+T4	Premise 387 476	The medical industry in developing countries is incapable of producing high-quality drugs
+T5	Premise 478 628	With advanced technology, the developed world has achieved remarkable breakthroughs in making medicines, which can cure a variety of serious illnesses
+T6	Premise 630 725	If people in poorer countries gain access to these drugs, their health situations may be better
+T7	Claim 727 798	The reduction in cost of medicines therefore shows the sign of humanity
+A3	Stance T7 Against
+T8	Claim 809 905	the current cost of medicines is , in fact, reasonable and based on the medicines' effectiveness
+A4	Stance T8 For
+T9	Premise 907 1020	Apparently, the process of researching, testing and producing drugs in masses costs a substantial amount of money
+T10	Premise 1032 1086	these products prove to ensure human health completely
+T11	Premise 1088 1228	Suppose companies were forced to reduce the cost of drugs, they would make no profit, even running up debt because of production expenditure
+T12	Claim 1241 1322	the measure cannot be adopted, otherwise those companies will go into liquidation
+A5	Stance T12 For
+T13	Premise 1334 1366	this is not a long-term solution
+T14	Claim 1381 1430	there are other measures to improve the situation
+A6	Stance T14 For
+T15	Premise 1432 1570	It is advisable for the government to encourage medical production by supplying land for building factories and reducing part of the taxes
+T16	Premise 1572 1702	Additionally, charitable organizations can buy medicines from developed countries and distribute to the undeveloped world for free
+T17	Claim 1814 1956	the government and medical foundations should be responsible for the distribution of drugs to the undeveloped world at a more reasonable price
+A7	Stance T17 For
+R1	supports Arg1:T4 Arg2:T3
+R2	supports Arg1:T5 Arg2:T3
+R3	supports Arg1:T6 Arg2:T7
+R4	supports Arg1:T9 Arg2:T8
+R5	supports Arg1:T10 Arg2:T8
+R6	supports Arg1:T11 Arg2:T12
+R7	supports Arg1:T13 Arg2:T12
+R8	supports Arg1:T15 Arg2:T14
+R9	supports Arg1:T16 Arg2:T14
+R10	supports Arg1:T8 Arg2:T1
+R11	supports Arg1:T12 Arg2:T1
+R12	supports Arg1:T14 Arg2:T1
+R13	supports Arg1:T17 Arg2:T1

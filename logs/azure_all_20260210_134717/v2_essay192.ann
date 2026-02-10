@@ -1,0 +1,17 @@
+T1	MajorClaim 0 71	Spending time with a large number of friends can add more to one's life
+T2	Claim 317 358	In my view, I prefer the second attitude.
+A1	Stance T2 For
+R1	supports Arg1:T2 Arg2:T1
+T3	Claim 359 499	The first reason is that staying in contact with a large number of friends gives the opportunity to learn more from the others' experiences.
+A2	Stance T3 For
+R2	supports Arg1:T3 Arg2:T1
+T4	Premise 500 760	For instance, among a large number of people there could be someone who practices a particular sport, or plays an instrument or likes traveling very much and from their experiences you can be attracted to try something new that you had never considered before.
+R3	supports Arg1:T4 Arg2:T3
+T5	Claim 1098 1245	Another reason is that a large number of friends can help you to consider all the possible solutions to a problem and to make you more open-minded.
+A3	Stance T5 For
+R4	supports Arg1:T5 Arg2:T1
+T6	Premise 1246 1476	For example, if you happen to face a problem and ask them for advice, your friends you will see that issue from their different point of views and accordingly they will help you to consider better all advantages and disadvantages.
+R5	supports Arg1:T6 Arg2:T5
+T7	Claim 1735 1945	In sum, although each choice - few close friends or a large number of friends - presents its advantages and its weak points, I think that spending time with a large number of friends can add more to one's life.
+A4	Stance T7 For
+R6	supports Arg1:T7 Arg2:T1

@@ -1,0 +1,30 @@
+T1	MajorClaim 407 551	it is my belief that the majority of people in the globe have benefited greatly from these powerful and effective means of modern communication.
+T2	Claim 567 1215	mobile phones and other tools of modern communication facilitate not only contact with friends and relatives in faraway places but also global business. With the click of a button, the vast amount of information can be transmitted from America to China in just a few seconds. Furthermore, it is generally felt that the access to these tools of communication is available in every corner of the world. With a mobile phone or a laptop, a person can talk or send messages online at a bus stop, in a corner shop or anywhere they could imagine. Therefore, it seems that these new forms of communication do bring a great deal of convenience to humankind.
+T3	Premise 567 719	mobile phones and other tools of modern communication facilitate not only contact with friends and relatives in faraway places but also global business.
+T4	Premise 720 842	With the click of a button, the vast amount of information can be transmitted from America to China in just a few seconds.
+T5	Premise 843 967	Furthermore, it is generally felt that the access to these tools of communication is available in every corner of the world.
+T6	Premise 968 1106	With a mobile phone or a laptop, a person can talk or send messages online at a bus stop, in a corner shop or anywhere they could imagine.
+T7	Premise 1107 1215	Therefore, it seems that these new forms of communication do bring a great deal of convenience to humankind.
+T8	Claim 1230 1473	opponents of modern communications claim that only the more privileged are able to enjoy the benefits. They further point out that the wide spread use of these efficient and effective ways of communication costs a considerable amount of money.
+T9	Premise 1333 1473	They further point out that the wide spread use of these efficient and effective ways of communication costs a considerable amount of money.
+T10	Premise 1474 1643	Anyone who aims to use these innovations have to not only pay for the appliances such as a mobile phone or a computer but also cover up costs for communication services.
+T11	Claim 1644 1756	Consequently, people who live in poverty are less likely to be benefited from modern communication technologies.
+T12	Claim 1779 1897	I believe that modern communication technologies will benefit more people in the future as the pace of life increases;
+T13	Claim 1907 1978	the have-nots cannot be ignored simply because they couldn't afford it.
+A1	Stance T2 For
+A2	Stance T8 Against
+A3	Stance T11 Against
+A4	Stance T12 For
+A5	Stance T13 Against
+R1	supports Arg1:T3 Arg2:T2
+R2	supports Arg1:T4 Arg2:T2
+R3	supports Arg1:T5 Arg2:T2
+R4	supports Arg1:T6 Arg2:T2
+R5	supports Arg1:T7 Arg2:T2
+R6	supports Arg1:T2 Arg2:T1
+R7	supports Arg1:T9 Arg2:T8
+R8	supports Arg1:T10 Arg2:T11
+R9	supports Arg1:T8 Arg2:T11
+R10	attacks Arg1:T11 Arg2:T1
+R11	supports Arg1:T12 Arg2:T1
+R12	attacks Arg1:T13 Arg2:T12

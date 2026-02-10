@@ -1,0 +1,49 @@
+T1	MajorClaim 2003 2194	In the end, I think any great success need great work not great luck, even though luck is one factor in reaching goal but its impact is extraneous and we must not reckon on luck in our plans.
+T2	Claim 353 391	 to be frank I cannot agree with them.
+A1	Stance T2 For
+T3	Premise 130 169	Do you think they have built by chance?
+T4	Premise 187 283	Also it is ridiculous if you think world wide webs such as Google, Yahoo etc. created by chance.
+T5	Claim 449 508	famous people are usually diligent people not lucky people.
+A2	Stance T5 For
+T6	Premise 509 590	Hard work make you a professional man/woman which are powerful in his or her job.
+T7	Premise 599 665	when you work hard you decrease portion of chance in your success.
+T8	Premise 666 752	For example in football game it is said that penalty-kick need good chance to be goal.
+T9	Premise 753 804	Statically the chance of being goal is fifty-fifty.
+T10	Premise 805 887	But I think Ronaldo make a goal from a penalty-kick with more possibility than me.
+T11	Premise 888 940	It is not for which Ronaldo is more fortune than me.
+T12	Premise 941 1011	Definitely it is for which he have more practice and exercise than me.
+T13	Premise 1012 1110	He do a lot of exercise in football field every day, so it is not for which he is luckier than me.
+T14	Claim 1121 1172	we cannot always lean on our luck to be successful.
+A3	Stance T14 For
+T15	Premise 1173 1265	I don't want to disavow the role of luck in success, but as you know it hardly accompany us.
+T16	Premise 1270 1384	for example you prepare for TOEFL or other multiple-choice test which has four option to choose in every question.
+T17	Premise 1385 1480	You cannot prepare for it without any study and Rely on your luck, even if you be a very lucky.
+T18	Premise 1481 1541	If you pick up any choice by chance you would fail the exam.
+T19	Premise 1542 1617	Undoubtedly it is wise advice which you have hard study to success on exam.
+T20	Claim 1627 1725	you have to work hard to learn and to get a lot of information before doing a project in good way.
+A4	Stance T20 For
+T21	Premise 1726 1845	The most fortunate people in the word cannot manufacture an automobile or build a high tower just by her or his chance.
+T22	Premise 1846 1909	These plans is done by someone who is mastered in his/her work.
+T23	Premise 1910 2002	Undoubtedly such people do work hard and have great experiences because of their hard works.
+R1	supports Arg1:T2 Arg2:T1
+R2	supports Arg1:T3 Arg2:T2
+R3	supports Arg1:T4 Arg2:T2
+R4	supports Arg1:T5 Arg2:T1
+R5	supports Arg1:T6 Arg2:T5
+R6	supports Arg1:T7 Arg2:T5
+R7	supports Arg1:T8 Arg2:T7
+R8	supports Arg1:T9 Arg2:T8
+R9	supports Arg1:T10 Arg2:T7
+R10	supports Arg1:T11 Arg2:T10
+R11	supports Arg1:T12 Arg2:T10
+R12	supports Arg1:T13 Arg2:T12
+R13	supports Arg1:T14 Arg2:T1
+R14	supports Arg1:T15 Arg2:T14
+R15	supports Arg1:T16 Arg2:T14
+R16	supports Arg1:T17 Arg2:T14
+R17	supports Arg1:T18 Arg2:T14
+R18	supports Arg1:T19 Arg2:T14
+R19	supports Arg1:T20 Arg2:T1
+R20	supports Arg1:T21 Arg2:T20
+R21	supports Arg1:T22 Arg2:T20
+R22	supports Arg1:T23 Arg2:T20

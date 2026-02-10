@@ -1,0 +1,37 @@
+T1	MajorClaim 521 609	I believe that the Internet will pave way for a more accessible and convenient learning.
+T2	Claim 610 751	First and foremost, the Internet is an adequate source of academic information, which will potentially fulfill the needs of university pupils
+A1	Stance T2 For
+T3	Premise 753 902	Nowadays, not only are lectures available online, it is also applicable to find reference e-books as well as multi-aspect documents on the cyberspace
+T4	Premise 913 978	the Internet has grown to become the largest virtual library ever
+T5	Claim 990 1068	with the use of the Internet, distance and time seem to be no more a hindrance
+A2	Stance T5 For
+T6	Premise 1070 1220	College students can save their time browsing for necessary information through the web instead of spending hours wandering in bookstores or libraries
+T7	Claim 1242 1311	the Internet offers a more effective and practical method of studying
+A3	Stance T7 For
+T8	Premise 1313 1398	While virtual flowcharts and animations may simplify complicated scientific processes
+T9	Premise 1400 1480	Google and Wikipedia are always accessible for detailed responses to every query
+T10	Claim 1482 1617	In the near future, the Internet will become an indispensable part in academic training, for the enormous benefits that it brings about
+A4	Stance T10 For
+T11	Premise 1619 1746	Have you ever imagined what it would be like to stay at home and attend a lecture by a famous speaker in Finland simultaneously
+T12	Premise 1748 1826	This fairy tale turns out to be true thanks to technical and internet advances
+T13	Claim 1828 1979	Critics may argue that the Internet have several drawbacks which can affect the education system negatively, for instance internet abuse and black webs
+A5	Stance T13 Against
+T14	Premise 1990 2126	we should bear in mind that these problems are mainly triggered by students' wrong approach towards the Internet not the Internet itself
+T15	Claim 2134 2240	what we are to do is a change in learners' attitude not an elimination of the Internet from academic study
+A6	Stance T15 For
+T16	MajorClaim 2305 2354	the necessity of the Internet in learning process
+T17	Premise 2375 2442	the benefits of the Internet undoubtedly outweigh its disadvantages
+R1	supports Arg1:T3 Arg2:T2
+R2	supports Arg1:T4 Arg2:T2
+R3	supports Arg1:T6 Arg2:T5
+R4	supports Arg1:T8 Arg2:T7
+R5	supports Arg1:T9 Arg2:T7
+R6	supports Arg1:T11 Arg2:T10
+R7	supports Arg1:T12 Arg2:T10
+R8	attacks Arg1:T14 Arg2:T13
+R9	supports Arg1:T17 Arg2:T16
+R10	supports Arg1:T2 Arg2:T1
+R11	supports Arg1:T5 Arg2:T1
+R12	supports Arg1:T7 Arg2:T1
+R13	supports Arg1:T10 Arg2:T1
+R14	supports Arg1:T15 Arg2:T1

@@ -1,0 +1,29 @@
+T1	MajorClaim 298 456	However, I strongly believe that it should increase the level of control to protect the public against inappropriate contents and unsuitable foreign cultures.
+T2	Claim 457 563	One of the strong arguments in favour of tighter media control is to limit the violent and sexual content.
+T3	Premise 564 618	They have a serious impact on people in their puberty.
+T4	Premise 619 762	For example, an internet cartoon comedy called happy tree is extremely brutal, where the characters usually have their heads or limbs tear off.
+T5	Claim 763 953	Another supporting reason is that television companies import foreign programmes from time to time and audiences might accept their ideas which maybe otherwise not welcomed to local culture.
+T6	Premise 954 1050	A few years ago there was a Japanese game show which involved throwing cream cakes to the loser.
+T7	Premise 1051 1100	This is actually very environmentally unfriendly.
+T8	Claim 1101 1166	The major opposing argument is to protect the safety of citizens.
+T9	Premise 1167 1317	In other words, the government should disclose the information to the media in a timely manner, especially for disasters and outbreak of new diseases.
+T10	Premise 1318 1471	Taking the SARS in 2003 as an example, the Chinese government limited the amount of information for public access which therefore causes numerous deaths.
+T11	Claim 1472 1568	Even so, another perspective on this is to prevent the citizen from unnecessary fear and unrest.
+T12	MajorClaim 1614 1808	My personal view is that despite the emphasis of citizen safety, the government should regulate the correct amount of violent and sexual content and censor the culturally unsuitable information.
+T13	Premise 1809 1903	Setting up a council to monitor the media information to the public could be a practical idea.
+A1	Stance T2 For
+A2	Stance T5 For
+A3	Stance T8 Against
+A4	Stance T11 For
+R1	supports Arg1:T2 Arg2:T1
+R2	supports Arg1:T3 Arg2:T2
+R3	supports Arg1:T4 Arg2:T2
+R4	supports Arg1:T5 Arg2:T1
+R5	supports Arg1:T6 Arg2:T5
+R6	supports Arg1:T7 Arg2:T6
+R7	attacks Arg1:T8 Arg2:T1
+R8	supports Arg1:T9 Arg2:T8
+R9	supports Arg1:T10 Arg2:T8
+R10	attacks Arg1:T11 Arg2:T8
+R11	supports Arg1:T13 Arg2:T12
+R12	supports Arg1:T12 Arg2:T1

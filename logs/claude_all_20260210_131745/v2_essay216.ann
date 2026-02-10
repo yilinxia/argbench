@@ -1,0 +1,39 @@
+T1	MajorClaim 76 228	The population explosion results in the high demands of transportation. Many countries have suffered from pollution, noisy and casualty for a long time.
+T2	MajorClaim 229 360	From my perspective, the most possible solution to these problems is improving roads and highways because of three crucial reasons.
+T3	Claim 398 479	upgrading public transportation will surely aggravate the pollution and accidents
+T4	Premise 481 606	The buses, cars and trains regularly emit a noxious gas which causes lots of fatal diseases such as lung cancer and pneumonia
+T5	Premise 608 676	Moreover, the sound emanates from the engines can worsen our hearing
+T6	Premise 678 743	Most importantly, there are many accidents happening on the roads
+T7	Premise 745 835	For example, in my country, buses are attributed to the cause of skyrocketing of accidents
+T8	Premise 837 975	Each year, Vietnam has approximately twelve thousand people die of accidents which is equivalent to the death toll of the tsunami in Japan
+T9	Claim 987 1084	investing in roads and highways can broaden the area and allow more public transportation to work
+T10	Premise 1086 1162	Not only buses but also other personal vehicles can move easily on the roads
+T11	Premise 1164 1270	For instance, I always leave school at the time that everybody rushes into the roads and hastily goes home
+T12	Premise 1272 1361	It is extremely troublesome for me to escape from the crowd on the roads in only one hour
+T13	Premise 1363 1473	In contrast, if the roads are enlarged, everyone can go home in short time and there are hardly any collisions
+T14	Claim 1496 1565	spending on renovating the highways and roads can improve the quality
+T15	Premise 1567 1639	All of us are afraid of moving on the rough roads with lots of portholes
+T16	Premise 1641 1732	Those bad conditions result in many terrible accidents and make several people feel worried
+T17	Premise 1734 1851	We should not accuse the drivers of causing accidents because a part of the responsibility belongs to the authorities
+T18	Premise 1853 1944	What's more, a smooth surface makes the transportation and movement become safer and easier
+T19	MajorClaim 1961 2063	the advantages of upgrading the roads which I mentioned above are totally convincing and indispensable
+T20	MajorClaim 2065 2203	I am usually inclined to this idea and I hope that the government will regard the investment in building roads as the most important thing
+A1	Stance T3 For
+A2	Stance T9 For
+A3	Stance T14 For
+R1	supports Arg1:T4 Arg2:T3
+R2	supports Arg1:T5 Arg2:T3
+R3	supports Arg1:T6 Arg2:T3
+R4	supports Arg1:T7 Arg2:T6
+R5	supports Arg1:T8 Arg2:T6
+R6	supports Arg1:T3 Arg2:T2
+R7	supports Arg1:T10 Arg2:T9
+R8	supports Arg1:T11 Arg2:T9
+R9	supports Arg1:T12 Arg2:T9
+R10	supports Arg1:T13 Arg2:T9
+R11	supports Arg1:T9 Arg2:T2
+R12	supports Arg1:T15 Arg2:T14
+R13	supports Arg1:T16 Arg2:T14
+R14	supports Arg1:T17 Arg2:T14
+R15	supports Arg1:T18 Arg2:T14
+R16	supports Arg1:T14 Arg2:T2

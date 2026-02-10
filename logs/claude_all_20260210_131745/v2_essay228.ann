@@ -1,0 +1,20 @@
+T1	MajorClaim 311 408	I believe it has done the opposite. I think TV programs are among the popular topics in every day
+T2	Claim 538 692	it's true watching TV take a lot of your day, nevertheless it makes people meet and start a conversation about what they watch at other times like weather
+T3	Premise 693 721	forecast and sport programs.
+T4	Claim 744 791	ving meals while they are watching TV. Families
+T5	Premise 792 966	usually tend to watch television either with each other or friends. For example my friends and I used to sit together and enjoy watching movies using VHS player at nights. It
+T6	Premise 967 1014	was fun and a little bit similar to the cinema.
+Third
+T7	Claim 1023 1059	TV can be one of communication ways.
+T8	Premise 1061 1184	oreover, TV can be connected to multimedia devices that have smart operating system like Google TV, WDTV using Skype, tango
+T9	Premise 1185 1284	and other apps. In addition Teenagers can play games online with their friends; therefore we can co
+T10	MajorClaim 1334 1486	TV may take some of your time away from your family and friends but it can also make family get together and help to get in conversation. As well as it'
+A1	Stance T2 For
+A2	Stance T4 For
+A3	Stance T7 For
+R1	supports Arg1:T2 Arg2:T1
+R2	supports Arg1:T4 Arg2:T1
+R3	supports Arg1:T5 Arg2:T4
+R4	supports Arg1:T7 Arg2:T1
+R5	supports Arg1:T8 Arg2:T7
+R6	supports Arg1:T9 Arg2:T7

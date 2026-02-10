@@ -1,0 +1,28 @@
+T1	MajorClaim 0 56	A successful person is one who has earned a lot of money
+T2	Claim 228 346	Still, my term of a successful man is one who has certain achievements in life rather than the one with a high income.
+T3	Claim 347 415	Money is undeniably pivotal, but ways of earning it is also various.
+T4	Premise 416 502	A person's great prosperity does not state that he has gained it ethically by himself.
+T5	Claim 503 604	Nevertheless, a man can only achieve his accomplishment through hard-working, dedication and passion.
+T6	Premise 605 676	Whether it is a personal or a social achievement, that man is laudable.
+T7	Claim 677 788	More importantly, the more beneficial for the society his achievement is, the more successful he is considered.
+T8	Premise 789 962	For instance, Thomas Edison is undeniably considered as one of the greatest inventors in the 20th century since his invention's productivity is countless useful for mankind.
+T9	Premise 963 1055	On the other hand, the fact of knowing a man's utilization of his money remains in the dark.
+T10	Claim 1056 1145	Therefore, judging a person by his income is difficult, especially in the success aspect.
+T11	MajorClaim 1146 1287	In conclusion, using only money as a scale to measure a man's success is impossible despite the fact that it is the essential in basic needs.
+A1	Stance T2 Against
+A2	Stance T3 Against
+A3	Stance T5 Against
+A4	Stance T7 Against
+A5	Stance T10 Against
+R1	attacks Arg1:T2 Arg2:T1
+R2	attacks Arg1:T3 Arg2:T1
+R3	supports Arg1:T4 Arg2:T3
+R4	attacks Arg1:T5 Arg2:T1
+R5	supports Arg1:T6 Arg2:T5
+R6	attacks Arg1:T7 Arg2:T1
+R7	supports Arg1:T8 Arg2:T7
+R8	supports Arg1:T9 Arg2:T10
+R9	attacks Arg1:T10 Arg2:T1
+R10	supports Arg1:T2 Arg2:T11
+R11	supports Arg1:T7 Arg2:T11
+R12	supports Arg1:T10 Arg2:T11

@@ -1,0 +1,24 @@
+T1	MajorClaim 415 471	My view is that international aid should be prioritised.
+T2	Claim 472 579	International aid is critical because people from other countries may be facing much more serious problems.
+T3	Premise 580 669	Many people, for example in some African countries, are living below the basic standards.
+T4	Premise 670 760	They lack food, water or clothes which keep them warm, not to mention the education needs.
+T5	Premise 761 975	What is worse, people who live in countries that are confronted with wars or natural disasters are facing even more severe issues such as security, homelessness or the pain of losing best friends or family members.
+T6	Premise 976 1053	It is clear that those people are in desperate need of international support.
+T7	Claim 1123 1178	it is reasonable to lend a hand to our fellow citizens.
+T8	Premise 1179 1344	After all, charity organisations are mainly funded by the home country thus there is a high demand that the money should be spent in the place where it is collected.
+T9	Premise 1345 1466	Another reason is that, even within the most developed countries, there are still poor people who lack their basic needs.
+T10	Premise 1467 1577	By solving the problems in the home country, it is beneficial for social stability and steady economic growth.
+T11	Claim 1578 1661	In conclusion, people from unfortunate countries need more international assistance
+A1	Stance T2 For
+A2	Stance T7 Against
+A3	Stance T11 For
+R1	supports Arg1:T2 Arg2:T1
+R2	supports Arg1:T3 Arg2:T2
+R3	supports Arg1:T4 Arg2:T2
+R4	supports Arg1:T5 Arg2:T2
+R5	supports Arg1:T6 Arg2:T2
+R6	attacks Arg1:T7 Arg2:T1
+R7	supports Arg1:T8 Arg2:T7
+R8	supports Arg1:T9 Arg2:T7
+R9	supports Arg1:T10 Arg2:T7
+R10	supports Arg1:T11 Arg2:T1

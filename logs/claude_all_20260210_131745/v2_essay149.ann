@@ -1,0 +1,31 @@
+T1	MajorClaim 418 517	family plays a more important role in helping one to pursuit success. There are a couple of reasons
+T2	Claim 533 611	more and more people have the opportunity to receive education from university
+A1	Stance T2 For
+T3	Premise 613 736	Since our parents receive better education than our grandparents did, they can provide more advices and helps in our career
+T4	Premise 738 800	In the past, seldom people have the chance to attend a collage
+T5	Premise 802 984	For example, my grandparents did not get a education even in high school, so when my father had difficulty in solving a problem in his childhood, he had to go to his teacher for help
+T6	Premise 986 1063	Things have changed a lot. I grow up in a better condition than my father did
+T7	Premise 1065 1127	Whenever I have problems, I can always ask my parents for help
+T8	Premise 1129 1201	They can solve the problem quickly because they have learned quite a lot
+T9	Claim 1218 1266	family members can help us in many other aspects
+A2	Stance T9 For
+T10	Premise 1268 1391	For example, when I did not know what major to choose when I attend university, my father told a lot about different majors
+T11	Premise 1393 1458	He shared his own experience with me, which helped me quite a lot
+T12	Premise 1460 1554	Parents are quite experienced than their child, they can guide them toward the right direction
+T13	Premise 1556 1616	Besides, parents can told their children as many as they can
+T14	Premise 1618 1671	What they want is help their child to make a progress
+T15	MajorClaim 1684 1750	our parents and other family members can help us a lot in our life
+T16	MajorClaim 1752 1831	I believe that with the help of our family, we can achieve success quite easily
+R1	supports Arg1:T3 Arg2:T2
+R2	supports Arg1:T4 Arg2:T2
+R3	supports Arg1:T5 Arg2:T2
+R4	supports Arg1:T6 Arg2:T2
+R5	supports Arg1:T7 Arg2:T2
+R6	supports Arg1:T8 Arg2:T2
+R7	supports Arg1:T2 Arg2:T1
+R8	supports Arg1:T10 Arg2:T9
+R9	supports Arg1:T11 Arg2:T9
+R10	supports Arg1:T12 Arg2:T9
+R11	supports Arg1:T13 Arg2:T9
+R12	supports Arg1:T14 Arg2:T9
+R13	supports Arg1:T9 Arg2:T1

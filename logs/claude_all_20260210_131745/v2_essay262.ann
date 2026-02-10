@@ -1,0 +1,26 @@
+T1	MajorClaim 292 454	I believe that every prospective between generations alters and especially the challenges for this generation are significantly different from the last generation
+T2	Claim 463 603	under globalization and industrial integration, the work-related challenges for this generation are getting more complicated and challenging
+A1	Stance T2 For
+T3	Premise 605 689	The successful people are those who can quickly respond to this rapid-changing world
+T4	Premise 691 831	In the past, focusing on one skill was enough to deal with the problems because every industry was rather small in size and simple to manage
+T5	Premise 842 975	as those industries expand and become internationalized, people are required to equip with multiple skills to answer those challenges
+T6	Premise 990 1132	now there are more chances to do business with people around the world, so besides one's own profession, language ability is essential as well
+T7	Premise 1155 1286	financial crimes are rampant in the 21st century, thus surging up demands for those who excel at both laws and financial management
+T8	Claim 1297 1413	this generation is encountering the self-recognition issue which could not be experienced by the previous generation
+A2	Stance T8 For
+T9	Premise 1415 1535	The past generation was given less freedom and was usually asked to follow the paths their parents had prepared for them
+T10	Premise 1550 1646	young people in this generation are exposed to more creative ideas and rather think individually
+T11	Premise 1648 1713	They are eager for finding who they are and what they really want
+T12	Premise 1829 1939	They have to make decisions between so many possibilities and they are responsible for taking the consequences
+T13	MajorClaim 1957 2090	challenges for this generation are more complicated and diverse than the past generation, whether in career or in self-identification
+R1	supports Arg1:T3 Arg2:T2
+R2	supports Arg1:T4 Arg2:T2
+R3	supports Arg1:T5 Arg2:T2
+R4	supports Arg1:T6 Arg2:T2
+R5	supports Arg1:T7 Arg2:T2
+R6	supports Arg1:T9 Arg2:T8
+R7	supports Arg1:T10 Arg2:T8
+R8	supports Arg1:T11 Arg2:T8
+R9	supports Arg1:T12 Arg2:T8
+R10	supports Arg1:T2 Arg2:T1
+R11	supports Arg1:T8 Arg2:T1

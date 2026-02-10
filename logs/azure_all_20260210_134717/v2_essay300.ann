@@ -1,0 +1,28 @@
+T1	MajorClaim 500 596	However, i discern that several small breaks will help students to be active in their academics.
+T2	Claim 597 683	Firstly, several vacations throughout the year will keep stress level of students low.
+T3	Premise 684 802	Many educational bodies schedule its small vacations after term exams so that student's get relief form exam pressure.
+T4	Premise 803 970	However, research done by universities proves that student's performance improves if they get regular breaks from their learning, preparation and examination schedule.
+T5	Premise 971 1147	Many colleges in foreign countries provide vacations to students after each semester that facilitate student to entertain themselves as well as prepare for their next semester.
+T6	Premise 1148 1318	Also several holidays aid these students to not only amuse themselves but also arrange fund and materials such as books and references material for their upcoming course.
+T7	Claim 1319 1423	Secondly, scientific research provide several authentic survey of the students' performance after break.
+T8	Premise 1424 1510	It states that students learning capability increase after having refreshing vacation.
+T9	Premise 1511 1605	To quote an instance, in my school we used to get several vacations after our quarterly exams.
+T10	Premise 1606 1769	During those vacations i used to analyze my performance in latest examination and used to go through those question or concept again to avoid making same mistakes.
+T11	Premise 1770 1872	I also used to spend my time on developing some recreational activity or learning some sports or game.
+T12	Premise 1873 2037	During my all vacations, I used to miss my school due to which I used to restart my session with great enthusiasm of learning and scoring good marks in new quarter.
+T13	Claim 2322 2419	Therefore schools should consider giving several small vocations to the students during the year.
+A1	Stance T2 For
+A2	Stance T7 For
+A3	Stance T13 For
+R1	supports Arg1:T2 Arg2:T1
+R2	supports Arg1:T3 Arg2:T2
+R3	supports Arg1:T4 Arg2:T2
+R4	supports Arg1:T5 Arg2:T2
+R5	supports Arg1:T6 Arg2:T2
+R6	supports Arg1:T7 Arg2:T1
+R7	supports Arg1:T8 Arg2:T7
+R8	supports Arg1:T9 Arg2:T7
+R9	supports Arg1:T10 Arg2:T7
+R10	supports Arg1:T11 Arg2:T7
+R11	supports Arg1:T12 Arg2:T7
+R12	supports Arg1:T13 Arg2:T1

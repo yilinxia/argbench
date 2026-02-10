@@ -1,0 +1,46 @@
+T1	MajorClaim 0 75	Public transportation keeps society from the depletion of natural resources
+T2	Claim 77 170	The development of public transportation is the most essential thing for a developed society.
+T3	Claim 171 300	Public transportation keeps society from the depletion of natural resources, the air pollution, the loss of a sense of community.
+T4	Claim 301 369	So, I think the government have to spend more money on improving it.
+T5	Claim 370 467	The use of public transportation is the best way to conserve natural resources gradually run out.
+T6	Premise 468 508	Cars depend on oil and gasoline to move.
+T7	Premise 509 601	If people use too many private cars, the oil and gasoline nonrenewable will run out quickly.
+T8	Premise 602 786	Instead of using many private cars, people can use public transportation, such as bus, train, subway, each one can get far more people and less oil and gasoline are used up per person.
+T9	Claim 787 856	The use of public transportation helps in reducing the air pollution.
+T10	Premise 857 939	Cars use oil and gasoline and send out gas such as carbon dioxide, heat and so on.
+T11	Premise 940 987	They cause pollution and make the Earth warmer.
+T12	Premise 988 1054	The more cars are driven, the more pollution will be put into air.
+T13	Premise 1055 1150	If we use the public transportation, less cars will be used and less pollution will be emitted.
+T14	Premise 1151 1226	The atmosphere, surrounding us, will be protected and help us more healthy.
+T15	Claim 1227 1287	The use of public transportation make us live more sociable.
+T16	Premise 1288 1476	When we drive a private car, we are alone or only our family members that we already know and lost the opportunity to make friends with others or to see that we are a part of this society.
+T17	Premise 1477 1598	When using public transportation, we have a chance to meet more people and more chances to discovery new aspects of life.
+T18	Claim 1599 1788	Using public transportation has a lot of advantages for the modern society facing a lot of problems: the environmental population, the isolation in life, the depletion of natural resources.
+T19	Claim 1789 1863	So, the government have to invest more for it and encourage people to use.
+A1	Stance T2 For
+A2	Stance T3 For
+A3	Stance T4 For
+A4	Stance T5 For
+A5	Stance T9 For
+A6	Stance T15 For
+A7	Stance T18 For
+A8	Stance T19 For
+R1	supports Arg1:T2 Arg2:T1
+R2	supports Arg1:T3 Arg2:T1
+R3	supports Arg1:T5 Arg2:T3
+R4	supports Arg1:T6 Arg2:T5
+R5	supports Arg1:T7 Arg2:T5
+R6	supports Arg1:T8 Arg2:T5
+R7	supports Arg1:T9 Arg2:T3
+R8	supports Arg1:T10 Arg2:T9
+R9	supports Arg1:T11 Arg2:T9
+R10	supports Arg1:T12 Arg2:T9
+R11	supports Arg1:T13 Arg2:T9
+R12	supports Arg1:T14 Arg2:T9
+R13	supports Arg1:T15 Arg2:T3
+R14	supports Arg1:T16 Arg2:T15
+R15	supports Arg1:T17 Arg2:T15
+R16	supports Arg1:T18 Arg2:T1
+R17	supports Arg1:T4 Arg2:T1
+R18	supports Arg1:T19 Arg2:T1
+R19	supports Arg1:T18 Arg2:T19

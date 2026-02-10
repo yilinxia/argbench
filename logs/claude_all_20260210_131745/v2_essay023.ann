@@ -1,0 +1,25 @@
+T1	MajorClaim 216 302	I do not think these disadvantages will outweigh the advantages brought by cell phones
+T2	Claim 410 497	almost everything that changed our lifestyle a lot will also cause some social problems
+A1	Stance T2 For
+T3	Premise 541 669	Speaking loudly on the phone in public areas, such as schools, libraries and hospitals appears to be very impolite and offensive
+T4	Premise 686 837	some students utilize their cell phones as an effective cheating tools in examinations in which they can send and receive answers by texting each other
+T5	Claim 853 967	it is not impossible to solve these problems, as long as some regulations and rules can be effectively implemented
+A2	Stance T5 For
+T6	Claim 1002 1047	some harmful effects on our health are lethal
+A3	Stance T6 Against
+T7	Premise 1049 1208	It has been proved that overusing of the electronic devices including mobile phones could lead to higher possibility of suffering hearing loss and even cancers
+T8	Claim 1304 1393	There is panic among people that their conversation can be intercepted by the third party
+A4	Stance T8 Against
+T9	Claim 1437 1540	a more efficient and reliable system can also be invented to guarantee the private information of users
+A5	Stance T9 For
+T10	Claim 1552 1638	the mobile phone has become a dispensable multifunctional tools in people's daily life
+A6	Stance T10 For
+T11	Premise 1640 1768	Not only used for communication, but it also functions as an Internet browser, a music player, a personal organizer and so forth
+T12	MajorClaim 1831 2014	The contribution of the mobile phone to our modern society is prominent and people's dependence on it is irreversible, although it has a number of problems that should be well handled
+R1	supports Arg1:T3 Arg2:T2
+R2	supports Arg1:T4 Arg2:T2
+R3	supports Arg1:T5 Arg2:T1
+R4	supports Arg1:T7 Arg2:T6
+R5	supports Arg1:T9 Arg2:T1
+R6	supports Arg1:T11 Arg2:T10
+R7	supports Arg1:T10 Arg2:T1

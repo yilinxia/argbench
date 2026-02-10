@@ -1,0 +1,39 @@
+T1	MajorClaim 232 295	universities should invest in libraries more than anywhere else
+T2	Claim 312 367	a library is vital and strategical part of a university
+T3	Premise 369 513	All professors and students need to have a modern and well-equipped library because, after internet, library plays an important role in research
+T4	Premise 515 593	Although sport is important, it does not have the same priority of library has
+T5	Premise 595 658	In addition only small part of students attend sport activities
+T6	Premise 660 776	For example, in my university number of students who use the library is much more than students do sports activities
+T7	Claim 786 822	usually libraries do not have income
+T8	Premise 824 880	Most libraries are free not for students also for public
+T9	Premise 882 932	Hence, universities support is vital for libraries
+T10	Premise 934 1059	But sport activities have a good income because every sport has different matches and for each match they have a lot sponsors
+T11	Premise 1061 1128	Also, they have this chance to sell their important matches tickets
+T12	Premise 1130 1286	To conclude, there are good ways for sports activities to compensate their expenses, but it is very hard for libraries to find a good way for have an income
+T13	Claim 1308 1353	investing in libraries has a long-time result
+T14	Premise 1355 1435	For example, a library can buy a lot of new books or they can buy more computers
+T15	Premise 1437 1515	Most of the library facilities are stable and you can use them for a long time
+T16	Premise 1517 1570	Besides, in the far future, they become more valuable
+T17	Premise 1572 1712	On the other side, most sports facilities except buildings are usually can be used in short-time and they are not persistent for a long-time
+T18	MajorClaim 1763 1791	libraries are more important
+T19	Premise 1793 1882	They are critical part of universities and a good university has to have a modern library
+A1	Stance T2 For
+A2	Stance T7 For
+A3	Stance T13 For
+R1	supports Arg1:T3 Arg2:T2
+R2	supports Arg1:T4 Arg2:T2
+R3	supports Arg1:T5 Arg2:T2
+R4	supports Arg1:T6 Arg2:T5
+R5	supports Arg1:T2 Arg2:T1
+R6	supports Arg1:T8 Arg2:T7
+R7	supports Arg1:T9 Arg2:T7
+R8	supports Arg1:T10 Arg2:T7
+R9	supports Arg1:T11 Arg2:T7
+R10	supports Arg1:T12 Arg2:T7
+R11	supports Arg1:T7 Arg2:T1
+R12	supports Arg1:T14 Arg2:T13
+R13	supports Arg1:T15 Arg2:T13
+R14	supports Arg1:T16 Arg2:T13
+R15	supports Arg1:T17 Arg2:T13
+R16	supports Arg1:T13 Arg2:T1
+R17	supports Arg1:T19 Arg2:T18

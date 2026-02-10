@@ -1,0 +1,26 @@
+T1	MajorClaim 381 504	However, I strongly believe that computer can influence society, and people's lives have already been controlled by device.
+T2	Claim 506 586	I would argue that this modern device has been a major hindrance to some people.
+T3	Premise 587 852	A study conducted by Mediabank shows that majority of Australian adults do not socialize with their families and friends as much as they used to, due to the fact that they spend almost nine hours a day dealing with computers as to produce efficient time in working.
+T4	Premise 853 948	As it can be seen from the example, the idea that computers could be a help has been neglected.
+T5	Claim 949 1019	However, using computer can make people easier to complete their work.
+T6	Premise 1020 1121	Businessmen, for example, use computer device to presentation or communication with their colleagues.
+T7	Premise 1122 1258	Communication by feature-computer such as email and internet help busy businessmen to make deal with relation even in different country.
+T8	Premise 1259 1362	This is due to using computer more efficient and, many workers cannot do more in work without computer.
+T9	Claim 1363 1458	In conclusion, in era technology like this age, computer becomes important thing in human life.
+T10	Claim 1459 1543	Every day, people cannot pass the day without stay in front of computer or using it.
+T11	Claim 1544 1646	This situation becomes lifestyle habits, and nowadays human activities are influenced by computer use.
+A1	Stance T2 For
+A2	Stance T5 For
+A3	Stance T9 For
+A4	Stance T10 For
+A5	Stance T11 For
+R1	supports Arg1:T2 Arg2:T1
+R2	supports Arg1:T3 Arg2:T2
+R3	supports Arg1:T4 Arg2:T2
+R4	supports Arg1:T5 Arg2:T1
+R5	supports Arg1:T6 Arg2:T5
+R6	supports Arg1:T7 Arg2:T5
+R7	supports Arg1:T8 Arg2:T5
+R8	supports Arg1:T9 Arg2:T1
+R9	supports Arg1:T10 Arg2:T1
+R10	supports Arg1:T11 Arg2:T1

@@ -1,0 +1,31 @@
+T1	MajorClaim 259 385	Despite all these positive aspects, I think that the popularity of mobile phones to the young generation is a bad development.
+T2	Claim 386 525	First of all, many young owners of cellular phones are struggling at school because they are distracted most of the time with their phones.
+T3	Premise 526 674	Games and applications installed in phones have occupied much of their time, leaving them lesser time for their studies and other school activities.
+T4	Premise 675 826	Similarly, internet capable phones help influence the young ones to become more interested in chatting and social sites rather than doing school works.
+T5	Premise 827 993	In my college days, I was once addicted to a certain game on my cellular phone. I have spent most of my time trying to reach a higher level to show-off to my friends.
+T6	Premise 994 1111	That goal has led me to my lost in interest on doing my homework and I ended up failing one subject in that semester.
+T7	Claim 1112 1204	Secondly, juveniles who possess mobile phones have great tendencies to become materialistic.
+T8	Premise 1205 1294	They would not only purchase a phone because of its functionality but also for its brand.
+T9	Premise 1295 1363	Relatively, these do not come at a significant and inexpensive cost.
+T10	Premise 1364 1494	Furthermore, most of these juveniles are students so they would need their parents to support them financially for what they want.
+T11	Premise 1495 1675	An illustration of this unfortunate trend can be seen almost everywhere these days, wherein most teens at an early age own phones which are worth twice the salary of their parents.
+T12	Claim 1677 1803	This clearly shows that the negative impacts brought about by mobile phones are harmful to a person’s education and character.
+T13	Claim 1804 1890	Therefore, I highly discourage the young ones to be overly dependent on mobile phones.
+A1	Stance T2 For
+A2	Stance T7 For
+A3	Stance T12 For
+A4	Stance T13 For
+R1	supports Arg1:T2 Arg2:T1
+R2	supports Arg1:T3 Arg2:T2
+R3	supports Arg1:T4 Arg2:T2
+R4	supports Arg1:T5 Arg2:T2
+R5	supports Arg1:T6 Arg2:T2
+R6	supports Arg1:T7 Arg2:T1
+R7	supports Arg1:T8 Arg2:T7
+R8	supports Arg1:T9 Arg2:T7
+R9	supports Arg1:T10 Arg2:T7
+R10	supports Arg1:T11 Arg2:T7
+R11	supports Arg1:T12 Arg2:T1
+R12	supports Arg1:T2 Arg2:T12
+R13	supports Arg1:T7 Arg2:T12
+R14	supports Arg1:T13 Arg2:T1

@@ -1,0 +1,26 @@
+T1	MajorClaim 1270 1322	From my point of view, I agree with the first group.
+T2	Claim 480 525	zoos are fascinating places of entertainment.
+T3	Premise 542 690	they all think that the very nature and wildness are all brought into zoos and spending time there help us to forget all stress as well as pressure.
+T4	Claim 691 749	Another function that all zoos serve relates to education.
+T5	Premise 750 860	Many students as well as people find zoos as good places for witnessing and researching the true animal world.
+T6	Claim 861 957	Moreover, some zoos are also reservation sites of many animals that are about to become extinct.
+T7	Claim 997 1058	people who think that zoos just take away freedom of animals.
+T8	Premise 1059 1161	Being confined, animals may lose their own nature as well as wildness and feel upset and discontented.
+T9	Premise 1162 1269	In their opinion, zoos are some kind of prisons and it's so cruel and wrong to keep animal in such prisons.
+T10	Claim 1323 1513	In modern life, zoos have become even more important in serving as places for people to study and enjoy the nature while a lot of natural destruction is made to build towers and skyscrapers.
+T11	Premise 1514 1721	Besides, recently, zookeepers have also tried their best to make animals feel more comfortable by making artificial landscapes more familiar to the nature, taking care all animals in both feeding and sanity.
+A1	Stance T2 For
+A2	Stance T4 For
+A3	Stance T6 For
+A4	Stance T7 Against
+A5	Stance T10 For
+R1	supports Arg1:T2 Arg2:T1
+R2	supports Arg1:T3 Arg2:T2
+R3	supports Arg1:T4 Arg2:T1
+R4	supports Arg1:T5 Arg2:T4
+R5	supports Arg1:T6 Arg2:T1
+R6	attacks Arg1:T7 Arg2:T1
+R7	supports Arg1:T8 Arg2:T7
+R8	supports Arg1:T9 Arg2:T7
+R9	supports Arg1:T10 Arg2:T1
+R10	supports Arg1:T11 Arg2:T10

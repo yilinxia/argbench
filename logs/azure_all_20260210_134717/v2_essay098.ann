@@ -1,0 +1,30 @@
+T1	MajorClaim 322 417	From my point of view, the benefits of children engagement in paid work outweigh its drawbacks.
+T2	Claim 418 487	First of all, children can learn about the hardship of earning money.
+A1	Stance T2 For
+T3	Premise 488 718	When they take some kind of paid work such as looking after babies, doing housework and keeping shops, they will have some life experience and skills which make them mature and can deal with many different situations in real life.
+T4	Premise 719 847	Therefore, they are likely to understand their parents' hardship, to respect values of money and to form a good habit of saving.
+T5	Claim 848 915	Secondly, when children take jobs, they tend to be more responsible
+A2	Stance T5 For
+T6	Premise 916 1019	because whether they can earn money or not will depend on their effectiveness and attitudes in working.
+T7	Premise 1020 1100	To keep their jobs, children will have to try their best to finish their duties.
+T8	Premise 1101 1268	For example, if a child works as a shop assistant, he will have to keep an eye on good and products, calculate prices correctly and take responsibilities for any lost.
+T9	Claim 1269 1399	Some people may argue that children will be more material, neglect their study for earning money or be exploited by the employers.
+A3	Stance T9 Against
+T10	Claim 1400 1565	However, if children get good care and instructions from their parents, they can take advantages of the work to learn valuable things and avoid going in a wrong way.
+A4	Stance T10 For
+T11	Claim 1566 1725	In conclusion, if children take part in some kind of paid work with their parents' permission, they can learn lively lessons and become mature and responsible.
+A5	Stance T11 For
+T12	Claim 1726 1938	I recommend that parents should help their children to choose a suitable job which does not affect their children 's study and that the government should have right policies to avoid exploiting children's labour.
+A6	Stance T12 For
+R1	supports Arg1:T2 Arg2:T1
+R2	supports Arg1:T3 Arg2:T2
+R3	supports Arg1:T4 Arg2:T2
+R4	supports Arg1:T5 Arg2:T1
+R5	supports Arg1:T6 Arg2:T5
+R6	supports Arg1:T7 Arg2:T5
+R7	supports Arg1:T8 Arg2:T5
+R8	attacks Arg1:T9 Arg2:T1
+R9	attacks Arg1:T10 Arg2:T9
+R10	supports Arg1:T10 Arg2:T1
+R11	supports Arg1:T11 Arg2:T1
+R12	supports Arg1:T12 Arg2:T1

@@ -1,0 +1,38 @@
+T1	MajorClaim 188 303	I still agree that it's better to have one or two close friends than to have a large number of casual acquaintances
+T2	Claim 403 443	it's not easy to make friend with anyone
+A1	Stance T2 For
+T3	Premise 445 518	I believe friends are people who have great compatibility with each other
+T4	Premise 520 707	After two years in college I have found sometimes there is more differences between people than similarities, for we are growing in the different families and was educated in various ways
+T5	Premise 709 755	Sometimes acquaintances are just acquaintances
+T6	Premise 757 808	We spend time together but we could never be friend
+T7	Claim 814 893	it's much easier to have some casual acquaintances than have some close friends
+A2	Stance T7 For
+T8	Claim 903 959	close friends can easily understand each others feelings
+A3	Stance T8 For
+T9	Premise 961 1078	Because of the similarity I talked before, acquaintances probably not able to understand you better than your friends
+T10	Premise 1090 1145	they wouldn't even spare time to consider your feelings
+T11	Premise 1215 1299	Being friendly is a good way to treat a acquaintance but way not enough for a friend
+T12	Premise 1301 1436	When my friend is sick, I would not only ask if he is okay like an acquaintance but do my best to make him get well as soon as possible
+T13	Premise 1438 1591	If my friend is going to the wrong direction in his life trail, I will try my best to pull him back, but not stand and stare like it's not of my business
+T14	Premise 1593 1639	And I believe my friend will do the same to me
+T15	Claim 1656 1691	a friend is a person you care about
+A4	Stance T15 For
+T16	MajorClaim 1701 1769	friends are the most important people in my life second to my family
+T17	Premise 1771 1886	I am the kind of person who has only one or two close friends, and I am fully content that I have such nice friends
+T18	Premise 1888 1976	If someone exchange my friends with thousands of acquaintances, I will definitely say NO
+R1	supports Arg1:T3 Arg2:T2
+R2	supports Arg1:T4 Arg2:T2
+R3	supports Arg1:T5 Arg2:T7
+R4	supports Arg1:T6 Arg2:T7
+R5	supports Arg1:T2 Arg2:T1
+R6	supports Arg1:T7 Arg2:T1
+R7	supports Arg1:T9 Arg2:T8
+R8	supports Arg1:T10 Arg2:T8
+R9	supports Arg1:T11 Arg2:T8
+R10	supports Arg1:T12 Arg2:T15
+R11	supports Arg1:T13 Arg2:T15
+R12	supports Arg1:T14 Arg2:T15
+R13	supports Arg1:T8 Arg2:T1
+R14	supports Arg1:T15 Arg2:T1
+R15	supports Arg1:T17 Arg2:T16
+R16	supports Arg1:T18 Arg2:T16

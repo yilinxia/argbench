@@ -1,0 +1,23 @@
+T1	MajorClaim 0 59	Higher school students should be taught how to manage money
+T2	Claim 440 546	In my view, I agree to that fact that higher school students should be made aware of the money management.
+T3	Claim 547 931	The reason why I think teenage students need to understand the money management basics is, primarily when secondary school students attain the age of undergoing graduation, students ought to stay in hostels or with friends and away from family, during such situations when money management is taught at an early age students will have increased sense of responsibility and confidence.
+T4	Premise 932 1184	For example, while I was a kid my father used to maintain expense log for the month, I was asked to do the same for my keep track of my pocket money expenses, during my future course of life this became a practice and helped me in planning my expenses.
+T5	Claim 1185 1415	In addition, if financial management is taught at an early age, students will have better sense of understanding of their family financial background and status, students coming up with unrealistic whims and fancies are minimized.
+T6	Premise 1416 1632	For example, buying a gaming console may not be a big deal for a student from an affluent financial background. However, for a student coming from middle class buying a gaming console may not be the need of the hour.
+T7	Claim 1633 1767	Hence, having exposed to money management at a high school level will help them in prioritizing the financial commitments efficiently.
+T8	Claim 1768 1899	In conclusion, I think students understanding the money management techniques will have more positive effects than negative impact.
+T9	Claim 1900 2032	However, the teaching should be in a constructive manner and students should not feel that they are being bullied for every expense.
+A1	Stance T2 For
+A2	Stance T3 For
+A3	Stance T5 For
+A4	Stance T7 For
+A5	Stance T8 For
+A6	Stance T9 For
+R1	supports Arg1:T2 Arg2:T1
+R2	supports Arg1:T3 Arg2:T2
+R3	supports Arg1:T4 Arg2:T3
+R4	supports Arg1:T5 Arg2:T2
+R5	supports Arg1:T6 Arg2:T5
+R6	supports Arg1:T7 Arg2:T5
+R7	supports Arg1:T8 Arg2:T1
+R8	supports Arg1:T9 Arg2:T1

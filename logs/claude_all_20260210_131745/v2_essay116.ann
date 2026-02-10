@@ -1,0 +1,25 @@
+T1	MajorClaim 384 450	I firmly disagree with this recommendation due to several reasons.
+T2	Claim 451 593	The main reason why I believe artists should be funded is because art helps to improve the quality of our lives as well as attracting tourists
+A1	Stance T2 For
+T3	Premise 608 772	monuments that represent each city do not only illustrate the city's history and culture, but also make the city more beautiful and an attractive place for tourists
+T4	Premise 783 847	some countries depend on tourism as their main source of revenue
+T5	Premise 849 962	thus, the governments should help arts because their work crafts are very necessary to boost the tourist industry
+T6	Claim 977 1101	sculptures and paintings in the museums and art galleries generally reflect the culture and civilization of every generation
+A2	Stance T6 For
+T7	Premise 1114 1181	culture and history of a country can be reserved and assured by art
+T8	Premise 1183 1306	Young people are also able to get more knowledge about their country's history and culture by observing various work crafts
+T9	Claim 1308 1423	Another reason why artists should be helped is because talent in art is extremely precious and should not be wasted
+A3	Stance T9 For
+T10	Premise 1433 1503	not many people are blessed in the talent of paintings and work crafts
+T11	Premise 1512 1614	this type of talent has to be valued as other types of talents such as talent in science or literature
+T12	MajorClaim 1627 1815	art is a very valuable object for every country and the talent in this area cannot be discovered everywhere, so I think governments should help and encourage artists to continue their work
+R1	supports Arg1:T3 Arg2:T2
+R2	supports Arg1:T4 Arg2:T2
+R3	supports Arg1:T5 Arg2:T2
+R4	supports Arg1:T2 Arg2:T1
+R5	supports Arg1:T7 Arg2:T6
+R6	supports Arg1:T8 Arg2:T6
+R7	supports Arg1:T6 Arg2:T1
+R8	supports Arg1:T10 Arg2:T9
+R9	supports Arg1:T11 Arg2:T9
+R10	supports Arg1:T9 Arg2:T1

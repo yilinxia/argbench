@@ -1,0 +1,33 @@
+T1	MajorClaim 69 352	Some people think that working at home brings to workers and employees too much convenience, but i don't. Because the best conditions are sometimes not likely to be good as the expectation of people. Working without pressure and interaction are some examples for these disadvantages.
+T2	Claim 353 461	Pressure is motivation. Each office has its rules that keep workers do their job as effectively as possible.
+T3	Premise 462 532	The directors manage employers and give them the deadline of projects.
+T4	Premise 533 602	Then again, the workers must try their best to finish the time limit.
+T5	Premise 603 673	Doing all jobs at home don't make employees attempt to work like this.
+T6	Claim 675 769	Computers and modems bring works to home but these still have many things distract their mind.
+T7	Premise 770 898	Facebook or Yahoo have been the entertaining websites, however, they are the reasons why people cannot concentrate on their job.
+T8	Premise 899 984	The dos and don't at office play important role to prevent these things from workers.
+T9	Premise 985 1099	In condition, doing all jobs alone makes employees fall asleep easily. As a result, the project cannot being done.
+T10	Premise 1100 1148	The best condition might not be good for people.
+T11	Claim 1150 1207	Interaction has been an advantage for workers at offices.
+T12	Premise 1208 1364	Discussing and debating Projects together increase working ability because all we know that the target can be reached fast thanks to working of many people.
+T13	Premise 1365 1505	Besides, interaction help employees improve their communicational skills, therefore, they will have more and more friends and relationships.
+T14	Premise 1506 1557	Interaction is a factor increasing working quality.
+T15	Claim 1558 1740	There will have many disadvantages if the workers work at home. Mitigating process, no interaction and pressure are these things people should examine when they want to work at home.
+A1	Stance T2 For
+A2	Stance T6 For
+A3	Stance T11 For
+A4	Stance T15 For
+R1	supports Arg1:T2 Arg2:T1
+R2	supports Arg1:T3 Arg2:T2
+R3	supports Arg1:T4 Arg2:T2
+R4	supports Arg1:T5 Arg2:T2
+R5	supports Arg1:T6 Arg2:T1
+R6	supports Arg1:T7 Arg2:T6
+R7	supports Arg1:T8 Arg2:T6
+R8	supports Arg1:T9 Arg2:T6
+R9	supports Arg1:T10 Arg2:T6
+R10	supports Arg1:T11 Arg2:T1
+R11	supports Arg1:T12 Arg2:T11
+R12	supports Arg1:T13 Arg2:T11
+R13	supports Arg1:T14 Arg2:T11
+R14	supports Arg1:T15 Arg2:T1

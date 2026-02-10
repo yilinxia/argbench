@@ -1,0 +1,27 @@
+T1	MajorClaim 0 61	High sales reflect power of advertising and not the real need
+T2	Claim 183 292	these various advertisements get people to buy products that are unnecessary and only look good on television
+A1	Stance T2 For
+T3	Premise 371 426	companies pour a great amount of money into advertising
+R1	supports Arg1:T3 Arg2:T2
+T4	Premise 428 586	Most of the time, it is not about the function or quality of the commodities themselves but really the promotion of the good feeling of possessing the product
+R2	supports Arg1:T4 Arg2:T2
+T5	Premise 605 667	huge cooperation hire celebrities as the face of their product
+R3	supports Arg1:T5 Arg2:T2
+T6	Premise 669 854	By casting famous singers in their television advertisement, motorcycles or clothes for example, sales increase significantly since youngsters, as the target consumers, love celebrities
+R4	supports Arg1:T6 Arg2:T2
+T7	Premise 856 953	Since having these products shows their status, the quality obviously is not relatively important
+R5	supports Arg1:T7 Arg2:T2
+T8	Claim 1034 1095	it is also true that it plays and important role economically
+A2	Stance T8 Against
+T9	Premise 1097 1153	They introduce new products, and provide various choices
+R6	supports Arg1:T9 Arg2:T8
+T10	Premise 1170 1242	they are often visually enjoyable, since they aim to grab your attention
+R7	supports Arg1:T10 Arg2:T8
+T11	Premise 1244 1357	Advertising also helps to keep prices at reasonable levels, creates a fair environment for commercial competition
+R8	supports Arg1:T11 Arg2:T8
+T12	Premise 1359 1461	Otherwise the market may be monopolistic, and the price as well as the choice will not be so selective
+R9	supports Arg1:T12 Arg2:T8
+T13	Claim 1463 1577	The power of advertising maybe over-rated, we can not deny that the final decision is on the hands of us consumers
+A3	Stance T13 For
+T14	MajorClaim 1579 1676	No matter how appealing the advertisements are, we should be able to make the decision on our own
+R10	supports Arg1:T13 Arg2:T14

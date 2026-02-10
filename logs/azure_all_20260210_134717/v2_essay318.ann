@@ -1,0 +1,33 @@
+T1	MajorClaim 443 518	I hold the contention that no additional payment should be charged on them.
+T2	Claim 552 653	Capitalism enfranchised people's right to own properties, and consequently, their rights to use them.
+T3	Premise 654 857	Driving cars during the rush hours might is bound to polluting cities's environment, but laws protect drivers to do so, and accordingly, charging them extra fee might seems to be out of the jurisdiction.
+T4	Claim 858 991	From another point of view, traffic jam is a natural phenomenon that nobody is able to shun or ban; so it is out of drivers' control.
+T5	Premise 992 1075	Why drivers should pay a fine only for driving their own cars in a particular time?
+T6	Premise 1076 1171	Wars are notorious, but you can't blame the soldiers who are justing fight for their countries.
+T7	Claim 1327 1390	Charging drivers one more fee makes no sense and is ridiculous.
+T8	Premise 1172 1326	Buying a car spends hundreds of thousand; paying for all sorts of fee takes another several-these are all ready too much for most of the families to bear.
+T9	Premise 1391 1567	Majority of the families buy cars simply for a safer and easier conveyance, and charging them too much fee adds a lot to their burden and is actually jeopardizing their rights.
+T10	Claim 1568 1856	Rather than passively forcing drivers to pay another fee, government should instead, be more active on advocating the use of more efficient and environmental-friendly energy or planning out more reasonable and convenient layout that allow people to reach their destinations with less oil.
+T11	Premise 1857 1974	Sometimes traffic jam occur only due to the malfunction of a traffic light, or unreasonable organization of roadways.
+T12	Claim 1975 2065	In these cases, the one who should be charged for a fine is the city planner, not drivers.
+T13	Claim 2066 2179	Simply put, charging drivers fees regardless of the causes of the problems could be ridiculous and even unlawful.
+T14	MajorClaim 2181 2426	In conclusion, "rush hours" are usually not the direct consequence of drivers. Instead, the real causes of traffic jam may fall on various of grounds, and therefore, charging drivers for another fee for this could be unreasonable and irrational.
+A1	Stance T2 For
+A2	Stance T4 For
+A3	Stance T7 For
+A4	Stance T10 For
+A5	Stance T12 For
+A6	Stance T13 For
+R1	supports Arg1:T2 Arg2:T1
+R2	supports Arg1:T3 Arg2:T2
+R3	supports Arg1:T4 Arg2:T1
+R4	supports Arg1:T5 Arg2:T4
+R5	supports Arg1:T6 Arg2:T4
+R6	supports Arg1:T7 Arg2:T1
+R7	supports Arg1:T8 Arg2:T7
+R8	supports Arg1:T9 Arg2:T7
+R9	supports Arg1:T10 Arg2:T1
+R10	supports Arg1:T11 Arg2:T12
+R11	supports Arg1:T12 Arg2:T1
+R12	supports Arg1:T13 Arg2:T1
+R13	supports Arg1:T1 Arg2:T14

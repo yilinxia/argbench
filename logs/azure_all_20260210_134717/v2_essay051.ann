@@ -1,0 +1,41 @@
+T1	MajorClaim 218 296	In my opinion universities should invest in libraries more than anywhere else.
+T2	Claim 297 368	First, I think a library is vital and strategical part of a university.
+A1	Stance T2 For
+T3	Premise 369 514	All professors and students need to have a modern and well-equipped library because, after internet, library plays an important role in research.
+T4	Premise 515 594	Although sport is important, it does not have the same priority of library has.
+T5	Premise 595 659	In addition only small part of students attend sport activities.
+T6	Premise 660 777	For example, in my university number of students who use the library is much more than students do sports activities.
+T7	Claim 778 823	Second, usually libraries do not have income.
+A2	Stance T7 For
+T8	Premise 824 881	Most libraries are free not for students also for public.
+T9	Premise 882 933	Hence, universities support is vital for libraries.
+T10	Premise 934 1060	But sport activities have a good income because every sport has different matches and for each match they have a lot sponsors.
+T11	Premise 1061 1129	Also, they have this chance to sell their important matches tickets.
+T12	Premise 1130 1287	To conclude, there are good ways for sports activities to compensate their expenses, but it is very hard for libraries to find a good way for have an income.
+T13	Claim 1288 1354	Last but not least, investing in libraries has a long-time result.
+A3	Stance T13 For
+T14	Premise 1355 1436	For example, a library can buy a lot of new books or they can buy more computers.
+T15	Premise 1437 1516	Most of the library facilities are stable and you can use them for a long time.
+T16	Premise 1517 1571	Besides, in the far future, they become more valuable.
+T17	Premise 1572 1713	On the other side, most sports facilities except buildings are usually can be used in short-time and they are not persistent for a long-time.
+T18	Claim 1714 1792	In spite of the importance of sports activities, libraries are more important.
+A4	Stance T18 For
+T19	Premise 1793 1883	They are critical part of universities and a good university has to have a modern library.
+R1	supports Arg1:T2 Arg2:T1
+R2	supports Arg1:T3 Arg2:T2
+R3	supports Arg1:T4 Arg2:T2
+R4	supports Arg1:T5 Arg2:T2
+R5	supports Arg1:T6 Arg2:T2
+R6	supports Arg1:T7 Arg2:T1
+R7	supports Arg1:T8 Arg2:T7
+R8	supports Arg1:T9 Arg2:T7
+R9	supports Arg1:T10 Arg2:T7
+R10	supports Arg1:T11 Arg2:T7
+R11	supports Arg1:T12 Arg2:T7
+R12	supports Arg1:T13 Arg2:T1
+R13	supports Arg1:T14 Arg2:T13
+R14	supports Arg1:T15 Arg2:T13
+R15	supports Arg1:T16 Arg2:T13
+R16	supports Arg1:T17 Arg2:T13
+R17	supports Arg1:T18 Arg2:T1
+R18	supports Arg1:T19 Arg2:T18

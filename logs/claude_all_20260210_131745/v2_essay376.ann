@@ -1,0 +1,18 @@
+T1	MajorClaim 287 382	In my opinion, this plan should be put into practice for the two reasons mentioned accordingly.
+T2	Claim 383 490	No one can argue the importance to include health lessons in school programmes, especially at primary level
+T3	Premise 492 533	in the hope of raising people's awareness
+T4	Premise 535 701	Children should be taught about balanced diets, nutritious food as well as harmful ones, thereby they will have a fundamental grasp of how to lead a healthy lifestyle
+T5	Premise 703 858	What is more, it is much easier for people at early ages to form a habit of, for instance, not consuming too much fast food, over-fried food or intoxicants
+T6	Claim 873 941	it will be of economic benefit to pre-empt certain kinds of diseases
+T7	Premise 943 1102	Needless to say, such unpreventable illnesses as cancer or HIV will cost the victim a fortune, not to cure, but to lengthen his longevity for 1 or 2 more years
+T8	Premise 1104 1319	Similarly, if humans tend to keep fit more regularly by participating in outdoor activities or using health-care product, obesity, myopia or other diseases that require expensive treatments will never stand a chance
+T9	MajorClaim 1332 1441	I have to concede to the materialistic diversion from treatment to health education and preventative measures
+A1	Stance T2 For
+A2	Stance T6 For
+R1	supports Arg1:T3 Arg2:T2
+R2	supports Arg1:T4 Arg2:T2
+R3	supports Arg1:T5 Arg2:T2
+R4	supports Arg1:T7 Arg2:T6
+R5	supports Arg1:T8 Arg2:T6
+R6	supports Arg1:T2 Arg2:T1
+R7	supports Arg1:T6 Arg2:T1

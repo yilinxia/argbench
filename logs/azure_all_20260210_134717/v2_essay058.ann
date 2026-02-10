@@ -1,0 +1,62 @@
+T1	MajorClaim 240 374	However, co-operative approach always helps a child to become a responsible adult with good moral values and a friendly social circle.
+T2	Claim 375 414	Co-operation is essential for teamwork.
+A1	Stance T2 For
+T3	Premise 415 494	Educational systems emphasize on encouraging co-operative approach in children.
+T4	Premise 495 571	We live in a social setup and mutual help and sharing only leads to success.
+T5	Premise 572 628	A person can not learn or achieve everything by oneself.
+T6	Premise 629 664	For instance, lions hunt in a team.
+T7	Premise 665 752	It is only due to their teamwork that they are able to catch a prey and make task easy.
+T8	Premise 753 851	In the same way, co-operative approach will save time, energy and will have a higher success rate.
+T9	Claim 852 947	Nevertheless, co-operation helps to understand other's perspective and learn by their mistakes.
+A2	Stance T9 For
+T10	Premise 948 1022	It helps to identify one's strengths and weaknesses as compared to others.
+T11	Premise 1023 1132	A co-operative approach can create inspirational and motivational feeling seeing other people's achievements.
+T12	Claim 1133 1191	However, competition is also as important as co-operation.
+A3	Stance T12 Against
+T13	Claim 1192 1272	Unfortunately, the meaning of competiton has been modified in a wrong direction.
+A4	Stance T13 For
+T14	Claim 1273 1352	An individual must compete with oneself only, instead of trying to beat others.
+A5	Stance T14 For
+T15	Claim 1353 1418	Competition has helped the development of science and technology.
+A6	Stance T15 Against
+T16	Claim 1419 1466	Competition helps in improvement and evolution.
+A7	Stance T16 Against
+T17	Premise 1467 1570	For example, every other day, new cars are developed by companies which are more efficient than others.
+T18	Premise 1571 1625	This kind of competition gives customers more options.
+T19	Claim 1626 1680	However, blind and selfish competition is detrimental.
+A8	Stance T19 For
+T20	Premise 1681 1760	'Your loss, my gain' kind of competition can never be fruitful in the long run.
+T21	Claim 1761 1821	Competition should be always based on self-improvement rule.
+A9	Stance T21 For
+T22	Claim 1822 1917	A healthy competition which involves raising one's own level above others is the best approach.
+A10	Stance T22 For
+T23	Claim 1918 1969	Thus, competition and co-operation go hand in hand.
+A11	Stance T23 For
+T24	Premise 1970 2032	These are two sides of the same coin which can't be separated.
+T25	MajorClaim 2033 2134	I firmly believe that children should be taught co-operation complimented with a healthy competition.
+T26	Premise 2135 2198	They must be made aware of the demerits of selfish competition.
+T27	Premise 2199 2326	When co-operation and healthy competition is followed together, success, achievements, recognition and any goal becomes easier.
+R1	supports Arg1:T3 Arg2:T2
+R2	supports Arg1:T4 Arg2:T2
+R3	supports Arg1:T5 Arg2:T2
+R4	supports Arg1:T6 Arg2:T2
+R5	supports Arg1:T7 Arg2:T2
+R6	supports Arg1:T8 Arg2:T2
+R7	supports Arg1:T2 Arg2:T1
+R8	supports Arg1:T10 Arg2:T9
+R9	supports Arg1:T11 Arg2:T9
+R10	supports Arg1:T9 Arg2:T1
+R11	attacks Arg1:T12 Arg2:T1
+R12	supports Arg1:T13 Arg2:T19
+R13	supports Arg1:T14 Arg2:T21
+R14	supports Arg1:T15 Arg2:T12
+R15	supports Arg1:T16 Arg2:T12
+R16	supports Arg1:T17 Arg2:T15
+R17	supports Arg1:T18 Arg2:T15
+R18	supports Arg1:T20 Arg2:T19
+R19	supports Arg1:T19 Arg2:T21
+R20	supports Arg1:T21 Arg2:T22
+R21	supports Arg1:T24 Arg2:T23
+R22	supports Arg1:T23 Arg2:T25
+R23	supports Arg1:T26 Arg2:T25
+R24	supports Arg1:T27 Arg2:T25

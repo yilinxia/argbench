@@ -1,0 +1,34 @@
+T1	MajorClaim 0 69	Attending boys and girls in a same school would bring many advantages
+T2	Claim 328 481	In my opinion, boys and girls should study together in the sense that they have a chance to know each other and learn how to behave with an opposite sex.
+T3	Premise 483 563	School is a small society for students, which prepares them for the future life.
+T4	Premise 564 686	By attending to the same school, students can learn how to view the opposite gender in classes as a friend or a classmate.
+T5	Premise 687 776	In addition, a boy would know how to speak with a girl in every situation and vice versa.
+T6	Premise 777 889	They would know how to ask her in order to cooperate with his study, how communicate with girls in a group, etc.
+T7	Premise 890 992	Admittedly, when they study together and help each other, they exercise the the real life as they age.
+T8	Claim 993 1113	By contrast, some experts believe that attending both girls and boys in a same school cause many disadvantages for them.
+T9	Premise 1114 1264	By doing this, outdoors relationships may expand and it may accompany with sexual relationship and as result, their thoughts deviate from the studies.
+T10	Claim 1266 1396	Moreover, attending in the school having boys and girls might be beneficial for both to increase their motivation to study better.
+T11	Premise 1397 1515	Boys and girls will try to show their capabilities and abilities in the class, therefore they will study increasingly.
+T12	Premise 1516 1587	Indeed, Boys do not like to seem weak in front of girls and vice versa.
+T13	Premise 1588 1649	As a result, the productivity of the class will be increased.
+T14	MajorClaim 1651 1732	In a word, attending boys and girls in a same school would bring many advantages.
+T15	Premise 1733 1815	Taking part in the study groups would increase student's motivation to study more.
+T16	Premise 1816 1972	In addition, they would be able to know the opposite gender, which help them to be prepared for the adult life where they almost will live or work together.
+A1	Stance T2 For
+A2	Stance T8 Against
+A3	Stance T10 For
+R1	supports Arg1:T2 Arg2:T1
+R2	supports Arg1:T3 Arg2:T2
+R3	supports Arg1:T4 Arg2:T2
+R4	supports Arg1:T5 Arg2:T2
+R5	supports Arg1:T6 Arg2:T2
+R6	supports Arg1:T7 Arg2:T2
+R7	attacks Arg1:T8 Arg2:T2
+R8	supports Arg1:T9 Arg2:T8
+R9	supports Arg1:T10 Arg2:T1
+R10	supports Arg1:T11 Arg2:T10
+R11	supports Arg1:T12 Arg2:T10
+R12	supports Arg1:T13 Arg2:T10
+R13	supports Arg1:T14 Arg2:T1
+R14	supports Arg1:T15 Arg2:T14
+R15	supports Arg1:T16 Arg2:T14

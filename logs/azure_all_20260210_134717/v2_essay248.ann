@@ -1,0 +1,47 @@
+T1	MajorClaim 0 79	Choosing the job that is similar to parents' jobs could benefit to one's career
+T2	Claim 283 362	choosing the job that is similar to parents' jobs could benefit to one's career
+A1	Stance T2 For
+T3	Claim 365 539	First of all, as parents are involved in the same environment, they could thus support much more to their children, such as domain knowledge and industry-related information.
+A2	Stance T3 For
+T4	Premise 540 663	For example, my father is a software programmer, and he indeed teaches me a lot in programming and some computer knowledge.
+T5	Premise 664 726	Whenever I met a difficulty, I would reach him for consulting.
+T6	Premise 727 807	Because he has many experiences, I could save enormous time in finding solution.
+T7	Premise 808 864	This truly makes me more competitive than my colleagues.
+T8	Premise 865 965	If I worked in the different field from my father, I would have faced much difficulty than I do now.
+T9	Claim 966 1083	Nevertheless, since parents have worked in tens of years, they have accumulated a rich network in a certain industry.
+A3	Stance T9 For
+T10	Premise 1084 1164	They have a deep insight in it and could provide much support to their children.
+T11	Premise 1165 1251	For instance, they know which company has better welfare or provides better education.
+T12	Premise 1252 1369	Moreover, their friends in the same industry can even help to write recommendation letters to some certain companies.
+T13	Premise 1370 1475	It is undoubted that a good recommendation letter is extraordinary important in this competitive society.
+T14	Premise 1476 1637	When others are still struggling in preparing their resume, one with a good recommendation letter has already passed the first stage in the interviewing process.
+T15	Claim 1639 1733	Some may argue that as time is different, the condition of job market is completely different.
+A4	Stance T15 Against
+T16	Claim 1734 1819	Therefore, choosing a job similar to one's parents' is not always a correct decision.
+A5	Stance T16 Against
+T17	Claim 1820 1926	I agree with this opinion to some extent, but when it comes to the trend, no one can predict it correctly.
+A6	Stance T17 For
+T18	Premise 1927 2072	The condition of job market changes enormously fast like a flash, so that there is no way to predict any job can be popular for 30 years or more.
+T19	Claim 2073 2270	In considering whether one should choose a job similar to his or her parents', I have mentioned a few reasons that one can get more support from his or her parents if they are in the same industry.
+A7	Stance T19 For
+T20	Claim 2271 2342	I believe parents can lead their children to a more smooth career path.
+A8	Stance T20 For
+R1	supports Arg1:T3 Arg2:T2
+R2	supports Arg1:T4 Arg2:T3
+R3	supports Arg1:T5 Arg2:T3
+R4	supports Arg1:T6 Arg2:T3
+R5	supports Arg1:T7 Arg2:T3
+R6	supports Arg1:T8 Arg2:T3
+R7	supports Arg1:T9 Arg2:T2
+R8	supports Arg1:T10 Arg2:T9
+R9	supports Arg1:T11 Arg2:T9
+R10	supports Arg1:T12 Arg2:T9
+R11	supports Arg1:T13 Arg2:T12
+R12	supports Arg1:T14 Arg2:T12
+R13	supports Arg1:T15 Arg2:T16
+R14	attacks Arg1:T16 Arg2:T2
+R15	supports Arg1:T17 Arg2:T2
+R16	supports Arg1:T18 Arg2:T17
+R17	supports Arg1:T19 Arg2:T2
+R18	supports Arg1:T20 Arg2:T2
+R19	supports Arg1:T2 Arg2:T1

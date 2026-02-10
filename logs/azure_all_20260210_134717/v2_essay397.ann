@@ -1,0 +1,23 @@
+T1	MajorClaim 0 90	Modern technology has impacted the traditional cultures in both negative and positive ways
+T2	Claim 269 414	I would argue that although the affect of technology on culture is undeniable, it has also contributed to the preservation of traditonal culture.
+A1	Stance T2 For
+T3	Claim 704 779	However, these newfangled practices has replaced many old traditional ones.
+A2	Stance T3 For
+T4	Premise 780 1050	For instance, factories equipped with new and highly-productive system has replaced old handmade products, the exchange of letters among friends is so hard to be seen as we have had emails and social network instead, new video games has superseded the old-physical ones.
+T5	Claim 1051 1138	Many old traditionally cultural things have long gone as a result of modern technology.
+A3	Stance T5 For
+T6	Claim 1139 1296	However, despite the drawback mentioned above, technology has also made some contributions to the maintenance and study of traditional cultures in some ways.
+A4	Stance T6 For
+T7	Premise 1297 1415	Internet has aided to assess the young generations to the cultural identity of many nations from all around the world.
+T8	Premise 1416 1516	With the help of advanced methods, many art masterpiece has been well restorated and well preserved.
+T9	Premise 1517 1647	Modern devices also assist the scientists to study the ancient societies much more deeply, hence discovering more cultural traces.
+T10	MajorClaim 1676 1765	Modern technogy has impacted the traditional cultures in both negative and positive ways.
+R1	supports Arg1:T4 Arg2:T3
+R2	supports Arg1:T3 Arg2:T1
+R3	supports Arg1:T5 Arg2:T1
+R4	supports Arg1:T7 Arg2:T6
+R5	supports Arg1:T8 Arg2:T6
+R6	supports Arg1:T9 Arg2:T6
+R7	supports Arg1:T6 Arg2:T1
+R8	supports Arg1:T2 Arg2:T1
+R9	supports Arg1:T4 Arg2:T5

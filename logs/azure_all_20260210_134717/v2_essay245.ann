@@ -1,0 +1,32 @@
+T1	MajorClaim 143 218	personally I believe that communicating by e-mails or voice mails is better
+T2	Claim 321 352	communicating by e-mail is easy
+A1	Stance T2 For
+T3	Premise 354 436	Many people have problems with calling a person that they are not acquainted with.
+T4	Premise 437 572	In this case it is not so difficult to write an e-mail or to leave a voice mail because even shy people feel themselves more confident.
+T5	Claim 583 629	you can write an e-mail at any time of the day
+A2	Stance T5 For
+T6	Premise 642 720	I work and study at the university and I don't have spare time during the day.
+T7	Premise 721 827	I get home at about midnight and I still need to answer some questions and to solve some routine problems.
+T8	Premise 828 962	I might not have time to call a person or to meet with him or her in an appropriate time so for me it is better to leave a voice mail.
+T9	Claim 972 1110	when you write an e-mail you have enough time to think carefully about what you are writing and how it would be better to express yourself
+A3	Stance T9 For
+T10	Premise 1112 1217	For example, you can change the word order or you can choose more appropriate style to sound more polite.
+T11	Premise 1218 1324	When you speak face-to-face you are not as able to control every word as you are when you write an e-mail.
+T12	Claim 1338 1400	there is no chance to disturb people by sending them an e-mail
+A4	Stance T12 For
+T13	Premise 1402 1491	You should not worry about interrupting an important conversation or some other business.
+T14	Claim 1492 1694	To sum up, I would like to say that for me both options of communicating are possible, but if this is an important and not urgent question I would prefer to answer it by means of internet or voice mail.
+A5	Stance T14 For
+R1	supports Arg1:T2 Arg2:T1
+R2	supports Arg1:T3 Arg2:T2
+R3	supports Arg1:T4 Arg2:T2
+R4	supports Arg1:T5 Arg2:T1
+R5	supports Arg1:T6 Arg2:T5
+R6	supports Arg1:T7 Arg2:T5
+R7	supports Arg1:T8 Arg2:T5
+R8	supports Arg1:T9 Arg2:T1
+R9	supports Arg1:T10 Arg2:T9
+R10	supports Arg1:T11 Arg2:T9
+R11	supports Arg1:T12 Arg2:T1
+R12	supports Arg1:T13 Arg2:T12
+R13	supports Arg1:T14 Arg2:T1

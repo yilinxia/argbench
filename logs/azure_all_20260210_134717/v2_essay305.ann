@@ -1,0 +1,50 @@
+T1	MajorClaim 0 52	Going to classes should be optional for the students
+T2	Claim 286 383	because it is university level of education, students have enough maturity to choose their choice
+T3	Claim 396 470	I strongly agree that going to classes should be optional for the students
+T4	Claim 487 535	going to classes are sometimes waste of the time
+T5	Premise 551 659	some lecturers in our university read the same text in the reference books for that particular course module
+T6	Premise 670 741	they didn't explain the contents in order to understand by the students
+T7	Premise 743 767	It was waste of the time
+T8	Premise 769 877	Because the university students have grown up, they have enough ability to read and understand the text book
+T9	Premise 889 977	with the modern technology, students can collect more information from different sources
+T10	Premise 992 1130	from the Internet, students can read many articles and e-books and can watch video tutorials which provide the information more apparently
+T11	Claim 1141 1209	some lecturers deliver lectures very informative and interesting way
+T12	Premise 1211 1332	When the students attend that lectures, they can obviously feel that it was very useful and they did not waste their time
+T13	Claim 1348 1402	mostly university has taken whole day for the lectures
+T14	Premise 1413 1523	most of the university students are working students in order to manage the expenses during the education time
+T15	Premise 1525 1565	Students need to work as part time basis
+T16	Premise 1574 1645	they have to schedule the lectures time, studying time and working time
+T17	Premise 1665 1820	rather than attending any boring lecturers, students can participate to other activities such as debate competition, swimming meet, Basketball and so forth
+T18	Premise 1822 1912	From that they can meet other university students and build up the relationships with them
+T19	Claim 1930 2070	although few brilliant lecturers deliver more informative lectures, some are boring the students in the class and wasting the students' time
+T20	Premise 2072 2149	When the students go to university, they have matured mentally and physically
+T21	Premise 2151 2208	They have enough knowledge to choose what they need to do
+T22	Claim 2242 2335	if the students choose the classes as optional, it would provide more benefits than drawbacks
+A1	Stance T2 For
+A2	Stance T3 For
+A3	Stance T4 For
+A4	Stance T11 Against
+A5	Stance T13 For
+A6	Stance T19 For
+A7	Stance T22 For
+R1	supports Arg1:T2 Arg2:T3
+R2	supports Arg1:T3 Arg2:T1
+R3	supports Arg1:T4 Arg2:T3
+R4	supports Arg1:T5 Arg2:T4
+R5	supports Arg1:T6 Arg2:T4
+R6	supports Arg1:T7 Arg2:T4
+R7	supports Arg1:T8 Arg2:T4
+R8	supports Arg1:T9 Arg2:T4
+R9	supports Arg1:T10 Arg2:T9
+R10	attacks Arg1:T11 Arg2:T3
+R11	supports Arg1:T12 Arg2:T11
+R12	supports Arg1:T13 Arg2:T3
+R13	supports Arg1:T14 Arg2:T13
+R14	supports Arg1:T15 Arg2:T14
+R15	supports Arg1:T16 Arg2:T13
+R16	supports Arg1:T17 Arg2:T13
+R17	supports Arg1:T18 Arg2:T17
+R18	supports Arg1:T19 Arg2:T3
+R19	supports Arg1:T20 Arg2:T22
+R20	supports Arg1:T21 Arg2:T22
+R21	supports Arg1:T22 Arg2:T1

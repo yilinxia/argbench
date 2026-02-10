@@ -1,0 +1,26 @@
+T1	MajorClaim 306 401	From my point of view, this development was a very positive one in spite of its some drawbacks.
+T2	Claim 402 504	To begin with, nowadays, to keep in touch with loved ones in faraway places has become easy than ever.
+A1	Stance T2 For
+T3	Premise 505 629	Technology revolutionized the way we communicate and in present, it is almost possible to do everything without tete-a-tete.
+T4	Premise 630 737	By means of some software such as Skype, MSN, Whatsapp we can get in touch with everybody whenever we want.
+T5	Premise 738 844	For example, in earlier times, people didn't leave for faraway places, because they could easily get lost.
+T6	Premise 845 931	This is also one salient prove that the development of technology was a very positive.
+T7	Claim 932 1023	Further, by means of some communication tools, it has become very easy to make new friends.
+A2	Stance T7 For
+T8	Premise 1024 1105	According to statistics, 40% of people met even their life partners via Internet.
+T9	Premise 1106 1193	In this sense, Internet is a basic tool to keep in touch with old and make new friends.
+T10	Claim 1194 1418	However, the other side of the coin is that, by communicating via Internet or phone, we cannot express our ideas and feelings fully, because during such conversations, some of our words can make a completely different sense.
+A3	Stance T10 Against
+T11	Premise 1419 1478	As a result, the rate of divorces is increasing day by day.
+T12	MajorClaim 1480 1679	By way of conclusion, I once again restate my position that the development of technology impacted on the means of communication among people very positively by making it easier and more comfortable.
+R1	supports Arg1:T2 Arg2:T1
+R2	supports Arg1:T3 Arg2:T2
+R3	supports Arg1:T4 Arg2:T2
+R4	supports Arg1:T5 Arg2:T2
+R5	supports Arg1:T6 Arg2:T1
+R6	supports Arg1:T7 Arg2:T1
+R7	supports Arg1:T8 Arg2:T7
+R8	supports Arg1:T9 Arg2:T7
+R9	attacks Arg1:T10 Arg2:T1
+R10	supports Arg1:T11 Arg2:T10
+R11	supports Arg1:T12 Arg2:T1

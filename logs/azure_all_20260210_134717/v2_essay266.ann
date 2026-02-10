@@ -1,0 +1,39 @@
+T1	MajorClaim 465 545	In my opinion, the advertising is not the main cause of unhealthy eating habits.
+T2	Claim 546 622	First of all, advertising is not entirely decisive on personal eating habit.
+T3	Premise 623 728	The key to forming a healthy eating pattern lies in people's concept of wholesome diets and self-control.
+T4	Premise 729 870	It is sure that advertising always makes the products so tempting, regardless of whether they might bring negative effects on the human body.
+T5	Premise 871 938	However, advertising is not the only information source for people.
+T6	Premise 939 1040	People can still acquire different viewpoints about foods from other sources, like news or magazines.
+T7	Premise 1041 1227	As long as people are clear about how to maintain a healthy body and they persistently keep track of their eating habits, they can successfully prevent themselves from those temptations.
+T8	Premise 1228 1381	It will be not persuasive if people just blame the advertising sector of a fast-food company for making them so fat and not reassess their own behaviors.
+T9	Claim 1383 1554	Second, in the era when people are becoming conscious of a healthier lifestyle, some companies are actually aiming at this rising trend and start to promote healthy foods.
+T10	Claim 1555 1636	In other words, advertising may even bring healthier eating habits to the people.
+T11	Premise 1637 1810	Think about the recently popular organic foods that are claimed to grow in an environment without pesticide and those crude foods in which less salt or less sugar are added.
+T12	Premise 1811 1901	These are the main traits that advertising is hitting on and the overall results are good.
+T13	Premise 1902 2001	In these cases, the advertising industry bolsters people's awareness of having a healthy lifestyle.
+T14	MajorClaim 2003 2083	In conclusion, advertising is not the primary reason of unhealthy eating habits.
+T15	Claim 2084 2186	There are the build-up of the concept about healthy eating habits and self-control that really matter.
+T16	Claim 2187 2311	Besides, advertising might lead to healthier eating customs due to the growing awareness of living under a better lifestyle.
+T17	Premise 2312 2445	It is inevitable to be exposed to the environment full of advertisements but it does not mean that our right to choose is taken away.
+T18	Premise 2446 2498	We will always be able to decide our own lifestyles.
+A1	Stance T2 For
+A2	Stance T9 For
+A3	Stance T10 For
+A4	Stance T15 For
+A5	Stance T16 For
+R1	supports Arg1:T2 Arg2:T1
+R2	supports Arg1:T3 Arg2:T2
+R3	supports Arg1:T5 Arg2:T2
+R4	supports Arg1:T6 Arg2:T5
+R5	supports Arg1:T7 Arg2:T2
+R6	supports Arg1:T8 Arg2:T2
+R7	supports Arg1:T9 Arg2:T1
+R8	supports Arg1:T10 Arg2:T1
+R9	supports Arg1:T11 Arg2:T10
+R10	supports Arg1:T12 Arg2:T10
+R11	supports Arg1:T13 Arg2:T10
+R12	supports Arg1:T15 Arg2:T14
+R13	supports Arg1:T16 Arg2:T14
+R14	supports Arg1:T17 Arg2:T14
+R15	supports Arg1:T18 Arg2:T17
+R16	supports Arg1:T4 Arg2:T2

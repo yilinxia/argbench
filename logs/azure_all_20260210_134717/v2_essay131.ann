@@ -1,0 +1,25 @@
+T1	MajorClaim 335 430	I contend that this investment in field of the arts would be in the best interest of a society.
+T2	Claim 796 960	There is also a burden on the government to highly concern about the people mental health initiatives which would be unconsciously or sensibly provided by the arts.
+T3	Claim 977 1044	the arts play a pivotal role in all-round development of a society.
+T4	Claim 1328 1430	investing in art could bring employment opportunities and could end in return of capital occasionally.
+T5	Claim 1681 1797	it would enriches the culture of the society and governments and individuals would benefit from it in multiple ways.
+T6	Premise 468 592	governments are liable for providing societies with appropriate public services and adequate facilities in an efficient way.
+T7	Premise 605 718	no one should suffer from any sort of deficiency in field of health, education, transportation and communication.
+T8	Premise 728 795	these could only help individuals with their physical requirements.
+T9	Premise 1045 1179	No developed country could be named that music, painting, literature and other fields of arts are out of its government consideration.
+T10	Premise 1180 1314	Enriching people's life and enlightening their thoughts, the arts basically affect the enhancement of societies in many positive ways.
+T11	Premise 1431 1583	The investment could be paid back through the values of the created works of art which as a matter of fact should be considered as national possessions.
+A1	Stance T2 For
+A2	Stance T3 For
+A3	Stance T4 For
+A4	Stance T5 For
+R1	supports Arg1:T8 Arg2:T2
+R2	supports Arg1:T6 Arg2:T2
+R3	supports Arg1:T7 Arg2:T2
+R4	supports Arg1:T9 Arg2:T3
+R5	supports Arg1:T10 Arg2:T3
+R6	supports Arg1:T11 Arg2:T4
+R7	supports Arg1:T2 Arg2:T1
+R8	supports Arg1:T3 Arg2:T1
+R9	supports Arg1:T4 Arg2:T1
+R10	supports Arg1:T5 Arg2:T1

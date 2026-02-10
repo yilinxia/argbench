@@ -1,0 +1,30 @@
+T1	MajorClaim 1595 1730	In conclusion, I reckon that for the young adults it will be better to live with their parents, because of the benefits they will have.
+T2	Claim 193 319	But these young people do not take into account that their lives are going to be more difficult, when they are away from home.
+T3	Premise 320 526	They will have to pay a lot of bills, because they will have to find a lodging or at least a place where to live and in order to have less expenses they will have to find a co-tenant, who they may not like.
+T4	Claim 528 597	Living in their own houses will save the young adults a lot of money.
+T5	Premise 598 711	If they live separate from their parents they will have to pay for a loan, electricity, water or even for a meal.
+T6	Premise 712 848	If the young adults still study they will have to combine studying with working, because they will not have money to pay for everything.
+T7	Premise 849 962	There will not be such worries when young adults live in their own home, because parents will take care for them.
+T8	Premise 963 1052	Moreover, parents will give their children money in order they to focus only on studying.
+T9	Claim 1053 1150	Another problem that the young adults may encounter is to find a co-tenant, who they do not like.
+T10	Premise 1151 1324	His habits may be totally different from theirs, his behavior may be inappropriate, but they will have to live with him or even share a room, in order to have less expenses.
+T11	Premise 1325 1394	Living with such a person may be a huge problem for the young adults.
+T12	Premise 1395 1507	When the co-tenant do not share their interests and points of view, they will not be able to ask him for advice.
+T13	Premise 1508 1594	Furthermore, they are most likely to quarrel every day, instead of to help each other.
+T14	Premise 1731 1832	They will not need to worry about financial problems or if they will get on well with their roommate.
+A1	Stance T2 For
+A2	Stance T4 For
+A3	Stance T9 For
+R1	supports Arg1:T2 Arg2:T1
+R2	supports Arg1:T3 Arg2:T2
+R3	supports Arg1:T4 Arg2:T1
+R4	supports Arg1:T5 Arg2:T4
+R5	supports Arg1:T6 Arg2:T4
+R6	supports Arg1:T7 Arg2:T4
+R7	supports Arg1:T8 Arg2:T4
+R8	supports Arg1:T9 Arg2:T1
+R9	supports Arg1:T10 Arg2:T9
+R10	supports Arg1:T11 Arg2:T9
+R11	supports Arg1:T12 Arg2:T9
+R12	supports Arg1:T13 Arg2:T9
+R13	supports Arg1:T14 Arg2:T1

@@ -1,0 +1,30 @@
+T1	MajorClaim 0 67	Teacher is the best option for children's education in some aspects
+T2	Claim 306 431	As far as I am concerned, I agree with the view that the teacher is the best option for children's education in some aspects.
+T3	Claim 433 527	In the first place, school teachers are more qualified than parents in the field of education.
+T4	Premise 528 674	For instance, to be able to obtain the teacher certificates, people need years of training at their normal schools to learn theoretical knowledge.
+T5	Premise 675 814	However, in comparison to teachers, parents tend to have less knowledge to teach their children's subjects such as mathematics and physics.
+T6	Claim 815 930	Furthermore, teaching staff are professional and experienced in terms of promoting children's communication skills.
+T7	Premise 931 1175	For example, after many years of teaching experience, teacher are able to know how to help children to develop important life skills such as learning personal boundaries, facing future problems and learning important conflict resolution skills.
+T8	Premise 1176 1341	By contrast, parents are facing difficult generation gap with their children because they are less likely to know how to handle family conflicts in an efficient way.
+T9	Claim 1343 1448	Last but not least, compared with teachers, parents do not have enough time to spend with their children.
+T10	Premise 1449 1609	Nowadays we are facing a global economic crisis and it is necessary for both parents to work, hence there is only limited time for them to teach their children.
+T11	Premise 1610 1664	Thus, it was impossible for them to be a good teacher.
+T12	MajorClaim 1665 1727	In conclusion, teachers are the best for children's education.
+T13	Claim 1728 1922	Not only do they contribute much to children's professional skills but also they can teach their students important social communication techniques in order to survive in this competitive world.
+A1	Stance T2 For
+A2	Stance T3 For
+A3	Stance T6 For
+A4	Stance T9 For
+A5	Stance T13 For
+R1	supports Arg1:T2 Arg2:T1
+R2	supports Arg1:T3 Arg2:T2
+R3	supports Arg1:T4 Arg2:T3
+R4	supports Arg1:T5 Arg2:T3
+R5	supports Arg1:T6 Arg2:T2
+R6	supports Arg1:T7 Arg2:T6
+R7	supports Arg1:T8 Arg2:T6
+R8	supports Arg1:T9 Arg2:T2
+R9	supports Arg1:T10 Arg2:T9
+R10	supports Arg1:T11 Arg2:T9
+R11	supports Arg1:T13 Arg2:T12
+R12	supports Arg1:T12 Arg2:T1

@@ -1,0 +1,20 @@
+T1	MajorClaim 0 72	Television and Movies influence our lives both negatively and positively
+T2	Claim 200 303	But I think in general television and movies influence our behavior in bad ways more than in good ways.
+T3	Premise 304 433	They make people to eat more rubbish food, spend less time with their friends and family, and be someone that are not themselves.
+T4	Claim 435 884	There are a lot of people eating foods or snacks when they are watching television. Most of the foods they eat are fat foods like chips or pizzas. It is not rocket science to know that these foods are not good for people’s health. Many companies know about this behavior and use advertisements on television to make people buy more of these foods. In turn, people will consume these rubbish foods more and we have to deal with a lot of fat diseases.
+T5	Claim 885 1284	Television and movies also make people to spend more time on their couch than with their family and friends, especially children. They communicate less with their parents because a lot of their time is used watching television and movies. When people are watching television or movies together, they also talk less to each other, compare to when playing social games, such as parlor games, together.
+T6	Claim 1285 1840	Television and movies nowadays contain a lot of advertisements. These advertisements build ideal images that make people to feel bad about themselves and want to be more like these images. When people see beautiful women and men on the advertisements, they think that they are ugly. Thus they spend a lot of money to buy a lot of beauty products or go to gym to get better appearance or body. When a cool hero characters in a movie smokes and yet a lot of people like him, then people who idolize him may also begin to smoke although they don’t prefer it.
+T7	Claim 1841 1954	I think television and movies are entertaining but most of the time they influence people’s behavior in bad ways.
+T8	Premise 1955 2094	If you want to stay healthy, be yourself and spend time with your family and friends, then you should spend less time watching these media.
+A1	Stance T2 For
+A2	Stance T4 For
+A3	Stance T5 For
+A4	Stance T6 For
+A5	Stance T7 For
+R1	supports Arg1:T2 Arg2:T1
+R2	supports Arg1:T3 Arg2:T2
+R3	supports Arg1:T4 Arg2:T2
+R4	supports Arg1:T5 Arg2:T2
+R5	supports Arg1:T6 Arg2:T2
+R6	supports Arg1:T7 Arg2:T2
+R7	supports Arg1:T8 Arg2:T7

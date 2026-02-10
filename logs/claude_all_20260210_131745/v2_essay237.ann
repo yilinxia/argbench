@@ -1,0 +1,38 @@
+T1	MajorClaim 0 72	Television and Movies influence our lives both negatively and positively
+T2	Claim 212 302	in general television and movies influence our behavior in bad ways more than in good ways
+A1	Stance T2 Against
+T3	Claim 309 432	make people to eat more rubbish food, spend less time with their friends and family, and be someone that are not themselves
+A2	Stance T3 Against
+T4	Premise 435 517	There are a lot of people eating foods or snacks when they are watching television
+T5	Premise 519 580	Most of the foods they eat are fat foods like chips or pizzas
+T6	Premise 578 659	It is not rocket science to know that these foods are not good for people's health
+T7	Premise 666 781	Many companies know about this behavior and use advertisements on television to make people buy more of these foods
+T8	Premise 783 883	In turn, people will consume these rubbish foods more and we have to deal with a lot of fat diseases
+T9	Claim 885 1013	Television and movies also make people to spend more time on their couch than with their family and friends, especially children
+A3	Stance T9 Against
+T10	Premise 1015 1122	They communicate less with their parents because a lot of their time is used watching television and movies
+T11	Premise 1124 1283	When people are watching television or movies together, they also talk less to each other, compare to when playing social games, such as parlor games, together
+T12	Claim 1285 1347	Television and movies nowadays contain a lot of advertisements
+A4	Stance T12 Against
+T13	Premise 1349 1472	These advertisements build ideal images that make people to feel bad about themselves and want to be more like these images
+T14	Premise 1474 1566	When people see beautiful women and men on the advertisements, they think that they are ugly
+T15	Premise 1568 1676	Thus they spend a lot of money to buy a lot of beauty products or go to gym to get better appearance or body
+T16	Premise 1688 1872	When a cool hero characters in a movie smokes and yet a lot of people like him, then people who idolize him may also begin to smoke although they don't prefer it
+T17	MajorClaim 1874 1972	I think television and movies are entertaining but most of the time they influence people's behavior in bad ways
+T18	Premise 1955 2093	If you want to stay healthy, be yourself and spend time with your family and friends, then you should spend less time watching these media
+R1	supports Arg1:T4 Arg2:T3
+R2	supports Arg1:T5 Arg2:T4
+R3	supports Arg1:T6 Arg2:T4
+R4	supports Arg1:T7 Arg2:T8
+R5	supports Arg1:T8 Arg2:T3
+R6	supports Arg1:T3 Arg2:T2
+R7	supports Arg1:T10 Arg2:T9
+R8	supports Arg1:T11 Arg2:T9
+R9	supports Arg1:T9 Arg2:T2
+R10	supports Arg1:T13 Arg2:T12
+R11	supports Arg1:T14 Arg2:T13
+R12	supports Arg1:T15 Arg2:T12
+R13	supports Arg1:T16 Arg2:T12
+R14	supports Arg1:T12 Arg2:T2
+R15	supports Arg1:T2 Arg2:T17
+R16	supports Arg1:T18 Arg2:T17

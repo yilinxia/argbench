@@ -1,0 +1,28 @@
+T1	MajorClaim 1495 1705	In short, although both sides have their equally valid arguments, I am inclined to think that although Internet can be a useful tool for education, at no time will the unique role of human teachers be replaced.
+T2	Claim 121 219	Internet and computers will supplant the traditional role of teachers in a not too distant future.
+T3	Claim 378 535	the global online network is the inexhaustible source of information, which definitely exceeds the fund of knowledge that any veteran teacher can accumulate.
+T4	Premise 536 723	Internet and computer also offer a more comprehensive access to knowledge, ranging from visual to aural stimuli, which make learning an ever enjoyable experience, especially for children.
+T5	Claim 743 896	critics of this idea maintain that although the educational benefits that the Internet may yield are undeniable, there still remain certain shortcomings.
+T6	Premise 897 990	Much information as the Internet may provide, most of the sources are unjustified by experts.
+T7	Premise 991 1058	As a result, information from those sources is subject to question.
+T8	Premise 1059 1223	Admittedly, the computer can show whether an answer to a particular question is right or wrong but it cannot give as an in-depth explanation as a human teacher can.
+T9	Premise 1224 1441	Through face-to-face communication, teachers can also pinpoint the weaknesses of each student and therefore, adjusting and tailoring his or her teaching methodology to meet the levels or the demands of those students.
+T10	Premise 1442 1494	This is where the computer proves to be incompetent.
+T11	Claim 1643 1705	at no time will the unique role of human teachers be replaced.
+T12	Claim 1598 1641	Internet can be a useful tool for education
+A1	Stance T2 Against
+A2	Stance T3 Against
+A3	Stance T5 For
+A4	Stance T11 For
+A5	Stance T12 For
+R1	supports Arg1:T4 Arg2:T3
+R2	supports Arg1:T3 Arg2:T2
+R3	supports Arg1:T6 Arg2:T5
+R4	supports Arg1:T7 Arg2:T5
+R5	supports Arg1:T6 Arg2:T7
+R6	supports Arg1:T8 Arg2:T5
+R7	supports Arg1:T9 Arg2:T5
+R8	supports Arg1:T10 Arg2:T5
+R9	supports Arg1:T5 Arg2:T11
+R10	supports Arg1:T12 Arg2:T1
+R11	supports Arg1:T11 Arg2:T1

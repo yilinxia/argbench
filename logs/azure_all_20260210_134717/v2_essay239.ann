@@ -1,0 +1,39 @@
+T1	MajorClaim 0 53	A man 's manner is a mirror that reflects his virtues
+T2	Claim 364 413	we should not expect people to be polite to other
+A1	Stance T2 Against
+T3	Claim 426 468	I do not agree with such kind of altitudes
+A2	Stance T3 For
+T4	Claim 542 611	a person with good manner will give others a fine personal impression
+A3	Stance T4 For
+T5	Premise 613 759	Through those impressions, a person was easily to get acquired with others and blended with the community that surrounded him as soon as possible.
+T6	Premise 760 940	For example, I worked in a new company, if I am a guy with good manners and treating everyone well, my new colleagues will accept me, even then I will be approved by the employers.
+T7	Premise 941 1024	In opposite situation if I am being rude, I can not get along well with each other.
+T8	Premise 1025 1091	Finally, I will be fired and have no other choice but lost my job.
+T9	Claim 1102 1159	people will get respect from politeness within each other
+A4	Stance T9 For
+T10	Premise 1161 1300	Politeness and tender words not only can help the speaker to earn a good reputation but also that encourage the listeners who were in need.
+T11	Premise 1301 1377	A successful corporation must have a relationship with respect and pleasure.
+T12	Premise 1378 1577	There are many more facts have improved that people with politeness are easily to be succeed, because from their behaviors, they made their partners or opponents to find their own individual dignity.
+T13	Claim 1587 1639	the society needs a civilized environment and orders
+A5	Stance T13 For
+T14	Premise 1645 1709	a degree of social civilization depend on its people's qualities
+T15	Premise 1711 1853	In order to create a better living environment for ourselves and our offsprings, our behaviors must be asked with politeness and good manners.
+T16	Premise 1854 1957	Benefit from those effective measures, there may be an obvious effect on the reducing of criminal rate.
+T17	Claim 1970 2051	I suppose that people should be polite to others in a such busy and crowded world
+A6	Stance T17 For
+R1	attacks Arg1:T2 Arg2:T17
+R2	supports Arg1:T3 Arg2:T17
+R3	supports Arg1:T4 Arg2:T17
+R4	supports Arg1:T5 Arg2:T4
+R5	supports Arg1:T6 Arg2:T4
+R6	supports Arg1:T7 Arg2:T4
+R7	supports Arg1:T8 Arg2:T7
+R8	supports Arg1:T9 Arg2:T17
+R9	supports Arg1:T10 Arg2:T9
+R10	supports Arg1:T11 Arg2:T9
+R11	supports Arg1:T12 Arg2:T9
+R12	supports Arg1:T13 Arg2:T17
+R13	supports Arg1:T14 Arg2:T13
+R14	supports Arg1:T15 Arg2:T13
+R15	supports Arg1:T16 Arg2:T15
+R16	supports Arg1:T17 Arg2:T1

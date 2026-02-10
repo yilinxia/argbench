@@ -1,0 +1,22 @@
+T1	MajorClaim 226 359	while I accept that sedentary lifestyle is one of the key factors, I believe that some other factors are having even a greater impact
+T2	Claim 389 445	sedentary lifestyle lead to many serious health problems
+A1	Stance T2 Against
+T3	Premise 447 572	The main reason why people are becoming so addicted to sitting at their homes even for the whole day is an advance technology
+T4	Premise 574 761	In earlier times, for instance, even the types of entertainment tools were not in large numbers and all of them required physical presence and as a result they had more outdoor activities
+T5	Premise 763 886	Nowadays people, especially inhabitants of cities, are spending most of their time on sitting in front of TV or other tools
+T6	Claim 912 982	some other causes why people are experiencing serious medical problems
+A2	Stance T6 For
+T7	Premise 993 1103	the environment of the modern world polluted very significantly from greenhouse gas emissions and other gasses
+T8	Premise 1105 1181	Many people, for example, are suffering from allergy because of these gasses
+T9	Premise 1193 1328	foods with a low quality such as fast foods, junk foods and any genetically modified ones are influencing to our health very negatively
+T10	Premise 1339 1445	life becoming more stressful due to some recent problems such as traffic gam, traffic accidents and others
+T11	MajorClaim 1490 1578	people are facing up with many recently appeared illnesses due to aforementioned reasons
+R1	supports Arg1:T3 Arg2:T2
+R2	supports Arg1:T4 Arg2:T2
+R3	supports Arg1:T5 Arg2:T2
+R4	supports Arg1:T7 Arg2:T6
+R5	supports Arg1:T8 Arg2:T6
+R6	supports Arg1:T9 Arg2:T6
+R7	supports Arg1:T10 Arg2:T6
+R8	supports Arg1:T2 Arg2:T1
+R9	supports Arg1:T6 Arg2:T1

@@ -1,0 +1,28 @@
+T1	MajorClaim 191 280	In my opinion, we must help animals live safely and comfortably in their own environment.
+T2	Claim 281 366	Many scientific studies have revealed the detriment that zoos have caused to animals.
+A1	Stance T2 For
+T3	Premise 367 458	Firstly, like we, human beings, animals are delivered to this world with genetic instincts.
+T4	Premise 459 523	Skills which help them live and survive in their residing areas.
+T5	Premise 524 662	When we captivate animals and put them to live a style of life that they are unfamiliar with, they begin to loose those in-born instincts.
+T6	Premise 663 806	Hence, when they are released or in the worst case, when they escape, they act disorientated and this contributes to the animal mortality rate.
+T7	Claim 808 941	In addition to the previous point, various zoos do not have the proper implements or policies that assure the quality of animal care.
+A2	Stance T7 For
+T8	Premise 942 1002	For instance, I recall my first trip to a zoo, at age eight.
+T9	Premise 1003 1059	I was shocked by the cruelty which animals were treated.
+T10	Premise 1060 1167	I can not think of any staff memeber who did not have an improper behaviour towards the animlas in the zoo.
+T11	Premise 1168 1307	They beat them up because they did not wanted to eat their meals and then excused themselves saying that it was a way to train the animals.
+T12	Claim 1308 1423	In conclusion, I strongly believe that we have to assit animals and provide them the best quality of life possible.
+A3	Stance T12 For
+T13	Premise 1424 1492	Scientific facts showed the damage that zoos can inflict on animals.
+T14	Premise 1493 1565	Moreover, many zoos do not meet the standards of care required for them.
+R1	supports Arg1:T2 Arg2:T1
+R2	supports Arg1:T3 Arg2:T2
+R3	supports Arg1:T4 Arg2:T2
+R4	supports Arg1:T5 Arg2:T2
+R5	supports Arg1:T6 Arg2:T2
+R6	supports Arg1:T7 Arg2:T1
+R7	supports Arg1:T8 Arg2:T7
+R8	supports Arg1:T9 Arg2:T7
+R9	supports Arg1:T10 Arg2:T7
+R10	supports Arg1:T11 Arg2:T7
+R11	supports Arg1:T12 Arg2:T

@@ -1,0 +1,25 @@
+T1	MajorClaim 332 431	I agree with the view that the teacher is the best option for children's education in some aspects.
+T2	Claim 453 526	school teachers are more qualified than parents in the field of education
+T3	Premise 528 673	For instance, to be able to obtain the teacher certificates, people need years of training at their normal schools to learn theoretical knowledge
+T4	Premise 675 813	However, in comparison to teachers, parents tend to have less knowledge to teach their children's subjects such as mathematics and physics
+T5	Claim 828 929	teaching staff are professional and experienced in terms of promoting children's communication skills
+T6	Premise 931 1174	For example, after many years of teaching experience, teacher are able to know how to help children to develop important life skills such as learning personal boundaries, facing future problems and learning important conflict resolution skills
+T7	Premise 1176 1340	By contrast, parents are facing difficult generation gap with their children because they are less likely to know how to handle family conflicts in an efficient way
+T8	Claim 1363 1447	compared with teachers, parents do not have enough time to spend with their children
+T9	Premise 1449 1608	Nowadays we are facing a global economic crisis and it is necessary for both parents to work, hence there is only limited time for them to teach their children
+T10	Premise 1610 1663	Thus, it was impossible for them to be a good teacher
+T11	MajorClaim 1680 1726	teachers are the best for children's education
+T12	Premise 1728 1921	Not only do they contribute much to children's professional skills but also they can teach their students important social communication techniques in order to survive in this competitive world
+A1	Stance T2 For
+A2	Stance T5 For
+A3	Stance T8 For
+R1	supports Arg1:T3 Arg2:T2
+R2	supports Arg1:T4 Arg2:T2
+R3	supports Arg1:T2 Arg2:T1
+R4	supports Arg1:T6 Arg2:T5
+R5	supports Arg1:T7 Arg2:T5
+R6	supports Arg1:T5 Arg2:T1
+R7	supports Arg1:T9 Arg2:T8
+R8	supports Arg1:T10 Arg2:T8
+R9	supports Arg1:T8 Arg2:T1
+R10	supports Arg1:T12 Arg2:T11

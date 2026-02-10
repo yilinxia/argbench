@@ -1,0 +1,28 @@
+T1	MajorClaim 245 302	In my opinion, we should give priority to our own issues.
+T2	Claim 303 431	Animal protectionists may base their argument on the ground that biodiversity is essential to maintain the balance of ecosystem.
+T3	Premise 432 593	If certain species are absent from this system, such kind of balance is likely to be disrupted and other species, including human beings, will come under threat.
+T4	Claim 594 679	Therefore, it is our responsibility to keep as many species on the Earth as possible.
+T5	Claim 680 770	However, I think species extinction is quite natural according to the theory of evolution.
+T6	Premise 771 872	The environment on the Earth has been transformed many times since the first species came into being.
+T7	Premise 873 976	A great number of plants and animals died out because they were unable to fit into the new environment.
+T8	Premise 977 1084	On most occasions, the process of extinction of some species is irrevocable and we can do nothing about it.
+T9	Claim 1085 1199	Furthermore, human beings nowadays are still faced with many urgent problems such as starvation, disease and wars.
+T10	Premise 1200 1392	When these problems are taken into account, extinction of some animals recedes greatly in importance and it is not sensible to devote our limited resources to animals that have been past help.
+T11	Claim 1393 1508	We should put our own survival and sustainment in order first before considering the conservation of other species.
+T12	MajorClaim 1509 1670	In conclusion, more emphasis should be laid on human beings other than animals, and it is better to let nature take its course with regard to species extinction.
+A1	Stance T2 Against
+A2	Stance T4 Against
+A3	Stance T5 For
+A4	Stance T9 For
+A5	Stance T11 For
+R1	supports Arg1:T3 Arg2:T2
+R2	supports Arg1:T2 Arg2:T4
+R3	supports Arg1:T4 Arg2:T12
+R4	supports Arg1:T6 Arg2:T5
+R5	supports Arg1:T7 Arg2:T5
+R6	supports Arg1:T8 Arg2:T5
+R7	supports Arg1:T5 Arg2:T12
+R8	supports Arg1:T9 Arg2:T11
+R9	supports Arg1:T10 Arg2:T11
+R10	supports Arg1:T11 Arg2:T12
+R11	supports Arg1:T1 Arg2:T12

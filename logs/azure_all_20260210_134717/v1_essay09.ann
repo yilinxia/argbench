@@ -1,0 +1,73 @@
+T1	MajorClaim 374 443	The legalization of marijuana would help get the economy going again.
+T2	Premise 444 562	Despite great efforts by the federal government against marijuana, it has become a large part of the national economy.
+T3	Premise 563 708	Imagine if we were to legalize and tax it, the government would make tons of profit and we could start paying off this $16trillion national debt.
+T4	Premise 709 813	Not to mention it would create tons of jobs and people in prison for marijuana crimes would be released.
+T5	Premise 814 952	In a country with only 5% of the earth's population, the United States holds 25% of the world's prisoners ("Marijuana Prison Statistics").
+T6	Premise 953 1030	A significant amount of those criminals are in there for drug related crimes.
+T7	Claim 1031 1070	The war on drugs is a complete failure.
+A1	Stance T7 For
+T8	Premise 1071 1185	It's done nothing but waste tax payer dollars, fill prisons with non violent criminals, and create a black market.
+T9	Claim 1186 1292	The main reason cannabis remains illegal is because lobbyists are making tons of money off of prohibition.
+A2	Stance T9 For
+T10	Premise 1293 1453	For example, Pharmaceutical companies lobby against cannabis because at a lower price, there are so many drugs (painkillers, sleep medication) it could replace.
+T11	Premise 1454 1528	Another group that benefits greatly from prohibition are the drug cartels.
+T12	Premise 1529 1628	Legalize marijuana and you cut a huge percent of their profits, army strength, and political power.
+T13	Premise 1629 1712	Otherwise they're going to do whatever they can to save the marijuana black market.
+T14	Claim 1713 1804	You could argue that marijuana is physically unhealthy for you and that's why it's illegal.
+A3	Stance T14 Against
+T15	Claim 1805 1930	But then you'd have to explain why alcohol and tobacco are legal because those substances are way more harmful than cannabis.
+A4	Stance T15 For
+T16	Premise 1931 2031	79,000 people a year die from alcohol poisoning, while zero people have died from overdosing on pot.
+T17	Claim 2032 2105	People think that prohibition has kept marijuana out of children's hands.
+A5	Stance T17 Against
+T18	Claim 2106 2181	They think legalizing this drug would expose more children and teens to it.
+A6	Stance T18 Against
+T19	Premise 2182 2268	It's a whole lot easier for kids to obtain marijuana as opposed to alcohol or tobacco.
+T20	Premise 2269 2325	A drug dealer doesn't check for ID like a cashier would.
+T21	Claim 2326 2533	Teens are susceptible to harsher drugs after trying marijuana because they are introduced to these hardcore drugs in the same underground market where they got the marijuana, not because it's a gateway drug.
+A7	Stance T21 For
+T22	Claim 2534 2651	Another thing that is often said is that marijuana is addictive and can be abused, thus making it mentally unhealthy.
+A8	Stance T22 Against
+T23	Premise 2652 2755	This is an unfair statement, anything has the potential to be abused, even something as simple as food.
+T24	Claim 2757 2829	You never hear about the positive effects marijuana can have on society.
+A9	Stance T24 For
+T25	Premise 2830 2954	Many musicians admit that cannabis helps them get creative with their music and opens their minds to new ideas and concepts.
+T26	Premise 2955 3082	Many cancer patients have used medical marijuana as a way of dealing with nausea after treatment or stimulating their appetite.
+T27	Claim 3083 3185	The point is people have benefited from marijuana whether it was for medical or recreational purposes.
+A10	Stance T27 For
+T28	Claim 3186 3339	Cannabis is classified as a schedule one drug, this suggests that it is as dangerous and addictive as heroin, meth, and even more dangerous than cocaine.
+A11	Stance T28 Against
+T29	Claim 3340 3460	Even if you believe that's accurate information, who are you to tell people what they can and can't put in their bodies?
+A12	Stance T29 For
+T30	Claim 3461 3544	Expecting everyone to adapt to your beliefs or morals is extremely narrowed minded.
+A13	Stance T30 For
+R1	supports Arg1:T2 Arg2:T1
+R2	supports Arg1:T3 Arg2:T1
+R3	supports Arg1:T4 Arg2:T1
+R4	supports Arg1:T5 Arg2:T4
+R5	supports Arg1:T6 Arg2:T4
+R6	supports Arg1:T7 Arg2:T1
+R7	supports Arg1:T8 Arg2:T7
+R8	supports Arg1:T9 Arg2:T7
+R9	supports Arg1:T10 Arg2:T9
+R10	supports Arg1:T11 Arg2:T9
+R11	supports Arg1:T12 Arg2:T11
+R12	supports Arg1:T13 Arg2:T11
+R13	attacks Arg1:T14 Arg2:T1
+R14	attacks Arg1:T15 Arg2:T14
+R15	supports Arg1:T16 Arg2:T15
+R16	attacks Arg1:T17 Arg2:T1
+R17	attacks Arg1:T18 Arg2:T1
+R18	attacks Arg1:T19 Arg2:T18
+R19	attacks Arg1:T20 Arg2:T18
+R20	supports Arg1:T21 Arg2:T1
+R21	attacks Arg1:T22 Arg2:T1
+R22	attacks Arg1:T23 Arg2:T22
+R23	supports Arg1:T24 Arg2:T1
+R24	supports Arg1:T25 Arg2:T24
+R25	supports Arg1:T26 Arg2:T24
+R26	supports Arg1:T27 Arg2:T24
+R27	attacks Arg1:T28 Arg2:T1
+R28	attacks Arg1:T29 Arg2:T28
+R29	supports Arg1:T29 Arg2:T1
+R30	supports Arg1:T30 Arg2:T29

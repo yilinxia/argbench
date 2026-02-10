@@ -1,0 +1,29 @@
+T1	MajorClaim 421 481	For me, I prefer to live in bigger cities than in small ones
+T2	Claim 483 535	this personal attitude is the result of many factors
+A1	Stance T2 For
+T3	Claim 551 743	I find the excitement of big cities to be attractive, living in a dynamic environment can turn into a very rich experience that sharpens one's personality and open one's eyes on the real world
+A2	Stance T3 For
+T4	Premise 745 889	Life in big cities cities gives one new challenges every day, let it be deciding which restaurant to go to or deciding which company to work for
+T5	Claim 891 1048	For me, this lifestyles is very attractive and is considered a huge advantage of big cities compared with the constant, slow paced life styles of small towns
+A3	Stance T5 For
+T6	Claim 1050 1215	Another thing that put big cities in front of small towns is the facilitates and services it contains which support and improve the quality of its inhabitants' lives
+A4	Stance T6 For
+T7	Premise 1217 1296	hospitals, advanced medical facilities can satisfy one's need of medical safety
+T8	Premise 1298 1435	Cultural events such as exhibitions and theatre plays can enrich one's and widen his horizons, things which aren't offered by small towns
+T9	Claim 1450 1611	it's undeniable that the economic power of a country is driven by it's big cities and the majority of wealth and finance is centered and controlled in big cities
+A5	Stance T9 For
+T10	Premise 1613 1825	With this kind of power big cities offer more opportunities for one's career advancements and a more chances of higher income that small towns does, and higher income can be the basis of a happier, healthier life
+T11	Claim 1836 1942	although I prefer to live in a big city, I can not help but assure that this is a matter of personal taste
+A6	Stance T11 For
+T12	Premise 1944 2060	to be clear, I would love to spend some days in countryside to recharge my soul and relieve myself from daily stress
+R1	supports Arg1:T2 Arg2:T1
+R2	supports Arg1:T3 Arg2:T1
+R3	supports Arg1:T4 Arg2:T3
+R4	supports Arg1:T5 Arg2:T1
+R5	supports Arg1:T6 Arg2:T1
+R6	supports Arg1:T7 Arg2:T6
+R7	supports Arg1:T8 Arg2:T6
+R8	supports Arg1:T9 Arg2:T1
+R9	supports Arg1:T10 Arg2:T9
+R10	supports Arg1:T11 Arg2:T1
+R11	supports Arg1:T12 Arg2:T11

@@ -1,0 +1,18 @@
+T1	MajorClaim 1391 1530	In my opinion, it will yield more negative results than positive ones. That's why it should be made available for a wide range of learners.
+T2	Claim 360 469	To begin with, outstanding academic students are eligible for university due to their intellectual advantage.
+T3	Premise 470 632	To be precise, such abstract or complicated informatin, easily absorbed by those students, may prove as a matter of pressure for those who lack equivalent skills.
+T4	Premise 633 694	Besides, it is undeniable that one deserves what he has done.
+T5	Premise 695 780	University is like a gift presented to those who have gone to great length to attain.
+T6	Claim 781 1042	However, university is not just about academic studies but also a place to nurture artistic talent and develop soft skills. Therefore, it should be up for grabs for a majority of young people, who wish to pursue their passion as well as develop comprehensively.
+T7	Claim 1044 1161	What is more, there is a tendency for social vices to rise if university is to be restricted to only the best people.
+T8	Premise 1162 1328	Apart from the disheartened ones, many devoiding of neccessary preparations are likely to be recipes for failure when applying for jobs, mostly the white-collar ones.
+A1	Stance T2 Against
+A2	Stance T6 For
+A3	Stance T7 For
+R1	supports Arg1:T3 Arg2:T2
+R2	supports Arg1:T4 Arg2:T2
+R3	supports Arg1:T5 Arg2:T2
+R4	supports Arg1:T6 Arg2:T1
+R5	supports Arg1:T7 Arg2:T1
+R6	supports Arg1:T8 Arg2:T7
+R7	attacks Arg1:T2 Arg2:T1

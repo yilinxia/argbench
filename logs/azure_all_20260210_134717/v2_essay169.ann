@@ -1,0 +1,62 @@
+T1	MajorClaim 259 354	As far as I am concerned, professors should spend more time on preparing courses than research.
+T2	Claim 355 442	To begin with, it is vital that professors should assist students to acquire knowledge.
+A1	Stance T2 For
+T3	Premise 443 518	The professors’ duty is to nurture students, and prepare excellent courses.
+T4	Premise 519 662	If professors spend a lot of time on research, he will cut the time on preparing courses is reduced, which may decrease the quality of classes.
+T5	Premise 663 758	The reason why people enter a university is that they want to learn cutting-edged technologies.
+T6	Premise 759 896	In this way, professors should provide well-preparation courses to convey the state-of-art knowledge for college and university students.
+T7	Claim 897 999	Therefore, professors should pay more attention on how to teach students rather than conduct research.
+A2	Stance T7 For
+T8	Claim 1000 1159	On the other hand, if professors are busy in doing research, ignoring preparing appropriate courses for students, it would ruin the reputation of universities.
+A3	Stance T8 For
+T9	Premise 1160 1260	Students are unsatisfied with the unprepared course, and the enrollment of universities may decline.
+T10	Premise 1261 1329	Many students would not choose these kinds of universities to study.
+T11	Premise 1330 1403	In this way, hardly can professors find assistants to help with projects.
+T12	Premise 1404 1446	It is adverse to the whole academic field.
+T13	Claim 1447 1567	Accordingly, spending more time to nurture excellent students is more consequential to professors, rather than research.
+A4	Stance T13 For
+T14	Claim 1568 1644	Nevertheless, professors could teach students through research and projects.
+A5	Stance T14 Against
+T15	Premise 1645 1694	Some students enjoy taking part in some research.
+T16	Premise 1695 1807	Through to use the equipment and invent their own work, they may get more experience in the process of research.
+T17	Premise 1808 1912	For instance, electronic students always invent new machines such as robots, MP3 and remote control car.
+T18	Premise 1913 1969	They can manage the electric theory in practical skills.
+T19	Premise 1970 2033	And some students will be rewarded by investing new inventions.
+T20	Claim 2034 2160	However, only under specific circumstance, when students master all of the systematic knowledge, can they accomplish research.
+A6	Stance T20 For
+T21	Premise 2161 2218	This is requires professors provide high quality courses.
+T22	Claim 2219 2281	In other word, professor should concern about preparing class.
+A7	Stance T22 For
+T23	Claim 2282 2370	Consequently, conducting research is helpful for professors and students to some extent.
+A8	Stance T23 Against
+T24	Claim 2371 2461	However, the precondition of doing research is growing students’ solid theory fundamental.
+A9	Stance T24 For
+T25	Claim 2462 2527	Only by developing students, can we have a better academic field.
+A10	Stance T25 For
+T26	Claim 2528 2612	Professors could combine doing research and preparing good courses in a dynamic way.
+A11	Stance T26 For
+R1	supports Arg1:T3 Arg2:T2
+R2	supports Arg1:T4 Arg2:T2
+R3	supports Arg1:T5 Arg2:T2
+R4	supports Arg1:T6 Arg2:T2
+R5	supports Arg1:T2 Arg2:T1
+R6	supports Arg1:T7 Arg2:T1
+R7	supports Arg1:T9 Arg2:T8
+R8	supports Arg1:T10 Arg2:T8
+R9	supports Arg1:T11 Arg2:T8
+R10	supports Arg1:T12 Arg2:T8
+R11	supports Arg1:T8 Arg2:T1
+R12	supports Arg1:T13 Arg2:T1
+R13	supports Arg1:T15 Arg2:T14
+R14	supports Arg1:T16 Arg2:T14
+R15	supports Arg1:T17 Arg2:T14
+R16	supports Arg1:T18 Arg2:T14
+R17	supports Arg1:T19 Arg2:T14
+R18	attacks Arg1:T14 Arg2:T1
+R19	supports Arg1:T21 Arg2:T20
+R20	supports Arg1:T20 Arg2:T14
+R21	supports Arg1:T22 Arg2:T1
+R22	attacks Arg1:T23 Arg2:T1
+R23	supports Arg1:T24 Arg2:T1
+R24	supports Arg1:T25 Arg2:T1
+R25	supports Arg1:T26 Arg2:T1

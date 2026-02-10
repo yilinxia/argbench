@@ -1,0 +1,26 @@
+T1	MajorClaim 0 93	Best way to judge about people is to be familiar with their personality - not with their look
+T2	Claim 208 275	although appearance is important, personality is the most important
+A1	Stance T2 For
+T3	Claim 277 337	We can never judge about a person with his or her appearance
+A2	Stance T3 For
+T4	Premise 339 532	Some people believes, individuals who have black skin or are frown are not good person and in opposite individuals who have pale or white skin or always have smile on their face are good person
+T5	Claim 534 604	I completely disagree with these kind of judgement which someone makes
+A3	Stance T5 For
+T6	Claim 620 771	there are people who play a role and cheat the other individuals with their playing, therefore we have to be aware to never judge with their appearance
+A4	Stance T6 For
+T7	Premise 773 941	For example, some people cheat their fiance before marriage by showing a cheerful face and well spoken; however, after getting marriage they show their real personality
+R1	supports Arg1:T7 Arg2:T6
+T8	Claim 958 1081	there are some people who are black skin, fat and frown, nonetheless they might be a great person for leaving and colleague
+A5	Stance T8 For
+T9	Premise 1083 1469	For instance, I have a neighbor who are old, black skin and frown and I had always panicked of her. One day in a cold winter while I was getting back to home from school I realized that I lost my keys, so I could not do anything before my parents getting back home. She asked me to stay with her till my parents come, also she was great in hospitality and her behavior was unforgettable
+R2	supports Arg1:T9 Arg2:T8
+T10	Premise 1471 1541	After that I understood, I had to never judge with people's appearance
+R3	supports Arg1:T10 Arg2:T8
+T11	MajorClaim 1555 1662	the best way to judge about individuals' is to be familiar with their personality not with their appearance
+T12	Premise 1664 1787	Unfortunately, many people play role to cheat the others, and they try to hide their real personality with their appearance
+R4	supports Arg1:T4 Arg2:T3
+R5	supports Arg1:T2 Arg2:T1
+R6	supports Arg1:T3 Arg2:T1
+R7	supports Arg1:T6 Arg2:T1
+R8	supports Arg1:T8 Arg2:T1
+R9	supports Arg1:T12 Arg2:T11

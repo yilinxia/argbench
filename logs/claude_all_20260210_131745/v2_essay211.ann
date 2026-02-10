@@ -1,0 +1,33 @@
+T1	MajorClaim 225 306	While some people believe that non-academic subjects should be completely removed
+T2	MajorClaim 308 337	I strongly disagree with that
+T3	Claim 385 434	schools should not only deliver academic subjects
+A1	Stance T3 For
+T4	Premise 482 592	If physical education is removed from the syllabus, there will be considerable negative effects on students' health
+T5	Premise 553 814	For instance, after studying and sitting in the classroom for the whole morning, it is better for students to do some outdoor activities, such as stretching, jogging and playing ball games, in order to improve their learning ability during the afternoon classes
+T6	Premise 810 948	Removing physical classes from school education will not only be harmful to young people's health, it will also decrease their learning capability
+T7	Claim 977 1055	schools are responsible for developing their students into well-rounded people
+A2	Stance T7 For
+T8	Premise 1057 1143	It is more important for a person to success in life than to success only academically
+T9	Premise 1145 1341	Success in life should be the ultimate goal of a student, which requires more than academic knowledge, but also practical life skills such as cooking, good communication skills and teamwork spirit
+T10	Claim 1349 1512	school education should not only focus on the academic development of a student as it is much more crucial to teach them how to be independent and live a good life
+A3	Stance T10 For
+T11	Claim 1536 1614	that students can learn practical skills after school hours from their parents
+A4	Stance T11 Against
+T12	Claim 1625 1661	I believe that it is not a good idea
+A5	Stance T12 For
+T13	Premise 1670 1796	most young people would rather watch TV or play computer games after school instead of learning life skills from their parents
+T14	Premise 1808 1898	parents are usually too busy with their daily jobs to teach their children the life skills
+T15	MajorClaim 1808 1911	I strongly believe that non-academic subjects are as essential as academic subjects for a student's development
+T16	MajorClaim 2039 2079	schools should not remove these subjects
+R1	supports Arg1:T4 Arg2:T3
+R2	supports Arg1:T5 Arg2:T3
+R3	supports Arg1:T6 Arg2:T3
+R4	supports Arg1:T8 Arg2:T7
+R5	supports Arg1:T9 Arg2:T7
+R6	supports Arg1:T9 Arg2:T10
+R7	supports Arg1:T13 Arg2:T12
+R8	supports Arg1:T14 Arg2:T12
+R9	attacks Arg1:T12 Arg2:T11
+R10	supports Arg1:T3 Arg2:T2
+R11	supports Arg1:T7 Arg2:T2
+R12	supports Arg1:T10 Arg2:T2

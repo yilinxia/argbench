@@ -1,0 +1,31 @@
+T1	MajorClaim 240 344	I am inclined to believe that the advanced medical care brings with it more benefits than disadvantages.
+T2	Claim 345 459	The main advantage of high-tech medical care is that people are better taken care so that they have a good health.
+T3	Premise 460 579	They can contribute effectively to the development of the economy because healthy workers can create more productivity.
+T4	Premise 580 712	In other words, they do not have to spend more time in health checking or treatment so this saves an amount of time as well as cost.
+T5	Claim 713 845	In addition, a community with the elderly who have a good health has a major role to play in a sustainable development of a society.
+T6	Premise 846 926	In facts, young people will be happy as their parents, grandparents are healthy.
+T7	Claim 927 1014	It can be said that the improvement of medical care makes a better life for all people.
+T8	Claim 1015 1245	On the other hand, some people maintain that the increase in life expectancy puts a high pressure on the economic system because more pension have to spend for Medicare instead of investing in other sectors of the economic system.
+T9	Claim 1246 1442	Although it is real in some aspects, I believe that the capital that spend on taking care the elderly is contributed by these people during their working time, so they are worth to have good care.
+T10	Premise 1443 1578	They have given their effort to the society so that young people, the governments have a responsibility to improve the Medicare system.
+T11	Claim 1579 1691	By way of conclusion, it is true that the development of the health care system helps people have a better life.
+T12	Claim 1692 1789	It helps people build a sustainable society where people can live a happy life when they are old.
+A1	Stance T2 For
+A2	Stance T5 For
+A3	Stance T7 For
+A4	Stance T8 Against
+A5	Stance T9 For
+A6	Stance T11 For
+A7	Stance T12 For
+R1	supports Arg1:T2 Arg2:T1
+R2	supports Arg1:T3 Arg2:T2
+R3	supports Arg1:T4 Arg2:T2
+R4	supports Arg1:T5 Arg2:T1
+R5	supports Arg1:T6 Arg2:T5
+R6	supports Arg1:T7 Arg2:T1
+R7	attacks Arg1:T8 Arg2:T1
+R8	attacks Arg1:T9 Arg2:T8
+R9	supports Arg1:T9 Arg2:T1
+R10	supports Arg1:T10 Arg2:T9
+R11	supports Arg1:T11 Arg2:T1
+R12	supports Arg1:T12 Arg2:T11

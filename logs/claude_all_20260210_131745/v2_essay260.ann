@@ -1,0 +1,26 @@
+T1	MajorClaim 376 456	I believe that once you are unique enough, you are already on the way to success
+T2	Claim 465 584	being positively different from everyone else usually means that you've achieved something that is superior than others
+A1	Stance T2 For
+T3	Premise 618 653	we are like playing a survival game
+T4	Premise 655 699	Only who has the sharpest weapon can survive
+T5	Premise 701 872	If you don't make yourself outstanding enough or you fail to distinguish yourself from others, you will be easily replaced and eliminated by someone who is better than you
+T6	Premise 874 1069	Take myself for example, when I was in college, I was always chosen to be the presenter of group report because I was the only one in my group who could present the report thoroughly and fluently
+T7	Claim 1079 1152	being unique can create your own value which can never be taken by others
+A2	Stance T7 For
+T8	Premise 1170 1343	once you are special and unique, pursuing success is a matter of actively creating the fashion rather than passively waiting for other people to recognize and appreciate you
+T9	Premise 1345 1569	Take the most popular and prestigious technology company- Apple- for example. The reason why it gains such a tremendous success is because it achieves some brilliant qualities that can never be caught up by other competitors
+T10	Premise 1571 1704	It has its operating systems that can run smoother than any other companies and its design always wins the popularity among consumers
+T11	Premise 1706 1769	It is the uniqueness of Apple design that creates its own value
+T12	MajorClaim 1786 1849	being different and unique is the better way to achieve success
+T13	Premise 1851 1970	It not only shows your competence but also creates your own value, making you take the lead in your way towards success
+R1	supports Arg1:T3 Arg2:T2
+R2	supports Arg1:T4 Arg2:T2
+R3	supports Arg1:T5 Arg2:T2
+R4	supports Arg1:T6 Arg2:T2
+R5	supports Arg1:T2 Arg2:T1
+R6	supports Arg1:T8 Arg2:T7
+R7	supports Arg1:T9 Arg2:T7
+R8	supports Arg1:T10 Arg2:T9
+R9	supports Arg1:T11 Arg2:T7
+R10	supports Arg1:T7 Arg2:T1
+R11	supports Arg1:T13 Arg2:T12

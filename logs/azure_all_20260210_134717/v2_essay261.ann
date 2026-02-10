@@ -1,0 +1,40 @@
+T1	MajorClaim 0 50	Younger school children should study art and music
+T2	Claim 335 588	Nevertheless, the art and music, from my point of view, are also essential for younger student's future life because those subjects help students learn this planet from another perspective and they can release people from the enormous pressure nowadays.
+T3	Claim 589 679	In this case, I would definitely agree that the art and music should be required to study.
+T4	Claim 680 775	First of all, art and music would broaden student's horizon and therefore make them thoughtful.
+T5	Premise 776 967	It is well known that the art and music are not bound by country border, and they are something that is shared by the people from every parts of this world and is symbols of various cultures.
+T6	Premise 968 1141	Under this circumstance, learning art and music enables students to appreciate the fruits of eminent artists and musicians and to feel the fascination of different cultures.
+T7	Premise 1142 1296	For instance, students are able to feel the greatest music masterpiece in Euopren as the symphony of destiny-Beethoven's most notable workpiece is played.
+T8	Claim 1298 1401	In addition, studying art and music is also the appropriate outlets of stress and superb ways to relax.
+T9	Premise 1402 1625	Obviously, with the improvement of life rhythm, people have currently suffered too much pressure from their studies or jobs, and these pressure are likely to destroy one person if he cannot find a way to emancipate himself.
+T10	Premise 1626 1752	Art and music are, of course most accessible tools for modern people to liberate themselves from the extremely stressful life.
+T11	Premise 1753 1971	When enjoying one piece of brilliant paintings, such as the Mona Lisa, people would put all their pressure down on the ground and just think about what the most proficient and mysterious smile in this world stands for.
+T12	Premise 1972 2081	At this moment, they would totally involve in the ocean of art and their stressful nervous would be relieved.
+T13	Premise 2082 2158	Apparently, this sense towards art is built on the initial study on the art.
+T14	Claim 2159 2252	Admittedly, the study of art and music is supposed to rely on younger student's own interest.
+T15	Premise 2253 2321	The education of art and music would not work if students resist it.
+T16	Claim 2322 2493	Thus, the school should replace some basic science class with some art and music class in order to cultivate student's interest of art without adding extra study pressure.
+T17	Claim 2494 2734	In a nutshell, in the modern society, since understanding of the lengthen and depth of the world is important and meanwhile people have burdened excessive pressure, younger students' art and music education should not take the second place.
+A1	Stance T2 For
+A2	Stance T3 For
+A3	Stance T4 For
+A4	Stance T8 For
+A5	Stance T14 For
+A6	Stance T16 For
+A7	Stance T17 For
+R1	supports Arg1:T2 Arg2:T1
+R2	supports Arg1:T3 Arg2:T1
+R3	supports Arg1:T4 Arg2:T3
+R4	supports Arg1:T5 Arg2:T4
+R5	supports Arg1:T6 Arg2:T4
+R6	supports Arg1:T7 Arg2:T6
+R7	supports Arg1:T8 Arg2:T3
+R8	supports Arg1:T9 Arg2:T8
+R9	supports Arg1:T10 Arg2:T8
+R10	supports Arg1:T11 Arg2:T10
+R11	supports Arg1:T12 Arg2:T11
+R12	supports Arg1:T13 Arg2:T8
+R13	supports Arg1:T14 Arg2:T3
+R14	supports Arg1:T15 Arg2:T14
+R15	supports Arg1:T16 Arg2:T3
+R16	supports Arg1:T17 Arg2:T1

@@ -1,0 +1,30 @@
+T1	MajorClaim 275 370	However, it is disagreed that this can be the best and only way to assist developing countries.
+T2	Claim 371 485	This will be proven by analyzing the necessity of developing their education and the real objective of supporters.
+A1	Stance T2 For
+T3	Claim 486 541	Firstly, education is an essential part in development.
+A2	Stance T3 For
+T4	Premise 542 739	For instance, most developing countries are lack of educational resources, such as experienced teachers, evaluation systems and teaching facilities, which is usually neglected by local authorities.
+T5	Premise 740 975	From this example, it is obvious that if the developed countries are unwilling to share their successful experience in education, the developing countries will remain undeveloped, even though they gain a great deal of economic support.
+T6	Claim 976 1125	Thus, the critical method to improve the condition of poor countries is to help them build up a complete educational system instead of financial aid.
+A3	Stance T6 For
+T7	Claim 1126 1204	In addition, it is well acknowledged that there is no free lunch in the world.
+A4	Stance T7 For
+T8	Premise 1205 1362	This means some powerful countries provide financial support in order to acquire the right to exploit the local resources and target the local labour market.
+T9	Premise 1363 1477	Indeed, they rarely provide local residents with any technological aid and even cause contamination in some areas.
+T10	Claim 1478 1585	Therefore, developing countries should not totally depend on the financial support from powerful countries.
+A5	Stance T10 For
+T11	Claim 1586 1660	In conclusion, financial aid is not the only way to assist poor countries.
+A6	Stance T11 For
+T12	Claim 1661 1843	And it has been proven that developing education and improving national technology and science level are the path they have to undergo if they really want to alter current situation.
+A7	Stance T12 For
+R1	supports Arg1:T2 Arg2:T1
+R2	supports Arg1:T3 Arg2:T1
+R3	supports Arg1:T4 Arg2:T3
+R4	supports Arg1:T5 Arg2:T6
+R5	supports Arg1:T6 Arg2:T1
+R6	supports Arg1:T7 Arg2:T1
+R7	supports Arg1:T8 Arg2:T10
+R8	supports Arg1:T9 Arg2:T10
+R9	supports Arg1:T10 Arg2:T1
+R10	supports Arg1:T11 Arg2:T1
+R11	supports Arg1:T12 Arg2:T1

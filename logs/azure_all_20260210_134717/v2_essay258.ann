@@ -1,0 +1,44 @@
+T1	MajorClaim 0 68	Sometimes it is good to learn with a teacher and sometimes on my own
+T2	Claim 124 201	I think both learning by myself and learning with a teacher could be helpful.
+T3	Claim 202 306	Learning with a teacher can prevent one from being confused and increase the rate and speed of learning.
+T4	Claim 307 389	Another important point is that for practical subjects you have to have a teacher.
+T5	Claim 390 453	On the other hand, sometimes I would rather learning on my own.
+T6	Premise 454 521	A good and experienced teacher can help me learn faster and easier.
+T7	Premise 522 685	Sometimes when learning a course by myself which is hard and confusing to understand and has few sources available, I get discouraged after spending a lot of time.
+T8	Premise 686 766	In this situation, I'll look for a teacher and request for help from him or her.
+T9	Premise 767 923	And then he or she will teach me the course efficiently in a short time and therefore I will learn faster and better and won't get discouraged and confused.
+T10	Premise 924 1019	There are some practical subjects that you can only learn them with a teacher or an instructor.
+T11	Premise 1020 1183	For example, if you want to learn driving a car or some jobs like medicine and engineering and some sports like skiing and swimming, you'll have to find a teacher.
+T12	Premise 1184 1257	It's almost impossible and inefficient to learn those things on your own.
+T13	Premise 1258 1367	By the way, if you are going to learn some things by yourself, you may learn and understand them incorrectly!
+T14	Premise 1368 1659	For example, from my own experiences, after I had started learning playing the guitar without a teacher, I got used to wrong habits regarding strumming and tempo, but after finding and learning with a tutor and identifying and eliminating those incorrect habits, I was able to play properly.
+T15	Claim 1660 1850	There are some things that I prefer to learn them without a teacher because I won't have to spend extra money for a teacher and my time will not be wasted either because of going to classes.
+T16	Premise 1851 1982	In today's world there are many great and useful sources available like books, electronic books, the internet and TV and satellite.
+T17	Premise 1983 2031	I can utilize them as tutorials for many things.
+T18	Premise 2032 2136	For instance, I can learn English or other languages by a lot of helpful books and many online websites.
+T19	MajorClaim 2138 2215	In sum, sometimes it is good to learn with a teacher and sometimes on my own.
+T20	MajorClaim 2216 2300	In my view, both can help and each of them has its own advantages and disadvantages.
+A1	Stance T2 For
+A2	Stance T3 For
+A3	Stance T4 For
+A4	Stance T5 For
+A5	Stance T15 For
+R1	supports Arg1:T2 Arg2:T1
+R2	supports Arg1:T3 Arg2:T1
+R3	supports Arg1:T4 Arg2:T1
+R4	supports Arg1:T5 Arg2:T1
+R5	supports Arg1:T6 Arg2:T3
+R6	supports Arg1:T7 Arg2:T3
+R7	supports Arg1:T8 Arg2:T3
+R8	supports Arg1:T9 Arg2:T3
+R9	supports Arg1:T10 Arg2:T4
+R10	supports Arg1:T11 Arg2:T4
+R11	supports Arg1:T12 Arg2:T4
+R12	supports Arg1:T13 Arg2:T4
+R13	supports Arg1:T14 Arg2:T13
+R14	supports Arg1:T15 Arg2:T1
+R15	supports Arg1:T16 Arg2:T15
+R16	supports Arg1:T17 Arg2:T15
+R17	supports Arg1:T18 Arg2:T15
+R18	supports Arg1:T19 Arg2:T1
+R19	supports Arg1:T20 Arg2:T1

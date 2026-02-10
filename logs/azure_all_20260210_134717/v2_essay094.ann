@@ -1,0 +1,32 @@
+T1	MajorClaim 32 236	It is a completely right and extremely wise policy to focus on health education and preventative measures rather than treatment. Once applied, it will bring many benefits to both citizens and governments.
+T2	Claim 237 312	Health education causes long-term positive effects on our next generations.
+T3	Premise 313 500	First of all, thank to a full health education from their childhoods, children will have good habits of taking care of their own health and these habits may be kept in their adolescences.
+T4	Premise 501 615	For example, if a child is educated to have a hygienic lifestyle at a very young age, he also keeps it when older.
+T5	Premise 616 752	Secondly, health education will prepare for people especially children necessary knowledge to protect themselves from risks of diseases.
+T6	Premise 753 896	Instead of afraid or panic, they may be calmer if unfortunately committing some normal diseases such as allergy or illness in seasonal changes.
+T7	Premise 897 996	Many diseases which may be cured easily can turn to serious ones if we do not have right treatment.
+T8	Premise 997 1090	Health education will help people to have right choices of treatment to recover more quickly.
+T9	Claim 1091 1168	Preventative measures will help improve general health state of all citizens.
+T10	Premise 1169 1327	For example, vaccines will guarantee that pregnant women and their babies are protected from serious infectious diseases such as flu, smallpox, rubella so on.
+T11	Premise 1328 1453	When huge injection campaigns are organized throughout our country, the community's health state will be improved remarkably.
+T12	Premise 1454 1602	As human resources play a key role in the development of a country, investing money to enhance the general health state is a totally right decision.
+T13	Premise 1603 1763	In addition, because the cost of treatment is often much higher than that of prevention, the government can save a lot of money for our country's health budget.
+T14	MajorClaim 1764 1894	In conclusion, I strongly agree that we should give more priority to health education and preventative measures than to treatment.
+T15	Claim 1895 2018	However, reasonable attentions should be paid to treatment so that our citizens are always looked after with best services.
+A1	Stance T2 For
+A2	Stance T9 For
+A3	Stance T15 Against
+R1	supports Arg1:T2 Arg2:T1
+R2	supports Arg1:T3 Arg2:T2
+R3	supports Arg1:T4 Arg2:T3
+R4	supports Arg1:T5 Arg2:T2
+R5	supports Arg1:T6 Arg2:T5
+R6	supports Arg1:T7 Arg2:T8
+R7	supports Arg1:T8 Arg2:T2
+R8	supports Arg1:T9 Arg2:T1
+R9	supports Arg1:T10 Arg2:T9
+R10	supports Arg1:T11 Arg2:T9
+R11	supports Arg1:T12 Arg2:T9
+R12	supports Arg1:T13 Arg2:T9
+R13	supports Arg1:T14 Arg2:T1
+R14	attacks Arg1:T15 Arg2:T14

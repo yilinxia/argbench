@@ -1,0 +1,20 @@
+T1	MajorClaim 1491 1582	I think it is more likely to solve the problems of the world rather than intensifying them.
+T2	Claim 292 348	it has side effects which make it a controversial issue.
+T3	Claim 381 464	globalization as a threat to ethnic and religious values of people of their country
+T4	Premise 466 642	They think that the idea of globalization put their inherited culture in danger of uncontrolled change and make them vulnerable against the attack of imperialistic governments.
+T5	Claim 676 767	globalization contribute effectively to the global improvement of the world in many aspects
+T6	Premise 769 955	Developing globalization, people can have more access to many natural resources of the world and it leads to increasing the pace of scientific and economic promotions of the entire world
+T7	Premise 970 1143	they admit that globalization can be considered a chance for people of each country to promote their lifestyle through the stuffs and services imported from other countries.
+T8	Claim 1201 1265	globalization results in considerable decrease in global tension
+T9	Premise 1266 1367	due to convergence of benefits of people of the world which is a natural consequence of globalization
+T10	MajorClaim 1384 1489	I would rather classify myself in the proponents of globalization as a speeding factor of global progress
+A1	Stance T2 Against
+A2	Stance T3 Against
+A3	Stance T5 For
+A4	Stance T8 For
+R1	supports Arg1:T4 Arg2:T3
+R2	supports Arg1:T6 Arg2:T5
+R3	supports Arg1:T7 Arg2:T5
+R4	supports Arg1:T9 Arg2:T8
+R5	supports Arg1:T5 Arg2:T10
+R6	supports Arg1:T8 Arg2:T10

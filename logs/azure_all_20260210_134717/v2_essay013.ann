@@ -1,0 +1,36 @@
+T1	MajorClaim 0 65	Technology inspires children's creativity instead of weakening it
+T2	Claim 556 609	I think technology makes children even more creative.
+T3	Claim 610 667	First, technology inspires children to create new things.
+T4	Premise 668 865	Children are curious about everything around them, so when they come across a high-tech product like a cellphone, they will be obsessed with its mysterious functions and eager to know how it works.
+T5	Premise 866 1160	For example, Bill Gates was attracted by the original huge computer, then he did everything he could to understand how it worked. After he had figured out all the stuff, he then began to promote the computer. In the end, he successfully invented a computer that was easy to use and lightweight.
+T6	Claim 1161 1281	Therefore, instead of interfering children's creativity, technology actually encourages children to learn and to create.
+T7	Claim 1282 1328	Second, technology widen children's knowledge.
+T8	Premise 1329 1401	In the past, children were only able to see things from one perspective.
+T9	Premise 1402 1546	However, with highly advanced technology, children are able to get information from foreign countries and even communicate with foreign friends.
+T10	Premise 1547 1641	Therefore, they will be able to learn about different cultures and different ways of thinking.
+T11	Premise 1642 1678	Knowledge is the base of creativity.
+T12	Premise 1679 1815	The diverse knowledge that children gained from different parts of the world, inspires children and encourage them to create new things.
+T13	Claim 1816 1877	Admittedly, technology may have negative effects on children.
+T14	Premise 1878 1930	Technology has made life too easy for most children.
+T15	Premise 1931 2039	In comfortable conditions, children may be satisfied with the world around them and refuse to make a change.
+T16	Premise 2040 2240	Nonetheless, with the development of technology, increasingly more young people become obsessed with high-tech products. They kept researching new technology and became successful at a very young age.
+A1	Stance T2 For
+A2	Stance T3 For
+A3	Stance T6 For
+A4	Stance T7 For
+A5	Stance T13 Against
+R1	supports Arg1:T2 Arg2:T1
+R2	supports Arg1:T3 Arg2:T2
+R3	supports Arg1:T4 Arg2:T3
+R4	supports Arg1:T5 Arg2:T3
+R5	supports Arg1:T6 Arg2:T2
+R6	supports Arg1:T7 Arg2:T2
+R7	attacks Arg1:T8 Arg2:T7
+R8	supports Arg1:T9 Arg2:T7
+R9	supports Arg1:T10 Arg2:T7
+R10	supports Arg1:T11 Arg2:T7
+R11	supports Arg1:T12 Arg2:T7
+R12	attacks Arg1:T13 Arg2:T2
+R13	supports Arg1:T14 Arg2:T13
+R14	supports Arg1:T15 Arg2:T13
+R15	supports Arg1:T16 Arg2:T2

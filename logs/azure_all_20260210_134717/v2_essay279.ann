@@ -1,0 +1,34 @@
+T1	MajorClaim 0 51	The internet provides a lot of valuable information
+T2	Claim 323 475	In my opinion, I agree with the latter because the internet gives daily necessary information, people can gain knowledge and they can explore the world.
+T3	Claim 476 577	First of all, everybody would like to know what is going on around the world in their everyday lives.
+T4	Premise 578 701	Sometimes, they want an information that can help them in daily life which the internet can provide all of these to people.
+T5	Premise 702 852	For example, a businessman who has no time to watch a television or read a newspaper can receive news and check stock markets easily via the internet.
+T6	Claim 853 960	In addition, people can gain more knowledge by using the internet, the most useful technology in the world.
+T7	Premise 961 1099	Many people such as students can take online courses to study at home or they can watch beneficial videos which also teach them knowledge.
+T8	Premise 1100 1177	Not only students but also everyone could get more information and knowledge.
+T9	Premise 1178 1276	For instance, people who have problems with their health can search for more information about it.
+T10	Claim 1277 1364	Last but not least, The internet makes the world becomes smaller which is a good thing.
+T11	Premise 1365 1484	This is because people who have no time or have financial problems could travel around the world by using the internet.
+T12	Premise 1485 1552	They can see lots of picture and videos of many interesting places.
+T13	Premise 1553 1676	Moreover, people can learn other countries's culture and tradition which makes them have more knowledge about that nations.
+T14	Claim 1677 1830	To conclude, people are satisfied with the internet and sometimes even thanks it because it helps us in studying, doing business and exploring the world.
+T15	Premise 1831 1909	With valuable information it provides, people can enjoy their lives much more.
+A1	Stance T2 For
+A2	Stance T3 For
+A3	Stance T6 For
+A4	Stance T10 For
+A5	Stance T14 For
+R1	supports Arg1:T2 Arg2:T1
+R2	supports Arg1:T3 Arg2:T1
+R3	supports Arg1:T4 Arg2:T3
+R4	supports Arg1:T5 Arg2:T3
+R5	supports Arg1:T6 Arg2:T1
+R6	supports Arg1:T7 Arg2:T6
+R7	supports Arg1:T8 Arg2:T6
+R8	supports Arg1:T9 Arg2:T6
+R9	supports Arg1:T10 Arg2:T1
+R10	supports Arg1:T11 Arg2:T10
+R11	supports Arg1:T12 Arg2:T10
+R12	supports Arg1:T13 Arg2:T10
+R13	supports Arg1:T14 Arg2:T1
+R14	supports Arg1:T15 Arg2:T14

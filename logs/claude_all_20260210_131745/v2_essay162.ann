@@ -1,0 +1,27 @@
+T1	MajorClaim 275 341	I personally think that cheap flight can make many serious problem
+T2	Claim 343 473	It is undeniable that cheap air fares have broadened travel possibilities for many people, particularly for the lower income group
+A1	Stance T2 Against
+T3	Premise 475 554	These days, millions of people can travel around the world for work or pleasure
+T4	Premise 556 679	They can develop their careers, broad their knowledge, and interact with many other people from varied cultural backgrounds
+T5	Premise 691 805	travels also help to promote the tourist industry development, boost the economy and job markets of many countries
+T6	Claim 826 893	growing of cheap flights really have negative impact on environment
+A2	Stance T6 For
+T7	Premise 907 1033	more flights could mean bigger and busier airport that may be grown the air pollution for people who live and work close to it
+T8	Premise 1044 1095	the biggest concern is the effect on global warming
+T9	Premise 1097 1191	Burning plane fuel can releases carbon dioxid into environment that cause the Earth to heat up
+T10	Premise 1202 1328	while many efforts are being made to reduce CO2 emissions from cars and factories, nothing is being done to reins the airlines
+T11	MajorClaim 1346 1419	I would argue that the drawbacks of cheap air fares outweigh the benefits
+T12	Claim 1430 1487	it does not mean that air travel should be more expensive
+A3	Stance T12 For
+T13	Premise 1498 1602	people should be aware of their responsibility to reduce the emissions caused by their lifestyle choices
+R1	supports Arg1:T3 Arg2:T2
+R2	supports Arg1:T4 Arg2:T2
+R3	supports Arg1:T5 Arg2:T2
+R4	attacks Arg1:T2 Arg2:T1
+R5	supports Arg1:T7 Arg2:T6
+R6	supports Arg1:T8 Arg2:T6
+R7	supports Arg1:T9 Arg2:T6
+R8	supports Arg1:T10 Arg2:T6
+R9	supports Arg1:T6 Arg2:T1
+R10	supports Arg1:T13 Arg2:T12
+R11	supports Arg1:T12 Arg2:T11

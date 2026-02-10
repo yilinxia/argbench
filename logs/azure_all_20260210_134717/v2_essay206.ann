@@ -1,0 +1,32 @@
+T1	MajorClaim 258 402	I would prefer to live in a small town and I think a small town has some advantages, such as good weather, a healthy life and better facilities.
+T2	Claim 403 513	Firstly, the first advantage of living in a small town is a healthy life that we can obtain due to many items.
+A1	Stance T2 For
+T3	Premise 514 627	One of the conditions that helps us to be healthy is good weather and less population that exist in a small town.
+T4	Premise 628 690	Also, in a small town there are less crowded and less traffic.
+T5	Premise 691 871	Living in a place with less pollution such as air pollution or sound pollution helps us to have a healthier life and one of the main consequences is less stress and more happiness.
+T6	Premise 872 996	Moreover, in a small town foods and materials we need are healthier than in big cities and there are fresh foods and fruits.
+T7	Claim 1028 1101	it is obvious that living in small towns is healthier than in big cities.
+A2	Stance T7 For
+T8	Claim 1102 1161	Secondly, another advantage of small towns is living costs.
+A3	Stance T8 For
+T9	Premise 1162 1290	Living cost is one of the important concerns in every society and then, in a small town living cost is fewer than in big cities.
+T10	Premise 1291 1444	Therefore, in a small town we can live in big houses with good landscapes, also because of less crowded spaces we have more facilities and more services.
+T11	Premise 1445 1552	Transportation cost is less than in big cities and we have less traffic so that we can save time and money.
+T12	Claim 1553 1738	In conclusion, I prefer to live in a small town and I think it has some advantages such as less stress, because of better weather conditions and also, better relationship within a town.
+A4	Stance T12 For
+T13	Premise 1739 1899	In small town people know each other and have better deal together than big cities therefore on big cities people feel alone and depress more than small cities.
+T14	Claim 1900 2019	However it is an obvious fact that people in small town have more happiness and friendship and less illness and stress.
+A5	Stance T14 For
+R1	supports Arg1:T2 Arg2:T1
+R2	supports Arg1:T3 Arg2:T2
+R3	supports Arg1:T4 Arg2:T2
+R4	supports Arg1:T5 Arg2:T2
+R5	supports Arg1:T6 Arg2:T2
+R6	supports Arg1:T7 Arg2:T2
+R7	supports Arg1:T8 Arg2:T1
+R8	supports Arg1:T9 Arg2:T8
+R9	supports Arg1:T10 Arg2:T8
+R10	supports Arg1:T11 Arg2:T8
+R11	supports Arg1:T12 Arg2:T1
+R12	supports Arg1:T13 Arg2:T12
+R13	supports Arg1:T14 Arg2:T1

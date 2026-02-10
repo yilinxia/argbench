@@ -1,0 +1,49 @@
+T1	MajorClaim 587 709	Personally, I think it is no evidence about the reduction of crime rates due to the death penalty because of many reasons.
+T2	Claim 710 789	Firstly, capital punishment is a form of revenge which creates violent culture.
+T3	Premise 790 934	Crimes kill someone which is illegal; nevertheless, the government use law to punish them, which is the same way they sinned but in a legal one.
+T4	Premise 935 987	As a fact that the criminal is repeated second time;
+T5	Premise 988 1055	also, it is regarded as the "legalized revenge" to victims' family.
+T6	Claim 1056 1147	Hence, death penalty neither controls the violent in society nor creates a violent culture.
+T7	Claim 1148 1206	Secondly, nobody has the right to take another human life.
+T8	Premise 1207 1296	It is undeniable that the rights of life are the basic and vital rights of a human being.
+T9	Premise 1297 1375	No one has the right to take the life of a human; even if he committed murder.
+T10	Premise 1376 1422	If you kill a criminal, you become a criminal.
+T11	Premise 1423 1532	Moreover, if we think that killing is the best way to solve the problem, it is neither unethical nor immoral.
+T12	Claim 1533 1597	In short, crimes seem to increase due to the capital punishment.
+T13	Claim 1598 1677	Finally, with some of serious criminals, capital punishment is an easy way out.
+T14	Premise 1678 1726	Criminals should be punished for their misdeeds.
+T15	Premise 1727 1829	If they kill someone and end their life by dead without paying for their sins, it is so easy for them.
+T16	Premise 1830 1869	They do not undergo any pain or misery.
+T17	Premise 1870 1914	Why do not we have other wisely punishments?
+T18	Premise 1915 2021	As we can see some industries such as mining, oil and gas extraction, reclamation, etc, needs many labors.
+T19	Premise 2022 2105	Why do not punish them by doing something meaningful for the country- it is better.
+T20	Premise 2106 2213	Moreover, rehabilitation and education is also a better way in order to prevent or minimize offensive acts.
+T21	MajorClaim 2215 2452	To conclude, capital punishment is a form of legalized revenge, it is an easy way for serious crimes, and nobody has rights to take others life; thus, it neither demines crimes of violence nor be essential to control violence in society.
+T22	Claim 2453 2531	The world should consider clearly about polishing the law of the dead penalty.
+A1	Stance T2 For
+A2	Stance T6 For
+A3	Stance T7 For
+A4	Stance T12 For
+A5	Stance T13 For
+A6	Stance T22 For
+R1	supports Arg1:T2 Arg2:T1
+R2	supports Arg1:T3 Arg2:T2
+R3	supports Arg1:T4 Arg2:T2
+R4	supports Arg1:T5 Arg2:T2
+R5	supports Arg1:T6 Arg2:T1
+R6	supports Arg1:T7 Arg2:T1
+R7	supports Arg1:T8 Arg2:T7
+R8	supports Arg1:T9 Arg2:T7
+R9	supports Arg1:T10 Arg2:T7
+R10	supports Arg1:T11 Arg2:T7
+R11	supports Arg1:T12 Arg2:T1
+R12	supports Arg1:T13 Arg2:T1
+R13	supports Arg1:T14 Arg2:T13
+R14	supports Arg1:T15 Arg2:T13
+R15	supports Arg1:T16 Arg2:T13
+R16	supports Arg1:T17 Arg2:T13
+R17	supports Arg1:T18 Arg2:T17
+R18	supports Arg1:T19 Arg2:T17
+R19	supports Arg1:T20 Arg2:T17
+R20	supports Arg1:T22 Arg2:T21
+R21	supports Arg1:T21 Arg2:T1

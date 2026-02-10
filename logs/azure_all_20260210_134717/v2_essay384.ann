@@ -1,0 +1,29 @@
+T1	MajorClaim 279 492	Personally, I believe that governments should definitely reduce violent components to the minimum in kidvids, while such contents remain in the TV shows that for mature minds to watch would be entirely reasonable.
+T2	Claim 506 616	reducing the proportion of violent content in TV shows could, to some degree, decrease the overall crime rate.
+T3	Claim 676 775	governments must first prohibit any types of violent content in all children’s television programs.
+T4	Premise 776 875	As a result of mental immaturity, most youngsters are incapable of distinguishing right from wrong.
+T5	Premise 902 1047	by watching these violent TV programs and videos, juveniles will become very aggressive and offensive and have a great tendency to commit crimes.
+T6	Claim 1059 1217	it would be rather necessary for governments to establish an intensive law that prevents teenagers from watching these violent and brutal TV Shows and movies.
+T7	Claim 1232 1407	it would certainly be a violation of adults’ civil liberties, if governments implement such a restricted regulation on these TV shows or movies that only for mature audiences.
+T8	Premise 1408 1501	Frequently, adults watch horror video or war movies for relaxing themselves after a busy day.
+T9	Premise 1512 1582	such media sources are mere materials of relaxation and entertainment.
+T10	Premise 1583 1762	Considering that these mature minds are capable of being responsible for their own behaviors, they certainly have the right to watch TV shows or movies that are appealing to them.
+T11	MajorClaim 1764 1970	In conclusion, it is my belief that violent contents must be excluded from all kidvids in order to reduce the proportion of juvenile delinquency; however, the adults should not be the victim of this policy.
+A1	Stance T2	For
+A2	Stance T3	For
+A3	Stance T6	For
+A4	Stance T7	For
+R1	supports Arg1:T2 Arg2:T1
+R2	supports Arg1:T3 Arg2:T1
+R3	supports Arg1:T4 Arg2:T3
+R4	supports Arg1:T5 Arg2:T3
+R5	supports Arg1:T3 Arg2:T6
+R6	supports Arg1:T4 Arg2:T5
+R7	supports Arg1:T5 Arg2:T6
+R8	supports Arg1:T7 Arg2:T1
+R9	supports Arg1:T8 Arg2:T7
+R10	supports Arg1:T9 Arg2:T7
+R11	supports Arg1:T10 Arg2:T7
+R12	supports Arg1:T1 Arg2:T11
+R13	supports Arg1:T7 Arg2:T11
+R14	supports Arg1:T3 Arg2:T11

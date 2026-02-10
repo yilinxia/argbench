@@ -1,0 +1,43 @@
+T1	MajorClaim 0 73	The city which I enjoy the most is a combination of history and modernity
+T2	Claim 509 607	we should do our parts to do what ever it takes to protect old buildings, letting next generations
+T3	Premise 608 643	still have a chance to look at them
+T4	Claim 709 797	Historic buildings have intrinsic values, because they are significant symbols of a city
+T5	Premise 799 861	Old buildings are reminders of a city's culture and complexity
+T6	Premise 863 1029	By seeing historic buildings -- whether related to something famous or recognizably dramatic, people are able to witness the aesthetic and cultural history of an area
+T7	Premise 1031 1291	For example, when somebody mentions Beijing, China's capital city, you will immediately have Capital Palace come to appear in your mind, because it is the most remarkable sign of the city, and also it is the inevitable history of Beijing, even the entire China
+T8	Premise 1293 1412	Depending on the study of Capital Palace, researchers have a comprehensive understanding of the history and the culture
+T9	Claim 1428 1530	historic buildings make our lives more colorful, provide places for citizens to relax bodies and minds
+T10	Premise 1532 1677	The city is occupied with an abundance of modern houses and and high buildings which make it crowded, and no rooms for people to relax themselves
+T11	Premise 1688 1820	the warmth of the materials, the heart pine, marble, or the old brick, all those old buildings features call back of our inner peace
+T12	Premise 1822 1977	Lying under the roof of a historic building or sitting on the desk fill with history are both easy ways to forget life's little annoyance and feel peaceful
+T13	Claim 1991 2045	historic buildings can be a source of maintenance fees
+T14	Premise 2047 2222	There are many historic buildings, such as Beijing Place, Shanghai Artist Museum, they are all able to support themselves financially by charging tens of thousands of tourists
+T15	Premise 2224 2352	Our governments will be happy with those efficient consequences, and a majority of cities also can imitate this economical cycle
+T16	MajorClaim 2379 2452	the city which I enjoy the most is a combination of history and modernity
+T17	Premise 2463 2516	the preservation of old buildings is a one-way street
+T18	Premise 2518 2586	There is no chance to renovate to save a history site once it's gone
+T19	Premise 2588 2696	This reality brings us to light the importance of locating and saving old buildings of historic significance
+T20	Claim 2709 2771	government should spend money on preservation of old buildings
+A1	Stance T2 For
+A2	Stance T4 For
+A3	Stance T9 For
+A4	Stance T13 For
+A5	Stance T20 For
+R1	supports Arg1:T3 Arg2:T2
+R2	supports Arg1:T2 Arg2:T1
+R3	supports Arg1:T5 Arg2:T4
+R4	supports Arg1:T6 Arg2:T4
+R5	supports Arg1:T7 Arg2:T4
+R6	supports Arg1:T8 Arg2:T4
+R7	supports Arg1:T4 Arg2:T1
+R8	supports Arg1:T10 Arg2:T9
+R9	supports Arg1:T11 Arg2:T9
+R10	supports Arg1:T12 Arg2:T9
+R11	supports Arg1:T9 Arg2:T1
+R12	supports Arg1:T14 Arg2:T13
+R13	supports Arg1:T15 Arg2:T13
+R14	supports Arg1:T13 Arg2:T1
+R15	supports Arg1:T17 Arg2:T20
+R16	supports Arg1:T18 Arg2:T20
+R17	supports Arg1:T19 Arg2:T20
+R18	supports Arg1:T20 Arg2:T16

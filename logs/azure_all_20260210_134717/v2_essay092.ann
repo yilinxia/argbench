@@ -1,0 +1,28 @@
+T1	MajorClaim 412 531	From my perspective, fashion trends have a more essential role to play in people's lives than personal dressing styles.
+T2	Claim 532 742	This is because following fashion trends enables people to keep up with the world's latest transformations, which is of vital importance if we consider the fact that people are living in a global village today.
+T3	Premise 743 984	When individuals keep the habit of grasping the world's cutting-edge fashion information, they are gradually changing their attitudes to viewing the world, which means they are more open to accept diverse voices from people around the world.
+T4	Premise 985 1152	In contrast, if they stuck to their own fashion styles, disregarding the world's top fashion designers' achievements, they would stay conservative in their own worlds.
+T5	Premise 1153 1197	As a result, they might fall behind shortly.
+T6	Claim 1198 1357	Furthermore, people with inadequate aesthetic knowledge or poor originality develop their own senses of fashion when treasuring the latest fashion information.
+T7	Premise 1358 1502	Without following fashion trends, such people would have a hard time choosing and matching clothes, let alone forming their own dressing styles.
+T8	Claim 1503 1616	Despite this, it is undeniable that following fashion trends constantly may undermine individuals' personalities.
+T9	Premise 1617 1776	Individuals purchase their clothes according to the latest fashion trends, which may result in the phenomenon that people would wear the same style of clothes.
+T10	Premise 1777 1823	Consequently, the world would look monotonous.
+T11	Claim 1824 2033	With those arguments in mind, I would conclude that people should, especially for ones lacking basic aesthetic knowledge, care more about fashion trends in lives as they can keep pace with the world's changes.
+T12	Claim 2034 2162	On the other hand, creative design talents can value their own dressing ideas, developing their own fashion styles as they like.
+A1	Stance T2 For
+A2	Stance T6 For
+A3	Stance T8 Against
+A4	Stance T11 For
+A5	Stance T12 Against
+R1	supports Arg1:T2 Arg2:T1
+R2	supports Arg1:T3 Arg2:T2
+R3	supports Arg1:T4 Arg2:T2
+R4	supports Arg1:T5 Arg2:T4
+R5	supports Arg1:T6 Arg2:T1
+R6	supports Arg1:T7 Arg2:T6
+R7	attacks Arg1:T8 Arg2:T1
+R8	supports Arg1:T9 Arg2:T8
+R9	supports Arg1:T10 Arg2:T9
+R10	supports Arg1:T11 Arg2:T1
+R11	attacks Arg1:T12 Arg2:T1

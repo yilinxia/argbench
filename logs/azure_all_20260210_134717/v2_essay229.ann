@@ -1,0 +1,35 @@
+T1	MajorClaim 0 83	Friendship is more important than mistake by a friend, although mistake is terrible
+T2	Claim 336 419	friendship is more important than mistake by a friend, although mistake is terrible
+A1	Stance T2 For
+T3	Claim 501 572	a mistake does not last for a long time but a friendship lasts forever.
+A2	Stance T3 For
+T4	Premise 573 608	Anybody does not remember mistakes.
+T5	Premise 609 667	If someone remembers mistake, he or she has a closed mind.
+T6	Premise 668 722	I want to say that mistakes will be forgotten quickly.
+T7	Premise 723 874	For example, my friend Lee made a mistake that he broke my precious gift. However, I forgot about it just after two days, and I felt at peace with him.
+T8	Claim 913 965	I think mistake is more forgettable than friendship.
+A3	Stance T8 For
+T9	Claim 975 999	Everybody makes mistake.
+A4	Stance T9 For
+T10	Claim 1009 1107	if you end a friendship whenever your friend makes a mistake, there will be no friends around you.
+A5	Stance T10 For
+T11	Claim 1116 1187	if a friend makes very a big mistake, we will need to end a friendship.
+A6	Stance T11 Against
+T12	Claim 1197 1332	when the mistake friend made was not a big problem, we need to understand friend and forgive it because a friend is a gift of our life.
+A7	Stance T12 For
+T13	Premise 1333 1410	According to a research, 85% of people answered that a best gift is a friend.
+T14	Claim 1411 1526	I think that a mistake can not brake friendship if it is not a big because friendship is forever and gift our life.
+A8	Stance T14 For
+R1	supports Arg1:T2 Arg2:T1
+R2	supports Arg1:T3 Arg2:T2
+R3	supports Arg1:T4 Arg2:T3
+R4	supports Arg1:T5 Arg2:T4
+R5	supports Arg1:T6 Arg2:T3
+R6	supports Arg1:T7 Arg2:T6
+R7	supports Arg1:T8 Arg2:T3
+R8	supports Arg1:T9 Arg2:T2
+R9	supports Arg1:T10 Arg2:T2
+R10	attacks Arg1:T11 Arg2:T2
+R11	supports Arg1:T12 Arg2:T2
+R12	supports Arg1:T13 Arg2:T12
+R13	supports Arg1:T14 Arg2:T2

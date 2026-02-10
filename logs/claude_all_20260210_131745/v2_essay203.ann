@@ -1,0 +1,43 @@
+T1	MajorClaim 194 297	Therefore I strongly agree with the argument that it is one's hard work that helps him reach his target
+T2	Claim 306 390	if you depend only on luck for all your accomplishments, you are taking a great risk
+A1	Stance T2 For
+T3	Premise 392 478	Luck is something intangible and no one can guarantee that it would ever come your way
+T4	Premise 480 534	If it doesn't work, it would be a great disappointment
+T5	Premise 544 658	if you strive hard to achieve what you want, then your hard work would take you at least closer to your final goal
+T6	Premise 660 750	In my personal experience, all my accomplishments were backed by my hard work, not my luck
+T7	Premise 752 817	And I never did encounter any disappointments of missing my goals
+T8	Claim 829 918	if you believe that hard work is the key to success, it would make you a visionary person
+A2	Stance T8 For
+T9	Premise 920 1033	In other words, those who believe in hard work are clear about their goals and know about their final destination
+T10	Premise 1035 1169	They carefully organize the process of achieving their targets and continue to evaluate their progress until they reach the final goal
+T11	Premise 1171 1244	If you believe in luck, you would be clueless about where you are heading
+T12	Premise 1246 1399	For example, a friend of mine, who had severe financial constraints, had the habit of buying lottery tickets thinking that one day he would win a lottery
+T13	Premise 1401 1486	He was living in an illusion that he can solve his financial issues with this lottery
+T14	Premise 1497 1576	up to this day his luck has not appeared and problems have got further worsened
+T15	Claim 1588 1700	if you work hard, luck too might shine on you and take you some more steps further ahead from your actual target
+A3	Stance T15 For
+T16	Premise 1715 1758	my boss worked tirelessly for his promotion
+T17	Premise 1760 1829	He looked at every aspect that he needed to qualify for the promotion
+T18	Premise 1831 1938	He realized that having a master's degree would be a great credential for him to outperform his competitors
+T19	Premise 1940 2065	Although he had many commitments at home and work, he somehow managed to complete this degree before he was eligible to apply
+T20	Premise 2067 2261	At the end he was not only able to get the promotion amidst a stiff competition but also got nominated for a foreign scholarship since he had more credentials than other officers in his capacity
+T21	MajorClaim 2349 2443	I strongly believe in hard working that would not easily disappoint you as luck sometimes does
+R1	supports Arg1:T3 Arg2:T2
+R2	supports Arg1:T4 Arg2:T2
+R3	supports Arg1:T5 Arg2:T2
+R4	supports Arg1:T6 Arg2:T2
+R5	supports Arg1:T7 Arg2:T2
+R6	supports Arg1:T2 Arg2:T1
+R7	supports Arg1:T9 Arg2:T8
+R8	supports Arg1:T10 Arg2:T8
+R9	supports Arg1:T11 Arg2:T8
+R10	supports Arg1:T12 Arg2:T8
+R11	supports Arg1:T13 Arg2:T8
+R12	supports Arg1:T14 Arg2:T8
+R13	supports Arg1:T8 Arg2:T1
+R14	supports Arg1:T16 Arg2:T15
+R15	supports Arg1:T17 Arg2:T15
+R16	supports Arg1:T18 Arg2:T15
+R17	supports Arg1:T19 Arg2:T15
+R18	supports Arg1:T20 Arg2:T15
+R19	supports Arg1:T15 Arg2:T1

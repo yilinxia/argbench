@@ -1,0 +1,24 @@
+T1	MajorClaim 222 306	all of the old building which contribute to our sense of culture should be conserved
+T2	Claim 356 395	people should not restore old buildings
+A1	Stance T2 Against
+T3	Premise 397 596	As a result of the rapid urbanization process, in which rural people must go to urban centers to look for job opportunities, the question of the preservation of old buildings has become more pressing
+T4	Premise 598 700	Because of that need, governments can construct more accommodation instead of preserving old buildings
+T5	Premise 716 813	the preservation is very expensive because all components of old buildings have historical values
+T6	Claim 816 862	Old buildings are an essential part of history
+A2	Stance T6 For
+T7	Premise 864 965	Tourist often decide to discover the culture of a country when they visit through those old buildings
+T8	Premise 978 1113	managers of cities can earn more money from the attraction provided by old buildings and that amount can be spent on their conservation
+T9	Premise 1128 1238	the preservation of old buildings is also a ways to conserve our culture and everyone can learn much from them
+T10	Claim 1240 1364	Old buildings should be used as the culture museums and provide accommodation with more convenient for people who live there
+A3	Stance T10 For
+T11	Premise 1368 1507	Many cities have development strategies as a city contains both unique and modern beauty, and that preservation help to finish half of work
+T12	MajorClaim 1689 1808	we should restore those building because old buildings process the most outstanding feature of areas which contain them
+R1	supports Arg1:T3 Arg2:T2
+R2	supports Arg1:T4 Arg2:T2
+R3	supports Arg1:T5 Arg2:T2
+R4	supports Arg1:T7 Arg2:T6
+R5	supports Arg1:T8 Arg2:T6
+R6	supports Arg1:T9 Arg2:T10
+R7	supports Arg1:T11 Arg2:T10
+R8	supports Arg1:T6 Arg2:T1
+R9	supports Arg1:T10 Arg2:T1

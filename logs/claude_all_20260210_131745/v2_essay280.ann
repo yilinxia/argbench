@@ -1,0 +1,32 @@
+T1	MajorClaim 328 531	studying many subjects is better that one because students can study in subjects that they interested in, they can gain knowledge more than one field and they will have more chance to choose their future
+T2	Claim 547 677	when students finished their high schools, they are confused about subjects that they are going to choose to study in universities
+A1	Stance T2 For
+T3	Premise 679 757	This is because they interested in many subjects and they want to try them all
+T4	Premise 759 832	For example, pupil who want to study science are also like to learn music
+T5	Claim 845 906	requiring students to study in many subjects is good for them
+A2	Stance T5 For
+T6	Claim 921 992	people who know a wide range of is better than people who know just one
+A3	Stance T6 For
+T7	Premise 994 1064	Students can gain more knowledge in every different subjects thy study
+T8	Premise 1066 1153	For instance, university students who study business are also know history of the world
+T9	Premise 1168 1283	students not only gain knowledge but they also have more experience because they will meet new friends and teachers
+T10	Premise 1292 1347	they all can share opinion and knowledge to one another
+T11	Claim 1358 1517	students who graduated with a variety of courses during university and lots of experience are definitely have more opportunity to choose their future or career
+A4	Stance T11 For
+T12	Premise 1519 1618	This is because graduates can work in various kind of works which they can select a job they prefer
+T13	Premise 1620 1720	For example, students will choose a career that they want including the job with high salary include
+T14	Premise 1732 1814	bachelors can earn lots of money by working in other fields due to their knowledge
+T15	MajorClaim 1831 2039	learning several subjects in universities is better than specialize in one subject because it makes students have more chance to gain knowledge to use in their lives and opportunity to choose their own future
+R1	supports Arg1:T3 Arg2:T2
+R2	supports Arg1:T4 Arg2:T2
+R3	supports Arg1:T2 Arg2:T5
+R4	supports Arg1:T5 Arg2:T1
+R5	supports Arg1:T7 Arg2:T6
+R6	supports Arg1:T8 Arg2:T6
+R7	supports Arg1:T9 Arg2:T6
+R8	supports Arg1:T10 Arg2:T6
+R9	supports Arg1:T6 Arg2:T1
+R10	supports Arg1:T12 Arg2:T11
+R11	supports Arg1:T13 Arg2:T11
+R12	supports Arg1:T14 Arg2:T11
+R13	supports Arg1:T11 Arg2:T1

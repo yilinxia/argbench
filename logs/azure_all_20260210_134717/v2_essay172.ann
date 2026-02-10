@@ -1,0 +1,39 @@
+T1	MajorClaim 200 407	After considering the level of freedom, the studying conditions and the economic factor, if I had to choose, I would prefer to live in an apartment in the community rather than in the university dormitories.
+T2	Claim 408 473	First, an apartment provides a lot more freedom than a dormitory.
+T3	Premise 474 566	While in a dormitory you have to obey preset rules, in the apartment you set your own rules.
+T4	Premise 567 639	You are free to have visits at any time or to be left alone if you want.
+T5	Premise 640 758	An apartment offers more privacy because you can choose to have your own room instead of sharing with another student.
+T6	Premise 759 849	This is an important factor because you also get more space than you would in a dormitory.
+T7	Claim 850 945	Second, from an economic point of view, people often argue that an apartment is more expensive.
+T8	Premise 946 974	This is only partially true,
+T9	Premise 975 1071	you could rent the extra rooms in the apartment to other people and rent would be a lot cheaper.
+T10	Premise 1072 1163	Transportation is another issue, you have to go to and return from the university everyday.
+T11	Premise 1164 1246	You could choose to use public transportation, a cheaper option, or to have a car.
+T12	Premise 1247 1331	The car is an expensive option, but also offers freedom of schedule and destination.
+T13	Claim 1332 1480	Lastly, the studying conditions are better in an apartment because you don't have all the noise and distractions that you often have in dormitories.
+T14	Premise 1481 1606	A lot of students often complain about their roommate playing music too loud or bringing friends over at inappropriate times.
+T15	Premise 1607 1741	Since in an apartment you don't have a roommate, you won't have this problem, and as a result you would be able to concentrate better.
+T16	Premise 1742 1875	For the same reason, you won't have a problem if you are the one who wants to play music, bring friends over, or study late at night.
+T17	Premise 1876 1903	You set your own schedules.
+T18	Claim 1904 2068	In the other hand, living in a dormitory, and being surrounded by students also has some advantages, like being able to get help with any academic issues from them.
+T19	MajorClaim 2070 2223	To conclude, both options have their advantages, but personally I think the advantages of living in an apartment outshine those of living in a dormitory.
+A1	Stance T2 For
+A2	Stance T7 Against
+A3	Stance T13 For
+A4	Stance T18 Against
+R1	supports Arg1:T2 Arg2:T1
+R2	supports Arg1:T3 Arg2:T2
+R3	supports Arg1:T4 Arg2:T2
+R4	supports Arg1:T5 Arg2:T2
+R5	supports Arg1:T6 Arg2:T2
+R6	supports Arg1:T13 Arg2:T1
+R7	supports Arg1:T14 Arg2:T13
+R8	supports Arg1:T15 Arg2:T13
+R9	supports Arg1:T16 Arg2:T13
+R10	supports Arg1:T17 Arg2:T13
+R11	supports Arg1:T18 Arg2:T1
+R12	attacks Arg1:T8 Arg2:T7
+R13	supports Arg1:T9 Arg2:T8
+R14	supports Arg1:T10 Arg2:T7
+R15	supports Arg1:T11 Arg2:T10
+R16	supports Arg1:T12 Arg2:T10

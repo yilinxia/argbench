@@ -1,0 +1,27 @@
+T1	MajorClaim 0 69	Children from poorer families are more successful in the future life.
+T2	Claim 299 411	To begin with, children from poorer families are prone to have bad habits such as: crime, thievery and thuggery.
+T3	Claim 412 479	Moreover, these people will not have an access to a good education.
+T4	Premise 480 532	As a result, they can be proselytized into bad isms.
+T5	Premise 533 703	For example, most of the terroristic groups try to attract uneducated people, because the person with better education has a wider outlook, which will allow no brainwash.
+T6	Premise 704 805	In this sense, people with lower level of education have more proneness to be attracted in such isms.
+T7	Claim 806 946	Nevertheless, people who are born in well-off families have access to good education, which will have a positive impact on their later life.
+T8	Claim 947 1060	Secondly, children from rich families have better skills on how to use money, because they use it a lot of times.
+T9	Claim 1061 1199	Finally, wealthy families can afford better health services and costly medicines, which will be very beneficial for the health of a child.
+T10	Premise 1200 1306	For instance, many good medicines cost vast amounts of money, which cannot be afforded by poorer families.
+T11	Claim 1307 1486	In conclusion, I disagree with the opinion that children who are brought up in less well-of families are, likely, more successful in the future life due to aforementioned reasons.
+A1	Stance T2 Against
+A2	Stance T3 Against
+A3	Stance T7 Against
+A4	Stance T8 Against
+A5	Stance T9 Against
+A6	Stance T11 Against
+R1	attacks Arg1:T2 Arg2:T1
+R2	attacks Arg1:T3 Arg2:T1
+R3	supports Arg1:T4 Arg2:T3
+R4	supports Arg1:T5 Arg2:T4
+R5	supports Arg1:T6 Arg2:T4
+R6	attacks Arg1:T7 Arg2:T1
+R7	attacks Arg1:T8 Arg2:T1
+R8	attacks Arg1:T9 Arg2:T1
+R9	supports Arg1:T10 Arg2:T9
+R10	attacks Arg1:T11 Arg2:T1

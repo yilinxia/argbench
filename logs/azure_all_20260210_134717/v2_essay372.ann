@@ -1,0 +1,23 @@
+T1	MajorClaim 345 483	However, from my point of view, what can be expected, is a change of the role of the tradition but not its disappearance from the society.
+T2	Claim 198 344	It is argued that these so-called cultural invasions will result in the distinction of national traditions, and there is no need to maintain them.
+T3	Claim 484 594	It is undeniable that the country's culture is passed down mainly through traditional skills and ways of life.
+T4	Premise 595 771	For instance, in Vietnam, many water puppet shows which once demonstrated our seasonal agriculture and communal activities, are today substituted by cinemas and music concerts.
+T5	Premise 772 934	This means the young generation can solely get access to their ancestor's early life through books and images, which otherwise would be much more easily absorbed.
+T6	Claim 935 1058	In tradition, a person should look back at the past, mainly by means of custom handcraft or antique lifestyle, to progress.
+T7	Premise 1059 1184	Understanding why, and how our predecessors survived through thick and thin will probably be invaluable lessons for us today.
+T8	Premise 1185 1266	Also, study form their mistakes helps us accomplish our goal with smooth sailing.
+T9	Claim 1267 1357	To sumarize, there should never be any replacement for traditional skills or ways of life.
+T10	Premise 1358 1513	They are the ones that teach, and will teach us to be self-esteem and experienced, which means their preservation throughout history deserve our attention.
+A1	Stance T2 Against
+A2	Stance T3 For
+A3	Stance T6 For
+A4	Stance T9 For
+R1	attacks Arg1:T1 Arg2:T2
+R2	supports Arg1:T3 Arg2:T1
+R3	supports Arg1:T4 Arg2:T3
+R4	supports Arg1:T5 Arg2:T3
+R5	supports Arg1:T6 Arg2:T1
+R6	supports Arg1:T7 Arg2:T6
+R7	supports Arg1:T8 Arg2:T6
+R8	supports Arg1:T9 Arg2:T1
+R9	supports Arg1:T10 Arg2:T9

@@ -1,0 +1,17 @@
+T1	MajorClaim 610 795	if children listen to their advices they can prevent happening worst things. Also, they can save value things in their life such as time and money, and enjoy they life with the best way
+T2	Claim 81 225	It might seem that teenaged children particularly in age of 15 - 18 are fully grown, so they do not need any help for making important decisions
+T3	MajorClaim 251 324	teenagers need more attention and help in comparison with the higher ages
+T4	Claim 610 685	if children listen to their advices they can prevent happening worst things
+T5	Premise 687 795	Also, they can save value things in their life such as time and money, and enjoy they life with the best way
+T6	Claim 807 915	I have always believed that parents and adults relatives are the best friends and consular for the teenagers
+T7	Premise 917 1028	because unfortunately nowadays there are some individuals who cheat the others for gaining more power and money
+T8	Premise 1030 1120	They cheat young ages because they believe they are immature and they can trap them easily
+T9	MajorClaim 1233 1380	sometimes to prevent some problems coming up for young individuals , it is a good idea to ask parents and adult relatives to give a piece of advice
+A1	Stance T2 Against
+A2	Stance T4 For
+A3	Stance T6 For
+R1	supports Arg1:T5 Arg2:T4
+R2	supports Arg1:T4 Arg2:T3
+R3	supports Arg1:T7 Arg2:T6
+R4	supports Arg1:T8 Arg2:T7
+R5	supports Arg1:T6 Arg2:T3

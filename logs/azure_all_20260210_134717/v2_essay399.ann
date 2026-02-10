@@ -1,0 +1,24 @@
+T1	MajorClaim 342 430	But I tend to think that this is a worrying tread which has negative impact on children.
+T2	Claim 431 526	The first impression of the celebrities seems that they are rich while not having to work hard.
+T3	Premise 527 646	This gives children the idea that it is not necessary to study hard at school for a better career and earning a living.
+T4	Premise 647 738	Further more, they will not value other people's hard work and take everything for granted.
+T5	Claim 739 786	Meanwhile, not all celebrities are role models.
+T6	Premise 787 952	It is not uncommon to see on the media that some of them are committing to crimes or misbehaving such as being addicted to drugs or alcohols, having messy sex lives.
+T7	Premise 953 1074	Worse still, without proper parenting, children may perceive that this is the cool life people are supposed to be living.
+T8	Claim 1075 1307	Of course, some celebrities, e.g. writers, passionate entrepreneurs are good examples to children for they share fascinating stories or how to pursue their goal by doing something that has a meaning to them and may change the world.
+T9	Claim 1308 1391	In conclusion, media should shift its focus from covering celebrities to elsewhere.
+T10	Claim 1392 1550	Meanwhile, children's access to the celebrities news on the media should be restricted and they should study only from the celebrities who can act positively.
+A1	Stance T2 For
+A2	Stance T5 For
+A3	Stance T8 Against
+A4	Stance T9 For
+A5	Stance T10 For
+R1	supports Arg1:T2 Arg2:T1
+R2	supports Arg1:T3 Arg2:T2
+R3	supports Arg1:T4 Arg2:T2
+R4	supports Arg1:T5 Arg2:T1
+R5	supports Arg1:T6 Arg2:T5
+R6	supports Arg1:T7 Arg2:T5
+R7	attacks Arg1:T8 Arg2:T1
+R8	supports Arg1:T9 Arg2:T1
+R9	supports Arg1:T10 Arg2:T1

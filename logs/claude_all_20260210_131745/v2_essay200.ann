@@ -1,0 +1,33 @@
+T1	MajorClaim 267 469	I strongly believe that human activities are having a bad effect upon our planet, for human are polluting the Earth's environment, exhausting natural resource and threatening the living of other species
+T2	Claim 471 508	People are corrupting their ecosphere
+T3	Premise 510 622	In recent decades, concurrently with the increase of human consume, the waste discarded by human also multiplies
+T4	Premise 624 761	These wastes including household waste and industrial waste are so big that a "new" continent is now being formed in the sea from garbage
+T5	Premise 763 918	Furthermore, the industrial exhaust gases are adulterating the air, causing the insalubrious phenomenon such as acid rain, global warming or climate change
+T6	Claim 929 978	people are draining the Earth's natural resources
+T7	Premise 980 1178	These resources such as oil, coal are vital for human activity, therefore nowadays, the exploitation activities of these resources are increasing dramatically to adapt to the infinite need of people
+T8	Premise 1180 1334	Researchers indicated that most of natural resources are un-recyclable and only several decades after, the Earth's natural resources are totally exhausted
+T9	Premise 1336 1432	At that time, human activity will be seriously affected due to the dependence on these resources
+T10	Claim 1440 1482	people are endangering other species' live
+T11	Premise 1484 1548	Hunting has been a fundamental activity of human for having food
+T12	Premise 1550 1742	Through million years of hunting, especially in recent centuries with the innovation of rifle and dynamite, people have killed many animals and even have made some kinds of them become extinct
+T13	Premise 1744 1833	Moreover, people, suffering from the population pressure, are expanding their living area
+T14	Premise 1835 1890	consequently, the living area of other species narrowed
+T15	Premise 1892 1976	This narrowing of living region is pushing many creatures to the brink of extinction
+T16	MajorClaim 2035 2185	human activity are gradually destroy the Earth since it is polluting the Earth environment, depleting the resource and imperiling other species' lives
+A1	Stance T2 For
+A2	Stance T6 For
+A3	Stance T10 For
+R1	supports Arg1:T3 Arg2:T2
+R2	supports Arg1:T4 Arg2:T2
+R3	supports Arg1:T5 Arg2:T2
+R4	supports Arg1:T7 Arg2:T6
+R5	supports Arg1:T8 Arg2:T6
+R6	supports Arg1:T9 Arg2:T6
+R7	supports Arg1:T11 Arg2:T10
+R8	supports Arg1:T12 Arg2:T10
+R9	supports Arg1:T13 Arg2:T10
+R10	supports Arg1:T14 Arg2:T10
+R11	supports Arg1:T15 Arg2:T10
+R12	supports Arg1:T2 Arg2:T1
+R13	supports Arg1:T6 Arg2:T1
+R14	supports Arg1:T10 Arg2:T1

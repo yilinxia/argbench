@@ -1,0 +1,33 @@
+T1	MajorClaim 321 388	I personally prefer to work for a large company for several reasons
+T2	Claim 397 486	to find a job in a large company is way more easier than to find a job in a small company
+A1	Stance T2 For
+T3	Premise 488 639	Large companies always look for new skilled employees to fill in their need of distributing, managing and selling their products in different countries
+T4	Premise 654 780	if a large company decides to open a branch in a foreign country, they would need more employees in that country to work there
+T5	Premise 798 839	Large company equals more job opportunity
+T6	Claim 862 921	a large company can give better salaries than a smaller one
+A2	Stance T6 For
+T7	Premise 923 1013	The fact that a company is a large one, this means that it's having a considerable success
+T8	Premise 1031 1098	this means that the company can give more salaries to its employees
+T9	Premise 1114 1238	common sense would tell us that a famous and international known company won't give the same salary as a small local company
+T10	Claim 1247 1281	I love travelling around the world
+A3	Stance T10 For
+T11	Premise 1283 1487	large companies have an international reputation, as they organize international conferences, meetings and workshops which will give me the opportunity to travel in different countries and meet new people
+T12	Premise 1489 1552	As well as learning new skills in my field from these workshops
+T13	MajorClaim 1596 1664	I would rather prefer working in a large company than in a small one
+T14	Premise 1713 1748	having a better chance to find work
+T15	Premise 1750 1772	having a better salary
+T16	Premise 1777 1862	having the opportunity to travel around the world to attend international conferences
+R1	supports Arg1:T3 Arg2:T2
+R2	supports Arg1:T4 Arg2:T2
+R3	supports Arg1:T5 Arg2:T2
+R4	supports Arg1:T7 Arg2:T6
+R5	supports Arg1:T8 Arg2:T6
+R6	supports Arg1:T9 Arg2:T6
+R7	supports Arg1:T11 Arg2:T10
+R8	supports Arg1:T12 Arg2:T10
+R9	supports Arg1:T2 Arg2:T1
+R10	supports Arg1:T6 Arg2:T1
+R11	supports Arg1:T10 Arg2:T1
+R12	supports Arg1:T14 Arg2:T13
+R13	supports Arg1:T15 Arg2:T13
+R14	supports Arg1:T16 Arg2:T13

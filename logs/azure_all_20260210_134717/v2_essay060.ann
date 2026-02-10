@@ -1,0 +1,55 @@
+T1	MajorClaim 258 346	However, a break of one year is good for young people after finishing their high school.
+T2	Claim 347 442	In most education systems, a child studies continuously from the age of 5 till 16 years of age.
+T3	Premise 443 522	A relaxation of one year to young minds will give them a quintessential change.
+T4	Premise 523 635	A continuous study pressure for over 10 years makes the mind saturated and like a robot, to follow instructions.
+T5	Premise 636 751	Personally, a break will give students some time to refresh their systems, by traveling or following their hobbies.
+T6	Premise 752 891	Importantly, when students start their university studies after a break, they will feel fresh and full of energy to take the new challenge.
+T7	Claim 892 999	Nevertheless, during high school, many students face a dilemma to decide which stream should they major in.
+T8	Premise 1000 1101	Working or traveling for some time, after high school, can help them to find their field of interest.
+T9	Premise 1102 1164	It will also help them to learn professional setup by working.
+T10	Premise 1165 1264	Financially, students can save a little money to support their university education by doing a job.
+T11	Premise 1265 1353	Some students even utilize this time for preparation of their desired university course.
+T12	Claim 1354 1392	However, there are also disadvantages.
+T13	Claim 1393 1457	A break can disturb the focus of students and prove detrimental.
+T14	Premise 1458 1599	When students work during these breaks, the feel of money gives them an illusion that such salary is enough for them and they go in a utopia.
+T15	Premise 1600 1703	For instance, my cousin started working in a customer care centre after high school and got distracted.
+T16	Premise 1704 1764	When he started his university studies, he failed miserably.
+T17	Premise 1765 1831	Students can also indulge in smoking or drinking during this time.
+T18	Claim 1832 1875	But, the break should be an optional thing.
+T19	Premise 1876 1946	It varies from individual to individual, how they utilize that period.
+T20	Claim 1947 1995	A break gives students more benefits than harms.
+T21	Claim 1996 2097	Importantly, the sole purpose of education is to nurture a young mind and not thrust studies on them.
+T22	MajorClaim 2098 2206	Thus, a break should be necessarily allowed to young minds between their high school and university studies.
+T23	Claim 2207 2358	Countries, like India, where such a break is considered a blot, should understand that young minds are delicate and they face a cut-throat competition.
+T24	Premise 2359 2434	One year break can help young people to prepare for the challenges of life.
+A1	Stance T2 For
+A2	Stance T7 For
+A3	Stance T12 Against
+A4	Stance T13 Against
+A5	Stance T18 For
+A6	Stance T20 For
+A7	Stance T21 For
+A8	Stance T23 For
+R1	supports Arg1:T2 Arg2:T1
+R2	supports Arg1:T3 Arg2:T2
+R3	supports Arg1:T4 Arg2:T2
+R4	supports Arg1:T5 Arg2:T2
+R5	supports Arg1:T6 Arg2:T2
+R6	supports Arg1:T7 Arg2:T1
+R7	supports Arg1:T8 Arg2:T7
+R8	supports Arg1:T9 Arg2:T7
+R9	supports Arg1:T10 Arg2:T7
+R10	supports Arg1:T11 Arg2:T7
+R11	attacks Arg1:T12 Arg2:T1
+R12	attacks Arg1:T13 Arg2:T1
+R13	supports Arg1:T14 Arg2:T13
+R14	supports Arg1:T15 Arg2:T14
+R15	supports Arg1:T16 Arg2:T15
+R16	supports Arg1:T17 Arg2:T13
+R17	supports Arg1:T18 Arg2:T1
+R18	supports Arg1:T19 Arg2:T18
+R19	supports Arg1:T20 Arg2:T1
+R20	supports Arg1:T21 Arg2:T22
+R21	supports Arg1:T24 Arg2:T22
+R22	supports Arg1:T23 Arg2:T22
+R23	supports Arg1:T22 Arg2:T1

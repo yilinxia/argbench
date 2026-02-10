@@ -1,0 +1,33 @@
+T1	MajorClaim 0 54	Challenges are different from generation to generation
+T2	Claim 277 455	In my opinion, I believe that every prospective between generations alters and especially the challenges for this generation are significantly different from the last generation.
+T3	Claim 456 604	First, under globalization and industrial integration, the work-related challenges for this generation are getting more complicated and challenging.
+T4	Premise 605 690	The successful people are those who can quickly respond to this rapid-changing world.
+T5	Premise 691 832	In the past, focusing on one skill was enough to deal with the problems because every industry was rather small in size and simple to manage.
+T6	Premise 833 976	However, as those industries expand and become internationalized, people are required to equip with multiple skills to answer those challenges.
+T7	Premise 977 1133	For example, now there are more chances to do business with people around the world, so besides one's own profession, language ability is essential as well.
+T8	Premise 1134 1287	For another example, financial crimes are rampant in the 21st century, thus surging up demands for those who excel at both laws and financial management.
+T9	Claim 1289 1414	Second, this generation is encountering the self-recognition issue which could not be experienced by the previous generation.
+T10	Premise 1415 1536	The past generation was given less freedom and was usually asked to follow the paths their parents had prepared for them.
+T11	Premise 1537 1647	In contrast, young people in this generation are exposed to more creative ideas and rather think individually.
+T12	Premise 1648 1714	They are eager for finding who they are and what they really want.
+T13	Premise 1715 1828	It is fortunate that they can struggle with these sweet worries and these worries are indeed never easy for them.
+T14	Premise 1829 1940	They have to make decisions between so many possibilities and they are responsible for taking the consequences.
+T15	Claim 1942 2091	In conclusion, challenges for this generation are more complicated and diverse than the past generation, whether in career or in self-identification.
+A1	Stance T2 For
+A2	Stance T3 For
+A3	Stance T9 For
+A4	Stance T15 For
+R1	supports Arg1:T2 Arg2:T1
+R2	supports Arg1:T3 Arg2:T2
+R3	supports Arg1:T4 Arg2:T3
+R4	supports Arg1:T5 Arg2:T3
+R5	supports Arg1:T6 Arg2:T3
+R6	supports Arg1:T7 Arg2:T6
+R7	supports Arg1:T8 Arg2:T6
+R8	supports Arg1:T9 Arg2:T2
+R9	supports Arg1:T10 Arg2:T9
+R10	supports Arg1:T11 Arg2:T9
+R11	supports Arg1:T12 Arg2:T9
+R12	supports Arg1:T13 Arg2:T9
+R13	supports Arg1:T14 Arg2:T9
+R14	supports Arg1:T15 Arg2:T1

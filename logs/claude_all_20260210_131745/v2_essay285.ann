@@ -1,0 +1,36 @@
+T1	MajorClaim 157 254	Learning in classroom could provide more information to study. Besides, learning in classroom are
+T2	MajorClaim 389 486	I completely disagree with this statement that we should replace normal course with online course
+T3	Claim 546 644	learning in classroom could provide more information and make students more comprehend in subjects
+T4	Premise 675 735	in classroom have many equipment to demonstrate real example
+T5	Premise 737 887	For example, in biology class, learning anatomy by operating fog have many benefits. Learner could learn how to use tools and see actual organs of fog
+T6	Premise 889 974	Unlike classroom, online class just only study in textbook not learnin real situation
+T7	Claim 986 1046	online class could not provide knowledge about social skills
+T8	Premise 1062 1137	In a classroom, teacher could give assignment to student to work as a group
+T9	Premise 1139 1243	This could help students to learn how to deal with people, how to collaborate with people in their group
+T10	Premise 1245 1300	This important skill cannot be gotten in online classes
+T11	Claim 1310 1411	learning in classroom, student could have healthier life because in school can provide exercise class
+T12	Premise 1452 1519	Classroom have specialist trainer to teach students to it right way
+T13	Premise 1521 1582	If student do it by themselves, they might be hurt themselves
+T14	Premise 1584 1656	This make students have healthier life which online class cannot provide
+T15	MajorClaim 1674 1763	I personally disagree this this notion that we should replace classroom with online class
+T16	Premise 1774 1867	classroom could provide real actual example to make students more understand in their subject
+T17	Premise 1878 1943	classroom courses are also provide students to learn social skill
+T18	Premise 1955 2031	classroom could provide exercise class to set students to have a good health
+A1	Stance T3 For
+A2	Stance T7 For
+A3	Stance T11 For
+R1	supports Arg1:T4 Arg2:T3
+R2	supports Arg1:T5 Arg2:T3
+R3	supports Arg1:T6 Arg2:T3
+R4	supports Arg1:T8 Arg2:T7
+R5	supports Arg1:T9 Arg2:T7
+R6	supports Arg1:T10 Arg2:T7
+R7	supports Arg1:T12 Arg2:T11
+R8	supports Arg1:T13 Arg2:T11
+R9	supports Arg1:T14 Arg2:T11
+R10	supports Arg1:T3 Arg2:T2
+R11	supports Arg1:T7 Arg2:T2
+R12	supports Arg1:T11 Arg2:T2
+R13	supports Arg1:T16 Arg2:T15
+R14	supports Arg1:T17 Arg2:T15
+R15	supports Arg1:T18 Arg2:T15

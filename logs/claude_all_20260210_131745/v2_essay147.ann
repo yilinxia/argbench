@@ -1,0 +1,31 @@
+T1	MajorClaim 218 280	games are no longer too important for them for several reasons
+T2	Claim 307 367	games become unnecessary for people when their careers begin
+A1	Stance T2 For
+T3	Premise 392 448	games help adults relax and become more balanced in life
+T4	Premise 467 671	the pressure of work and family commitment force them to abandon their lifelong hobbies, and as a result, they cannot spend enough time and effort to their favorite games as they did in 15 or 20 years ago
+T5	Premise 686 836	in my country, except for a minor part of professional athletes, the majority of people stop playing games seriously as soon as they find a decent job
+T6	Premise 838 930	They often feel that such games become more troublesome than enjoyable for their daily lives
+T7	Claim 975 1033	adults often do not pursue games as a competitive activity
+A2	Stance T7 For
+T8	Premise 1041 1092	children are always keen on competition and winning
+T9	Premise 1094 1234	For youngsters, maintaining their desire to win often develops many outstanding characteristics whether they participate sport events or not
+T10	Premise 1249 1390	my younger sister likes fencing, and thanks to her desire to win, she never gives up when facing a difficult situation, or even becoming hurt
+T11	Premise 1411 1485	adults often consider such behaviors as childish and drop them immediately
+T12	Premise 1496 1584	a competitive person usually finds it difficult to cooperate with friends and colleagues
+T13	Premise 1603 1712	they no longer play games for any moderate achievements, and gradually lose their interest in such activities
+T14	MajorClaim 1733 1867	adults do need to play games, but their styles are often distinct from children's, which are often less competitive and more enjoyable
+T15	Claim 1922 2033	games are just some leisure activities for adults, not something necessary as they are meant to be for children
+A3	Stance T15 For
+R1	attacks Arg1:T3 Arg2:T2
+R2	supports Arg1:T4 Arg2:T2
+R3	supports Arg1:T5 Arg2:T2
+R4	supports Arg1:T6 Arg2:T2
+R5	supports Arg1:T2 Arg2:T1
+R6	supports Arg1:T8 Arg2:T7
+R7	supports Arg1:T9 Arg2:T7
+R8	supports Arg1:T10 Arg2:T9
+R9	supports Arg1:T11 Arg2:T7
+R10	supports Arg1:T12 Arg2:T11
+R11	supports Arg1:T13 Arg2:T7
+R12	supports Arg1:T7 Arg2:T1
+R13	supports Arg1:T15 Arg2:T14

@@ -1,0 +1,23 @@
+T1	MajorClaim 1318 1559	I completely agree that government should not pay for the university fees because this will make both the parents and students in charge for their future themselves not just depend on the government to do all their responsibilities for them.
+T2	Claim 124 317	I completely agree that government should provide those education to their people; however, for the more higher education like university, the students or their parents should pay for the fees.
+T3	Claim 421 571	I don't think it is also fair for the government as the government has been paying a lot of money for their students' primary and secondary education.
+T4	Premise 572 721	It is better for them to use the money to pay for the other students' education so that all people in their country could receive the same education.
+T5	Claim 732 899	students that already have a basic knowledge and education can get a part-time job and they can pay for their own studies when their parent could not afford to pay it.
+T6	Premise 900 983	They will be more responsible with their studies when they pay the fees themselves.
+T7	Premise 984 1109	In addition to that, the students will become more independent and it will build their characters in the marketplace as well.
+T8	Claim 1123 1302	this will encourage all the parents to think of the way to help their children to achieve more in their lives as they need to make some contribution too for their children future.
+T9	Claim 318 401	Some parents might not have enough money to pay for their children university fees.
+A1	Stance T2 For
+A2	Stance T3 For
+A3	Stance T5 For
+A4	Stance T8 For
+A5	Stance T9 Against
+R1	supports Arg1:T2 Arg2:T1
+R2	supports Arg1:T3 Arg2:T1
+R3	supports Arg1:T4 Arg2:T3
+R4	supports Arg1:T5 Arg2:T1
+R5	supports Arg1:T6 Arg2:T5
+R6	supports Arg1:T7 Arg2:T5
+R7	supports Arg1:T8 Arg2:T1
+R8	attacks Arg1:T9 Arg2:T2
+R9	attacks Arg1:T9 Arg2:T1

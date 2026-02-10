@@ -1,0 +1,34 @@
+T1	MajorClaim 336 472	I am a kind of person who believes to children should learn to manage their own money at a young age, due to reasons that I stated below
+T2	Premise 528 642	sociologists found that our characteristics and personality forms early in life, even though when we are not borne
+T3	Claim 644 730	So it is crucial to learn our children as soon as possible to learn financially issues
+A1	Stance T3 For
+T4	Premise 800 877	when I was at age 7 my father gave me monthly money to buy thing that I liked
+T5	Premise 879 952	First time I spend the whole money to eat at school and my money finished
+T6	Premise 954 1019	I asked my father for extra money, but he refuse to give it to me
+T7	Premise 1021 1076	I found that I should manage the way that I spend money
+T8	Premise 1078 1150	From then I learned to be economical and now I have every thing I wanted
+T9	Claim 1152 1241	Another aspect of learning children to manage their money is on the finance of the family
+A2	Stance T9 For
+T10	Premise 1243 1350	If parents get the children all they wanted, they would be run out of their money for their essential needs
+T11	Premise 1352 1545	Even in rich families if children did not learn to manage their own money, when they grow up they will become unappreciative and dependent persons who want to just used their parents prosperity
+T12	Premise 1567 1680	I had a friend to had a rich and prosperous family, his parent gave him everything he demanded from his childhood
+T13	Premise 1682 1769	He became an arrogant person who could not stand on his feet and always asked for money
+T14	Premise 1771 1901	His parent tried a lot and hired some experts to learn him manage his financial and carrier life, but unfortunately it was useless
+T15	Premise 1903 2011	Finally one night, having fun with his irresponsible friend in his luxuries car, he crashed a truck and died
+T16	Premise 2013 2109	Not only did he cause lots of damage to the society property, but also bring sorry to his family
+T17	MajorClaim 2220 2423	it is very important to learn our children from their beginning of their life to be financially responsible persons, because our personality form in childhood and it is not easy to change it in adulthood
+R1	supports Arg1:T2 Arg2:T3
+R2	supports Arg1:T3 Arg2:T1
+R3	supports Arg1:T4 Arg2:T3
+R4	supports Arg1:T5 Arg2:T3
+R5	supports Arg1:T6 Arg2:T3
+R6	supports Arg1:T7 Arg2:T3
+R7	supports Arg1:T8 Arg2:T3
+R8	supports Arg1:T9 Arg2:T1
+R9	supports Arg1:T10 Arg2:T9
+R10	supports Arg1:T11 Arg2:T9
+R11	supports Arg1:T12 Arg2:T9
+R12	supports Arg1:T13 Arg2:T9
+R13	supports Arg1:T14 Arg2:T9
+R14	supports Arg1:T15 Arg2:T9
+R15	supports Arg1:T16 Arg2:T9

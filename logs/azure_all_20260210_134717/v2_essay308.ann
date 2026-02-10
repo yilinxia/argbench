@@ -1,0 +1,35 @@
+T1	MajorClaim 0 59	Staying in one place is better than moving number of places
+T2	Claim 214 281	I prefer to spend my entire live in one place which is my hometown.
+T3	Premise 282 407	In my hometown, I have a lot of friends and good relationships, I love the traffic in here, and the environment is wonderful.
+T4	Claim 454 593	In here, I have a lot of friends, and we usually spend free time to play sports like soccer, basketball and of course we have a lot of fun.
+T5	Premise 594 673	Every people in my town have known each others, and we have good relationships.
+T6	Premise 674 739	If anyone needs help, his neighbor will help as much as possible.
+T7	Claim 740 790	Nowhere else can give me some people like in here.
+T8	Claim 791 853	I want to live here because I love the traffic system in here.
+T9	Premise 854 924	We have large streets but few cars, so we can move easily to anywhere.
+T10	Premise 925 1074	Last week, I went to the city center to meet my friends. The traffic in the city was too crowed. I have to wait for an hour to go to my friend house.
+T11	Claim 1075 1111	I also love the environment in here.
+T12	Premise 1112 1270	I have been gone to some places to travel and stay for a short time, and I realize that the environment in some place isn't clean and fresh like my home town.
+T13	Premise 1271 1337	There were a lot of people so the environment can't be keep clean.
+T14	MajorClaim 1338 1434	In conclusion, I strongly feel that staying in one place is better than moving number of places.
+T15	Claim 1435 1620	Moving some places can give to you a lot of experiences but living in one place like your hometown can make you feel comfortable about the traffic, people and of course the environment.
+A1	Stance T2 For
+A2	Stance T4 For
+A3	Stance T7 For
+A4	Stance T8 For
+A5	Stance T11 For
+A6	Stance T15 For
+R1	supports Arg1:T2 Arg2:T1
+R2	supports Arg1:T3 Arg2:T2
+R3	supports Arg1:T4 Arg2:T2
+R4	supports Arg1:T5 Arg2:T4
+R5	supports Arg1:T6 Arg2:T4
+R6	supports Arg1:T7 Arg2:T2
+R7	supports Arg1:T8 Arg2:T2
+R8	supports Arg1:T9 Arg2:T8
+R9	supports Arg1:T10 Arg2:T8
+R10	supports Arg1:T11 Arg2:T2
+R11	supports Arg1:T12 Arg2:T11
+R12	supports Arg1:T13 Arg2:T12
+R13	supports Arg1:T14 Arg2:T1
+R14	supports Arg1:T15 Arg2:T14

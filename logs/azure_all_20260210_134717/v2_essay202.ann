@@ -1,0 +1,34 @@
+T1	MajorClaim 424 567	Therefore in my view, a good co-worker needs to have three most important characteristics such as cooperation, trustworthiness, and fellowship.
+T2	Claim 568 622	The co-workers should be cooperative with one another.
+T3	Premise 623 680	If they do not cooperate, there will be lots of disputes.
+T4	Premise 681 1082	I once had a co-worker who was too family conscious. Therefore he always left office sharp on time without giving any consideration whether the work has been finished or not. Most of the time, I had to do his work in order to protect him from getting caught to the supervisor who was a very authoritative person. However, one day I wanted to be off early because I had to take my mother to the doctor.
+T5	Premise 1083 1209	When I requested my co-worker to give a helping hand to finish my work early, he turned down my request giving a silly excuse.
+T6	Premise 1210 1378	From that day onwards I did not offer him any support and finally he was transferred from our department to a distant location as a punishment for his irresponsibility.
+T7	Claim 1379 1499	Therefore, I believe if the co-workers do not corporate with each other that would be devastating in a work environment.
+T8	Claim 1500 1540	The co-workers need to trust each other.
+T9	Claim 1541 1574	They should not act on suspicion.
+T10	Premise 1575 1631	This is a very important aspect in the work environment.
+T11	Premise 1632 2092	I came across a situation once such that one of my subordinates used to suspect his co-worker for carrying tales to me. To a certain extent his suspicion was valid as his co-worker made several attempts to highlight the drawbacks of him. However I never encourage tale carriers as a principle and therefore his co-worker gave up talking ill against him with me. But this mistrust continued and created very unpleasant situations for everybody in my department.
+T12	Claim 2094 2147	Finally, the co-workers should believe in fellowship.
+T13	Premise 2148 2242	This helps them to enjoy their work life while building up very strong personal relationships.
+T14	Premise 2243 2291	After all, you spend most of your day at office.
+T15	Premise 2292 2357	If you have a good company in office, it is certainly a blessing.
+A1	Stance T2 For
+A2	Stance T7 For
+A3	Stance T8 For
+A4	Stance T9 For
+A5	Stance T12 For
+R1	supports Arg1:T2 Arg2:T1
+R2	supports Arg1:T7 Arg2:T2
+R3	supports Arg1:T3 Arg2:T7
+R4	supports Arg1:T4 Arg2:T7
+R5	supports Arg1:T5 Arg2:T7
+R6	supports Arg1:T6 Arg2:T7
+R7	supports Arg1:T8 Arg2:T1
+R8	supports Arg1:T9 Arg2:T8
+R9	supports Arg1:T10 Arg2:T8
+R10	supports Arg1:T11 Arg2:T8
+R11	supports Arg1:T12 Arg2:T1
+R12	supports Arg1:T13 Arg2:T12
+R13	supports Arg1:T14 Arg2:T12
+R14	supports Arg1:T15 Arg2:T12

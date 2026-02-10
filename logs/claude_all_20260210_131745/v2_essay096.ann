@@ -1,0 +1,31 @@
+T1	MajorClaim 394 513	I, for one, agree to this resolution whole-heartedly as it poses advantages to various parties as I shall discuss below
+T2	Claim 550 661	it would be easier for the juries to make a decision if they know about the past information about the criminal
+A1	Stance T2 For
+T3	Premise 680 791	knowing their background very well will enable the juries to analyze the crime before coming up with a judgment
+T4	Premise 807 1035	take a person who has not murdered anyone but is suddenly found to be guilty. The juries will be able to know weather the individual committed the crime intentionally or due to circumstances by knowing the facts about the person
+T5	Premise 1043 1097	punishment can be given in accordance to the condition
+T6	Claim 1116 1144	a fair trial can be achieved
+A2	Stance T6 For
+T7	Premise 1146 1237	As all of us know, juries are a group of people who have no or less knowledge regarding law
+T8	Premise 1245 1421	exposing them to the past records of the criminal can give them more room to think rationally and finally put the pieces together in order to produce a more meaningful decision
+T9	Premise 1436 1549	the juries will have a sense of relief that they have come up with better conclusion based on plenty of evidences
+T10	Premise 1566 1611	the convicted will also receive a fair action
+T11	Claim 1635 1765	when the background of the convicted is 'dug' deeper and is revealed to mass of anonymous people, his privacy is being jeopardized
+A3	Stance T11 Against
+T12	Premise 1767 1843	If finally he is proven innocent, he may feel embarrassed to face the public
+T13	Premise 1869 2007	the crimes done by criminals should be brought to light and the public should be aware of it so that they will not become a victim as well
+T14	MajorClaim 2022 2186	I definitely feel that the current way of the juries judging the case should be transformed and they should know the facts about the criminals they are dealing with
+T15	Premise 2188 2319	This is of paramount importance so that they will be able to give a better and reliable as well as a fair judgment to the convicted
+R1	supports Arg1:T3 Arg2:T2
+R2	supports Arg1:T4 Arg2:T2
+R3	supports Arg1:T5 Arg2:T2
+R4	supports Arg1:T2 Arg2:T1
+R5	supports Arg1:T7 Arg2:T6
+R6	supports Arg1:T8 Arg2:T6
+R7	supports Arg1:T9 Arg2:T6
+R8	supports Arg1:T10 Arg2:T6
+R9	supports Arg1:T6 Arg2:T1
+R10	supports Arg1:T12 Arg2:T11
+R11	attacks Arg1:T13 Arg2:T11
+R12	attacks Arg1:T11 Arg2:T1
+R13	supports Arg1:T15 Arg2:T14

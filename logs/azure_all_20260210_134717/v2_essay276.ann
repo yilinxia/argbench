@@ -1,0 +1,30 @@
+T1	MajorClaim 0 45	Dancing plays an important role in a culture.
+T2	Claim 379 475	First, dancing are significant part of culture that could show to something that people believe.
+T3	Premise 476 601	For example, some culture people believe that they dance in order to sacrifice to their god so they will be get a happy life.
+T4	Premise 602 699	Or some part of the world that are in arid area believe that if they danced, the rain would come.
+T5	Premise 700 752	Consequently, dancing are the part of people belief.
+T6	Claim 753 817	Secondly, dancing can represent to civilization of that culture.
+T7	Premise 818 989	For instance, I have seen many western movies that when a kingdom have visitor from another kingdom, king or queen would dance to show a splendid of their kingdom culture.
+T8	Premise 990 1071	The way of movement, the way that they costume and also a music while they dance.
+T9	Premise 1072 1116	All this is a civilization of their culture.
+T10	Claim 1117 1219	Thirdly, many culture, people have many ways to entertain themselves. And dancing is one of that ways.
+T11	Premise 1220 1272	Both people who see and dance also have a good time.
+T12	Premise 1273 1444	For example, many event, such as christmas, last christmas I went to mall to buy gifts, and I was entertained by group of people in santa custom dancing in christmas song.
+T13	Premise 1445 1531	I felt that people around me happy and group of santas also happy to see people happy.
+T14	MajorClaim 1532 1672	In conclusion, I strongly agree with notion that dancing is an important part of culture because dancing are represent to believe of people.
+A1	Stance T2 For
+A2	Stance T6 For
+A3	Stance T10 For
+R1	supports Arg1:T2 Arg2:T1
+R2	supports Arg1:T3 Arg2:T2
+R3	supports Arg1:T4 Arg2:T2
+R4	supports Arg1:T5 Arg2:T2
+R5	supports Arg1:T6 Arg2:T1
+R6	supports Arg1:T7 Arg2:T6
+R7	supports Arg1:T8 Arg2:T6
+R8	supports Arg1:T9 Arg2:T6
+R9	supports Arg1:T10 Arg2:T1
+R10	supports Arg1:T11 Arg2:T10
+R11	supports Arg1:T12 Arg2:T10
+R12	supports Arg1:T13 Arg2:T10
+R13	supports Arg1:T14 Arg2:T1

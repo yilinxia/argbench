@@ -1,0 +1,14 @@
+T1	MajorClaim 1842 2044	From reasons listed above, we can safely draw the conclusion that, a government should spare effort on young children education as well as universities, both are crucial on the way to a brighter future.
+T2	Claim 1489 1604	Some may argue that universities can support themselve well by donation or invention, but this argument is invalid.
+T3	Claim 1333 1488	The high technology and new ideas applied into practice may not only lead a country to flourish but also elevate its status in the international community.
+T4	Premise 1605 1841	Researches into humanities and art still need large amount of money, what's more, government's big budget on universities may attract more excellent intellectuals and researchers into the country and enjoy a higher reputation worldwide.
+T5	Claim 541 772	Concerning that elementary education, like the base of a architecture, is the fundamental requirement to be a qualified citizen in today's society, government should guarantee that all people have equal and convenient access to it.
+T6	Premise 773 943	So a lack of well-established primary education goes hand in hand with a high rate of illiteracy, and this interplay seriously compromises a country's future development.
+A1	Stance T2	For
+A2	Stance T3	For
+A3	Stance T5	For
+R1	supports Arg1:T5 Arg2:T1
+R2	supports Arg1:T6 Arg2:T5
+R3	supports Arg1:T3 Arg2:T1
+R4	supports Arg1:T4 Arg2:T3
+R5	supports Arg1:T2 Arg2:T3

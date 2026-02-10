@@ -1,0 +1,30 @@
+T1	MajorClaim 0 59	Humans should be able to use animals for their own benefit?
+T2	Claim 141 266	He has domesticated a large number of animals and birds and makes use of them to make life easier and convenient for himself.
+T3	Claim 267 396	Many people encourage the use of animals for their personal needs, while others are concerned that animals should not be misused.
+T4	Claim 474 925	Human being has driven many animals for their personal use such as, cows and other milch animals for yielding milk from them. Likewise, other animals such as, horses, cattles and donkeys for farming, agriculture and as a mode of transportation. Many people keep pets like dogs and cats, trained them as service dogs and snuffing dogs which are very helpful to police force and even to some blind peoples. They are kept for security purposes in houses.
+T5	Claim 926 1005	On the other hand, many farmers and owners exploit animals beyond their limits.
+T6	Premise 1006 1112	For instance, cows are often injected by Oxytocin, a hormone which is used to forcibly increase lactation.
+T7	Premise 1113 1176	This in turn, causes lots of discomfort and pain to the cattle.
+T8	Premise 1177 1310	Furthermore, thousand of animals undergo painful suffering or death as a result of scientific research of drugs and various products.
+T9	Premise 1311 1382	Another example of this is cage farming which is against animal rights.
+T10	Premise 1383 1514	Many other practices like, equestrian sport where horses run miles and miles and beaten up by jockeys to make them run more faster.
+T11	Premise 1515 1569	And above all pleasure hunting of defenseless animals.
+T12	MajorClaim 1570 1679	From my prospective, human being should behave as a guardian to animals rather than as their lord or masters.
+T13	Claim 1680 1799	Animal rights are meant to set limits on human behavior and manipulation of them should be punished as a serious crime.
+A1	Stance T2 For
+A2	Stance T3 Against
+A3	Stance T4 For
+A4	Stance T5 Against
+A5	Stance T13 Against
+R1	supports Arg1:T2 Arg2:T1
+R2	attacks Arg1:T3 Arg2:T1
+R3	supports Arg1:T4 Arg2:T1
+R4	attacks Arg1:T5 Arg2:T1
+R5	supports Arg1:T6 Arg2:T5
+R6	supports Arg1:T7 Arg2:T5
+R7	supports Arg1:T8 Arg2:T5
+R8	supports Arg1:T9 Arg2:T5
+R9	supports Arg1:T10 Arg2:T5
+R10	supports Arg1:T11 Arg2:T5
+R11	attacks Arg1:T12 Arg2:T1
+R12	supports Arg1:T13 Arg2:T12

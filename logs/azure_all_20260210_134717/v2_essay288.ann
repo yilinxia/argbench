@@ -1,0 +1,47 @@
+T1	MajorClaim 367 447	So the thing that I really want to change is to have more public transportation.
+T2	Premise 448 498	Since I’m facing the traffic congestion every day.
+T3	Premise 499 534	And this problem seem to get worst.
+T4	Claim 536 647	At first, it should have more alternatives to use public transportation, such as a subway train or a sky train.
+A1	Stance T4 For
+T5	Premise 648 699	Hence, people will have more ways to go to a place.
+T6	Premise 700 820	Since now buses are only a kind of public transportation in this community, It makes people in this area have no choice.
+T7	Premise 821 870	They must take only a bus to go to another place.
+T8	Premise 871 955	If a subway and a sky train are available here, it will be more convenience to them.
+T9	Premise 956 1047	For example, people can estimate time from taking a subway train due to the train schedule.
+T10	Premise 1048 1099	On the contrary they cannot do so in case of a bus.
+T11	Premise 1100 1174	Also, this improvement will decrease a bad traffic on the road indirectly.
+T12	Claim 1176 1274	Secondly, the buses provide merely two routes in this community. It is absolutely a major problem.
+A2	Stance T12 For
+T13	Premise 1275 1474	For example, if a place I intend to go is not in the route of buses, I still have to take a bus that does not bring me to my destination but go to the center station first to exchange to another bus.
+T14	Premise 1475 1506	Obviously, it is waste of time.
+T15	Premise 1507 1577	They should increase more routes to make people transport more easily.
+T16	Claim 1578 1683	Lastly, having more kinds of public transportation can dwindle the number of people using their own cars.
+A3	Stance T16 For
+T17	Premise 1684 1718	Also, it provides many advantages.
+T18	Premise 1719 1820	For instance, people can save their expenses form gasoline, which nowadays is getting more expensive.
+T19	Premise 1821 1903	The necessary energy will slowly be used up, since people use less their own cars.
+T20	Claim 1904 2000	To sum up, the transportation is an elementary factor which directly affects to people’s living.
+A4	Stance T20 For
+T21	Premise 2001 2046	I wish one day this problem would be changed.
+T22	Premise 2047 2145	And then, the transportation in my hometown is no longer difficult for everyone in this community.
+R1	supports Arg1:T2 Arg2:T1
+R2	supports Arg1:T3 Arg2:T1
+R3	supports Arg1:T4 Arg2:T1
+R4	supports Arg1:T5 Arg2:T4
+R5	supports Arg1:T6 Arg2:T4
+R6	supports Arg1:T7 Arg2:T4
+R7	supports Arg1:T8 Arg2:T4
+R8	supports Arg1:T9 Arg2:T4
+R9	supports Arg1:T10 Arg2:T4
+R10	supports Arg1:T11 Arg2:T4
+R11	supports Arg1:T12 Arg2:T1
+R12	supports Arg1:T13 Arg2:T12
+R13	supports Arg1:T14 Arg2:T12
+R14	supports Arg1:T15 Arg2:T12
+R15	supports Arg1:T16 Arg2:T1
+R16	supports Arg1:T17 Arg2:T16
+R17	supports Arg1:T18 Arg2:T16
+R18	supports Arg1:T19 Arg2:T16
+R19	supports Arg1:T20 Arg2:T1
+R20	supports Arg1:T21 Arg2:T20
+R21	supports Arg1:T22 Arg2:T20

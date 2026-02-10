@@ -1,0 +1,49 @@
+T1	MajorClaim 216 314	Hence, creative artists must be given the freedom to express their ideas without any restrictions.
+T2	Claim 1014 1076	This type of approach is a hurdle in promoting creative minds.
+A1	Stance T2 For
+T3	Claim 1268 1362	Restrictions would just curb the innovative ideas of the artists and would limit their brains.
+A2	Stance T3 For
+T4	Claim 1363 1450	Like the media, artists should also be given the freedom to express their ideas freely.
+A3	Stance T4 For
+T5	Claim 1451 1526	However, artists should also know not to hurt the sentiments of the people.
+A4	Stance T5 Against
+T6	Claim 1649 1762	Artists should have self-awareness not to create vulgar, hurtful or useless works which do not serve any purpose.
+A5	Stance T6 Against
+T7	Claim 1763 1835	I firmly believe that artists should be given the freedom of expression.
+A6	Stance T7 For
+T8	Claim 1836 1887	Mind can not work when it is chained in boundaries.
+A7	Stance T8 For
+T9	Claim 1888 2001	Imagination is at its best when the mind is relaxed and free from the fear of government or any restrictive laws.
+A8	Stance T9 For
+T10	Premise 55 109	Creativity is the ability to think beyond the obvious.
+T11	Premise 178 215	Creativity originates in a free mind.
+T12	Premise 315 463	Time and again, creative artists like Michaelangelo, Picasso, Salman Rushdie, Shakespeare etc. have made artistic works which gave a social message.
+T13	Premise 464 616	Right from sculptures to paintings, books to drama and movies, all these artistic works have reflected the contemporary social issues of different eras.
+T14	Premise 617 691	Creative works help to create social awareness by giving a social message.
+T15	Premise 692 803	Nonetheless, innovative works makes people realise things in a peaceful way and peep into their own conscience.
+T16	Premise 804 879	It helps to raise issues and criticise the wrong doings of the governments.
+T17	Premise 880 1013	For instance, Bangladeshi writer Taslima Nasrin was accused of acting against the government, just because she raised a social issue.
+T18	Premise 1077 1128	In addition, creativity also gives aesthetic charm.
+T19	Premise 1129 1182	Unfortunately, many governments restrict the artists.
+T20	Premise 1183 1267	Frank Zappa once said, " Mind is like a parachute, it doesn't work if its not open."
+T21	Premise 1527 1648	Many artists have been involved in controversies because of hurting the religious or social beliefs of the common people.
+R1	supports Arg1:T11 Arg2:T1
+R2	supports Arg1:T10 Arg2:T1
+R3	supports Arg1:T12 Arg2:T14
+R4	supports Arg1:T13 Arg2:T14
+R5	supports Arg1:T14 Arg2:T1
+R6	supports Arg1:T15 Arg2:T1
+R7	supports Arg1:T16 Arg2:T2
+R8	supports Arg1:T17 Arg2:T2
+R9	supports Arg1:T2 Arg2:T1
+R10	supports Arg1:T18 Arg2:T1
+R11	supports Arg1:T19 Arg2:T3
+R12	supports Arg1:T20 Arg2:T3
+R13	supports Arg1:T3 Arg2:T1
+R14	supports Arg1:T4 Arg2:T1
+R15	supports Arg1:T21 Arg2:T5
+R16	attacks Arg1:T5 Arg2:T1
+R17	attacks Arg1:T6 Arg2:T1
+R18	supports Arg1:T7 Arg2:T1
+R19	supports Arg1:T8 Arg2:T1
+R20	supports Arg1:T9 Arg2:T1

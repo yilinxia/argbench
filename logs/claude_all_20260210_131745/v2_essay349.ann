@@ -1,0 +1,26 @@
+T1	MajorClaim 209 317	I disagree with the idea that unimportant subjects such as music and sports should be got rid of the program
+T2	Claim 319 472	Many people believe that students only need to study academic subjects like mathematics, physics because these subject are necessary for students' future
+A1	Stance T2 Against
+T3	Premise 474 599	This is understandable when labor market now has high competition; students have to meet requirements regard of qualification
+T4	Premise 601 741	In addition, the unemployment rate is always high, so their parents want children to study these subjects which can help students have a job
+T5	Claim 789 867	I would argue that there are many things much more important than having a job
+A2	Stance T5 For
+T6	Claim 878 942	studying music, art or sports is also very important to students
+A3	Stance T6 For
+T7	Premise 944 1043	This enables students to develop their potentials through discovering the natural world around them
+T8	Claim 1055 1177	to get a job in labor market, not only do students require hard skills but also soft skills such as teamwork, presentation
+A4	Stance T8 For
+T9	Premise 1179 1300	For instance, through taking part in a sport, students can understand team spirit and learn lessons about teamwork skills
+T10	Premise 1302 1362	Therefore, these subjects might fulfil the students' ability
+T11	Claim 1373 1506	children's future do not depend heavily on the academic subjects they study in school, it is the result of their efforts and capacity
+A5	Stance T11 For
+T12	MajorClaim 1523 1666	although the academic subjects play a primary role in nurturing children, it seem to me that the effects of learning music, sports are profound
+R1	supports Arg1:T3 Arg2:T2
+R2	supports Arg1:T4 Arg2:T2
+R3	supports Arg1:T7 Arg2:T6
+R4	supports Arg1:T9 Arg2:T8
+R5	supports Arg1:T10 Arg2:T8
+R6	supports Arg1:T6 Arg2:T1
+R7	supports Arg1:T8 Arg2:T1
+R8	supports Arg1:T11 Arg2:T1
+R9	supports Arg1:T5 Arg2:T1

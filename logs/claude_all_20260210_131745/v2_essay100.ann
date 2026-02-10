@@ -1,0 +1,36 @@
+T1	MajorClaim 323 459	I do agree to that opinion to a certain degree. Nevertheless, I feel that one can also shine without even having to attend universities.
+T2	Claim 480 613	it is certainly true that university education is of paramount importance for certain professions such as doctor, engineer and lawyer
+A1	Stance T2 For
+T3	Premise 615 724	Without proper training and knowledge, it would be impossible for them to perform their best in their careers
+T4	Premise 726 886	Not only that, when they are in a university, they will have the opportunity to share their knowledge as well as to network for business associates and partners
+T5	Premise 888 980	This can benefit them in future when they intend to open up their own companies or hospitals
+T6	Claim 1016 1129	there are also a significant number of people who are very successful in their fields without going to university
+A2	Stance T6 Against
+T7	Premise 1131 1233	Take for instance those who start their own business. These people depend solely on hard work and luck
+T8	Premise 1235 1299	Interestingly, for some of them it proved to be a profitable job
+T9	Premise 1301 1460	To cite an example, Michael Dell who is the founder and the CEO of Dell left college at 19. Initially, he started his computer company in his college dorm room
+T10	Premise 1462 1564	Eventually, he used his earnings as well as his family's loan in order to progress to be who he is now
+T11	Claim 1579 1650	people with natural talents are also most likely to excel in their life
+A3	Stance T11 Against
+T12	Premise 1652 1716	This is especially true in sectors like entertainment and sports
+T13	Premise 1718 1830	The introduction of increasing number of reality shows have made it possible for all those lucky ones to triumph
+T14	Premise 1832 1946	To illustrate this further, David Archuleta who was once a nobody has now taken up a large space in hearts of many
+T15	Premise 1948 2044	Hence, it is evident that individuals born with talents have also a high chance to be successful
+T16	MajorClaim 2065 2166	it is indeed true that university education is pivotal in a person's life in order for one to prosper
+T17	MajorClaim 2177 2295	it would be wrong to say that one's success completely depends on the education he or she receives at the institutions
+T18	Premise 2297 2359	Natural talent and hard work also contribute to their progress
+R1	supports Arg1:T3 Arg2:T2
+R2	supports Arg1:T4 Arg2:T2
+R3	supports Arg1:T5 Arg2:T2
+R4	supports Arg1:T2 Arg2:T1
+R5	supports Arg1:T7 Arg2:T6
+R6	supports Arg1:T8 Arg2:T6
+R7	supports Arg1:T9 Arg2:T6
+R8	supports Arg1:T10 Arg2:T6
+R9	supports Arg1:T6 Arg2:T1
+R10	supports Arg1:T12 Arg2:T11
+R11	supports Arg1:T13 Arg2:T11
+R12	supports Arg1:T14 Arg2:T11
+R13	supports Arg1:T15 Arg2:T11
+R14	supports Arg1:T11 Arg2:T1
+R15	supports Arg1:T18 Arg2:T17

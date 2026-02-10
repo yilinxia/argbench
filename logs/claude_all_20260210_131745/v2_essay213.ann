@@ -1,0 +1,29 @@
+T1	MajorClaim 234 312	I still believe that the capability of working independly is more significant.
+T2	Claim 313 379	Of course, effective cooperation can make things easier and faster
+A1	Stance T2 Against
+T3	Claim 385 479	in many important cases when team-working is not possible, the ability to work alone will help
+T4	Premise 481 565	The apperant example is that there are a lot of tests that do not allow team-working
+T5	Premise 567 768	Let's imagine that you perform really well when you can discuss the problems with other people, but you have no experience of working alone, standardized tests such as SAT, TOEFL may be your nightmares
+T6	Premise 770 878	Testing is a very important aspect of life, and still the majority of tests do not allow you to work in team
+T7	Claim 880 1040	Therefore, if you want to get brilliant achievements such as going to college, acing your school's final tests, you should consider learning to work on your own
+A2	Stance T3 For
+A3	Stance T7 For
+T8	Claim 1052 1139	the ability to work alone will help you increase your ability to work with other people
+A4	Stance T8 For
+T9	Premise 1141 1218	Working in team does not mean that you do not have to come up with your ideas
+T10	Premise 1220 1313	Everybody in a team must have his/her own opinion first, then discuss them with other members
+T11	Premise 1315 1413	When we work in team, we still think individually because our brain are not connected but separate
+T12	Premise 1415 1521	When everyone in a team can come up with his/her own ideas, working in team will definitely more effective
+T13	MajorClaim 1538 1659	working with a group a people and working individually are all important. Both skills are necessary for a successful life
+T14	MajorClaim 1661 1805	Nevertheless, the capablity of working alone is the foundation for the skill to work in team and plays a significant role in a lot of situations
+R1	supports Arg1:T4 Arg2:T3
+R2	supports Arg1:T5 Arg2:T3
+R3	supports Arg1:T6 Arg2:T3
+R4	supports Arg1:T3 Arg2:T1
+R5	supports Arg1:T7 Arg2:T1
+R6	supports Arg1:T9 Arg2:T8
+R7	supports Arg1:T10 Arg2:T8
+R8	supports Arg1:T11 Arg2:T8
+R9	supports Arg1:T12 Arg2:T8
+R10	supports Arg1:T8 Arg2:T1
+R11	attacks Arg1:T2 Arg2:T1

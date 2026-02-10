@@ -1,0 +1,39 @@
+T1	MajorClaim 301 395	the artists must be given freedom so that they will produce some really marvelous masterpiece.
+T2	Claim 416 524	if there is control over artists' ideas, they will definitely lose their sense of creativity in the long run
+A1	Stance T2 For
+T3	Premise 526 707	It is undeniable that when they are given the opportunity to express themselves, most artists will think out of the box and come up with spectacular Arts such as paintings or movies
+T4	Premise 709 832	For example, paintings by Da Vinci and Michallengo are admired even till now as they were not restricted during those times
+T5	Claim 844 923	without any limitations, there will be more awe inspiring work from our artists
+A2	Stance T5 For
+T6	Claim 938 1070	it is every human's right to be able to voice out their opinions in any ways as long as they do not cause any problems to the nation
+A3	Stance T6 For
+T7	Premise 1072 1158	Today, many countries make numerous efforts to show that they are democratic countries
+T8	Premise 1160 1277	Arts is one of the ways that can be used to criticise social problems and government policies in a particular country
+T9	Premise 1279 1478	To illustrate this further, the famous movie '3 Idiots' acted by Amir Khan criticises the education system which is chiefly based on memorising and not being able to apply whatever the students learn
+T10	Claim 1486 1570	human rights is violated if artists are not allowed to express their feelings freely
+A4	Stance T10 For
+T11	Claim 1606 1663	there are certain drawbacks if artists are not restricted
+A5	Stance T11 Against
+T12	Premise 1665 1748	They might go deeper into certain aspects that can cause controversies in a country
+T13	Premise 1750 1863	To cite an example, Malaysia is a multiracial country whereby all the citizens live together in harmony and peace
+T14	Premise 1865 2019	In case there is anyone who brings up some sensitive issues in their films or books regarding any races, this might end up in some chaos among the society
+T15	Claim 2034 2179	I believe that artists know their boundaries very well and would surely do not want their names tarnished just because of their unscrupulous acts
+A6	Stance T15 For
+T16	MajorClaim 2194 2270	it is now evident that there should not be any restrictions on artists' work
+T17	Premise 2272 2411	Allowing them to think freely will give them an opportunity to express themselves as ideas can naturally flow when there are no limitations
+T18	MajorClaim 2490 2663	I certainly believe that there are many wonderful and beautiful Arts due to the freedom to express ideas and thus, I strongly believe there should be no restrictions on them
+R1	supports Arg1:T3 Arg2:T2
+R2	supports Arg1:T4 Arg2:T2
+R3	supports Arg1:T2 Arg2:T1
+R4	supports Arg1:T5 Arg2:T1
+R5	supports Arg1:T7 Arg2:T6
+R6	supports Arg1:T8 Arg2:T6
+R7	supports Arg1:T9 Arg2:T6
+R8	supports Arg1:T6 Arg2:T1
+R9	supports Arg1:T10 Arg2:T1
+R10	supports Arg1:T12 Arg2:T11
+R11	supports Arg1:T13 Arg2:T11
+R12	supports Arg1:T14 Arg2:T11
+R13	attacks Arg1:T11 Arg2:T1
+R14	attacks Arg1:T15 Arg2:T11
+R15	supports Arg1:T17 Arg2:T16

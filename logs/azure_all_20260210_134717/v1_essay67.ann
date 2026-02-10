@@ -1,0 +1,25 @@
+T1	MajorClaim 265 406	freedom of expressing thoughts and ideas should always be eulogized and it's rather iniquitous to impose a shackle on artists' will to create
+T2	Claim 408 669	One of the major concerns against freeing artists' creation derives from the fear of social misleading which would destabilize the society; however, I believe the audiences have their own judgement and are not likely to be misled or influenced by some art work.
+T3	Premise 670 918	It is needless to say that art inevitably involves imagination, exaggeration and sometimes is purely fabricated; regardless of whether the work of art is based on truth or not, it is the public's authority to determine how to interpret its meaning.
+T4	Premise 919 1063	If the art displays unreality, the public audiences certainly have the acumen to recognise its untruthfulness and only appreciate its art value;
+T5	Premise 1064 1274	if the art reflects the reality, then what would be the intention to ban it if it was not for covering the dirty truth? Would it be autocratic if the government clamp down the artists who are telling the truth?
+T6	Claim 1275 1349	In a word, the notion of being afraid of social misleading is unjustified.
+T7	Claim 1422 1700	It is undeniable that some of the art work may contain negative implications such as insanity, violence, eroticism etc. I absolutely agree that restrictions on exposure to adolescents should apply as adolescents are not mature enough to avoid being led astray by these contents;
+T8	Claim 1701 1935	however, in the case of adults being the audience, there's really nothing to hide – these negative things objectively exist on this planet and it is impossible for adults to be brain-washed only because of some pieces of creative art.
+T9	Claim 1936 2160	By way of conclusion, I do not root for the idea that restrictions should be put on artists work; on the contrary, they should be encouraged to express their innovative ideas – this world needs them to make itself colourful.
+A1	Stance T2 For
+A2	Stance T6 For
+A3	Stance T7 Against
+A4	Stance T8 For
+A5	Stance T9 For
+R1	supports Arg1:T3 Arg2:T2
+R2	supports Arg1:T4 Arg2:T2
+R3	supports Arg1:T5 Arg2:T2
+R4	supports Arg1:T2 Arg2:T1
+R5	supports Arg1:T6 Arg2:T1
+R6	supports Arg1:T7 Arg2:T1
+R7	supports Arg1:T8 Arg2:T1
+R8	supports Arg1:T9 Arg2:T1
+R9	supports Arg1:T3 Arg2:T6
+R10	supports Arg1:T4 Arg2:T6
+R11	supports Arg1:T5 Arg2:T6

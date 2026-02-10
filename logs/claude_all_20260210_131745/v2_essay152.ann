@@ -1,0 +1,28 @@
+T1	MajorClaim 381 459	I utterly disagree with this opinion due to technological and medical reasons.
+T2	Claim 460 585	We live in an era that technology is developing in the speed of light, steering the world toward a much more convenient place
+A1	Stance T2 For
+T3	Premise 587 803	A clear-cut example that supports this idea is the invention of smart phones. The strong navigation system installed on the phones has been rescued lives of many who left alone in remote areas like forests or deserts
+T4	Premise 815 952	some people criticize social networks as tools that have ruined true relationships and friendships by reducing face-to-face communication
+T5	Claim 954 1190	In my opinion though, social networks such as Facebook could foster the ties between friends and family members who are obligatorily far away from each other by keeping them in touch, the thing that was impossible less than 20 years ago
+A2	Stance T5 For
+T6	Claim 1193 1361	The phenomenal progress in medical science in the last decade was a huge achievement for human being to make the world a healthier and, thus, a happier place to live in
+A3	Stance T6 For
+T7	Premise 1363 1561	Today, even some disabled people with serious vertebral injuries can start doing physical activities like walking again thanks to the continuingly efforts of biomechanical engineers and neurologists
+T8	Premise 1563 1644	The advancement in drug delivery systems is another example that could save lives
+T9	Premise 1646 1783	To be specific, scientists could invent ways to lead drugs directly to the damaged organs of the body, which is a miraculous breakthrough
+T10	Premise 1797 1951	the increase in the average age of human from 50 to around 75 years through last decades is a strong evidence to show how successful human was in medicine
+T11	Premise 1968 2107	even though the people from older generation may claim they had better life as there were stronger bonds between family members and friends
+T12	Claim 2109 2199	I think they are wrong, since they judge the contemporary age through a personal prejudice
+A4	Stance T12 For
+T13	MajorClaim 2269 2395	in the current world living standards stand in a much higher level and people are in better conditions socially and physically
+R1	supports Arg1:T3 Arg2:T2
+R2	attacks Arg1:T4 Arg2:T5
+R3	supports Arg1:T2 Arg2:T1
+R4	supports Arg1:T5 Arg2:T1
+R5	supports Arg1:T7 Arg2:T6
+R6	supports Arg1:T8 Arg2:T6
+R7	supports Arg1:T9 Arg2:T8
+R8	supports Arg1:T10 Arg2:T6
+R9	supports Arg1:T6 Arg2:T1
+R10	attacks Arg1:T11 Arg2:T12
+R11	supports Arg1:T12 Arg2:T13

@@ -1,0 +1,36 @@
+T1	MajorClaim 0 83	Technology designed to make people's lives simpler often make them more complicated
+T2	Claim 505 550	technologies made our lives more complicated.
+A1	Stance T2 For
+R1	supports Arg1:T2 Arg2:T1
+T3	Claim 622 656	new technologies are always great.
+A2	Stance T3 Against
+R2	attacks Arg1:T3 Arg2:T1
+T4	Claim 666 705	it takes time for people to adapt them.
+A3	Stance T4 For
+R3	supports Arg1:T4 Arg2:T1
+T5	Premise 706 822	Since we are informed with devices that are produced with new features nearly every day, many people often get lost.
+R4	supports Arg1:T5 Arg2:T4
+T6	Premise 823 1000	For instance, I use new Iphone which I personally think is great. However, even though I used it for couple months, I still do not know how to use all the features proficiently.
+R5	supports Arg1:T6 Arg2:T4
+T7	Premise 1001 1160	At first, I tried to go through all the instructions but, soon, I gave up because I found out that it is time-consuming and there are too many things to learn.
+R6	supports Arg1:T7 Arg2:T4
+T8	Claim 1168 1201	technology destroys the language.
+A4	Stance T8 For
+R7	supports Arg1:T8 Arg2:T1
+T9	Premise 1202 1317	Ever since people used computers or cellphones to chat with others, they created their own language to communicate.
+R8	supports Arg1:T9 Arg2:T8
+T10	Premise 1318 1426	Because people try to type as fast as they are talking, they use a lot of abbreviations and broken language.
+R9	supports Arg1:T10 Arg2:T8
+T11	Premise 1427 1485	This has gotten worse with twitter, myspace, and facebook.
+R10	supports Arg1:T11 Arg2:T8
+T12	Premise 1486 1618	What are even worse, young people who are still in the early ages are exposed to them and impeded by the newly developed inventions.
+R11	supports Arg1:T12 Arg2:T8
+T13	Premise 1619 1763	To clarify, my younger brother does not know how to spell the words correctly and he talks to his friends with terms that I have never heard of.
+R12	supports Arg1:T13 Arg2:T8
+T14	Premise 1764 1855	I have tried to correct him for couple times but he just thinks that I am too conservative.
+R13	supports Arg1:T14 Arg2:T8
+T15	Claim 1856 1992	Although technologies allowed us to have a convenient life, it has made our lives more chaotic according to the reasons mentioned above.
+A5	Stance T15 For
+R14	supports Arg1:T15 Arg2:T1
+R15	supports Arg1:T4 Arg2:T15
+R16	supports Arg1:T8 Arg2:T15

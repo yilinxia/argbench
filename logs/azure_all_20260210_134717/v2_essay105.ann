@@ -1,0 +1,47 @@
+T1	MajorClaim 1704 1957	In conclusion, I disagree with reducing the cost of medicines, which may exacerbate their qualities. Instead, the government and medical foundations should be responsible for the distribution of drugs to the undeveloped world at a more reasonable price.
+T2	Claim 186 314	It is suggested that companies in developed countries ought to reduce their price of medicines to avoid such unnecessary deaths.
+T3	Premise 42 185	At present, a large number of patients in poor countries are suffering from deaths caused by lack of medication rather than dangerous diseases.
+T4	Claim 315 386	Admittedly, more lives will be saved by the use of effective medicines.
+T5	Premise 387 477	The medical industry in developing countries is incapable of producing high-quality drugs.
+T6	Premise 478 629	With advanced technology, the developed world has achieved remarkable breakthroughs in making medicines, which can cure a variety of serious illnesses.
+T7	Premise 630 726	If people in poorer countries gain access to these drugs, their health situations may be better.
+T8	Claim 727 799	The reduction in cost of medicines therefore shows the sign of humanity.
+T9	Claim 800 906	However, the current cost of medicines is , in fact, reasonable and based on the medicines' effectiveness.
+T10	Premise 907 1021	Apparently, the process of researching, testing and producing drugs in masses costs a substantial amount of money.
+T11	Premise 1022 1087	Moreover, these products prove to ensure human health completely.
+T12	Premise 1088 1229	Suppose companies were forced to reduce the cost of drugs, they would make no profit, even running up debt because of production expenditure.
+T13	Claim 1230 1323	Therefore, the measure cannot be adopted, otherwise those companies will go into liquidation.
+T14	Claim 1324 1367	In short, this is not a long-term solution.
+T15	Claim 1368 1431	Fortunately, there are other measures to improve the situation.
+T16	Claim 1432 1571	It is advisable for the government to encourage medical production by supplying land for building factories and reducing part of the taxes.
+T17	Claim 1572 1703	Additionally, charitable organizations can buy medicines from developed countries and distribute to the undeveloped world for free.
+A1	Stance T2 Against
+A2	Stance T4 Against
+A3	Stance T8 Against
+A4	Stance T9 For
+A5	Stance T13 For
+A6	Stance T14 For
+A7	Stance T15 For
+A8	Stance T16 For
+A9	Stance T17 For
+R1	supports Arg1:T3 Arg2:T2
+R2	supports Arg1:T5 Arg2:T4
+R3	supports Arg1:T6 Arg2:T4
+R4	supports Arg1:T7 Arg2:T4
+R5	supports Arg1:T4 Arg2:T2
+R6	supports Arg1:T4 Arg2:T8
+R7	supports Arg1:T10 Arg2:T9
+R8	supports Arg1:T11 Arg2:T9
+R9	supports Arg1:T12 Arg2:T13
+R10	supports Arg1:T9 Arg2:T13
+R11	supports Arg1:T13 Arg2:T14
+R12	supports Arg1:T14 Arg2:T1
+R13	supports Arg1:T15 Arg2:T1
+R14	supports Arg1:T16 Arg2:T15
+R15	supports Arg1:T17 Arg2:T15
+R16	attacks Arg1:T2 Arg2:T1
+R17	attacks Arg1:T8 Arg2:T1
+R18	supports Arg1:T9 Arg2:T1
+R19	supports Arg1:T13 Arg2:T1
+R20	supports Arg1:T16 Arg2:T1
+R21	supports Arg1:T17 Arg2:T1

@@ -1,0 +1,38 @@
+T1	MajorClaim 0 72	Richer nations should help poorer nations in health, education and trade
+T2	Claim 74 170	Improvements in health, education and trade are essential for the development of poorer nations.
+T3	Claim 171 258	Poorer nations need help from richer nations in these areas to develop their countries.
+T4	Claim 259 383	Firstly, in the area of health, poorer nations normally have less quantity of doctors and nurses compared to richer nations.
+T5	Premise 384 522	High population in poorer countries due to lack of family planning caused the proportion of doctors unbalance to the quantity of resident.
+T6	Premise 523 614	On top of that, poorer nations are lack of hospitals to fulfill the demand of the patients.
+T7	Premise 615 767	To solve these issues, richer nations can contribute by delegating doctors and nurses to these power nations as well as donate money to build hospitals.
+T8	Claim 768 937	Secondly, in the area of education, it is generally agreed that poorer countries often lack of teachers in schools as well as lecturers in higher education institutions.
+T9	Premise 938 1051	Besides that, education for these countries normally is not free so only certain group of students can afford it.
+T10	Premise 1052 1211	In order to solve the education manpower problem, richer countries can allocate experienced educators to train more teachers and lecturers in poorer countries.
+T11	Premise 1212 1333	Meanwhile, for the issue of education fee, richer countries should offer scholarships and loan to the qualified students.
+T12	Claim 1334 1463	Lastly, in the area of trade, no one can deny that poorer countries are lagging behind richer countries due to shortage of money.
+T13	Premise 1464 1571	Trading are less active in poorer countries may also be caused by incomplete transportation infrastructure.
+T14	Premise 1572 1661	For example, residents in rural areas still depend on their own farm for food production.
+T15	Premise 1662 1899	As a token of goodwill, richer nations can provide financial service to poorer countries to encourage trading. The former can also give consultation on setting up a complete and efficient transportation infrastructure to support trading.
+T16	MajorClaim 1900 2028	In conclusion, richer nations should take more responsibility for helping the poorer nations in all health, education and trade.
+T17	Premise 2029 2157	Improvements in these areas will create a better life for residents in poorer nations which they can use to grow their homeland.
+A1	Stance T2 For
+A2	Stance T3 For
+A3	Stance T4 For
+A4	Stance T8 For
+A5	Stance T12 For
+R1	supports Arg1:T2 Arg2:T1
+R2	supports Arg1:T3 Arg2:T1
+R3	supports Arg1:T4 Arg2:T3
+R4	supports Arg1:T5 Arg2:T4
+R5	supports Arg1:T6 Arg2:T4
+R6	supports Arg1:T7 Arg2:T4
+R7	supports Arg1:T8 Arg2:T3
+R8	supports Arg1:T9 Arg2:T8
+R9	supports Arg1:T10 Arg2:T8
+R10	supports Arg1:T11 Arg2:T8
+R11	supports Arg1:T12 Arg2:T3
+R12	supports Arg1:T13 Arg2:T12
+R13	supports Arg1:T14 Arg2:T13
+R14	supports Arg1:T15 Arg2:T12
+R15	supports Arg1:T16 Arg2:T1
+R16	supports Arg1:T17 Arg2:T16

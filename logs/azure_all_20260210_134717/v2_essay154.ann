@@ -1,0 +1,53 @@
+T1	MajorClaim 0 50	Living with a roommate is better than Living alone
+T2	Claim 293 352	As far as I am concerned, I prefer to live with a roommate.
+T3	Claim 353 439	This is because it saves me money, enables me to socialize, and allows me to get help.
+T4	Claim 440 487	Living with a roommate saves me a lot of money.
+T5	Premise 488 559	If you have roommates, you can split the rent and utilities among them.
+T6	Premise 560 597	This means you can get more for less.
+T7	Premise 598 820	For example, last year, I shared a room off-campus with my friend, and we decided to split the rent and heating bills into half: I was able to save about fifty dollars for heating, and two hundred dollars for rent monthly.
+T8	Premise 821 930	I was able to save a lot of money by sharing wasted heating and rooms with my friend and splitting the bills.
+T9	Claim 931 1029	Apart from saving a lot of money, living with a roommate also enables me to socialize more easily.
+T10	Premise 1030 1104	It is always easier to socialize when you have a lot of people around you.
+T11	Premise 1105 1184	You can invite your roommates' friends over to your room and have fun together.
+T12	Premise 1185 1358	For instance, one night, my roommate, Millan, brought his friends along. Even though his friends and I were total strangers to each other, we quickly got to know each other.
+T13	Premise 1359 1499	We soon found out that everyone loved playing video games. We played a video game called 'Halo' together all night, and became good friends.
+T14	Premise 1500 1559	Living with a roommate made socializing much easier for me.
+T15	Claim 1560 1614	Finally, living with a roommate allows me to get help.
+T16	Premise 1615 1694	It often is the case that your roommates have the skills or knowledge you need.
+T17	Premise 1695 1768	When you run into a problem, you can ask your roommates if they can help.
+T18	Premise 1769 1810	Some of them may have something to offer.
+T19	Premise 1811 1961	To illustrate, when my computer mysteriously broke down, I dialed up the manufacturer and asked for help. They failed to give me any useful solutions.
+T20	Premise 1962 2114	To my surprise, one of my roommates noticed my problems and offered to help. He was very good with computers, and he managed to fix the problem quickly.
+T21	Claim 2115 2242	In conclusion, while many people decide to live alone for various reasons, I prefer to live with a roommate, and I always will.
+T22	Claim 2243 2344	This is because it offers me many advantages, such as less spending, more socializing, and more help.
+T23	Claim 2345 2430	I think single people should live with a roommate, if they want to enjoy their lives.
+A1	Stance T2 For
+A2	Stance T3 For
+A3	Stance T4 For
+A4	Stance T9 For
+A5	Stance T15 For
+A6	Stance T21 For
+A7	Stance T22 For
+A8	Stance T23 For
+R1	supports Arg1:T2 Arg2:T1
+R2	supports Arg1:T3 Arg2:T2
+R3	supports Arg1:T4 Arg2:T3
+R4	supports Arg1:T5 Arg2:T4
+R5	supports Arg1:T6 Arg2:T4
+R6	supports Arg1:T7 Arg2:T4
+R7	supports Arg1:T8 Arg2:T4
+R8	supports Arg1:T9 Arg2:T3
+R9	supports Arg1:T10 Arg2:T9
+R10	supports Arg1:T11 Arg2:T9
+R11	supports Arg1:T12 Arg2:T9
+R12	supports Arg1:T13 Arg2:T9
+R13	supports Arg1:T14 Arg2:T9
+R14	supports Arg1:T15 Arg2:T3
+R15	supports Arg1:T16 Arg2:T15
+R16	supports Arg1:T17 Arg2:T15
+R17	supports Arg1:T18 Arg2:T15
+R18	supports Arg1:T19 Arg2:T15
+R19	supports Arg1:T20 Arg2:T15
+R20	supports Arg1:T21 Arg2:T1
+R21	supports Arg1:T22 Arg2:T21
+R22	supports Arg1:T23 Arg2:T1

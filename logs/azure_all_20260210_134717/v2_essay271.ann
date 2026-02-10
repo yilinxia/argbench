@@ -1,0 +1,31 @@
+T1	MajorClaim 491 576	However, I am inclined to believe that being present at classes seems a wiser option.
+T2	Claim 597 819	I truly believe that being present at classes provide students with opportunity of communicating with other students that is beneficial for understanding new material by reviewing them throughout the free times in college.
+T3	Premise 820 881	Also, they can help each other for learning materials better.
+T4	Premise 882 1008	However, if they do not attend classes they cannot use the help of others for assisting them to comprehend difficult problems.
+T5	Claim 1010 1208	Another significant fact which should be taken into consideration is that by the help of teachers, students can understand ideas faster and easier since teachers explain them thoroughly in the class
+T6	Premise 1213 1274	after that give them a lot of examples to clarify the points.
+T7	Premise 1275 1465	In this way attending classes not only wastes their time but also facilitates their understanding process that takes them less time for comprehending materials in comparison with self-study.
+T8	Claim 1467 1673	Finally yet importantly, appearing in class makes students more conscientious since they have to obey class’s disciplines and they practice to be more perseverance in the process of doing their assignments.
+T9	Premise 1674 1822	However, the ones who choose to study at home do not have any discipline for their studies and cannot force themselves to study in particular times.
+T10	Premise 1823 1922	Through this way, they may miss some important parts in virtue of the chaotic and incoherent study.
+T11	Claim 1968 2065	I convinced that communicating and studying with peer group is a good way for learning materials.
+T12	Claim 2066 2217	Moreover, teachers have a conspicuous role in assisting students for learning materials that being present at classes is a requisite for benefiting it.
+T13	Claim 2218 2357	Also, attending to classes makes students more attentive and have them to do their studies on time that this attitude lead them to success.
+A1	Stance T2 For
+A2	Stance T5 For
+A3	Stance T8 For
+A4	Stance T11 For
+A5	Stance T12 For
+A6	Stance T13 For
+R1	supports Arg1:T2 Arg2:T1
+R2	supports Arg1:T3 Arg2:T2
+R3	supports Arg1:T4 Arg2:T2
+R4	supports Arg1:T5 Arg2:T1
+R5	supports Arg1:T6 Arg2:T5
+R6	supports Arg1:T7 Arg2:T5
+R7	supports Arg1:T8 Arg2:T1
+R8	supports Arg1:T9 Arg2:T8
+R9	supports Arg1:T10 Arg2:T9
+R10	supports Arg1:T11 Arg2:T1
+R11	supports Arg1:T12 Arg2:T1
+R12	supports Arg1:T13 Arg2:T1

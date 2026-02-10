@@ -1,0 +1,34 @@
+T1	MajorClaim 399 549	In my opinion, I believe using single language through out the world is a positive change which is helping the world to become a better place to live.
+T2	Claim 550 629	A world with fewer languages helps us interact with each other in a better way.
+T3	Premise 630 701	Due to globalization, many people are traveling for professional trips.
+T4	Premise 702 858	So, communicating in single language will reduce the problems of travelers in daily activities like ordering food in a restaurant or in going around places.
+T5	Premise 859 1152	Furthermore, students who migrate for better education would not have to go through lot of stress as they can easily make new friends and can be part of any discussions which is otherwise not possible in a world with multiple languages; this in turn makes it easy to adjust in new environment.
+T6	Premise 1153 1215	Single language also reduces misunderstandings between people.
+T7	Premise 1216 1348	Adding to that, exchange of knowledge in different sectors of research like electronics, medical, astronomy etc would become easier.
+T8	Claim 1349 1423	On the other hand, few people are worried about the dying local languages.
+T9	Premise 1424 1527	These languages are the basis for the origination and initial communication between different cultures.
+T10	Premise 1528 1557	They represent local culture.
+T11	Premise 1558 1633	As the usage of these languages decrease, culture also changes accordingly.
+T12	Premise 1634 1793	Further, these languages are tightly coupled with history; all the olden day literature and scripts will be impossible to decipher if these languages are lost.
+T13	Claim 1794 1904	To conclude, I believe change is inevitable and that usage of one language across the world is a positive one.
+T14	Claim 1905 1970	We have to accept these changes for a world to be a better place.
+T15	Claim 1971 2088	Communication in single language would improve the productivity of the world and brings everyone on to the same page.
+A1	Stance T2 For
+A2	Stance T8 Against
+A3	Stance T13 For
+A4	Stance T14 For
+A5	Stance T15 For
+R1	supports Arg1:T2 Arg2:T1
+R2	supports Arg1:T3 Arg2:T2
+R3	supports Arg1:T4 Arg2:T2
+R4	supports Arg1:T5 Arg2:T2
+R5	supports Arg1:T6 Arg2:T2
+R6	supports Arg1:T7 Arg2:T2
+R7	attacks Arg1:T8 Arg2:T1
+R8	supports Arg1:T9 Arg2:T8
+R9	supports Arg1:T10 Arg2:T8
+R10	supports Arg1:T11 Arg2:T8
+R11	supports Arg1:T12 Arg2:T8
+R12	supports Arg1:T13 Arg2:T1
+R13	supports Arg1:T14 Arg2:T1
+R14	supports Arg1:T15 Arg2:T1

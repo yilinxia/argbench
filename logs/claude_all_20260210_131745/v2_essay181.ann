@@ -1,0 +1,42 @@
+T1	MajorClaim 147 372	There are many advantages setting up the university such as more opportunities to people in the community to pursue their studies, creation of jobs. However, they come together with some disadvantages such as social problems.
+T2	Claim 373 471	This new university will allow a great number of people in my community to have a chance to study.
+T3	Premise 472 605	For example, suppose you live in a faraway community where there is no single university and you might not want to leave your family.
+T4	Premise 606 722	If you would like to attend a business school, you have to travel across the country to get to a distant university.
+T5	Premise 723 814	He or she definitely can get in the business school in the proposed community's university.
+T6	Claim 815 891	Undoubtedly, the university will have to hire professors, employees and etc.
+T7	Premise 892 942	Thus, a number vacant positions need to be filled.
+T8	Premise 943 1006	Also there will be more opportunities to work in the community.
+T9	Premise 1007 1092	Moreover, when people have jobs, they will have money to spend on goods and services.
+T10	Premise 1093 1140	This can also help stimulate the local economy.
+T11	Claim 1142 1208	However, building the university may lead to some social problems.
+T12	Premise 1209 1325	A number of people then may come from any other communities in order to get in to or get the jobs at the university.
+T13	Premise 1326 1423	When many people congregate in one place, I think that some kinds of social problems will follow.
+T14	Premise 1424 1443	Traffic may worsen.
+T15	Premise 1444 1475	More wastes have to be managed.
+T16	Premise 1476 1512	Maybe crime rate will also increase.
+T17	Premise 1513 1583	These social problems may impair the quality of life in the community.
+T18	MajorClaim 1593 1646	I myself agree with the plan to build the university.
+T19	Claim 1647 1700	I believe the benefit from it will outweigh the cost.
+T20	Premise 1701 1829	However, it would be indispensable that the government conduct a survey about the community opinion on the new university first.
+A1	Stance T2 For
+A2	Stance T6 For
+A3	Stance T11 Against
+A4	Stance T19 For
+R1	supports Arg1:T3 Arg2:T2
+R2	supports Arg1:T4 Arg2:T2
+R3	supports Arg1:T5 Arg2:T2
+R4	supports Arg1:T2 Arg2:T1
+R5	supports Arg1:T7 Arg2:T6
+R6	supports Arg1:T8 Arg2:T6
+R7	supports Arg1:T9 Arg2:T6
+R8	supports Arg1:T10 Arg2:T6
+R9	supports Arg1:T6 Arg2:T1
+R10	supports Arg1:T12 Arg2:T11
+R11	supports Arg1:T13 Arg2:T11
+R12	supports Arg1:T14 Arg2:T11
+R13	supports Arg1:T15 Arg2:T11
+R14	supports Arg1:T16 Arg2:T11
+R15	supports Arg1:T17 Arg2:T11
+R16	attacks Arg1:T11 Arg2:T1
+R17	supports Arg1:T19 Arg2:T18
+R18	supports Arg1:T20 Arg2:T19

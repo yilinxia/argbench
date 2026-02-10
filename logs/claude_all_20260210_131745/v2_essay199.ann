@@ -1,0 +1,22 @@
+T1	MajorClaim 203 315	I prefer to study individually because it helps me to concentrate more, and it helps me to build my personality.
+T2	Claim 316 368	Studying alone helps us to focus more in our lessons
+A1	Stance T2 For
+T3	Premise 384 457	I am a type of person who cannot comprehend my subjects unless I am alone
+T4	Premise 459 529	I can prepare my schedules, guidelines, exercises and go over them all
+T5	Premise 541 641	we have a lot of subjects which require us to sit and study alone such as math, reading, and drawing
+T6	Premise 658 728	I can take advantage of every minute without wasting by studying alone
+T7	Claim 744 797	we are building our personalities when we study alone
+A2	Stance T7 For
+T8	Premise 812 893	answering our homework alone encourages us to be more responsible and independent
+T9	Premise 901 957	it motivates us to be accurate in our work in the future
+T10	Premise 971 1111	when I fix my study plan with a specific time and finish it on time, it improves my ability in the future to become more precise and careful
+T11	MajorClaim 1261 1362	I agree with the idea of studying a lone since it helps me to focus more and establish my personality
+R1	supports Arg1:T3 Arg2:T2
+R2	supports Arg1:T4 Arg2:T2
+R3	supports Arg1:T5 Arg2:T2
+R4	supports Arg1:T6 Arg2:T2
+R5	supports Arg1:T8 Arg2:T7
+R6	supports Arg1:T9 Arg2:T7
+R7	supports Arg1:T10 Arg2:T7
+R8	supports Arg1:T2 Arg2:T1
+R9	supports Arg1:T7 Arg2:T1

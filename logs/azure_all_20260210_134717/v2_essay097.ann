@@ -1,0 +1,33 @@
+T1	MajorClaim 252 359	popular sports events can help reduce international tensions remarkably and promote national prides safely.
+T2	Claim 380 587	sports events are good chances for excellent athletes to meet and learn valuable experiences from one another so that they can improve their results, break records and bring victories to their own countries.
+T3	Premise 588 737	Because a large number of people will gather in the host city for sport events, there are many good opportunities for discovering different cultures.
+T4	Premise 752 893	sport events with the spirit of healthiness, honesty and fairness can help strengthen understanding, friendship and solidarity among nations.
+T5	Premise 894 1106	After sharing competitive but interesting moments in each competition, the competitors often shake hands friendly and congratulate the winners, which can lead to an improvement in the relationships among nations.
+T6	Claim 1117 1221	sporting occasions play an essential role in raising patriotic emotions in both athletes and spectators.
+T7	Premise 1222 1305	Seeing national flags be honored may be the most emotional moments to each athlete.
+T8	Premise 1306 1425	The athlete also seems to be more aware of his responsibilities and he wants to contribute more to his beloved country.
+T9	Premise 1426 1541	When witnessing our national flags flying proudly among others, many of us can stop hiding our pride and happiness.
+T10	Premise 1542 1841	For instance, when Vietnam became the champion of SEAGAMES for the first time in 2008, a festival atmosphere permeated into the streets. People from all ages turned out to the streets with flags, banners and they sang aloud songs of Ho Chi Minh President. The eager atmosphere lasted many next days.
+T11	Premise 1842 1947	In fact, some hooligans were so excited that they took part in motor racing or using fireworks illegally.
+T12	Premise 1948 2002	However, the hooligans only took a minority of people.
+T13	Claim 2003 2114	Therefore, it can be said that sport events help to wake up love and responsibilities strongly in each citizen.
+T14	Premise 2115 2294	In conclusion, international sporting occasions are not only one of the effective solutions to tensions among nations but also a stimulant for releasing patriotic emotions safely.
+T15	Claim 2295 2382	Hence, I recommend that big sports events should be held more frequently in the future.
+A1	Stance T2 For
+A2	Stance T6 For
+A3	Stance T13 For
+A4	Stance T15 For
+R1	supports Arg1:T2 Arg2:T1
+R2	supports Arg1:T3 Arg2:T2
+R3	supports Arg1:T4 Arg2:T2
+R4	supports Arg1:T5 Arg2:T2
+R5	supports Arg1:T6 Arg2:T1
+R6	supports Arg1:T7 Arg2:T6
+R7	supports Arg1:T8 Arg2:T6
+R8	supports Arg1:T9 Arg2:T6
+R9	supports Arg1:T10 Arg2:T6
+R10	attacks Arg1:T11 Arg2:T6
+R11	attacks Arg1:T12 Arg2:T11
+R12	supports Arg1:T13 Arg2:T6
+R13	supports Arg1:T14 Arg2:T1
+R14	supports Arg1:T15 Arg2:T1

@@ -1,0 +1,21 @@
+T1	MajorClaim 377 482	what can be expected, is a change of the role of the tradition but not its disappearance from the society
+T2	Claim 484 593	It is undeniable that the country's culture is passed down mainly through traditional skills and ways of life
+T3	Premise 595 770	For instance, in Vietnam, many water puppet shows which once demonstrated our seasonal agriculture and communal activities, are today substituted by cinemas and music concerts
+T4	Premise 772 933	This means the young generation can solely get access to their ancestor's early life through books and images, which otherwise would be much more easily absorbed
+T5	Claim 935 1057	In tradition, a person should look back at the past, mainly by means of custom handcraft or antique lifestyle, to progress
+T6	Premise 1059 1183	Understanding why, and how our predecessors survived through thick and thin will probably be invaluable lessons for us today
+T7	Premise 1185 1265	Also, study form their mistakes helps us accomplish our goal with smooth sailing
+T8	MajorClaim 1280 1356	there should never be any replacement for traditional skills or ways of life
+T9	Premise 1358 1439	They are the ones that teach, and will teach us to be self-esteem and experienced
+T10	Claim 1453 1512	their preservation throughout history deserve our attention
+A1	Stance T2 For
+A2	Stance T5 For
+A3	Stance T10 For
+R1	supports Arg1:T3 Arg2:T2
+R2	supports Arg1:T4 Arg2:T2
+R3	supports Arg1:T2 Arg2:T1
+R4	supports Arg1:T6 Arg2:T5
+R5	supports Arg1:T7 Arg2:T5
+R6	supports Arg1:T5 Arg2:T1
+R7	supports Arg1:T9 Arg2:T10
+R8	supports Arg1:T10 Arg2:T8

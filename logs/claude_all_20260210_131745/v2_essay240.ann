@@ -1,0 +1,18 @@
+T1	MajorClaim 0 55	Most difficult experiences will become valuable lessons
+T2	Claim 399 474	some tough experiences people met before will be helpful in their life path
+A1	Stance T2 For
+T3	Premise 491 670	hardship makes people realize how to cherish and compliment the common but wonderful little things happened in their life such as, a shining weather, a delicious breakfast and etc
+T4	Premise 672 824	People who have such nice spirit usually know how to find the true love in their life instead of being seduced by greed as to lose themselves in the end
+T5	Premise 839 934	experiences of difficulties teach them how to keep a nice mood and have confidence all the time
+T6	Claim 949 1033	people who experienced lots of difficulties will be calmer when they are in troubles
+A2	Stance T6 For
+T7	Premise 1035 1184	Because they already have such experiences of overcoming some difficulties, they are conscious of what to do and how to do when fierce crisis happens
+T8	Premise 1186 1378	Those people are more likely to achieve their ambitions in their career because they are aware of how to lead people to reach success despite what kind of difficulties are getting in their way
+T9	MajorClaim 1514 1595	most tough experiences in people's life path will be a priceless treasure to them
+R1	supports Arg1:T3 Arg2:T2
+R2	supports Arg1:T4 Arg2:T2
+R3	supports Arg1:T5 Arg2:T2
+R4	supports Arg1:T7 Arg2:T6
+R5	supports Arg1:T8 Arg2:T6
+R6	supports Arg1:T2 Arg2:T1
+R7	supports Arg1:T6 Arg2:T1

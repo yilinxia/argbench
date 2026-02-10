@@ -1,0 +1,22 @@
+T1	MajorClaim 271 448	I believe that no sensible person will deny that it is a dramatically cruel activity to humanity if the latest foods or medicines are allowed to sold without testing on animals.
+T2	Claim 540 704	animals are friendly and vital for people, because if there are no animals in the world, the balance of nature will broke down, and we, human, will die out as well.
+T3	Premise 705 783	The animal experiments accelerate the vanishing of some categories of animals.
+T4	Claim 784 877	In other words, doing this various testing is a hazard of human's future and next generation.
+T5	Claim 949 1011	it is necessary to make sure that people can live a long life.
+T6	Premise 1027 1220	it is indisputable that every new kind food or pill may be noxious, and scientists must do something to insure that the new invention benefits people instead of making people ill or even dying.
+T7	Premise 1221 1301	The new foods or medicines are invented to promote the quantity of human's life.
+T8	Premise 1302 1409	Thus even if they are volunteers; they cannot take the place of animals to test the new foods or medicines.
+T9	Premise 1410 1492	Furthermore, it also have potentially harm for human's health without any testing.
+T10	MajorClaim 1494 1640	To sum up, I reaffirm that although there is some disadvantages of animals' profits, the merits of animal experiments still outweigh the demerits.
+A1	Stance T2 Against
+A2	Stance T4 Against
+A3	Stance T5 For
+R1	supports Arg1:T3 Arg2:T4
+R2	supports Arg1:T2 Arg2:T4
+R3	attacks Arg1:T4 Arg2:T10
+R4	supports Arg1:T6 Arg2:T5
+R5	supports Arg1:T7 Arg2:T5
+R6	supports Arg1:T8 Arg2:T5
+R7	supports Arg1:T9 Arg2:T5
+R8	supports Arg1:T5 Arg2:T10
+R9	supports Arg1:T1 Arg2:T10

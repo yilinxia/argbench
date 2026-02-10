@@ -1,0 +1,26 @@
+T1	MajorClaim 1494 1777	In conclusion, it is convincing that exams have a role to play in ensuring proper and objective assessment of achievement. However, exams need to be carefully designed and supplemented with other forms of evaluation if they are to be a truly useful component of the education system.
+T2	Claim 349 387	There are clearly advantages to exams.
+A1	Stance T2 For
+T3	Premise 388 472	They help to ensure fairness by imposing the same conditions on all exam candidates.
+T4	Premise 473 646	They are also relatively versatile; different types of exam questions, for example, multiple-choice questions and essay tasks, can test different sorts of reasoning ability.
+T5	Claim 647 687	However, exams also have some drawbacks.
+A2	Stance T5 Against
+T6	Premise 688 792	Test-wise candidates can often perform well on exams without having good underlying knowledge or skills.
+T7	Premise 793 885	In contrast, some test-takers perform cannot achieve a satisfying result because of anxiety.
+T8	Premise 886 1049	In this case, teachers and learners focus only on theses aspects of the curriculum that are likely to be tested, thus narrowing the educational experience for all.
+T9	Claim 1050 1113	A number of measures should be taken to address these concerns.
+A3	Stance T9 For
+T10	Premise 1114 1207	Wherever possible, exams should match the content and activities of the learning environment.
+T11	Premise 1208 1307	Exam task should be varied to give fair opportunities to candidates with different types of skills.
+T12	Premise 1308 1493	Other types of assessment should also be considered, assignment writing, for example, to assess independent learning and research skills, or group projects, to measure teamwork ability.
+R1	supports Arg1:T2 Arg2:T1
+R2	supports Arg1:T3 Arg2:T2
+R3	supports Arg1:T4 Arg2:T2
+R4	attacks Arg1:T5 Arg2:T1
+R5	supports Arg1:T6 Arg2:T5
+R6	supports Arg1:T7 Arg2:T5
+R7	supports Arg1:T8 Arg2:T5
+R8	supports Arg1:T9 Arg2:T1
+R9	supports Arg1:T10 Arg2:T9
+R10	supports Arg1:T11 Arg2:T9
+R11	supports Arg1:T12 Arg2:T9

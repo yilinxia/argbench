@@ -1,0 +1,38 @@
+T1	MajorClaim 0 58	Farmland, housing and industry or saving land for animals?
+T2	Claim 347 464	As far as I am concerned, I agree with the opinion human needs for farmland, housing and industry are more important.
+A1	Stance T2 For
+T3	Claim 513 603	First, land used for farmland, housing and industry can benefit more to the whole society.
+A2	Stance T3 For
+T4	Premise 604 856	There is no deny that the economy of the whole society will be developed with the help of agriculture, real estate industry and industry, in particularly industry which is the pillar industry of national economy, because they produce plenty of profits.
+T5	Premise 857 944	What is more, the society will be stable and harmony due to more farmland and industry.
+T6	Premise 945 1097	It is widely acknowledged that more farmlands and industries can provide more job opportunities which can decrease the unemployment rate and crime rate.
+T7	Claim 1098 1167	Thus the needs for farmland, housing and industry are more important.
+A3	Stance T7 For
+T8	Claim 1168 1265	Second, farmland, housing and industry can satisfy the desire of human that living a better life.
+A4	Stance T8 For
+T9	Premise 1266 1414	It is clearly understood that farming, housing and industry provide us the food we eat, place we live, clothes we wear, which are essential to live.
+T10	Premise 1415 1485	Especially in some poor areas, survival is the most significant thing.
+T11	Premise 1486 1615	In addition, highly developed agriculture and industry can improve our living conditions which allow us have a good quality life.
+T12	Claim 1617 1790	Last I want to mention is that even though farmland, housing and industry will occupy the land used for endangered animals, it can do good to protect the endangered animals.
+A5	Stance T12 For
+T13	Premise 1791 1883	According to the discuss above, agriculture and industry make a contribution to the economy.
+T14	Premise 1884 1983	With the economy development, we can have more advanced methods to take care of endangered animals.
+T15	Premise 1984 2108	For instant, we can invent new technique to help endangered animals to produce offspring to be sure they would not distinct.
+T16	Claim 2109 2245	All in all, protecting endangered animals is necessary, nevertheless, human needs for farmland, housing and industry are more important.
+A6	Stance T16 For
+R1	supports Arg1:T2 Arg2:T1
+R2	supports Arg1:T3 Arg2:T2
+R3	supports Arg1:T4 Arg2:T3
+R4	supports Arg1:T5 Arg2:T3
+R5	supports Arg1:T6 Arg2:T5
+R6	supports Arg1:T7 Arg2:T2
+R7	supports Arg1:T3 Arg2:T7
+R8	supports Arg1:T8 Arg2:T2
+R9	supports Arg1:T9 Arg2:T8
+R10	supports Arg1:T10 Arg2:T8
+R11	supports Arg1:T11 Arg2:T8
+R12	supports Arg1:T12 Arg2:T2
+R13	supports Arg1:T13 Arg2:T12
+R14	supports Arg1:T14 Arg2:T12
+R15	supports Arg1:T15 Arg2:T14
+R16	supports Arg1:T16 Arg2:T1

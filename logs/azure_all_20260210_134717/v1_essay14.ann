@@ -1,0 +1,33 @@
+T1	MajorClaim 1494 1586	Personally, I think that students learn far more from their teachers than from other source.
+T2	Claim 419 505	students at schools and universities still learn much more from lessons with teachers.
+T3	Premise 522 610	teachers teach students how to write, read and calculate since they are in kindergarten.
+T4	Premise 610 731	And when they are in primary school, teachers teach them more further knowledge, like writing skills and using computers.
+T5	Premise 731 789	It is teachers that help them with obstacles in schooling.
+T6	Premise 809 928	students gain most of the knowledge through teachers and learn what is right and wrong with the assistance of teachers.
+T7	Claim 929 1029	Those who feel that students learn far more from other sources, such as the Internet and television,
+T8	Premise 1050 1134	within this sources students learn lots of things which they can't learn in classes.
+T9	Premise 1135 1251	They can only input some key words and google it, and then there are numberless articles and websites related to it.
+T10	Premise 1266 1296	stundents learn things easily.
+T11	Premise 1325 1370	good television programmes do teach students.
+T12	Premise 1370 1383	For instance,
+T13	Premise 1384 1432	Discovery Channel has many instructive episodes.
+T14	Premise 1433 1493	Students have knowledge of others cultrues, outer space etc.
+T15	Premise 1587 1680	Because not only do teachers teach us knowlegde but also the skills to tell right from wrong.
+T16	Premise 1681 1833	Just imagine: if a student can't even make out whether the source is reasonable or not , then how can he get the right information to help him to learn?
+A1	Stance T2 For
+A2	Stance T7 Against
+R1	supports Arg1:T2 Arg2:T1
+R2	supports Arg1:T3 Arg2:T2
+R3	supports Arg1:T4 Arg2:T2
+R4	supports Arg1:T5 Arg2:T2
+R5	supports Arg1:T6 Arg2:T2
+R6	attacks Arg1:T7 Arg2:T1
+R7	supports Arg1:T8 Arg2:T7
+R8	supports Arg1:T9 Arg2:T7
+R9	supports Arg1:T10 Arg2:T7
+R10	supports Arg1:T11 Arg2:T7
+R11	supports Arg1:T12 Arg2:T11
+R12	supports Arg1:T13 Arg2:T11
+R13	supports Arg1:T14 Arg2:T11
+R14	supports Arg1:T15 Arg2:T1
+R15	supports Arg1:T16 Arg2:T15

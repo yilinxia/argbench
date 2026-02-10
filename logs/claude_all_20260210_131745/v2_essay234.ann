@@ -1,0 +1,30 @@
+T1	MajorClaim 240 403	I believe that standardized tests are valuable option for educational system as long as it would help teachers to know if the students are really getting knowledge
+T2	Claim 414 516	standardized tests are preferable due to the fact that they help teachers to fairly grade the students
+A1	Stance T2 For
+T3	Premise 518 624	For example some students are not so active on the lessons, cause they are already familiar with the issue
+T4	Premise 626 721	Therefore, exams could be the only way for teachers to see the real abilities of those students
+T5	Premise 736 871	many teachers rely only on the exam results while grading the class, so the usage of standardized tests is the superior option for them
+T6	Claim 887 974	standardized tests can be good chance for students to apply their knowledge on practice
+A2	Stance T6 For
+T7	Premise 983 1120	some students may get used to simply rewriting solved problems from the blackboard, so they will never try to solve problems on their own
+T8	Premise 1131 1172	standardized tests offer them such chance
+T9	Claim 1197 1299	schools should require students to take standardized tests, as long as this option helps to both sides
+A3	Stance T9 For
+T10	Claim 1323 1467	requirement to take standardized tests is the right choice, since in this case teachers can compare the level of knowledge of different students
+A4	Stance T10 For
+T11	Premise 1469 1594	In any class there will be students who will show low academic performance, so teachers could work with them more intensively
+T12	Premise 1434 1605	I support the points of those who say that standardized tests are required over those who don't because if the teacher would know the level of each student he would fairly share his time to all of them
+T13	MajorClaim 1822 1896	schools which obligate their students to take standardized tests are right
+T14	Premise 1898 2033	I belive this, due to the fact that these schools can qualitatively check if they are giving an appropriate education to their students
+R1	supports Arg1:T3 Arg2:T2
+R2	supports Arg1:T4 Arg2:T2
+R3	supports Arg1:T5 Arg2:T2
+R4	supports Arg1:T2 Arg2:T1
+R5	supports Arg1:T7 Arg2:T6
+R6	supports Arg1:T8 Arg2:T6
+R7	supports Arg1:T6 Arg2:T9
+R8	supports Arg1:T9 Arg2:T1
+R9	supports Arg1:T11 Arg2:T10
+R10	supports Arg1:T12 Arg2:T10
+R11	supports Arg1:T10 Arg2:T1
+R12	supports Arg1:T14 Arg2:T13

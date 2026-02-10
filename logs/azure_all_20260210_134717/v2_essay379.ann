@@ -1,0 +1,29 @@
+T1	MajorClaim 0 62	Salary is the most important consideration when choosing a job
+T2	Claim 458 517	money is very essential in order to meet human' basic needs
+T3	Premise 538 675	people tend to choose high salary jobs so as to not only help themselves but also support partially or wholly their family's living needs
+T4	Premise 676 736	such as food , clothes, accommodation, education, medication
+T5	Premise 738 886	It is obvious that people who are woking in art or painting industries, for example, will find it quite difficult to live comfortably and enjoyably.
+T6	Premise 887 1013	This is because they are doing what they love, their income however seems to be quite low compared to many other career paths.
+T7	Claim 1048 1149	if we are passionate about what we are working, we are likely to achieve success easily in that field
+T8	Premise 1151 1309	There are plenty of people, who are now really successful, have started working in challenging as well as competitive fields as singers, dancers and painters.
+T9	Claim 1319 1523	important factors in choosing a job such as level of happiness, satisfaction of jobs, personal relationships, professional skills, working environment, managers and colleagues should not be underestimated
+T10	Claim 1534 1655	some people choose a career due to their desire to help others and contribute positively to their countries and societies
+T11	Claim 1694 1766	income is still a vital determination impacting us on choices of careers
+T12	Claim 1781 1908	passion on jobs, in my opinion, can bring actual happiness and help us get promoted in working to earn even more money later on
+A1	Stance T2 For
+A2	Stance T7 Against
+A3	Stance T9 Against
+A4	Stance T10 Against
+A5	Stance T11 For
+A6	Stance T12 Against
+R1	supports Arg1:T2 Arg2:T1
+R2	supports Arg1:T3 Arg2:T2
+R3	supports Arg1:T4 Arg2:T3
+R4	supports Arg1:T5 Arg2:T2
+R5	supports Arg1:T6 Arg2:T5
+R6	attacks Arg1:T7 Arg2:T1
+R7	supports Arg1:T8 Arg2:T7
+R8	attacks Arg1:T9 Arg2:T1
+R9	attacks Arg1:T10 Arg2:T1
+R10	supports Arg1:T11 Arg2:T1
+R11	attacks Arg1:T12 Arg2:T1

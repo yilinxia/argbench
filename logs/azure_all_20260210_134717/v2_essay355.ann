@@ -1,0 +1,31 @@
+T1	MajorClaim 0 57	Foreign language instruction should begin in kindergarten
+T2	MajorClaim 430 549	I personally believe that it is important for children to be taught with a secondary language as early as kindergarten.
+T3	Claim 565 706	children might not be really comfortable with the use of a language other than their native tongue when they are in their kindergarten years.
+T4	Premise 707 799	Learning at school must be convenient for them if they speak in a way that they are used to.
+T5	Claim 810 921	teachers think that foreign language most likely leads to confusion for children who are yet to start learning.
+T6	Claim 966 1078	the teacher should be well-trained in the use of this specific language, so quality education will be delivered.
+T7	Claim 1094 1200	it is undeniable that kids are amazing learners, and the best time to hone them is in their younger years.
+T8	Premise 1201 1324	The introduction of foreign language will be new to them; however, their curiosity will drive them to learn and comprehend.
+T9	Premise 1325 1386	In this way, grasping a new language will be natural to them.
+T10	Claim 1400 1481	the positive impact of this strategy is beneficial to both learners and teachers.
+T11	Premise 1482 1581	Teachers will not find it difficult to make students learn such new concept in their teenage years.
+T12	Claim 1582 1693	It is certainly clear that the advantages of early introduction of foreign language outweigh its disadvantages.
+T13	MajorClaim 1842 2001	I am totally convinced that if this endeavour is properly implemented by schools, this will most likely lead to improvement of learning ability among children.
+A1	Stance T3 Against
+A2	Stance T5 Against
+A3	Stance T6 Against
+A4	Stance T7 For
+A5	Stance T10 For
+A6	Stance T12 For
+R1	supports Arg1:T2 Arg2:T1
+R2	supports Arg1:T4 Arg2:T3
+R3	attacks Arg1:T3 Arg2:T2
+R4	attacks Arg1:T5 Arg2:T2
+R5	attacks Arg1:T6 Arg2:T2
+R6	supports Arg1:T7 Arg2:T2
+R7	supports Arg1:T8 Arg2:T7
+R8	supports Arg1:T9 Arg2:T7
+R9	supports Arg1:T10 Arg2:T2
+R10	supports Arg1:T11 Arg2:T10
+R11	supports Arg1:T12 Arg2:T2
+R12	supports Arg1:T13 Arg2:T1

@@ -1,0 +1,26 @@
+T1	MajorClaim 2002 2055	I do support the view of learning all school subjects
+T2	Claim 568 691	with some basic knowledge of diverse fields, students have more options in choosing specialized areas or jobs in the future
+A1	Stance T2 For
+T3	Premise 693 777	Teenagers are still too young and immature to decide what they are going to dedicate
+T4	Claim 779 926	In students' point of view, the combination of difficult and easy subjects balances their schoolwork stress and fosters their enthusiasm on classes
+A2	Stance T4 For
+T5	Claim 937 1080	still many teenagers cannot enjoy the variation of the curriculum, instead, they feel more stressful with so much homework and exams to be done
+A3	Stance T5 Against
+T6	Premise 1091 1177	most students regard the extra knowledge useless and impractical for their future jobs
+T7	Claim 1235 1353	this education model can cultivate more talents who specialized in different areas and increase studying effectiveness
+A4	Stance T7 Against
+T8	Premise 1380 1476	students can devote more time and efforts in one subject and reduce pressure from other subjects
+T9	Claim 1487 1544	the drawbacks of this teaching method cannot be neglected
+A5	Stance T9 For
+T10	Premise 1564 1725	under such target-oriented education environment, teenagers may be hard to regret their original choice and change their specialized field in their further study
+T11	Premise 1737 1803	the dullness of course may deeply influence their passion on study
+R1	supports Arg1:T3 Arg2:T2
+R2	supports Arg1:T6 Arg2:T5
+R3	supports Arg1:T8 Arg2:T7
+R4	supports Arg1:T10 Arg2:T9
+R5	supports Arg1:T11 Arg2:T9
+R6	supports Arg1:T2 Arg2:T1
+R7	supports Arg1:T4 Arg2:T1
+R8	attacks Arg1:T5 Arg2:T1
+R9	attacks Arg1:T7 Arg2:T1
+R10	supports Arg1:T9 Arg2:T1

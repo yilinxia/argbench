@@ -1,0 +1,24 @@
+T1	MajorClaim 0 71	Spending time with a large number of friends can add more to one's life
+T2	Claim 384 498	staying in contact with a large number of friends gives the opportunity to learn more from the others' experiences
+A1	Stance T2 For
+T3	Premise 500 759	For instance, among a large number of people there could be someone who practices a particular sport, or plays an instrument or likes traveling very much and from their experiences you can be attracted to try something new that you had never considered before
+T4	Claim 773 897	while differences give the opportunity to learn, they can also mean that sometimes it can be difficult to reach an agreement
+A2	Stance T4 Against
+T5	Premise 899 1011	This would not happen or at least would happen rarely if one decides to spend time with one or two close friends
+T6	Premise 1013 1096	In fact, in this case it is more likely that interests and preferences are the same
+T7	Claim 1121 1244	a large number of friends can help you to consider all the possible solutions to a problem and to make you more open-minded
+A3	Stance T7 For
+T8	Premise 1246 1475	For example, if you happen to face a problem and ask them for advice, your friends you will see that issue from their different point of views and accordingly they will help you to consider better all advantages and disadvantages
+T9	Premise 1477 1614	When you have just few close friends, on one hand you develop a more intimate relationship with them and you feel you can trust them more
+T10	Claim 1620 1733	on the other hand they often will give you viewpoints not so different from yours, adding less to your experience
+A4	Stance T10 For
+T11	MajorClaim 1873 1944	spending time with a large number of friends can add more to one's life
+R1	supports Arg1:T3 Arg2:T2
+R2	supports Arg1:T2 Arg2:T1
+R3	supports Arg1:T5 Arg2:T4
+R4	supports Arg1:T6 Arg2:T4
+R5	attacks Arg1:T4 Arg2:T1
+R6	supports Arg1:T8 Arg2:T7
+R7	supports Arg1:T7 Arg2:T1
+R8	attacks Arg1:T9 Arg2:T10
+R9	supports Arg1:T10 Arg2:T1

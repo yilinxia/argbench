@@ -1,0 +1,45 @@
+T1	MajorClaim 443 628	However, to my mind students should be free not to attend classes because it improves the quality of student life as well as their learning motivation and teaches important life skills.
+T2	Claim 629 672	Firstly, a liberal policy is very feasible.
+T3	Premise 673 727	Checking for attendance requires a lot of bureaucracy.
+T4	Premise 728 808	Especially for larger classes it is impossible to check for everybody to attend.
+T5	Premise 809 856	So an optional attendance saves time and money.
+T6	Claim 857 960	Secondly, some students might learn better at home on their own, for instance, by reading the textbook.
+T7	Premise 961 1021	This problem occurs especially if the lecturer is lethargic.
+T8	Premise 1022 1122	By letting students choose not to attend class you give them the opportunity to escape bad teaching.
+T9	Premise 1123 1218	Thus they are able to save precious study time and dive into the course syllabus independently.
+T10	Claim 1219 1328	In addition, being free to stay away from classes improves flexibility and therefore quality of student life.
+T11	Premise 1329 1462	Sometimes the wild party on Thursday night is too good to end already at midnight only because of a lecture on Friday in the morning.
+T12	Premise 1463 1607	With a liberal policy students are able to postpone the learning to the afternoon which gives a feeling of freedom and improves time efficiency.
+T13	Premise 1608 1735	Research has shown that the more satisfied the students are with those life aspects, the better they perform in academic areas.
+T14	Claim 1736 1851	Finally, psychology knows two types of motivation. There is intrinsic motivation which comes from your own mindset.
+T15	Premise 1852 1939	And there is extrinsic motivation which comes from the praise and laud of other people.
+T16	Premise 1940 2047	Intrinsic motivation is known to be much more desirable because it leads to better learning and well-being.
+T17	Premise 2048 2153	However, in order to gain intrinsic motivation students need to become aware of their strengths and aims.
+T18	Premise 2154 2313	By giving students the freedom to choose about class attendance they might rather be thinking about why they decided to study and learn to motivate themselves.
+T19	Premise 2314 2397	These are crucial skills for the duration of their study and their whole life time.
+T20	MajorClaim 2398 2477	To conclude, it is clear that going to classes should be optional for students.
+T21	Premise 2478 2641	I hold this belief due to the improvement of students' current experience as well as the valuable skills and knowledge they obtain for their whole life afterwards.
+A1	Stance T2 For
+A2	Stance T6 For
+A3	Stance T10 For
+A4	Stance T14 For
+R1	supports Arg1:T2 Arg2:T1
+R2	supports Arg1:T3 Arg2:T2
+R3	supports Arg1:T4 Arg2:T2
+R4	supports Arg1:T5 Arg2:T2
+R5	supports Arg1:T6 Arg2:T1
+R6	supports Arg1:T7 Arg2:T6
+R7	supports Arg1:T8 Arg2:T6
+R8	supports Arg1:T9 Arg2:T6
+R9	supports Arg1:T10 Arg2:T1
+R10	supports Arg1:T11 Arg2:T10
+R11	supports Arg1:T12 Arg2:T10
+R12	supports Arg1:T13 Arg2:T10
+R13	supports Arg1:T14 Arg2:T1
+R14	supports Arg1:T15 Arg2:T14
+R15	supports Arg1:T16 Arg2:T14
+R16	supports Arg1:T17 Arg2:T14
+R17	supports Arg1:T18 Arg2:T14
+R18	supports Arg1:T19 Arg2:T14
+R19	supports Arg1:T21 Arg2:T20
+R20	supports Arg1:T20 Arg2:T1

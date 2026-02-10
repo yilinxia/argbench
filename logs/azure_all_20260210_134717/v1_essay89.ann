@@ -1,0 +1,33 @@
+T1	MajorClaim 0 64	Knowledge from experience is more important than that from books
+T2	Claim 607 708	knowledge acquired from books is greatly accepted, which means that it is right to the bulk of people
+T3	Premise 489 595	It is apparent that books are often written by professors, experts, or authorities in a variety of fields.
+T4	Claim 1052 1102	each source of knowledge has its own accuracy rate
+T5	Premise 809 1037	To cite an example, it is common in books that water boils at 100 Celcius degree. However, the result is not always the same in reality because it also depends on the height, the purity of the water, and even the measuring tool.
+T6	Claim 1327 1386	it is difficult to apply knowledge from books into practice
+T7	Premise 1180 1312	In my experience, information contained in books is usually put in criteria so that many people can read and understand the content.
+T8	Claim 1397 1508	it is easy to put knowledge from experience in real life because it is acquired from what have happened to them
+T9	Premise 1510 1802	For instance, a student decides to learn about chemical reactions from books. This method is likely to be fast, simple, and even safe. Nevertheless, there is an increased likelihood that he neither remembers the necessary information for a long time nor knows how to do an make an experiment.
+T10	Premise 1803 1992	Meanwhile, if he goes to the library and carries out the reactions, he is certain to have a thorough grasp of the phenomena seen. He is also able to use this information for the next times.
+T11	Claim 2001 2075	knowledge from experience helps people more than knowledge from books does
+T12	Claim 2113 2152	knowledge from books is widely accepted
+T13	Claim 2163 2273	I consider knowledge from experience as the more important source because of its negative impacts on real life
+T14	Premise 2275 2362	Experiencing a thing and drawing information from it is really interesting and helpful.
+A1	Stance T2	Against
+A2	Stance T4	For
+A3	Stance T6	For
+A4	Stance T8	For
+A5	Stance T11	For
+A6	Stance T12	Against
+A7	Stance T13	For
+R1	supports Arg1:T3 Arg2:T2
+R2	supports Arg1:T5 Arg2:T4
+R3	supports Arg1:T7 Arg2:T6
+R4	supports Arg1:T9 Arg2:T6
+R5	supports Arg1:T10 Arg2:T8
+R6	supports Arg1:T6 Arg2:T11
+R7	supports Arg1:T8 Arg2:T11
+R8	supports Arg1:T11 Arg2:T1
+R9	supports Arg1:T2 Arg2:T12
+R10	attacks Arg1:T12 Arg2:T1
+R11	supports Arg1:T13 Arg2:T1
+R12	supports Arg1:T14 Arg2:T13

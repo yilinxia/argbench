@@ -1,0 +1,32 @@
+T1	MajorClaim 473 539	I am inclined to agree with the latter view for following reasons.
+T2	Claim 554 650	to obtain information, using the internet is quicker and more convenient than reading newspapers
+A1	Stance T2 For
+T3	Premise 652 888	Contrary to the past when people had to wait long hours to take a daily newspaper, nowadays, they can acquire latest news updated every second through their mobile phones or computers connected to the internet, everywhere and at anytime
+T4	Premise 890 1081	As can be seen, these devices and machines are very common in all parts of the world, making it easier for people to read a number of things that newspapers can not provide in only some pages
+T5	Claim 1090 1175	the print media has failed to keep its important role in the provision of information
+A2	Stance T5 For
+T6	Claim 1200 1324	from the economic aspect, buying newspapers appears to be a waste of money when the internet becomes available for every one
+A3	Stance T6 For
+T7	Premise 1326 1439	It is clear to recognize that the internet service is being provided at a low cost or even free in many countries
+T8	Premise 1441 1623	The question arises as to whether or not a person spends an extra money buying newspapers to receive the same, even usually less information than those he can have with the internet?
+T9	Premise 1624 1687	The answer, perhaps, is that hardly would rational people do so
+T10	Claim 1706 1838	the number of people reading newspapers may continue falling sharply, possibly leading to the close-downs of many in the coming time
+A4	Stance T10 For
+T11	Claim 1861 1993	when taking environment into consideration, people must conceive that the more newspapers are published, the more trees are cut down
+A5	Stance T11 For
+T12	Premise 1995 2090	This is simply the contributor to the deforestation which is happening all over the world today
+T13	Claim 2092 2188	At this point, newspapers' production will have to face environmentalists on its way to be alive
+A6	Stance T13 For
+T14	MajorClaim 2316 2451	this, if occurring, should be seen as a result of the ever-increasing innovations in media technology and in our modern life as a whole
+R1	supports Arg1:T3 Arg2:T2
+R2	supports Arg1:T4 Arg2:T2
+R3	supports Arg1:T2 Arg2:T1
+R4	supports Arg1:T5 Arg2:T1
+R5	supports Arg1:T7 Arg2:T6
+R6	supports Arg1:T8 Arg2:T6
+R7	supports Arg1:T9 Arg2:T6
+R8	supports Arg1:T6 Arg2:T1
+R9	supports Arg1:T10 Arg2:T1
+R10	supports Arg1:T12 Arg2:T11
+R11	supports Arg1:T11 Arg2:T1
+R12	supports Arg1:T13 Arg2:T1

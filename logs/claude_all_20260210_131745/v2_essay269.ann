@@ -1,0 +1,29 @@
+T1	MajorClaim 293 378	if one coniders the issue carefully, he or she may agree the title statement as I do.
+T2	Claim 379 463	First of all, friends is a treasure with respect to either our daylife or our career
+T3	Premise 465 529	Relating well to people can bring plenty of merits to future job
+T4	Premise 531 875	Having a good ability of relate to people means you have a number of friends in a variety of fields, imagine when you are in trouble, you have a lot of people who have good relationship with you, so you can ask for your friends to help you solve this problem as soon as possible, even an esy phone call, instend of a series of complex solutions
+T5	Claim 877 1035	Futuermore, no matter who you are a top-level managers of a company or a low-level employee of that company, relating well to people is also a importent issue
+T6	Premise 1037 1321	If top-level managers want to make a project successful, have a good relationship with their subordinaries is the prerequisit for the managers' work complete successfully, managers should listen to their employees needs and complaints about this job, pay much patiant and care to them
+T7	Premise 1337 1371	make a good relationship with them
+T8	Claim 1373 1513	On the other side, if a low-level employee desire to enhance his position, it's fairly important to have a good relationship with their boss
+T9	Premise 1515 1624	only if the employee is considered excellent in his boss's eyes, he will be more possible to enhance position
+T10	Claim 1635 1714	someone may maintain that good specify knowledge is more crucial for future job
+T11	Premise 1716 1894	Studying harder in school, getting a good resume and absorbing lots of working knowledge, which can make these graduates more competitive than other applicants in one certain job
+T12	Premise 1896 2137	But imagine it, a person who is good at working knowledge but has an poorly relate to people, and a person who has a good ability of relating to people but his working knowledge is less better than the former, which person do you want to be?
+T13	Premise 2138 2275	I think majority of people would choose the former because it has more chance than the latter in terms of getting good jobs in the future
+T14	MajorClaim 2298 2415	I do really prefer to improve my ability of relating people and make more friends rather than studying hard in school
+A1	Stance T2 For
+A2	Stance T5 For
+A3	Stance T8 For
+A4	Stance T10 Against
+R1	supports Arg1:T3 Arg2:T2
+R2	supports Arg1:T4 Arg2:T2
+R3	supports Arg1:T6 Arg2:T5
+R4	supports Arg1:T7 Arg2:T5
+R5	supports Arg1:T9 Arg2:T8
+R6	supports Arg1:T11 Arg2:T10
+R7	attacks Arg1:T12 Arg2:T10
+R8	attacks Arg1:T13 Arg2:T10
+R9	supports Arg1:T2 Arg2:T1
+R10	supports Arg1:T5 Arg2:T1
+R11	supports Arg1:T8 Arg2:T1

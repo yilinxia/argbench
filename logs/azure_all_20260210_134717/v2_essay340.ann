@@ -1,0 +1,25 @@
+T1	MajorClaim 161 271	However, I strongly agree with that the technology has large positive effects on relationships between people.
+T2	Claim 273 375	The main advantage is that technology has enabled people stay in contact with each other more closely.
+A1	Stance T2 For
+T3	Premise 376 479	While public use the Internet or smart phone to share information to each other at different positions.
+T4	Premise 480 594	Instead of using letters, technology advanced not only gives us more spare time but also convenient and efficient.
+T5	Premise 595 771	More, even if family members who are in different countries, they also can use the Internet to connect each others, especially though the images or videos, they can feel close.
+T6	Premise 772 905	Furthermore, technology is also essential for students, live in remote districts, shared the valuable natural resources with friends.
+T7	Claim 907 1066	Another issue is that in the ever-accelerated updating of science and technology, technology provides opportunities for people to establish the social network.
+A2	Stance T7 For
+T8	Premise 1067 1245	In the past, people might have had pen friends in other countries, but now, thanks to the social networking websites, people can easily to find someone who has similar interests.
+T9	Premise 1246 1347	Also, they can connect with friends who have been out of touch for a long time by using the Internet.
+T10	Claim 1348 1430	In this way, technology is beneficial to humanity develops positive relationships.
+A3	Stance T10 For
+T11	MajorClaim 1432 1613	In conclusion, I agree with that the technology has more optimal effects on people's interaction, because it helps ordinary people to make new friends and to maintain relationships.
+R1	supports Arg1:T2 Arg2:T1
+R2	supports Arg1:T3 Arg2:T2
+R3	supports Arg1:T4 Arg2:T2
+R4	supports Arg1:T5 Arg2:T2
+R5	supports Arg1:T6 Arg2:T2
+R6	supports Arg1:T7 Arg2:T1
+R7	supports Arg1:T8 Arg2:T7
+R8	supports Arg1:T9 Arg2:T7
+R9	supports Arg1:T10 Arg2:T1
+R10	supports Arg1:T7 Arg2:T10
+R11	supports Arg1:T11 Arg2:T1

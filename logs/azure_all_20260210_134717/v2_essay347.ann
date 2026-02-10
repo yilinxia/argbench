@@ -1,0 +1,32 @@
+T1	MajorClaim 1668 1772	In my opinion, I think buying habit is people's choice to make, not entirely affected by advertisements.
+T2	Claim 54 176	Nowdays, people's choice of consumption is heavily affected by various of advertising on television, street, magazine etc.
+A1	Stance T2 Against
+T3	Claim 177 299	This argument may be true that people will be swayed by the advertising and buy things they do not need it for their life.
+A2	Stance T3 Against
+T4	Premise 300 592	For example, in most asian countries, advertisement company usually hire popular singers or actors to advertise the products to boosts the sales, and some people, especially adolescent may buy things from their favourite singer advertised to support their idol instead of to fill their needs.
+T5	Claim 593 755	In addition, products usually look more gorgeous and with good quality in advertisement, people are more likely to buy goods impulsively without a second thought.
+A3	Stance T5 Against
+T6	Premise 756 887	A good advertisement can convince people to believe that it is what they want, even though it is not the real needs of the society.
+T7	Premise 888 1046	And there are always people purchase particular products swayed by advertising which makes it a trend to follow for other people who is unnecessarily need it.
+T8	Claim 1047 1234	However, buying habit is a very personal things for individuals, the advertisement is not the only cause for people to buy, sometimes it depends on one's needs and ability of consumption.
+A4	Stance T8 For
+T9	Premise 1235 1335	It is unlikely to buy things impulsively for adults who have concern of arranging disposable income.
+T10	Premise 1336 1405	Most of them have to allocate the money if they doing other purchase.
+T11	Claim 1406 1667	On the other hand, children and adolescents who is not economic independence is more possible to buy things impulsively without considering whether they need it or not, since they do not have financial pressure from life and ability to define what is necessary.
+A5	Stance T11 For
+T12	Claim 1773 1889	But for children or adolescents who is not mentally develop, it might be hard for them not to swayed by advertising.
+A6	Stance T12 For
+T13	Claim 1890 2075	So it is important that government needs to impose rules on particularly advertisement company (for example, toys company) to avoid youngster have bias thought on what they really need.
+A7	Stance T13 For
+R1	attacks Arg1:T2 Arg2:T1
+R2	attacks Arg1:T3 Arg2:T1
+R3	supports Arg1:T4 Arg2:T3
+R4	attacks Arg1:T5 Arg2:T1
+R5	supports Arg1:T6 Arg2:T5
+R6	supports Arg1:T7 Arg2:T5
+R7	supports Arg1:T8 Arg2:T1
+R8	supports Arg1:T9 Arg2:T8
+R9	supports Arg1:T10 Arg2:T8
+R10	supports Arg1:T11 Arg2:T1
+R11	supports Arg1:T12 Arg2:T1
+R12	supports Arg1:T13 Arg2:T1

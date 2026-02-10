@@ -1,0 +1,50 @@
+T1	MajorClaim 263 378	Personally, I prefer to see good people get rewarded. However, if the good people always get an happy ending, I don't think it's proper.
+T2	Claim 396 454	if all the story end up in the same way, it will be boring
+A1	Stance T2 For
+T3	Premise 456 531	If good people always win, we can guess the ending of the movies or dramas.
+T4	Premise 532 574	Then we will feel less interested in them.
+T5	Premise 575 698	But if the good people are not always rewarded, we will try to finish the movie or dramas to find out the end of the story.
+T6	Premise 712 799	Hollywood stories usually have a happy ending like a hero beats a crime and get a girl.
+T7	Premise 800 859	But now many people, including me, have been tired with it.
+T8	Premise 866 921	I don't want to see the same kind of ending again and again.
+T9	Claim 922 985	So we can't always let good people be rewarded in movies or TV programs.
+A2	Stance T9 For
+T10	Premise 994 1061	Even in the real world, good people can get a bad ending sometimes.
+T11	Premise 1062 1134	And I think it happen more often in the real world than in those movies.
+T12	Claim 1135 1259	So if children always watch the TV programs that good people get rewarded, they may think it will be true in the real world.
+A3	Stance T12 For
+T13	Premise 1260 1300	They will be misleading by those movies.
+T14	Premise 1301 1358	And they may act like good people in order to get reward.
+T15	Premise 1359 1467	Once they find the good people are not always get rewarded, they may feel upset and not to be a good person.
+T16	Premise 1468 1548	But in fact, the good people do good things no matter the ending is good or not.
+T17	Claim 1549 1624	So we should tell this to the young children to avoid the misunderstanding.
+A4	Stance T17 For
+T18	Claim 1634 1675	those good endings sometimes are helpful.
+A5	Stance T18 Against
+T19	Premise 1676 1724	Some people may be encouraged to do good things.
+T20	Premise 1706 1792	But like I said, this kind of behavior won't last long, because someday they will realize the truth.
+T21	Claim 1826 1886	So I suggest we should show people the truth in the stories.
+A6	Stance T21 For
+T22	Premise 1887 1958	And if they can, they will be good people no matter how the story ends.
+T23	MajorClaim 1988 2099	I think movies and TV programs should present different stories in which good people get reward or get nothing.
+R1	supports Arg1:T3 Arg2:T2
+R2	supports Arg1:T4 Arg2:T2
+R3	supports Arg1:T5 Arg2:T2
+R4	supports Arg1:T6 Arg2:T9
+R5	supports Arg1:T7 Arg2:T9
+R6	supports Arg1:T8 Arg2:T9
+R7	supports Arg1:T2 Arg2:T1
+R8	supports Arg1:T9 Arg2:T1
+R9	supports Arg1:T10 Arg2:T12
+R10	supports Arg1:T11 Arg2:T12
+R11	supports Arg1:T13 Arg2:T12
+R12	supports Arg1:T14 Arg2:T12
+R13	supports Arg1:T15 Arg2:T17
+R14	supports Arg1:T16 Arg2:T17
+R15	supports Arg1:T12 Arg2:T1
+R16	supports Arg1:T17 Arg2:T1
+R17	supports Arg1:T19 Arg2:T18
+R18	attacks Arg1:T20 Arg2:T18
+R19	supports Arg1:T22 Arg2:T21
+R20	attacks Arg1:T18 Arg2:T1
+R21	supports Arg1:T21 Arg2:T1

@@ -1,0 +1,27 @@
+T1	MajorClaim 1668 1891	For the reasons mentioned above, I believe that people are now more conscious to gain more educational qualification and also are more interested to work on various fields simultaneously to earn more and support themselves.
+T2	Claim 248 467	However, a modern trend reveals that new generations are more interested to perform several jobs and also would like to gain multiple higher educational certificates in order to earn more and to gain financial security.
+T3	Premise 468 575	A full time job with a steady income was enough for a potential employee to support himself and his family.
+T4	Premise 576 692	But with the recent recession, almost all the countries all over the world are seeing significant economic downfall.
+T5	Premise 693 767	This overwhelming crisis is prompting delayering and reduction of workers.
+T6	Premise 768 891	As a result, people are focusing on doing several jobs or gaining further qualification to secure their economic condition.
+T7	Premise 892 994	Moreover, the arrival of technology has also been playing a major role promoting further unemployment.
+T8	Premise 995 1057	The official term of it is named "Technological Unemployment".
+T9	Premise 1058 1225	North American economists have published reports after scrutinizing the recent American economic situation that, technology is eliminating more jobs than creating one.
+T10	Premise 1226 1419	For example, robots, automation and softwares are taking over manual human workers professions such as clerks, interpreters, security services, retails and specially in manufacturing companies.
+T11	Premise 1420 1466	Thus many people's jobs are now at high stake.
+T12	Claim 1467 1530	The best way to ensure a flexible earning is getting more jobs.
+T13	Premise 1531 1667	Last but not least, corporational policy to to pay less to inferiors is another reason that drives labours to work on different sectors.
+A1	Stance T2 For
+A2	Stance T12 For
+R1	supports Arg1:T2 Arg2:T1
+R2	supports Arg1:T3 Arg2:T2
+R3	supports Arg1:T4 Arg2:T6
+R4	supports Arg1:T5 Arg2:T6
+R5	supports Arg1:T6 Arg2:T2
+R6	supports Arg1:T7 Arg2:T2
+R7	supports Arg1:T8 Arg2:T7
+R8	supports Arg1:T9 Arg2:T7
+R9	supports Arg1:T10 Arg2:T9
+R10	supports Arg1:T11 Arg2:T7
+R11	supports Arg1:T12 Arg2:T2
+R12	supports Arg1:T13 Arg2:T2

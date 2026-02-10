@@ -1,0 +1,26 @@
+T1	MajorClaim 372 450	In my view, I firmly disagree with this recommendation due to several reasons.
+T2	Claim 451 594	The main reason why I believe artists should be funded is because art helps to improve the quality of our lives as well as attracting tourists.
+A1	Stance T2 For
+T3	Premise 595 773	For example, monuments that represent each city do not only illustrate the city's history and culture, but also make the city more beautiful and an attractive place for tourists.
+T4	Premise 774 963	In fact, some countries depend on tourism as their main source of revenue, thus, the governments should help arts because their work crafts are very necessary to boost the tourist industry.
+T5	Claim 964 1102	In addition, sculptures and paintings in the museums and art galleries generally reflect the culture and civilization of every generation.
+A2	Stance T5 For
+T6	Premise 1103 1182	Therefore, culture and history of a country can be reserved and assured by art.
+T7	Premise 1183 1307	Young people are also able to get more knowledge about their country's history and culture by observing various work crafts.
+T8	Claim 1308 1424	Another reason why artists should be helped is because talent in art is extremely precious and should not be wasted.
+A3	Stance T8 For
+T9	Premise 1425 1504	Indeed, not many people are blessed in the talent of paintings and work crafts.
+T10	Premise 1505 1615	Hence, this type of talent has to be valued as other types of talents such as talent in science or literature.
+T11	MajorClaim 1616 1816	To sum up, art is a very valuable object for every country and the talent in this area cannot be discovered everywhere, so I think governments should help and encourage artists to continue their work.
+R1	supports Arg1:T2 Arg2:T1
+R2	supports Arg1:T3 Arg2:T2
+R3	supports Arg1:T4 Arg2:T2
+R4	supports Arg1:T5 Arg2:T1
+R5	supports Arg1:T6 Arg2:T5
+R6	supports Arg1:T7 Arg2:T5
+R7	supports Arg1:T8 Arg2:T1
+R8	supports Arg1:T9 Arg2:T8
+R9	supports Arg1:T10 Arg2:T8
+R10	supports Arg1:T2 Arg2:T11
+R11	supports Arg1:T5 Arg2:T11
+R12	supports Arg1:T8 Arg2:T11

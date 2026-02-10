@@ -1,0 +1,23 @@
+T1	MajorClaim 218 316	Hence, creative artists must be given the freedom to express their ideas without any restrictions.
+T2	Claim 317 693	Time and again, creative artists like Michaelangelo, Picasso, Salman Rushdie, Shakespeare etc. have made artistic works which gave a social message. Right from sculptures to paintings, books to drama and movies, all these artistic works have reflected the contemporary social issues of different eras. Creative works help to create social awareness by giving a social message.
+T3	Premise 112 179	Many governments restrict the artistic works of the creative minds.
+T4	Premise 180 217	Creativity originates in a free mind.
+T5	Claim 694 1130	Nonetheless, innovative works makes people realize things in a peaceful way and peep into their own conscience. It helps to raise issues and criticize the wrong doings of the governments. For instance, Bangladeshi writer Taslima Nasrin was accused of acting against the government, just because she raised a social issue. This type of approach is a hurdle in promoting creative minds. In addition, creativity also gives aesthetic charm.
+T6	Claim 1131 1451	Unfortunately, many governments restrict the artists. Frank Zappa once said, "Mind is like a parachute, it doesn't work if its not open“. Restrictions would just curb the innovative ideas of the artists and would limit their brains. Like the media, artists should also be given the freedom to express their ideas freely.
+T7	Claim 1452 1763	However, artists should also know not to hurt the sentiments of the people. Many artists have been involved in controversies because of hurting the religious or social beliefs of the common people. Artists should have self-awareness not to create vulgar, hurtful or useless works which do not serve any purpose.
+T8	MajorClaim 1764 1836	I firmly believe that artists should be given the freedom of expression.
+T9	Premise 1837 1888	Mind can not work when it is chained in boundaries.
+T10	Premise 1889 2002	Imagination is at its best when the mind is relaxed and free from the fear of government or any restrictive laws.
+A1	Stance T2 For
+A2	Stance T5 For
+A3	Stance T6 For
+A4	Stance T7 For
+R1	supports Arg1:T4 Arg2:T1
+R2	supports Arg1:T2 Arg2:T1
+R3	supports Arg1:T5 Arg2:T1
+R4	supports Arg1:T6 Arg2:T1
+R5	attacks Arg1:T3 Arg2:T1
+R6	supports Arg1:T7 Arg2:T1
+R7	supports Arg1:T9 Arg2:T8
+R8	supports Arg1:T10 Arg2:T8
+R9	supports Arg1:T8 Arg2:T1

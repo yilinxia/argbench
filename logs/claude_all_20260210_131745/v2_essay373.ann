@@ -1,0 +1,43 @@
+T1	MajorClaim 599 708	I think it is no evidence about the reduction of crime rates due to the death penalty because of many reasons
+T2	Claim 719 788	capital punishment is a form of revenge which creates violent culture
+A1	Stance T2 Against
+T3	Premise 790 933	Crimes kill someone which is illegal; nevertheless, the government use law to punish them, which is the same way they sinned but in a legal one
+T4	Premise 935 986	As a fact that the criminal is repeated second time
+T5	Premise 994 1054	it is regarded as the "legalized revenge" to victims' family
+T6	Claim 1063 1146	death penalty neither controls the violent in society nor creates a violent culture
+A2	Stance T6 Against
+T7	Claim 1158 1205	nobody has the right to take another human life
+A3	Stance T7 Against
+T8	Premise 1207 1295	It is undeniable that the rights of life are the basic and vital rights of a human being
+T9	Premise 1297 1374	No one has the right to take the life of a human; even if he committed murder
+T10	Premise 1376 1421	If you kill a criminal, you become a criminal
+T11	Premise 1433 1531	if we think that killing is the best way to solve the problem, it is neither unethical nor immoral
+T12	Claim 1543 1596	crimes seem to increase due to the capital punishment
+A4	Stance T12 Against
+T13	Claim 1607 1676	with some of serious criminals, capital punishment is an easy way out
+A5	Stance T13 Against
+T14	Premise 1678 1725	Criminals should be punished for their misdeeds
+T15	Premise 1727 1828	If they kill someone and end their life by dead without paying for their sins, it is so easy for them
+T16	Premise 1830 1868	They do not undergo any pain or misery
+T17	Premise 1915 2020	As we can see some industries such as mining, oil and gas extraction, reclamation, etc, needs many labors
+T18	Premise 2022 2104	Why do not punish them by doing something meaningful for the country- it is better
+T19	Premise 2116 2212	rehabilitation and education is also a better way in order to prevent or minimize offensive acts
+T20	MajorClaim 2228 2451	capital punishment is a form of legalized revenge, it is an easy way for serious crimes, and nobody has rights to take others life; thus, it neither demines crimes of violence nor be essential to control violence in society
+R1	supports Arg1:T3 Arg2:T2
+R2	supports Arg1:T4 Arg2:T2
+R3	supports Arg1:T5 Arg2:T2
+R4	supports Arg1:T2 Arg2:T6
+R5	supports Arg1:T8 Arg2:T7
+R6	supports Arg1:T9 Arg2:T7
+R7	supports Arg1:T10 Arg2:T7
+R8	supports Arg1:T11 Arg2:T12
+R9	supports Arg1:T7 Arg2:T12
+R10	supports Arg1:T14 Arg2:T13
+R11	supports Arg1:T15 Arg2:T13
+R12	supports Arg1:T16 Arg2:T13
+R13	supports Arg1:T17 Arg2:T13
+R14	supports Arg1:T18 Arg2:T13
+R15	supports Arg1:T19 Arg2:T13
+R16	supports Arg1:T6 Arg2:T1
+R17	supports Arg1:T12 Arg2:T1
+R18	supports Arg1:T13 Arg2:T1

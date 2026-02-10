@@ -1,0 +1,29 @@
+T1	MajorClaim 235 406	It is my personal belief that freedom of expressing thoughts and ideas should always be eulogized and it's rather iniquitous to impose a shackle on artists' will to create
+T2	Claim 557 668	I believe the audiences have their own judgement and are not likely to be misled or influenced by some art work
+A1	Stance T2 For
+T3	Premise 670 781	It is needless to say that art inevitably involves imagination, exaggeration and sometimes is purely fabricated
+T4	Premise 783 917	regardless of whether the work of art is based on truth or not, it is the public's authority to determine how to interpret its meaning
+T5	Premise 919 1062	If the art displays unreality, the public audiences certainly have the acumen to recognise its untruthfulness and only appreciate its art value
+T6	Premise 1064 1182	if the art reflects the reality, then what would be the intention to ban it if it was not for covering the dirty truth
+T7	Premise 1184 1273	Would it be autocratic if the government clamp down the artists who are telling the truth
+T8	Claim 1286 1348	the notion of being afraid of social misleading is unjustified
+A2	Stance T8 For
+T9	Premise 1422 1540	It is undeniable that some of the art work may contain negative implications such as insanity, violence, eroticism etc
+T10	Claim 1542 1699	I absolutely agree that restrictions on exposure to adolescents should apply as adolescents are not mature enough to avoid being led astray by these contents
+A3	Stance T10 For
+T11	Claim 1710 1782	in the case of adults being the audience, there's really nothing to hide
+A4	Stance T11 For
+T12	Premise 1785 1934	these negative things objectively exist on this planet and it is impossible for adults to be brain-washed only because of some pieces of creative art
+T13	MajorClaim 1958 2032	I do not root for the idea that restrictions should be put on artists work
+T14	MajorClaim 2051 2159	they should be encouraged to express their innovative ideas – this world needs them to make itself colourful
+R1	supports Arg1:T3 Arg2:T2
+R2	supports Arg1:T4 Arg2:T2
+R3	supports Arg1:T5 Arg2:T2
+R4	supports Arg1:T6 Arg2:T2
+R5	supports Arg1:T7 Arg2:T2
+R6	supports Arg1:T2 Arg2:T1
+R7	supports Arg1:T8 Arg2:T1
+R8	supports Arg1:T9 Arg2:T10
+R9	supports Arg1:T12 Arg2:T11
+R10	supports Arg1:T10 Arg2:T13
+R11	supports Arg1:T11 Arg2:T13

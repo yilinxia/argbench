@@ -1,0 +1,33 @@
+T1	MajorClaim 375 479	reducing stress by listening to music, playing sports, and doing meditation are easy and practical ways.
+T2	Claim 494 536	listening to music is a great way to relax
+A1	Stance T2 For
+T3	Premise 538 769	For example, when I go to office, I use public transport. I see many things such as traffic jam, crowded people at bus stop, and all so crowded people in buses. These make me stress. So that I always listen music from my mp3 player
+T4	Premise 771 837	I could enjoy listening music without thinking of people around me
+T5	Premise 839 885	Consequently, I feel happy when I listen music
+T6	Claim 895 975	another way that is perfectly work for everyone to reduce the stress is exercise
+A2	Stance T6 For
+T7	Premise 977 1165	For instance, I alway have many things in my mind such as a difficult of my work that I have to finish in time. These problem sometime make me hard to fall asleep because it make me stress
+T8	Premise 1167 1239	Thus, after work, I always do exercise, and jogging is my favorite sport
+T9	Premise 1241 1298	I feel that after working out, I am easily to fall asleep
+T10	Premise 1300 1371	Exercising not only reduce my stress but also make me get a good health
+T11	Claim 1380 1432	meditation also one of the ways to reduce the stress
+A3	Stance T11 For
+T12	Premise 1434 1519	when I have many things to think about, and this make me stress, I will do meditation
+T13	Premise 1521 1617	Meditation is easy way to relax because it is not require any equipment, and it take few minutes
+T14	Premise 1619 1701	A way to do meditation is that I just sit down, close my eyes, and count my breath
+T15	Premise 1703 1737	These could relieve me from stress
+T16	MajorClaim 1818 1937	listening to music, exercising, and doing meditation are the most activities that people could do to escape from stress
+R1	supports Arg1:T3 Arg2:T2
+R2	supports Arg1:T4 Arg2:T2
+R3	supports Arg1:T5 Arg2:T2
+R4	supports Arg1:T2 Arg2:T1
+R5	supports Arg1:T7 Arg2:T6
+R6	supports Arg1:T8 Arg2:T6
+R7	supports Arg1:T9 Arg2:T6
+R8	supports Arg1:T10 Arg2:T6
+R9	supports Arg1:T6 Arg2:T1
+R10	supports Arg1:T12 Arg2:T11
+R11	supports Arg1:T13 Arg2:T11
+R12	supports Arg1:T14 Arg2:T11
+R13	supports Arg1:T15 Arg2:T11
+R14	supports Arg1:T11 Arg2:T1

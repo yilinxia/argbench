@@ -1,0 +1,58 @@
+T1	MajorClaim 0 62	Experiences that have shaped your outlook and the way you live
+T2	MajorClaim 1569 1682	In conclusion, experiences that shape my thinking and the way to live my life are teach me to be a better person.
+T3	Claim 64 125	Many circumstances that I experienced change the way I think.
+A1	Stance T3 For
+T4	Claim 126 190	There are many experiences that are improve my life in many way.
+A2	Stance T4 For
+T5	Claim 191 328	For example, I could improve the way that I solve problems, improve how I take care of my health, and improve to plan my life for future.
+A3	Stance T5 For
+T6	Claim 372 464	To begin with, studying in university taught me to be more prudent person to solve problems.
+A4	Stance T6 For
+T7	Premise 465 556	For example, in math class, the way that we learnt to find an answer by doing step by step.
+T8	Premise 557 638	Start with find cause of problem and the way to do research to solve the problem.
+T9	Premise 639 685	I could adapt this method to use my real life.
+T10	Premise 686 829	When I want to go to somewhere, I try to find the way to reach to destination. Which ways are shortest and which ways are less consume my time.
+T11	Premise 830 874	I could find a better way to solve problems.
+T12	Claim 875 948	Secondly, Some experiences could teach me the way to take care of myself.
+A5	Stance T12 For
+T13	Premise 949 1065	For instance, reading and listening the news about choosing a good diet are the way to keep myself are more healthy.
+T14	Premise 1066 1124	Thus, I am always buy a quality food such as organic food.
+T15	Premise 1125 1157	This food are not have chemical.
+T16	Premise 1158 1192	So that, I can have a good health.
+T17	Premise 1193 1237	This experience teach me to aware my health.
+T18	Claim 1238 1301	Lastly, experiences are also change to plan for my future life.
+A6	Stance T18 For
+T19	Premise 1302 1382	For example, I read about saving money for my retire is a good plan for my life.
+T20	Premise 1383 1493	Consequently, I start changing myself from spending many thing that I want to saving money for my entire life.
+T21	Premise 1494 1568	This experience change me to concern about making plan for my future life.
+T22	Claim 1683 1735	Because I could find a better way to solve problems.
+A7	Stance T22 For
+T23	Claim 1736 1805	Besides, experiences could shape me to be more aware about my health.
+A8	Stance T23 For
+T24	Claim 1806 1880	Moreover, these experiences could make me to make plan for my future life.
+A9	Stance T24 For
+T25	Claim 1881 1949	These experiences taught me to change my life to be a better person.
+A10	Stance T25 For
+R1	supports Arg1:T3 Arg2:T2
+R2	supports Arg1:T4 Arg2:T2
+R3	supports Arg1:T5 Arg2:T4
+R4	supports Arg1:T6 Arg2:T2
+R5	supports Arg1:T7 Arg2:T6
+R6	supports Arg1:T8 Arg2:T6
+R7	supports Arg1:T9 Arg2:T6
+R8	supports Arg1:T10 Arg2:T6
+R9	supports Arg1:T11 Arg2:T6
+R10	supports Arg1:T12 Arg2:T2
+R11	supports Arg1:T13 Arg2:T12
+R12	supports Arg1:T14 Arg2:T12
+R13	supports Arg1:T15 Arg2:T14
+R14	supports Arg1:T16 Arg2:T12
+R15	supports Arg1:T17 Arg2:T12
+R16	supports Arg1:T18 Arg2:T2
+R17	supports Arg1:T19 Arg2:T18
+R18	supports Arg1:T20 Arg2:T18
+R19	supports Arg1:T21 Arg2:T18
+R20	supports Arg1:T22 Arg2:T2
+R21	supports Arg1:T23 Arg2:T2
+R22	supports Arg1:T24 Arg2:T2
+R23	supports Arg1:T25 Arg2:T2

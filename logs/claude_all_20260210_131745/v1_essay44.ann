@@ -1,0 +1,32 @@
+T1	MajorClaim 0 75	Government should make more effort to promote alternative sources of energy
+T2	Premise 77 173	The increasing population and the technological advancements demand more energy than in the past
+T3	Premise 175 294	It is believed that there are various other resources such as the nuclear and solar which are abundant and eco-friendly
+T4	Premise 346 387	the major source of energy today is water
+T5	Premise 389 500	Although there is a lot of water shortage to generate electricity many countries still rely only on this source
+T6	Premise 502 576	To generate such a vast energy the fundamental resources are falling short
+T7	Premise 578 672	Thus, during summer there will be a lot of power cut in the developing countries such as India
+T8	Claim 674 821	If the government encourage the use of nuclear, solar or wind energy there might not be any problem in distributing the required amount electricity
+T9	Claim 834 935	it would be a good implication by the government to generate electricity from other available sources
+T10	Premise 947 1089	the sources most widely used currently to generate power releases extensive amount of gases into the atmosphere which increases global warming
+T11	Premise 1091 1201	For example, the use of a solar cooker instead of an electric cooker would certainly reduce the global warming
+T12	Claim 1203 1325	In the same way, the use of nuclear energy as an alternative to the hydro-kinetic energy causes less atmospheric pollution
+T13	MajorClaim 1340 1425	it would be a better implication by the government to promote other sources of energy
+T14	Premise 1427 1525	This can make use of the available natural resources which in turn would reduce the global warming
+T15	Claim 1527 1655	Further, government should motivate and encourage the people to use alternative sources such as the solar and the nuclear energy
+A1	Stance T8 For
+A2	Stance T9 For
+A3	Stance T12 For
+A4	Stance T15 For
+R1	supports Arg1:T2 Arg2:T1
+R2	supports Arg1:T3 Arg2:T1
+R3	supports Arg1:T4 Arg2:T8
+R4	supports Arg1:T5 Arg2:T8
+R5	supports Arg1:T6 Arg2:T8
+R6	supports Arg1:T7 Arg2:T8
+R7	supports Arg1:T8 Arg2:T9
+R8	supports Arg1:T9 Arg2:T1
+R9	supports Arg1:T10 Arg2:T12
+R10	supports Arg1:T11 Arg2:T12
+R11	supports Arg1:T12 Arg2:T1
+R12	supports Arg1:T14 Arg2:T15
+R13	supports Arg1:T15 Arg2:T13

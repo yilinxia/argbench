@@ -1,0 +1,31 @@
+T1	MajorClaim 310 405	In my opinion, advertising is the major reason for high sales of a product for several reasons.
+T2	Claim 407 467	We are mainly introduced to products through advertisements.
+A1	Stance T2 For
+T3	Premise 468 570	Therefore, advertisers push the limits of creativity to dispose the consumers to purchase the product.
+T4	Premise 571 715	When the consumers are impressed by the way a product is advertised, they can be convinced to consider that the product is a need in some cases.
+T5	Premise 716 796	Recently, there is a very creative advertisements of a soft drink product on TV.
+T6	Premise 797 910	The story delivers a desired call to drink that soft drink that people tend to drink when the weather is too hot.
+T7	Premise 911 985	As a result of this, the number of that product being sold will increases.
+T8	Claim 987 1096	Also, the more an advertisement of a product takes place in mass media, the more popular the product becomes.
+A2	Stance T8 For
+T9	Premise 1097 1168	Advertisement is the most effective way to create a well-known product.
+T10	Premise 1169 1296	Consumers tend to purchase the most known product when it comes to picking one out of two different brands of the same product.
+T11	Premise 1297 1399	When a product is commonly used, it becomes trustworthy for the society, no matter what quality it is.
+T12	Claim 1456 1568	Considering this fact, advertisements have undeniable affects on the society about the product being advertised.
+A3	Stance T12 For
+T13	Premise 1569 1602	They make the product preferable.
+T14	Claim 1604 1770	In conclusion, as I believe that consumers should consider major needs when they purchase goods, high sales are obviously a reflection of the powerful advertisements.
+A4	Stance T14 For
+R1	supports Arg1:T2 Arg2:T1
+R2	supports Arg1:T3 Arg2:T2
+R3	supports Arg1:T4 Arg2:T2
+R4	supports Arg1:T5 Arg2:T4
+R5	supports Arg1:T6 Arg2:T5
+R6	supports Arg1:T7 Arg2:T2
+R7	supports Arg1:T8 Arg2:T1
+R8	supports Arg1:T9 Arg2:T8
+R9	supports Arg1:T10 Arg2:T8
+R10	supports Arg1:T11 Arg2:T10
+R11	supports Arg1:T12 Arg2:T1
+R12	supports Arg1:T13 Arg2:T12
+R13	supports Arg1:T14 Arg2:T1

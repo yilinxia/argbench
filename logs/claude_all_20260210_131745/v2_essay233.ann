@@ -1,0 +1,22 @@
+T1	MajorClaim 0 47	Easy preparation of food leads to a better life
+T2	Claim 211 266	With that change, people's lives are a lot better for several reasons
+A1	Stance T2 For
+T3	Premise 259 367	Some good reasons are about having more time and being able to prepare better food without being a good cook
+T4	Claim 378 419	people normally have lots of things to do
+T5	Premise 406 458	Because of that, they don't have much time to spend in the kitchen
+T6	Premise 489 590	But being able to prepare a tasty food just putting it into the microwave or into the oven is awesome
+T7	Premise 592 780	For example, if an engineer needs to make a project, but he needs to deliver it tomorrow, he could save hours preparing a food with the microwave instead of cooking everything from scratch
+T8	Claim 792 995	when someone wants to prepare a good food alone for some reason, some time ago he/she would need to be a very good cook to prepare that food, but nowadays is very easy to prepare a healthy and tasty food
+A2	Stance T8 For
+T9	Premise 997 1187	For example, if a guy wants to prepare a dinner to his girlfriend, he could just buy some food that comes with instructions. Normally you just need to put it into the oven and wait some time
+T10	MajorClaim 1110 1162	that ease to prepare food has improved people's lives
+T11	Premise 1256 1325	And that happened mainly because of the development of the technology
+R1	supports Arg1:T3 Arg2:T2
+R2	supports Arg1:T5 Arg2:T4
+R3	supports Arg1:T6 Arg2:T4
+R4	supports Arg1:T7 Arg2:T4
+R5	supports Arg1:T4 Arg2:T1
+R6	supports Arg1:T9 Arg2:T8
+R7	supports Arg1:T8 Arg2:T1
+R8	supports Arg1:T2 Arg2:T1
+R9	supports Arg1:T11 Arg2:T10

@@ -1,0 +1,49 @@
+T1	MajorClaim 469 519	I agree that face-to-face communication is better.
+T2	Claim 521 631	The first and foremost reason lies in the inevitable fact that communicating in person can be more convincing.
+T3	Premise 632 777	Sometimes, face-to face communication can lead us to convince or complain someone successfully, and a fitting example can be found from my uncle.
+T4	Premise 778 823	He once complained a service of a restaurant.
+T5	Premise 824 958	Without exaggeration, he directly went to the boss and told the boss that something wrong occurred on the meal--a fly concealed in it.
+T6	Premise 959 1039	Afterward, my uncle acquired a new service thanks to face-to face communication.
+T7	Premise 1040 1166	If he just wrote something to complain on the website or by telephone, I do not think this problem would be thought important.
+T8	Claim 1167 1261	Therefore, we can commence to agree that communicating with someone in person is the best way.
+T9	Claim 1263 1407	Apart from the one I have mentioned above, another equally crucible aspect is that it is easy to be deceived without face-to face communication.
+T10	Premise 1408 1494	For instance, I had received some harmful words on facebook from my best friend, Eric.
+T11	Premise 1495 1611	He said that I was totally failed in building a good friendship and he did not want to be one of my friends anymore.
+T12	Premise 1612 1658	I just shocked and did not know what happened.
+T13	Premise 1659 1716	Finally, I realized that his facebook account was stolen.
+T14	Claim 1717 1818	Hence, from this case, we are capable of stating that it is important to talk to people face-to-face.
+T15	Claim 1820 2049	Admittedly, on the other hand, there might be some dissidents proclaiming that communication by letters, email, or telephone can enable them to talk without scruple, which is also one of the most important parts in communication.
+T16	Claim 2050 2134	However, from my limited understanding, I just doubt the credibility of that saying.
+T17	Premise 2135 2229	It is conceivable that before we talk, it is necessary for us to be imprudent about our words.
+T18	Premise 2230 2347	Talking without scruple is not the indispensable part in communication; in contrast, it is usually detrimental to us.
+T19	Claim 2349 2514	Based on the reasons demonstrated above, I prefer to express my opinion in person because the advantages of this are qualitatively greater than that of the opposite.
+T20	MajorClaim 2515 2597	In other words, I think the best way of communication is by means of face-to-face.
+T21	Premise 2598 2682	It is not to say, of course, that other points of view are completely without merit.
+T22	Premise 2683 2802	Still, I am firmly convinced that the reasons I proposed in favor of my own sentiment are much more tenable and cogent.
+A1	Stance T2 For
+A2	Stance T8 For
+A3	Stance T9 For
+A4	Stance T14 For
+A5	Stance T15 Against
+A6	Stance T16 For
+A7	Stance T19 For
+R1	supports Arg1:T2 Arg2:T1
+R2	supports Arg1:T3 Arg2:T2
+R3	supports Arg1:T4 Arg2:T3
+R4	supports Arg1:T5 Arg2:T4
+R5	supports Arg1:T6 Arg2:T2
+R6	supports Arg1:T7 Arg2:T2
+R7	supports Arg1:T8 Arg2:T1
+R8	supports Arg1:T9 Arg2:T1
+R9	supports Arg1:T10 Arg2:T9
+R10	supports Arg1:T11 Arg2:T10
+R11	supports Arg1:T12 Arg2:T10
+R12	supports Arg1:T13 Arg2:T9
+R13	supports Arg1:T14 Arg2:T1
+R14	attacks Arg1:T15 Arg2:T1
+R15	attacks Arg1:T16 Arg2:T15
+R16	supports Arg1:T17 Arg2:T16
+R17	supports Arg1:T18 Arg2:T16
+R18	supports Arg1:T19 Arg2:T20
+R19	supports Arg1:T22 Arg2:T20
+R20	supports Arg1:T1 Arg2:T20

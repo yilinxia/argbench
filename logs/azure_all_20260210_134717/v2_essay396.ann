@@ -1,0 +1,26 @@
+T1	MajorClaim 0 92	Arts and public services are both important to the community and should be invested properly
+T2	Claim 254 301	both public services and arts worth investment.
+A1	Stance T2 For
+T3	Claim 331 414	indispensable public services like hospital and school worth every penny investing.
+A2	Stance T3 For
+T4	Premise 415 468	Investing in hospitals helps improve people's health,
+T5	Premise 475 538	in schools assists with raising our children's education level.
+T6	Premise 539 638	Apparently if these facilities were not spent adequately, our standard of living would deteriorate.
+T7	Claim 643 748	our standard of living also depend on another factor - spiritual life which is related closely with arts.
+A3	Stance T7 For
+T8	Premise 749 822	Arts include many forms and music as well as cinema are the most typical.
+T9	Premise 823 939	These two art forms not only provide the public with entertainment but also contribute significantly to the economy.
+T10	Premise 940 1070	The income of film and music industries produce millions of dollars each year for the Goverment, for instance K-pop and Hollywood,
+T11	Premise 1075 1149	these industries can not survive without goverment's financial assistance.
+T12	MajorClaim 1181 1274	both arts and public services are important to the community and should be invested properly.
+R1	supports Arg1:T2 Arg2:T1
+R2	supports Arg1:T3 Arg2:T2
+R3	supports Arg1:T4 Arg2:T3
+R4	supports Arg1:T5 Arg2:T3
+R5	supports Arg1:T6 Arg2:T3
+R6	supports Arg1:T7 Arg2:T2
+R7	supports Arg1:T8 Arg2:T7
+R8	supports Arg1:T9 Arg2:T7
+R9	supports Arg1:T10 Arg2:T9
+R10	supports Arg1:T11 Arg2:T9
+R11	supports Arg1:T2 Arg2:T12

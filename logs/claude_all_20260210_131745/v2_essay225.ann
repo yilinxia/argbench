@@ -1,0 +1,39 @@
+T1	MajorClaim 83 129	childhood is the happiest period of one's life
+T2	Premise 131 280	It's not only the lack of responsibilities and daily struggle that make childhood the happiest time of our lives, but also factors like learning lots
+T3	Premise 281 351	of new things every day and freedom to imagine and say what you think.
+T4	Claim 352 449	Starting with our adulthood, we are strictly bounded with our responsibilities in our daily lives
+T5	Premise 451 539	We are told at what hour we shall wake up, how we shall dress up and how we shall behave
+T6	Premise 541 609	Every action we make are watched closely and judged by the community
+T7	Claim 611 715	But during our childhood, though responsibilies exist, we are much more free to do what we would like to
+T8	Premise 717 864	Being late for school or laughing at a place where you aren't supposed to do not have consequences as serious as that would be if you were an adult
+T9	Claim 867 1002	Another great thing about being a child is possibility learning new and interesting things about the world you live in every single day
+T10	Premise 1004 1121	Being a child means that you are new in this world and every single thing around you is there to be discovered by you
+T11	Premise 1123 1214	There are lots of new facts you can learn, stories you can listen to and things you can see
+T12	Claim 1216 1294	Therefore, childhood is the period of time in which a person is surprised most
+T13	Claim 1296 1394	Using your imagination and saying what you think freely is another great thing about being a child
+T14	Premise 1396 1558	Children are not judged about the things they say as much as the adults, and freedom to express yourself is a very important for developing a colorful imagination
+T15	Premise 1560 1696	In adulthood, people are forced to express themselves in boundaries, therefore they are in no way free to think or use their imagination
+T16	MajorClaim 1698 1764	Childhood, in several aspects, is the happiest period of our lives
+T17	Premise 1766 1886	It's not only because of the nature of childhood and children, but also the way our lives are changed when we are adults
+T18	Premise 1888 2091	In an ideal world with less boundaries, social judgement and more freedom of thought, things could be different; but since this is not the case, it seems that we will always be missing our childhood days
+A1	Stance T4 For
+A2	Stance T7 For
+A3	Stance T9 For
+A4	Stance T12 For
+A5	Stance T13 For
+R1	supports Arg1:T2 Arg2:T1
+R2	supports Arg1:T3 Arg2:T1
+R3	supports Arg1:T5 Arg2:T4
+R4	supports Arg1:T6 Arg2:T4
+R5	supports Arg1:T4 Arg2:T7
+R6	supports Arg1:T8 Arg2:T7
+R7	supports Arg1:T7 Arg2:T1
+R8	supports Arg1:T10 Arg2:T9
+R9	supports Arg1:T11 Arg2:T9
+R10	supports Arg1:T9 Arg2:T12
+R11	supports Arg1:T12 Arg2:T1
+R12	supports Arg1:T14 Arg2:T13
+R13	supports Arg1:T15 Arg2:T13
+R14	supports Arg1:T13 Arg2:T1
+R15	supports Arg1:T17 Arg2:T16
+R16	supports Arg1:T18 Arg2:T16

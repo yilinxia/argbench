@@ -1,0 +1,24 @@
+T1	MajorClaim 0 91	Fatherhood should be as present as motherhood in a child's life starting from the the birth
+T2	Claim 273 384	I completely agree with the idea that fatherhood is a as vital part of a healty parantage as much as motherhood
+A1	Stance T2 For
+T3	Claim 386 488	The first reason why the father's role should be equal to the mother's role is the nature of parantage
+A2	Stance T3 For
+T4	Premise 502 607	the role models within a family play a significant role in the development of the child's characteristics
+T5	Premise 622 815	in a traditional Turkish family, while a mother has a sincere and thoughtful approach to the child, a father role must be present as authoritarian and conversative to raise a well-behaved child
+T6	Claim 818 937	The second reason why I believe that fatherood is as important as motherhood is the dynamics of the relationships today
+A3	Stance T6 For
+T7	Premise 954 1087	we are living in a society that puts a significant importance to gender equality in every aspect of the life, including relationships
+T8	Premise 1103 1278	a family formed by a woman with a housewife role who looks after the home and takes care of children and a man who brings money home can not be seen anymore in today's society
+T9	Premise 1289 1370	all of the couple duties are performed equally and interchangeably by individuals
+T10	Claim 1383 1479	I believe that having and raising children should not be different than any other daily activity
+A4	Stance T10 For
+T11	MajorClaim 1496 1667	fatherhood should be as present as motherhood in a child's life starting from the the birth due to providing appropriate parenthood and having healthy family relationships
+R1	supports Arg1:T2 Arg2:T1
+R2	supports Arg1:T4 Arg2:T3
+R3	supports Arg1:T5 Arg2:T3
+R4	supports Arg1:T3 Arg2:T1
+R5	supports Arg1:T7 Arg2:T6
+R6	supports Arg1:T8 Arg2:T6
+R7	supports Arg1:T9 Arg2:T10
+R8	supports Arg1:T10 Arg2:T6
+R9	supports Arg1:T6 Arg2:T1

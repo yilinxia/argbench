@@ -1,0 +1,28 @@
+T1	MajorClaim 1748 1837	college and university should be available for all students who want to pursue their goal
+T2	Claim 568 665	college and university should consider students to study with them only if they are good students
+A1	Stance T2 Against
+T3	Premise 686 736	studying in advance education take a huge of money
+T4	Premise 738 868	College and university do not want people who not qualify for to waste their money in these expensive courses and waste their time
+T5	Premise 870 998	They believe that only good students have potentials to success programs more that those who are not considered as good students
+T6	Claim 1014 1113	mediocre students are not have a chance to gain these advance knowledge from college and university
+A2	Stance T6 Against
+T7	Claim 1167 1238	all students should have equal opportunity to study in higher education
+A3	Stance T7 For
+T8	Premise 1251 1359	higher education take a lot of money and a lot of time however moderate students should have a chance to try
+T9	Premise 1361 1505	Everyone that has strongly ambition could pursue and success their goal even they are not classified as a good student because people can change
+T10	Premise 1507 1613	With a good environment in college or university is encouraging students to study harder for a good future
+T11	Claim 1621 1702	mediocre students should have opportunity to be trained in college and university
+A4	Stance T11 For
+T12	Premise 1839 1952	Students can have opportunity to learn, to practice, to gain more knowledge for their career and for their future
+T13	Premise 1954 2041	Studying in college and university is a great opportunity that all students should have
+R1	supports Arg1:T3 Arg2:T2
+R2	supports Arg1:T4 Arg2:T2
+R3	supports Arg1:T5 Arg2:T2
+R4	supports Arg1:T2 Arg2:T6
+R5	supports Arg1:T8 Arg2:T7
+R6	supports Arg1:T9 Arg2:T7
+R7	supports Arg1:T10 Arg2:T11
+R8	supports Arg1:T7 Arg2:T1
+R9	supports Arg1:T11 Arg2:T1
+R10	supports Arg1:T12 Arg2:T1
+R11	supports Arg1:T13 Arg2:T1

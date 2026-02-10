@@ -1,0 +1,31 @@
+T1	MajorClaim 1859 1992	schools and adults should put a sense of cooperation in children to make them becoming a useful adult whether in society or community
+T2	Claim 288 367	some people think it is better to make children be competitive than cooperative
+A1	Stance T2 Against
+T3	Claim 405 513	A strong competition sense helps children having urge to learn or to practice for being the best among peers
+A2	Stance T3 Against
+T4	Premise 519 655	this factor is initially arises from the schools and parents, to encourage children to get the highest scores through the grading system
+T5	Claim 669 769	a competitive child is usually more motivated to pursue a goal or to face difficulties independently
+A3	Stance T5 Against
+T6	Claim 775 861	it is also risky that children are becoming too competitive to cooperating with others
+A4	Stance T6 For
+T7	Claim 863 945	Being competitive leads them to success, but could also restrict them in many ways
+A5	Stance T7 For
+T8	Premise 947 1042	For example, it might be hard for a competitive person to deal or manage in a team work project
+T9	Claim 1063 1166	cooperation is also an essential quality for children, no matter in school activities or in communities
+A6	Stance T9 For
+T10	Premise 1168 1354	Having a good cooperating spirit helps kids to communicate and get along with others, which gives them more possibility to solve problems or to achieve a goal easily by working as a team
+T11	Premise 1367 1442	in society, there is hardly anyone who could has big achievement by oneself
+T12	Premise 1444 1596	For example, famous singers or movie stars, despite of their talent to make them successful, there are always a team to manage works or deal with things
+T13	Claim 1626 1713	competitive child would have more motivation and perspective that leads them to success
+A7	Stance T13 Against
+T14	Claim 1719 1829	it would not help them much once they enter to society or company which required more about skill of team work
+A8	Stance T14 For
+R1	supports Arg1:T4 Arg2:T3
+R2	supports Arg1:T8 Arg2:T7
+R3	supports Arg1:T10 Arg2:T9
+R4	supports Arg1:T11 Arg2:T9
+R5	supports Arg1:T12 Arg2:T11
+R6	supports Arg1:T9 Arg2:T1
+R7	supports Arg1:T14 Arg2:T1
+R8	attacks Arg1:T6 Arg2:T5
+R9	attacks Arg1:T7 Arg2:T3

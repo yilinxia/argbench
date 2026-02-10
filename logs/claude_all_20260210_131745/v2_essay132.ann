@@ -1,0 +1,33 @@
+T1	MajorClaim 0 68	People are now more conscious to gain more educational qualification
+T2	Claim 257 413	a modern trend reveals that new generations are more interested to perform several jobs and also would like to gain multiple higher educational certificates
+A1	Stance T2 For
+T3	Premise 414 466	in order to earn more and to gain financial security
+T4	Premise 468 574	A full time job with a steady income was enough for a potential employee to support himself and his family
+T5	Premise 576 691	But with the recent recession, almost all the countries all over the world are seeing significant economic downfall
+T6	Premise 693 766	This overwhelming crisis is prompting delayering and reduction of workers
+T7	Claim 768 890	As a result, people are focusing on doing several jobs or gaining further qualification to secure their economic condition
+A2	Stance T7 For
+T8	Claim 902 993	the arrival of technology has also been playing a major role promoting further unemployment
+A3	Stance T8 For
+T9	Premise 995 1056	The official term of it is named "Technological Unemployment"
+T10	Premise 1058 1224	North American economists have published reports after scrutinizing the recent American economic situation that, technology is eliminating more jobs than creating one
+T11	Premise 1226 1418	For example, robots, automation and softwares are taking over manual human workers professions such as clerks, interpreters, security services, retails and specially in manufacturing companies
+T12	Premise 1420 1465	Thus many people's jobs are now at high stake
+T13	Claim 1467 1529	The best way to ensure a flexible earning is getting more jobs
+A4	Stance T13 For
+T14	Claim 1531 1666	Last but not least, corporational policy to to pay less to inferiors is another reason that drives labours to work on different sectors
+A5	Stance T14 For
+T15	MajorClaim 1716 1890	people are now more conscious to gain more educational qualification and also are more interested to work on various fields simultaneously to earn more and support themselves
+R1	supports Arg1:T3 Arg2:T2
+R2	supports Arg1:T4 Arg2:T7
+R3	supports Arg1:T5 Arg2:T7
+R4	supports Arg1:T6 Arg2:T7
+R5	supports Arg1:T7 Arg2:T1
+R6	supports Arg1:T9 Arg2:T8
+R7	supports Arg1:T10 Arg2:T8
+R8	supports Arg1:T11 Arg2:T10
+R9	supports Arg1:T12 Arg2:T13
+R10	supports Arg1:T8 Arg2:T13
+R11	supports Arg1:T13 Arg2:T1
+R12	supports Arg1:T14 Arg2:T1
+R13	supports Arg1:T2 Arg2:T1

@@ -1,0 +1,39 @@
+T1	MajorClaim 207 303	However, I do not think these disadvantages will outweigh the advantages brought by cell phones.
+T2	Claim 396 498	First of all, almost everything that changed our lifestyle a lot will also cause some social problems.
+A1	Stance T2 Against
+T3	Premise 499 540	Mobile phones are not out of expectation.
+T4	Premise 541 670	Speaking loudly on the phone in public areas, such as schools, libraries and hospitals appears to be very impolite and offensive.
+T5	Premise 671 838	What is worse, some students utilize their cell phones as an effective cheating tools in examinations in which they can send and receive answers by texting each other.
+T6	Claim 839 968	Nevertheless, it is not impossible to solve these problems, as long as some regulations and rules can be effectively implemented.
+A2	Stance T6 For
+T7	Claim 969 1048	It is also worth mentioning that some harmful effects on our health are lethal.
+A3	Stance T7 Against
+T8	Premise 1049 1256	It has been proved that overusing of the electronic devices including mobile phones could lead to higher possibility of suffering hearing loss and even cancers, although the further investigation are needed.
+T9	Claim 1257 1303	Another debatable problem is about techniques.
+A4	Stance T9 Against
+T10	Premise 1304 1394	There is panic among people that their conversation can be intercepted by the third party.
+T11	Premise 1395 1432	This possibility exists all the time.
+T12	Claim 1433 1541	But a more efficient and reliable system can also be invented to guarantee the private information of users.
+A5	Stance T12 For
+T13	Claim 1542 1639	Moreover, the mobile phone has become a dispensable multifunctional tools in people's daily life.
+A6	Stance T13 For
+T14	Premise 1640 1769	Not only used for communication, but it also functions as an Internet browser, a music player, a personal organizer and so forth.
+T15	Claim 1770 1830	In conclusion, nothing can be overused without side effects.
+A7	Stance T15 For
+T16	Claim 1831 2015	The contribution of the mobile phone to our modern society is prominent and people's dependence on it is irreversible, although it has a number of problems that should be well handled.
+A8	Stance T16 For
+R1	attacks Arg1:T2 Arg2:T1
+R2	supports Arg1:T3 Arg2:T2
+R3	supports Arg1:T4 Arg2:T2
+R4	supports Arg1:T5 Arg2:T2
+R5	supports Arg1:T6 Arg2:T1
+R6	attacks Arg1:T7 Arg2:T1
+R7	supports Arg1:T8 Arg2:T7
+R8	attacks Arg1:T9 Arg2:T1
+R9	supports Arg1:T10 Arg2:T9
+R10	supports Arg1:T11 Arg2:T9
+R11	supports Arg1:T12 Arg2:T1
+R12	supports Arg1:T13 Arg2:T1
+R13	supports Arg1:T14 Arg2:T13
+R14	supports Arg1:T15 Arg2:T1
+R15	supports Arg1:T16 Arg2:T1

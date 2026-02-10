@@ -1,0 +1,22 @@
+T1	MajorClaim 1591 1798	human being should behave as a guardian to animals rather than as their lord or masters. Animal rights are meant to set limits on human behavior and manipulation of them should be punished as a serious crime
+T2	Claim 397 472	This essay will discuss some arguments for and against animal domestication
+T3	Claim 474 598	Human being has driven many animals for their personal use such as, cows and other milch animals for yielding milk from them
+A1	Stance T3 For
+T4	Premise 600 717	Likewise, other animals such as, horses, cattles and donkeys for farming, agriculture and as a mode of transportation
+T5	Premise 719 924	Many people keep pets like dogs and cats, trained them as service dogs and snuffing dogs which are very helpful to police force and even to some blind peoples. They are kept for security purposes in houses
+T6	Claim 945 1004	many farmers and owners exploit animals beyond their limits
+A2	Stance T6 Against
+T7	Premise 1020 1175	cows are often injected by Oxytocin, a hormone which is used to forcibly increase lactation. This in turn, causes lots of discomfort and pain to the cattle
+T8	Premise 1190 1309	thousand of animals undergo painful suffering or death as a result of scientific research of drugs and various products
+T9	Premise 1311 1381	Another example of this is cage farming which is against animal rights
+T10	Premise 1383 1513	Many other practices like, equestrian sport where horses run miles and miles and beaten up by jockeys to make them run more faster
+T11	Premise 1515 1568	And above all pleasure hunting of defenseless animals
+R1	supports Arg1:T4 Arg2:T3
+R2	supports Arg1:T5 Arg2:T3
+R3	supports Arg1:T7 Arg2:T6
+R4	supports Arg1:T8 Arg2:T6
+R5	supports Arg1:T9 Arg2:T6
+R6	supports Arg1:T10 Arg2:T6
+R7	supports Arg1:T11 Arg2:T6
+R8	supports Arg1:T3 Arg2:T1
+R9	supports Arg1:T6 Arg2:T1

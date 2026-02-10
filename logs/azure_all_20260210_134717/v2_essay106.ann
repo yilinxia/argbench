@@ -1,0 +1,26 @@
+T1	MajorClaim 281 396	It is agreed that the move will do more good by looking at the quality of health and image of a nation in long run.
+T2	Claim 450 562	smoking is extremely hazardous to the smoker and others who have been exposed to the fume over a period of time.
+T3	Premise 563 701	Recent death statistic released by the Malaysian Ministry of Health shows that the top killer was lung related diseases caused by smoking.
+T4	Premise 702 850	A large proportion of death involved second hand smoker particularly young children and pregnant women who were vulnerable to these lethal diseases.
+T5	Claim 862 962	the number of fatality can be significantly reduced if a total ban on public smoking is implemented.
+T6	Claim 973 1102	the image of a healthy nation can be promoted when government restricts public smoking by imposing stern penalty to the offender.
+T7	Premise 1103 1243	For instance, the Brunei government had recently enforced a law against smoking in public areas such as cafés, hospital and shopping street.
+T8	Premise 1244 1390	This step has curbed down the numbers of smokers in the country and as a result, Brunei remains a place known for its tranquility and cleanliness.
+T9	Claim 1391 1476	This example shows the benefit of restricting public smoking to a country as a whole.
+T10	Claim 1488 1640	the effort to prohibit people from smoking in public area is certainly helping in curtailing the associated health risks and to create a healthy nation.
+A1	Stance T2 For
+A2	Stance T5 For
+A3	Stance T6 For
+A4	Stance T9 For
+A5	Stance T10 For
+R1	supports Arg1:T2 Arg2:T1
+R2	supports Arg1:T3 Arg2:T2
+R3	supports Arg1:T4 Arg2:T2
+R4	supports Arg1:T2 Arg2:T5
+R5	supports Arg1:T5 Arg2:T1
+R6	supports Arg1:T6 Arg2:T1
+R7	supports Arg1:T7 Arg2:T6
+R8	supports Arg1:T8 Arg2:T6
+R9	supports Arg1:T6 Arg2:T9
+R10	supports Arg1:T9 Arg2:T1
+R11	supports Arg1:T10 Arg2:T1

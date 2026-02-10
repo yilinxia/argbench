@@ -1,0 +1,28 @@
+T1	MajorClaim 301 444	it is much more gratifying to stay side by side and cheer up the team at the stadium rather than just to stay at home and watch the match alone
+T2	Claim 453 503	attending a live football match is very fulfilling
+A1	Stance T2 For
+T3	Premise 505 659	Before the match starts, thousands of fans gathering outside of the stadium with team flags, colorful outfits, sound of trumpets and rattles... everywhere
+T4	Premise 684 739	the atmosphere inside the stadium is even more exciting
+T5	Premise 741 943	You are watching football stars play the game with your own eyes and sharing your feelings with about 40,000 people at the stadium, such an excitement you can never have when you are watching it at home
+T6	Premise 945 1038	Everybody yells and sings together, the stadium is like bursted out whenever a goal is scored
+T7	Premise 1045 1091	you will be bored if you are watching it alone
+T8	Claim 1101 1159	watching a live football game is an exceptional experience
+A2	Stance T8 For
+T9	Premise 1161 1253	You can watch it at home, but "easy come, easy go", you will quickly forget it, like a movie
+T10	Premise 1255 1377	The tickets to get in the stadium may be a little expensive, but you will gain much more entertainment value from the game
+T11	Premise 1379 1426	You can cherish your experience for a long time
+T12	Premise 1441 1578	it can be an exclusive experience. If it is a crucial win to acclaim a trophy, you will be "on site" to witness and celebrate the victory
+T13	MajorClaim 1595 1724	watch a football match on television it is comfortable and pleasing, but watching the match live at the stadium is more enjoyable
+T14	Premise 1726 1770	It can be unforgettable moments in your life
+R1	supports Arg1:T3 Arg2:T2
+R2	supports Arg1:T4 Arg2:T2
+R3	supports Arg1:T5 Arg2:T2
+R4	supports Arg1:T6 Arg2:T2
+R5	supports Arg1:T7 Arg2:T2
+R6	supports Arg1:T2 Arg2:T1
+R7	supports Arg1:T9 Arg2:T8
+R8	supports Arg1:T10 Arg2:T8
+R9	supports Arg1:T11 Arg2:T8
+R10	supports Arg1:T12 Arg2:T8
+R11	supports Arg1:T8 Arg2:T1
+R12	supports Arg1:T14 Arg2:T13

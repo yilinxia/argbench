@@ -1,0 +1,31 @@
+T1	MajorClaim 171 258	Poorer nations need help from richer nations in these areas to develop their countries.
+T2	Claim 291 382	poorer nations normally have less quantity of doctors and nurses compared to richer nations
+T3	Premise 384 521	High population in poorer countries due to lack of family planning caused the proportion of doctors unbalance to the quantity of resident
+T4	Premise 523 613	On top of that, poorer nations are lack of hospitals to fulfill the demand of the patients
+T5	Premise 615 766	To solve these issues, richer nations can contribute by delegating doctors and nurses to these power nations as well as donate money to build hospitals
+T6	Claim 804 936	it is generally agreed that poorer countries often lack of teachers in schools as well as lecturers in higher education institutions
+T7	Premise 938 1050	Besides that, education for these countries normally is not free so only certain group of students can afford it
+T8	Premise 1052 1210	In order to solve the education manpower problem, richer countries can allocate experienced educators to train more teachers and lecturers in poorer countries
+T9	Premise 1212 1332	Meanwhile, for the issue of education fee, richer countries should offer scholarships and loan to the qualified students
+T10	Claim 1364 1462	no one can deny that poorer countries are lagging behind richer countries due to shortage of money
+T11	Premise 1464 1570	Trading are less active in poorer countries may also be caused by incomplete transportation infrastructure
+T12	Premise 1572 1660	For example, residents in rural areas still depend on their own farm for food production
+T13	Premise 1662 1771	As a token of goodwill, richer nations can provide financial service to poorer countries to encourage trading
+T14	Premise 1773 1898	The former can also give consultation on setting up a complete and efficient transportation infrastructure to support trading
+T15	MajorClaim 1915 2027	richer nations should take more responsibility for helping the poorer nations in all health, education and trade
+A1	Stance T2 For
+A2	Stance T6 For
+A3	Stance T10 For
+R1	supports Arg1:T3 Arg2:T2
+R2	supports Arg1:T4 Arg2:T2
+R3	supports Arg1:T5 Arg2:T2
+R4	supports Arg1:T2 Arg2:T1
+R5	supports Arg1:T7 Arg2:T6
+R6	supports Arg1:T8 Arg2:T6
+R7	supports Arg1:T9 Arg2:T6
+R8	supports Arg1:T6 Arg2:T1
+R9	supports Arg1:T11 Arg2:T10
+R10	supports Arg1:T12 Arg2:T11
+R11	supports Arg1:T13 Arg2:T10
+R12	supports Arg1:T14 Arg2:T10
+R13	supports Arg1:T10 Arg2:T1

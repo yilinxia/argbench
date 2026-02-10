@@ -1,0 +1,18 @@
+T1	MajorClaim 317 435	in my opinion a closer examination reveals that mass media deal too much with superficial things for different reasons
+T2	Claim 457 563	television and newspapers focus on famous peoples' lives in order to increase their audience or readership
+A1	Stance T2 For
+T3	Premise 565 661	Gutter press and Tabloid TV are more and more replacing quality papers or documentaries programs
+T4	Premise 663 883	Thanks to the Internet, we can go online and have access to information from all over the world and therefore mass media don't need any more to keep informed people but their goal is to have enough readers or TV audience
+T5	Claim 909 985	we live in a society where the most important thing is appearance and gossip
+A2	Stance T5 For
+T6	Premise 997 1104	unscrupulous paparazzi constantly follow celebrities just to take a photo while they are eating or training
+T7	Premise 1106 1241	Newspapers often receive accusations of checkbook journalism; this means that magazines pay people a lot of money for stories or photos
+T8	Premise 1257 1398	there are Reality TV, television programs in which people are put into artificial environments and situations, for example like "Big Brother"
+T9	MajorClaim 1411 1688	it is clear that television, magazines and newspapers pay too much attention of peoples' private lives for all the reasons mentioned above, namely to increase audience or readership and to give exciting and shocking news to a society which feed upon gutter press and Tabloid TV
+R1	supports Arg1:T3 Arg2:T2
+R2	supports Arg1:T4 Arg2:T2
+R3	supports Arg1:T2 Arg2:T1
+R4	supports Arg1:T6 Arg2:T5
+R5	supports Arg1:T7 Arg2:T5
+R6	supports Arg1:T8 Arg2:T5
+R7	supports Arg1:T5 Arg2:T1

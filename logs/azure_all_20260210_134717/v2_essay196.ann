@@ -1,0 +1,43 @@
+T1	MajorClaim 192 365	One of these several ways of learning that I prefer is doing things by my self rather than learning by reading about things or learning by listening to people talking about.
+T2	Claim 493 540	learning by doing things develops our maturity.
+A1	Stance T2 For
+T3	Premise 541 606	When you do things by your self, you learn to depend on yourself.
+T4	Premise 607 660	You will not be in need to refer to books or persons.
+T5	Premise 661 766	The fact of doing things by ourselves can help us to get some experiences that would strong our maturity.
+T6	Premise 767 934	For example if some one wants to learn how to be a leader, they have to experience this by being in a real situation of leading a team or a group, or even a situation.
+T7	Premise 935 1022	We can not be leaders by reading books or by listening to person talking about leading.
+T8	Claim 1034 1151	learning by doing things is more exciting than learning by reading about things or listening to people talking about.
+A2	Stance T8 For
+T9	Premise 1152 1222	There are a lot of things in life that should be learnt by doing them.
+T10	Premise 1223 1393	Reading about things or listening to people talking about can rarely submit the same sensation or the same excitement to some one who wants to learn about the same thing.
+T11	Premise 1394 1541	People who want to learn how to swim have to go to the beach or to the swimpool and laid themselves in the water to feel and know what is swimming.
+T12	Premise 1542 1607	Nor listening to people or reading about can teach them swimming.
+T13	Claim 1608 1826	Another reason that makes learning by doing things more advantageous than learning by reading about things or listening to people talking about is that we find more motivation to continuing on learning by doing things.
+A3	Stance T13 For
+T14	Premise 1827 1934	With the time, Reading about things or listening to people talking about could become more and more boring.
+T15	Premise 1935 2051	Learning by doing things gives us more and more pleasure especially if we success in learning perfectly this things.
+T16	Premise 2052 2111	So we become motivated to learn other things by doing them.
+T17	Claim 2112 2212	The history shows that learning by doing things is the best way and the best method to learn things.
+A4	Stance T17 For
+T18	Claim 2213 2307	People should not depend only on reading or listening to people talking about things to learn.
+A5	Stance T18 For
+T19	Claim 2308 2381	They should try and keep trying until they learn what they want to learn.
+A6	Stance T19 For
+R1	supports Arg1:T2 Arg2:T1
+R2	supports Arg1:T3 Arg2:T2
+R3	supports Arg1:T4 Arg2:T2
+R4	supports Arg1:T5 Arg2:T2
+R5	supports Arg1:T6 Arg2:T2
+R6	supports Arg1:T7 Arg2:T2
+R7	supports Arg1:T8 Arg2:T1
+R8	supports Arg1:T9 Arg2:T8
+R9	supports Arg1:T10 Arg2:T8
+R10	supports Arg1:T11 Arg2:T8
+R11	supports Arg1:T12 Arg2:T8
+R12	supports Arg1:T13 Arg2:T1
+R13	supports Arg1:T14 Arg2:T13
+R14	supports Arg1:T15 Arg2:T13
+R15	supports Arg1:T16 Arg2:T13
+R16	supports Arg1:T17 Arg2:T1
+R17	supports Arg1:T18 Arg2:T1
+R18	supports Arg1:T19 Arg2:T1

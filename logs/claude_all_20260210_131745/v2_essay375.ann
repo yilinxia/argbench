@@ -1,0 +1,22 @@
+T1	MajorClaim 391 512	I personally suppose that no matter how widely they are spoken, every language should be protected from being disappeared
+T2	Claim 544 603	saving regional languages could be seen as a waste of money
+A1	Stance T2 Against
+T3	Premise 639 828	if the government expands the use scope of that languages, it can be really expensive because educational programmes will need to be given so as to keep young people learning and using them
+T4	Premise 843 1155	some certain areas in the Southern Vietnam have been trying to help their secondary school students who are originally from khmer people speak their language beside Vietnamese, so the local government has recently struggled with their costly investments on language teachers, facilities and appropriate materials
+T5	Premise 1167 1356	it is obvious that in many aspects such as communication, trade, cooperation as well as transaction, it will be absolutely easier for the whole society to work together in one language only
+T6	Claim 1420 1476	the government should try to preserve minority languages
+A2	Stance T6 For
+T7	Premise 1494 1565	language can be seen as much more than just one method of communication
+T8	Premise 1580 1684	forming a language must be undergone thousands of years; thus, it deserves to be respected and preserved
+T9	Premise 1706 1803	language is one of the essential factors creating the differences and unique cutures in the world
+T10	Premise 1816 1951	saving the use of that kinds of languages in this case generally is the most important element of the cultural diversity's preservation
+T11	MajorClaim 1968 2169	although letting languages spoken by ethnic minorities be extinct seems to be very beneficial, it will definitely impact seriously on many other aspects especially in the loss of our cultural heritages
+R1	supports Arg1:T3 Arg2:T2
+R2	supports Arg1:T4 Arg2:T3
+R3	supports Arg1:T5 Arg2:T2
+R4	supports Arg1:T7 Arg2:T6
+R5	supports Arg1:T8 Arg2:T6
+R6	supports Arg1:T9 Arg2:T6
+R7	supports Arg1:T10 Arg2:T6
+R8	attacks Arg1:T2 Arg2:T1
+R9	supports Arg1:T6 Arg2:T1

@@ -1,0 +1,38 @@
+T1	MajorClaim 2698 2772	Therefore, government should spend money on preservation of old buildings.
+T2	Claim 509 644	we should do our parts to do what ever it takes to protect old buildings, letting next generations still have a chance to look at them.
+T3	Claim 709 798	Historic buildings have intrinsic values, because they are significant symbols of a city.
+T4	Premise 799 862	Old buildings are reminders of a city's culture and complexity.
+T5	Premise 863 1030	By seeing historic buildings -- whether related to something famous or recognizably dramatic, people are able to witness the aesthetic and cultural history of an area.
+T6	Premise 1031 1292	For example, when somebody mentions Beijing, China's capital city, you will immediately have Capital Palace come to appear in your mind, because it is the most remarkable sign of the city, and also it is the inevitable history of Beijing, even the entire China.
+T7	Premise 1293 1413	Depending on the study of Capital Palace, researchers have a comprehensive understanding of the history and the culture.
+T8	Claim 1415 1531	Furthermore, historic buildings make our lives more colorful, provide places for citizens to relax bodies and minds.
+T9	Premise 1532 1678	The city is occupied with an abundance of modern houses and and high buildings which make it crowded, and no rooms for people to relax themselves.
+T10	Premise 1679 1821	However, the warmth of the materials, the heart pine, marble, or the old brick, all those old buildings features call back of our inner peace.
+T11	Premise 1822 1978	Lying under the roof of a historic building or sitting on the desk fill with history are both easy ways to forget life's little annoyance and feel peaceful.
+T12	Claim 1980 2046	Meanwhile, historic buildings can be a source of maintenance fees.
+T13	Premise 2047 2223	There are many historic buildings, such as Beijing Place, Shanghai Artist Museum, they are all able to support themselves financially by charging tens of thousands of tourists.
+T14	Premise 2224 2353	Our governments will be happy with those efficient consequences, and a majority of cities also can imitate this economical cycle.
+T15	Claim 2463 2517	the preservation of old buildings is a one-way street.
+T16	Premise 2518 2587	There is no chance to renovate to save a history site once it's gone.
+T17	Premise 2588 2697	This reality brings us to light the importance of locating and saving old buildings of historic significance.
+A1	Stance T2 For
+A2	Stance T3 For
+A3	Stance T8 For
+A4	Stance T12 For
+A5	Stance T15 For
+R1	supports Arg1:T2 Arg2:T1
+R2	supports Arg1:T3 Arg2:T2
+R3	supports Arg1:T4 Arg2:T3
+R4	supports Arg1:T5 Arg2:T3
+R5	supports Arg1:T6 Arg2:T3
+R6	supports Arg1:T7 Arg2:T6
+R7	supports Arg1:T8 Arg2:T2
+R8	supports Arg1:T9 Arg2:T8
+R9	supports Arg1:T10 Arg2:T8
+R10	supports Arg1:T11 Arg2:T8
+R11	supports Arg1:T12 Arg2:T2
+R12	supports Arg1:T13 Arg2:T12
+R13	supports Arg1:T14 Arg2:T12
+R14	supports Arg1:T15 Arg2:T1
+R15	supports Arg1:T16 Arg2:T15
+R16	supports Arg1:T17 Arg2:T15

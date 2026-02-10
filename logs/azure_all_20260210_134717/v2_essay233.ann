@@ -1,0 +1,37 @@
+T1	MajorClaim 0 47	Easy preparation of food leads to a better life
+T2	Claim 206 257	people’s lives are a lot better for several reasons
+A1	Stance T2 For
+T3	Claim 259 368	Some good reasons are about having more time and being able to prepare better food without being a good cook.
+A2	Stance T3 For
+T4	Premise 49 84	The Technology has developed a lot.
+T5	Premise 85 187	With that development, food can be prepared more easily and it can taste a lot better than it used to.
+T6	Claim 493 591	being able to prepare a tasty food just putting it into the microwave or into the oven is awesome.
+A3	Stance T6 For
+T7	Premise 369 488	Firstly, people normally have lots of things to do. Because of that, they don’t have much time to spend in the kitchen.
+T8	Premise 592 781	For example, if an engineer needs to make a project, but he needs to deliver it tomorrow, he could save hours preparing a food with the microwave instead of cooking everything from scratch.
+T9	Claim 938 996	nowadays is very easy to prepare a healthy and tasty food.
+A4	Stance T9 For
+T10	Premise 782 937	Secondly, when someone wants to prepare a good food alone for some reason, some time ago he/she would need to be a very good cook to prepare that food, but
+T11	Premise 997 1121	For example, if a guy wants to prepare a dinner to his girlfriend, he could just buy some food that comes with instructions.
+T12	Premise 1122 1188	Normally you just need to put it into the oven and wait some time.
+T13	Claim 1189 1255	All in all, that ease to prepare food has improved people’s lives.
+A5	Stance T13 For
+T14	Premise 1256 1326	And that happened mainly because of the development of the technology.
+T15	Claim 1327 1436	But people should be careful with what they eat, because some industrial foods are very bad for their health,
+A6	Stance T15 For
+T16	Premise 1437 1489	so they should buy only food from well known brands.
+R1	supports Arg1:T2 Arg2:T1
+R2	supports Arg1:T3 Arg2:T1
+R3	supports Arg1:T4 Arg2:T5
+R4	supports Arg1:T5 Arg2:T2
+R5	supports Arg1:T7 Arg2:T6
+R6	supports Arg1:T8 Arg2:T6
+R7	supports Arg1:T6 Arg2:T3
+R8	supports Arg1:T10 Arg2:T9
+R9	supports Arg1:T11 Arg2:T9
+R10	supports Arg1:T12 Arg2:T9
+R11	supports Arg1:T9 Arg2:T3
+R12	supports Arg1:T13 Arg2:T1
+R13	supports Arg1:T14 Arg2:T13
+R14	supports Arg1:T16 Arg2:T15
+R15	attacks Arg1:T15 Arg2:T1

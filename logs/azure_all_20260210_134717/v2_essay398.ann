@@ -1,0 +1,33 @@
+T1	MajorClaim 0 80	We can not forcedly put the same numbers of males and females into every subject
+T2	Claim 216 244	I do not agree the viewpoint
+A1	Stance T2 Against
+T3	Premise 254 318	many different characters exist between male and female students
+T4	Claim 333 407	boys and girls have the diversity in psychological modes and individuality
+A2	Stance T4 Against
+T5	Premise 409 541	Most of male students tend to use their left brain to think and act, and they are more rational and logical than girls in many cases
+T6	Premise 543 645	For instance, there are more male scientists and engineers in comparison with females around the world
+T7	Premise 647 767	Many boys are interested in science and technology, while a number of girls like to learn literature, education and arts
+T8	Premise 778 897	girls are more likely to prefer some jobs related to emotion and communication, such as teacher, singer and interpreter
+T9	Claim 899 1035	This means that girls differ from boys in mind and behaviour to a large extent, and they both have better ability in the specific aspect
+A3	Stance T9 Against
+T10	Claim 1050 1245	it can have a negative affect on these students to require them to choose a subject in equal proportion of gender, and that does not conform to students' personality traits and mental development
+A4	Stance T10 Against
+T11	Premise 1247 1463	For example, a girl, who is interested in literature, is arranged into an engineering department, but she is unlikely to focus on her subject, and this also can block the girl's future development and career prospect
+T12	Claim 1484 1648	universities should encourage more girls to choose science subjects and more boys to study the humanities, and this could avoid imbalance of gender in some subjects
+A5	Stance T12 Against
+T13	Premise 1650 1734	It would affect students' mental health to study in the environment of single gender
+T14	Claim 1751 1951	it is necessary for universities to respect the individual choice of subject due to the diversity of boys and girls, and we ca not forcedly put the same numbers of males and females into every subject
+A6	Stance T14 Against
+R1	supports Arg1:T2 Arg2:T1
+R2	supports Arg1:T3 Arg2:T2
+R3	supports Arg1:T4 Arg2:T1
+R4	supports Arg1:T5 Arg2:T4
+R5	supports Arg1:T6 Arg2:T4
+R6	supports Arg1:T7 Arg2:T4
+R7	supports Arg1:T8 Arg2:T4
+R8	supports Arg1:T9 Arg2:T4
+R9	supports Arg1:T10 Arg2:T1
+R10	supports Arg1:T11 Arg2:T10
+R11	supports Arg1:T12 Arg2:T1
+R12	supports Arg1:T13 Arg2:T12
+R13	supports Arg1:T14 Arg2:T1

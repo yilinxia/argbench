@@ -1,0 +1,45 @@
+T1	MajorClaim 245 298	I believe that the zoo is invaluable for human beings
+T2	Claim 300 331	It is very crucial for learning
+A1	Stance T2 For
+T3	Claim 333 367	It helps animals out of extinction
+A2	Stance T3 For
+T4	Claim 375 410	it is a interesting travel location
+A3	Stance T4 For
+T5	Claim 426 460	the zoo gives humans new knowledge
+A4	Stance T5 For
+T6	Premise 571 633	Inevitably, the zoo is the important place for innate learning
+T7	Premise 635 706	The zoo also let students have a chance to learning biology practically
+T8	Premise 708 764	They are able to observe animals' behaviors and features
+T9	Premise 776 842	practical learning help students relax from a boring lecture class
+T10	Premise 853 976	researchers need the zoo to pick up some examples of animals for their researches because it has diverse species of animals
+T11	Claim 988 1068	the zoo preserves a large number of rare animals and provides them safe habitats
+A5	Stance T11 For
+T12	Premise 1070 1117	In the zoo, there is not so harmful as a forest
+T13	Premise 1119 1179	They, fed by zookeepers, do not need to find food themselves
+T14	Premise 1194 1263	we can do artificial insemenation to maintain nearly extinct wildlife
+T15	Claim 1348 1384	it can be a great tourist attraction
+A6	Stance T15 For
+T16	Premise 1386 1451	There are a lot of tourists who seek to see those animals closely
+T17	Premise 1453 1559	If the zoo has a large number of both national and foreign tourists, it will receive a great deal of money
+T18	Premise 1561 1620	That also make money flow, and then economics become better
+T19	Premise 1622 1654	It benefits to a certain country
+T20	MajorClaim 1672 1784	the zoo not only saves animals in danger of extinction, but also helps people around the world have better lives
+T21	MajorClaim 1786 1842	I firmly believe that the zoo is so useful for the earth
+R1	supports Arg1:T2 Arg2:T1
+R2	supports Arg1:T3 Arg2:T1
+R3	supports Arg1:T4 Arg2:T1
+R4	supports Arg1:T6 Arg2:T5
+R5	supports Arg1:T7 Arg2:T5
+R6	supports Arg1:T8 Arg2:T5
+R7	supports Arg1:T9 Arg2:T5
+R8	supports Arg1:T10 Arg2:T5
+R9	supports Arg1:T5 Arg2:T2
+R10	supports Arg1:T12 Arg2:T11
+R11	supports Arg1:T13 Arg2:T11
+R12	supports Arg1:T14 Arg2:T11
+R13	supports Arg1:T11 Arg2:T3
+R14	supports Arg1:T16 Arg2:T15
+R15	supports Arg1:T17 Arg2:T15
+R16	supports Arg1:T18 Arg2:T15
+R17	supports Arg1:T19 Arg2:T15
+R18	supports Arg1:T15 Arg2:T4

@@ -1,0 +1,26 @@
+T1	MajorClaim 338 443	However, I have to profoundly disagree for there are still two viable solutions besides besides this way.
+T2	Claim 444 540	First of all, public transport is a key factor to minimize the number of vehicles on the street.
+A1	Stance T2 For
+T3	Premise 541 677	Buses and trains have been phased in the streets for quite a long time and have proven themselves the best candidates among all options.
+T4	Premise 678 803	Apparently, a bus can carry no less than 30 people, while a train can carry as much as nine or even ten times of that number.
+T5	Premise 804 941	Not to mention the fact that highway train is operated underground, which leaves the street above with buses and non-fuel-based vehicles.
+T6	Premise 942 1011	Together, they will lessen the crowded image in most cities nowadays.
+T7	Claim 1012 1078	Second, rarely do we realize the helpful existence of urban areas.
+A2	Stance T7 For
+T8	Premise 1079 1261	It is believed that if some of the enormous shopping malls or universities were relocated in the commuter belt, the city street would be les burstling and overly-teemed as it is now.
+T9	Premise 1262 1440	As a rule of thumb, huge centers of attention distributed equally in a wide region means that residential areas will come along thus exert less pressure on the public facilities.
+T10	Premise 1441 1540	The city itself will be absolved of enduring the influx of immigrants as well as unemployed people.
+T11	Claim 1541 1649	In conclusion, city planner can still opt for non-personal vehicle and the exploitation of the suburb areas.
+A3	Stance T11 For
+T12	Premise 1650 1818	It is highly recommended to put forward such solution, especially in some developing countries like Vietnam or China, with the ever-growing demand for job or education.
+R1	supports Arg1:T2 Arg2:T1
+R2	supports Arg1:T3 Arg2:T2
+R3	supports Arg1:T4 Arg2:T2
+R4	supports Arg1:T5 Arg2:T2
+R5	supports Arg1:T6 Arg2:T2
+R6	supports Arg1:T7 Arg2:T1
+R7	supports Arg1:T8 Arg2:T7
+R8	supports Arg1:T9 Arg2:T7
+R9	supports Arg1:T10 Arg2:T7
+R10	supports Arg1:T11 Arg2:T1
+R11	supports Arg1:T12 Arg2:T11

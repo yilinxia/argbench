@@ -1,0 +1,49 @@
+T1	MajorClaim 0 42	University education is needed for success
+T2	Claim 397 459	one can also shine without even having to attend universities.
+A1	Stance T2 Against
+T3	Claim 506 614	university education is of paramount importance for certain professions such as doctor, engineer and lawyer.
+A2	Stance T3 For
+T4	Premise 615 725	Without proper training and knowledge, it would be impossible for them to perform their best in their careers.
+T5	Premise 741 887	when they are in a university, they will have the opportunity to share their knowledge as well as to network for business associates and partners.
+T6	Premise 888 981	This can benefit them in future when they intend to open up their own companies or hospitals.
+T7	Claim 1016 1130	there are also a significant number of people who are very successful in their fields without going to university.
+A3	Stance T7 Against
+T8	Premise 1131 1184	Take for instance those who start their own business.
+T9	Premise 1185 1234	These people depend solely on hard work and luck.
+T10	Premise 1250 1300	for some of them it proved to be a profitable job.
+T11	Premise 1321 1392	Michael Dell who is the founder and the CEO of Dell left college at 19.
+T12	Premise 1393 1461	Initially, he started his computer company in his college dorm room.
+T13	Premise 1462 1565	Eventually, he used his earnings as well as his family's loan in order to progress to be who he is now.
+T14	Claim 1579 1651	people with natural talents are also most likely to excel in their life.
+A4	Stance T14 Against
+T15	Premise 1652 1717	This is especially true in sectors like entertainment and sports.
+T16	Premise 1718 1831	The introduction of increasing number of reality shows have made it possible for all those lucky ones to triumph.
+T17	Premise 1860 1947	David Archuleta who was once a nobody has now taken up a large space in hearts of many.
+T18	Claim 1955 2045	it is evident that individuals born with talents have also a high chance to be successful.
+A5	Stance T18 Against
+T19	Claim 2088 2167	university education is pivotal in a person's life in order for one to prosper.
+A6	Stance T19 For
+T20	Claim 2177 2296	it would be wrong to say that one's success completely depends on the education he or she receives at the institutions.
+A7	Stance T20 Against
+T21	Claim 2297 2360	Natural talent and hard work also contribute to their progress.
+A8	Stance T21 Against
+R1	attacks Arg1:T2 Arg2:T1
+R2	supports Arg1:T3 Arg2:T1
+R3	supports Arg1:T4 Arg2:T3
+R4	supports Arg1:T5 Arg2:T3
+R5	supports Arg1:T6 Arg2:T5
+R6	attacks Arg1:T7 Arg2:T1
+R7	supports Arg1:T8 Arg2:T7
+R8	supports Arg1:T9 Arg2:T7
+R9	supports Arg1:T10 Arg2:T7
+R10	supports Arg1:T11 Arg2:T7
+R11	supports Arg1:T12 Arg2:T11
+R12	supports Arg1:T13 Arg2:T11
+R13	attacks Arg1:T14 Arg2:T1
+R14	supports Arg1:T15 Arg2:T14
+R15	supports Arg1:T16 Arg2:T14
+R16	supports Arg1:T17 Arg2:T14
+R17	supports Arg1:T18 Arg2:T14
+R18	supports Arg1:T19 Arg2:T1
+R19	attacks Arg1:T20 Arg2:T1
+R20	supports Arg1:T21 Arg2:T20

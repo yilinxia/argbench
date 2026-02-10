@@ -1,0 +1,25 @@
+T1	MajorClaim 0 33	Benefits of students' unpaid work
+T2	Claim 373 507	To begin with, students can learn invaluable experiences through the period of time working for the institutions they are assigned to.
+A1	Stance T2 For
+T3	Premise 508 635	In most school curriculums, the courses are theoretical and often by instructors speaking to students sitting in the classroom.
+T4	Premise 636 773	As a result, students might have little idea of the real challenges or the true situation when they enter the workforce after graduation.
+T5	Premise 774 881	For this reason, the internship, although without pay, can give them the experiences that money cannot buy.
+T6	Claim 882 952	As for the companies, the unpaid interns can no doubt save some money.
+A2	Stance T6 For
+T7	Claim 953 1203	In addition, the younger generations can help them generate new ideas as the students are not bound to restricted workload and they tend to have greater imagination, which can be essentially helpful when they are making a new advertisement or slogan.
+A3	Stance T7 For
+T8	Claim 1204 1283	Moreover they can start looking for potential employees and begin the training.
+A4	Stance T8 For
+T9	Claim 1284 1384	Therefore, companies save time and resources for searching new staffs and organizing an orientation.
+A5	Stance T9 For
+T10	Claim 1385 1678	To sum up, students can learn outside the textbook and classroom with a real working experiences that can be a great opportunity for future job consideration whereas organizations earn much more as they can not only save time and money but also be enlightened by what young people have to say.
+A6	Stance T10 For
+R1	supports Arg1:T2 Arg2:T1
+R2	supports Arg1:T3 Arg2:T2
+R3	supports Arg1:T4 Arg2:T2
+R4	supports Arg1:T5 Arg2:T2
+R5	supports Arg1:T6 Arg2:T1
+R6	supports Arg1:T7 Arg2:T1
+R7	supports Arg1:T8 Arg2:T1
+R8	supports Arg1:T9 Arg2:T8
+R9	supports Arg1:T10 Arg2:T1

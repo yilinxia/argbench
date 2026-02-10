@@ -1,0 +1,43 @@
+T1	MajorClaim 374 487	I agree with this statement. In my opinion, family plays a more important role in helping one to pursuit success.
+T2	Claim 286 373	It seems that one can achieve success more easily with the help from his or her family.
+T3	Claim 488 518	There are a couple of reasons.
+T4	Claim 519 612	First of all, more and more people have the opportunity to receive education from university.
+T5	Premise 613 737	Since our parents receive better education than our grandparents did, they can provide more advices and helps in our career.
+T6	Premise 738 801	In the past, seldom people have the chance to attend a collage.
+T7	Premise 802 985	For example, my grandparents did not get a education even in high school, so when my father had difficulty in solving a problem in his childhood, he had to go to his teacher for help.
+T8	Premise 986 1012	Things have changed a lot.
+T9	Premise 1013 1064	I grow up in a better condition than my father did.
+T10	Premise 1065 1128	Whenever I have problems, I can always ask my parents for help.
+T11	Premise 1129 1202	They can solve the problem quickly because they have learned quite a lot.
+T12	Claim 1204 1267	What is more, family members can help us in many other aspects.
+T13	Premise 1268 1392	For example, when I did not know what major to choose when I attend university, my father told a lot about different majors.
+T14	Premise 1393 1459	He shared his own experience with me, which helped me quite a lot.
+T15	Premise 1460 1555	Parents are quite experienced than their child, they can guide them toward the right direction.
+T16	Premise 1556 1672	Besides, parents can told their children as many as they can. What they want is help their child to make a progress.
+T17	Claim 1673 1751	In a word, our parents and other family members can help us a lot in our life.
+T18	Claim 1752 1832	I believe that with the help of our family, we can achieve success quite easily.
+A1	Stance T2 For
+A2	Stance T3 For
+A3	Stance T4 For
+A4	Stance T12 For
+A5	Stance T17 For
+A6	Stance T18 For
+R1	supports Arg1:T2 Arg2:T1
+R2	supports Arg1:T3 Arg2:T1
+R3	supports Arg1:T4 Arg2:T1
+R4	supports Arg1:T5 Arg2:T4
+R5	supports Arg1:T6 Arg2:T4
+R6	supports Arg1:T7 Arg2:T6
+R7	supports Arg1:T8 Arg2:T4
+R8	supports Arg1:T9 Arg2:T4
+R9	supports Arg1:T10 Arg2:T4
+R10	supports Arg1:T11 Arg2:T10
+R11	supports Arg1:T12 Arg2:T1
+R12	supports Arg1:T13 Arg2:T12
+R13	supports Arg1:T14 Arg2:T13
+R14	supports Arg1:T15 Arg2:T12
+R15	supports Arg1:T16 Arg2:T12
+R16	supports Arg1:T17 Arg2:T1
+R17	supports Arg1:T18 Arg2:T1
+R18	supports Arg1:T12 Arg2:T18
+R19	supports Arg1:T4 Arg2:T18

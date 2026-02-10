@@ -1,0 +1,46 @@
+T1	MajorClaim 0 38	Tv has NO negative effects on children
+T2	Claim 262 320	television has more positive effects than negative effects
+A1	Stance T2 For
+T3	Claim 378 424	television has useful and educational programs
+A2	Stance T3 For
+T4	Premise 426 520	Not only the up-to-date news, but also there are many programs which has educational purposes.
+T5	Premise 521 604	If children can use those programs wisely, they can learn many information from it.
+T6	Premise 605 655	For example, in Korea, there's program called EBS.
+T7	Premise 656 696	It is targeted for children to teenager.
+T8	Premise 697 739	We can study subjects through EBS lecture.
+T9	Premise 740 820	Also, there are many documentary films such as the life of a great man in Korea.
+T10	Premise 821 924	Using those education programs let people get a lot of inspirations instead of having negative effects.
+T11	Claim 939 976	Tv is helpful to relieve our stresses
+A3	Stance T11 For
+T12	Premise 978 1029	There are many Tv programs such as sports programs.
+T13	Premise 1030 1122	Many children have a lot of stresses recently, since they have so much pressure about study.
+T14	Premise 1123 1199	When they are watching sports programs, it's easy to relieve those stresses.
+T15	Premise 1200 1253	As an example, I got too much stress from the school.
+T16	Premise 1254 1290	So, I was quite aggressive, however.
+T17	Premise 1291 1367	After I watch the soccer match between Korea and Japan, the stress was gone.
+T18	Premise 1377 1491	this soccer match helped me to continue my academic career in the school, since it helped me to relieve my stress.
+T19	Claim 1569 1662	if children can use Tv programs wisely, there are more positive effects than negative effects
+A4	Stance T19 For
+T20	Premise 1674 1764	it has useful and educational programs and quite helpful to relieve stresses for children.
+T21	Claim 1784 1872	I strongly disagree with the statement that television has negative effects on children.
+A5	Stance T21 For
+R1	supports Arg1:T2 Arg2:T1
+R2	supports Arg1:T3 Arg2:T2
+R3	supports Arg1:T4 Arg2:T3
+R4	supports Arg1:T5 Arg2:T3
+R5	supports Arg1:T6 Arg2:T3
+R6	supports Arg1:T7 Arg2:T6
+R7	supports Arg1:T8 Arg2:T6
+R8	supports Arg1:T9 Arg2:T3
+R9	supports Arg1:T10 Arg2:T3
+R10	supports Arg1:T11 Arg2:T2
+R11	supports Arg1:T12 Arg2:T11
+R12	supports Arg1:T13 Arg2:T11
+R13	supports Arg1:T14 Arg2:T11
+R14	supports Arg1:T15 Arg2:T11
+R15	supports Arg1:T16 Arg2:T15
+R16	supports Arg1:T17 Arg2:T11
+R17	supports Arg1:T18 Arg2:T17
+R18	supports Arg1:T19 Arg2:T1
+R19	supports Arg1:T20 Arg2:T19
+R20	supports Arg1:T21 Arg2:T1

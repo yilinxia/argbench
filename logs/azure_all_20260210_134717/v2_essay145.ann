@@ -1,0 +1,52 @@
+T1	MajorClaim 0 36	Improving facilities is the best way
+T2	Claim 497 574	I favor the former; that is, I prefer to spend money on improving facilities.
+T3	Claim 638 723	the more advanced facilities we have, the more chances we can increase our knowledge.
+T4	Premise 737 795	library is a good place for students to study or research.
+T5	Premise 796 858	They can concentrate on the subjects with a tranquil ambience;
+T6	Premise 859 919	also, there are a lot of references for students to utilize.
+T7	Premise 920 1011	With this convenient and versatile facility, students can improve their learning condition.
+T8	Claim 1012 1099	Therefore, we can commence to agree that certain facilities are beneficial to students.
+T9	Claim 1150 1196	students are not always staying in classrooms.
+T10	Premise 1197 1237	They have numerous activities in school.
+T11	Premise 1271 1330	a student who is a member of jazz ensemble in their school.
+T12	Premise 1331 1409	He must need a better auditorium for him to have an extraordinary performance.
+T13	Premise 1410 1541	With this distinguished performance, the student would acquire an unforgettable and valuable experience burring deeply in his mind.
+T14	Claim 1596 1661	students would prefer school to spending on improving facilities.
+T15	Claim 1737 1839	schools should spend money on hiring prestigious teachers because they can impart their students well.
+T16	Claim 1888 1956	I just doubt the credibility of that saying owing to its imprudence.
+T17	Claim 1957 2067	A student is good or not do not depend on whether he has a good teacher but is decided by his effort on study.
+T18	Premise 2068 2155	It is useless to hire a super famous teacher to teach those who behaviors as sluggards.
+T19	MajorClaim 2197 2337	I believe that improving facilities is the best way for school because the advantages of this are relatively greater than that of the other.
+T20	Claim 2354 2414	students can procure more advantages from better facilities.
+T21	Claim 2507 2620	I an firmly convinced that the reasons I have proposed in favor of my sentiment are much more tenable and cogent.
+A1	Stance T2 For
+A2	Stance T3 For
+A3	Stance T8 For
+A4	Stance T9 For
+A5	Stance T14 For
+A6	Stance T15 Against
+A7	Stance T16 For
+A8	Stance T17 For
+A9	Stance T20 For
+A10	Stance T21 For
+R1	supports Arg1:T2 Arg2:T1
+R2	supports Arg1:T3 Arg2:T2
+R3	supports Arg1:T4 Arg2:T3
+R4	supports Arg1:T5 Arg2:T3
+R5	supports Arg1:T6 Arg2:T3
+R6	supports Arg1:T7 Arg2:T3
+R7	supports Arg1:T3 Arg2:T19
+R8	supports Arg1:T8 Arg2:T19
+R9	supports Arg1:T9 Arg2:T19
+R10	supports Arg1:T10 Arg2:T9
+R11	supports Arg1:T11 Arg2:T14
+R12	supports Arg1:T12 Arg2:T14
+R13	supports Arg1:T13 Arg2:T14
+R14	supports Arg1:T14 Arg2:T19
+R15	attacks Arg1:T16 Arg2:T15
+R16	attacks Arg1:T17 Arg2:T15
+R17	attacks Arg1:T18 Arg2:T15
+R18	supports Arg1:T16 Arg2:T19
+R19	supports Arg1:T17 Arg2:T19
+R20	supports Arg1:T20 Arg2:T19
+R21	supports Arg1:T21 Arg2:T19

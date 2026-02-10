@@ -1,0 +1,39 @@
+T1	MajorClaim 282 398	It does not seem unreasonable to suggest that governments spend more money on buses, trains, and subways investment.
+T2	Claim 399 579	Such public vehicles are used to serve a large number of people in society therefore they help alleviate traffic congestion and decrease the amount of carbon released into the air.
+A1	Stance T2 For
+T3	Premise 580 616	Both these two things are important.
+T4	Claim 637 714	carbon emission cut is significantly essential for protecting the atmosphere.
+A2	Stance T4 For
+T5	Premise 715 821	The fact is that the more cars and motorbikes are on roads, the more seriously the ozone layer is damaged.
+T6	Premise 822 946	If governments use more money to improve roads, there is a strong likelihood that more people drive their private cars work.
+T7	Premise 947 1076	This is sure to lead to more carbon emitted into the atmosphere, which can cause skin cancer and destroy the natural environment.
+T8	Premise 1077 1232	Whereas, if there are more good buses, trains, or subways, people are inclined to use less private vehicles, which decreases the amount of carbon released.
+T9	Claim 1233 1354	Obviously, the policy that concentrates money on developing public transportation brings an advantageous impact on earth.
+A3	Stance T9 For
+T10	Claim 1369 1431	the policy would play a pivotal part in relieving traffic jam.
+A4	Stance T10 For
+T11	Premise 1432 1514	It is quiet clear that traffic congestion is a serious problem in many big cities.
+T12	Premise 1515 1608	The main reason for this issue is that there are a great number of vehicles flowing on roads.
+T13	Premise 1609 1733	In order to tackle the problem, governments have to turn people' attention on public vehicles to reduce cars and motorbikes.
+T14	Premise 1734 1854	There is the possibility that improving roads and highways does not seem to reach the major cause of traffic congestion.
+T15	Claim 1954 2034	Nevertheless, public transportation systems even have more important advantages.
+A5	Stance T15 For
+T16	Premise 2035 2098	They not only ease traffic jam but also protect the atmosphere.
+T17	Premise 2099 2210	That is why many governments around the world invest more money on developing public transportation facilities.
+R1	supports Arg1:T2 Arg2:T1
+R2	supports Arg1:T3 Arg2:T2
+R3	supports Arg1:T4 Arg2:T1
+R4	supports Arg1:T5 Arg2:T4
+R5	attacks Arg1:T6 Arg2:T1
+R6	supports Arg1:T7 Arg2:T6
+R7	supports Arg1:T8 Arg2:T1
+R8	supports Arg1:T8 Arg2:T4
+R9	supports Arg1:T9 Arg2:T1
+R10	supports Arg1:T10 Arg2:T1
+R11	supports Arg1:T11 Arg2:T10
+R12	supports Arg1:T12 Arg2:T11
+R13	supports Arg1:T13 Arg2:T10
+R14	attacks Arg1:T14 Arg2:T1
+R15	supports Arg1:T15 Arg2:T1
+R16	supports Arg1:T16 Arg2:T15
+R17	supports Arg1:T17 Arg2:T1

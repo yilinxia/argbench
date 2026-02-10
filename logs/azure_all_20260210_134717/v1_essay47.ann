@@ -1,0 +1,33 @@
+T1	MajorClaim 0 45	zoos should be built to protect rural animals
+T2	Claim 353 408	animals should live in natural habitats instead of zoos
+A1	Stance T2 Against
+T3	Claim 425 504	it is the right of wild species to live in a environment away from human beings
+A2	Stance T3 Against
+T4	Premise 506 731	Given the fact that human beings are responsible for the heavy pollution and severe damage to the natural habitats of many wild animals, it is our responsibility to create a natural and safe environment for animals to live in
+T5	Premise 733 849	Apparently, the limited space and the artificial trees and lakes can not fully compensate the animals for their loss
+T6	Claim 861 1017	if rural animals are captured in the zoo for a long period, it would have negative influences on both the physical and psychological status of the creatures
+A3	Stance T6 Against
+T7	Premise 1019 1091	As a result, the wild species would suffer from isolation and depression
+T8	Claim 1093 1191	It seems that zoos are more likely to be a killer rather than a protector in protecting wild lives
+A4	Stance T8 Against
+T9	Claim 1207 1350	supporters would argue that zoos, which are equipped with modern facilities and professionals, would provide better care for the animals inside
+A5	Stance T9 For
+T10	Premise 1352 1455	They further point out that the endangered species preserved in zoos would never die of illegal hunting
+T11	Claim 1466 1595	I would contend that the strict laws prohibiting poaching would provide a shelter for various kinds of animals in natural habitat
+A6	Stance T11 Against
+T12	Claim 1597 1712	It seems that the growing number of natural habitat would be the ultimate solution of saving wild animals worldwide
+A7	Stance T12 Against
+T13	Claim 1736 1903	it is my belief that wild animals should be set free from zoos not only because they have the right to enjoy freedom but they also escape from isolation and depression
+A8	Stance T13 Against
+R1	supports Arg1:T2 Arg2:T1
+R2	supports Arg1:T3 Arg2:T2
+R3	supports Arg1:T4 Arg2:T3
+R4	supports Arg1:T5 Arg2:T2
+R5	supports Arg1:T6 Arg2:T2
+R6	supports Arg1:T7 Arg2:T6
+R7	supports Arg1:T8 Arg2:T2
+R8	supports Arg1:T9 Arg2:T1
+R9	supports Arg1:T10 Arg2:T9
+R10	attacks Arg1:T11 Arg2:T9
+R11	supports Arg1:T12 Arg2:T11
+R12	supports Arg1:T13 Arg2:T2

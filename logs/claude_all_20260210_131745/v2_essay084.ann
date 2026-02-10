@@ -1,0 +1,35 @@
+T1	MajorClaim 374 515	I agree to this solution only to a certain degree because I feel that giving those with no work a mobile phone each is a total waste of money
+T2	Claim 546 684	when people without jobs have hand phones that have access to the Internet, they will be able to browse the net for more job opportunities
+A1	Stance T2 For
+T3	Premise 699 787	they can surf the The Star Onlines' work section to find a job that is suitable for them
+T4	Premise 789 947	With the help of the net, they can also do more research on the work that they have found apart from looking up on how they can prepare themselves for the job
+T5	Premise 964 1069	the mobile phones can also be used to make calls with the companies in which they would like to work with
+T6	Claim 1081 1227	if the government provides those without work with a mobile phone, they will be able to find themselves an occupation in order to live and survive
+A2	Stance T6 For
+T7	Claim 1276 1350	supplying hand phones to the unemployed is a waste of the taxpayers' money
+A3	Stance T7 Against
+T8	Premise 1368 1485	the money instead of being used to supply the electronic gadget can be used for other useful purposes for the country
+T9	Premise 1515 1647	the money can be used to build more amenities for the public or given to the poor so that they can use it to help them earn a living
+T10	Premise 1662 1753	the money can be used for other intentions rather than giving hand phones to the unemployed
+T11	Claim 1768 1861	when hand phones are provided for free, many would want to take advantage of this opportunity
+A4	Stance T11 Against
+T12	Premise 1863 1957	It will not be surprising that in order to obtain a mobile phone, they make themselves jobless
+T13	Premise 1959 2070	Some might even go to the extent of lying that they are on unemployment to make them eligible to get the phones
+T14	Premise 2089 2128	the public's money is spent worthlessly
+T15	Premise 2146 2262	till now, there are no surveys or evidences that prove this method in effective in reducing the rate of unemployment
+T16	MajorClaim 2289 2460	the suggestion of providing those who are jobless with mobile phones that are accessible to internet is not a proper and the best way to trim down the rate of unemployment
+T17	MajorClaim 2598 2763	the public money should be utilized for the benefit of the society and not just for some of them who are not willing to put in more effort to find them a proper work
+R1	supports Arg1:T3 Arg2:T2
+R2	supports Arg1:T4 Arg2:T2
+R3	supports Arg1:T5 Arg2:T2
+R4	supports Arg1:T2 Arg2:T6
+R5	supports Arg1:T6 Arg2:T1
+R6	supports Arg1:T8 Arg2:T7
+R7	supports Arg1:T9 Arg2:T7
+R8	supports Arg1:T10 Arg2:T7
+R9	supports Arg1:T7 Arg2:T1
+R10	supports Arg1:T12 Arg2:T11
+R11	supports Arg1:T13 Arg2:T11
+R12	supports Arg1:T14 Arg2:T11
+R13	supports Arg1:T15 Arg2:T11
+R14	supports Arg1:T11 Arg2:T1

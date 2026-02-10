@@ -1,0 +1,32 @@
+T1	MajorClaim 208 330	In my point of view, disadvantages of overemphasizing on personal lives of famous people by media outweigh its advantages.
+T2	Claim 95 207	I think that it's true that media is overemphasizing the personal lives of famous people in this modern society.
+A1	Stance T2 For
+T3	Claim 626 775	Some reporters are more interested with gossip than news relating to public issues, paying too much attention to the personal lives of famous people.
+A2	Stance T3 For
+T4	Premise 593 625	However, journalism is changing.
+T5	Premise 501 592	The most important of all is that the essence of coverage accurate and not based on gossip.
+T6	Claim 790 895	gossip involves misleading images for the purpose of boosting newspaper sales or exciting public opinion.
+A3	Stance T6 For
+T7	Premise 896 985	The audience may see a lot of photos in the kind of reports, which seems to tell a story.
+T8	Claim 996 1095	it is unfair that the ridiculous coverage may be a vexation for the famous people who are reported.
+A4	Stance T8 For
+T9	Claim 1109 1176	sensationalism distract the viewers from public or social problems.
+A5	Stance T9 For
+T10	Premise 1177 1284	The media face the challenge that media executives must choose the content, which can attract the audience.
+T11	Claim 1291 1426	these personal reports of famous people, unimportant information or distorted stories, will not solve problem related with the society.
+A6	Stance T11 For
+T12	Claim 1443 1551	yellow journalism block the viewers from significant news, such as education, environment and public issues.
+A7	Stance T12 For
+T13	MajorClaim 1552 1687	Based on the above discussion, I agree with that paying too much attention on personal lives of famous people may be a serious problem.
+R1	supports Arg1:T2 Arg2:T1
+R2	supports Arg1:T3 Arg2:T1
+R3	supports Arg1:T4 Arg2:T3
+R4	attacks Arg1:T5 Arg2:T3
+R5	supports Arg1:T6 Arg2:T1
+R6	supports Arg1:T7 Arg2:T6
+R7	supports Arg1:T8 Arg2:T1
+R8	supports Arg1:T9 Arg2:T1
+R9	supports Arg1:T10 Arg2:T11
+R10	supports Arg1:T11 Arg2:T1
+R11	supports Arg1:T12 Arg2:T1
+R12	supports Arg1:T1 Arg2:T13

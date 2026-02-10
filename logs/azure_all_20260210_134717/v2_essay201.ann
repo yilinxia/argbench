@@ -1,0 +1,29 @@
+T1	MajorClaim 195 239	I would choose the latter without hesitation
+T2	Claim 271 330	conservation is more urgent now than at any time in history
+T3	Premise 332 554	According to a statistic conducted by the International Animal Preserving Association, we have only ten percent of the animals that have ever existed, which means that the biodiversity of our home is grievously endangered.
+T4	Premise 568 685	rising sea levels, caused by global warming, have reached a level that is threatening human's life in many countries.
+T5	Premise 686 911	If we continue discharging carbon dioxide with non-environmentally friendly cars, nations like Japan will be submerged and weather patterns could change, causing flooding, drought, and an increasing amount of damaging storms.
+T6	Premise 912 1023	In short, the ecosystem is in its worst condition ever and if we didn't take harsh measures now, we never will.
+T7	Claim 1037 1106	supporting environment protection will benefit the company eventually
+T8	Premise 1108 1262	Nowadays, an increasing amount of people pay more attention to conservation; therefore, sponsoring conservation is a more efficient method of advertising.
+T9	Premise 1263 1482	Just imagine if the project your company is sponsoring effectively improves the environment, then your company would be known as an environmentally-friendly company and benefit from it in this consumer-oriented society.
+T10	Claim 1492 1544	conservation leads us to a higher standard of living
+T11	Premise 1546 1742	I confess that art is one of the best ways of entertaining human beings, but, with exhaust fumes and acid rain, we do not have the energy and enthusiasm to appreciate the paintings or photographs.
+T12	Premise 1743 1899	Biodiversity and a more beautiful nature are not only the results of abetter environment but also are the necessities of photography and other types of art.
+T13	Claim 1900 2068	To sum up, although supporting art will benefit the human beings and the company in short-term interest, I still hold the environment protection for long-term interest.
+A1	Stance T2 For
+A2	Stance T7 For
+A3	Stance T10 For
+A4	Stance T13 For
+R1	supports Arg1:T2 Arg2:T1
+R2	supports Arg1:T3 Arg2:T2
+R3	supports Arg1:T4 Arg2:T2
+R4	supports Arg1:T5 Arg2:T2
+R5	supports Arg1:T6 Arg2:T2
+R6	supports Arg1:T7 Arg2:T1
+R7	supports Arg1:T8 Arg2:T7
+R8	supports Arg1:T9 Arg2:T7
+R9	supports Arg1:T10 Arg2:T1
+R10	supports Arg1:T11 Arg2:T10
+R11	supports Arg1:T12 Arg2:T10
+R12	supports Arg1:T13 Arg2:T1

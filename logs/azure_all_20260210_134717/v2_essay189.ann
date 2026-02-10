@@ -1,0 +1,49 @@
+T1	MajorClaim 64 159	In my opinion, it is not the good idea for teenagers to have job while they are still students.
+T2	Claim 160 283	Although, many argue that it provide good working experience, but I think it can interfere with their life in various ways.
+A1	Stance T2 Against
+T3	Claim 284 335	Having jobs would affect the health of the student.
+A2	Stance T3 Against
+T4	Premise 336 428	It divert their mind from studies and would take away their childhood phase from their life.
+T5	Premise 429 511	A student has to do lots of studies in today's competitive world to prove himself.
+T6	Premise 512 576	He has to spend his most of time in school to get a good grades.
+T7	Premise 577 685	If the student get involved himself in job in rest of the time, then it would cause an extra burden on them.
+T8	Premise 686 781	Furthermore, jobs has various responsibilities like attendance, sometimes extra work and so on.
+T9	Premise 782 833	This would result in stress, tension and tiredness.
+T10	Premise 834 894	They won't be able to get proper time for relaxation, sleep.
+T11	Premise 895 947	Thus, would affect their mental and physical health.
+T12	Claim 948 1008	Another reason, jobs can divert students from their studies.
+A3	Stance T12 Against
+T13	Premise 1009 1105	If students started earning in earlier age in their life, then they get attracted towards money.
+T14	Premise 1106 1179	They feel themselves independent and would prefer to work more for money.
+T15	Premise 1180 1252	This would affect their studies, they loose their interest from studies.
+T16	Premise 1253 1316	Moreover, they drop out their studies so as to earn more money.
+T17	Claim 1317 1428	In addition to this, the main drawback of teenagers job is that, they miss out the fun of their childhood time.
+A4	Stance T17 Against
+T18	Premise 1429 1563	He would miss various childhood activities such as hang out with friends, clubs and fun activities and social interaction with others.
+T19	Premise 1564 1673	They have whole life to do job and prove themselves, but the childhood phase will never return in their life.
+T20	Premise 1674 1746	Therefore, they should take advantage of life as much possible they can.
+T21	Claim 1747 1818	Thus, for a teenager it is important to pay attention on their studies.
+A5	Stance T21 Against
+T22	Claim 1819 1939	Having job would affect their health, divert them from studies and take away one of the important phase from their life.
+A6	Stance T22 Against
+R1	attacks Arg1:T2 Arg2:T1
+R2	supports Arg1:T3 Arg2:T1
+R3	supports Arg1:T4 Arg2:T2
+R4	supports Arg1:T5 Arg2:T3
+R5	supports Arg1:T6 Arg2:T3
+R6	supports Arg1:T7 Arg2:T3
+R7	supports Arg1:T8 Arg2:T3
+R8	supports Arg1:T9 Arg2:T3
+R9	supports Arg1:T10 Arg2:T3
+R10	supports Arg1:T11 Arg2:T3
+R11	supports Arg1:T12 Arg2:T1
+R12	supports Arg1:T13 Arg2:T12
+R13	supports Arg1:T14 Arg2:T12
+R14	supports Arg1:T15 Arg2:T12
+R15	supports Arg1:T16 Arg2:T12
+R16	supports Arg1:T17 Arg2:T1
+R17	supports Arg1:T18 Arg2:T17
+R18	supports Arg1:T19 Arg2:T17
+R19	supports Arg1:T20 Arg2:T17
+R20	supports Arg1:T21 Arg2:T1
+R21	supports Arg1:T22 Arg2:T1

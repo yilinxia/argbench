@@ -1,0 +1,35 @@
+T1	MajorClaim 0 53	There will be soon no role for teachers in classrooms
+T2	Claim 171 295	I do not agree that this explosion in technology will 'innovate' the education system, by replacing teachers with computers.
+A1	Stance T2 Against
+T3	Claim 296 371	There are several reasons why teachers will never be replaced by computers.
+A2	Stance T3 Against
+T4	Premise 372 421	Firstly, computers need to be operated by people.
+T5	Premise 422 506	No one can argue that technological tools are must-haves for the classroom of today.
+T6	Premise 507 661	For example, lessons are more attractive and easier to understand when they are put on a Power Point presentation and then presented with a LCD Projector.
+T7	Premise 662 786	However, scientists prove that every classroom needs trained staff to use these interactive and innovative ways of teaching.
+T8	Claim 787 952	I agree that nowadays the learning process benefits greatly from computers, but they are just tools for teachers and they cannot work properly without human's touch.
+A3	Stance T8 Against
+T9	Claim 953 996	Secondly, children need human interactions.
+A4	Stance T9 Against
+T10	Premise 997 1118	No matter how advanced technology will be, it is clear that a computer will never be able to communicate with its pupils.
+T11	Premise 1119 1479	As a recent interview with Josh Trumm – the founder of the 'Teachers Global Group'- reveals, human interactions will never be imitated by computers: 'This verbal and non-verbal communication between teachers and children is the first step towards a proper education. Without someone who can explain and understand their problems, pupils cannot actually learn'.
+T12	Premise 1480 1611	I am inclined to agree with this scientific view, because only a teacher can feel and connect with pupils, be a friend and a model.
+T13	Claim 1612 1668	In conclusion, there can be no school without a teacher.
+A5	Stance T13 Against
+T14	Claim 1669 1791	I think that computers will continue to be used by teachers in the learning process, but they will never take their place.
+A6	Stance T14 Against
+T15	Premise 1792 1863	Teachers are not just teachers, they are also friends and conseilieurs.
+R1	attacks Arg1:T2 Arg2:T1
+R2	supports Arg1:T3 Arg2:T2
+R3	supports Arg1:T4 Arg2:T3
+R4	supports Arg1:T5 Arg2:T3
+R5	supports Arg1:T6 Arg2:T5
+R6	supports Arg1:T7 Arg2:T3
+R7	supports Arg1:T8 Arg2:T3
+R8	supports Arg1:T9 Arg2:T3
+R9	supports Arg1:T10 Arg2:T9
+R10	supports Arg1:T11 Arg2:T9
+R11	supports Arg1:T12 Arg2:T9
+R12	supports Arg1:T13 Arg2:T2
+R13	supports Arg1:T14 Arg2:T2
+R14	supports Arg1:T15 Arg2:T14

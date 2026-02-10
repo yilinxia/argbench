@@ -1,0 +1,37 @@
+T1	MajorClaim 0 61	Physical exercise should be required part of every school day
+T2	Claim 182 237	physical exercise is a crucial part of every school day
+A1	Stance T2 For
+T3	Premise 239 318	Exercise is good not only for having a good health body, but also for the mind.
+T4	Claim 319 465	In addition, including exercise in children's daily routine, it is a good way to teach them the importance of physical activity from an early age.
+A2	Stance T4 For
+T5	Claim 466 531	Physical activity helps children to grow up physically healthier.
+A3	Stance T5 For
+T6	Premise 532 750	As studies have shown that the rate of obesity in children has increased every year, it will be very beneficial for children to have a daily physical activity and get a break from being sitting several hours at school.
+T7	Premise 751 887	In addition, exercise will help them to not be less exposed to illness related with cardiovascular, higher blood and cholesterol issues.
+T8	Claim 888 955	Daily exercise will help also to develop children's brain function.
+A4	Stance T8 For
+T9	Premise 956 1054	It is well known how important it is to exercise regularly to help the body system to work better.
+T10	Premise 1055 1187	When people exercise, the respiratory system's function is enhanced, helping all organs, including the brain, to get more oxygen in.
+T11	Premise 1188 1292	Daily exercise will provide children with a mental break which will boost them to be efficient learners.
+T12	Claim 1293 1448	Having children in the daily exercise routine from an early age will teach them the important value of having physical activity in their every day routine.
+A5	Stance T12 For
+T13	Premise 1449 1603	Children are bombarded with lectures about nutrition and physical activity; however, they will be more beneficed if that knowledge can be put in practice.
+T14	Premise 1604 1718	Moreover, they can stick with the routine and make the daily physical activities a good habit on their whole life.
+T15	Claim 1720 1803	Including physical activity in children's school day should be strongly considered.
+A6	Stance T15 For
+T16	Premise 1804 2031	It will meliorate not only mental and body health, but also will establish in children a habit of doing it, giving them the opportunity to measure the worth of including such an important activity in their daily live schedules.
+R1	supports Arg1:T2 Arg2:T1
+R2	supports Arg1:T3 Arg2:T2
+R3	supports Arg1:T4 Arg2:T1
+R4	supports Arg1:T5 Arg2:T2
+R5	supports Arg1:T6 Arg2:T5
+R6	supports Arg1:T7 Arg2:T5
+R7	supports Arg1:T8 Arg2:T2
+R8	supports Arg1:T9 Arg2:T8
+R9	supports Arg1:T10 Arg2:T8
+R10	supports Arg1:T11 Arg2:T8
+R11	supports Arg1:T12 Arg2:T2
+R12	supports Arg1:T13 Arg2:T12
+R13	supports Arg1:T14 Arg2:T12
+R14	supports Arg1:T15 Arg2:T1
+R15	supports Arg1:T16 Arg2:T15

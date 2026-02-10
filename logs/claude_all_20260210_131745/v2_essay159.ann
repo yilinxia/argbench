@@ -1,0 +1,27 @@
+T1	MajorClaim 295 385	I think that the popularity of mobile phones to the young generation is a bad development.
+T2	Claim 400 524	many young owners of cellular phones are struggling at school because they are distracted most of the time with their phones
+A1	Stance T2 For
+T3	Premise 526 673	Games and applications installed in phones have occupied much of their time, leaving them lesser time for their studies and other school activities
+T4	Premise 675 825	Similarly, internet capable phones help influence the young ones to become more interested in chatting and social sites rather than doing school works
+T5	Premise 827 905	In my college days, I was once addicted to a certain game on my cellular phone
+T6	Premise 907 992	I have spent most of my time trying to reach a higher level to show-off to my friends
+T7	Premise 994 1110	That goal has led me to my lost in interest on doing my homework and I ended up failing one subject in that semester
+T8	Claim 1122 1203	juveniles who possess mobile phones have great tendencies to become materialistic
+A2	Stance T8 For
+T9	Premise 1205 1293	They would not only purchase a phone because of its functionality but also for its brand
+T10	Premise 1295 1362	Relatively, these do not come at a significant and inexpensive cost
+T11	Premise 1364 1493	Furthermore, most of these juveniles are students so they would need their parents to support them financially for what they want
+T12	Premise 1495 1674	An illustration of this unfortunate trend can be seen almost everywhere these days, wherein most teens at an early age own phones which are worth twice the salary of their parents
+T13	MajorClaim 1637 1752	This clearly shows that the negative impacts brought about by mobile phones are harmful to a person's education and character
+T14	MajorClaim 1815 1889	I highly discourage the young ones to be overly dependent on mobile phones
+R1	supports Arg1:T3 Arg2:T2
+R2	supports Arg1:T4 Arg2:T2
+R3	supports Arg1:T5 Arg2:T2
+R4	supports Arg1:T6 Arg2:T2
+R5	supports Arg1:T7 Arg2:T2
+R6	supports Arg1:T2 Arg2:T1
+R7	supports Arg1:T9 Arg2:T8
+R8	supports Arg1:T10 Arg2:T8
+R9	supports Arg1:T11 Arg2:T8
+R10	supports Arg1:T12 Arg2:T8
+R11	supports Arg1:T8 Arg2:T1

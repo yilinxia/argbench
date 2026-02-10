@@ -1,0 +1,19 @@
+T1	MajorClaim 0 88	A greater proportion of the budget should be allotted to education and prevention issues
+T2	MajorClaim 236 387	I completely agree with the idea that governments should devote a greater portion of their health budgets to health education and means for precautions
+T3	Claim 481 524	the potential improvements in health system
+T4	Premise 541 723	decreasing the number of patients in the health system can lead hospitals and healthcare centers to be managed effectively which will result in better treatments for current patients
+T5	Premise 736 944	society should be educated and became aware of health issues so that the potential precautions on the way of illnesses can be taken instead of trying to provide treatment for the increasing number of patients
+T6	Claim 1069 1095	the welfare of the society
+T7	Premise 1112 1220	there is nothing more important than health in a human's life and the happiness and welfare come with health
+T8	Premise 1233 1388	a government's role should be providing means that lead its citizens to learn how to prevent from potential illness that can cause misery in people's lives
+T9	Premise 1403 1602	the marketing campaign of Ministry of Health in Turkey which aimed smoking problem among the youth increased the well-being of those who quit smoking and adapted a better lifestyle after the campaign
+T10	MajorClaim 1619 1812	a greater proportion of the budget should be allotted to education and prevention issues in comparison with treatment due to achieve more effective health system and greater level of well-being
+A1	Stance T3 For
+A2	Stance T6 For
+R1	supports Arg1:T4 Arg2:T3
+R2	supports Arg1:T5 Arg2:T3
+R3	supports Arg1:T3 Arg2:T2
+R4	supports Arg1:T7 Arg2:T6
+R5	supports Arg1:T8 Arg2:T6
+R6	supports Arg1:T9 Arg2:T8
+R7	supports Arg1:T6 Arg2:T2

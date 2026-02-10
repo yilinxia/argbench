@@ -1,0 +1,24 @@
+T1	MajorClaim 364 519	I firmly believe that both alternative sources and traditional teaching methods from educators are equally important in children's acquisition of knowledge
+T2	Claim 521 660	It is undeniable that the widespread of alternative sources of knowledge has played an important role in students' acquisition of knowledge
+A1	Stance T2 For
+T3	Premise 662 846	Computers can be programmed to provide an endless numbers of questions in diverse range of fields, and as the students answer these questions, the facts has been learned and reinforced
+T4	Premise 848 990	A case in point is the reading and listening parts of TOEFL iBT exams, as candidates have to answer many questions in a limited period of time
+T5	Premise 1002 1165	when students have some academic problems, they can post those to some websites and receive correct answers from unknown people in faraway places without any costs
+T6	Premise 1176 1305	in the past, conducting a research require long hours of searching in library shelves, now all can be done at a click of a button
+T7	Claim 1313 1357	technologies are vital in students' learning
+A2	Stance T7 For
+T8	Claim 1378 1506	schools and university are places in which students gather to be educated and learn from each others as well as formal educators
+A3	Stance T8 For
+T9	Premise 1508 1696	At schools, students' development has been orchestrated stage by stage, step by step by experienced teachers, and their acquisition of knowledge is guided and backed up in a systematic way
+T10	Claim 1709 1759	formal education approaches are also indispensable
+A4	Stance T10 For
+T11	MajorClaim 1813 1926	alternative sources information and traditional education systems are equally important in children's development
+R1	supports Arg1:T3 Arg2:T2
+R2	supports Arg1:T4 Arg2:T2
+R3	supports Arg1:T5 Arg2:T2
+R4	supports Arg1:T6 Arg2:T7
+R5	supports Arg1:T2 Arg2:T1
+R6	supports Arg1:T7 Arg2:T1
+R7	supports Arg1:T9 Arg2:T10
+R8	supports Arg1:T8 Arg2:T1
+R9	supports Arg1:T10 Arg2:T1

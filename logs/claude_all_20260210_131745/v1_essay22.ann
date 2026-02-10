@@ -1,0 +1,23 @@
+T1	MajorClaim 1959 2253	Although higher education does not guarantee young students' success, the benefits of learning in universities are the vital factor in creating more possibilities for the development of society through advancing academic fulfillment and the young generation who have experiences and challenges.
+T2	Claim 601 771	the fact is that there are numerous job opportunities for those who do not have the certification of university graduation, such as mechanics, sales persons, or engineers
+T3	Premise 778 831	furthermore, labors for graduates are in short supply
+T4	Claim 848 960	the labor market for highly educated students is now too competitive to get a job after finishing their studying
+T5	Premise 962 1118	In this regard it is a loss of national productivity that young people spend much time on searching for high salary jobs, even can be a sheer time-consuming
+T6	Claim 1201 1342	universities provide not only skills for careers, but also academic knowledge for the human race, such as bio science, politics, and medicine
+T7	Premise 1344 1408	These academic values are necessary to the progress of the world
+T8	Premise 1428 1552	many researches in the ivory-tower have created ingenious discoveries and achievements for the development of modern society
+T9	Claim 1554 1690	Another significant factor of universities is that diverse experiences in the campus life can make the young generation more competently
+T10	Premise 1691 1812	because there are a number of chances through internships, deeper discussion, independent life, and exchange scholarships
+A1	Stance T2 Against
+A2	Stance T4 Against
+A3	Stance T6 For
+A4	Stance T9 For
+R1	supports Arg1:T3 Arg2:T2
+R2	supports Arg1:T5 Arg2:T4
+R3	supports Arg1:T7 Arg2:T6
+R4	supports Arg1:T8 Arg2:T6
+R5	supports Arg1:T10 Arg2:T9
+R6	supports Arg1:T6 Arg2:T1
+R7	supports Arg1:T9 Arg2:T1
+R8	attacks Arg1:T2 Arg2:T1
+R9	attacks Arg1:T4 Arg2:T1

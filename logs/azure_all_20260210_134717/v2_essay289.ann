@@ -1,0 +1,36 @@
+T1	MajorClaim 382 475	Therefore, I agree with this notion that students should be asked to evaluate their teachers.
+T2	Claim 476 564	To begin with, Evaluating teachers made by students could improve teachers' performance.
+T3	Premise 565 711	For example, evaluation made by students is similar to feedback from customer that business owners need to know in order to improve their product.
+T4	Premise 712 820	Students might complain about their teachers spoke too fast that students could not catch up on information.
+T5	Premise 821 964	Consequently, teachers could improve themselves by speaking slower to make sure that students could get all information that they want to give.
+T6	Premise 965 1037	Therefore, evaluating from students could improve teachers' performance.
+T7	Claim 1038 1113	Additionally, this evaluation from students could improve schools' quality.
+T8	Premise 1114 1151	Teachers could augment their quality.
+T9	Premise 1152 1257	Consequently, When school gather teachers that have great performance, school are gaining higher quality.
+T10	Premise 1258 1409	For instance, in many cooperation such as Microsoft that could produce many great products because they have employees whose performance are very high.
+T11	Premise 1410 1553	Schools could produce intellectual students because school have teachers who are always improve their quality from evaluation made by students.
+T12	Claim 1554 1625	Finally, people who get the most advantage from evaluation is students.
+T13	Premise 1626 1720	Students could study in class that have teachers who have experienced and greater performance.
+T14	Premise 1721 1882	Because teachers are always adapt the way they teach in order to make students easy to understand their subjects, students could comprehend their subject easily.
+T15	Premise 1883 2036	As a result, students, who study from great schools which have great performance teacher, graduate with great knowledge to survive in next steps of life.
+T16	MajorClaim 2037 2343	In conclusion, I agree with this statement that school should ask students to evaluate their teachers because teachers could improve their performance. Moreover, schools are also improve their quality because they have high performance teachers. Furthermore, students are easy to understand their subjects.
+T17	MajorClaim 2344 2427	Thus, I believe that there are benefits to ask students to evaluate their teachers.
+A1	Stance T2 For
+A2	Stance T7 For
+A3	Stance T12 For
+R1	supports Arg1:T2 Arg2:T1
+R2	supports Arg1:T3 Arg2:T2
+R3	supports Arg1:T4 Arg2:T2
+R4	supports Arg1:T5 Arg2:T2
+R5	supports Arg1:T6 Arg2:T2
+R6	supports Arg1:T7 Arg2:T1
+R7	supports Arg1:T8 Arg2:T7
+R8	supports Arg1:T9 Arg2:T7
+R9	supports Arg1:T10 Arg2:T9
+R10	supports Arg1:T11 Arg2:T7
+R11	supports Arg1:T12 Arg2:T1
+R12	supports Arg1:T13 Arg2:T12
+R13	supports Arg1:T14 Arg2:T12
+R14	supports Arg1:T15 Arg2:T12
+R15	supports Arg1:T16 Arg2:T1
+R16	supports Arg1:T17 Arg2:T1

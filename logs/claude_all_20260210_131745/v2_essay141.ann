@@ -1,0 +1,31 @@
+T1	MajorClaim 469 518	I agree that face-to-face communication is better
+T2	Claim 584 630	communicating in person can be more convincing
+A1	Stance T2 For
+T3	Premise 632 776	Sometimes, face-to face communication can lead us to convince or complain someone successfully, and a fitting example can be found from my uncle
+T4	Premise 778 1038	He once complained a service of a restaurant. Without exaggeration, he directly went to the boss and told the boss that something wrong occurred on the meal--a fly concealed in it. Afterward, my uncle acquired a new service thanks to face-to face communication
+T5	Premise 1040 1165	If he just wrote something to complain on the website or by telephone, I do not think this problem would be thought important
+T6	Claim 1178 1260	we can commence to agree that communicating with someone in person is the best way
+A2	Stance T6 For
+T7	Claim 1346 1406	it is easy to be deceived without face-to face communication
+A3	Stance T7 For
+T8	Premise 1422 1610	I had received some harmful words on facebook from my best friend, Eric. He said that I was totally failed in building a good friendship and he did not want to be one of my friends anymore
+T9	Premise 1612 1715	I just shocked and did not know what happened. Finally, I realized that his facebook account was stolen
+T10	Claim 1740 1817	we are capable of stating that it is important to talk to people face-to-face
+A4	Stance T10 For
+T11	Claim 1899 2048	communication by letters, email, or telephone can enable them to talk without scruple, which is also one of the most important parts in communication
+A5	Stance T11 Against
+T12	Premise 2135 2228	It is conceivable that before we talk, it is necessary for us to be imprudent about our words
+T13	Premise 2230 2346	Talking without scruple is not the indispensable part in communication; in contrast, it is usually detrimental to us
+T14	MajorClaim 2531 2596	I think the best way of communication is by means of face-to-face
+R1	supports Arg1:T3 Arg2:T2
+R2	supports Arg1:T4 Arg2:T2
+R3	supports Arg1:T5 Arg2:T2
+R4	supports Arg1:T2 Arg2:T1
+R5	supports Arg1:T6 Arg2:T1
+R6	supports Arg1:T8 Arg2:T7
+R7	supports Arg1:T9 Arg2:T7
+R8	supports Arg1:T7 Arg2:T1
+R9	supports Arg1:T10 Arg2:T1
+R10	attacks Arg1:T11 Arg2:T1
+R11	attacks Arg1:T12 Arg2:T11
+R12	attacks Arg1:T13 Arg2:T11

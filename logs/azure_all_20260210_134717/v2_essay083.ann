@@ -1,0 +1,30 @@
+T1	MajorClaim 312 415	As far as my opinion is concerned, I find myself aligned with opponents of the usages of nuclear power.
+T2	Claim 416 497	I have several reasons to believe its disadvantages outnumber the few advantages.
+T3	Claim 498 612	First and foremost reason is that pursuit of nuclear technology one way or the other leads towards atomic weapons.
+T4	Premise 613 668	Last century has witnessed the horrors of such weapons.
+T5	Premise 669 775	If each country pursues the fusion and fission process some of them may try to mold it for military usage.
+T6	Claim 776 892	Another reason to fortify my opinion is that even civil usages of atomic power pose a dire threat of radio activity.
+T7	Premise 893 1062	For example recently there has been an incident in which an atomic power house leaked tons of radio active material into air when an earthquake hit the surrounding area.
+T8	Premise 1063 1162	This unfortunate event proves that no matter how much careful we are such accidents are inevitable.
+T9	Claim 1163 1315	Last but not least, while generating energy from any source be it hydro power or oil there always is some wastage and so is the case with nuclear power.
+T10	Premise 1316 1423	Safely getting rid of nuclear waste is a daunting task and there has not been any permanent solution of it.
+T11	Premise 1424 1521	This waste is many times more lethal to our environment than any of the other hazardous material.
+T12	Claim 1522 1700	To sum it up, from above mentioned facts it can easily be deduced that nuclear power may appear silver bullet for energy crisis but its disadvantages far outweigh the advantages.
+T13	MajorClaim 1701 1793	Thus I suggest that use of nuclear technology should be discouraged even for civil purposes.
+A1	Stance T2 Against
+A2	Stance T3 Against
+A3	Stance T6 Against
+A4	Stance T9 Against
+A5	Stance T12 Against
+R1	supports Arg1:T2 Arg2:T1
+R2	supports Arg1:T3 Arg2:T2
+R3	supports Arg1:T4 Arg2:T3
+R4	supports Arg1:T5 Arg2:T3
+R5	supports Arg1:T6 Arg2:T2
+R6	supports Arg1:T7 Arg2:T6
+R7	supports Arg1:T8 Arg2:T6
+R8	supports Arg1:T9 Arg2:T2
+R9	supports Arg1:T10 Arg2:T9
+R10	supports Arg1:T11 Arg2:T9
+R11	supports Arg1:T12 Arg2:T13
+R12	supports Arg1:T1 Arg2:T13

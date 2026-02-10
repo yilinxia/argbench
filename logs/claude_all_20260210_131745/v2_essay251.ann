@@ -1,0 +1,44 @@
+T1	MajorClaim 310 382	people who can't accept others' criticism can't succeed in group working
+T2	Claim 432 472	the core of group working is "consensus"
+T3	Premise 352 393	It's the idea that everyone's opinion accounts
+T4	Premise 522 674	In group works, group members gather together to have brain-storming discussion, think over every possible solutions and then finally reach an agreement
+T5	Premise 676 758	In this long process of discussion, there must be different opinions sparkling out
+T6	Premise 760 948	It doesn't work if one member solely insists on his/her idea and doesn't take other member's criticism because the work belongs to every member, not a personal show for specific one member
+T7	Premise 950 1001	It's every member's duty to respect other's opinion
+T8	Claim 1011 1089	taking criticism is a virtue as you take someone's opinion that is against you
+T9	Premise 1091 1171	Even if you are not working in a group, you still need to take others' criticism
+T10	Premise 1173 1268	Criticism definitely hurts because it points out your drawbacks and forces you to confront them
+T11	Premise 1270 1367	However, criticism can help you detect those drawbacks and fix them if you are willing to take it
+T12	Premise 1369 1459	Those who don't even take a word of criticism will eventually lose chances to get improved
+T13	Claim 1477 1606	if you can't take any criticism, not only will you fail in cooperating with other people, but also get defeated in personal works
+T14	Premise 1393 1448	As one Chinese idiom goes: "The good medicine tastes bitter"
+T15	Premise 1670 1723	Criticism might be the most powerful solution to heal
+T16	Claim 1966 2139	even if you are right, criticism is still helpful because in this case it not only is a fixer, but it also serves as a practice to test you how much you know about your work
+T17	Premise 2141 2209	Taking criticism doesn't necessary mean that you have to take it all
+T18	Premise 2211 2249	You should have your own judgments too
+T19	Premise 2251 2305	And it's kind of art to make the best use of criticism
+T20	MajorClaim 2322 2419	criticism is essential especially in group working but in other occasions we still need criticism
+T21	Premise 2421 2546	It's just like a picky mirror through which we can see the bad side of us and thus try to become more beautiful and confident
+A1	Stance T2 For
+A2	Stance T8 For
+A3	Stance T13 For
+A4	Stance T16 For
+R1	supports Arg1:T3 Arg2:T2
+R2	supports Arg1:T4 Arg2:T2
+R3	supports Arg1:T5 Arg2:T2
+R4	supports Arg1:T6 Arg2:T2
+R5	supports Arg1:T7 Arg2:T2
+R6	supports Arg1:T2 Arg2:T1
+R7	supports Arg1:T9 Arg2:T8
+R8	supports Arg1:T10 Arg2:T8
+R9	supports Arg1:T11 Arg2:T8
+R10	supports Arg1:T12 Arg2:T13
+R11	supports Arg1:T14 Arg2:T8
+R12	supports Arg1:T15 Arg2:T8
+R13	supports Arg1:T8 Arg2:T1
+R14	supports Arg1:T13 Arg2:T1
+R15	supports Arg1:T17 Arg2:T16
+R16	supports Arg1:T18 Arg2:T16
+R17	supports Arg1:T19 Arg2:T16
+R18	supports Arg1:T16 Arg2:T1
+R19	supports Arg1:T21 Arg2:T20

@@ -1,0 +1,34 @@
+T1	MajorClaim 87 177	I agree with the statement that life in a city is much better than life in the countryside
+T2	Claim 188 237	in the city there is much better education system
+T3	Premise 239 375	This means, that the schools and the universities have well equipped classes and the famous professors would like to work in such places
+T4	Claim 405 463	city provides more work opportunities than the countryside
+T5	Premise 465 522	There are not only more jobs, but they are also well-paid
+T6	Premise 524 596	Of course living in a city is more expensive, but incomes are higher too
+T7	Claim 608 702	in the urban areas there are also more citizens what means, that the culture diversity is huge
+T8	Premise 704 825	Meeting and knowing new people's tradition is an unforgettable experience, which could influence on one's previous habits
+T9	Claim 840 886	the city has well-organised lines of transport
+T10	Premise 888 993	The buses and trains are more frequent than in the countryside, so the city provides better communication
+T11	Claim 1004 1077	in the countryside there are many places to rest, because of its location
+T12	Premise 1089 1167	peaceful and close to the nature areas could help to avoid worries and sadness
+T13	MajorClaim 1207 1288	living in the city is much better nowadays, because of the opportunities it gives
+T14	Premise 1290 1411	Today living in the rural places is in most causes connected with agrarian lifestyle, which for me is without perspective
+T15	Claim 1413 1472	If I could decide I would chose living in the city for sure
+A1	Stance T2 For
+A2	Stance T4 For
+A3	Stance T7 For
+A4	Stance T9 For
+A5	Stance T11 Against
+A6	Stance T15 For
+R1	supports Arg1:T3 Arg2:T2
+R2	supports Arg1:T2 Arg2:T1
+R3	supports Arg1:T5 Arg2:T4
+R4	supports Arg1:T6 Arg2:T4
+R5	supports Arg1:T4 Arg2:T1
+R6	supports Arg1:T8 Arg2:T7
+R7	supports Arg1:T7 Arg2:T1
+R8	supports Arg1:T10 Arg2:T9
+R9	supports Arg1:T9 Arg2:T1
+R10	supports Arg1:T12 Arg2:T11
+R11	attacks Arg1:T11 Arg2:T1
+R12	supports Arg1:T14 Arg2:T13
+R13	supports Arg1:T15 Arg2:T13

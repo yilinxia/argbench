@@ -1,0 +1,22 @@
+T1	MajorClaim 1531 1776	exams have a role to play in ensuring proper and objective assessment of achievement. However, exams need to be carefully designed and supplemented with other forms of evaluation if they are to be a truly useful component of the education system
+T2	Claim 349 471	There are clearly advantages to exams. They help to ensure fairness by imposing the same conditions on all exam candidates
+A1	Stance T2 For
+T3	Premise 473 645	They are also relatively versatile; different types of exam questions, for example, multiple-choice questions and essay tasks, can test different sorts of reasoning ability
+T4	Claim 656 686	exams also have some drawbacks
+A2	Stance T4 Against
+T5	Premise 688 791	Test-wise candidates can often perform well on exams without having good underlying knowledge or skills
+T6	Premise 806 884	some test-takers perform cannot achieve a satisfying result because of anxiety
+T7	Premise 886 1048	In this case, teachers and learners focus only on theses aspects of the curriculum that are likely to be tested, thus narrowing the educational experience for all
+T8	Claim 1050 1112	A number of measures should be taken to address these concerns
+A3	Stance T8 For
+T9	Premise 1114 1206	Wherever possible, exams should match the content and activities of the learning environment
+T10	Premise 1208 1306	Exam task should be varied to give fair opportunities to candidates with different types of skills
+R1	supports Arg1:T3 Arg2:T2
+R2	supports Arg1:T5 Arg2:T4
+R3	supports Arg1:T6 Arg2:T4
+R4	supports Arg1:T7 Arg2:T4
+R5	supports Arg1:T9 Arg2:T8
+R6	supports Arg1:T10 Arg2:T8
+R7	supports Arg1:T2 Arg2:T1
+R8	supports Arg1:T4 Arg2:T1
+R9	supports Arg1:T8 Arg2:T1

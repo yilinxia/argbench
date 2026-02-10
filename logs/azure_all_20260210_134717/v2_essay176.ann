@@ -1,0 +1,32 @@
+T1	MajorClaim 1561 1635	During our trip, it is worthwhile for us to visit a museum of a new place.
+T2	Claim 198 255	Primary, it is easy to know the history of the new place.
+A1	Stance T2 For
+T3	Premise 256 405	Last year, I went to Ellis Island and the immigration museum, where is a symbol of American immigration and the immigrant experience in the New York.
+T4	Premise 406 567	Through the exhibit, I found that the Statue of Liberty symbolized freedom, and Ellis Island may be the place, where the immigration took their dreams and fears.
+T5	Claim 568 642	Thus, museums can help us know the history and the customs of a new place.
+A2	Stance T5 For
+T6	Claim 643 712	Secondary, visiting a well-known museum also can broaden our horizon.
+A3	Stance T6 For
+T7	Premise 713 822	Those outstanding and diverse range of objects,with classic and magnificent art, is guaranteed to inspire us!
+T8	Premise 823 916	In my city, National Palace Museum is celebrated for collection of ancient Chinese artifacts.
+T9	Premise 917 1027	To my astonishment, Jadeite cabbage is the most famous artistic work, which is made of jade, is vividly shown.
+T10	Claim 1028 1112	Moreover, a local museum could be a top choice and destination for tourist to visit.
+A4	Stance T10 For
+T11	Premise 1113 1226	Someone take a trip without making any plans, so they may waste their time on shopping or staying at their hotel.
+T12	Premise 1227 1306	As a result, visiting a museum saves their precious time for making a decision.
+T13	Premise 1307 1451	Most important of all, a local museum represent its own typical culture so that visitors may easily acquaint with the new place in a short time.
+T14	Claim 1452 1560	For the above reasons, if we have a chance to visit top museums in the world, we must stop by these museums.
+A5	Stance T14 For
+R1	supports Arg1:T3 Arg2:T2
+R2	supports Arg1:T4 Arg2:T2
+R3	supports Arg1:T2 Arg2:T5
+R4	supports Arg1:T5 Arg2:T1
+R5	supports Arg1:T7 Arg2:T6
+R6	supports Arg1:T8 Arg2:T6
+R7	supports Arg1:T9 Arg2:T6
+R8	supports Arg1:T6 Arg2:T1
+R9	supports Arg1:T11 Arg2:T10
+R10	supports Arg1:T12 Arg2:T10
+R11	supports Arg1:T13 Arg2:T10
+R12	supports Arg1:T10 Arg2:T1
+R13	supports Arg1:T14 Arg2:T1

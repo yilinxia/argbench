@@ -1,0 +1,23 @@
+T1	MajorClaim 0 70	Paying more money is the only motivation to make employees work harder
+T2	Claim 346 424	A raise or a promotion can no doubt increase the morale in the working places.
+T3	Premise 425 534	Workers understand they have to work harder to meet the boss' expectations and to make themselves worthwhile.
+T4	Premise 535 813	For instance, junior high school teachers have great responsibility not only for students' private lives as they are going through adolescence but also their school work due to the fact that it is an important phase for them to study hard and get into the high school they want.
+T5	Premise 814 1025	If the teachers receive higher salaries, they will be willing to spend more extra time mentoring the youngsters rather than hoping they learn in cram schools and so forth, as this is what is happening in Taiwan.
+T6	Claim 1026 1204	Nevertheless, I believe that creating an enjoyable working environment is more realistic and essential if one wishes an increase in productivity and better employee performances.
+T7	Premise 1205 1362	Take Google for example, the company offers recreation rooms and extra personal leaves for their workers to develop a more relaxing and supportive workforce.
+T8	Premise 1363 1535	By doing this, the employers can make sure the employees can actually focus and concentrate on their projects instead of thinking about their children or feeling pressured.
+T9	Claim 1536 1649	To sum up, I believe that a higher pay can be one of the incentive if were to encourage harder-working employees.
+T10	Claim 1650 1857	Alternatively, providing a more secured and relaxing environment for workers can fundamentally boost their productivity since they will be feeling more cared for and therefore do their best for their bosses.
+A1	Stance T2 Against
+A2	Stance T6 Against
+A3	Stance T9 Against
+A4	Stance T10 Against
+R1	supports Arg1:T3 Arg2:T2
+R2	supports Arg1:T4 Arg2:T2
+R3	supports Arg1:T5 Arg2:T2
+R4	attacks Arg1:T2 Arg2:T1
+R5	supports Arg1:T7 Arg2:T6
+R6	supports Arg1:T8 Arg2:T6
+R7	attacks Arg1:T6 Arg2:T1
+R8	attacks Arg1:T9 Arg2:T1
+R9	attacks Arg1:T10 Arg2:T1

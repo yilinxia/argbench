@@ -1,0 +1,24 @@
+T1	MajorClaim 71 298	According to some people, child who is brought up in less well-off family is more quick-witted and can tackle with an adult life problems better than who is from affluent ones. However, I completely disagree with this position.
+T2	Claim 314 410	children from poorer families are prone to have bad habits such as: crime, thievery and thuggery
+A1	Stance T2 Against
+T3	Premise 422 478	these people will not have an access to a good education
+T4	Premise 493 531	they can be proselytized into bad isms
+T5	Premise 546 702	most of the terroristic groups try to attract uneducated people, because the person with better education has a wider outlook, which will allow no brainwash
+T6	Premise 719 804	people with lower level of education have more proneness to be attracted in such isms
+T7	Claim 820 945	people who are born in well-off families have access to good education, which will have a positive impact on their later life
+A2	Stance T7 Against
+T8	Claim 957 1059	children from rich families have better skills on how to use money, because they use it a lot of times
+A3	Stance T8 Against
+T9	Claim 1070 1198	wealthy families can afford better health services and costly medicines, which will be very beneficial for the health of a child
+A4	Stance T9 Against
+T10	Premise 1214 1305	many good medicines cost vast amounts of money, which cannot be afforded by poorer families
+T11	MajorClaim 1322 1485	I disagree with the opinion that children who are brought up in less well-of families are, likely, more successful in the future life due to aforementioned reasons
+R1	supports Arg1:T3 Arg2:T2
+R2	supports Arg1:T4 Arg2:T2
+R3	supports Arg1:T5 Arg2:T2
+R4	supports Arg1:T6 Arg2:T2
+R5	supports Arg1:T2 Arg2:T1
+R6	supports Arg1:T10 Arg2:T9
+R7	supports Arg1:T7 Arg2:T1
+R8	supports Arg1:T8 Arg2:T1
+R9	supports Arg1:T9 Arg2:T1

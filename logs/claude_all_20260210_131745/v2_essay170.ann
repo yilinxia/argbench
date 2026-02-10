@@ -1,0 +1,31 @@
+T1	MajorClaim 0 66	Technological progress in the past century has its negative effect
+T2	Claim 288 384	the development of technology can prompt economic growth and the improvement of living standards
+A1	Stance T2 Against
+T3	Premise 386 505	Scientists and engineers have invented many novel products and tools, which play an important role in economic activity
+T4	Premise 507 656	Because of the technology of internet and air transportation, businessmen are able to handle plenty of international trade and financial transactions
+T5	Premise 658 770	This also helps many countries to more efficiently export their products to the world and increase their revenue
+T6	Claim 781 870	advanced technology enables people to enhance their living-level and health care standard
+A2	Stance T6 Against
+T7	Premise 872 1059	With the improvement of medical technology, it is obvious that the life expectancy in many countries has been significantly longer than before, and many serious diseases are under control
+T8	Premise 1061 1186	Digital entertainment technology allows people to enjoy playing interactive video games and watching three-dimensional movies
+T9	Premise 1192 1251	this means that we could get more happiness from technology
+T10	Claim 1272 1373	the development of technology is likely to bring some negative effects on the environment and society
+A3	Stance T10 For
+T11	Premise 1375 1563	People utilize architecture technology to construct buildings to expand urban areas, and fuel companies apply drilling technology to extract a great amount of fossil oil in natural regions
+T12	Premise 1565 1626	This would pose a large threat to the ecology and environment
+T13	Premise 1628 1688	Vehicle technology enables many people to drive private cars
+T14	Premise 1694 1761	emission of exhaust gas could lead to air pollution in large cities
+T15	MajorClaim 1778 1887	although technological progress causes corresponding problems, it still provides us with much more advantages
+R1	supports Arg1:T3 Arg2:T2
+R2	supports Arg1:T4 Arg2:T2
+R3	supports Arg1:T5 Arg2:T2
+R4	supports Arg1:T7 Arg2:T6
+R5	supports Arg1:T8 Arg2:T6
+R6	supports Arg1:T9 Arg2:T6
+R7	supports Arg1:T11 Arg2:T10
+R8	supports Arg1:T12 Arg2:T10
+R9	supports Arg1:T13 Arg2:T10
+R10	supports Arg1:T14 Arg2:T10
+R11	attacks Arg1:T2 Arg2:T1
+R12	attacks Arg1:T6 Arg2:T1
+R13	supports Arg1:T10 Arg2:T1

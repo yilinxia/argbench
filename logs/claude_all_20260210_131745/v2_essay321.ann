@@ -1,0 +1,29 @@
+T1	MajorClaim 269 328	personally, I would prefer to have my own job. My arguments
+T2	MajorClaim 1281 1388	I would like to run my own business to control my own time, and to earn more money based on my noble ideas.
+T3	Claim 360 416	time is the more valuable thing, which I have in my life
+T4	Premise 418 469	By having my own business, I can manage my own time
+T5	Premise 471 556	I could work whenever I want, or I do not need to give reasons to my boss for a delay
+T6	Premise 558 604	I can arrange time to travel when I would like
+T7	Premise 619 663	I can work long hours for earning more money
+T8	Claim 665 747	Totally, the most important reason for me to be self-employed is the sense of free
+T9	Claim 760 820	earning money is the fundamental reason that why people work
+T10	Claim 822 909	The amount of money is always the most important criterion for everyone to choose a job
+T11	Premise 911 983	If I work for other people, I have to give my ideas to employers cheaply
+T12	Premise 996 1076	I never have been rich in my life, because my salary is not dramatically changed
+T13	Claim 1078 1191	In spite of many problems of having own business, I can earn more money based on my creativity and personal ideas
+A1	Stance T3 For
+A2	Stance T8 For
+A3	Stance T9 For
+A4	Stance T10 For
+A5	Stance T13 For
+R1	supports Arg1:T4 Arg2:T3
+R2	supports Arg1:T5 Arg2:T3
+R3	supports Arg1:T6 Arg2:T3
+R4	supports Arg1:T7 Arg2:T8
+R5	supports Arg1:T3 Arg2:T1
+R6	supports Arg1:T8 Arg2:T1
+R7	supports Arg1:T11 Arg2:T13
+R8	supports Arg1:T12 Arg2:T13
+R9	supports Arg1:T10 Arg2:T9
+R10	supports Arg1:T13 Arg2:T2
+R11	supports Arg1:T9 Arg2:T2

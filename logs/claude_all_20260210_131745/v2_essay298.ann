@@ -1,0 +1,44 @@
+T1	MajorClaim 327 434	it is good for a teenager to do a part time job while he/she is still a student and this is for two reasons
+T2	Claim 460 544	students can learn lots of things from part time job, before starting their real job
+T3	Premise 546 639	Students can learn about time management, money management and convince people by their words
+T4	Premise 641 727	For example, when I was in my high school I worked as a sales-man in a shop for a year
+T5	Premise 729 820	As i had to spend some of my time in my job, therefore, i had to manage my time efficiently
+T6	Premise 822 883	I had to manage my boss as well as had to prepare my homework
+T7	Premise 885 969	This taught me how to manage time efficiently and do any job quickly and effectively
+T8	Premise 981 1005	I learn money management
+T9	Premise 1007 1089	When my boss was out of the shop, i had to manage the accounts section of the shop
+T10	Premise 1091 1141	From this i learned, how to manage money correctly
+T11	Premise 1143 1228	This experience taught me, doing part time job can help students to learn many things
+T12	Claim 1253 1326	from part time jobs students can earn money, which can help their parents
+T13	Premise 1342 1392	when i was in high school I worked as a home tutor
+T14	Premise 1394 1434	I taught math to two kids of my neighbor
+T15	Premise 1436 1497	I helped them to understand the difficult topics of the books
+T16	Premise 1499 1564	By tutoring them, i earned some money and bought me books with it
+T17	Premise 1576 1656	after taking that part time job i stopped taking my pocket money form my parents
+T18	Premise 1674 1761	part time job can help students earn money and which can help their parents financially
+T19	Claim 1863 1904	it can destruct students from their study
+T20	Premise 1915 1994	as i did part time job in my high school and it did not hurt my academic result
+T21	MajorClaim 2017 2056	part time job will be good for students
+T22	MajorClaim 2058 2172	Every Student should do part time job beside their study if they want to prepare more efficiently for their future
+A1	Stance T2 For
+A2	Stance T12 For
+A3	Stance T19 Against
+R1	supports Arg1:T2 Arg2:T1
+R2	supports Arg1:T3 Arg2:T2
+R3	supports Arg1:T4 Arg2:T2
+R4	supports Arg1:T5 Arg2:T2
+R5	supports Arg1:T6 Arg2:T2
+R6	supports Arg1:T7 Arg2:T2
+R7	supports Arg1:T8 Arg2:T2
+R8	supports Arg1:T9 Arg2:T8
+R9	supports Arg1:T10 Arg2:T8
+R10	supports Arg1:T11 Arg2:T2
+R11	supports Arg1:T12 Arg2:T1
+R12	supports Arg1:T13 Arg2:T12
+R13	supports Arg1:T14 Arg2:T13
+R14	supports Arg1:T15 Arg2:T14
+R15	supports Arg1:T16 Arg2:T12
+R16	supports Arg1:T17 Arg2:T12
+R17	supports Arg1:T18 Arg2:T12
+R18	attacks Arg1:T19 Arg2:T1
+R19	attacks Arg1:T20 Arg2:T19

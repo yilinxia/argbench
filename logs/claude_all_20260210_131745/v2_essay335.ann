@@ -1,0 +1,22 @@
+T1	MajorClaim 1287 1428	I agree that IT discoveries are likely to have more disadvantages than benefits and people should know how to use their developments properly
+T2	Claim 320 419	World Wide Web and communication via email are some of the positive sides of information technology
+A1	Stance T2 Against
+T3	Claim 472 515	connecting people by email is easy and fast
+A2	Stance T3 Against
+T4	Premise 530 635	World Wide Web offers humanity to access to information, which they want to know for less than 10 seconds
+T5	Claim 637 684	These are two of the benefits, why IT is useful
+A3	Stance T5 Against
+T6	Premise 695 904	nowadays technology is entering into our society really quick and scientists develop robots, which help people cope with their problems or just invent coffee machines, engines with integrated computers and etc
+T7	Premise 919 1025	before centeries, there were not washing machines, which clean your clothes, while a person do another job
+T8	Claim 1037 1078	there are some drawbacks about this issue
+A4	Stance T8 For
+T9	Premise 1080 1211	Scientists believe that one day people will face their developments, for instance robots, and they will not succeed to control them
+T10	Premise 1213 1270	All this inventions will try to take control of the Earth
+R1	supports Arg1:T4 Arg2:T3
+R2	supports Arg1:T3 Arg2:T5
+R3	supports Arg1:T6 Arg2:T5
+R4	supports Arg1:T7 Arg2:T6
+R5	supports Arg1:T9 Arg2:T8
+R6	supports Arg1:T10 Arg2:T9
+R7	supports Arg1:T8 Arg2:T1
+R8	attacks Arg1:T5 Arg2:T1

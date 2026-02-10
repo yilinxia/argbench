@@ -1,0 +1,29 @@
+T1	MajorClaim 324 391	I believe that primates should have the same rights as human beings
+T2	Claim 423 454	animal testing should be banned
+T3	Premise 465 496	the costs outweigh the benefits
+T4	Premise 498 633	Every year, cosmetic companies, farms or medical schools kill millions of animals to test their products, without any beneficial result
+T5	Premise 635 768	Animal testing costs an enormous amount of money, since they must be fed, cared for and treated with drugs or experimental substances
+T6	Claim 780 820	animals are kept in unnatural conditions
+T7	Premise 822 935	Recent studies point out that animals are neglected and treated poorly, which influences their reactions to drugs
+T8	Premise 937 1121	In March 2003, a lab technician shot a video inside a lab, which revealed primates in cages without pain medication, for instance one baboon with a metal cylinder screwed into its head
+T9	Claim 1137 1206	I think that sacrificing animals is an expensive and painful activity
+T10	Claim 1240 1310	many ethical and genetic principles are broken when testing on animals
+T11	Premise 1312 1478	Many people agree that it is not only inhumane and cruel to cause pain to animals, but also misleading, since animals and people's response to a drug can be different
+T12	Claim 1480 1596	I personally believe that human beings have no moral right to use animals in ways that do not benefit the individual
+T13	MajorClaim 1651 1733	testing on animals has no clear result and consequently, it should be made illegal
+A1	Stance T2 For
+A2	Stance T6 For
+A3	Stance T9 For
+A4	Stance T10 For
+A5	Stance T12 For
+R1	supports Arg1:T3 Arg2:T2
+R2	supports Arg1:T4 Arg2:T3
+R3	supports Arg1:T5 Arg2:T3
+R4	supports Arg1:T7 Arg2:T6
+R5	supports Arg1:T8 Arg2:T6
+R6	supports Arg1:T6 Arg2:T9
+R7	supports Arg1:T2 Arg2:T1
+R8	supports Arg1:T11 Arg2:T10
+R9	supports Arg1:T10 Arg2:T12
+R10	supports Arg1:T12 Arg2:T1
+R11	supports Arg1:T9 Arg2:T1

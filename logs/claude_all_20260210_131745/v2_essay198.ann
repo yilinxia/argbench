@@ -1,0 +1,27 @@
+T1	MajorClaim 223 386	governments should certainly spend money on the public transportation system because it would deal with problems that the rising number of private cars is creating
+T2	Claim 395 485	the using of public transportation reduces the amount of resources using on transportation
+A1	Stance T2 For
+T3	Premise 487 545	Cars depend on gasoline, which is a non-renewable resource
+T4	Premise 547 634	Therefore, the more cars we use means that the faster gasoline in this world is used up
+T5	Premise 636 765	In the contrary, if the public transportation is efficiently used, the amount of gasoline consuming per person will be much lower
+T6	Premise 771 845	this definitely helps to reserve our invaluable natural resource, gasoline
+T7	Claim 855 918	public transportation helps to solve the air pollution problems
+A2	Stance T7 For
+T8	Premise 920 1005	Averagely, public transports use much less gasoline to carry people than private cars
+T9	Premise 1007 1194	It means that by using public transports, the less gas exhaust is pumped to the air and people will no longer have to bear the stuffy situation on the roads, which is always full of fumes
+T10	Claim 1216 1285	using public transportation is much safer than private transportation
+A3	Stance T10 For
+T11	Premise 1287 1381	According to National Safety Council, riding the bus is over 170 times safer than private care
+T12	Premise 1383 1526	Thus there is no reason that governments should hesitate to invest in public transportation, a healthy, safe and economical way of transporting
+T13	MajorClaim 1565 1733	spending money on improving public transportation is necessary because it is the key to protect our world, creating a healthy and safe environment for people to live in
+R1	supports Arg1:T3 Arg2:T2
+R2	supports Arg1:T4 Arg2:T2
+R3	supports Arg1:T5 Arg2:T2
+R4	supports Arg1:T6 Arg2:T2
+R5	supports Arg1:T2 Arg2:T1
+R6	supports Arg1:T8 Arg2:T7
+R7	supports Arg1:T9 Arg2:T7
+R8	supports Arg1:T7 Arg2:T1
+R9	supports Arg1:T11 Arg2:T10
+R10	supports Arg1:T12 Arg2:T10
+R11	supports Arg1:T10 Arg2:T1

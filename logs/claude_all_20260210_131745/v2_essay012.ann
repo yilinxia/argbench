@@ -1,0 +1,23 @@
+T1	MajorClaim 1845 1899	technology has helped us to have more comfortable life
+T2	Claim 390 467	email can be count as one of the most beneficial results of modern technology
+A1	Stance T2 For
+T3	Premise 469 696	Many years ago, peoples had to pay a great deal of money to post their letters, and their payements were related to the weight of their letters or boxes, and many accidents may cause problem that the post could not be delivered
+T4	Premise 702 897	nowadays, all people can take advantage of internet to have their own email free, and send their emails to everyone in no time, besides they can be sure if their emails have been delivered or not
+T5	Claim 941 959	transferring money
+T6	Claim 961 1035	Today, students can apply for foreign universities much easier than before
+A2	Stance T6 For
+T7	Premise 1037 1138	Not only with the help of sending email, but also using credit cards to pay all necessary fees online
+T8	Premise 1151 1247	with the advent of internet and online paying systems, you can do many thing at your home easily
+T9	Claim 1249 1350	Another technological innovations which help people around the world is related to medical equipments
+A3	Stance T9 For
+T10	Premise 1352 1444	Biomedical engineers could make a significant effect on increasing life expectancy the world
+T11	Premise 1446 1578	For example, one of their inventions was related to artificial heart valves which can be count as a turning point in heart surgeries
+R1	supports Arg1:T3 Arg2:T2
+R2	supports Arg1:T4 Arg2:T2
+R3	supports Arg1:T2 Arg2:T1
+R4	supports Arg1:T7 Arg2:T6
+R5	supports Arg1:T8 Arg2:T6
+R6	supports Arg1:T6 Arg2:T1
+R7	supports Arg1:T10 Arg2:T9
+R8	supports Arg1:T11 Arg2:T9
+R9	supports Arg1:T9 Arg2:T1

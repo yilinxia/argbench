@@ -1,0 +1,28 @@
+T1	MajorClaim 378 487	I agree only to certain degree that in today's world, image serves as a more effective means of communication
+T2	Claim 498 541	pictures can influence the way people think
+A1	Stance T2 For
+T3	Premise 556 661	nowadays horrendous images are displayed on the cigarette boxes to illustrate the consequences of smoking
+T4	Premise 676 799	statistics show a slight reduction in the number of smokers, indicating that they realize the effects of the negative habit
+T5	Premise 816 1007	the magnificent photograph captured by Kevin Carter, which portrayed a starving Sudanese child struck by extreme poverty has successfully highlighted the plight faced by the citizens in Sudan
+T6	Premise 1026 1097	images are also widely used in newspapers, magazines and advertisements
+T7	Claim 1105 1200	it is undeniable that images in the absence of words can obviously claim the attraction of many
+A2	Stance T7 For
+T8	Claim 1236 1307	written words are also vital in order to spread across certain messages
+A3	Stance T8 Against
+T9	Premise 1309 1405	With only pictures, everyone is left to their own interpretation on how they perceive the images
+T10	Premise 1407 1499	Nonetheless, this is different when words are used to explain what the illustration is about
+T11	Premise 1514 1571	the primary way of educating students is also by this way
+T12	Premise 1573 1682	Academic textbooks these days are laden with words besides pictures to guide the readers to comprehend better
+T13	MajorClaim 1697 1809	both images and words go hand in hand and one cannot wholly emphasise on only one aspect, either images or words
+T14	MajorClaim 1818 1972	for a more meaningful communication, these two elements have their respective roles to play: image to exemplify and words to describe a particular subject
+R1	supports Arg1:T3 Arg2:T2
+R2	supports Arg1:T4 Arg2:T2
+R3	supports Arg1:T5 Arg2:T2
+R4	supports Arg1:T6 Arg2:T7
+R5	supports Arg1:T2 Arg2:T1
+R6	supports Arg1:T7 Arg2:T1
+R7	supports Arg1:T9 Arg2:T8
+R8	supports Arg1:T10 Arg2:T8
+R9	supports Arg1:T11 Arg2:T8
+R10	supports Arg1:T12 Arg2:T8
+R11	supports Arg1:T8 Arg2:T13

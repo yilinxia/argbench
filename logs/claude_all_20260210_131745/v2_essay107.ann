@@ -1,0 +1,30 @@
+T1	MajorClaim 311 366	concerns to save Earth are vital due to various reasons
+T2	Premise 377 458	rapid development of infrastructure is eating most of the forest throughout world
+T3	Premise 460 537	The so-called Concrete jungles have evolved endangering forests and wild life
+T4	Premise 539 637	As we all know life saving oxygen is produced by trees after converting harmful carbon dioxide gas
+T5	Premise 649 723	wild life is very essential to maintain ecological balance on planet Earth
+T6	Claim 735 839	large emissions of carbon monoxide gas from refrigerants like air conditioners have depleted ozone layer
+A1	Stance T6 For
+T7	Premise 841 938	Importance of ozone layer is evident by the fact as it protects us from harmful ultra violet rays
+T8	Premise 954 1154	excess emission of carbon dioxide gas mainly by vehicles around the world has increased the average temperature at north pole which in turn has increased water level due to gradual melting of glaciers
+T9	Claim 1164 1259	either industrial waste or domestic waste produced everyday is badly polluting the planet Earth
+A2	Stance T9 For
+T10	Premise 1274 1376	a large amount of unnoticed industrial waste released in oceans effects aquatic life to a large extent
+T11	Premise 1378 1470	Harmful chemicals present in industrial waste kills lot of sea creatures in oceans or rivers
+T12	MajorClaim 1485 1529	Earth is our home and it should be protected
+T13	Claim 1531 1647	Any human activity causing harm to Earth should be controlled and alternate ways should be devised to control damage
+A3	Stance T13 For
+T14	Claim 1649 1763	Creative ideas should be encouraged to leave minimum environmental footprints without compromising quality of life
+A4	Stance T14 For
+R1	supports Arg1:T2 Arg2:T1
+R2	supports Arg1:T3 Arg2:T1
+R3	supports Arg1:T4 Arg2:T1
+R4	supports Arg1:T5 Arg2:T1
+R5	supports Arg1:T7 Arg2:T6
+R6	supports Arg1:T8 Arg2:T6
+R7	supports Arg1:T6 Arg2:T12
+R8	supports Arg1:T10 Arg2:T9
+R9	supports Arg1:T11 Arg2:T9
+R10	supports Arg1:T9 Arg2:T12
+R11	supports Arg1:T13 Arg2:T12
+R12	supports Arg1:T14 Arg2:T12

@@ -1,0 +1,35 @@
+T1	MajorClaim 355 416	From my perspective, I think their view is overly simplistic.
+T2	Claim 429 510	making the fuel cost more money could limit the number of vehicles to some extent
+A1	Stance T2 For
+T3	Premise 512 669	Due to the increasing number of petrol stations, the competition in this field is more and more fierce, thus the price of petrol could be lower in the future
+T4	Premise 682 777	those who are suffering from the inefficiency of public transport tend to own a car immediately
+T5	Premise 807 867	some families purchase even more than three cars for their own sake
+T6	Premise 863 988	In such case if they must pay more money on fuel, they may consider about that price of purchasing additionally for more time
+T7	Claim 1004 1067	such an argument may restrict the real necessity of automobiles
+A2	Stance T7 Against
+T8	Premise 1078 1119	some families really need one or two cars
+T9	Premise 1134 1294	three family members have to work or study in three place separated so far with each other, then they need to acquire at least two cars or they may both be late
+T10	Premise 1315 1460	the development of automobile industry could be restrained as well as the employments offered by it, which could have negative effects on economy
+T11	Claim 1473 1521	I can hardly agree that the solution is the best
+A3	Stance T11 Against
+T12	Claim 1545 1588	there are three ways tosolve these problems
+A4	Stance T12 Against
+T13	Premise 1599 1658	a new method of expenditure classification could be adopted
+T14	Premise 1674 1756	individuals had to pay much more for fuel if they possess more than three vehicles
+T15	Premise 1768 1848	the government should develop the public transport to meet the residents' demand
+T16	Premise 1870 1949	the people should be encouraged to use electric car to reduce the car emissions
+T17	MajorClaim 1964 2238	I personally believe the government should take some actions such as classifying the payment, boosting the public transport and encouraging individuals to adopt the zero-emission cars, rather than raising the price of petrol, to get rid of the traffic and pollution problems
+R1	supports Arg1:T3 Arg2:T2
+R2	supports Arg1:T4 Arg2:T2
+R3	supports Arg1:T5 Arg2:T2
+R4	supports Arg1:T6 Arg2:T2
+R5	supports Arg1:T8 Arg2:T7
+R6	supports Arg1:T9 Arg2:T8
+R7	supports Arg1:T10 Arg2:T7
+R8	supports Arg1:T7 Arg2:T11
+R9	supports Arg1:T13 Arg2:T12
+R10	supports Arg1:T14 Arg2:T13
+R11	supports Arg1:T15 Arg2:T12
+R12	supports Arg1:T16 Arg2:T12
+R13	supports Arg1:T12 Arg2:T17
+R14	supports Arg1:T11 Arg2:T1

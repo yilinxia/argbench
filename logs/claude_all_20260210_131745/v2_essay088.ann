@@ -1,0 +1,18 @@
+T1	MajorClaim 0 78	The expression "Never, never give up" means keep trying and never stop working
+T2	Claim 351 442	I always believe that a defeated person has to try and try until to achieve her or his goal
+A1	Stance T2 For
+T3	Claim 459 630	when people face with a failure they can learn a large number of things from that failure, therefore in the next effort they try to avoid doing and repeating that mistakes
+A2	Stance T3 For
+T4	Premise 632 793	For instance, most of inventors in the first phases of their job face with some problems and defeats, but in the next stages they learn how to deal with problems
+T5	Claim 810 980	experience shows while people doing a job constantly, they become more experienced in that subject, so in the final effort they become successful with the high percentile
+A3	Stance T5 For
+T6	Premise 982 1142	For example, scientists experiment a substance for a long time, after they gain lots of experience and knowledge about that subject they decide to make it final
+T7	MajorClaim 1155 1232	I would maintain that people should not give up when they face with a failure
+T8	Claim 1247 1328	they have to learn new points from that failure, and they become more experienced
+A4	Stance T8 For
+R1	supports Arg1:T2 Arg2:T1
+R2	supports Arg1:T3 Arg2:T2
+R3	supports Arg1:T4 Arg2:T3
+R4	supports Arg1:T5 Arg2:T2
+R5	supports Arg1:T6 Arg2:T5
+R6	supports Arg1:T8 Arg2:T7

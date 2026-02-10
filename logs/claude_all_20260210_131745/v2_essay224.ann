@@ -1,0 +1,36 @@
+T1	MajorClaim 313 470	I am biased towards the opposite side that businesses had better not employ the workers for the whole of their life because of the three main crucial reasons
+T2	Claim 493 587	various ideas and creativity from different people are indispensable for a company to flourish
+A1	Stance T2 For
+T3	Premise 589 746	The invaluable experience of senior employees can pass down to the young apprentices who get used to new job, but regularly give out creative and novel ideas
+T4	Premise 761 859	the rapid development in every field nowadays requires precise updates and access to new knowledge
+T5	Premise 872 925	the youngsters are capable of meeting those standards
+T6	Premise 945 1045	they have activeness, inventiveness and enterprise which allow them to complete their jobs perfectly
+T7	Premise 1047 1115	These vital factors can decide whether the company can thrive or not
+T8	Claim 1127 1195	the staff soon gets boring with their stable job in such a long time
+A2	Stance T8 For
+T9	Premise 1197 1341	At a certain time, they may presume that a securing job is the most important and necessary because they need to earn money to manage their life
+T10	Premise 1343 1473	Thereafter, the bulk of them realize that high promotion and competition can assist them to improve their skills and horizons also
+T11	Premise 1475 1569	Many people enjoy challenging them because they don not want to be monotonous and passive ones
+T12	Premise 1571 1695	The same-old-same-old environment soon makes them depressed, so this situation will have an adverse impact on the enterprise
+T13	Claim 1718 1809	the economic crisis and financial recession result in a tremendous increase in unemployment
+A3	Stance T13 For
+T14	Claim 1826 1904	the businesses ought to recruit many workers so as to tackle this aching issue
+A4	Stance T14 For
+T15	Premise 1906 1967	It enables the jobless to better their life and earn a living
+T16	Premise 1969 2115	Furthermore, the factories and companies will have abundant human sources to ensure the pace of manufacture and also devising lots of unique ideas
+T17	MajorClaim 2296 2351	the employer should not hire the staff for a whole life
+R1	supports Arg1:T3 Arg2:T2
+R2	supports Arg1:T4 Arg2:T2
+R3	supports Arg1:T5 Arg2:T2
+R4	supports Arg1:T6 Arg2:T2
+R5	supports Arg1:T7 Arg2:T2
+R6	supports Arg1:T9 Arg2:T8
+R7	supports Arg1:T10 Arg2:T8
+R8	supports Arg1:T11 Arg2:T8
+R9	supports Arg1:T12 Arg2:T8
+R10	supports Arg1:T13 Arg2:T14
+R11	supports Arg1:T15 Arg2:T14
+R12	supports Arg1:T16 Arg2:T14
+R13	supports Arg1:T2 Arg2:T1
+R14	supports Arg1:T8 Arg2:T1
+R15	supports Arg1:T14 Arg2:T1

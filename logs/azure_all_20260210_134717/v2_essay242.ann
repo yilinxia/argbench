@@ -1,0 +1,38 @@
+T1	MajorClaim 275 351	I believe that living environment is more important than job for most of us.
+T2	Claim 364 391	job can bring us happiness.
+A1	Stance T2	Against
+T3	Premise 392 452	People can receive a sense of values and respected from job.
+T4	Premise 453 539	If people receive respect from others, they will feel achievement and self-confidence.
+T5	Premise 553 581	job can provide money to us.
+T6	Claim 592 659	people should concern more about their living environment than job.
+A2	Stance T6	For
+T7	Premise 667 724	for most of us, job is only a tool to maintain our lives.
+T8	Premise 725 827	Few people can feel happiness from their job because they have to continue to work more than 30 years.
+T9	Premise 841 972	Workers in the FOXCONN factory, which is the main manufacture of APPLE Company, just repeat one action more than 8 hours every day.
+T10	Premise 973 1098	These labor works cannot provide workers with a lot of happiness because they feel tired and frustrated after long hour work.
+T11	Claim 1108 1222	beautiful environment is one of basic physiological needs, which are the most fundamental requirements for people.
+A3	Stance T11	For
+T12	Premise 1223 1314	Without beautiful environment, people are not able to feel happiness and will fell anxiety.
+T13	Premise 1325 1410	the fast development of economy is gradually destroying our environment very quickly.
+T14	Premise 1411 1475	Factories released a huge amount of wasters into river and soil.
+T15	Premise 1476 1540	In order to build city and factory, people destroy huge forests.
+T16	Premise 1541 1714	In China, some residents who live in nearby some toxic factories became sick because these factories release a lot of toxic water and wasters into environment around people.
+T17	Premise 1715 1935	Even though local residents benefits from an increasing number of jobs which are provided by those factories, they cannot feel happiness from high-paying job yet because most of them suffer from cancer or other diseases.
+T18	MajorClaim 1936 2076	In conclusion, it is far better to protect our living environment rather than focus on job or work since the goal people is for good livers.
+R1	supports Arg1:T3 Arg2:T2
+R2	supports Arg1:T4 Arg2:T2
+R3	supports Arg1:T5 Arg2:T2
+R4	supports Arg1:T7 Arg2:T6
+R5	supports Arg1:T8 Arg2:T6
+R6	supports Arg1:T9 Arg2:T10
+R7	supports Arg1:T10 Arg2:T6
+R8	supports Arg1:T12 Arg2:T11
+R9	supports Arg1:T13 Arg2:T11
+R10	supports Arg1:T14 Arg2:T13
+R11	supports Arg1:T15 Arg2:T13
+R12	supports Arg1:T16 Arg2:T13
+R13	supports Arg1:T17 Arg2:T11
+R14	attacks Arg1:T2 Arg2:T1
+R15	supports Arg1:T6 Arg2:T1
+R16	supports Arg1:T11 Arg2:T1
+R17	supports Arg1:T18 Arg2:T1

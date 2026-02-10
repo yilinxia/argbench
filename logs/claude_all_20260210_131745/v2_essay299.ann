@@ -1,0 +1,32 @@
+T1	MajorClaim 346 420	I think its better that people learn foreign language in their own country
+T2	Claim 519 664	it is not possible for everyone to visit a foreign country to learn a foreign language as it requires large amount of money and legal formalities
+A1	Stance T2 For
+T3	Premise 666 750	In the earlier periods, it was not easy to find a teacher to learn a foreign languge
+T4	Premise 752 840	But with the advent of globalization, one can easily find a teacher in their own country
+T5	Premise 842 987	For example, in Indian sub-continent there are large number of centers opened for getting trained in variety of languages like french, german etc
+T6	Claim 997 1092	colleges and universities have introduced foreign language course as a part of their curriculum
+A2	Stance T6 For
+T7	Premise 1094 1178	Students can choose any language from the set of languages available at a university
+T8	Claim 1184 1237	it is very easy to learn a foreign in our own country
+A3	Stance T8 For
+T9	Premise 1245 1341	highly qualified foreign language teachers are easily accessible in various schools and colleges
+T10	Claim 1350 1470	technology has also played a great role in reducing the separation between learning a foreign languge in our own country
+A4	Stance T10 For
+T11	Premise 1472 1535	A large number of foreign language courses are available online
+T12	Premise 1540 1635	there are various forums where people can discuss their problems on different foreign languages
+T13	MajorClaim 1648 1720	it is better for people to learn a foreign language in their own country
+T14	Premise 1722 1742	It is cost effective
+T15	Premise 1747 1816	there is a pool of opportunities available now to accomplish the same
+R1	supports Arg1:T2 Arg2:T1
+R2	supports Arg1:T3 Arg2:T2
+R3	supports Arg1:T4 Arg2:T2
+R4	supports Arg1:T5 Arg2:T4
+R5	supports Arg1:T6 Arg2:T1
+R6	supports Arg1:T7 Arg2:T6
+R7	supports Arg1:T8 Arg2:T1
+R8	supports Arg1:T9 Arg2:T8
+R9	supports Arg1:T10 Arg2:T1
+R10	supports Arg1:T11 Arg2:T10
+R11	supports Arg1:T12 Arg2:T10
+R12	supports Arg1:T14 Arg2:T13
+R13	supports Arg1:T15 Arg2:T13

@@ -1,0 +1,44 @@
+T1	MajorClaim 0 46	Smoking should not be permitted in restaurants
+T2	Claim 406 558	In my opinion, smoking should not be permitted, especially in public places like restaurants because it will make the non-smokers breathe uncomfortably.
+T3	Premise 48 112	Generally speaking, smoking is never been good for human's body.
+T4	Premise 113 215	There are so many researches done to prove that a cigar contains harmful ingredients for human's body.
+T5	Premise 216 405	Although many smokers claim that they need to smoke in order to work more effectively or to think more creatively, those reasons never proves that smoking has any benefits for human's body.
+T6	Claim 559 654	First of all, restaurants are places where people come and pay some money to enjoy their meals.
+T7	Premise 655 739	Smoking in restaurants will absolutely disturb other people in enjoying their meals.
+T8	Premise 740 820	They will not be able to enjoy their meals while breathing in smoke around them.
+T9	Claim 822 900	Secondly, restaurants are places that people usually come with their families.
+T10	Premise 901 1000	This means, there will be children, grandparents, as well as pregnant women inside the restaurants.
+T11	Premise 1001 1063	Smoking in restaurants can give a bad example to the children.
+T12	Premise 1064 1179	Children have a high potential to imitate what adults do because they have really high curiosity towards something.
+T13	Premise 1180 1300	Smoking in restaurants also can affect the elders' health, especially if they have problems with their hearts and lungs.
+T14	Premise 1301 1477	The most dangerous people that would be affected by smoke are the pregnant women because they will breathe in the contaminated air and it will disrupt the growth of the babies.
+T15	Claim 1478 1546	Last but not least, passive smokers will have a lot of health risks.
+T16	Premise 1547 1621	When they are around the active smokers, they will inhale hazardous smoke.
+T17	Premise 1622 1723	Stroke, heart disorders, hearing loss, and cancers are some diseases that can attack passive smokers.
+T18	Premise 1724 1854	Personally speaking, it is unfair for passive smokers because they do not smoke but they have same health risks as the active one.
+T19	Claim 1855 1973	In conclusion, smoking should not be permitted in restaurants because there will be a lot of people get disadvantaged.
+T20	Premise 1974 2142	State laws that prohibit it should be upheld so the restaurant' management can make a clear rule in their restaurants because everyone has a right to enjoy their meals.
+A1	Stance T2 For
+A2	Stance T6 For
+A3	Stance T9 For
+A4	Stance T15 For
+A5	Stance T19 For
+R1	supports Arg1:T2 Arg2:T1
+R2	supports Arg1:T3 Arg2:T2
+R3	supports Arg1:T4 Arg2:T2
+R4	supports Arg1:T5 Arg2:T2
+R5	supports Arg1:T6 Arg2:T2
+R6	supports Arg1:T7 Arg2:T6
+R7	supports Arg1:T8 Arg2:T6
+R8	supports Arg1:T9 Arg2:T2
+R9	supports Arg1:T10 Arg2:T9
+R10	supports Arg1:T11 Arg2:T9
+R11	supports Arg1:T12 Arg2:T11
+R12	supports Arg1:T13 Arg2:T9
+R13	supports Arg1:T14 Arg2:T9
+R14	supports Arg1:T15 Arg2:T2
+R15	supports Arg1:T16 Arg2:T15
+R16	supports Arg1:T17 Arg2:T15
+R17	supports Arg1:T18 Arg2:T15
+R18	supports Arg1:T19 Arg2:T1
+R19	supports Arg1:T20 Arg2:T19

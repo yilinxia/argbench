@@ -1,0 +1,53 @@
+T1	MajorClaim 488 596	In my opinion, I believe that students should always attend class no matter what the outcome of the exam is.
+T2	Claim 598 706	First, in terms of learning, attending class is more effective than simply studying alone to pass the exams.
+T3	Premise 707 820	Classes are designed diligently for the students and professors absolutely bear more knowledge than the students.
+T4	Premise 821 965	Professors not only have the knowledge, but also equip with experiences, knowing how to guide their students toward their academic achievements.
+T5	Claim 967 1027	Second, it's students' basic responsibility to attend class.
+T6	Premise 1028 1143	Attending class is the most persuasive way for the students to show respect to the professor as well as themselves.
+T7	Premise 1144 1204	Many professors grade their students with class attendances.
+T8	Premise 1205 1292	In other words, class attendances are regarded as critical as examination performances.
+T9	Premise 1293 1386	Those who even achieve high scores on exams could fail if they didn't show up in the classes.
+T10	Claim 1387 1540	Some people might argue that if students already understand the contents on the class enough to pass the exams or they can study the course on their own.
+T11	Claim 1541 1575	Why wasting time going to classes?
+T12	Claim 1576 1610	Doesn't self-study more efficient?
+T13	Claim 1611 1677	However, in my opinion, this is a rather immodest way of thinking.
+T14	Claim 1678 1831	I believe that professors can always give students more than students themselves could because of the experiences and their qualifications as professors.
+T15	Premise 1765 1831	because of the experiences and their qualifications as professors.
+T16	Claim 1832 1997	Besides, even if students believe that they are so brilliant to surpass their professors, they can still go to the classes to discuss with professors and classmates.
+T17	Claim 1999 2132	In conclusion, students can learn more thoroughly as well as showing respect for professors and themselves through attending classes.
+T18	Claim 2133 2168	It's an essential learning process.
+T19	Claim 2169 2227	Passing the exams is not the terminal purpose of learning.
+T20	Claim 2228 2329	The learning process itself, however, is the most important and powerful way of evaluating a student.
+A1	Stance T2 For
+A2	Stance T5 For
+A3	Stance T10 Against
+A4	Stance T11 Against
+A5	Stance T12 Against
+A6	Stance T13 For
+A7	Stance T14 For
+A8	Stance T16 For
+A9	Stance T17 For
+A10	Stance T18 For
+A11	Stance T19 For
+A12	Stance T20 For
+R1	supports Arg1:T2 Arg2:T1
+R2	supports Arg1:T3 Arg2:T2
+R3	supports Arg1:T4 Arg2:T2
+R4	supports Arg1:T5 Arg2:T1
+R5	supports Arg1:T6 Arg2:T5
+R6	supports Arg1:T7 Arg2:T5
+R7	supports Arg1:T8 Arg2:T7
+R8	supports Arg1:T9 Arg2:T5
+R9	attacks Arg1:T10 Arg2:T1
+R10	attacks Arg1:T11 Arg2:T1
+R11	attacks Arg1:T12 Arg2:T1
+R12	attacks Arg1:T13 Arg2:T10
+R13	attacks Arg1:T13 Arg2:T11
+R14	attacks Arg1:T13 Arg2:T12
+R15	supports Arg1:T14 Arg2:T1
+R16	supports Arg1:T15 Arg2:T14
+R17	supports Arg1:T16 Arg2:T1
+R18	supports Arg1:T17 Arg2:T1
+R19	supports Arg1:T18 Arg2:T1
+R20	supports Arg1:T19 Arg2:T1
+R21	supports Arg1:T20 Arg2:T1

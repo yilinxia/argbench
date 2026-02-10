@@ -1,0 +1,36 @@
+T1	MajorClaim 335 461	In my opinion, I believe that tackling down environmental problems is of the first priority rather than economic developments.
+T2	Claim 494 572	First, environmental protection is far more urgent than economic developments.
+T3	Premise 573 656	All the living creatures live together on our mother Earth and she is the only one.
+T4	Premise 657 794	Without Earth, whatever great civil constructions and economic achievements will end up in vain because we will all perish as she's gone.
+T5	Premise 795 904	Just like a man that needs a healthy body, all the living creatures as a whole needs a strong planet as well.
+T6	Claim 906 1005	Second, the influence on environmental problems are boarder and more profound than economic issues.
+T7	Premise 1006 1123	Environmental problems are global rather than local, which means that no countries can be spared from these problems.
+T8	Premise 1124 1256	Take global warming for example, when the temperature increases, the whole globe is affected, suffering the hotter weather together.
+T9	Premise 1257 1509	The melting ice mountain not only jeopardizes habitats of animals living in the polar region, but its effects of the rising sea level also endangers the residents living in the small island near the equator, since the rising sea water could drown them.
+T10	Premise 1510 1636	Environmental issues can not be divided by nationality because all humans are simply entwined together by our only home-Earth.
+T11	Claim 1741 1937	They may say that if the economic is in a very bad situation, people would revolt instantly, while environmental problems seem to be more like chronic diseases that would not burst out right away.
+T12	Claim 1938 2085	However, the truth is that we've been encountering so many sighs and warnings of global climate anomalies and other environmental crisis right now.
+T13	Claim 2086 2270	It would be unwise to still deny the truth and keep focusing on economic developments and unfortunately, usually the economic developments are even the causes of environmental damages.
+T14	MajorClaim 2271 2408	In conclusion, environmental conservation is more essential than economic developments in the aspects of urgency and ranges of influence.
+T15	Premise 2409 2493	As mentioned in the second paragraph, how can a man live happily if he is unhealthy?
+T16	Premise 2494 2598	Similarly, how can we live safely and joyfully when our home is devastated by, ironically, by ourselves?
+A1	Stance T2 For
+A2	Stance T6 For
+A3	Stance T11 Against
+A4	Stance T12 For
+A5	Stance T13 For
+R1	supports Arg1:T2 Arg2:T1
+R2	supports Arg1:T3 Arg2:T2
+R3	supports Arg1:T4 Arg2:T2
+R4	supports Arg1:T5 Arg2:T2
+R5	supports Arg1:T6 Arg2:T1
+R6	supports Arg1:T7 Arg2:T6
+R7	supports Arg1:T8 Arg2:T6
+R8	supports Arg1:T9 Arg2:T6
+R9	supports Arg1:T10 Arg2:T6
+R10	attacks Arg1:T11 Arg2:T1
+R11	attacks Arg1:T12 Arg2:T11
+R12	attacks Arg1:T13 Arg2:T11
+R13	supports Arg1:T13 Arg2:T1
+R14	supports Arg1:T15 Arg2:T14
+R15	supports Arg1:T16 Arg2:T14

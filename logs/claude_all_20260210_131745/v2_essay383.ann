@@ -1,0 +1,22 @@
+T1	MajorClaim 299 335	I personally disagree with this view
+T2	Claim 510 598	thanks to modern technology invented recently, human life has been improved dramatically
+A1	Stance T2 For
+T3	Premise 600 777	Air-conditioners, computers, cellphones, washing machines, for example, is likely to be seen as greatest inventions helping people to reduce stress and time for other activities
+T4	Premise 789 925	applying technological science into the preparation of medications also plays a significant role in saving the number of patients' lives
+T5	Claim 927 1011	However, some negative aspects of technological process need to be mentioned clearly
+A2	Stance T5 Against
+T6	Premise 1013 1157	In spite of bring fantastic advantages, technological products have devastated the natural environment indirectly through its production process
+T7	Premise 1175 1323	exploiting and collecting raw materials as well as essential fuels to serve the production of technological products have destroyed nature seriously
+T8	Premise 1345 1507	technology may decrease a great deal of creativity in certain groups of people especially children and the youth due to the dependence upon available achievements
+T9	MajorClaim 1524 1612	I totally believe that technology has a great contribution to our lives and civilization
+T10	Claim 1614 1693	We can not neglect profound impact of great technological process on human life
+A3	Stance T10 For
+T11	Claim 1708 1760	its adverse effects need controlling more reasonably
+A4	Stance T11 For
+R1	supports Arg1:T3 Arg2:T2
+R2	supports Arg1:T4 Arg2:T2
+R3	supports Arg1:T2 Arg2:T1
+R4	supports Arg1:T6 Arg2:T5
+R5	supports Arg1:T7 Arg2:T6
+R6	supports Arg1:T8 Arg2:T5
+R7	supports Arg1:T10 Arg2:T9

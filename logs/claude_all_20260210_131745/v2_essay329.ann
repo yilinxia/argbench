@@ -1,0 +1,30 @@
+T1	MajorClaim 0 39	The biggest risk is not taking any risk
+T2	Claim 170 369	It is not guaranteed that you are going to achieve your dream if you had planned carefully as the same way when you take risks, but it is more frustrating if you had made plans and then it went wrong
+T3	MajorClaim 371 451	Therefore, it is essential to take chances and believe this is going to work out
+T4	Claim 454 525	Assuming new opportunities is indispensable to have diverse experiences
+T5	Premise 527 670	In fact, life may not be easy; it will have various challenges especially when you take risks, but in the end, it can be surprisingly wonderful
+T6	Premise 672 806	For instance, some people abandon their job, family and friends and go to other country without knowing what the future holds for them
+T7	Premise 808 1081	In the beginning, it can be tough to fit in this new place and find any opportunity, but after fighting against the obstacles blocking the way to get what is desired; it is possible to conquer what they are craving as well as start to build a new life in this other country
+T8	Claim 1084 1138	In fact, many people are afraid to take risks and fail
+T9	Claim 1140 1233	It is possible to get frustrate along the way, but it is vital to never give up on your dream
+T10	Premise 1235 1309	To illustrate, Walt Disney, whose career is famous, had a challenging life
+T11	Premise 1311 1422	One of the difficulties was some of his histories, such as Mickey Mouse and Three Little Pigs, were turned down
+T12	Premise 1424 1585	He heard lots of "no", furthermore one editor fired him alleging that he had no imagination, after all what he had gone through, he never stop chasing his dreams
+T13	MajorClaim 1588 1678	To conclude, in this competitive world you have to be fearless and face all new situations
+T14	Claim 1680 1886	Even though sometimes you consider backing down and stay in the same routine that you are used to, it is necessary to have courage to take risks, be different and pursue your dream to have a successful life
+A1	Stance T2 For
+A2	Stance T4 For
+A3	Stance T8 Against
+A4	Stance T9 For
+A5	Stance T14 For
+R1	supports Arg1:T2 Arg2:T1
+R2	supports Arg1:T5 Arg2:T4
+R3	supports Arg1:T6 Arg2:T4
+R4	supports Arg1:T7 Arg2:T4
+R5	supports Arg1:T4 Arg2:T1
+R6	attacks Arg1:T8 Arg2:T1
+R7	supports Arg1:T9 Arg2:T1
+R8	supports Arg1:T10 Arg2:T9
+R9	supports Arg1:T11 Arg2:T10
+R10	supports Arg1:T12 Arg2:T9
+R11	supports Arg1:T14 Arg2:T13

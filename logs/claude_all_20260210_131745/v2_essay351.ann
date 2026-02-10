@@ -1,0 +1,14 @@
+T1	MajorClaim 176 269	I claim that there are other equally vital aspects that need to be considered in this regard.
+T2	Claim 298 380	in order for people to cover their daily and general needs they need money as well
+A1	Stance T2 Against
+T3	Claim 391 541	aspects such as: friendly colleagues, environment and work-place condition, sometimes, have even more impact on person's happiness and quality of life
+A2	Stance T3 For
+T4	Premise 543 690	People, for instance, who don't like their co-workers and working condition are considered less satisfied with their jobs, despite of a high salary
+R1	supports Arg1:T4 Arg2:T3
+T5	Claim 808 930	most of the satisfaction of a job comes to people from their professional achievements, skills and the position they reach
+A3	Stance T5 For
+T6	Premise 948 1116	career promotion or getting some kind of credit from the administration of a company or organization are, likely, more enjoyable achievements than getting a high salary
+R2	supports Arg1:T6 Arg2:T5
+T7	Premise 1118 1301	For example, people, who work in monotonous jobs, where no achievements or a new positions can be reached feel themselves more dissatisfied, even though they have a very good salaries
+R3	supports Arg1:T7 Arg2:T5
+T8	MajorClaim 1318 1512	I disagree with the idea that salary outweighs any other motivators, as there are other even more important aspects such as: friendly co-workers, working conditions and professional achievements

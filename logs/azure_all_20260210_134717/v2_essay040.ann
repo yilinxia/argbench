@@ -1,0 +1,32 @@
+T1	MajorClaim 228 304	I feel strongly that the disadvantages are far outweighed by the advantages.
+T2	Claim 425 500	students can gain their practical experience by getting involved extra jobs
+T3	Premise 502 608	Part-time jobs furnish them with precious chance to practice what they are learning at their universities.
+T4	Premise 609 737	In addition, that seems to be more essential the present shortage of sufficiently practical conditions supplied in universities.
+T5	Premise 738 845	As a result, students who get part time jobs have not only academic knowledge but also hands-on experience.
+T6	Premise 846 994	Moreover, having experienced in working environment during student time offers a distinct advantage when they apply for jobs after their graduation.
+T7	Claim 1005 1099	students who take on a part time job are often more confident and independent than other ones.
+T8	Premise 1100 1291	By constant communicating with other colleagues daily in a company environment where their new ideas can be raised without hesitation, then students' confidence could be significantly gained.
+T9	Premise 1292 1496	Also, working conditions require students the independency in thinking, working, and solving problems, which is greatly helpful when the characteristic is applied to tackle subjects in their universities.
+T10	Claim 1505 1571	doing extra jobs helps student with money for their accommodation.
+T11	Premise 1572 1684	Indeed, high studying tuition, added with raising accommodation expenses are becoming a huge burden to students.
+T12	Premise 1685 1800	With the money they earn from extra jobs, which normally is not much, those difficulties could be partially solved.
+T13	Premise 1801 1941	Moreover, that helps students from being reliant on their families as well as is a well-prepared condition for their independent later life.
+T14	MajorClaim 1942 2065	In conclusion, I feel certain that having a part time job during your student time will offer students many clear benefits.
+T15	Premise 2066 2211	By taking on an extra job, students can partly alleviate some their problematic matters such as working experience, confidence and accommodation.
+A1	Stance T2 For
+A2	Stance T7 For
+A3	Stance T10 For
+R1	supports Arg1:T2 Arg2:T1
+R2	supports Arg1:T3 Arg2:T2
+R3	supports Arg1:T4 Arg2:T2
+R4	supports Arg1:T5 Arg2:T2
+R5	supports Arg1:T6 Arg2:T2
+R6	supports Arg1:T7 Arg2:T1
+R7	supports Arg1:T8 Arg2:T7
+R8	supports Arg1:T9 Arg2:T7
+R9	supports Arg1:T10 Arg2:T1
+R10	supports Arg1:T11 Arg2:T10
+R11	supports Arg1:T12 Arg2:T10
+R12	supports Arg1:T13 Arg2:T10
+R13	supports Arg1:T14 Arg2:T1
+R14	supports Arg1:T15 Arg2:T14

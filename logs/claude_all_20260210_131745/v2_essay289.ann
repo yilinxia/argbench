@@ -1,0 +1,38 @@
+T1	MajorClaim 238 380	Not only teachers could amplify their performance but the whole education system are also improve performance from evaluation made by students
+T2	MajorClaim 393 474	I agree with this notion that students should be asked to evaluate their teachers
+T3	Claim 491 563	Evaluating teachers made by students could improve teachers' performance
+T4	Premise 578 710	evaluation made by students is similar to feedback from customer that business owners need to know in order to improve their product
+T5	Premise 712 819	Students might complain about their teachers spoke too fast that students could not catch up on information
+T6	Premise 835 963	teachers could improve themselves by speaking slower to make sure that students could get all information that they want to give
+T7	Claim 1052 1112	this evaluation from students could improve schools' quality
+T8	Premise 1114 1150	Teachers could augment their quality
+T9	Premise 1166 1256	When school gather teachers that have great performance, school are gaining higher quality
+T10	Premise 1272 1408	in many cooperation such as Microsoft that could produce many great products because they have employees whose performance are very high
+T11	Premise 1410 1552	Schools could produce intellectual students because school have teachers who are always improve their quality from evaluation made by students
+T12	Claim 1563 1624	people who get the most advantage from evaluation is students
+T13	Premise 1626 1719	Students could study in class that have teachers who have experienced and greater performance
+T14	Premise 1729 1881	teachers are always adapt the way they teach in order to make students easy to understand their subjects, students could comprehend their subject easily
+T15	Premise 1896 2035	students, who study from great schools which have great performance teacher, graduate with great knowledge to survive in next steps of life
+T16	MajorClaim 2052 2187	I agree with this statement that school should ask students to evaluate their teachers because teachers could improve their performance
+T17	Claim 2199 2281	schools are also improve their quality because they have high performance teachers
+T18	Claim 2296 2342	students are easy to understand their subjects
+A1	Stance T3 For
+A2	Stance T7 For
+A3	Stance T12 For
+A4	Stance T17 For
+A5	Stance T18 For
+R1	supports Arg1:T4 Arg2:T3
+R2	supports Arg1:T5 Arg2:T3
+R3	supports Arg1:T6 Arg2:T3
+R4	supports Arg1:T3 Arg2:T2
+R5	supports Arg1:T8 Arg2:T7
+R6	supports Arg1:T9 Arg2:T7
+R7	supports Arg1:T10 Arg2:T7
+R8	supports Arg1:T11 Arg2:T7
+R9	supports Arg1:T7 Arg2:T2
+R10	supports Arg1:T13 Arg2:T12
+R11	supports Arg1:T14 Arg2:T12
+R12	supports Arg1:T15 Arg2:T12
+R13	supports Arg1:T12 Arg2:T2
+R14	supports Arg1:T17 Arg2:T16
+R15	supports Arg1:T18 Arg2:T16

@@ -1,0 +1,41 @@
+T1	MajorClaim 0 77	Giving aid to poorer countries has more negative effects than positive effect
+T2	Claim 642 762	However, I agree that aiding poor countries has positive effects, overweighing its side-effects for the several reasons.
+T3	Claim 763 885	First of all, poor counties suffer from shortage of basic materials and facilities to start businesses and make it richer.
+T4	Premise 886 1070	To be out of poverty, it is fundamental to support basic industry related factors such as light, electricity, load, highways, natural resources, technology and buildings for companies.
+T5	Premise 1071 1175	Aiding help poor countries in this situation solve their economical problems and run their own business.
+T6	Premise 1176 1280	In actual, republic of Korea used to be the poorest country even compared to others in Africa in 1960's.
+T7	Premise 1281 1391	Now that it has became strong economy country aiding poor countries after 10 years of aid from other counties.
+T8	Claim 1392 1466	Secondly, aiding campaign gives a chance to considerate about poor people.
+T9	Premise 1467 1601	If people in rich countries ponder poor people suffering from poverty and diseases, they would never take their abundance for granted.
+T10	Premise 1602 1733	It not only raises the notice the meaning of harmony and love, but also be a good chance to learn humane doctrine of globalization.
+T11	Claim 1734 1788	Third, the campaigns might include practical benefits.
+T12	Premise 1789 1900	In globalized world, the economies of several countries are in a big network and must influence on each others.
+T13	Premise 1901 2088	When America mortgage loan system went bad, several economies of European and Asian countries fluctuated, even any countries had to be gotten international supports to block its bankrupt.
+T14	Claim 2089 2297	In conclusion, there are abovementioned three key points of positive effects of aid; supporting poor countries to make its economy strong and building humane concepts to people, keeping strong global economy.
+T15	Claim 2298 2478	I strongly believe that being a global neighbor by aiding poor countries would be continues by many organizations and volunteers, and it will make the earth a better place to live.
+T16	Claim 406 508	It is true that just giving aid to impoverished countries could be manipulated by big power countries.
+T17	Claim 509 641	In addition, a great amount of materials and money have poor countries being corrupted and politically dependent on other countries.
+A1	Stance T2 Against
+A2	Stance T3 Against
+A3	Stance T8 Against
+A4	Stance T11 Against
+A5	Stance T14 Against
+A6	Stance T15 Against
+A7	Stance T16 For
+A8	Stance T17 For
+R1	attacks Arg1:T2 Arg2:T1
+R2	supports Arg1:T3 Arg2:T2
+R3	supports Arg1:T4 Arg2:T3
+R4	supports Arg1:T5 Arg2:T3
+R5	supports Arg1:T6 Arg2:T3
+R6	supports Arg1:T7 Arg2:T3
+R7	supports Arg1:T8 Arg2:T2
+R8	supports Arg1:T9 Arg2:T8
+R9	supports Arg1:T10 Arg2:T8
+R10	supports Arg1:T11 Arg2:T2
+R11	supports Arg1:T12 Arg2:T11
+R12	supports Arg1:T13 Arg2:T11
+R13	supports Arg1:T14 Arg2:T2
+R14	supports Arg1:T15 Arg2:T2
+R15	supports Arg1:T16 Arg2:T1
+R16	supports Arg1:T17 Arg2:T1

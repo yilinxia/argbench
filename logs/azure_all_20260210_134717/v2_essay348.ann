@@ -1,0 +1,39 @@
+T1	MajorClaim 0 49	Paying taxes is enough contribution from citizens
+T2	Claim 209 255	Personally, I tend to disagree with this view.
+A1	Stance T2 Against
+T3	Claim 256 335	To start with, all people who are able to work should pay tax to the government
+A2	Stance T3 For
+T4	Premise 337 440	as it is the most important source of government's revenue, which is mainly used to serve all citizens.
+T5	Premise 441 612	For example, a large proportion of the tax is spent on national defence and in maintaining social stability, so that every one can work and live in a peaceful environment.
+T6	Premise 613 737	The tax is also used to pay the salaries of workers working in public service sectors, such as teachers and police officers.
+T7	Premise 738 849	Although these workers do not produce profit directly, what they do is for the well-being of the whole society.
+T8	Claim 850 957	However, I would argue that citizens have other important responsibilities to fulfil apart from paying tax.
+A3	Stance T8 Against
+T9	Premise 958 1067	As we know, there are impoverished or disabled people in every society, needing help and support from others.
+T10	Premise 1068 1200	It is true that the government can provide some fund to ease their difficulties, but such financial help is usually far from enough.
+T11	Premise 1201 1337	In such case, aids from more capable or wealthier citizens are particularly crucial, which are a great complement to government support.
+T12	Claim 1338 1449	Another responsibility all citizens should take is to maintain social stability together with the police force.
+A4	Stance T12 Against
+T13	Premise 1450 1551	There are criminals in every society, and the number of policemen the government can hire is limited.
+T14	Premise 1552 1737	So it is quite necessary for the local residents to take actions and ensure the safety of the communities, by doing things like reporting suspicious activities to the police department.
+T15	Claim 1738 1825	In conclusion, it is a significant obligation of citizens to pay tax to the government.
+A5	Stance T15 For
+T16	Claim 1826 1945	Other than that, they have other critical obligations to take, in order to make our society function in an ordered way.
+A6	Stance T16 Against
+R1	attacks Arg1:T2 Arg2:T1
+R2	supports Arg1:T3 Arg2:T1
+R3	supports Arg1:T4 Arg2:T3
+R4	supports Arg1:T5 Arg2:T3
+R5	supports Arg1:T6 Arg2:T3
+R6	supports Arg1:T7 Arg2:T6
+R7	attacks Arg1:T8 Arg2:T1
+R8	supports Arg1:T9 Arg2:T8
+R9	supports Arg1:T10 Arg2:T8
+R10	supports Arg1:T11 Arg2:T8
+R11	attacks Arg1:T12 Arg2:T1
+R12	supports Arg1:T13 Arg2:T12
+R13	supports Arg1:T14 Arg2:T12
+R14	supports Arg1:T15 Arg2:T3
+R15	supports Arg1:T15 Arg2:T1
+R16	attacks Arg1:T16 Arg2:T1
+R17	supports Arg1:T16 Arg2:T8

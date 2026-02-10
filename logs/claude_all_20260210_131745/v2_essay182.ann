@@ -1,0 +1,38 @@
+T1	MajorClaim 187 376	I believe that individuals should pay their college tuition because it would cost too much, the college education is a personal's choice, and there are many ways to fund a college education
+T2	Claim 386 436	making college education free would cost too much.
+A1	Stance T2 For
+T3	Premise 437 535	It would divert public funds from other needs such as law enforcement, infrastructure and so forth
+T4	Premise 537 663	There are many other needs which should come first, such as providing health care to all American, or improving public schools
+T5	Premise 665 753	In addition, it would cause to raise our taxes again and again to fund college education
+T6	Premise 755 852	Consequently, it would affect all taxpayers whether or not they benefit from the use of the funds
+T7	Claim 863 905	it is a personal choice to go to a college
+A2	Stance T7 For
+T8	Premise 907 944	Not everyone wants to go to a college
+T9	Premise 946 1057	People who want to make more money, and live a better life than other people decide to take a college education
+T10	Claim 1059 1139	Therefore, those people should make the financial investment in their own choice
+A3	Stance T10 For
+T11	Claim 329 376	there are many ways to fund a college education
+A4	Stance T11 For
+T12	Premise 1217 1324	People who cannot afford to pay their tuition benefit from the scholarship, financial aids, and other funds
+T13	Premise 1339 1410	the government already helps pay college expense through indirect means
+T14	Premise 1412 1542	They often provide services such as fire departments, medical assistance, and police protection for the schools and their students
+T15	Premise 1544 1589	They also provide funds for academic research
+T16	Premise 1591 1679	While the money is not given to individual students, these contributions are not trivial
+T17	MajorClaim 1692 1774	the individual should finance his or her education because it is a personal choice
+T18	Premise 1776 1849	Otherwise, it would cause too much cost from taxpayers and the government
+R1	supports Arg1:T3 Arg2:T2
+R2	supports Arg1:T4 Arg2:T2
+R3	supports Arg1:T5 Arg2:T2
+R4	supports Arg1:T6 Arg2:T2
+R5	supports Arg1:T2 Arg2:T1
+R6	supports Arg1:T8 Arg2:T7
+R7	supports Arg1:T9 Arg2:T7
+R8	supports Arg1:T7 Arg2:T10
+R9	supports Arg1:T10 Arg2:T1
+R10	supports Arg1:T12 Arg2:T11
+R11	supports Arg1:T13 Arg2:T11
+R12	supports Arg1:T14 Arg2:T13
+R13	supports Arg1:T15 Arg2:T13
+R14	supports Arg1:T16 Arg2:T11
+R15	supports Arg1:T11 Arg2:T1
+R16	supports Arg1:T18 Arg2:T17

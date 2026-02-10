@@ -1,0 +1,25 @@
+T1	MajorClaim 141 233	I believe that universities should provide free of cost education to the interested scholars
+T2	Premise 242 345	now-a-days universities with good name charge high fees and this leads one to think about affordability
+T3	Premise 347 566	I have observed that many of the interested scholars failed to get the admission in good universities because they have to think about work along with the studies, and this left them with only one choice, which is work.
+T4	Claim 567 690	University is more likely to become a money making business, the issue of affordability has become crucial to the students.
+T5	Premise 691 829	In today’s world education is getting expensive, and people are tending to apply for self-finance education in order to get the admission.
+T6	Premise 830 1078	Whereas, the scholars are facing a lot of difficulties apart from their high requirements of previous education, they has a lot to face the other difficulties and burden while getting admission such as accommodation, food, traveling, clothing, etc.
+T7	Claim 1079 1249	Moreover, it is hard to get manage two things at a time for instance, working and studying is not an easy job for the scholars, they need to concentrate on their studies.
+T8	Premise 1250 1366	MPhils and PhDs scholars are probably engage in the research work, which takes their full concentration and surveys.
+T9	Claim 1367 1505	The idea of free of charge education inspires those scholars who really want to put their efforts and get a degree from best universities.
+T10	Claim 1506 1703	Therefore, universities have to look over the issues face by most of the scholars; their message should be spread education, not making money, and motivate those scholars who want to get education.
+T11	Premise 1704 1820	Their notion should be inspirational in such a way which makes our society educative and increase our literacy rate.
+A1	Stance T4 For
+A2	Stance T7 For
+A3	Stance T9 For
+A4	Stance T10 For
+R1	supports Arg1:T2 Arg2:T1
+R2	supports Arg1:T3 Arg2:T1
+R3	supports Arg1:T5 Arg2:T4
+R4	supports Arg1:T4 Arg2:T1
+R5	supports Arg1:T6 Arg2:T4
+R6	supports Arg1:T7 Arg2:T1
+R7	supports Arg1:T8 Arg2:T7
+R8	supports Arg1:T9 Arg2:T1
+R9	supports Arg1:T10 Arg2:T1
+R10	supports Arg1:T11 Arg2:T10

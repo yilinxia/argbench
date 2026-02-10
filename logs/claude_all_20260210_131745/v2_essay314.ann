@@ -1,0 +1,39 @@
+T1	MajorClaim 0 69	Extraordinarily cautious is important since rough work is intolerable
+T2	Claim 347 420	even when fast pace may be the wise move to correspond with today's world
+T3	Claim 431 486	it might not be the most beneficial move to our society
+A1	Stance T2 Against
+A2	Stance T3 For
+T4	Claim 499 568	even when the world operates in fast pace, it still requires accuracy
+A3	Stance T4 For
+T5	Premise 570 637	Even simple issues in our daily life like homework require accuracy
+T6	Premise 639 820	If we rush through the work by taking risk of making mistakes, we are actually making zero effort going through our study roughly only for the purpose of fill in before the deadline
+T7	Premise 832 890	it only fulfills the work itself which is rather worthless
+T8	Premise 892 991	It is our capability of work that we should improve rather than holding the belief in completing it
+T9	Premise 993 1090	Certainly it may take time to keep up with the others if w need to review our work multiple times
+T10	Premise 1096 1186	with consistent work soon enough we'll be able to bring up our speed in completion of work
+T11	Claim 1198 1344	other than the importance of accuracy, the world also seeks efficiency, which concludes both minimum time completion and also criterion of quality
+A4	Stance T11 For
+T12	Premise 1346 1542	Even when we managed to keep up with the pace by neglecting the details of a project and only aim for a general frame of the project, this will not be something satisfy for the company and clients
+T13	Premise 1544 1707	We soon will be out of the picture even when we kept up with the pace since when the problem reveals itself we'll have to go back and fix the mistakes we have made
+T14	Premise 1709 1802	This might be even more costly and time consuming than a neat completion of work at the start
+T15	Claim 1814 1912	when looking at this problem within a broader image. Some work cannot tolerate any mistakes at all
+A5	Stance T15 For
+T16	Premise 1914 2011	for instance, in official missions like the work done by NASA, a tiny mistake can be catastrophic
+T17	Premise 2013 2144	A miscalculation of the orbit in launching rocket may lead to a failure of the whole project which might worth trillions of dollars
+T18	Premise 2146 2317	In such circumstances, even when the scientists want to finish off quickly, but they couldn't miss even a single part of the mission since it may trigger loads of problems
+T19	MajorClaim 2330 2506	even when we need to catch up with the pace of the world, it is necessary for us to be extraordinarily cautious since rough work is intolerable when we want to stay competitive
+R1	supports Arg1:T5 Arg2:T4
+R2	supports Arg1:T6 Arg2:T4
+R3	supports Arg1:T7 Arg2:T4
+R4	supports Arg1:T8 Arg2:T4
+R5	supports Arg1:T9 Arg2:T4
+R6	supports Arg1:T10 Arg2:T4
+R7	supports Arg1:T12 Arg2:T11
+R8	supports Arg1:T13 Arg2:T11
+R9	supports Arg1:T14 Arg2:T11
+R10	supports Arg1:T16 Arg2:T15
+R11	supports Arg1:T17 Arg2:T15
+R12	supports Arg1:T18 Arg2:T15
+R13	supports Arg1:T4 Arg2:T1
+R14	supports Arg1:T11 Arg2:T1
+R15	supports Arg1:T15 Arg2:T1
