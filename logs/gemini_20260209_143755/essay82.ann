@@ -1,0 +1,17 @@
+T1	MajorClaim 1894 1969	the idea that advertising is a positive part of life can be more supported.
+T2	Claim 673 775	Advertisements are, therefore, very important for many businesses to increase sales and hence profits.
+A1	Stance T2 For
+T3	Claim 782 837	to consumers, advertising can bring them many benefits.
+A2	Stance T3 For
+T4	Premise 838 1070	For example, customers of telecommunication services will have an idea about the current offers of different companies and hence they can compare them and then have a better decision in choosing their internet or mobile phone plans.
+T5	Claim 1304 1513	a huge amount of different advertisements could be sent automatically by a system to personal phones or email addresses, this is generally known as spam, and causes discomfort or even annoyance to many people.
+A3	Stance T5 Against
+T6	Claim 1654 1720	advertising is believed by many, a financial burden to businesses.
+A4	Stance T6 Against
+T7	Premise 1524 1642	advertising can be very expensive and not every advertising campaign can be done successfully and brings good results.
+R1	supports Arg1:T2 Arg2:T1
+R2	supports Arg1:T3 Arg2:T1
+R3	supports Arg1:T4 Arg2:T3
+R4	attacks Arg1:T5 Arg2:T1
+R5	attacks Arg1:T6 Arg2:T1
+R6	supports Arg1:T7 Arg2:T6

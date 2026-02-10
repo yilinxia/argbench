@@ -1,0 +1,31 @@
+T1 MajorClaim 201 384 government should invest more on medical care and education rather than on entertaining or sports facilities. As far as I am concerned, this proposal is beneficial more to the society.
+T2 Claim 385 474 Taking care of thousands of citizens who suffer from disease or illiteracy is more urgent and pragmatic than building theaters or sports stadiums.
+A1 Stance T2 For
+T3 Premise 476 637 As a matter of fact, an uneducated person may barely appreciate musicals, whereas a physical damaged person, resulting from the lack of medical treatment, may no longer participate in any sports games.
+T4 Claim 639 725 Therefore, providing education and medical care is more essential and prioritized to the government.
+A2 Stance T4 For
+T5 Premise 727 820 Entertaining facilities such as cinemas, theaters and sports stadiums are mostly profit-oriented.
+T6 Premise 822 913 Their existences are based on their marketing strategies, the condition of facilities and the volume of audience.
+T7 Claim 915 1022 The competition among each of these facilities is an inevitable part of the free market, which should not be interfered by government.
+A3 Stance T7 For
+T8 Claim 1024 1179 Instead, the establishment of medical facilities or educational institutes is aimed to improve the health or education standard rather than earning profits, which deserves more funds from government.
+A4 Stance T8 For
+T9 Claim 1181 1270 Furthermore, putting taxpayers' money on building theaters or sports stadiums is unfair to those who cannot use them.
+A5 Stance T9 For
+T10 Premise 1272 1334 For example, not everyone is a fan of watching musicals on the spot.
+T11 Claim 1336 1437 Therefore, it is a bit inappropriate to use the majority of citizens' tax funds to meet a minority of people's needs.
+A6 Stance T11 For
+T12 Premise 1439 1588 That is the reason why sectors such as medical care and education deserve more governmental support, because they are accessed by every individual in our society on a daily basis.
+T13 Premise 1697 1779 because the former is more essential, non-profit oriented to the public and can be accessed by the majority of citizens.
+R1 supports Arg1:T3 Arg2:T2
+R2 supports Arg1:T2 Arg2:T1
+R3 supports Arg1:T4 Arg2:T1
+R4 supports Arg1:T6 Arg2:T5
+R5 supports Arg1:T5 Arg2:T7
+R6 supports Arg1:T7 Arg2:T1
+R7 supports Arg1:T8 Arg2:T1
+R8 supports Arg1:T10 Arg2:T9
+R9 supports Arg1:T9 Arg2:T1
+R10 supports Arg1:T11 Arg2:T1
+R11 supports Arg1:T12 Arg2:T1
+R12 supports Arg1:T13 Arg2:T1

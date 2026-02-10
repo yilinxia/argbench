@@ -1,0 +1,21 @@
+T1	MajorClaim 1577 1683	people should perceive the value of museums in enhancing their own knowledge about the world they live in.
+T2	Claim 370 463	museums such as art and music can offer people with a wide range of entertainment activities.
+T3	Premise 464 616	For example, they often organise traditional music events performed by local or other famous artists that people can attend to and enjoy to some extent.
+T4	Claim 617 781	Another point is that many visitors nowadays may choose to come to museums just for pleasure or as one of the activities that they take part in their holiday trips.
+T5	Premise 782 857	This, therefore, makes museums a place to entertain in people leisure time.
+T6	Claim 878 1002	the establishment of a particular museum like history, science, or oceanography is usually attached to educational purposes.
+T7	Premise 1003 1222	As can be seen, school and university students and teachers are always the guests of museums because the places are where they can discover and obtain a large amount of information related to their studies and teaching.
+T8	Premise 1223 1387	In addition, there are a number of seminars and conferences held at museums that are informative and necessary for scholars and experts in their fields of research.
+T9	Premise 1388 1454	In this way, museums prove the supporting role in human education.
+A1	Stance T2 Against
+A2	Stance T4 Against
+A3	Stance T6 For
+R1	supports Arg1:T3 Arg2:T2
+R2	supports Arg1:T5 Arg2:T4
+R3	supports Arg1:T5 Arg2:T2
+R4	supports Arg1:T7 Arg2:T6
+R5	supports Arg1:T8 Arg2:T6
+R6	supports Arg1:T9 Arg2:T6
+R7	supports Arg1:T6 Arg2:T1
+R8	attacks Arg1:T2 Arg2:T1
+R9	attacks Arg1:T4 Arg2:T1

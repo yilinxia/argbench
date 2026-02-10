@@ -1,0 +1,30 @@
+T1	MajorClaim 1764 2054	I strongly believe that its advantages clearly outweigh its disadvantages, and that it can contribute greatly to the development of the world. Therefore, scientists should not place less emphasis on technological solutions, but try to pay more attention to develop new technologies instead.
+T2	Claim 556 603	technology plays an integral part in our lives.
+T3	Premise 604 709	With the invention of computers and the Internet, we now can get easy access to all kinds of information.
+T4	Claim 723 801	hi-tech devices also have a very positive impact on many aspects of our lives.
+T5	Premise 802 899	They help us to work and study more efficiently, thus leading to an improvement in our abilities.
+T6	Premise 900 969	Medical advances can improve our health and cure many fatal diseases.
+T7	Premise 979 1128	modern technology enables us to predict natural disasters much faster and more accurately, so we can reduce the number of deaths and property damage.
+T8	Claim 1138 1203	there are some serious problems springing from modern technology.
+T9	Premise 1211 1281	deadly and powerful weapons can be a huge threat to the world's peace.
+T10	Premise 1290 1357	a lot of people spend too much time using hi-tech devices nowadays.
+T11	Premise 1358 1435	They abuse them so severely that they feel they can hardly live without them.
+T12	Premise 1436 1602	This can have a detrimental effect on their health, since they are likely to develop many dangerous diseases, including obesity, heart attack and high blood-pressure.
+T13	Claim 178 420	Technology, however, is not the best solution to all the world's intricate problems. Accordingly, it is believed that we need to place less emphasis on technological solutions and more on other values, such as economy, politics and education.
+A1	Stance T2 For
+A2	Stance T4 For
+A3	Stance T8 Against
+A4	Stance T13 Against
+R1	supports Arg1:T3 Arg2:T2
+R2	supports Arg1:T5 Arg2:T4
+R3	supports Arg1:T6 Arg2:T4
+R4	supports Arg1:T7 Arg2:T4
+R5	supports Arg1:T2 Arg2:T1
+R6	supports Arg1:T4 Arg2:T1
+R7	supports Arg1:T9 Arg2:T8
+R8	supports Arg1:T10 Arg2:T8
+R9	supports Arg1:T11 Arg2:T10
+R10	supports Arg1:T12 Arg2:T10
+R11	attacks Arg1:T8 Arg2:T1
+R12	attacks Arg1:T1 Arg2:T13
+R13	supports Arg1:T8 Arg2:T13

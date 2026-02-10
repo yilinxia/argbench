@@ -1,0 +1,90 @@
+T1	Premise 36 142	There is not a single piece of history that determines whether or not same sex marriage is right or wrong.
+T2	Premise 143 311	There is absolutely no legal, logical, or governing reason that same sex couples cannot be wed and it's extremely unconstitutional in every way to tell them they can't.
+T3	MajorClaim 312 549	Same sex marriage should be legal for a number of reasons, a few being, it's no one else's business if two men or two women want to get married, not allowing them to marry makes them seem inferior, and it rids them of their civil rights.
+T4	Claim 384 455	it's no one else's business if two men or two women want to get married
+T5	Claim 457 508	not allowing them to marry makes them seem inferior
+T6	Claim 514 549	it rids them of their civil rights.
+T7	Premise 550 705	In the book Gay marriage by Kate Burns, it states "Who owns marriage? In other words, who defines marriage? Who allows marriage, and who enforces it?" (22)
+T8	Claim 706 778	It's wrong to tell two people who love each other that they cannot marry
+T9	Claim 780 829	it's nobody's business who you fall in love with.
+T10	Claim 830 917	Just like it is no one's business to tell same sex couples they should not be able wed.
+T11	Claim 918 1072	Same sex couples just want the benefits of being married like everyone else and there is no proof saying that it is wrong for them to have those benefits.
+T12	Claim 1073 1225	By not allowing them to marry all that America is doing is depriving same sex couples of their rights to care for each other and provide for each other.
+T13	Premise 1226 1402	A common married couple gets benefits on health, gets to make decisions that are best for their spouse in extreme cases, and gets to inherit their spouse's belongings in death.
+T14	Claim 1404 1507	Making same sex marriage illegal also makes the people who are attracted to the same sex feel inferior.
+T15	Claim 1571 1691	by making sex marriage illegal you are making people who are attracted to the same sex feel and seem inferior to others.
+T16	Claim 1692 1767	Homosexuality is not a conscious choice; it's something they are born with.
+T17	Premise 1768 1827	Just like you didn't choose who you love, neither did they.
+T18	Claim 1828 1907	So it's unfair to make same sex marriage seem inferior when it is no different.
+T19	Premise 1908 2282	In the book Historical Guides to Controversial Issues in America Same-Sex Marriage by Allene Phy-Olsen it states "Recent decades have seen much interest in the idea of diversity. The argument for same sex marriage asserts that it is hypocritical to deny the full rights and opportunities of citizenship which includes the access to an institution as basic as matrimony" (76)
+T20	Claim 2283 2437	You would never make a women feel inferior for being a women, so why should you make a man or a women feel like they are less just based on who they love.
+T21	Claim 2439 2509	Same sex marriage being illegal rids the couple of their civil rights.
+T22	Premise 2510 2635	Civil rights are something people have worked hard to maintain over the years, abolishing slavery and treating women equally.
+T23	Claim 2636 2672	Homosexual couples are no different.
+T24	Claim 2673 2795	They deserve to have their civil rights fulfilled, just like women deserve to vote, they should be allowed to get married.
+T25	Premise 2796 2939	Majority of the population against same sex marriage firmly believe the bible states that it is unholy for couples of the same gender to marry.
+T26	Premise 2940 3005	Many people think that the word of the bible is comparable to law
+T27	Claim 3007 3089	however we have an amendment which protects our country from that exact situation.
+T28	Premise 3090 3340	In the book The Constitution of the United States of America The Bicentennial keepsake edition, the first amendment provides that "Congress shall make no law respecting an establishment of religion, or prohibiting the free exercise thereof ...." (51)
+T29	Claim 3341 3439	The fact that it's in the bible should not dictate the laws against same sex couples becoming wed.
+T30	Claim 3440 3611	Not allowing same sex couples to marry is like saying all people born with a certain hair color should not be allowed marry people of other hair colors, It makes no sense.
+T31	Claim 3612 3704	Laws have been changed for all sexes, races' and genders for the same purpose, equal rights.
+T32	Claim 3705 3815	It is hypocritical to not allow same sex marriage to occur when it appeals to a large growing group of people.
+T33	Claim 3828 3899	same sex couples are really just couples and should be treated as such.
+T34	Claim 3900 4052	They should be allowed the benefits of marriage, treated equally, not like they are inferior, and same sex couples should be allowed their civil rights.
+A1	Stance T4 For
+A2	Stance T5 For
+A3	Stance T6 For
+A4	Stance T8 For
+A5	Stance T9 For
+A6	Stance T10 For
+A7	Stance T11 For
+A8	Stance T12 For
+A9	Stance T14 For
+A10	Stance T15 For
+A11	Stance T16 For
+A12	Stance T18 For
+A13	Stance T20 For
+A14	Stance T21 For
+A15	Stance T23 For
+A16	Stance T24 For
+A17	Stance T27 For
+A18	Stance T29 For
+A19	Stance T30 For
+A20	Stance T31 For
+A21	Stance T32 For
+A22	Stance T33 For
+A23	Stance T34 For
+R1	supports Arg1:T1 Arg2:T2
+R2	supports Arg1:T2 Arg2:T3
+R3	supports Arg1:T4 Arg2:T3
+R4	supports Arg1:T5 Arg2:T3
+R5	supports Arg1:T6 Arg2:T3
+R6	supports Arg1:T7 Arg2:T10
+R7	supports Arg1:T8 Arg2:T4
+R8	supports Arg1:T9 Arg2:T8
+R9	supports Arg1:T10 Arg2:T4
+R10	supports Arg1:T11 Arg2:T3
+R11	supports Arg1:T12 Arg2:T11
+R12	supports Arg1:T13 Arg2:T11
+R13	supports Arg1:T14 Arg2:T5
+R14	supports Arg1:T15 Arg2:T14
+R15	supports Arg1:T16 Arg2:T15
+R16	supports Arg1:T17 Arg2:T16
+R17	supports Arg1:T18 Arg2:T15
+R18	supports Arg1:T19 Arg2:T18
+R19	supports Arg1:T20 Arg2:T18
+R20	supports Arg1:T21 Arg2:T6
+R21	supports Arg1:T22 Arg2:T21
+R22	supports Arg1:T23 Arg2:T21
+R23	supports Arg1:T24 Arg2:T21
+R24	supports Arg1:T26 Arg2:T25
+R25	attacks Arg1:T27 Arg2:T26
+R26	supports Arg1:T28 Arg2:T27
+R27	attacks Arg1:T29 Arg2:T25
+R28	supports Arg1:T29 Arg2:T21
+R29	supports Arg1:T30 Arg2:T29
+R30	supports Arg1:T31 Arg2:T24
+R31	supports Arg1:T32 Arg2:T21
+R32	supports Arg1:T33 Arg2:T3
+R33	supports Arg1:T34 Arg2:T3

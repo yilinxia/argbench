@@ -1,0 +1,35 @@
+T1	Claim 355 416	From my perspective, I think their view is overly simplistic.
+T2	Claim 417 511	Undeniably, making the fuel cost more money could limit the number of vehicles to some extent.
+T3	Premise 512 670	Due to the increasing number of petrol stations, the competition in this field is more and more fierce, thus the price of petrol could be lower in the future.
+T4	Premise 671 778	Therefore, those who are suffering from the inefficiency of public transport tend to own a car immediately.
+T5	Premise 779 989	Moreover, some families purchase even more than three cars just for their own sake. In such case if they must pay more money on fuel, they may consider about that price of purchasing additionally for more time.
+T6	Claim 990 1068	Nevertheless, such an argument may restrict the real necessity of automobiles.
+T7	Premise 1069 1295	In fact, some families really need one or two cars. For example, three family members have to work or study in three place separated so far with each other, then they need to acquire at least two cars or they may both be late.
+T8	Claim 1296 1461	On the other hand, the development of automobile industry could be restrained as well as the employments offered by it, which could have negative effects on economy.
+T9	Claim 1462 1522	Therefore, I can hardly agree that the solution is the best.
+T10	Claim 1590 1659	Firstly, a new method of expenditure classification could be adopted.
+T11	Premise 1660 1757	For instance, individuals had to pay much more for fuel if they possess more than three vehicles;
+T12	Claim 1758 1849	secondly, the government should develop the public transport to meet the residents' demand;
+T13	Claim 1850 1950	last but not least, the people should be encouraged to use electric car to reduce the car emissions.
+T14	MajorClaim 1951 2239	To conclude, I personally believe the government should take some actions such as classifying the payment, boosting the public transport and encouraging individuals to adopt the zero-emission cars, rather than raising the price of petrol, to get rid of the traffic and pollution problems.
+A1	Stance T1 For
+A2	Stance T2 Against
+A3	Stance T6 For
+A4	Stance T8 For
+A5	Stance T9 For
+A6	Stance T10 For
+A7	Stance T12 For
+A8	Stance T13 For
+R1	supports Arg1:T5 Arg2:T2
+R2	supports Arg1:T7 Arg2:T6
+R3	supports Arg1:T3 Arg2:T6
+R4	supports Arg1:T4 Arg2:T6
+R5	supports Arg1:T11 Arg2:T10
+R6	supports Arg1:T1 Arg2:T14
+R7	attacks Arg1:T2 Arg2:T14
+R8	supports Arg1:T6 Arg2:T14
+R9	supports Arg1:T8 Arg2:T14
+R10	supports Arg1:T9 Arg2:T14
+R11	supports Arg1:T10 Arg2:T14
+R12	supports Arg1:T12 Arg2:T14
+R13	supports Arg1:T13 Arg2:T14

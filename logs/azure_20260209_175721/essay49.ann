@@ -1,0 +1,31 @@
+T1	MajorClaim 407 551	it is my belief that the majority of people in the globe have benefited greatly from these powerful and effective means of modern communication.
+T2	Claim 567 719	mobile phones and other tools of modern communication facilitate not only contact with friends and relatives in faraway places but also global business.
+T3	Premise 720 842	With the click of a button, the vast amount of information can be transmitted from America to China in just a few seconds.
+T4	Premise 843 967	Furthermore, it is generally felt that the access to these tools of communication is available in every corner of the world.
+T5	Premise 968 1106	With a mobile phone or a laptop, a person can talk or send messages online at a bus stop, in a corner shop or anywhere they could imagine.
+T6	Claim 1107 1215	Therefore, it seems that these new forms of communication do bring a great deal of convenience to humankind.
+T7	Claim 1230 1332	opponents of modern communications claim that only the more privileged are able to enjoy the benefits.
+T8	Premise 1333 1473	They further point out that the wide spread use of these efficient and effective ways of communication costs a considerable amount of money.
+T9	Premise 1474 1643	Anyone who aims to use these innovations have to not only pay for the appliances such as a mobile phone or a computer but also cover up costs for communication services.
+T10	Claim 1644 1756	Consequently, people who live in poverty are less likely to be benefited from modern communication technologies.
+T11	Claim 1779 1897	I believe that modern communication technologies will benefit more people in the future as the pace of life increases;
+T12	Claim 1898 1978	however, the have-nots cannot be ignored simply because they couldn't afford it.
+A1	Stance T2 For
+A2	Stance T6 For
+A3	Stance T7 Against
+A4	Stance T10 Against
+A5	Stance T11 For
+A6	Stance T12 Against
+R1	supports Arg1:T2 Arg2:T1
+R2	supports Arg1:T3 Arg2:T2
+R3	supports Arg1:T4 Arg2:T2
+R4	supports Arg1:T5 Arg2:T2
+R5	supports Arg1:T6 Arg2:T1
+R6	attacks Arg1:T7 Arg2:T1
+R7	supports Arg1:T8 Arg2:T7
+R8	supports Arg1:T9 Arg2:T7
+R9	attacks Arg1:T10 Arg2:T1
+R10	supports Arg1:T8 Arg2:T10
+R11	supports Arg1:T9 Arg2:T10
+R12	supports Arg1:T11 Arg2:T1
+R13	attacks Arg1:T12 Arg2:T1

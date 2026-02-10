@@ -1,0 +1,33 @@
+T1	MajorClaim 369 511	it is insufficient to increase the petrol price only to solve problems, though it is a promising method discussed in the contemporary society.
+T2	Claim 526 657	price control institution has been used in plenty of social areas, for example, in the farming products and in the real estate area
+A1	Stance T2	For
+T3	Claim 668 761	whether it can work out for alleviating traffic and pollution pressure ought to be evaluated.
+A2	Stance T3	For
+T4	Claim 775 951	governments have a macro-economic perspective to control price in various areas according to social demands. Consequently, it seems not easy to increase petrol price instantly.
+A3	Stance T4	For
+T5	Claim 971 1109	pollutions are not just caused by the burning of oil, chemical pollutants, extra lights, also constitute considerable amount of pollution.
+A4	Stance T5	For
+T6	Claim 1123 1251	the improvements of work efficiency also attribute to the speed-up of working pace, resulting in traffic jams during rush-hours.
+A5	Stance T6	For
+T7	Claim 1275 1370	several other solutions can be introduced to assist in reducing pollution and traffic problems.
+A6	Stance T7	For
+T8	Claim 1382 1549	authorities should spare no efforts in improving public transportation facilities, such as constructing more bus lines, in order to reducing the usage of private cars.
+A7	Stance T8	For
+T9	Claim 1563 1694	temporarily targets should be set, with regard to the limitations of pollutants in a certain period of time, for example, a season.
+A8	Stance T9	For
+T10	Claim 1705 1765	supervisory institutions built to find and address problems.
+A9	Stance T10	For
+T11	Claim 1777 1941	cultivating a sense of environmental protection would also work out, though it might not be into effect immediately, but in the long run, it would be a wise choice.
+A10	Stance T11	For
+T12	MajorClaim 1957 2208	addressing pollution and traffic issues only by increasing oil price Is not adequate, while improving transportation facilities and building supervisory institution would be preferable, plus with the awareness of environmental protection being raised.
+R1	supports Arg1:T2 Arg2:T3
+R2	supports Arg1:T3 Arg2:T1
+R3	supports Arg1:T4 Arg2:T1
+R4	supports Arg1:T5 Arg2:T1
+R5	supports Arg1:T6 Arg2:T1
+R6	supports Arg1:T7 Arg2:T1
+R7	supports Arg1:T8 Arg2:T7
+R8	supports Arg1:T9 Arg2:T7
+R9	supports Arg1:T10 Arg2:T7
+R10	supports Arg1:T11 Arg2:T7
+R11	supports Arg1:T12 Arg2:T1

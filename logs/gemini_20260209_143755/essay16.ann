@@ -1,0 +1,30 @@
+T1	MajorClaim 1505 1640	I reaffirm that although there is some disadvantages of animals' profits, the merits of animal experiments still outweigh the demerits.
+T2	Claim 227 260	it is cruel to animals and nature
+A1	Stance T2 Against
+T3	Premise 540 581	animals are friendly and vital for people
+T4	Premise 591 704	if there are no animals in the world, the balance of nature will broke down, and we, human, will die out as well.
+T5	Claim 705 783	The animal experiments accelerate the vanishing of some categories of animals.
+A2	Stance T5 Against
+T6	Claim 800 877	doing this various testing is a hazard of human's future and next generation.
+A3	Stance T6 Against
+T7	Premise 885 947	animal experiments have negative impact on the natural balance
+T8	Claim 949 1011	it is necessary to make sure that people can live a long life.
+A4	Stance T8 For
+T9	Premise 1027 1093	it is indisputable that every new kind food or pill may be noxious
+T10	Premise 1099 1220	scientists must do something to insure that the new invention benefits people instead of making people ill or even dying.
+T11	Premise 1221 1301	The new foods or medicines are invented to promote the quantity of human's life.
+T12	Claim 1307 1409	even if they are volunteers; they cannot take the place of animals to test the new foods or medicines.
+A5	Stance T12 For
+T13	Premise 1423 1492	it also have potentially harm for human's health without any testing.
+R1	supports Arg1:T3 Arg2:T5
+R2	supports Arg1:T4 Arg2:T5
+R3	supports Arg1:T5 Arg2:T6
+R4	attacks Arg1:T6 Arg2:T1
+R5	attacks Arg1:T2 Arg2:T1
+R6	supports Arg1:T9 Arg2:T10
+R7	supports Arg1:T10 Arg2:T8
+R8	supports Arg1:T11 Arg2:T8
+R9	supports Arg1:T13 Arg2:T8
+R10	supports Arg1:T8 Arg2:T1
+R11	supports Arg1:T12 Arg2:T1
+R12	supports Arg1:T7 Arg2:T5

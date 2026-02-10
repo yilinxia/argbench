@@ -1,0 +1,31 @@
+T1	MajorClaim 287 419	I would not go along with their viewpoint as zoos have irreplaceable benefits in terms of animal preservation and children education
+T2	Premise 421 571	There is no denying that our environment is damaged day by day due to the fact that excessive pursuit of economic development at expense of eco-system
+T3	Premise 573 630	which pose a great threat to the survival of wild animals
+T4	Claim 645 766	zoo is a good alternative choice for protecting animals as various animals could be better protected by specialized staff
+A1	Stance T4 For
+T5	Premise 768 834	Once the animal got sick, professional vet will help them promptly
+T6	Premise 836 916	Thanks to the considerate care, the diversity of wild animal could be guaranteed
+T7	Claim 932 1037	zoos afford a platform to education teenagers, helping to establish eco-friendly behavior towards animals
+A2	Stance T7 For
+T8	Premise 1052 1134	even though wild animals are caged, they have capability to walk in a limited area
+T9	Premise 1136 1336	When children pay a visit to the zoos, they still could observe the eating behavior or leisure activities among animals, which would definitely enrich their knowledge associated with different animals
+T10	Premise 1347 1462	children could acquire the information regarding how to protect wild animals according to guided tour or volunteers
+T11	Claim 1483 1537	complained about the drawbacks of zoos are often heard
+A3	Stance T11 Against
+T12	Premise 1539 1669	It is true that some zoos are lack of systematic management which attributes to numerous wild animals die because of food shortage
+T13	Premise 1677 1820	being caged in the zoos for long render wildlife lost the ability to survive in nature where is full of cruel competition among various animals
+T14	MajorClaim 1872 2007	zoos offer a good man-made environment which could prolong the life span of wild animals and cultivate the notion of protecting animals
+T15	Premise 2009 2132	What the zoos should do is improvement of the management system and use the income wisely in preserving wild animals better
+R1	supports Arg1:T2 Arg2:T4
+R2	supports Arg1:T3 Arg2:T4
+R3	supports Arg1:T5 Arg2:T4
+R4	supports Arg1:T6 Arg2:T4
+R5	supports Arg1:T4 Arg2:T1
+R6	supports Arg1:T8 Arg2:T7
+R7	supports Arg1:T9 Arg2:T7
+R8	supports Arg1:T10 Arg2:T7
+R9	supports Arg1:T7 Arg2:T1
+R10	supports Arg1:T12 Arg2:T11
+R11	supports Arg1:T13 Arg2:T11
+R12	attacks Arg1:T11 Arg2:T1
+R13	supports Arg1:T15 Arg2:T14

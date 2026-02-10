@@ -1,0 +1,31 @@
+T1	MajorClaim 1501 1584	As a conclusion, I personally think that human beings should travel to outer space.
+T2	Claim 210 285	a lot of people still consider space exploration as an act of wasting money
+T3	Claim 512 560	many facts about solar system can be discovered.
+T4	Claim 810 861	people can know more about the planet earth itself.
+T5	Claim 1101 1158	a great deal of sophisticated technology can be invented.
+T6	Premise 302 417	astronauts only brought useless rocks back to planet earth despite the large sum of money spent on their equipment.
+T7	Premise 575 642	a picture of planet earth proved that the earth is round, not flat.
+T8	Premise 667 725	it is the earth which goes around the sun, not vice versa.
+T9	Premise 726 799	If it was not for the space exploration, we would never know these facts.
+T10	Premise 862 992	By observing planet earth from outer space, people can find out ample things for example about the atmosphere of the planet earth.
+T11	Premise 993 1091	With this knowledge, people can work on something to prevent earth hazards such as global warming.
+T12	Premise 1159 1309	As astronauts need to travel to outer space which does not have any oxygen to breathe in, scientists are compelled to do research on the oxygen tanks.
+T13	Premise 1310 1400	Oxygen tanks, for instance, are proved useful not only in outer space but also underwater.
+T14	Premise 1411 1500	spaceships, communication satellites and space pens also contribute a lot to the society.
+A1	Stance T2 Against
+A2	Stance T3 For
+A3	Stance T4 For
+A4	Stance T5 For
+R1	attacks Arg1:T2 Arg2:T1
+R2	supports Arg1:T3 Arg2:T1
+R3	supports Arg1:T4 Arg2:T1
+R4	supports Arg1:T5 Arg2:T1
+R5	supports Arg1:T6 Arg2:T2
+R6	supports Arg1:T7 Arg2:T3
+R7	supports Arg1:T8 Arg2:T3
+R8	supports Arg1:T9 Arg2:T3
+R9	supports Arg1:T10 Arg2:T4
+R10	supports Arg1:T11 Arg2:T4
+R11	supports Arg1:T12 Arg2:T5
+R12	supports Arg1:T13 Arg2:T5
+R13	supports Arg1:T14 Arg2:T5

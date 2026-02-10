@@ -1,0 +1,23 @@
+T1	MajorClaim 2029 2252	the benefits of learning in universities are the vital factor in creating more possibilities for the development of society through advancing academic fulfillment and the young generation who have experiences and challenges
+T2	Claim 848 961	the labor market for highly educated students is now too competitive to get a job after finishing their studying.
+T3	Claim 977 1119	it is a loss of national productivity that young people spend much time on searching for high salary jobs, even can be a sheer time-consuming.
+T4	Claim 1201 1343	universities provide not only skills for careers, but also academic knowledge for the human race, such as bio science, politics, and medicine.
+T5	Claim 1344 1409	These academic values are necessary to the progress of the world.
+T6	Claim 1428 1553	many researches in the ivory-tower have created ingenious discoveries and achievements for the development of modern society.
+T7	Claim 1554 1690	Another significant factor of universities is that diverse experiences in the campus life can make the young generation more competently
+T8	Premise 618 832	there are numerous job opportunities for those who do not have the certification of university graduation, such as mechanics, sales persons, or engineers, and, furthermore, labors for graduates are in short supply.
+T9	Premise 1699 1813	there are a number of chances through internships, deeper discussion, independent life, and exchange scholarships.
+A1	Stance T2 Against
+A2	Stance T3 Against
+A3	Stance T4 For
+A4	Stance T5 For
+A5	Stance T6 For
+A6	Stance T7 For
+R1	supports Arg1:T8 Arg2:T2
+R2	attacks Arg1:T2 Arg2:T1
+R3	attacks Arg1:T3 Arg2:T1
+R4	supports Arg1:T4 Arg2:T1
+R5	supports Arg1:T5 Arg2:T1
+R6	supports Arg1:T6 Arg2:T1
+R7	supports Arg1:T7 Arg2:T1
+R8	supports Arg1:T9 Arg2:T7

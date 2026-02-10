@@ -1,0 +1,33 @@
+T1	MajorClaim 0 21	zoos should be banned
+T2	Claim 287 420	I would not go along with their viewpoint as zoos have irreplaceable benefits in terms of animal preservation and children education.
+T3	Premise 421 631	There is no denying that our environment is damaged day by day due to the fact that excessive pursuit of economic development at expense of eco-system, which pose a great threat to the survival of wild animals.
+T4	Premise 645 767	zoo is a good alternative choice for protecting animals as various animals could be better protected by specialized staff.
+T5	Premise 768 835	Once the animal got sick, professional vet will help them promptly.
+T6	Premise 836 917	Thanks to the considerate care, the diversity of wild animal could be guaranteed.
+T7	Claim 918 1038	Additionally, zoos afford a platform to education teenagers, helping to establish eco-friendly behavior towards animals.
+T8	Premise 1039 1135	In the zoos, even though wild animals are caged, they have capability to walk in a limited area.
+T9	Premise 1136 1337	When children pay a visit to the zoos, they still could observe the eating behavior or leisure activities among animals, which would definitely enrich their knowledge associated with different animals.
+T10	Premise 1338 1463	Further, children could acquire the information regarding how to protect wild animals according to guided tour or volunteers.
+T11	Claim 1464 1538	On the other hand, complained about the drawbacks of zoos are often heard.
+T12	Premise 1539 1670	It is true that some zoos are lack of systematic management which attributes to numerous wild animals die because of food shortage.
+T13	Premise 1671 1821	Also, being caged in the zoos for long render wildlife lost the ability to survive in nature where is full of cruel competition among various animals.
+T14	MajorClaim 1822 2008	In order to protect animals, from my perspective, zoos offer a good man-made environment which could prolong the life span of wild animals and cultivate the notion of protecting animals.
+T15	Claim 2009 2133	What the zoos should do is improvement of the management system and use the income wisely in preserving wild animals better.
+A1	Stance T2 Against
+A2	Stance T7 Against
+A3	Stance T11 For
+A4	Stance T15 Against
+R1	attacks Arg1:T2 Arg2:T1
+R2	supports Arg1:T3 Arg2:T2
+R3	supports Arg1:T4 Arg2:T2
+R4	supports Arg1:T5 Arg2:T4
+R5	supports Arg1:T6 Arg2:T4
+R6	supports Arg1:T7 Arg2:T2
+R7	supports Arg1:T8 Arg2:T7
+R8	supports Arg1:T9 Arg2:T7
+R9	supports Arg1:T10 Arg2:T7
+R10	supports Arg1:T12 Arg2:T11
+R11	supports Arg1:T13 Arg2:T11
+R12	attacks Arg1:T11 Arg2:T2
+R13	supports Arg1:T15 Arg2:T14
+R14	supports Arg1:T14 Arg2:T2

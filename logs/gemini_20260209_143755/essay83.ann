@@ -1,0 +1,23 @@
+T1	MajorClaim 313 500	As far as my opinion is concerned , I find myself aligned with opponenets of the usages of nuclear power. I have several reasons to believe its disadvantages outnumber the few advantages.
+T2	Claim 501 615	First and foremost reason is that pursuit of nuclear technology one way or the other leads towards atomic weapons.
+T3	Premise 616 671	Last centuary has witnesed the horrors of such weapons.
+T4	Premise 672 779	If each country pursues the fusion and fission process some of them may try to mold it for millitary usage.
+T5	Claim 780 896	Another reason to fortify my opinion is that even civil usages of atomic power pose a dire threat of radio activity.
+T6	Premise 897 1066	For example recently there has been an incident in which an atomic power house leaked tons of radio active material into air when an earthquake hit the surrounding area.
+T7	Premise 1067 1166	This unfortunate event proves that no matter how much careful we are such accidents are unevitable.
+T8	Claim 1167 1319	Last but not least, while generating energy from any source be it hydro power or oil there always is some wastage and so is the case with nuclear power.
+T9	Claim 1320 1426	Safely getting rid of nuclear waste is a daunting task and there has not been any permanat solution of it.
+T10	Premise 1427 1524	This waste is many times more lethal to our environment than any of the other hazordous material.
+A1	Stance T2 For
+A2	Stance T5 For
+A3	Stance T8 For
+A4	Stance T9 For
+R1	supports Arg1:T2 Arg2:T1
+R2	supports Arg1:T3 Arg2:T2
+R3	supports Arg1:T4 Arg2:T2
+R4	supports Arg1:T5 Arg2:T1
+R5	supports Arg1:T6 Arg2:T5
+R6	supports Arg1:T7 Arg2:T5
+R7	supports Arg1:T8 Arg2:T1
+R8	supports Arg1:T9 Arg2:T8
+R9	supports Arg1:T10 Arg2:T9

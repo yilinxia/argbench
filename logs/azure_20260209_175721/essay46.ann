@@ -1,0 +1,16 @@
+T1	MajorClaim 519 590	"I do not believe it is the main or best function of a university."
+T2	Claim 706 796	A university, in common sense, is a medium for conveying or providing access to knowledge.
+T3	Premise 797 954	What is meant by this is that students are the ones universities should really cater for, not the employers, as students are the ones here to seek knowledge.
+T4	Premise 955 1208	High school graduates choose to further educate themselves in universities because of all different reasons: a degree that's more widely accepted, gain knowledge and insight into an industry, or simply deepen their research interests in a certain field.
+T5	Claim 1493 1670	So the truth lies somewhere closer to the fact that a university should provide access to information, rather than offer selected courses that are suitable for employers' taste.
+T6	MajorClaim 1671 1782	In conclusion, the main function of a university remains as the provision of knowledge and access to resources.
+T7	Claim 1783 1927	It would be helpful, however, if certain courses concerning workplace skills can also be made available to students to help shape their futures.
+A1	Stance T2 For
+A2	Stance T5 For
+A3	Stance T7 For
+R1	supports Arg1:T2 Arg2:T1
+R2	supports Arg1:T3 Arg2:T2
+R3	supports Arg1:T4 Arg2:T3
+R4	supports Arg1:T5 Arg2:T1
+R5	supports Arg1:T7 Arg2:T1
+R6	supports Arg1:T6 Arg2:T1

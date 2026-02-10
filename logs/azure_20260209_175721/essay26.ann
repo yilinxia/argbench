@@ -1,0 +1,41 @@
+T1	MajorClaim 426 450	this is not a good thing
+T2	Claim 185 382	However it is obvious that cooked food can bring about some negative influence result from utilizing the artificial ingredients, ignoring the nutrition of food and modifying people's eating habits.
+T3	Claim 451 484	based on the three reasons above.
+T4	Claim 485 976	First of all, to make their food easier to prepare and taste delicious, almost every producer adds a wide range of artificial ingredients in to the food that is now purchased by most people. Some ingredients being added have caused dire consequences. For instance, there are usually some articles in newspapers and magazines which report the relationship between certain chemical components in some food and diseases. Thus, easy-to-cook foods sometimes could be dangerous for human's health.
+T5	Premise 499 675	to make their food easier to prepare and taste delicious, almost every producer adds a wide range of artificial ingredients in to the food that is now purchased by most people.
+T6	Premise 676 735	Some ingredients being added have caused dire consequences.
+T7	Premise 736 902	For instance, there are usually some articles in newspapers and magazines which report the relationship between certain chemical components in some food and diseases.
+T8	Premise 903 976	Thus, easy-to-cook foods sometimes could be dangerous for human's health.
+T9	Claim 977 1040	Not cooking fresh food will also lead to the lack of nutrition.
+T10	Premise 977 1040	Not cooking fresh food will also lead to the lack of nutrition.
+T11	Premise 1041 1137	It is truth that cooking prepared foods needs much less time in comparison with the fresh food.,
+T12	Premise 1138 1300	whereas some research has apparently demonstrated that prepared foods are unable to support enough nutrients we need, especially for children who are growing up .
+T13	Claim 1301 1726	In addition, cooking is one of arts humans create. The more cooked food we chosen, the more cooking skills we lose. At the increasing living pace, the majority of people tend to choose microwave as their unique cooker that help them prepare a dish in five minutes. But rare people have been aware that this has contributed to a modification of cooking habits, which may cause the loss of our custom and culture about cooking.
+T14	Premise 1314 1351	cooking is one of arts humans create.
+T15	Premise 1352 1416	The more cooked food we chosen, the more cooking skills we lose.
+T16	Premise 1417 1565	At the increasing living pace, the majority of people tend to choose microwave as their unique cooker that help them prepare a dish in five minutes.
+T17	Premise 1566 1726	But rare people have been aware that this has contributed to a modification of cooking habits, which may cause the loss of our custom and culture about cooking.
+T18	MajorClaim 1858 1881	it is not a good thing.
+T19	Claim 1882 1967	Cooking is not a waste of time, contrarily, it is crucial for our health and culture.
+A1	Stance T2 Against
+A2	Stance T3 Against
+A3	Stance T4 Against
+A4	Stance T9 Against
+A5	Stance T13 Against
+A6	Stance T19 Against
+R1	supports Arg1:T2 Arg2:T1
+R2	supports Arg1:T3 Arg2:T1
+R3	supports Arg1:T4 Arg2:T1
+R4	supports Arg1:T5 Arg2:T4
+R5	supports Arg1:T6 Arg2:T4
+R6	supports Arg1:T7 Arg2:T6
+R7	supports Arg1:T8 Arg2:T4
+R8	supports Arg1:T9 Arg2:T1
+R9	supports Arg1:T11 Arg2:T9
+R10	supports Arg1:T12 Arg2:T9
+R11	supports Arg1:T13 Arg2:T1
+R12	supports Arg1:T14 Arg2:T13
+R13	supports Arg1:T15 Arg2:T13
+R14	supports Arg1:T16 Arg2:T13
+R15	supports Arg1:T17 Arg2:T13
+R16	supports Arg1:T19 Arg2:T18

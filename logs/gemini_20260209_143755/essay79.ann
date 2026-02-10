@@ -1,0 +1,26 @@
+T1	MajorClaim 342 452	However, from my perspective, I think arts are supposed to be included in the government's investment as well.
+T2	Claim 453 535	Admittedly, the government should give priority to public services and facilities.
+A1	Stance T2 Against
+T3	Premise 536 723	This is because the government plays the role of a leader among citizens, which should discharge the responsibility of making optimal use of the tax money to keep society safe and stable.
+T4	Premise 724 931	Simultaneously, public services such as education system or medical care can meet people's basic demand of survival, security and knowledge, thus making them feel comfortable, which can lower the crime rate.
+T5	Claim 1058 1146	On the other hand, I believe arts should by no means been disregarded by the government.
+A2	Stance T5 For
+T6	Claim 1147 1201	Individually, arts can enrich people's cultural lives.
+A3	Stance T6 For
+T7	Premise 1202 1303	Currently, people are increasingly occupied with their work and studies due to the stiff competition.
+T8	Premise 1304 1430	Consequently, they require various entertainment such as music, movies or books to them ease their minds and release pressure.
+T9	Premise 1431 1505	Without arts, people would be at risk of suffering psychological problems.
+T10	Claim 1506 1619	From the point of the local community, funding arts is beneficial to the local cultural and economic development.
+A4	Stance T10 For
+T11	Premise 1620 1676	Cultural heritage constitutes an essential part of arts.
+T12	Premise 1677 1894	This means preserving local arts may promote the preservation of the local cultural heritage, which not only helps the local people have a sense of belonging but also contributes to the booming local tourism industry.
+R1	supports Arg1:T3 Arg2:T2
+R2	supports Arg1:T4 Arg2:T2
+R3	supports Arg1:T5 Arg2:T1
+R4	supports Arg1:T6 Arg2:T5
+R5	supports Arg1:T7 Arg2:T6
+R6	supports Arg1:T8 Arg2:T6
+R7	supports Arg1:T9 Arg2:T6
+R8	supports Arg1:T10 Arg2:T5
+R9	supports Arg1:T11 Arg2:T10
+R10	supports Arg1:T12 Arg2:T10

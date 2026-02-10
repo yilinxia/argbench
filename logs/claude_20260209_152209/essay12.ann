@@ -1,0 +1,58 @@
+T1	MajorClaim 372 479	Random locker checks should be made obligatory and done frequently to assure the wellbeing of the students.
+T2	Claim 500 549	locker checks help increase the safety in schools
+A1	Stance T2 For
+T3	Premise 551 613	Safety is a problem in every environment and especially school
+T4	Premise 615 704	Drugs, alcohol, and firearms in lockers make a harmless place like school quite dangerous
+T5	Premise 706 825	School was known to be a secure environment for children where they could learn and have a have a fun time with friends
+T6	Premise 827 868	In the past 10 years that has all changed
+T7	Premise 870 928	The number of school shootings has increased significantly
+T8	Premise 930 1010	Last year on April 16th the most deadly school shooting in U.S. history occurred
+T9	Premise 1012 1109	In this brutal massacre at Virginia Tech, 32 students were murdered and several more were wounded
+T10	Premise 1111 1184	To combat this growing epidemic, schools carry out repeated locker checks
+T11	Claim 1208 1243	locker checks keep students healthy
+A2	Stance T11 For
+T12	Premise 1245 1391	Locker checks help students stay both physically and mentally healthy because it discourages students from bringing fire arms and especially drugs
+T13	Premise 1393 1497	As everyone knows, drugs induce immense physical damage and when it is overdosed drugs can lead to death
+T14	Premise 1499 1553	As a result, drugs completely destroy a student's life
+T15	Premise 1555 1611	To prevent problems like this locker checks are required
+T16	Premise 1613 1681	Without the use of drugs, school security will increase dramatically
+T17	Premise 1683 1748	If the school is safe, students will no be frightened or strained
+T18	Claim 1758 1907	more students will comply with the school policies because there are frequent locker checks and other students are getting caught and punished for it
+A3	Stance T18 For
+T19	Premise 1909 2007	The students who are yet to be caught will learn from the mistakes of other students and will stop
+T20	Premise 2009 2099	To increase the effect of locker checks, they should be done with security guards and dogs
+T21	Premise 2101 2195	Security guards at school increase security and security dogs help find drugs with their noses
+T22	Premise 2197 2287	School is a place to learn, not a place to bring malicious substances, electronics and etc
+T23	Premise 2293 2343	only learning material should be brought to school
+T24	Premise 2345 2469	With the continued discouraging of bringing drugs and weapons, a completely secure school will become an accomplishable goal
+T25	MajorClaim 2471 2652	Locker checks should be made mandatory and done frequently because they assure security in schools, makes students healthy, and will make students obey school policies in the future
+T26	Premise 2654 2772	Students should	appreciate locker checks and other measures taken by the school to protect the school and the students
+T27	Claim 2774 2844	Privacy is a small price to pay for security against drugs and weapons
+A4	Stance T27 For
+T28	Premise 2846 2935	Like it or not, privacy will be invaded not only at school, so students have to accept it
+R1	supports Arg1:T3 Arg2:T2
+R2	supports Arg1:T4 Arg2:T2
+R3	supports Arg1:T5 Arg2:T2
+R4	supports Arg1:T6 Arg2:T2
+R5	supports Arg1:T7 Arg2:T2
+R6	supports Arg1:T8 Arg2:T7
+R7	supports Arg1:T9 Arg2:T8
+R8	supports Arg1:T10 Arg2:T2
+R9	supports Arg1:T2 Arg2:T1
+R10	supports Arg1:T12 Arg2:T11
+R11	supports Arg1:T13 Arg2:T11
+R12	supports Arg1:T14 Arg2:T13
+R13	supports Arg1:T15 Arg2:T11
+R14	supports Arg1:T16 Arg2:T11
+R15	supports Arg1:T17 Arg2:T11
+R16	supports Arg1:T11 Arg2:T1
+R17	supports Arg1:T19 Arg2:T18
+R18	supports Arg1:T20 Arg2:T18
+R19	supports Arg1:T21 Arg2:T20
+R20	supports Arg1:T22 Arg2:T18
+R21	supports Arg1:T23 Arg2:T22
+R22	supports Arg1:T24 Arg2:T18
+R23	supports Arg1:T18 Arg2:T1
+R24	supports Arg1:T26 Arg2:T25
+R25	supports Arg1:T28 Arg2:T27
+R26	supports Arg1:T27 Arg2:T25

@@ -1,0 +1,16 @@
+T1	MajorClaim 365 526	To ease this difference and help the less fortune countries, the richer countries should take efforts in improving important areas in the less fortune countries.
+T2	Premise 528 887	Most of the people in African and poor countries live in difficult conditions because of their countries locate in areas where lack of natural resources and have bad weather conditions for development as well. In these countries, citizens are in need for foods, corrupt and unemployment rate is at high level, the consequences of AIDS are devastating quickly.
+T3	Claim 888 1143	These problems will be dealt with if the richer countries agree to help by donating free drugs for the inflected population, sending doctors and nurses to treat and educate those in need, teaching the inflected citizens how to prevent this disease spread.
+T4	Premise 1145 1494	Furthermore, most economies of developing countries depends on exporting raw material and agricultural products as rice, corn. Then, they buy industrialized products from developed countries which result in financial deficit. This made poor countries have to borrow significant amount of money from World Bank which they can not repay even interest.
+T5	Premise 1495 1546	Sometimes, the money disappears without any impact.
+T6	Claim 1547 1689	Regarding to this issue, the G8 which include eight richest countries decided to forgive billions of dollars in debts owned by poor countries.
+T7	Claim 1835 1927	Besides rely on helps from rich countries, poor countries should take efforts by themselves.
+A1	Stance T3 For
+A2	Stance T6 For
+A3	Stance T7 For
+R1	supports Arg1:T2 Arg2:T3
+R2	supports Arg1:T3 Arg2:T1
+R3	supports Arg1:T4 Arg2:T6
+R4	supports Arg1:T5 Arg2:T6
+R5	supports Arg1:T6 Arg2:T1
+R6	supports Arg1:T7 Arg2:T1

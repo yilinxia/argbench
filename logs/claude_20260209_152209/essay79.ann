@@ -1,0 +1,36 @@
+T1	MajorClaim 0 66	Government should spend money on ARTs, not only on public services
+T2	MajorClaim 372 451	I think arts are supposed to be included in the government's investment as well
+T3	Claim 465 534	the government should give priority to public services and facilities
+A1	Stance T3 Against
+T4	Premise 536 722	This is because the government plays the role of a leader among citizens, which should discharge the responsibility of making optimal use of the tax money to keep society safe and stable
+T5	Premise 740 898	public services such as education system or medical care can meet people's basic demand of survival, security and knowledge, thus making them feel comfortable
+T6	Premise 910 930	lower the crime rate
+T7	Claim 943 1056	public services and facilities should be given adequate attention by the authorities to maintain social stability
+A2	Stance T7 Against
+T8	Claim 1087 1145	arts should by no means been disregarded by the government
+A3	Stance T8 For
+T9	Premise 1161 1200	arts can enrich people's cultural lives
+T10	Premise 1202 1302	Currently, people are increasingly occupied with their work and studies due to the stiff competition
+T11	Premise 1318 1429	they require various entertainment such as music, movies or books to them ease their minds and release pressure
+T12	Premise 1431 1504	Without arts, people would be at risk of suffering psychological problems
+T13	Claim 1545 1618	funding arts is beneficial to the local cultural and economic development
+A4	Stance T13 For
+T14	Premise 1620 1675	Cultural heritage constitutes an essential part of arts
+T15	Premise 1677 1893	This means preserving local arts may promote the preservation of the local cultural heritage, which not only helps the local people have a sense of belonging but also contributes to the booming local tourism industry
+T16	Premise 1909 1950	arts serve cultural and economic purposes
+T17	MajorClaim 2005 2086	public services and facilities are an integral part of the government expenditure
+T18	MajorClaim 2106 2208	the authorities should also respect the value of arts which are individually and socially advantageous
+R1	supports Arg1:T4 Arg2:T3
+R2	supports Arg1:T5 Arg2:T3
+R3	supports Arg1:T6 Arg2:T3
+R4	supports Arg1:T9 Arg2:T8
+R5	supports Arg1:T10 Arg2:T11
+R6	supports Arg1:T11 Arg2:T8
+R7	supports Arg1:T12 Arg2:T8
+R8	supports Arg1:T14 Arg2:T13
+R9	supports Arg1:T15 Arg2:T13
+R10	supports Arg1:T16 Arg2:T13
+R11	supports Arg1:T3 Arg2:T2
+R12	supports Arg1:T7 Arg2:T2
+R13	supports Arg1:T8 Arg2:T2
+R14	supports Arg1:T13 Arg2:T2

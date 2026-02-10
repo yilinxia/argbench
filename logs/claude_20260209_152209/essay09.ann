@@ -1,0 +1,69 @@
+T1	MajorClaim 204 372	Users of the drug aren't the only ones who support cannabis; many of us who do not indulge are pro-legalization because we see that prohibition does more harm than good
+T2	Claim 374 442	The legalization of marijuana would help get the economy going again
+A1	Stance T2 For
+T3	Premise 444 561	Despite great efforts by the federal government against marijuana, it has become a large part of the national economy
+T4	Premise 563 707	Imagine if we were to legalize and tax it, the government would make tons of profit and we could start paying off this $16trillion national debt
+T5	Premise 709 812	Not to mention it would create tons of jobs and people in prison for marijuana crimes would be released
+T6	Premise 814 951	In a country with only 5% of the earth's population, the United States holds 25% of the world's prisoners ("Marijuana Prison Statistics")
+T7	Premise 953 1029	A significant amount of those criminals are in there for drug related crimes
+T8	Claim 1031 1069	The war on drugs is a complete failure
+A2	Stance T8 For
+T9	Premise 1071 1184	It's done nothing but waste tax payer dollars, fill prisons with non violent criminals, and create a black market
+T10	Premise 1186 1291	The main reason cannabis remains illegal is because lobbyists are making tons of money off of prohibition
+T11	Premise 1293 1452	For example, Pharmaceutical companies lobby against cannabis because at a lower price, there are so many drugs (painkillers, sleep medication) it could replace
+T12	Premise 1454 1527	Another group that benefits greatly from prohibition are the drug cartels
+T13	Premise 1529 1627	Legalize marijuana and you cut a huge percent of their profits, army strength, and political power
+T14	Claim 1629 1711	Otherwise they're going to do whatever they can to save the marijuana black market
+A3	Stance T14 For
+T15	Claim 1713 1803	You could argue that marijuana is physically unhealthy for you and that's why it's illegal
+A4	Stance T15 Against
+T16	Premise 1805 1929	But then you'd have to explain why alcohol and tobacco are legal because those substances are way more harmful than cannabis
+T17	Premise 1931 2030	79,000 people a year die from alcohol poisoning, while zero people have died from overdosing on pot
+T18	Claim 2032 2104	People think that prohibition has kept marijuana out of children's hands
+A5	Stance T18 Against
+T19	Claim 2106 2180	They think legalizing this drug would expose more children and teens to it
+A6	Stance T19 Against
+T20	Premise 2182 2267	It's a whole lot easier for kids to obtain marijuana as opposed to alcohol or tobacco
+T21	Premise 2269 2324	A drug dealer doesn't check for ID like a cashier would
+T22	Premise 2326 2532	Teens are susceptible to harsher drugs after trying marijuana because they are introduced to these hardcore drugs in the same underground market where they got the marijuana, not because it's a gateway drug
+T23	Claim 2534 2650	Another thing that is often said is that marijuana is addictive and can be abused, thus making it mentally unhealthy
+A7	Stance T23 Against
+T24	Premise 2652 2754	This is an unfair statement, anything has the potential to be abused, even something as simple as food
+T25	Claim 2757 2828	You never hear about the positive effects marijuana can have on society
+A8	Stance T25 For
+T26	Premise 2830 2953	Many musicians admit that cannabis helps them get creative with their music and opens their minds to new ideas and concepts
+T27	Premise 2955 3081	Many cancer patients have used medical marijuana as a way of dealing with nausea after treatment or stimulating their appetite
+T28	Claim 3083 3184	The point is people have benefited from marijuana whether it was for medical or recreational purposes
+A9	Stance T28 For
+T29	Premise 3186 3338	Cannabis is classified as a schedule one drug, this suggests that it is as dangerous and addictive as heroin, meth, and even more dangerous than cocaine
+T30	Claim 3340 3459	Even if you believe that's accurate information, who are you to tell people what they can and can't put in their bodies
+A10	Stance T30 For
+T31	Premise 3461 3543	Expecting everyone to adapt to your beliefs or morals is extremely narrowed minded
+R1	supports Arg1:T3 Arg2:T2
+R2	supports Arg1:T4 Arg2:T2
+R3	supports Arg1:T5 Arg2:T2
+R4	supports Arg1:T6 Arg2:T5
+R5	supports Arg1:T7 Arg2:T6
+R6	supports Arg1:T9 Arg2:T8
+R7	supports Arg1:T10 Arg2:T8
+R8	supports Arg1:T11 Arg2:T10
+R9	supports Arg1:T12 Arg2:T8
+R10	supports Arg1:T13 Arg2:T12
+R11	supports Arg1:T14 Arg2:T12
+R12	attacks Arg1:T16 Arg2:T15
+R13	supports Arg1:T17 Arg2:T16
+R14	attacks Arg1:T20 Arg2:T18
+R15	attacks Arg1:T20 Arg2:T19
+R16	supports Arg1:T21 Arg2:T20
+R17	supports Arg1:T22 Arg2:T20
+R18	attacks Arg1:T24 Arg2:T23
+R19	supports Arg1:T26 Arg2:T25
+R20	supports Arg1:T27 Arg2:T25
+R21	supports Arg1:T26 Arg2:T28
+R22	supports Arg1:T27 Arg2:T28
+R23	attacks Arg1:T29 Arg2:T30
+R24	supports Arg1:T31 Arg2:T30
+R25	supports Arg1:T2 Arg2:T1
+R26	supports Arg1:T8 Arg2:T1
+R27	supports Arg1:T28 Arg2:T1
+R28	supports Arg1:T30 Arg2:T1

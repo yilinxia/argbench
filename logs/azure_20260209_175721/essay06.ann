@@ -1,0 +1,109 @@
+T1	MajorClaim 3217 3305	In conclusion, exercising is the key to making your life healthier, longer, and happier.
+T2	Claim 0 23	Why you should Exercise
+T3	Claim 250 325	Exercise not only reduces the risk of health problems and various diseases,
+T4	Claim 330 374	it also has an effect on overall appearance.
+T5	Claim 375 460	It is proven that exercising and being active can improve self-esteem and confidence.
+T6	Claim 461 539	Excerising is one of the most important things in life and it can even be fun.
+T7	Claim 540 613	It is a crucial element for living a healthier, longer, and happier life.
+T8	Claim 615 700	The number one reason why people should exercise is because it will keep you healthy.
+T9	Premise 701 826	Americans are eating enormous amounts of fast foods these days, so cardiovascular diseases are becoming more and more common.
+T10	Premise 827 981	One out of every four Americans are suffering from some form of cardiovascular diseases, which results in more than forty-five percent of deaths annually.
+T11	Premise 982 1027	The main cause for this condition is obesity.
+T12	Premise 1028 1101	The more body fat that you have, the greater your risk for heart disease.
+T13	Premise 1102 1178	However, this condition can easily be prevented or controlled by exercising.
+T14	Premise 1179 1223	Exercising makes the heart muscles stronger.
+T15	Premise 1224 1385	When your heart muscle is strong it can do the same amount of work at a lower heart rate, so the heart doesn't have to work as hard as it does with weak muscles.
+T16	Premise 1386 1536	In today's society people are less concerned with the food they eat and their physical condition, so many serious illnesses are becoming quite common.
+T17	Premise 1537 1681	Exercising not only helps prevent cardiovascular diseases, but it also helps prevent strokes, type 2 diabetes, and even certain types of cancer.
+T18	Claim 1683 1763	The second benefit to exercising is that it improves self-esteem and confidence.
+T19	Premise 1764 1863	Most people think of exercising as only being a physical activity, but it's also a mental activity.
+T20	Premise 1864 1971	There have been studies that show evidence that people who exercise have higher self esteem and confidence.
+T21	Premise 1972 2053	It also showed that active people are less likely to have depression and anxiety.
+T22	Premise 2054 2177	Exercising gives people energy, which helps people have positive outlooks on life and it helps relieves tension and stress.
+T23	Premise 2178 2283	When you exercise you body releases endorphins, which are chemicals that create a happy feeling in brain.
+T24	Premise 2284 2397	Plus, when you're exercising you're bringing more oxygen into you lungs and your brain appreciates the extra air.
+T25	Premise 2398 2463	Exercising also helps improve you brain function and your memory.
+T26	Claim 2464 2530	In my opinion the best reason to exercise is that it's really fun!
+T27	Premise 2531 2618	Most people think that exercising takes up a lot of time and it requires too much work.
+T28	Premise 2619 2714	When people actually take the time to try exercising they realize it's an enjoyable experience.
+T29	Premise 2715 2783	It doesn't matter how you exercise, as long as you are being active.
+T30	Premise 2784 2886	Everyone enjoys different sports or activities, so it's important to figure out which is best for you.
+T31	Premise 2887 2987	When you having fun you don't even realize that your exercising and you look forward to it everyday.
+T32	Premise 2988 3074	Setting goals and rewards will help you stay motivated and consistent with exercising.
+T33	Premise 3075 3181	There is no greater feeling than achieving a weight lose goal and being able to feel good about your body.
+T34	Premise 3182 3216	It makes exercising well worth it.
+T35	Claim 3232 3305	exercising is the key to making your life healthier, longer, and happier.
+T36	Claim 3232 3283	exercising is the key to making your life healthier
+T37	Claim 3232 3283	exercising is the key to making your life healthier
+T38	Claim 3232 3305	exercising is the key to making your life healthier, longer, and happier.
+T39	Claim 3306 3393	It is one of the most important things in life and it's one hundred percent beneficial.
+T40	Claim 250 325	Exercise not only reduces the risk of health problems and various diseases,
+T41	Claim 1864 1971	There have been studies that show evidence that people who exercise have higher self esteem and confidence.
+T42	Claim 1864 1971	There have been studies that show evidence that people who exercise have higher self esteem and confidence.
+T43	Claim 1972 2053	It also showed that active people are less likely to have depression and anxiety.
+T44	Claim 2464 2530	In my opinion the best reason to exercise is that it's really fun!
+T45	Claim 3394 3570	Many people come up with plenty of excuses to not exercise; however, if you truly want to improve your mental and physical health you will find the energy and time to exercise.
+T46	Claim 3571 3673	Everyone should take time out of their days to exercise, so they can improve their lives in many ways.
+T47	Claim 3674 3786	So next time you are deciding whether or not to exercise just think of the benefits you will experience from it.
+T48	Claim 3787 3828	It is extremely rewarding and worthwhile.
+A1	Stance T2 For
+A2	Stance T3 For
+A3	Stance T4 For
+A4	Stance T5 For
+A5	Stance T6 For
+A6	Stance T7 For
+A7	Stance T8 For
+A8	Stance T18 For
+A9	Stance T26 For
+A10	Stance T35 For
+A11	Stance T36 For
+A12	Stance T37 For
+A13	Stance T38 For
+A14	Stance T39 For
+A15	Stance T40 For
+A16	Stance T41 For
+A17	Stance T42 For
+A18	Stance T43 For
+A19	Stance T44 For
+A20	Stance T45 For
+A21	Stance T46 For
+A22	Stance T47 For
+A23	Stance T48 For
+R1	supports Arg1:T2 Arg2:T1
+R2	supports Arg1:T3 Arg2:T1
+R3	supports Arg1:T4 Arg2:T1
+R4	supports Arg1:T5 Arg2:T1
+R5	supports Arg1:T6 Arg2:T1
+R6	supports Arg1:T7 Arg2:T1
+R7	supports Arg1:T8 Arg2:T1
+R8	supports Arg1:T9 Arg2:T8
+R9	supports Arg1:T10 Arg2:T8
+R10	supports Arg1:T11 Arg2:T8
+R11	supports Arg1:T12 Arg2:T8
+R12	supports Arg1:T13 Arg2:T8
+R13	supports Arg1:T14 Arg2:T8
+R14	supports Arg1:T15 Arg2:T14
+R15	supports Arg1:T16 Arg2:T8
+R16	supports Arg1:T17 Arg2:T8
+R17	supports Arg1:T18 Arg2:T1
+R18	supports Arg1:T19 Arg2:T18
+R19	supports Arg1:T20 Arg2:T18
+R20	supports Arg1:T21 Arg2:T18
+R21	supports Arg1:T22 Arg2:T18
+R22	supports Arg1:T23 Arg2:T22
+R23	supports Arg1:T24 Arg2:T22
+R24	supports Arg1:T25 Arg2:T18
+R25	supports Arg1:T26 Arg2:T1
+R26	supports Arg1:T27 Arg2:T26
+R27	supports Arg1:T28 Arg2:T26
+R28	supports Arg1:T29 Arg2:T26
+R29	supports Arg1:T30 Arg2:T26
+R30	supports Arg1:T31 Arg2:T26
+R31	supports Arg1:T32 Arg2:T26
+R32	supports Arg1:T33 Arg2:T26
+R33	supports Arg1:T34 Arg2:T26
+R34	supports Arg1:T39 Arg2:T1
+R35	supports Arg1:T45 Arg2:T1
+R36	supports Arg1:T46 Arg2:T1
+R37	supports Arg1:T47 Arg2:T46
+R38	supports Arg1:T48 Arg2:T1

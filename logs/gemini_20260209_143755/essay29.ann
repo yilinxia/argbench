@@ -1,0 +1,29 @@
+T1	MajorClaim 214 306	Working outside home will bring a lot of benefits to both married woman and their household.
+T2	Claim 49 213	Personally, I believe that married women nowadays have right to take up jobs like men when employment discrimination based on gender have been erased significantly.
+T3	Claim 364 436	extra income that women earn will contribute to their family's expenses.
+T4	Premise 437 511	By taking up a job, a wife can earn more money to support her family life.
+T5	Premise 512 630	This is really necessary in cases of her husband's low salary and the difficulty of getting a good job at the present.
+T6	Premise 635 702	it is a normal practice for women to be helpmates in earning money.
+T7	Claim 713 863	working outside the house creates opportunities for married women to contact with the outer world, strengthen their character and show their capacity.
+T8	Premise 864 928	These things in turn will make them more confident, independent.
+T9	Premise 929 984	These women will set a good example for their children.
+T10	Premise 996 1065	it is no doubt that they play roles as a mother and as a wife better.
+T11	Claim 1086 1176	nowadays, there are many supporting conditions that help women balance housework and work.
+T12	Premise 1177 1339	Besides the gorvernment's policies on limited families and their husbands' sharing in the housework, many employers are willing to offer part-time jobs for women.
+T13	Premise 1355 1522	a well-organized home does not need the housewife's presence the whole day long and married women could go to work in order to enjoy the working life outside the home.
+A1	Stance T2 For
+A2	Stance T3 For
+A3	Stance T7 For
+A4	Stance T11 For
+R1	supports Arg1:T2 Arg2:T1
+R2	supports Arg1:T3 Arg2:T1
+R3	supports Arg1:T4 Arg2:T3
+R4	supports Arg1:T5 Arg2:T4
+R5	supports Arg1:T6 Arg2:T3
+R6	supports Arg1:T7 Arg2:T1
+R7	supports Arg1:T8 Arg2:T7
+R8	supports Arg1:T9 Arg2:T7
+R9	supports Arg1:T10 Arg2:T7
+R10	supports Arg1:T11 Arg2:T1
+R11	supports Arg1:T12 Arg2:T11
+R12	supports Arg1:T13 Arg2:T1

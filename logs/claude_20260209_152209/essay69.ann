@@ -1,0 +1,25 @@
+T1	MajorClaim 242 334	This, contrary to some ideas, is a positive progress in human society from my point of view.
+T2	Claim 350 430	the fairness between males and females is inevitable in such a developed society
+T3	Premise 432 542	Gone are the days when women could do nothing rather than stick to boring house work and take care of children
+T4	Premise 544 680	Women nowadays are much more active, they may be successful businessmen, they join the political world, they become scientists and so on
+T5	Premise 698 902	the "weaker" gender as often be thought has enough right as well as ability to contribute to the development of human beings just like any other men, not to mention they even perform better in some fields
+T6	Claim 925 1032	the revolution in females' right has brought about many benefits not only to themselves but society as well
+T7	Premise 1034 1168	The financial burden of families, for instance, has decreased significantly with both the wives and the husbands working to earn money
+T8	Premise 1184 1325	women have the outstanding instinct to take up some careers lie healthcare or human resource management due to their patience and elaboration
+T9	Claim 1339 1537	such changes do lead to some negative results like an upward trend in divorce rate or, under many circumstances, women find it difficult to balance their work and their traditional role as the wives
+T10	Premise 1545 1627	children might enjoy less care from parents as they arre both busy with theit work
+T11	Premise 1633 1730	everything has it upside and downside, women should find the best way to overcome such challenges
+T12	MajorClaim 1758 1900	a society where females are given equal opportunities compared with males would obviously enjoy lots of benefits far outweighing its obstacles
+A1	Stance T2 For
+A2	Stance T6 For
+A3	Stance T9 Against
+R1	supports Arg1:T3 Arg2:T2
+R2	supports Arg1:T4 Arg2:T2
+R3	supports Arg1:T5 Arg2:T2
+R4	supports Arg1:T2 Arg2:T1
+R5	supports Arg1:T7 Arg2:T6
+R6	supports Arg1:T8 Arg2:T6
+R7	supports Arg1:T6 Arg2:T1
+R8	supports Arg1:T10 Arg2:T9
+R9	attacks Arg1:T11 Arg2:T9
+R10	attacks Arg1:T9 Arg2:T1

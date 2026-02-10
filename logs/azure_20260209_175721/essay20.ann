@@ -1,0 +1,29 @@
+T1	MajorClaim 176 301	I believe that more reponsibilities should put on private individuals and companies such as paying to clean up air pollution.
+T2	Claim 702 856	If these companies were obliged to pay to clean up the air pollution, they would at least make an effort to reduce the amount of air pollution they cause.
+T3	Premise 310 425	in most industrialised countries, there is a number of companies that holds heavy factories in their constitutions.
+T4	Premise 426 535	The waste products and harmful gases produced by these factories cause a significant amount of air pollution.
+T5	Premise 536 701	While these companies make a huge amount of money from their bussinesses, most of them are not considering to take precautions to reduce the amount of air pollution.
+T6	Claim 1206 1347	In my opinion, by charging private indiviuals for causing air pollution, that will at least contribute to reduce the amount of the pollution.
+T7	Premise 865 971	private individuals cause air pollution in several ways such as inessential use of cars and house heating.
+T8	Premise 972 1130	As house heating is a major need in the winter time, some households do not consider to use filters to reduce the amount of pollution that the heating causes.
+T9	Premise 1148 1205	some expensive wehicles cause a huge amount of pollution.
+T10	Claim 1349 1491	On the other hand, I believe that governments should restrict the use of products that cause air pollution for both individuals and companies.
+T11	Claim 1492 1658	Governments also should use an amount of money from their budgets to clean up the air, instead of putting all the responsibility to companies and private individuals.
+T12	MajorClaim 1660 1941	In conclusion, due to the fact that governments are responsible to provide a healthy enviorement for their inhabitants and they should be responsible from cleaning up the air pollution, both companies and private individuals should take the main part to clean up the air pollution.
+T13	Premise 1696 1941	governments are responsible to provide a healthy enviorement for their inhabitants and they should be responsible from cleaning up the air pollution, both companies and private individuals should take the main part to clean up the air pollution.
+A1	Stance T2 For
+A2	Stance T6 For
+A3	Stance T10 Against
+A4	Stance T11 Against
+R1	supports Arg1:T3 Arg2:T2
+R2	supports Arg1:T4 Arg2:T2
+R3	supports Arg1:T5 Arg2:T2
+R4	supports Arg1:T2 Arg2:T1
+R5	supports Arg1:T7 Arg2:T6
+R6	supports Arg1:T8 Arg2:T6
+R7	supports Arg1:T9 Arg2:T6
+R8	supports Arg1:T6 Arg2:T1
+R9	attacks Arg1:T10 Arg2:T1
+R10	attacks Arg1:T11 Arg2:T1
+R11	supports Arg1:T13 Arg2:T12
+R12	supports Arg1:T12 Arg2:T1

@@ -1,0 +1,20 @@
+T1	MajorClaim 261 303	In my opinion, the latter opinion is true.
+T2	Claim 311 374	using computer constantly has bad influence on children's eyes.
+A1	Stance T2 Against
+T3	Premise 375 522	When they concentrate on computer for too long, their eyes will get tired, which is the main reason for some eyes problems, typically shortsighted.
+T4	Claim 533 664	children who play games too much on computer can seriously lack communicating skills, they will know little about the outside life.
+A2	Stance T4 Against
+T5	Premise 665 796	It is a well-known fact that people who are addicted to games, especially online games, can eventually bear dangerous consequences.
+T6	Premise 797 974	For instance, several teenagers play games without rest, which leads to health depression, a typical example is the death of Korean gamer, who had a non-stop playing for 3 days.
+T7	Claim 984 1094	even people who are not interested in online game can still be negatively affected by using computer too much.
+A3	Stance T7 Against
+T8	Premise 1095 1240	Some social surveys have shown that a few children use computer for studying purpose, most of them are attracted by facebook, blog, etc. instead.
+T9	Premise 1241 1391	Due to this neglect, they will have a bad result in school because when they can not live without internet, they will have no time for their studying.
+R1	supports Arg1:T2 Arg2:T1
+R2	supports Arg1:T3 Arg2:T2
+R3	supports Arg1:T4 Arg2:T1
+R4	supports Arg1:T5 Arg2:T4
+R5	supports Arg1:T6 Arg2:T5
+R6	supports Arg1:T7 Arg2:T1
+R7	supports Arg1:T8 Arg2:T7
+R8	supports Arg1:T9 Arg2:T8

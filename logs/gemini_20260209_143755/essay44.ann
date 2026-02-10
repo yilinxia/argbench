@@ -1,0 +1,32 @@
+T1	MajorClaim 1327 1426	To conclude, it would be a better implication by the government to promote other sources of energy.
+T2	Premise 77 174	The increasing population and the technological advancements demand more energy than in the past.
+T3	Premise 175 295	It is believed that there are various other resources such as the nuclear and solar which are abundant and eco-friendly.
+T4	Premise 337 388	Firstly, the major source of energy today is water.
+T5	Premise 389 501	Although there is a lot of water shortage to generate electricity many countries still rely only on this source.
+T6	Premise 502 577	To generate such a vast energy the fundamental resources are falling short.
+T7	Premise 578 673	Thus, during summer there will be a lot of power cut in the developing countries such as India.
+T8	Claim 674 822	If the government encourage the use of nuclear, solar or wind energy there might not be any problem in distributing the required amount electricity.
+A1	Stance T8 For
+T9	Claim 823 936	Therefore, it would be a good implication by the government to generate electricity from other available sources.
+A2	Stance T9 For
+T10	Claim 937 1090	Secondly, the sources most widely used currently to generate power releases extensive amount of gases into the atmosphere which increases global warming.
+A3	Stance T10 For
+T11	Premise 1091 1202	For example, the use of a solar cooker instead of an electric cooker would certainly reduce the global warming.
+T12	Premise 1203 1326	In the same way, the use of nuclear energy as an alternative to the hydro-kinetic energy causes less atmospheric pollution.
+T13	Claim 1427 1526	This can make use of the available natural resources which in turn would reduce the global warming.
+A4	Stance T13 For
+T14	Claim 1527 1656	Further, government should motivate and encourage the people to use alternative sources such as the solar and the nuclear energy.
+A5	Stance T14 For
+R1	supports Arg1:T2 Arg2:T1
+R2	supports Arg1:T3 Arg2:T1
+R3	supports Arg1:T4 Arg2:T7
+R4	supports Arg1:T5 Arg2:T7
+R5	supports Arg1:T6 Arg2:T7
+R6	supports Arg1:T7 Arg2:T8
+R7	supports Arg1:T8 Arg2:T9
+R8	supports Arg1:T9 Arg2:T1
+R9	supports Arg1:T11 Arg2:T10
+R10	supports Arg1:T12 Arg2:T10
+R11	supports Arg1:T10 Arg2:T1
+R12	supports Arg1:T13 Arg2:T1
+R13	supports Arg1:T14 Arg2:T1

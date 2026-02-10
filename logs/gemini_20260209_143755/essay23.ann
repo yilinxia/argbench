@@ -1,0 +1,31 @@
+T1	MajorClaim 216 303	I do not think these disadvantages will outweigh the advantages brought by cell phones.
+T2	Claim 541 670	Speaking loudly on the phone in public areas, such as schools, libraries and hospitals appears to be very impolite and offensive.
+A1	Stance T2 Against
+T3	Claim 687 839	some students utilize their cell phones as an effective cheating tools in examinations in which they can send and receive answers by texting each other.
+A2	Stance T3 Against
+T4	Claim 840 969	Nevertheless, it is not impossible to solve these problems, as long as some regulations and rules can be effectively implemented.
+A3	Stance T4 For
+T5	Claim 1003 1049	some harmful effects on our health are lethal.
+A4	Stance T5 Against
+T6	Premise 1050 1257	It has been proved that overusing of the electronic devices including mobile phones could lead to higher possibility of suffering hearing loss and even cancers, although the further investigation are needed.
+T7	Claim 1305 1395	There is panic among people that their conversation can be intercepted by the third party.
+A5	Stance T7 Against
+T8	Premise 1396 1433	This possibility exists all the time.
+T9	Claim 1434 1542	But a more efficient and reliable system can also be invented to guarantee the private information of users.
+A6	Stance T9 For
+T10	Claim 1553 1640	the mobile phone has become a dispensable multifunctional tools in people's daily life.
+A7	Stance T10 For
+T11	Premise 1641 1771	Not only used for communication, but it also functions as an Internet browser, a music player , a personal organiser and so forth.
+T12	Claim 1833 1950	The contribution of the mobile phone to our modern society is prominent and people's dependence on it is irreversible
+A8	Stance T12 For
+R1	attacks Arg1:T2 Arg2:T1
+R2	attacks Arg1:T3 Arg2:T1
+R3	supports Arg1:T4 Arg2:T1
+R4	attacks Arg1:T5 Arg2:T1
+R5	supports Arg1:T6 Arg2:T5
+R6	attacks Arg1:T7 Arg2:T1
+R7	supports Arg1:T8 Arg2:T7
+R8	supports Arg1:T9 Arg2:T1
+R9	supports Arg1:T10 Arg2:T1
+R10	supports Arg1:T11 Arg2:T10
+R11	supports Arg1:T12 Arg2:T1

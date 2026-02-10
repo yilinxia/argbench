@@ -1,0 +1,32 @@
+T1	MajorClaim 2174 2228	knowledge from experience as the more important source
+T2	Claim 607 709	knowledge acquired from books is greatly accepted, which means that it is right to the bulk of people.
+A1	Stance T2 Against
+T3	Premise 489 595	It is apparent that books are often written by professors, experts, or authorities in a variety of fields.
+R1	supports Arg1:T3 Arg2:T2
+T4	Premise 829 890	it is common in books that water boils at 100 Celcius degree.
+T5	Claim 900 1037	the result is not always the same in reality because it also depends on the height, the purity of the water, and even the measuring tool.
+A2	Stance T5 For
+R2	supports Arg1:T4 Arg2:T5
+R3	attacks Arg1:T5 Arg2:T2
+R4	supports Arg1:T5 Arg2:T1
+T6	Claim 1327 1387	it is difficult to apply knowledge from books into practice.
+A3	Stance T6 For
+T7	Claim 1397 1509	it is easy to put knowledge from experience in real life because it is acquired from what have happened to them.
+A4	Stance T7 For
+T8	Premise 1198 1312	information contained in books is usually put in criteria so that many people can read and understand the content.
+R5	supports Arg1:T8 Arg2:T6
+T9	Premise 1524 1802	a student decides to learn about chemical reactions from books. This method is likely to be fast, simple, and even safe. Nevertheless, there is an increased likelihood that he neither remembers the necessary information for a long time nor knows how to do an make an experiment.
+R6	supports Arg1:T9 Arg2:T6
+T10	Premise 1803 1992	Meanwhile, if he goes to the library and carries out the reactions, he is certain to have a thorough grasp of the phenomena seen. He is also able to use this information for the next times.
+R7	supports Arg1:T10 Arg2:T7
+T11	Claim 1993 2076	Indeed, knowledge from experience helps people more than knowledge from books does.
+A5	Stance T11 For
+R8	supports Arg1:T6 Arg2:T11
+R9	supports Arg1:T7 Arg2:T11
+R10	supports Arg1:T11 Arg2:T1
+T12	Claim 2113 2153	knowledge from books is widely accepted.
+A6	Stance T12 Against
+T13	Premise 2229 2274	because of its negative impacts on real life.
+R11	supports Arg1:T13 Arg2:T1
+T14	Premise 2275 2362	Experiencing a thing and drawing information from it is really interesting and helpful.
+R12	supports Arg1:T14 Arg2:T1

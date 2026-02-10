@@ -1,0 +1,38 @@
+T1	MajorClaim 1888 1969	Thus, the idea that advertising is a positive part of life can be more supported.
+T2	Claim 193 249	it is thought to be a necessary part of today's society.
+T3	Claim 250 369	Many believe that advertising has brought great benefits to lives therefore it should be considered a positive activity
+T4	Claim 370 430	while others have held a complete different idea about this.
+T5	Claim 501 672	First, it is generally understood that advertising is carried out with the main purpose of promoting different products and services or encouraging people to consume more.
+T6	Claim 673 775	Advertisements are, therefore, very important for many businesses to increase sales and hence profits.
+T7	Claim 776 837	Also, to consumers, advertising can bring them many benefits.
+T8	Premise 838 1070	For example, customers of telecommunication services will have an idea about the current offers of different companies and hence they can compare them and then have a better decision in choosing their internet or mobile phone plans.
+T9	Claim 1071 1192	From all of these, it is easy to see why the idea that advertising is a positive part of life will garner strong support.
+T10	Claim 1193 1294	However, it can be seen that some people have argued against advertising due to its negative impacts.
+T11	Premise 1295 1513	Firstly, a huge amount of different advertisements could be sent automatically by a system to personal phones or email addresses, this is generally known as spam, and causes discomfort or even annoyance to many people.
+T12	Premise 1514 1642	Secondly, advertising can be very expensive and not every advertising campaign can be done successfully and brings good results.
+T13	Claim 1643 1720	Therefore, advertising is believed by many, a financial burden to businesses.
+T14	Claim 1825 1887	but it is felt that more good comes from advertising than bad.
+A1	Stance T2 For
+A2	Stance T3 For
+A3	Stance T4 Against
+A4	Stance T5 For
+A5	Stance T6 For
+A6	Stance T7 For
+A7	Stance T9 For
+A8	Stance T10 Against
+A9	Stance T13 Against
+A10	Stance T14 For
+R1	supports Arg1:T2 Arg2:T1
+R2	supports Arg1:T3 Arg2:T1
+R3	attacks Arg1:T4 Arg2:T1
+R4	supports Arg1:T5 Arg2:T9
+R5	supports Arg1:T6 Arg2:T9
+R6	supports Arg1:T7 Arg2:T9
+R7	supports Arg1:T8 Arg2:T7
+R8	supports Arg1:T9 Arg2:T1
+R9	attacks Arg1:T10 Arg2:T1
+R10	supports Arg1:T11 Arg2:T10
+R11	supports Arg1:T12 Arg2:T10
+R12	supports Arg1:T12 Arg2:T13
+R13	supports Arg1:T13 Arg2:T10
+R14	supports Arg1:T14 Arg2:T1

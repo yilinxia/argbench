@@ -1,0 +1,22 @@
+T1	MajorClaim 0 61	teaching and researching working together lead to the success
+T2	Claim 421 551	This essay will argue that the main functions of universities as the highest educational institution are teaching and researching.
+T3	Claim 552 720	Firstly, imparting knowledge and educating people are basic duty of universities where people decide career direction and acquire more specialized knowledge and skills.
+T4	Premise 721 853	Systematic and comprehensive training programs in specific fields urge people to master information required quickly and thoroughly.
+T5	Premise 854 981	Nevertheless, universities are not only continuation of schooling but a platform where people start knowing more about society.
+T6	Premise 982 1188	The essential social capabilities such as communication skills, teamwork, leadership and time management are gradually cultivated with group workshops and various kinds of social activities in universities.
+T7	Claim 1189 1380	Secondly, universities playing the most important role in education system have to guarantee the knowledge conveyed is true and useful, which can be achieved through the researching function.
+T8	Premise 1381 1570	Old knowledge is applied to particular problems during research and solutions found often bring about innovations in culture and technology to promote human and communities to step forward.
+T9	MajorClaim 1571 1760	In conclusion, it can be seen that universities produce a great many of talents with outstanding teaching and advance the progress of human society with achievements in scientific research.
+T10	MajorClaim 1761 1852	Both teaching and researching working together lead to the success of today's universities.
+A1	Stance T2 For
+A2	Stance T3 For
+A3	Stance T7 For
+R1	supports Arg1:T2 Arg2:T1
+R2	supports Arg1:T3 Arg2:T2
+R3	supports Arg1:T4 Arg2:T3
+R4	supports Arg1:T5 Arg2:T3
+R5	supports Arg1:T6 Arg2:T3
+R6	supports Arg1:T7 Arg2:T2
+R7	supports Arg1:T8 Arg2:T7
+R8	supports Arg1:T9 Arg2:T1
+R9	supports Arg1:T10 Arg2:T1

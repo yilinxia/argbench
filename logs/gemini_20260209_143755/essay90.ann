@@ -1,0 +1,30 @@
+T1	MajorClaim 460 631	from my perspective, I suppose this suggestion is not advisable, for it cannot alter the situation essentially and instead it may give rise to new concerns in rural areas.
+T2	Claim 644 768	moving big companies, factories and their employees to the rural area can help ease traffic congestion and housing scarcity.
+A1	Stance T2 Against
+T3	Premise 769 927	As people work in the countryside, they will not have to commute in cities at peak times such as eight o'clock in the morning or six o'clock in the afternoon.
+T4	Premise 942 1009	urban traffic jam can be, to some extent, relieved in this respect.
+T5	Premise 1029 1187	the relocation of companies and factories in cities may leave more space to build new residential areas, thus alleviating the urban housing crisis at present.
+T6	Claim 1197 1283	the proposed measure is not fundamental to resolve urban traffic and housing problems.
+A2	Stance T6 For
+T7	Premise 1300 1403	some employees are reluctant to live in the rural areas only due to the relocation of their workplaces.
+T8	Premise 1474 1712	Taking into the growth of their children into consideration, the married workers may believe the educational resources in cities are far superior to ones in the countryside, and because of this, they probably opt for living in the cities.
+T9	Premise 1719 1853	these employers have to commute between the cities and the countryside, which is ineffective in tackling traffic and housing problems.
+T10	Premise 1869 1924	the workers have to consume more time and traffic fees.
+T11	Claim 1931 2008	the suggested step can bring about environmental problems in the rural areas.
+A3	Stance T11 For
+T12	Premise 2009 2142	As companies and factories move to the countryside, they may deplete the local natural resources as the raw materials for production.
+T13	Premise 2152 2240	the untreated pollutants the plants discharge can be damaging to the rural environment .
+T14	Premise 2251 2343	moving companies, factories and employees to the rural areas can ruin the environment there.
+R1	supports Arg1:T3 Arg2:T2
+R2	supports Arg1:T4 Arg2:T2
+R3	supports Arg1:T5 Arg2:T2
+R4	attacks Arg1:T2 Arg2:T1
+R5	supports Arg1:T7 Arg2:T6
+R6	supports Arg1:T8 Arg2:T7
+R7	supports Arg1:T9 Arg2:T6
+R8	supports Arg1:T10 Arg2:T9
+R9	supports Arg1:T6 Arg2:T1
+R10	supports Arg1:T12 Arg2:T11
+R11	supports Arg1:T13 Arg2:T11
+R12	supports Arg1:T14 Arg2:T11
+R13	supports Arg1:T11 Arg2:T1

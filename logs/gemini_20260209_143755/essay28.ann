@@ -1,0 +1,31 @@
+T1	MajorClaim 475 636	Society does need an advertising but it is our responsibility to control the content and what kind of goods and services we would like to offer to our customers.
+T2	Claim 651 770	I do support the idea that advertising alcohol, cigarettes, goods and services with adult content should be prohibited.
+A1	Stance T2 For
+T3	Claim 1116 1209	by advertising companies, businesses, firms and individuals promote their goods and services.
+A2	Stance T3 For
+T4	Claim 1322 1397	not only many businesses, but also governments have to rely on advertising.
+A3	Stance T4 For
+T5	Claim 1725 1758	modern society needs advertising.
+A4	Stance T5 For
+T6	Premise 779 839	these kind of ads will have negative effect to our children.
+T7	Premise 840 944	Youngsters might be tempted to buy cigarettes or alcohol and later to start consume it on a daily basis.
+T8	Premise 958 1097	some countries take this issue seriously and advertising alcohol, cigarettes and materials with adult content is banned on those countries.
+T9	Premise 1210 1309	Thanks to ads we learn about new products, we can compare them and choose whats it the best for us.
+T10	Premise 1411 1470	tourism makes up one-third of the Czech Republic's economy.
+T11	Premise 1471 1599	In order to promote the country's attractions, the Czech government has to advertise and sell its services to foreign consumers.
+T12	Premise 1600 1696	Only well planned and well targeted advertising will bring more foreign tourists to the country.
+T13	Premise 1759 1821	Ads will keep as well informed about new products and services
+T14	Premise 1860 1947	advertising cigarettes and alcohol will definitely affect our children in negative way.
+R1	supports Arg1:T2 Arg2:T1
+R2	supports Arg1:T6 Arg2:T2
+R3	supports Arg1:T7 Arg2:T6
+R4	supports Arg1:T8 Arg2:T2
+R5	supports Arg1:T3 Arg2:T1
+R6	supports Arg1:T9 Arg2:T3
+R7	supports Arg1:T4 Arg2:T1
+R8	supports Arg1:T10 Arg2:T4
+R9	supports Arg1:T11 Arg2:T10
+R10	supports Arg1:T12 Arg2:T11
+R11	supports Arg1:T5 Arg2:T1
+R12	supports Arg1:T13 Arg2:T5
+R13	supports Arg1:T14 Arg2:T2

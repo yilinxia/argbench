@@ -1,0 +1,28 @@
+T1	MajorClaim 194 301	"this industry has affected the cultural attributes and damaged the natural environment of the tourist destinations."
+T2	Claim 317 442	"it is an undeniable fact that tourists from different cultures will probably cause changes to the cultural identity of the tourist destinations."
+A1	Stance T2 For
+T3	Premise 533 820	Take Thailand for example, in the Vietnam War, many American soldiers came to Thailand for a break and involved in sexual and drug activities, these huge demands caused many local businesses opened and expanded, even illegally involved in under-age prostitutes to maximise their profits.
+T4	Premise 821 926	This was due to the lack of adequate controls by authorities and lead to a bad image of Thailand tourism.
+T5	Claim 927 1033	Therefore this proves that international tourism can create negative impacts on the destination countries.
+A2	Stance T5 For
+T6	Claim 1044 1160	there are clear evidences that tourism increasingly create harms to the natural habitats of the destination appeals.
+A3	Stance T6 For
+T7	Premise 1161 1415	As the Australia’s Great Barrier Reef has shown, the billion visitors per annum has generated immense destruction to this nature wonder, namely breaking the corals caused by walking or throwing boat’s anchors, dropping fuel and other sorts of pollutions.
+T8	Premise 1416 1552	For this reason, many marine lives have been endangered, in the extremes part of the reef become uninhabitable for these marine species.
+T9	Claim 1553 1626	Thus, it is apparent that tourism has threatened the nature environments.
+A4	Stance T9 For
+T10	MajorClaim 1627 1760	To conclude, I strongly believe that the tourism has created threatening pressure on both the sociocultural and natural environments.
+T11	Claim 1761 1885	If authorities do not take steps to appropriately conserve these precious values, they will be destroyed in the near future.
+A5	Stance T11 For
+R1	supports Arg1:T2 Arg2:T1
+R2	supports Arg1:T3 Arg2:T2
+R3	supports Arg1:T4 Arg2:T5
+R4	supports Arg1:T3 Arg2:T5
+R5	supports Arg1:T5 Arg2:T1
+R6	supports Arg1:T6 Arg2:T1
+R7	supports Arg1:T7 Arg2:T6
+R8	supports Arg1:T8 Arg2:T9
+R9	supports Arg1:T7 Arg2:T9
+R10	supports Arg1:T9 Arg2:T1
+R11	supports Arg1:T1 Arg2:T10
+R12	supports Arg1:T11 Arg2:T10

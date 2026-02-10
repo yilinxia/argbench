@@ -1,0 +1,29 @@
+T1	MajorClaim 1684 1973	To conclude, both images and words go hand in hand and one cannot wholly emphasise on only one aspect, either images or words. Hence, for a more meaningful communication, these two elements have their respective roles to play: image to exemplify and words to describe a particular subject.
+T2	Claim 371 488	Hence, I agree only to certain degree that in today's world, image serves as a more effective means of communication.
+A1	Stance T2 For
+T3	Claim 489 542	Firstly, pictures can influence the way people think.
+A2	Stance T3 For
+T4	Claim 1009 1098	Apart from that, images are also widely used in newspapers, magazines and advertisements.
+A3	Stance T4 For
+T5	Claim 1202 1308	Looking from another perspective, written words are also vital in order to spread across certain messages.
+A4	Stance T5 For
+T6	Premise 543 662	For example, nowadays horrendous images are displayed on the cigarette boxes to illustrate the consequences of smoking.
+T7	Premise 663 800	As a result, statistics show a slight reduction in the number of smokers, indicating that they realize the effects of the negative habit.
+T8	Premise 801 1008	Not only that, the magnificent photograph captured by Kevin Carter, which portrayed a starving Sudanese child struck by extreme poverty has successfully highlighted the plight faced by the citizens in Sudan.
+T9	Premise 1099 1201	Thus, it is undeniable that images in the absence of words can obviously claim the attraction of many.
+T10	Premise 1309 1406	With only pictures, everyone is left to their own interpretation on how they perceive the images.
+T11	Premise 1407 1500	Nonetheless, this is different when words are used to explain what the illustration is about.
+T12	Premise 1501 1572	Furthermore, the primary way of educating students is also by this way.
+T13	Premise 1573 1683	Academic textbooks these days are laden with words besides pictures to guide the readers to comprehend better.
+R1	supports Arg1:T2 Arg2:T1
+R2	supports Arg1:T3 Arg2:T2
+R3	supports Arg1:T6 Arg2:T3
+R4	supports Arg1:T7 Arg2:T6
+R5	supports Arg1:T8 Arg2:T3
+R6	supports Arg1:T4 Arg2:T2
+R7	supports Arg1:T9 Arg2:T4
+R8	supports Arg1:T5 Arg2:T1
+R9	supports Arg1:T10 Arg2:T5
+R10	supports Arg1:T11 Arg2:T5
+R11	supports Arg1:T12 Arg2:T5
+R12	supports Arg1:T13 Arg2:T12

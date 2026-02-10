@@ -1,0 +1,30 @@
+T1	MajorClaim 327 436	My view is that while some of them are disturbing, we can not overlook other merits the advertisements bring.
+T2	Claim 437 538	First, it is unfair to restrict those public service advertisements which are creative and inspiring.
+T3	Premise 539 715	In fact, they are not in the purpose of making profits but taking a role of disseminating valued culture, good moral traits and calling for helps for the disabled and the poor.
+T4	Claim 716 838	Besides, it is obvious that publicizing brand image or a particular product of mass media could boost sales for companies.
+T5	Claim 839 963	In a larger sense, it could simulate household spending and therefore promote the economic development of the whole country.
+T6	Premise 964 1141	A recent study shows that after launching an advertising campaign, the sales revenue would increase by 40%, which is the very fact to verify its positive influences on economic.
+T7	Claim 1210 1383	Of course, the advertising expenses lead to a higher product price and some of them express fake information, creating information asymmetry between consumers and companies.
+T8	Claim 1384 1431	Yet, its merits still outweigh these downsides.
+T9	Claim 1432 1532	Taken all together, advertisements have its social responsibility and contribute to economic growth.
+T10	Claim 1533 1561	We can not deny all of them.
+T11	Claim 1562 1676	However, if those with exaggerated and fake information could be banned, advertisements would be welcomed by more.
+A1	Stance T2 For
+A2	Stance T4 For
+A3	Stance T5 For
+A4	Stance T7 Against
+A5	Stance T8 For
+A6	Stance T9 For
+A7	Stance T10 For
+A8	Stance T11 For
+R1	supports Arg1:T2 Arg2:T1
+R2	supports Arg1:T3 Arg2:T2
+R3	supports Arg1:T4 Arg2:T1
+R4	supports Arg1:T5 Arg2:T4
+R5	supports Arg1:T6 Arg2:T5
+R6	attacks Arg1:T7 Arg2:T1
+R7	supports Arg1:T8 Arg2:T1
+R8	attacks Arg1:T7 Arg2:T8
+R9	supports Arg1:T9 Arg2:T1
+R10	supports Arg1:T10 Arg2:T1
+R11	supports Arg1:T11 Arg2:T1

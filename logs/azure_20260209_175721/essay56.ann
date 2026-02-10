@@ -1,0 +1,39 @@
+T1	MajorClaim 317 361	Personally, I agree with the former opinion.
+T2	Claim 362 452	No one can deny the huge benefits of the trend that English is being accepted universally.
+T3	Premise 468 531	communication between countries and cultures become convenient.
+T4	Premise 532 599	In my country, English is a required course from elementary school.
+T5	Premise 600 663	Thus, studying abroad is easy and becomes hot among youngsters.
+T6	Premise 664 811	For them, language obstacle is no longer a problem, which results in mutual understanding and trust between their mother land and the host country.
+T7	Premise 812 885	This, in turn, enhances relationship and promotes international business.
+T8	Premise 899 1017	researchers, especially those who work on high-tech, would have wider range of references if they are good at English.
+T9	Premise 1018 1099	Taking IT industry for an example, top technical science is published in English.
+T10	Premise 1100 1200	It's neither to get a translated version of these articles, nor to always have a translator besides.
+T11	Premise 1201 1276	As a result, they have no choice but choosing English as a second language.
+T12	Claim 1277 1375	Admittedly, opponents may blame that English is making lesser-known languages disappear ever year.
+T13	Premise 1376 1431	Hence, the culture heritage and nation identity vanish.
+T14	Claim 1432 1532	However, this is really short-sighted, ignoring the rapid development of native economy and society.
+T15	Claim 1533 1692	In conclusion, in spite of some negative effects, I'm totally convinced that the prevalent usage of English brings benefits to people and countries all around.
+T16	Claim 1693 1774	I suggest all youths should learn English owing to its key role in globalization.
+T17	Claim 1775 1876	But at the same time, actions, like recording, can be taken to protect native languages and cultures.
+A1	Stance T2 For
+A2	Stance T12 Against
+A3	Stance T14 For
+A4	Stance T15 For
+A5	Stance T16 For
+A6	Stance T17 For
+R1	supports Arg1:T2 Arg2:T1
+R2	supports Arg1:T3 Arg2:T2
+R3	supports Arg1:T4 Arg2:T2
+R4	supports Arg1:T5 Arg2:T2
+R5	supports Arg1:T6 Arg2:T2
+R6	supports Arg1:T7 Arg2:T2
+R7	supports Arg1:T8 Arg2:T2
+R8	supports Arg1:T9 Arg2:T8
+R9	supports Arg1:T10 Arg2:T8
+R10	supports Arg1:T11 Arg2:T8
+R11	attacks Arg1:T12 Arg2:T1
+R12	supports Arg1:T13 Arg2:T12
+R13	attacks Arg1:T14 Arg2:T12
+R14	supports Arg1:T15 Arg2:T1
+R15	supports Arg1:T16 Arg2:T15
+R16	supports Arg1:T17 Arg2:T15

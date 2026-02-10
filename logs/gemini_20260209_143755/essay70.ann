@@ -1,0 +1,29 @@
+T1	MajorClaim 369 439	it is insufficient to increase the petrol price only to solve problems
+T2	Claim 898 950	it seems not easy to increase petrol price instantly
+T3	Premise 775 882	governments have a macro-economic perspective to control price in various areas according to social demands
+T4	Claim 971 1023	pollutions are not just caused by the burning of oil
+T5	Premise 1025 1108	chemical pollutants, extra lights, also constitute considerable amount of pollution
+T6	Claim 1123 1250	the improvements of work efficiency also attribute to the speed-up of working pace, resulting in traffic jams during rush-hours
+T7	Claim 1382 1463	authorities should spare no efforts in improving public transportation facilities
+T8	Premise 1473 1548	constructing more bus lines, in order to reducing the usage of private cars
+T9	Claim 1563 1693	temporarily targets should be set, with regard to the limitations of pollutants in a certain period of time, for example, a season
+T10	Premise 1705 1764	supervisory institutions built to find and address problems
+T11	Claim 1777 1844	cultivating a sense of environmental protection would also work out
+T12	Premise 1846 1940	though it might not be into effect immediately, but in the long run, it would be a wise choice
+A1	Stance T2 For
+A2	Stance T4 For
+A3	Stance T6 For
+A4	Stance T7 For
+A5	Stance T9 For
+A6	Stance T11 For
+R1	supports Arg1:T3 Arg2:T2
+R2	supports Arg1:T2 Arg2:T1
+R3	supports Arg1:T5 Arg2:T4
+R4	supports Arg1:T4 Arg2:T1
+R5	supports Arg1:T6 Arg2:T1
+R6	supports Arg1:T8 Arg2:T7
+R7	supports Arg1:T7 Arg2:T1
+R8	supports Arg1:T10 Arg2:T9
+R9	supports Arg1:T9 Arg2:T1
+R10	supports Arg1:T12 Arg2:T11
+R11	supports Arg1:T11 Arg2:T1

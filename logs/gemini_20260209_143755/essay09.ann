@@ -1,0 +1,65 @@
+T1	MajorClaim 265 373	many of us who do not indulge are pro-legalization because we see that prohibition does more harm than good.
+T2	Claim 374 443	The legalization of marijuana would help get the economy going again.
+A1	Stance T2 For
+R1	supports Arg1:T2 Arg2:T1
+T3	Premise 444 562	Despite great efforts by the federal government against marijuana, it has become a large part of the national economy.
+R2	supports Arg1:T3 Arg2:T2
+T4	Premise 563 708	Imagine if we were to legalize and tax it, the government would make tons of profit and we could start paying off this $16trillion national debt.
+R3	supports Arg1:T4 Arg2:T2
+T5	Premise 709 813	Not to mention it would create tons of jobs and people in prison for marijuana crimes would be released.
+R4	supports Arg1:T5 Arg2:T2
+T6	Premise 814 952	In a country with only 5% of the earth's population, the United States holds 25% of the world's prisoners ("Marijuana Prison Statistics").
+R5	supports Arg1:T6 Arg2:T5
+T7	Premise 953 1030	A significant amount of those criminals are in there for drug related crimes.
+R6	supports Arg1:T7 Arg2:T5
+T8	Claim 1031 1070	The war on drugs is a complete failure.
+A2	Stance T8 For
+R7	supports Arg1:T8 Arg2:T1
+T9	Premise 1071 1185	It's done nothing but waste tax payer dollars, fill prisons with non violent criminals, and create a black market.
+R8	supports Arg1:T9 Arg2:T8
+T10	Claim 1186 1292	The main reason cannabis remains illegal is because lobbyists are making tons of money off of prohibition.
+A3	Stance T10 For
+R9	supports Arg1:T10 Arg2:T8
+T11	Premise 1293 1453	For example, Pharmaceutical companies lobby against cannabis because at a lower price, there are so many drugs (painkillers, sleep medication) it could replace.
+R10	supports Arg1:T11 Arg2:T10
+T12	Premise 1454 1528	Another group that benefits greatly from prohibition are the drug cartels.
+R11	supports Arg1:T12 Arg2:T10
+T13	Premise 1529 1712	Legalize marijuana and you cut a huge percent of their profits, army strength, and political power. Otherwise they're going to do whatever they can to save the marijuana black market.
+R12	supports Arg1:T13 Arg2:T8
+T14	Claim 1713 1804	You could argue that marijuana is physically unhealthy for you and that's why it's illegal.
+A4	Stance T14 Against
+R13	attacks Arg1:T14 Arg2:T1
+T15	Premise 1805 1930	But then you'd have to explain why alcohol and tobacco are legal because those substances are way more harmful than cannabis.
+R14	attacks Arg1:T15 Arg2:T14
+T16	Premise 1931 2031	79,000 people a year die from alcohol poisoning, while zero people have died from overdosing on pot.
+R15	supports Arg1:T16 Arg2:T15
+T17	Claim 2032 2105	People think that prohibition has kept marijuana out of children's hands.
+A5	Stance T17 Against
+R16	attacks Arg1:T17 Arg2:T1
+T18	Premise 2106 2181	They think legalizing this drug would expose more children and teens to it.
+R17	supports Arg1:T18 Arg2:T17
+T19	Premise 2182 2268	It's a whole lot easier for kids to obtain marijuana as opposed to alcohol or tobacco.
+R18	attacks Arg1:T19 Arg2:T17
+T20	Premise 2269 2325	A drug dealer doesn't check for ID like a cashier would.
+R19	supports Arg1:T20 Arg2:T19
+T21	Premise 2326 2533	Teens are susceptible to harsher drugs after trying marijuana because they are introduced to these hardcore drugs in the same underground market where they got the marijuana, not because it's a gateway drug.
+R20	attacks Arg1:T21 Arg2:T17
+T22	Claim 2534 2651	Another thing that is often said is that marijuana is addictive and can be abused, thus making it mentally unhealthy.
+A6	Stance T22 Against
+R21	attacks Arg1:T22 Arg2:T1
+T23	Premise 2652 2755	This is an unfair statement, anything has the potential to be abused, even something as simple as food.
+R22	attacks Arg1:T23 Arg2:T22
+T24	Premise 2830 2954	Many musicians admit that cannabis helps them get creative with their music and opens their minds to new ideas and concepts.
+T25	Premise 2955 3082	Many cancer patients have used medical marijuana as a way of dealing with nausea after treatment or stimulating their appetite.
+T26	Claim 3083 3185	The point is people have benefited from marijuana whether it was for medical or recreational purposes.
+A7	Stance T26 For
+R23	supports Arg1:T24 Arg2:T26
+R24	supports Arg1:T25 Arg2:T26
+R25	supports Arg1:T26 Arg2:T1
+T27	Claim 3186 3339	Cannabis is classified as a schedule one drug, this suggests that it is as dangerous and addictive as heroin, meth, and even more dangerous than cocaine.
+A8	Stance T27 Against
+R26	attacks Arg1:T27 Arg2:T1
+T28	Premise 3340 3460	Even if you believe that's accurate information, who are you to tell people what they can and can't put in their bodies?
+R27	attacks Arg1:T28 Arg2:T27
+T29	Premise 3461 3544	Expecting everyone to adapt to your beliefs or morals is extremely narrowed minded.
+R28	supports Arg1:T29 Arg2:T28

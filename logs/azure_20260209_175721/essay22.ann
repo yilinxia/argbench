@@ -1,0 +1,29 @@
+T1	MajorClaim 1959 2253	Although higher education does not guarantee young students' success, the benefits of learning in universities are the vital factor in creating more possibilities for the development of society through advancing academic fulfillment and the young generation who have experiences and challenges.
+T2	Claim 192 300	some people believe that it is essential for young students to get high quality of education in universities
+T3	Claim 308 387	others think that it is only one of causes to increase the rate of unemployment
+T4	Claim 499 574	those who advocate the impracticability of university have several reasons.
+T5	Premise 575 832	From their point of view, the fact is that there are numerous job opportunities for those who do not have the certification of university graduation, such as mechanics, sales persons, or engineers, and, furthermore, labors for graduates are in short supply.
+T6	Premise 833 961	What is worse, the labor market for highly educated students is now too competitive to get a job after finishing their studying.
+T7	Premise 962 1119	In this regard it is a loss of national productivity that young people spend much time on searching for high salary jobs, even can be a sheer time-consuming.
+T8	Claim 1201 1343	universities provide not only skills for careers, but also academic knowledge for the human race, such as bio science, politics, and medicine.
+T9	Premise 1344 1409	These academic values are necessary to the progress of the world.
+T10	Premise 1410 1553	More importantly, many researches in the ivory-tower have created ingenious discoveries and achievements for the development of modern society.
+T11	Claim 1554 1813	Another significant factor of universities is that diverse experiences in the campus life can make the young generation more competently because there are a number of chances through internships, deeper discussion, independent life, and exchange scholarships.
+T12	Claim 1929 1958	I agree with the latter view.
+A1	Stance T2 For
+A2	Stance T3 Against
+A3	Stance T4 Against
+A4	Stance T8 For
+A5	Stance T11 For
+A6	Stance T12 For
+R1	supports Arg1:T2 Arg2:T1
+R2	attacks Arg1:T3 Arg2:T1
+R3	supports Arg1:T4 Arg2:T3
+R4	supports Arg1:T5 Arg2:T4
+R5	supports Arg1:T6 Arg2:T4
+R6	supports Arg1:T7 Arg2:T4
+R7	supports Arg1:T8 Arg2:T1
+R8	supports Arg1:T9 Arg2:T8
+R9	supports Arg1:T10 Arg2:T8
+R10	supports Arg1:T11 Arg2:T1
+R11	supports Arg1:T12 Arg2:T1

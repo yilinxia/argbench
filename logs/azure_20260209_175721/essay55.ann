@@ -1,0 +1,33 @@
+T1	MajorClaim 1991 2056	Therefore, I do support the view of learning all school subjects.
+T2	Claim 475 547	The benefits of teaching students different units are easily recognized.
+T3	Premise 568 692	with some basic knowledge of diverse fields, students have more options in choosing specialized areas or jobs in the future.
+T4	Premise 693 778	Teenagers are still too young and immature to decide what they are going to dedicate.
+T5	Premise 779 927	In students' point of view, the combination of difficult and easy subjects balances their schoolwork stress and fosters their enthusiasm on classes.
+T6	Claim 928 1081	However, still many teenagers cannot enjoy the variation of the curriculum, instead, they feel more stressful with so much homework and exams to be done.
+T7	Premise 1082 1178	Besides, most students regard the extra knowledge useless and impractical for their future jobs.
+T8	Claim 1179 1354	Those who advocate focusing on one subject believe that this education model can cultivate more talents who specialized in different areas and increase studying effectiveness.
+T9	Premise 1355 1477	This is probably because students can devote more time and efforts in one subject and reduce pressure from other subjects.
+T10	Claim 1478 1545	However, the drawbacks of this teaching method cannot be neglected.
+T11	Premise 1546 1726	Most importantly, under such target-oriented education environment, teenagers may be hard to regret their original choice and change their specialized field in their further study.
+T12	Premise 1727 1804	Moreover, the dullness of course may deeply influence their passion on study.
+T13	Claim 1936 1990	while its shortfalls are so vital to students' future.
+T14	Claim 1805 1935	It is undeniable that concentrating on one subject can reduce students' pressure and foster the effectiveness in training talents,
+A1	Stance T2 For
+A2	Stance T6 For
+A3	Stance T8 Against
+A4	Stance T10 For
+A5	Stance T13 For
+A6	Stance T14 Against
+R1	supports Arg1:T2 Arg2:T1
+R2	supports Arg1:T3 Arg2:T2
+R3	supports Arg1:T4 Arg2:T2
+R4	supports Arg1:T5 Arg2:T2
+R5	supports Arg1:T6 Arg2:T1
+R6	supports Arg1:T7 Arg2:T6
+R7	attacks Arg1:T8 Arg2:T1
+R8	supports Arg1:T9 Arg2:T8
+R9	supports Arg1:T10 Arg2:T1
+R10	supports Arg1:T11 Arg2:T10
+R11	supports Arg1:T12 Arg2:T10
+R12	supports Arg1:T13 Arg2:T1
+R13	supports Arg1:T14 Arg2:T1

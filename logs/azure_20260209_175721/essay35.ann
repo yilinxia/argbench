@@ -1,0 +1,26 @@
+T1	MajorClaim 294 325	I tend to agree with this view.
+T2	Claim 326 427	To boost their sales and win over customers, companies pour a great amount of money into advertising.
+T3	Premise 428 587	Most of the time, it is not about the function or quality of the commodities themselves but really the promotion of the good feeling of possessing the product.
+T4	Premise 588 668	By which I mean, huge cooperation hire celebrities as the face of their product.
+T5	Premise 669 855	By casting famous singers in their television advertisement, motorcycles or clothes for example, sales increase significantly since youngsters, as the target consumers, love celebrities.
+T6	Premise 856 954	Since having these products shows their status, the quality obviously is not relatively important.
+T7	Claim 955 1096	However, despite the fact that advertisements can be falseful and exaggerated, it is also true that it plays and important role economically.
+T8	Premise 1097 1243	They introduce new products, and provide various choices, not to mention they are often visually enjoyable, since they aim to grab your attention.
+T9	Premise 1244 1358	Advertising also helps to keep prices at reasonable levels, creates a fair environment for commercial competition.
+T10	Premise 1359 1462	Otherwise the market may be monopolistic, and the price as well as the choice will not be so selective.
+T11	Claim 1463 1578	The power of advertising maybe over-rated, we can not deny that the final decision is on the hands of us consumers.
+T12	Premise 1579 1677	No matter how appealing the advertisements are, we should be able to make the decision on our own.
+A1	Stance T2 For
+A2	Stance T7 Against
+A3	Stance T11 Against
+R1	supports Arg1:T2 Arg2:T1
+R2	supports Arg1:T3 Arg2:T2
+R3	supports Arg1:T4 Arg2:T3
+R4	supports Arg1:T5 Arg2:T4
+R5	supports Arg1:T6 Arg2:T5
+R6	attacks Arg1:T7 Arg2:T1
+R7	supports Arg1:T8 Arg2:T7
+R8	supports Arg1:T9 Arg2:T7
+R9	supports Arg1:T10 Arg2:T9
+R10	attacks Arg1:T11 Arg2:T1
+R11	supports Arg1:T12 Arg2:T11

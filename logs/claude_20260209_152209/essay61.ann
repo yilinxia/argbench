@@ -1,0 +1,50 @@
+T1	MajorClaim 2062 2277	dependence on computers is not a bad thing. However, one needs to be aware of all the pros and cons and beware of malicious things. Computer was invented for the benefit of mankind and it has fulfilled its objective
+T2	Claim 128 240	Ever since Charles Babbage (know as "Father of computers") invented computers, its development never had a pause
+A1	Stance T2 For
+T3	Claim 242 340	The whole world is dependent on computers, without which, the world will go back hundreds of years
+A2	Stance T3 For
+T4	Claim 363 392	computers are used everywhere
+A3	Stance T4 For
+T5	Premise 394 468	Right from flying planes to sending a small document, computers are needed
+T6	Premise 470 540	They are used in space programmes , wars, hospitals, schools and so on
+T7	Claim 542 613	Computers have made human life more easy, convenient and lightning fast
+A4	Stance T7 For
+T8	Premise 615 801	For example, in earlier days , if one had to send a message to someone in other country, it used to take months. But today, it can be sent in few minutes by typing a email and few clicks
+T9	Premise 803 947	Computers provide speed, increase efficiency, accuracy, precision, help to increase productivity and other countless benefits are provided by it
+T10	Claim 959 1004	future prospects of computers are very bright
+A5	Stance T10 For
+T11	Premise 1006 1087	From a computer as big as a room, it has now been minimized to the size of a palm
+T12	Premise 1089 1167	Nanotechnology is working to make computers to the order of microscopic levels
+T13	Premise 1169 1258	Research on making computerised drone soldiers (unmanned computer controlled) is going on
+T14	Premise 1260 1305	There is no end to the evolution of computers
+T15	Claim 1346 1387	Computers have made humans over-dependent
+A6	Stance T15 Against
+T16	Premise 1389 1543	Virus programs, privacy breach, leak of confidential documents, cyber attacks, identity theft, frauds etc. are some of its demerits, from a countless list
+T17	Premise 1545 1590	Computers expose children to vulgar materials
+T18	Premise 1592 1740	They have even invaded mental health of humans, for example , FAD (Facebook Addiction Disorder- excessive use of social networking website Facebook)
+T19	Premise 1742 1849	Computers have intruded our lives to the effect that a satellite can peep into our homes and privates lives
+T20	Premise 1851 1950	The recent case of Wikileaks , leaking confidential data is an example of how computers are harmful
+T21	Premise 1966 2054	with all the mentioned demerits, computers have provided security and sophistication too
+T22	Claim 2279 2376	Human life today can't be imagined without computers, so not depending on them is out of question
+A7	Stance T22 For
+R1	supports Arg1:T5 Arg2:T4
+R2	supports Arg1:T6 Arg2:T4
+R3	supports Arg1:T8 Arg2:T7
+R4	supports Arg1:T9 Arg2:T7
+R5	supports Arg1:T11 Arg2:T10
+R6	supports Arg1:T12 Arg2:T10
+R7	supports Arg1:T13 Arg2:T10
+R8	supports Arg1:T14 Arg2:T10
+R9	supports Arg1:T16 Arg2:T15
+R10	supports Arg1:T17 Arg2:T15
+R11	supports Arg1:T18 Arg2:T15
+R12	supports Arg1:T19 Arg2:T15
+R13	supports Arg1:T20 Arg2:T15
+R14	supports Arg1:T21 Arg2:T1
+R15	supports Arg1:T2 Arg2:T1
+R16	supports Arg1:T3 Arg2:T1
+R17	supports Arg1:T4 Arg2:T1
+R18	supports Arg1:T7 Arg2:T1
+R19	supports Arg1:T10 Arg2:T1
+R20	attacks Arg1:T15 Arg2:T1
+R21	supports Arg1:T22 Arg2:T1

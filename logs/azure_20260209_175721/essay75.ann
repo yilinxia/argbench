@@ -1,0 +1,23 @@
+T1	MajorClaim 48 228	My view is that the government should give priorities to invest more money on the basic social welfares such as education and housing instead of subsidizing arts relative programs.
+T2	Claim 229 299	Art is not the key determination of quality of life, but education is.
+A1	Stance T2 Against
+T3	Premise 300 483	In order to make people better off, it is more urgent for governments to commit money to some fundamental help such as setting more scholarships in education section for all citizens.
+T4	Premise 484 630	This is simply because knowledge and wisdom is the guarantee of the enhancement of the quality of people's lives for a well-rounded social system.
+T5	Claim 631 852	Admittedly, art, to some extent, serve a valuable function about enriching one's daily lives, for example, it could bring release one's heavy burden of study pressure and refresh human bodies through a hard day from work.
+A2	Stance T5 For
+T6	Claim 853 1086	However, it is unrealistic to pursuit of this high standard of life in many developing countries, in which the basic housing supply has still been a huge problem with plenty of lower income family have squeezed in a small tight room.
+A3	Stance T6 Against
+T7	Claim 1087 1162	By comparison to these issues, the pursuit of art seems unimportant at all.
+A4	Stance T7 Against
+T8	Claim 1163 1249	To conclude, art could play an active role in improving the quality of people's lives,
+A5	Stance T8 For
+T9	Claim 1250 1445	but I think that governments should attach heavier weight to other social issues such as education and housing needs because those are the most essential ways enable to make people a decent life.
+A6	Stance T9 Against
+R1	supports Arg1:T2 Arg2:T1
+R2	supports Arg1:T3 Arg2:T2
+R3	supports Arg1:T4 Arg2:T2
+R4	attacks Arg1:T5 Arg2:T1
+R5	supports Arg1:T6 Arg2:T7
+R6	supports Arg1:T7 Arg2:T1
+R7	attacks Arg1:T8 Arg2:T1
+R8	supports Arg1:T9 Arg2:T1

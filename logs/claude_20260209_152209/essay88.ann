@@ -1,0 +1,42 @@
+T1	MajorClaim 159 258	I am in favor of living in a small town. The atmosphere in suburban area brings me peaceful feeling
+T2	Claim 260 300	Moreover, people there are very friendly
+T3	Claim 302 354	Finally, the environmental is greener than in cities
+T4	MajorClaim 356 407	That is why I love enjoying my life in a small town
+T5	Claim 429 462	peaceful atmosphere is attractive
+T6	Premise 464 582	It is clearly seen that people in large cities face annoying noise and dirty air emitted from vehicles almost everyday
+T7	Premise 584 638	This is likely to adversely affect their mental health
+T8	Premise 640 722	Meanwhile, lives small towns are great deal more quiet and the air is always fresh
+T9	Premise 724 841	These features make a suburban town the paradise for people who want to escape from suffocating lives in major cities
+T10	Claim 853 894	people in small towns are always friendly
+T11	Premise 896 986	In my experience, many people in urban areas even do not know the names of their neighbors
+T12	Premise 988 1090	It is contrary in small town life, where people are ready to help whenever their neighbors are in need
+T13	Premise 1092 1214	The relationship among them can be so close that they usually attend the birthday party of one of their neighboring people
+T14	Premise 1216 1318	The affection from people around brings me cozy feeling on my birthday when I live away from my family
+T15	Claim 1329 1378	the green environment in small towns interests me
+T16	Premise 1380 1454	It seems to me that there are more trees and lakes in towns than in cities
+T17	Premise 1456 1544	It is wonderful that I get up early in the morning and take a walk in such a green place
+T18	Premise 1546 1627	The urban environment, however, is so artificial with only buildings and vehicles
+T19	Premise 1629 1674	I can not adapt myself to such an environment
+T20	MajorClaim 1759 1898	peaceful atmosphere, friendliness of people, and green landscape strongly convince me that a small town is the best place for me to live in
+A1	Stance T2 For
+A2	Stance T3 For
+A3	Stance T5 For
+A4	Stance T10 For
+A5	Stance T15 For
+R1	supports Arg1:T2 Arg2:T1
+R2	supports Arg1:T3 Arg2:T1
+R3	supports Arg1:T6 Arg2:T5
+R4	supports Arg1:T7 Arg2:T5
+R5	supports Arg1:T8 Arg2:T5
+R6	supports Arg1:T9 Arg2:T5
+R7	supports Arg1:T5 Arg2:T1
+R8	supports Arg1:T11 Arg2:T10
+R9	supports Arg1:T12 Arg2:T10
+R10	supports Arg1:T13 Arg2:T10
+R11	supports Arg1:T14 Arg2:T10
+R12	supports Arg1:T10 Arg2:T2
+R13	supports Arg1:T16 Arg2:T15
+R14	supports Arg1:T17 Arg2:T15
+R15	supports Arg1:T18 Arg2:T15
+R16	supports Arg1:T19 Arg2:T15
+R17	supports Arg1:T15 Arg2:T3

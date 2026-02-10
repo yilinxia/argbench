@@ -1,0 +1,25 @@
+T1	MajorClaim 287 439	As the impacts for those pollution and traffic issues are extremely far-reaching, it is insufficient to increase the petrol price only to solve problems
+T2	Claim 668 760	whether it can work out for alleviating traffic and pollution pressure ought to be evaluated
+A1	Stance T2 Against
+T3	Premise 762 882	On one hand, governments have a macro-economic perspective to control price in various areas according to social demands
+T4	Premise 884 950	Consequently, it seems not easy to increase petrol price instantly
+T5	Premise 952 1108	On the other hand, pollutions are not just caused by the burning of oil, chemical pollutants, extra lights, also constitute considerable amount of pollution
+T6	Premise 1110 1250	In addition, the improvements of work efficiency also attribute to the speed-up of working pace, resulting in traffic jams during rush-hours
+T7	Claim 1275 1369	several other solutions can be introduced to assist in reducing pollution and traffic problems
+A2	Stance T7 Against
+T8	Premise 1382 1548	authorities should spare no efforts in improving public transportation facilities, such as constructing more bus lines, in order to reducing the usage of private cars
+T9	Premise 1550 1764	Furthermore, temporarily targets should be set, with regard to the limitations of pollutants in a certain period of time, for example, a season. Plus with supervisory institutions built to find and address problems
+T10	Premise 1766 1940	Meanwhile, cultivating a sense of environmental protection would also work out, though it might not be into effect immediately, but in the long run, it would be a wise choice
+T11	MajorClaim 1957 2041	addressing pollution and traffic issues only by increasing oil price Is not adequate
+T12	Claim 2043 2207	while improving transportation facilities and building supervisory institution would be preferable, plus with the awareness of environmental protection being raised
+A3	Stance T12 For
+R1	supports Arg1:T3 Arg2:T2
+R2	supports Arg1:T4 Arg2:T2
+R3	supports Arg1:T5 Arg2:T2
+R4	supports Arg1:T6 Arg2:T2
+R5	supports Arg1:T2 Arg2:T1
+R6	supports Arg1:T8 Arg2:T7
+R7	supports Arg1:T9 Arg2:T7
+R8	supports Arg1:T10 Arg2:T7
+R9	supports Arg1:T7 Arg2:T1
+R10	supports Arg1:T12 Arg2:T11

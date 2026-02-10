@@ -1,0 +1,43 @@
+T1	MajorClaim 138 199	Personally, however, I am in favor of living in a small town.
+T2	Claim 200 259	The atmosphere in suburban area brings me peaceful feeling.
+A1	Stance T2 For
+R1	supports Arg1:T2 Arg2:T1
+T3	Claim 270 301	people there are very friendly.
+A2	Stance T3 For
+R2	supports Arg1:T3 Arg2:T1
+T4	Claim 311 355	the environmental is greener than in cities.
+A3	Stance T4 For
+R3	supports Arg1:T4 Arg2:T1
+T5	Claim 409 463	First and foremost, peaceful atmosphere is attractive.
+A4	Stance T5 For
+R4	supports Arg1:T5 Arg2:T1
+T6	Premise 464 583	It is clearly seen that people in large cities face annoying noise and dirty air emitted from vehicles almost everyday.
+R5	supports Arg1:T6 Arg2:T5
+T7	Premise 584 639	This is likely to adversely affect their mental health.
+R6	supports Arg1:T7 Arg2:T5
+T8	Premise 640 723	Meanwhile, lives small towns are great deal more quiet and the air is always fresh.
+R7	supports Arg1:T8 Arg2:T5
+T9	Premise 724 842	These features make a suburban town the paradise for people who want to escape from suffocating lives in major cities.
+R8	supports Arg1:T9 Arg2:T5
+T10	Claim 843 895	Secondly, people in small towns are always friendly.
+A5	Stance T10 For
+R9	supports Arg1:T10 Arg2:T1
+T11	Premise 896 987	In my experience, many people in urban areas even do not know the names of their neighbors.
+R10	supports Arg1:T11 Arg2:T10
+T12	Premise 988 1091	It is contrary in small town life, where people are ready to help whenever their neighbors are in need.
+R11	supports Arg1:T12 Arg2:T10
+T13	Premise 1092 1215	The relationship among them can be so close that they usually attend the birthday party of one of their neighboring people.
+R12	supports Arg1:T13 Arg2:T10
+T14	Premise 1216 1319	The affection from people around brings me cozy feeling on my birthday when I live away from my family.
+R13	supports Arg1:T14 Arg2:T10
+T15	Claim 1320 1379	Finally, the green environment in small towns interests me.
+A6	Stance T15 For
+R14	supports Arg1:T15 Arg2:T1
+T16	Premise 1380 1455	It seems to me that there are more trees and lakes in towns than in cities.
+R15	supports Arg1:T16 Arg2:T15
+T17	Premise 1456 1545	It is wonderful that I get up early in the morning and take a walk in such a green place.
+R16	supports Arg1:T17 Arg2:T15
+T18	Premise 1546 1628	The urban environment, however, is so artificial with only buildings and vehicles.
+R17	supports Arg1:T18 Arg2:T15
+T19	Premise 1629 1675	I can not adapt myself to such an environment.
+R18	supports Arg1:T19 Arg2:T15

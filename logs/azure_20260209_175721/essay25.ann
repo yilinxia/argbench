@@ -1,0 +1,32 @@
+T1	MajorClaim 353 507	From my point of view, the advantages of building a factory will outweigh its disadvantages, if we tackle the environmental problems brought by factories.
+T2	Claim 508 607	First of all, a large factory can stimulate local economic growth and reduce the unemployment rate.
+T3	Premise 608 711	To manufacture goods, there must be the demand of laborers, from which the local residents can benefit.
+T4	Premise 712 857	What is more, the factory is not isolated, other industries and business will be quickly established, resulting in economic growth of local area.
+T5	Premise 858 959	For example, the estate industry will be boosted in order to satisfy the workers' accommodation need.
+T6	Claim 960 999	The main disadvantage is contamination.
+T7	Premise 1000 1168	It is truth that some area are suffering the dire consequences caused by overdeveloping the industry, such as water pollution, overcrowded traffic and medical problems.
+T8	Premise 1169 1369	For instance, in some industrial cities , a large proportion of the workers are suffering various breathing problems, such as asthma which can be caused by waste ashes and certain chemical substances.
+T9	Claim 1370 1472	However, it is inevitable that there will be more factories built with the development of our society.
+T10	Claim 1473 1588	Therefore, how to improve the disadvantages of building a factory would be more important than whether to build it.
+T11	Premise 1589 1701	In fact most problems can be avoidable if the factories put in real and great effort to manage their waste well.
+T12	Claim 1702 1804	In conclusion, installation of manufacturing plant is a trend of industrialization for many countries.
+T13	Claim 1805 1926	Its advantages will outweigh disadvantages as long as the factories dispose their waste and pollution in the correct way.
+A1	Stance T2 For
+A2	Stance T6 Against
+A3	Stance T9 For
+A4	Stance T10 For
+A5	Stance T12 For
+A6	Stance T13 For
+R1	supports Arg1:T2 Arg2:T1
+R2	supports Arg1:T3 Arg2:T2
+R3	supports Arg1:T4 Arg2:T2
+R4	supports Arg1:T5 Arg2:T4
+R5	attacks Arg1:T6 Arg2:T1
+R6	supports Arg1:T7 Arg2:T6
+R7	supports Arg1:T8 Arg2:T7
+R8	supports Arg1:T9 Arg2:T10
+R9	supports Arg1:T10 Arg2:T1
+R10	supports Arg1:T11 Arg2:T10
+R11	supports Arg1:T12 Arg2:T1
+R12	supports Arg1:T13 Arg2:T1
+R13	supports Arg1:T11 Arg2:T13

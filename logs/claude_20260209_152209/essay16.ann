@@ -1,0 +1,18 @@
+T1	MajorClaim 271 447	I believe that no sensible person will deny that it is a dramatically cruel activity to humanity if the latest foods or medicines are allowed to sold without testing on animals
+T2	Claim 705 782	The animal experiments accelerate the vanishing of some categories of animals
+T3	Premise 784 876	In other words, doing this various testing is a hazard of human's future and next generation
+T4	Claim 949 1010	it is necessary to make sure that people can live a long life
+T5	Premise 1027 1219	it is indisputable that every new kind food or pill may be noxious, and scientists must do something to insure that the new invention benefits people instead of making people ill or even dying
+T6	Premise 1221 1300	The new foods or medicines are invented to promote the quantity of human's life
+T7	Premise 1302 1408	Thus even if they are volunteers; they cannot take the place of animals to test the new foods or medicines
+T8	Premise 1410 1491	Furthermore, it also have potentially harm for human's health without any testing
+T9	MajorClaim 1521 1639	although there is some disadvantages of animals' profits, the merits of animal experiments still outweigh the demerits
+A1	Stance T2 Against
+A2	Stance T4 For
+R1	supports Arg1:T3 Arg2:T2
+R2	supports Arg1:T5 Arg2:T4
+R3	supports Arg1:T6 Arg2:T4
+R4	supports Arg1:T7 Arg2:T4
+R5	supports Arg1:T8 Arg2:T4
+R6	attacks Arg1:T2 Arg2:T1
+R7	supports Arg1:T4 Arg2:T1

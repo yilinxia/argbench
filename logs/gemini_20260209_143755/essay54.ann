@@ -1,0 +1,19 @@
+T1	MajorClaim 301 367	I still believe some museums and art galleries will not disappear.
+T2	Claim 453 621	people who watch exhibitions on TV or internet at home, save the time and money on the road, which is increasingly significant particularly to people in modern society.
+T3	Premise 631 813	in accordance with recent research, experts suggest the lifestyle of individuals in modern society is unhealthy because they lack of physical exercise and face-to-face communication.
+T4	Claim 833 920	the importance of museums and art galleries is plain in terms of education and culture.
+T5	Claim 935 1011	authentic exhibits cannot be completely displayed only by images and videos.
+T6	Premise 1121 1176	the best method to learn one thing is to experience it.
+T7	Premise 1190 1247	museums and art galleries preserve some culture heritages
+T8	Claim 1260 1331	these buildings will not disappear unless people abandon their culture.
+A1	Stance T2 Against
+A2	Stance T4 For
+A3	Stance T5 For
+A4	Stance T8 For
+R1	attacks Arg1:T3 Arg2:T2
+R2	supports Arg1:T4 Arg2:T1
+R3	supports Arg1:T5 Arg2:T4
+R4	supports Arg1:T6 Arg2:T5
+R5	supports Arg1:T7 Arg2:T8
+R6	supports Arg1:T8 Arg2:T4
+R7	supports Arg1:T8 Arg2:T1

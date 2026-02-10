@@ -1,0 +1,24 @@
+T1	MajorClaim 1562 1771	I am convinced that all languages should be preserved and developed as much as possible. All people should give a hand to do this better and governments play a vital role on encouraging and distributing those.
+T2	Premise 446 530	languages, especially oral language, are a quite major part of culture of a country.
+T3	Premise 531 605	It helps people distinguish between nations and even regions in a country.
+T4	Premise 606 714	The clearance of minority of language means that a national traditional, customs and habitants do not exist.
+T5	Claim 715 858	Governments should spend money on keeping and preserving these things for the rich diversity of cultures which make our world more interesting.
+T6	Claim 873 984	it is a pride of the country with a rage of culture which is easy to educate people to love their country more.
+T7	Claim 1110 1146	it is hard to gain the good results.
+T8	Premise 1168 1275	there are a few people, particularly the youngsters, do not pay attention on collecting and studying those.
+T9	Premise 1276 1337	These kinds of languages are usually difficult and unpopular.
+T10	Premise 1351 1464	the preservations need a long time to gather, restore all information as well as train in the educational centre.
+T11	Premise 1465 1546	If they do not try their best, their protection can be halted and waste of money.
+A1	Stance T5 For
+A2	Stance T6 For
+A3	Stance T7 Against
+R1	supports Arg1:T3 Arg2:T2
+R2	supports Arg1:T4 Arg2:T2
+R3	supports Arg1:T2 Arg2:T5
+R4	supports Arg1:T5 Arg2:T1
+R5	supports Arg1:T6 Arg2:T1
+R6	attacks Arg1:T7 Arg2:T1
+R7	supports Arg1:T8 Arg2:T7
+R8	supports Arg1:T9 Arg2:T7
+R9	supports Arg1:T10 Arg2:T7
+R10	supports Arg1:T11 Arg2:T7
