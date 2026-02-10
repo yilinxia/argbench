@@ -1,0 +1,386 @@
+import { NextResponse } from "next/server"
+import fs from "fs"
+import path from "path"
+
+const ROOT_DIR = path.join(process.cwd(), "..")
+const STATIC_DATA_PATH = path.join(process.cwd(), "public", "data", "all-data.json")
+
+// Check if we're using static data (production/Vercel) or filesystem (development)
+const useStaticData = fs.existsSync(STATIC_DATA_PATH)
+
+interface StaticData {
+  runs: LogRun[]
+  essays: EssayData[]
+  annotations: Record<string, Record<string, string>>
+}
+
+let staticData: StaticData | null = null
+
+function getStaticData(): StaticData {
+  if (!staticData && useStaticData) {
+    staticData = JSON.parse(fs.readFileSync(STATIC_DATA_PATH, "utf-8"))
+  }
+  return staticData!
+}
+
+interface LogRun {
+  model: string
+  modelDisplayName: string
+  timestamp: string
+  folder: string
+  displayName: string
+  prompt: string | null
+}
+
+// Map short model names to detailed display names
+const MODEL_DISPLAY_NAMES: Record<string, string> = {
+  azure: "Azure GPT-5.2",
+  claude: "Claude Opus 4.5",
+  gemini: "Gemini 2.5 Flash",
+}
+
+interface EssayData {
+  id: string
+  name: string
+  text: string
+  goldAnnotation: string | null
+}
+
+function extractPromptFromSummary(summaryContent: string): string | null {
+  // Find the prompt section in the summary file
+  const promptMarker = "PROMPT USED"
+  const promptIndex = summaryContent.indexOf(promptMarker)
+  
+  if (promptIndex === -1) {
+    return null
+  }
+  
+  // Skip past the marker and the separator line
+  const afterMarker = summaryContent.slice(promptIndex + promptMarker.length)
+  const lines = afterMarker.split("\n")
+  
+  // Skip empty lines and separator lines (===)
+  let startIndex = 0
+  for (let i = 0; i < lines.length; i++) {
+    const line = lines[i].trim()
+    if (line && !line.match(/^=+$/)) {
+      startIndex = i
+      break
+    }
+  }
+  
+  // Get the rest as the prompt
+  return lines.slice(startIndex).join("\n").trim()
+}
+
+function getLogRuns(): LogRun[] {
+  // Use static data if available (production)
+  if (useStaticData) {
+    return getStaticData().runs
+  }
+  
+  // Fall back to filesystem (development)
+  const logsDir = path.join(ROOT_DIR, "logs")
+  
+  if (!fs.existsSync(logsDir)) {
+    return []
+  }
+  
+  const folders = fs.readdirSync(logsDir, { withFileTypes: true })
+    .filter(d => d.isDirectory())
+    .map(d => d.name)
+  
+  const runs: LogRun[] = []
+  
+  for (const folder of folders) {
+    // Parse folder name: model_timestamp (e.g., gemini_20260209_143755)
+    const match = folder.match(/^(\w+)_(\d{8}_\d{6})$/)
+    if (match) {
+      const [, model, timestamp] = match
+      // Format timestamp for display: 20260209_143755 -> 2026-02-09 14:37:55
+      const formattedTime = `${timestamp.slice(0, 4)}-${timestamp.slice(4, 6)}-${timestamp.slice(6, 8)} ${timestamp.slice(9, 11)}:${timestamp.slice(11, 13)}:${timestamp.slice(13, 15)}`
+      
+      // Try to read the prompt from summary.txt
+      let prompt: string | null = null
+      const summaryPath = path.join(logsDir, folder, "summary.txt")
+      if (fs.existsSync(summaryPath)) {
+        const summaryContent = fs.readFileSync(summaryPath, "utf-8")
+        prompt = extractPromptFromSummary(summaryContent)
+      }
+      
+      const modelDisplayName = MODEL_DISPLAY_NAMES[model] || model.charAt(0).toUpperCase() + model.slice(1)
+      
+      runs.push({
+        model,
+        modelDisplayName,
+        timestamp,
+        folder,
+        displayName: `${modelDisplayName} (${formattedTime})`,
+        prompt
+      })
+    }
+  }
+  
+  // Sort by timestamp descending (newest first)
+  runs.sort((a, b) => b.timestamp.localeCompare(a.timestamp))
+  
+  return runs
+}
+
+function getEssays(): EssayData[] {
+  // Use static data if available (production)
+  if (useStaticData) {
+    return getStaticData().essays
+  }
+  
+  // Fall back to filesystem (development)
+  const textDir = path.join(ROOT_DIR, "text")
+  const goldDir = path.join(ROOT_DIR, "gold_arg")
+  
+  if (!fs.existsSync(textDir)) {
+    return []
+  }
+  
+  const textFiles = fs.readdirSync(textDir)
+    .filter(f => f.endsWith(".txt"))
+    .sort()
+  
+  const essays: EssayData[] = []
+  
+  for (const file of textFiles) {
+    const id = file.replace(".txt", "")
+    const textPath = path.join(textDir, file)
+    const goldPath = path.join(goldDir, `${id}.ann`)
+    
+    const text = fs.readFileSync(textPath, "utf-8")
+    const goldAnnotation = fs.existsSync(goldPath) 
+      ? fs.readFileSync(goldPath, "utf-8")
+      : null
+    
+    // Extract title from first line of essay
+    const firstLine = text.split("\n")[0].trim()
+    const name = firstLine.length > 60 ? firstLine.slice(0, 60) + "..." : firstLine
+    
+    essays.push({
+      id,
+      name,
+      text,
+      goldAnnotation
+    })
+  }
+  
+  return essays
+}
+
+function getAnnotation(logFolder: string, essayId: string): string | null {
+  // Use static data if available (production)
+  if (useStaticData) {
+    const data = getStaticData()
+    return data.annotations[logFolder]?.[essayId] || null
+  }
+  
+  // Fall back to filesystem (development)
+  const annPath = path.join(ROOT_DIR, "logs", logFolder, `${essayId}.ann`)
+  
+  if (fs.existsSync(annPath)) {
+    return fs.readFileSync(annPath, "utf-8")
+  }
+  
+  return null
+}
+
+// Helper to parse brat annotation format
+function parseBratComponents(annotation: string): { start: number; end: number; type: string }[] {
+  const components: { start: number; end: number; type: string }[] = []
+  const lines = annotation.split("\n")
+  
+  for (const line of lines) {
+    if (line.startsWith("T")) {
+      const parts = line.split("\t")
+      if (parts.length >= 2) {
+        const typeAndSpan = parts[1].split(" ")
+        if (typeAndSpan.length >= 3) {
+          const type = typeAndSpan[0]
+          const start = parseInt(typeAndSpan[1], 10)
+          const end = parseInt(typeAndSpan[2], 10)
+          if (!isNaN(start) && !isNaN(end)) {
+            components.push({ start, end, type })
+          }
+        }
+      }
+    }
+  }
+  
+  return components
+}
+
+// Helper to check if two ranges overlap
+function rangesOverlap(start1: number, end1: number, start2: number, end2: number): boolean {
+  return start1 < end2 && start2 < end1
+}
+
+// Calculate overlap percentage
+function overlapPercentage(start1: number, end1: number, start2: number, end2: number): number {
+  const overlapStart = Math.max(start1, start2)
+  const overlapEnd = Math.min(end1, end2)
+  const overlapLength = Math.max(0, overlapEnd - overlapStart)
+  const range1Length = end1 - start1
+  return range1Length > 0 ? Math.round((overlapLength / range1Length) * 100) : 0
+}
+
+interface EssayStats {
+  essayId: string
+  gtCount: number
+  models: {
+    name: string
+    total: number
+    gtCoverage: number
+    avgOverlap: number
+    modelOnly: number
+  }[]
+  // Aggregate stats
+  avgGtCoverage: number
+  avgOverlap: number
+  totalModelOnly: number
+  // Min/max stats for essay selector
+  maxGtCoverage: number
+  minGtCoverage: number
+  maxModelOnly: number
+}
+
+function computeAllEssayStats(selectedRuns: Record<string, string>): EssayStats[] {
+  const essays = getEssays()
+  const stats: EssayStats[] = []
+  
+  for (const essay of essays) {
+    if (!essay.goldAnnotation) continue
+    
+    const gtComps = parseBratComponents(essay.goldAnnotation)
+    const modelStats: EssayStats["models"] = []
+    
+    for (const [model, folder] of Object.entries(selectedRuns)) {
+      const annotation = getAnnotation(folder, essay.id)
+      if (!annotation) continue
+      
+      const modelComps = parseBratComponents(annotation)
+      
+      // Calculate stats
+      let gtMatched = 0
+      let totalOverlap = 0
+      let matchCount = 0
+      
+      for (const gtComp of gtComps) {
+        const overlapping = modelComps.filter(mc => 
+          rangesOverlap(gtComp.start, gtComp.end, mc.start, mc.end)
+        )
+        if (overlapping.length > 0) {
+          gtMatched++
+          const bestOverlap = Math.max(...overlapping.map(mc => 
+            overlapPercentage(gtComp.start, gtComp.end, mc.start, mc.end)
+          ))
+          totalOverlap += bestOverlap
+          matchCount++
+        }
+      }
+      
+      const modelOnly = modelComps.filter(mc => 
+        !gtComps.some(gtComp => 
+          rangesOverlap(gtComp.start, gtComp.end, mc.start, mc.end)
+        )
+      ).length
+      
+      const avgOverlap = matchCount > 0 ? Math.round(totalOverlap / matchCount) : 0
+      const gtCoverage = gtComps.length > 0 ? Math.round((gtMatched / gtComps.length) * 100) : 0
+      
+      modelStats.push({
+        name: model,
+        total: modelComps.length,
+        gtCoverage,
+        avgOverlap,
+        modelOnly
+      })
+    }
+    
+    // Compute aggregates
+    const avgGtCoverage = modelStats.length > 0 
+      ? Math.round(modelStats.reduce((sum, m) => sum + m.gtCoverage, 0) / modelStats.length)
+      : 0
+    const avgOverlap = modelStats.length > 0
+      ? Math.round(modelStats.reduce((sum, m) => sum + m.avgOverlap, 0) / modelStats.length)
+      : 0
+    const totalModelOnly = modelStats.reduce((sum, m) => sum + m.modelOnly, 0)
+    
+    // Compute min/max for essay selector - use GT coverage instead of overlap
+    const gtCoverages = modelStats.map(m => m.gtCoverage)
+    const maxGtCoverage = gtCoverages.length > 0 ? Math.max(...gtCoverages) : 0
+    const minGtCoverage = gtCoverages.length > 0 ? Math.min(...gtCoverages) : 0
+    const maxModelOnly = modelStats.length > 0 ? Math.max(...modelStats.map(m => m.modelOnly)) : 0
+    
+    stats.push({
+      essayId: essay.id,
+      gtCount: gtComps.length,
+      models: modelStats,
+      avgGtCoverage,
+      avgOverlap,
+      totalModelOnly,
+      maxGtCoverage,
+      minGtCoverage,
+      maxModelOnly
+    })
+  }
+  
+  return stats
+}
+
+export async function GET(request: Request) {
+  const { searchParams } = new URL(request.url)
+  const action = searchParams.get("action")
+  
+  if (action === "runs") {
+    // Get all available log runs
+    const runs = getLogRuns()
+    return NextResponse.json({ runs })
+  }
+  
+  if (action === "essays") {
+    // Get all essays with their text and gold annotations
+    const essays = getEssays()
+    return NextResponse.json({ essays })
+  }
+  
+  if (action === "annotation") {
+    // Get annotation for a specific essay from a specific log run
+    const logFolder = searchParams.get("logFolder")
+    const essayId = searchParams.get("essayId")
+    
+    if (!logFolder || !essayId) {
+      return NextResponse.json({ error: "Missing logFolder or essayId" }, { status: 400 })
+    }
+    
+    const annotation = getAnnotation(logFolder, essayId)
+    return NextResponse.json({ annotation })
+  }
+  
+  if (action === "stats") {
+    // Get segmentation stats for all essays with the selected runs
+    const runsParam = searchParams.get("runs")
+    
+    if (!runsParam) {
+      return NextResponse.json({ error: "Missing runs parameter" }, { status: 400 })
+    }
+    
+    try {
+      const selectedRuns = JSON.parse(runsParam) as Record<string, string>
+      const stats = computeAllEssayStats(selectedRuns)
+      return NextResponse.json({ stats })
+    } catch {
+      return NextResponse.json({ error: "Invalid runs parameter" }, { status: 400 })
+    }
+  }
+  
+  // Default: return all data for initial load
+  const runs = getLogRuns()
+  const essays = getEssays()
+  
+  return NextResponse.json({ runs, essays })
+}
