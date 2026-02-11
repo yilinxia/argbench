@@ -16,13 +16,6 @@ from datetime import datetime
 from collections import defaultdict
 from concurrent.futures import ThreadPoolExecutor, as_completed
 
-# Load configuration
-def load_config():
-    with open("llm.key", "r") as f:
-        return json.load(f)
-
-CONFIG = load_config()
-
 # Annotation prompt template
 ANNOTATION_PROMPT = """You are an expert in argument mining and discourse analysis. Your task is to annotate argumentative essays by identifying argument components and their relationships.
 
@@ -179,8 +172,8 @@ def call_gemini(essay_text):
     """Call Google Gemini API."""
     import google.generativeai as genai
     
-    genai.configure(api_key=CONFIG["gemini_api_key"])
-    model = genai.GenerativeModel(CONFIG["gemini_model"])
+    genai.configure(api_key=os.environ["GEMINI_API_KEY"])
+    model = genai.GenerativeModel(os.environ.get("GEMINI_MODEL", "gemini-2.5-flash"))
     
     prompt = ANNOTATION_PROMPT.format(essay_text=essay_text)
     response = model.generate_content(prompt)
@@ -195,9 +188,9 @@ def call_claude(essay_text):
     
     client = boto3.client(
         "bedrock-runtime",
-        aws_access_key_id=CONFIG["aws_access_key_id"],
-        aws_secret_access_key=CONFIG["aws_secret_access_key"],
-        region_name=CONFIG["aws_region"]
+        aws_access_key_id=os.environ["AWS_ACCESS_KEY_ID"],
+        aws_secret_access_key=os.environ["AWS_SECRET_ACCESS_KEY"],
+        region_name=os.environ.get("AWS_REGION", "us-east-1")
     )
     
     prompt = ANNOTATION_PROMPT.format(essay_text=essay_text)
@@ -211,7 +204,7 @@ def call_claude(essay_text):
     })
     
     response = client.invoke_model(
-        modelId=CONFIG["claude_model"],
+        modelId=os.environ["CLAUDE_MODEL"],
         body=body
     )
     
@@ -225,15 +218,15 @@ def call_azure(essay_text):
     from openai import AzureOpenAI
     
     client = AzureOpenAI(
-        api_key=CONFIG["azure_api_key"],
-        api_version=CONFIG["azure_api_version"],
-        azure_endpoint=CONFIG["azure_endpoint"]
+        api_key=os.environ["AZURE_API_KEY"],
+        api_version=os.environ.get("AZURE_API_VERSION", "2025-04-01-preview"),
+        azure_endpoint=os.environ["AZURE_ENDPOINT"]
     )
     
     prompt = ANNOTATION_PROMPT.format(essay_text=essay_text)
     
     response = client.chat.completions.create(
-        model=CONFIG["azure_deployment"],
+        model=os.environ["AZURE_DEPLOYMENT"],
         messages=[
             {"role": "user", "content": prompt}
         ],
