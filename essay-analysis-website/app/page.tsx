@@ -30,6 +30,17 @@ interface LogRun {
   prompt: string | null
 }
 
+interface RunGroup {
+  id: string
+  name: string
+  description: string
+  runs: Record<string, string>
+}
+
+interface RunGroupsConfig {
+  groups: RunGroup[]
+}
+
 interface EssayData {
   id: string
   name: string
@@ -53,6 +64,7 @@ function overlapPercentage(start1: number, end1: number, start2: number, end2: n
 
 // Segmentation stats component
 function EssaySegmentationStats({ essay }: { essay: Essay }) {
+  const [isCollapsed, setIsCollapsed] = useState(true)
   const gt = essay.groundTruth
   const models = essay.modelResults
 
@@ -101,55 +113,89 @@ function EssaySegmentationStats({ essay }: { essay: Essay }) {
   })
 
   return (
-    <div className="mb-4 p-3 bg-muted/30 rounded-lg border border-border">
+    <div className="mb-4">
       <div className="flex items-center justify-between mb-2">
-        <div className="font-semibold text-foreground text-sm">Segmentation Summary</div>
-        <div className="text-sm text-muted-foreground">
-          Ground Truth: <span className="font-mono font-medium">{gt.components.length}</span> components
+        <div className="flex items-center gap-3">
+          <button
+            onClick={() => setIsCollapsed(!isCollapsed)}
+            className={cn(
+              "flex items-center gap-1.5 px-2 py-1 rounded-md text-xs transition-colors",
+              !isCollapsed 
+                ? "bg-primary text-primary-foreground" 
+                : "bg-muted text-muted-foreground hover:bg-muted/80"
+            )}
+          >
+            <svg 
+              className="w-4 h-4" 
+              fill="none" 
+              stroke="currentColor" 
+              viewBox="0 0 24 24"
+            >
+              <path 
+                strokeLinecap="round" 
+                strokeLinejoin="round" 
+                strokeWidth={2} 
+                d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z" 
+              />
+            </svg>
+            Segmentation Summary
+          </button>
+          <div className="text-sm text-muted-foreground">
+            Ground Truth: <span className="font-mono font-medium">{gt.components.length}</span> components
+          </div>
         </div>
+        {isCollapsed && (
+          <div className="text-xs text-muted-foreground">
+            {modelStats.length} models • {Math.min(...modelStats.map(s => s.gtCoverage))}-{Math.max(...modelStats.map(s => s.gtCoverage))}% coverage
+          </div>
+        )}
       </div>
       
-      {/* Model stats in horizontal layout */}
-      <div className="grid gap-2" style={{ gridTemplateColumns: `repeat(${modelStats.length}, 1fr)` }}>
-        {modelStats.map(stat => (
-          <div key={stat.name} className="bg-card rounded-md px-3 py-2 border border-border">
-            <div className="font-medium text-foreground text-sm mb-1.5">{stat.name}</div>
-            <div className="grid grid-cols-2 gap-x-3 gap-y-0.5 text-xs">
-              <div className="flex justify-between text-muted-foreground">
-                <span>Components:</span>
-                <span className="font-mono">{stat.total}</span>
-              </div>
-              <div className="flex justify-between text-muted-foreground">
-                <span>GT coverage:</span>
-                <span className={cn(
-                  "font-mono font-medium",
-                  stat.gtCoverage >= 80 ? "text-emerald-600 dark:text-emerald-400" :
-                  stat.gtCoverage >= 50 ? "text-amber-600 dark:text-amber-400" :
-                  "text-red-600 dark:text-red-400"
-                )}>{stat.gtCoverage}%</span>
-              </div>
-              <div className="flex justify-between text-muted-foreground">
-                <span>Avg overlap:</span>
-                <span className={cn(
-                  "font-mono font-medium",
-                  stat.avgOverlap >= 80 ? "text-emerald-600 dark:text-emerald-400" :
-                  stat.avgOverlap >= 50 ? "text-amber-600 dark:text-amber-400" :
-                  "text-red-600 dark:text-red-400"
-                )}>{stat.avgOverlap}%</span>
-              </div>
-              <div className="flex justify-between text-muted-foreground">
-                <span>Model-only:</span>
-                <span className={cn(
-                  "font-mono font-medium",
-                  stat.modelOnly === 0 ? "text-emerald-600 dark:text-emerald-400" :
-                  stat.modelOnly <= 2 ? "text-amber-600 dark:text-amber-400" :
-                  "text-orange-600 dark:text-orange-400"
-                )}>{stat.modelOnly}</span>
+      {/* Model stats - collapsible */}
+      {!isCollapsed && (
+        <div className="p-3 bg-muted/60 rounded-lg border border-border">
+          <div className="grid gap-2" style={{ gridTemplateColumns: `repeat(${modelStats.length}, 1fr)` }}>
+          {modelStats.map(stat => (
+            <div key={stat.name} className="bg-card rounded-md px-3 py-2 border border-border">
+              <div className="font-medium text-foreground text-sm mb-1.5">{stat.name}</div>
+              <div className="grid grid-cols-2 gap-x-3 gap-y-0.5 text-xs">
+                <div className="flex justify-between text-muted-foreground">
+                  <span>Components:</span>
+                  <span className="font-mono">{stat.total}</span>
+                </div>
+                <div className="flex justify-between text-muted-foreground">
+                  <span>GT coverage:</span>
+                  <span className={cn(
+                    "font-mono font-medium",
+                    stat.gtCoverage >= 80 ? "text-emerald-600 dark:text-emerald-400" :
+                    stat.gtCoverage >= 50 ? "text-amber-600 dark:text-amber-400" :
+                    "text-red-600 dark:text-red-400"
+                  )}>{stat.gtCoverage}%</span>
+                </div>
+                <div className="flex justify-between text-muted-foreground">
+                  <span>Avg overlap:</span>
+                  <span className={cn(
+                    "font-mono font-medium",
+                    stat.avgOverlap >= 80 ? "text-emerald-600 dark:text-emerald-400" :
+                    stat.avgOverlap >= 50 ? "text-amber-600 dark:text-amber-400" :
+                    "text-red-600 dark:text-red-400"
+                  )}>{stat.avgOverlap}%</span>
+                </div>
+                <div className="flex justify-between text-muted-foreground">
+                  <span>Model-only:</span>
+                  <span className={cn(
+                    "font-mono font-medium",
+                    stat.modelOnly === 0 ? "text-emerald-600 dark:text-emerald-400" :
+                    stat.modelOnly <= 2 ? "text-amber-600 dark:text-amber-400" :
+                    "text-orange-600 dark:text-orange-400"
+                  )}>{stat.modelOnly}</span>
+                </div>
               </div>
             </div>
+          ))}
           </div>
-        ))}
-      </div>
+        </div>
+      )}
     </div>
   )
 }
@@ -164,6 +210,11 @@ export default function Home() {
   const [mainTab, setMainTab] = useState("explore")
   const [loading, setLoading] = useState(true)
   const [promptViewMode, setPromptViewMode] = useState<"raw" | "markdown">("markdown")
+  const [coverageFilter, setCoverageFilter] = useState<"all" | "below80" | "below50">("all")
+  const [comparisonMode, setComparisonMode] = useState<"cross-model" | "time-series">("cross-model")
+  const [selectedModelForTimeSeries, setSelectedModelForTimeSeries] = useState<string>("")
+  const [selectedTimestamps, setSelectedTimestamps] = useState<string[]>([]) // For time-series mode
+  const [runGroups, setRunGroups] = useState<RunGroup[]>([]) // Predefined run groups
 
   // Group runs by model
   const runsByModel = logRuns.reduce((acc, run) => {
@@ -209,6 +260,21 @@ export default function Home() {
     return { prompt: firstPrompt, isConsistent: true, error: null }
   }, [modelNames, selectedRuns, logRuns])
 
+  // Determine which group is currently selected
+  const currentGroupId = useMemo(() => {
+    if (runGroups.length === 0) return null
+    
+    // Check if current selectedRuns matches any group
+    for (const group of runGroups) {
+      const matches = Object.entries(group.runs).every(([model, folder]) => 
+        selectedRuns[model] === folder
+      )
+      if (matches) return group.id
+    }
+    
+    return null
+  }, [runGroups, selectedRuns])
+
   // Load initial data
   useEffect(() => {
     async function loadData() {
@@ -218,6 +284,16 @@ export default function Home() {
         
         setLogRuns(data.runs || [])
         setEssays(data.essays || [])
+        
+        // Load run groups
+        try {
+          const groupsRes = await fetch("/config/run-groups.json")
+          const groupsData: RunGroupsConfig = await groupsRes.json()
+          setRunGroups(groupsData.groups || [])
+        } catch (error) {
+          console.error("Failed to load run groups:", error)
+          // Continue without groups
+        }
         
         // Set default selections
         if (data.essays?.length > 0) {
@@ -253,7 +329,19 @@ export default function Home() {
 
   // Load annotations when essay or selected runs change
   useEffect(() => {
-    if (!selectedEssayId || Object.keys(selectedRuns).length === 0) return
+    if (!selectedEssayId) return
+    
+    // Determine which runs to load based on mode
+    let runsToLoad: string[] = []
+    
+    if (comparisonMode === "cross-model") {
+      if (Object.keys(selectedRuns).length === 0) return
+      runsToLoad = Object.values(selectedRuns)
+    } else {
+      // Time series mode
+      if (selectedTimestamps.length === 0) return
+      runsToLoad = selectedTimestamps
+    }
     
     // Clear previous annotations immediately when essay changes
     setModelAnnotations({})
@@ -262,7 +350,7 @@ export default function Home() {
       const annotations: Record<string, string> = {}
       
       // Load all annotations in parallel
-      const promises = Object.values(selectedRuns).map(async (folder) => {
+      const promises = runsToLoad.map(async (folder) => {
         try {
           const res = await fetch(`/api/data?action=annotation&logFolder=${folder}&essayId=${selectedEssayId}`)
           const data = await res.json()
@@ -279,7 +367,7 @@ export default function Home() {
     }
     
     loadAnnotations()
-  }, [selectedEssayId, selectedRuns])
+  }, [selectedEssayId, selectedRuns, comparisonMode, selectedTimestamps])
 
   // Load stats for all essays when runs change
   useEffect(() => {
@@ -359,11 +447,30 @@ export default function Home() {
   }, [selectedRuns])
   
   const filteredEssays = useMemo(() => {
-    if (availableEssayIds.size === 0) {
-      return essays
+    let filtered = essays
+    
+    // Filter by available essays
+    if (availableEssayIds.size > 0) {
+      filtered = filtered.filter(essay => availableEssayIds.has(essay.id))
     }
-    return essays.filter(essay => availableEssayIds.has(essay.id))
-  }, [essays, availableEssayIds])
+    
+    // Filter by coverage
+    if (coverageFilter !== "all" && Object.keys(essayStats).length > 0) {
+      filtered = filtered.filter(essay => {
+        const stats = essayStats[essay.id]
+        if (!stats) return true // Include if no stats available
+        
+        if (coverageFilter === "below80") {
+          return stats.minGtCoverage < 80
+        } else if (coverageFilter === "below50") {
+          return stats.minGtCoverage < 50
+        }
+        return true
+      })
+    }
+    
+    return filtered
+  }, [essays, availableEssayIds, coverageFilter, essayStats])
 
   // Update selected essay when filtered essays change
   useEffect(() => {
@@ -383,18 +490,41 @@ export default function Home() {
     groundTruth: selectedEssayData.goldAnnotation 
       ? parseBrat(selectedEssayData.goldAnnotation)
       : { components: [], stances: [], relations: [] },
-    modelResults: Object.entries(selectedRuns).map(([model, folder]) => {
-      const annotation = modelAnnotations[folder]
-      const run = logRuns.find(r => r.folder === folder)
-      const displayName = run?.modelDisplayName || model.charAt(0).toUpperCase() + model.slice(1)
-      return {
-        modelName: displayName,
-        modelId: model,
-        annotation: annotation 
-          ? parseBrat(annotation)
-          : { components: [], stances: [], relations: [] }
-      } as ModelResult
-    }).filter(r => r.annotation.components.length > 0)
+    modelResults: (() => {
+      if (comparisonMode === "cross-model") {
+        return Object.entries(selectedRuns).map(([model, folder]) => {
+          const annotation = modelAnnotations[folder]
+          const run = logRuns.find(r => r.folder === folder)
+          const displayName = run?.modelDisplayName || model.charAt(0).toUpperCase() + model.slice(1)
+          return {
+            modelName: displayName,
+            modelId: model,
+            annotation: annotation 
+              ? parseBrat(annotation)
+              : { components: [], stances: [], relations: [] }
+          } as ModelResult
+        })
+      } else {
+        // Time series mode - show timestamps as model names
+        return selectedTimestamps.map(folder => {
+          const annotation = modelAnnotations[folder]
+          const run = logRuns.find(r => r.folder === folder)
+          const timestamp = run?.timestamp || folder
+          const formattedTime = `${timestamp.slice(4, 6)}/${timestamp.slice(6, 8)} ${timestamp.slice(9, 11)}:${timestamp.slice(11, 13)}`
+          const isAllRun = folder.includes("_all_")
+          const modelDisplayName = run?.modelDisplayName || run?.model || ""
+          const displayName = `${modelDisplayName} - ${formattedTime}${isAllRun ? " (All)" : ""}`
+          
+          return {
+            modelName: displayName,
+            modelId: folder,
+            annotation: annotation 
+              ? parseBrat(annotation)
+              : { components: [], stances: [], relations: [] }
+          } as ModelResult
+        })
+      }
+    })().filter(r => r.annotation.components.length > 0)
   } : null
 
   if (loading) {
@@ -449,55 +579,189 @@ export default function Home() {
           <div className="p-4 flex flex-col flex-1 min-h-0 gap-4">
             {/* Model Run Selection */}
             <div className="shrink-0">
-              <h2 className="text-sm font-semibold text-foreground uppercase tracking-wider mb-2">
-                Model Runs
-              </h2>
+              <div className="flex items-center justify-between mb-2">
+                <h2 className="text-sm font-semibold text-foreground uppercase tracking-wider">
+                  Model Runs
+                </h2>
+                <div className="flex gap-1">
+                  <button
+                    onClick={() => {
+                      setComparisonMode("cross-model")
+                      setSelectedTimestamps([])
+                    }}
+                    className={cn(
+                      "px-2 py-0.5 text-[10px] rounded transition-colors",
+                      comparisonMode === "cross-model"
+                        ? "bg-primary text-primary-foreground"
+                        : "bg-muted text-muted-foreground hover:bg-muted/80"
+                    )}
+                    title="Compare different models"
+                  >
+                    <svg className="w-3 h-3 inline mr-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 6a2 2 0 012-2h2a2 2 0 012 2v2a2 2 0 01-2 2H6a2 2 0 01-2-2V6zM14 6a2 2 0 012-2h2a2 2 0 012 2v2a2 2 0 01-2 2h-2a2 2 0 01-2-2V6zM4 16a2 2 0 012-2h2a2 2 0 012 2v2a2 2 0 01-2 2H6a2 2 0 01-2-2v-2zM14 16a2 2 0 012-2h2a2 2 0 012 2v2a2 2 0 01-2 2h-2a2 2 0 01-2-2v-2z" />
+                    </svg>
+                    Cross-Model
+                  </button>
+                  <button
+                    onClick={() => {
+                      setComparisonMode("time-series")
+                      if (!selectedModelForTimeSeries && modelNames.length > 0) {
+                        setSelectedModelForTimeSeries(modelNames[0])
+                      }
+                    }}
+                    className={cn(
+                      "px-2 py-0.5 text-[10px] rounded transition-colors",
+                      comparisonMode === "time-series"
+                        ? "bg-primary text-primary-foreground"
+                        : "bg-muted text-muted-foreground hover:bg-muted/80"
+                    )}
+                    title="Compare same model over time"
+                  >
+                    <svg className="w-3 h-3 inline mr-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
+                    </svg>
+                    Time Series
+                  </button>
+                </div>
+              </div>
               
-              <div className="grid grid-cols-3 gap-2">
-                {modelNames.map(model => {
-                  // Format selected run's timestamp for display
-                  const selectedFolder = selectedRuns[model]
-                  const selectedRun = runsByModel[model]?.find(r => r.folder === selectedFolder)
-                  const selectedTime = selectedRun ? 
-                    `${selectedRun.timestamp.slice(4, 6)}/${selectedRun.timestamp.slice(6, 8)} ${selectedRun.timestamp.slice(9, 11)}:${selectedRun.timestamp.slice(11, 13)}${selectedRun.folder.includes("_all_") ? " (All)" : ""}` 
-                    : ""
-                  // Get the display name from the first run of this model
-                  const modelDisplayName = runsByModel[model]?.[0]?.modelDisplayName || model
-                  
-                  return (
-                    <div key={model}>
-                      <label className="text-[10px] font-medium text-muted-foreground uppercase block mb-1" title={modelDisplayName}>
-                        {modelDisplayName}
+              {comparisonMode === "cross-model" ? (
+                <div className="space-y-3">
+                  {/* Predefined run groups */}
+                  {runGroups.length > 0 ? (
+                    <div className="p-2 bg-muted/30 rounded-lg border border-border">
+                      <label className="text-[10px] font-medium text-muted-foreground uppercase block mb-2">
+                        Select Predefined Group
                       </label>
                       <Select
-                        value={selectedRuns[model] || ""}
-                        onValueChange={(value) => {
-                          setSelectedRuns(prev => ({ ...prev, [model]: value }))
+                        value={currentGroupId || ""}
+                        onValueChange={(groupId) => {
+                          const group = runGroups.find(g => g.id === groupId)
+                          if (group) {
+                            setSelectedRuns(group.runs)
+                          }
                         }}
                       >
-                        <SelectTrigger className="w-full h-7 text-[10px]">
-                          <SelectValue placeholder="Select">
-                            {selectedTime}
+                        <SelectTrigger className="select-trigger-custom w-full h-8 text-xs px-3 [&>span]:w-full [&>span]:text-left">
+                          <SelectValue placeholder="Select a predefined group">
+                            {currentGroupId && runGroups.find(g => g.id === currentGroupId)?.name}
                           </SelectValue>
                         </SelectTrigger>
-                        <SelectContent>
-                          {runsByModel[model]?.map(run => {
-                            // Format: MM/DD HH:MM
-                            const formattedTime = `${run.timestamp.slice(4, 6)}/${run.timestamp.slice(6, 8)} ${run.timestamp.slice(9, 11)}:${run.timestamp.slice(11, 13)}`
-                            const isAllRun = run.folder.includes("_all_")
-                            const label = isAllRun ? `${formattedTime} (All)` : formattedTime
-                            return (
-                              <SelectItem key={run.folder} value={run.folder} className="text-xs">
-                                {label}
-                              </SelectItem>
-                            )
-                          })}
+                        <SelectContent className="max-w-[400px]">
+                          {runGroups.map(group => (
+                            <SelectItem 
+                              key={group.id} 
+                              value={group.id} 
+                              className="text-xs py-2 data-[highlighted]:bg-accent data-[highlighted]:text-accent-foreground"
+                            >
+                              <div className="space-y-0.5">
+                                <div className="font-medium whitespace-normal">{group.name}</div>
+                                <div className="text-[10px] whitespace-normal opacity-90">{group.description}</div>
+                              </div>
+                            </SelectItem>
+                          ))}
                         </SelectContent>
                       </Select>
+                      
+                      {/* Show current selections */}
+                      <div className="mt-2 space-y-1">
+                        {modelNames.map(model => {
+                          const selectedFolder = selectedRuns[model]
+                          const selectedRun = runsByModel[model]?.find(r => r.folder === selectedFolder)
+                          const modelDisplayName = runsByModel[model]?.[0]?.modelDisplayName || model
+                          
+                          if (!selectedRun) return null
+                          
+                          const formattedTime = `${selectedRun.timestamp.slice(4, 6)}/${selectedRun.timestamp.slice(6, 8)} ${selectedRun.timestamp.slice(9, 11)}:${selectedRun.timestamp.slice(11, 13)}`
+                          const isAllRun = selectedRun.folder.includes("_all_")
+                          
+                          return (
+                            <div key={model} className="flex items-center justify-between text-[9px] text-muted-foreground">
+                              <span className="font-medium">{modelDisplayName}:</span>
+                              <span>{formattedTime}{isAllRun ? " (All)" : ""}</span>
+                            </div>
+                          )
+                        })}
+                      </div>
                     </div>
-                  )
-                })}
-              </div>
+                  ) : (
+                    <div className="p-2 bg-muted/30 rounded-lg border border-border text-center">
+                      <p className="text-[10px] text-muted-foreground">
+                        No run groups configured. Add groups to <code className="text-[9px] bg-muted px-1 py-0.5 rounded">/public/config/run-groups.json</code>
+                      </p>
+                    </div>
+                  )}
+                </div>
+              ) : (
+                <div className="space-y-3">
+                  {/* Model selector for time series */}
+                  <div>
+                    <label className="text-[10px] font-medium text-muted-foreground uppercase block mb-1">
+                      Select Model
+                    </label>
+                    <Select
+                      value={selectedModelForTimeSeries}
+                      onValueChange={(model) => {
+                        setSelectedModelForTimeSeries(model)
+                        setSelectedTimestamps([]) // Clear timestamps when model changes
+                      }}
+                    >
+                      <SelectTrigger className="w-full h-7 text-xs">
+                        <SelectValue placeholder="Select a model" />
+                      </SelectTrigger>
+                      <SelectContent>
+                        {modelNames.map(model => {
+                          const displayName = runsByModel[model]?.[0]?.modelDisplayName || model
+                          return (
+                            <SelectItem key={model} value={model} className="text-xs">
+                              {displayName}
+                            </SelectItem>
+                          )
+                        })}
+                      </SelectContent>
+                    </Select>
+                  </div>
+                  
+                  {/* Timestamp selection */}
+                  {selectedModelForTimeSeries && (
+                    <div>
+                      <label className="text-[10px] font-medium text-muted-foreground uppercase block mb-1">
+                        Select Timestamps to Compare for {runsByModel[selectedModelForTimeSeries]?.[0]?.modelDisplayName || selectedModelForTimeSeries}
+                      </label>
+                      <div className="space-y-1 max-h-32 overflow-y-auto border border-border rounded p-2">
+                        {runsByModel[selectedModelForTimeSeries]?.map(run => {
+                          const formattedTime = `${run.timestamp.slice(4, 6)}/${run.timestamp.slice(6, 8)} ${run.timestamp.slice(9, 11)}:${run.timestamp.slice(11, 13)}`
+                          const isAllRun = run.folder.includes("_all_")
+                          const modelDisplayName = run.modelDisplayName || run.model
+                          const label = `${modelDisplayName} - ${formattedTime}${isAllRun ? " (All)" : ""}`
+                          const isSelected = selectedTimestamps.includes(run.folder)
+                          
+                          return (
+                            <label key={run.folder} className="flex items-center gap-2 hover:bg-muted/50 p-1 rounded cursor-pointer">
+                              <input
+                                type="checkbox"
+                                checked={isSelected}
+                                onChange={(e) => {
+                                  if (e.target.checked) {
+                                    setSelectedTimestamps([...selectedTimestamps, run.folder])
+                                  } else {
+                                    setSelectedTimestamps(selectedTimestamps.filter(f => f !== run.folder))
+                                  }
+                                }}
+                                className="w-3 h-3"
+                              />
+                              <span className="text-xs">{label}</span>
+                            </label>
+                          )
+                        })}
+                      </div>
+                      <div className="text-[10px] text-muted-foreground mt-1">
+                        {selectedTimestamps.length} selected
+                      </div>
+                    </div>
+                  )}
+                </div>
+              )}
             </div>
 
             {/* Essay Selection */}
@@ -521,6 +785,33 @@ export default function Home() {
                 })()}
               </span>
               
+              <div className="flex gap-2 mb-2">
+                <Select
+                  value={coverageFilter}
+                  onValueChange={(value: "all" | "below80" | "below50") => setCoverageFilter(value)}
+                >
+                  <SelectTrigger className={cn(
+                    "w-[140px] h-7 text-[10px]",
+                    coverageFilter !== "all" && "bg-amber-50 dark:bg-amber-900/20 border-amber-300 dark:border-amber-700"
+                  )}>
+                    <SelectValue />
+                  </SelectTrigger>
+                  <SelectContent>
+                    <SelectItem value="all" className="text-xs">All Essays</SelectItem>
+                    <SelectItem value="below80" className="text-xs">Coverage &lt; 80%</SelectItem>
+                    <SelectItem value="below50" className="text-xs">Coverage &lt; 50%</SelectItem>
+                  </SelectContent>
+                </Select>
+                {coverageFilter !== "all" && (
+                  <button
+                    onClick={() => setCoverageFilter("all")}
+                    className="px-2 h-7 text-[10px] bg-amber-100 dark:bg-amber-900/30 text-amber-700 dark:text-amber-300 rounded hover:bg-amber-200 dark:hover:bg-amber-900/40 transition-colors"
+                  >
+                    Clear
+                  </button>
+                )}
+              </div>
+              
               <Select
                 value={selectedEssayId}
                 onValueChange={setSelectedEssayId}
@@ -528,7 +819,15 @@ export default function Home() {
                 <SelectTrigger className="w-full h-8 text-xs">
                   <SelectValue placeholder="Select an essay" />
                 </SelectTrigger>
-                <SelectContent>
+                <SelectContent 
+                  position="popper" 
+                  side="bottom" 
+                  align="start" 
+                  sideOffset={4} 
+                  collisionPadding={10} 
+                  avoidCollisions={false}
+                  className="max-h-[300px]"
+                >
                   {filteredEssays.map((essay) => {
                     const stats = essayStats[essay.id]
                     // Extract version and number from essay ID (e.g., v1_essay01 -> v1, 01)
@@ -537,9 +836,9 @@ export default function Home() {
                     const essayNum = versionMatch ? versionMatch[2] : essay.id
                     
                     return (
-                      <SelectItem key={essay.id} value={essay.id} className="text-xs">
+                      <SelectItem key={essay.id} value={essay.id} className="text-xs essay-select-item">
                         <div className="flex items-center gap-2">
-                          <span className="font-mono font-semibold text-[10px] px-1 rounded bg-muted">
+                          <span className="font-mono font-semibold text-[10px] px-1 rounded bg-muted text-muted-foreground">
                             {version}
                           </span>
                           <span className="font-mono">{essayNum}</span>
@@ -683,7 +982,8 @@ export default function Home() {
             {/* Selected essay view */}
             {selectedEssay && (
               <>
-                <div className="mb-4 flex items-center justify-between flex-wrap gap-3">
+                <div className="mb-4">
+                  {/* First line - Essay title and stats */}
                   <div className="flex items-center gap-3 flex-wrap">
                     {(() => {
                       const versionMatch = selectedEssayId.match(/^(v\d+)_essay(\d+)$/)
@@ -701,68 +1001,69 @@ export default function Home() {
                         </>
                       )
                     })()}
-                    <span className="text-xs text-muted-foreground font-mono px-2 py-1 bg-muted rounded">
-                      {selectedEssay.text.length} chars
-                    </span>
-                    <span className="text-xs text-muted-foreground font-mono px-2 py-1 bg-muted rounded">
-                      {selectedEssay.groundTruth.components.length} gold components
-                    </span>
-                  </div>
-                  
-                  {/* Navigation buttons */}
-                  <div className="flex items-center gap-2">
-                    <button
-                      onClick={() => {
-                        const currentIndex = filteredEssays.findIndex(e => e.id === selectedEssayId)
-                        if (currentIndex > 0) {
-                          setSelectedEssayId(filteredEssays[currentIndex - 1].id)
-                        }
-                      }}
-                      disabled={filteredEssays.findIndex(e => e.id === selectedEssayId) === 0}
-                      className={cn(
-                        "px-3 py-1.5 text-xs font-medium rounded-md flex items-center gap-1 transition-colors",
-                        filteredEssays.findIndex(e => e.id === selectedEssayId) === 0
-                          ? "bg-muted text-muted-foreground cursor-not-allowed"
-                          : "bg-muted hover:bg-muted/80 text-foreground"
-                      )}
-                    >
-                      <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 19l-7-7 7-7" />
-                      </svg>
-                      Prev
-                    </button>
-                    <span className="text-xs text-muted-foreground">
-                      {filteredEssays.findIndex(e => e.id === selectedEssayId) + 1} / {filteredEssays.length}
-                    </span>
-                    <button
-                      onClick={() => {
-                        const currentIndex = filteredEssays.findIndex(e => e.id === selectedEssayId)
-                        if (currentIndex < filteredEssays.length - 1) {
-                          setSelectedEssayId(filteredEssays[currentIndex + 1].id)
-                        }
-                      }}
-                      disabled={filteredEssays.findIndex(e => e.id === selectedEssayId) === filteredEssays.length - 1}
-                      className={cn(
-                        "px-3 py-1.5 text-xs font-medium rounded-md flex items-center gap-1 transition-colors",
-                        filteredEssays.findIndex(e => e.id === selectedEssayId) === filteredEssays.length - 1
-                          ? "bg-muted text-muted-foreground cursor-not-allowed"
-                          : "bg-muted hover:bg-muted/80 text-foreground"
-                      )}
-                    >
-                      Next
-                      <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
-                      </svg>
-                    </button>
                   </div>
                 </div>
 
                 <Tabs value={mainTab} onValueChange={setMainTab}>
-                  <TabsList className="bg-muted mb-4">
-                    <TabsTrigger value="explore">Explore</TabsTrigger>
-                    <TabsTrigger value="compare-segmentation">Compare Models (Segmentation)</TabsTrigger>
-                    <TabsTrigger value="compare-visual">Compare Models (Visual)</TabsTrigger>
-                  </TabsList>
+                  <div className="flex items-center justify-between mb-4">
+                    <TabsList className="bg-muted">
+                      <TabsTrigger value="explore">Explore</TabsTrigger>
+                      <TabsTrigger value="compare-segmentation">Compare Models (Segmentation)</TabsTrigger>
+                      <TabsTrigger value="compare-visual">Compare Models (Visual)</TabsTrigger>
+                    </TabsList>
+                    
+                    {/* Navigation buttons */}
+                    <div className="flex items-center gap-2">
+                      <button
+                        onClick={() => {
+                          const currentIndex = filteredEssays.findIndex(e => e.id === selectedEssayId)
+                          if (currentIndex > 0) {
+                            setSelectedEssayId(filteredEssays[currentIndex - 1].id)
+                          }
+                        }}
+                        disabled={filteredEssays.findIndex(e => e.id === selectedEssayId) === 0}
+                        className={cn(
+                          "px-3 py-1.5 text-xs font-medium rounded-md flex items-center gap-1 transition-colors",
+                          filteredEssays.findIndex(e => e.id === selectedEssayId) === 0
+                            ? "bg-muted text-muted-foreground cursor-not-allowed"
+                            : "bg-muted hover:bg-muted/80 text-foreground"
+                        )}
+                      >
+                        <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 19l-7-7 7-7" />
+                        </svg>
+                        Prev
+                      </button>
+                      <span className="text-xs text-muted-foreground">
+                        {filteredEssays.findIndex(e => e.id === selectedEssayId) + 1} / {filteredEssays.length}
+                      </span>
+                      <button
+                        onClick={() => {
+                          const currentIndex = filteredEssays.findIndex(e => e.id === selectedEssayId)
+                          if (currentIndex < filteredEssays.length - 1) {
+                            setSelectedEssayId(filteredEssays[currentIndex + 1].id)
+                          }
+                        }}
+                        disabled={filteredEssays.findIndex(e => e.id === selectedEssayId) === filteredEssays.length - 1}
+                        className={cn(
+                          "px-3 py-1.5 text-xs font-medium rounded-md flex items-center gap-1 transition-colors",
+                          filteredEssays.findIndex(e => e.id === selectedEssayId) === filteredEssays.length - 1
+                            ? "bg-muted text-muted-foreground cursor-not-allowed"
+                            : "bg-muted hover:bg-muted/80 text-foreground"
+                        )}
+                      >
+                        Next
+                        <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
+                        </svg>
+                      </button>
+                    </div>
+                  </div>
+
+                  {/* Segmentation Summary - below tabs but above content */}
+                  {selectedEssay && selectedEssay.modelResults.length > 0 && mainTab === "compare-segmentation" && (
+                    <EssaySegmentationStats essay={selectedEssay} />
+                  )}
 
                   <TabsContent value="explore">
                     <EssayViewer essay={selectedEssay} />
@@ -770,10 +1071,6 @@ export default function Home() {
 
                   <TabsContent value="compare-segmentation">
                     <div className="bg-card rounded-lg border border-border p-5">
-                      {/* Stats summary at the top */}
-                      {selectedEssay.modelResults.length > 0 && (
-                        <EssaySegmentationStats essay={selectedEssay} />
-                      )}
                       <ComparisonView essay={selectedEssay} mode="segmentation" />
                     </div>
                   </TabsContent>

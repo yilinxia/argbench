@@ -1,0 +1,19 @@
+{
+  "modes": {
+    "cross-model": {
+      "name": "Compare Across Models",
+      "description": "Compare different models using their latest runs",
+      "icon": "grid",
+      "requiresMultipleModels": true,
+      "requiresSingleTimestamp": false
+    },
+    "time-series": {
+      "name": "Compare Same Model Over Time",
+      "description": "Compare multiple runs of the same model across different timestamps",
+      "icon": "clock",
+      "requiresMultipleModels": false,
+      "requiresSingleTimestamp": false
+    }
+  },
+  "defaultMode": "cross-model"
+}

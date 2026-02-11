@@ -92,3 +92,112 @@ body {
     @apply bg-background text-foreground;
   }
 }
+
+/* Custom styles for select dropdown */
+/* Only apply white text to run groups dropdown */
+.select-trigger-custom + [role="listbox"] [data-highlighted],
+[data-radix-collection-item][data-highlighted]:has(.space-y-0\.5) {
+  color: white !important;
+}
+
+.select-trigger-custom + [role="listbox"] [data-highlighted] *,
+[data-radix-collection-item][data-highlighted]:has(.space-y-0\.5) * {
+  color: white !important;
+  opacity: 1 !important;
+}
+
+/* Essay dropdown - only essay ID and name white on hover */
+.essay-select-item[data-highlighted] .font-mono:not([class*="bg-"]):not([class*="text-"]) {
+  color: white !important;
+}
+
+.essay-select-item[data-highlighted] .truncate {
+  color: white !important;
+}
+
+/* Keep ALL badges with their original styling - more specific selectors */
+.essay-select-item[data-highlighted] [class*="bg-muted"],
+.essay-select-item[data-highlighted] [class*="bg-emerald"],
+.essay-select-item[data-highlighted] [class*="bg-amber"],
+.essay-select-item[data-highlighted] [class*="bg-red"] {
+  background-color: inherit !important;
+  color: inherit !important;
+}
+
+/* Specific badge color preservation */
+.essay-select-item[data-highlighted] .bg-muted {
+  background-color: hsl(var(--muted)) !important;
+  color: hsl(var(--muted-foreground)) !important;
+}
+
+.essay-select-item[data-highlighted] .bg-emerald-100 {
+  background-color: rgb(209 250 229) !important;
+  color: rgb(4 120 87) !important;
+}
+
+.essay-select-item[data-highlighted] .bg-amber-100 {
+  background-color: rgb(254 243 199) !important;
+  color: rgb(146 64 14) !important;
+}
+
+.essay-select-item[data-highlighted] .bg-red-100 {
+  background-color: rgb(254 226 226) !important;
+  color: rgb(185 28 28) !important;
+}
+
+/* Dark mode badge colors */
+.dark .essay-select-item[data-highlighted] .dark\:bg-emerald-900\/40 {
+  background-color: rgba(6 78 59 / 0.4) !important;
+  color: rgb(167 243 208) !important;
+}
+
+.dark .essay-select-item[data-highlighted] .dark\:bg-amber-900\/40 {
+  background-color: rgba(120 53 15 / 0.4) !important;
+  color: rgb(252 211 77) !important;
+}
+
+.dark .essay-select-item[data-highlighted] .dark\:bg-red-900\/40 {
+  background-color: rgba(127 29 29 / 0.4) !important;
+  color: rgb(252 165 165) !important;
+}
+
+/* Ensure text color classes are preserved */
+.essay-select-item[data-highlighted] .text-emerald-700 {
+  color: rgb(4 120 87) !important;
+}
+
+.essay-select-item[data-highlighted] .text-amber-700 {
+  color: rgb(146 64 14) !important;
+}
+
+.essay-select-item[data-highlighted] .text-red-700 {
+  color: rgb(185 28 28) !important;
+}
+
+.dark .essay-select-item[data-highlighted] .dark\:text-emerald-400 {
+  color: rgb(167 243 208) !important;
+}
+
+.dark .essay-select-item[data-highlighted] .dark\:text-amber-400 {
+  color: rgb(252 211 77) !important;
+}
+
+.dark .essay-select-item[data-highlighted] .dark\:text-red-400 {
+  color: rgb(252 165 165) !important;
+}
+
+/* Fix for select trigger text display */
+.select-trigger-custom span {
+  display: block !important;
+  overflow: visible !important;
+  text-overflow: initial !important;
+  white-space: normal !important;
+  line-height: normal !important;
+  -webkit-line-clamp: unset !important;
+  line-clamp: unset !important;
+}
+
+/* Force essay dropdown to always appear below */
+[data-radix-popper-content-wrapper] {
+  transform-origin: top !important;
+}

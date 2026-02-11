@@ -17,7 +17,8 @@ export function parseBrat(bratText: string): Annotation {
     if (trimmed.startsWith("T")) {
       // Entity: T1\tMajorClaim 391 490\ttext content
       // Note: some outputs use space instead of tab as delimiter
-      const match = trimmed.match(/^(T\d+)[\t\s]+(\w+)\s+(\d+)\s+(\d+)[\t\s]+(.+)$/)
+      // Also handle hyphen format: T1\tMajorClaim 391-490\ttext content
+      const match = trimmed.match(/^(T\d+)[\t\s]+(\w+)\s+(\d+)[\s-](\d+)[\t\s]+(.+)$/)
       if (match) {
         components.push({
           id: match[1],

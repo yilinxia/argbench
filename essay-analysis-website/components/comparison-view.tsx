@@ -27,6 +27,20 @@ function overlapPercentage(start1: number, end1: number, start2: number, end2: n
 
 export function ComparisonView({ essay, mode }: ComparisonViewProps) {
   const [showHelp, setShowHelp] = useState(false)
+  const [collapsedTypes, setCollapsedTypes] = useState<Set<string>>(new Set())
+  const [selectedRowId, setSelectedRowId] = useState<string | null>(null)
+  
+  const toggleTypeCollapse = (type: string) => {
+    setCollapsedTypes(prev => {
+      const newSet = new Set(prev)
+      if (newSet.has(type)) {
+        newSet.delete(type)
+      } else {
+        newSet.add(type)
+      }
+      return newSet
+    })
+  }
   
   const modelSources = essay.modelResults.map((m) => ({
     name: m.modelName,
@@ -221,7 +235,32 @@ export function ComparisonView({ essay, mode }: ComparisonViewProps) {
   return (
     <div className="space-y-4 w-full overflow-hidden">
       {/* Help toggle and explanation */}
-      <div className="flex justify-end">
+      <div className="flex justify-between items-center">
+        <div className="flex gap-2">
+          <button
+            onClick={() => setCollapsedTypes(new Set())}
+            className="px-2 py-1 rounded-md text-xs transition-colors bg-muted text-muted-foreground hover:bg-muted/80"
+          >
+            Expand All
+          </button>
+          <button
+            onClick={() => {
+              const allTypes = unifiedGroups.map(g => g.type)
+              setCollapsedTypes(new Set(allTypes))
+            }}
+            className="px-2 py-1 rounded-md text-xs transition-colors bg-muted text-muted-foreground hover:bg-muted/80"
+          >
+            Collapse All
+          </button>
+          {selectedRowId && (
+            <button
+              onClick={() => setSelectedRowId(null)}
+              className="px-2 py-1 rounded-md text-xs transition-colors bg-primary/10 text-primary hover:bg-primary/20"
+            >
+              Clear Selection
+            </button>
+          )}
+        </div>
         <button
           onClick={() => setShowHelp(!showHelp)}
           className={cn(
@@ -250,13 +289,13 @@ export function ComparisonView({ essay, mode }: ComparisonViewProps) {
 
       {/* Collapsible explanation */}
       {showHelp && (
-        <div className="bg-muted/30 rounded-lg p-4 border border-border/50 space-y-3 text-xs text-muted-foreground">
+        <div className="bg-muted/60 rounded-lg p-4 border border-border/50 space-y-3 text-xs text-muted-foreground">
           <div>
             <span className="font-semibold text-foreground">Table Structure:</span>{" "}
             Each row shows a Ground Truth component on the left, followed by any model components 
             that overlap with that text range (≥50% overlap). Components are grouped by type (MajorClaim → Claim → Premise) 
             and sorted by their position in the text. Model-only components (no meaningful GT match) are also included 
-            in the table with an empty GT cell.
+            in the table with an empty GT cell. Click on type headers to expand/collapse sections. Click on any row to highlight it for easier tracking.
           </div>
           <div>
             <span className="font-semibold text-foreground">Match Threshold:</span>{" "}
@@ -275,7 +314,7 @@ export function ComparisonView({ essay, mode }: ComparisonViewProps) {
             <ul className="mt-1 ml-4 list-disc space-y-0.5">
               <li><span className="text-emerald-600 dark:text-emerald-400">Green (≥80%)</span> — Strong match</li>
               <li><span className="text-amber-600 dark:text-amber-400">Amber (50-79%)</span> — Partial match</li>
-              <li><span className="text-purple-600 dark:text-purple-400">Purple "type differs"</span> — Model classified the span as a different type</li>
+              <li><span className="text-purple-600 dark:text-purple-400">Light Purple "type differs"</span> — Model classified the span as a different type</li>
               <li><span className="text-orange-600 dark:text-orange-400">Orange "no GT match"</span> — Model component with no meaningful (&lt;50%) Ground Truth overlap</li>
             </ul>
           </div>
@@ -283,15 +322,21 @@ export function ComparisonView({ essay, mode }: ComparisonViewProps) {
       )}
 
       {/* Header row */}
-      <div className="grid gap-2" style={{ gridTemplateColumns: `1fr repeat(${modelSources.length}, 1fr)` }}>
-        <div className="px-3 py-2 bg-muted/50 rounded-lg border border-border min-w-0">
-          <span className="text-xs font-semibold text-foreground uppercase tracking-wider">
+      <div className="grid gap-2 mb-3" style={{ gridTemplateColumns: `1fr repeat(${modelSources.length}, 1fr)` }}>
+        <div className="h-14 flex flex-col items-center justify-center px-3 py-2 bg-slate-200 dark:bg-slate-700 rounded-lg">
+          <svg className="w-4 h-4 text-slate-600 dark:text-slate-300 mb-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
+          </svg>
+          <span className="text-xs font-bold text-slate-800 dark:text-white uppercase tracking-wider">
             Ground Truth
           </span>
         </div>
         {modelSources.map(source => (
-          <div key={source.name} className="px-3 py-2 bg-muted/50 rounded-lg border border-border min-w-0">
-            <span className="text-xs font-semibold text-foreground uppercase tracking-wider truncate block">
+          <div key={source.name} className="h-14 flex flex-col items-center justify-center px-3 py-2 bg-blue-100 dark:bg-blue-700 rounded-lg">
+            <svg className="w-4 h-4 text-blue-600 dark:text-blue-200 mb-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9.75 17L9 20l-1 1h8l-1-1-.75-3M3 13h18M5 17h14a2 2 0 002-2V5a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
+            </svg>
+            <span className="text-xs font-bold text-blue-800 dark:text-white uppercase tracking-wider text-center">
               {source.name}
             </span>
           </div>
@@ -305,28 +350,55 @@ export function ComparisonView({ essay, mode }: ComparisonViewProps) {
         
         return (
           <div key={group.type} className="space-y-2">
-            {/* Type header */}
-            <div className="flex items-center gap-2 px-2">
+            {/* Type header - clickable */}
+            <button
+              onClick={() => toggleTypeCollapse(group.type)}
+              className="flex items-center gap-2 px-2 py-1 -mx-2 rounded hover:bg-muted/50 transition-colors w-full text-left"
+            >
+              <svg 
+                className={cn(
+                  "w-4 h-4 text-muted-foreground transition-transform",
+                  collapsedTypes.has(group.type) ? "" : "rotate-90"
+                )}
+                fill="none" 
+                stroke="currentColor" 
+                viewBox="0 0 24 24"
+              >
+                <path 
+                  strokeLinecap="round" 
+                  strokeLinejoin="round" 
+                  strokeWidth={2} 
+                  d="M9 5l7 7-7 7" 
+                />
+              </svg>
               <TypeBadge type={group.type} />
               <span className="text-xs text-muted-foreground">
                 ({gtCount} GT{modelOnlyCount > 0 ? `, ${modelOnlyCount} model-only` : ""})
               </span>
-            </div>
+            </button>
 
-            {/* Rows */}
-            {group.rows.map((row) => {
-              if (row.rowType === 'gt') {
+            {/* Rows - collapsible */}
+            {!collapsedTypes.has(group.type) && (
+              <div className="space-y-2">
+                {group.rows.map((row) => {
+                  if (row.rowType === 'gt') {
                 const gtComp = row.gtComp
                 const modelMatches = findOverlappingComponents(gtComp)
                 
                 return (
                   <div 
                     key={gtComp.id}
-                    className="grid gap-2"
+                    className={cn(
+                      "grid gap-2 cursor-pointer transition-all duration-200 hover:opacity-90"
+                    )}
                     style={{ gridTemplateColumns: `1fr repeat(${modelSources.length}, 1fr)` }}
+                    onClick={() => setSelectedRowId(selectedRowId === gtComp.id ? null : gtComp.id)}
                   >
                     {/* Ground Truth component */}
-                    <div className="bg-card rounded-lg border border-border p-3 min-w-0 overflow-hidden">
+                    <div className={cn(
+                      "bg-card rounded-lg border p-3 min-w-0 overflow-hidden transition-colors",
+                      selectedRowId === gtComp.id ? "border-2 border-slate-600 dark:border-slate-400" : "border-border"
+                    )}>
                       <div className="flex items-center gap-1.5 mb-1.5 flex-wrap">
                         <span className="font-mono text-[10px] text-muted-foreground font-semibold">
                           {gtComp.id}
@@ -342,17 +414,31 @@ export function ComparisonView({ essay, mode }: ComparisonViewProps) {
                     </div>
 
                     {/* Model matches */}
-                    {modelMatches.map(({ modelName, components }) => (
-                      <div 
-                        key={modelName}
-                        className={cn(
-                          "rounded-lg border p-3 min-w-0 overflow-hidden",
-                          components.length === 0 
-                            ? "bg-gray-100 dark:bg-gray-800/30 border-gray-200 dark:border-gray-700"
-                            : "bg-card border-border"
-                        )}
-                      >
-                        {components.length === 0 ? (
+                    {modelMatches.map(({ modelName, components }) => {
+                      // Check if any component has a type mismatch
+                      const hasTypeMismatch = components.some(comp => comp.type !== gtComp.type)
+                      
+                      return (
+                        <div 
+                          key={modelName}
+                          className={cn(
+                            "rounded-lg border p-3 min-w-0 overflow-hidden transition-colors",
+                            components.length === 0 
+                              ? "bg-gray-100 dark:bg-gray-800/30"
+                              : hasTypeMismatch
+                              ? ""
+                              : "bg-card",
+                            selectedRowId === gtComp.id 
+                              ? "border-2 border-slate-600 dark:border-slate-400" 
+                              : components.length === 0
+                              ? "border-gray-200 dark:border-gray-700"
+                              : "border-border"
+                          )}
+                          style={components.length > 0 && hasTypeMismatch ? {
+                            backgroundColor: 'rgba(168, 85, 247, 0.1)'
+                          } : undefined}
+                        >
+                          {components.length === 0 ? (
                           <div className="flex items-center justify-center h-full">
                             <span className="text-xs text-gray-500 dark:text-gray-400">
                               No match found
@@ -387,11 +473,6 @@ export function ComparisonView({ essay, mode }: ComparisonViewProps) {
                                   >
                                     {comp.overlap}%
                                   </span>
-                                  {comp.type !== gtComp.type && (
-                                    <span className="text-[9px] px-1 py-0.5 rounded bg-purple-100 text-purple-700 dark:bg-purple-900/40 dark:text-purple-300 font-medium">
-                                      type differs
-                                    </span>
-                                  )}
                                 </div>
                                 <p className="text-xs text-foreground break-words">
                                   {comp.text}
@@ -401,7 +482,7 @@ export function ComparisonView({ essay, mode }: ComparisonViewProps) {
                           </div>
                         )}
                       </div>
-                    ))}
+                    )})}
                   </div>
                 )
               } else {
@@ -412,11 +493,19 @@ export function ComparisonView({ essay, mode }: ComparisonViewProps) {
                 return (
                   <div 
                     key={`model-only-${modelName}-${comp.id}`}
-                    className="grid gap-2"
+                    className={cn(
+                      "grid gap-2 cursor-pointer transition-all duration-200 hover:opacity-90"
+                    )}
                     style={{ gridTemplateColumns: `1fr repeat(${modelSources.length}, 1fr)` }}
+                    onClick={() => setSelectedRowId(selectedRowId === `model-only-${modelName}-${comp.id}` ? null : `model-only-${modelName}-${comp.id}`)}
                   >
                     {/* Empty GT cell */}
-                    <div className="bg-gray-100 dark:bg-gray-800/30 rounded-lg border border-gray-200 dark:border-gray-700 p-3 flex items-center justify-center min-w-0">
+                    <div className={cn(
+                      "bg-gray-100 dark:bg-gray-800/30 rounded-lg border p-3 flex items-center justify-center min-w-0 transition-colors",
+                      selectedRowId === `model-only-${modelName}-${comp.id}` 
+                        ? "border-2 border-slate-600 dark:border-slate-400" 
+                        : "border-gray-200 dark:border-gray-700"
+                    )}>
                       <span className="text-xs text-gray-500 dark:text-gray-400">
                         No GT match
                       </span>
@@ -427,10 +516,15 @@ export function ComparisonView({ essay, mode }: ComparisonViewProps) {
                       <div 
                         key={matchModelName}
                         className={cn(
-                          "rounded-lg border p-3 min-w-0 overflow-hidden",
+                          "rounded-lg border p-3 min-w-0 overflow-hidden transition-colors",
                           components.length === 0 
-                            ? "bg-gray-100 dark:bg-gray-800/30 border-gray-200 dark:border-gray-700"
-                            : "bg-orange-50 dark:bg-orange-900/20 border-orange-200 dark:border-orange-800/50"
+                            ? "bg-gray-100 dark:bg-gray-800/30"
+                            : "bg-orange-50 dark:bg-orange-900/20",
+                          selectedRowId === `model-only-${modelName}-${comp.id}` 
+                            ? "border-2 border-slate-600 dark:border-slate-400" 
+                            : components.length === 0
+                            ? "border-gray-200 dark:border-gray-700"
+                            : "border-orange-200 dark:border-orange-800/50"
                         )}
                       >
                         {components.length === 0 ? (
@@ -459,11 +553,6 @@ export function ComparisonView({ essay, mode }: ComparisonViewProps) {
                                   <span className="text-[9px] px-1 py-0.5 rounded bg-orange-200 text-orange-800 dark:bg-orange-800/50 dark:text-orange-200 font-medium">
                                     no GT
                                   </span>
-                                  {!matchComp.isReference && matchComp.type !== comp.type && (
-                                    <span className="text-[9px] px-1 py-0.5 rounded bg-purple-100 text-purple-700 dark:bg-purple-900/40 dark:text-purple-300 font-medium">
-                                      type differs
-                                    </span>
-                                  )}
                                 </div>
                                 <p className="text-xs text-foreground leading-relaxed break-words">
                                   {matchComp.text}
@@ -478,6 +567,8 @@ export function ComparisonView({ essay, mode }: ComparisonViewProps) {
                 )
               }
             })}
+              </div>
+            )}
           </div>
         )
       })}

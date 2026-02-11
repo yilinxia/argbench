@@ -1,0 +1,24 @@
+{
+  "groups": [
+    {
+      "id": "group_20260210_all",
+      "name": "February 10 - All Essays",
+      "description": "Complete run on all essays",
+      "runs": {
+        "azure": "azure_all_20260210_134717",
+        "claude": "claude_all_20260210_131745",
+        "gemini": "gemini_all_20260210_111150"
+      }
+    },
+    {
+      "id": "group_20260209_subset",
+      "name": "February 9 - Essay Subset",
+      "description": "Initial test run on essay subset",
+      "runs": {
+        "azure": "azure_20260209_175721",
+        "claude": "claude_20260209_152209",
+        "gemini": "gemini_20260209_143755"
+      }
+    }
+  ]
+}
