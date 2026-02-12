@@ -457,6 +457,7 @@ export default function Home() {
   const [modelAnnotations, setModelAnnotations] = useState<Record<string, string>>({}) // folder -> annotation
   const [essayStats, setEssayStats] = useState<Record<string, { maxF1: number; minF1: number | null }>>({})
   const [overallF1Stats, setOverallF1Stats] = useState<Record<string, { f1: number; precision: number; recall: number; essayCount: number }>>({})
+  const [perTypeF1Stats, setPerTypeF1Stats] = useState<Record<string, Record<string, { f1: number; precision: number; recall: number }>>>({})
   const [mainTab, setMainTab] = useState("explore")
   const [loading, setLoading] = useState(true)
   const [promptViewMode, setPromptViewMode] = useState<"raw" | "markdown">("markdown")
@@ -671,12 +672,19 @@ export default function Home() {
       try {
         const runsParam = encodeURIComponent(JSON.stringify(runsToUse))
         const keyByFolder = comparisonMode === "time-series"
-        const res = await fetch(`/api/data?action=overallF1&runs=${runsParam}&keyByFolder=${keyByFolder}`)
-        const data = await res.json()
         
-        if (data.overallF1) {
+        // Fetch both overall F1 and per-type F1 in parallel
+        const [overallRes, perTypeRes] = await Promise.all([
+          fetch(`/api/data?action=overallF1&runs=${runsParam}&keyByFolder=${keyByFolder}`),
+          fetch(`/api/data?action=overallF1PerType&runs=${runsParam}&keyByFolder=${keyByFolder}`)
+        ])
+        
+        const overallData = await overallRes.json()
+        const perTypeData = await perTypeRes.json()
+        
+        if (overallData.overallF1) {
           const f1Map: Record<string, { f1: number; precision: number; recall: number; essayCount: number }> = {}
-          for (const stat of data.overallF1) {
+          for (const stat of overallData.overallF1) {
             f1Map[stat.model] = {
               f1: stat.f1,
               precision: stat.precision,
@@ -685,6 +693,21 @@ export default function Home() {
             }
           }
           setOverallF1Stats(f1Map)
+        }
+        
+        if (perTypeData.perTypeF1) {
+          const perTypeMap: Record<string, Record<string, { f1: number; precision: number; recall: number }>> = {}
+          for (const stat of perTypeData.perTypeF1) {
+            perTypeMap[stat.model] = {}
+            for (const [type, typeStats] of Object.entries(stat.byType as Record<string, { f1: number; precision: number; recall: number }>)) {
+              perTypeMap[stat.model][type] = {
+                f1: typeStats.f1,
+                precision: typeStats.precision,
+                recall: typeStats.recall
+              }
+            }
+          }
+          setPerTypeF1Stats(perTypeMap)
         }
       } catch (error) {
         console.error("Failed to load overall F1:", error)
@@ -1116,6 +1139,55 @@ export default function Home() {
                     )
                   })}
                 </div>
+                
+                {/* Per-type F1 scores */}
+                {Object.keys(perTypeF1Stats).length > 0 && (
+                  <div className="mt-3 space-y-1.5">
+                    {["MajorClaim", "Claim", "Premise"].map(type => (
+                      <div key={type} className="flex flex-wrap gap-x-3 gap-y-1 text-xs">
+                        <span className="text-muted-foreground w-20 shrink-0">{type}:</span>
+                        {Object.entries(perTypeF1Stats).map(([modelId, typeStats]) => {
+                          const stats = typeStats[type]
+                          if (!stats) return null
+                          
+                          // Get display name
+                          const folder = comparisonMode === "cross-model" 
+                            ? selectedRuns[modelId] 
+                            : modelId
+                          const run = logRuns.find(r => r.folder === folder)
+                          
+                          let displayName: string
+                          if (comparisonMode === "time-series" && run) {
+                            const timestamp = run.timestamp || folder
+                            const formattedTime = `${timestamp.slice(4, 6)}/${timestamp.slice(6, 8)} ${timestamp.slice(9, 11)}:${timestamp.slice(11, 13)}`
+                            const isAllRun = folder.includes("_all_")
+                            displayName = `${formattedTime}${isAllRun ? " (All)" : ""}`
+                          } else {
+                            displayName = run?.modelDisplayName || modelId
+                          }
+                          
+                          return (
+                            <span 
+                              key={modelId} 
+                              className="whitespace-nowrap"
+                              title={`${type}: P=${(stats.precision * 100).toFixed(0)}% R=${(stats.recall * 100).toFixed(0)}%`}
+                            >
+                              <span className="text-muted-foreground">{displayName}: </span>
+                              <span className={cn(
+                                "font-mono font-medium",
+                                stats.f1 >= 0.8 ? "text-emerald-600 dark:text-emerald-400" :
+                                stats.f1 >= 0.5 ? "text-amber-600 dark:text-amber-400" :
+                                "text-red-600 dark:text-red-400"
+                              )}>
+                                {(stats.f1 * 100).toFixed(0)}%
+                              </span>
+                            </span>
+                          )
+                        })}
+                      </div>
+                    ))}
+                  </div>
+                )}
               </div>
             )}
 

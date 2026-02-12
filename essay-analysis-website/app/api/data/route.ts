@@ -530,6 +530,120 @@ function computeOverallF1(selectedRuns: Record<string, string>, iouThreshold: nu
   return results
 }
 
+// Compute overall F1 scores per component type across all essays for each model
+interface PerTypeF1Stats {
+  model: string
+  folder: string
+  byType: Record<string, { tp: number; fp: number; fn: number; precision: number; recall: number; f1: number }>
+}
+
+function computeOverallF1PerType(selectedRuns: Record<string, string>, iouThreshold: number = 0.5, keyByFolder: boolean = false): PerTypeF1Stats[] {
+  const essays = getEssays()
+  const componentTypes = ["MajorClaim", "Claim", "Premise"]
+  
+  // Initialize stats for each model/folder and type
+  const modelStats: Record<string, { 
+    folder: string
+    model: string
+    byType: Record<string, { tp: number; fp: number; fn: number }>
+  }> = {}
+  
+  for (const [model, folder] of Object.entries(selectedRuns)) {
+    const key = keyByFolder ? folder : model
+    modelStats[key] = { 
+      folder, 
+      model,
+      byType: {}
+    }
+    for (const type of componentTypes) {
+      modelStats[key].byType[type] = { tp: 0, fp: 0, fn: 0 }
+    }
+  }
+  
+  for (const essay of essays) {
+    if (!essay.goldAnnotation) continue
+    
+    const gtComps = parseBratComponents(essay.goldAnnotation)
+    
+    for (const [model, folder] of Object.entries(selectedRuns)) {
+      const key = keyByFolder ? folder : model
+      const annotation = getAnnotation(folder, essay.id)
+      if (!annotation) continue
+      
+      const predComps = parseBratComponents(annotation)
+      
+      // Process each component type separately
+      for (const type of componentTypes) {
+        const gtOfType = gtComps.filter(c => c.type === type)
+        const predOfType = predComps.filter(c => c.type === type)
+        
+        // Greedy matching with IoU threshold
+        const matchedGold = new Set<number>()
+        let tp = 0
+        
+        for (const pred of predOfType) {
+          let bestIoU = 0
+          let bestGoldIdx: number | null = null
+          
+          for (let i = 0; i < gtOfType.length; i++) {
+            if (matchedGold.has(i)) continue
+            
+            const gold = gtOfType[i]
+            const iou = calculateIoU(pred.start, pred.end, gold.start, gold.end)
+            if (iou > bestIoU) {
+              bestIoU = iou
+              bestGoldIdx = i
+            }
+          }
+          
+          if (bestIoU >= iouThreshold && bestGoldIdx !== null) {
+            tp++
+            matchedGold.add(bestGoldIdx)
+          }
+        }
+        
+        const fp = predOfType.length - tp
+        const fn = gtOfType.length - matchedGold.size
+        
+        modelStats[key].byType[type].tp += tp
+        modelStats[key].byType[type].fp += fp
+        modelStats[key].byType[type].fn += fn
+      }
+    }
+  }
+  
+  // Calculate precision, recall, F1 for each model and type
+  const results: PerTypeF1Stats[] = []
+  
+  for (const [key, stats] of Object.entries(modelStats)) {
+    const byType: Record<string, { tp: number; fp: number; fn: number; precision: number; recall: number; f1: number }> = {}
+    
+    for (const type of componentTypes) {
+      const typeStats = stats.byType[type]
+      const precision = (typeStats.tp + typeStats.fp) > 0 ? typeStats.tp / (typeStats.tp + typeStats.fp) : 0
+      const recall = (typeStats.tp + typeStats.fn) > 0 ? typeStats.tp / (typeStats.tp + typeStats.fn) : 0
+      const f1 = (precision + recall) > 0 ? 2 * precision * recall / (precision + recall) : 0
+      
+      byType[type] = {
+        tp: typeStats.tp,
+        fp: typeStats.fp,
+        fn: typeStats.fn,
+        precision,
+        recall,
+        f1
+      }
+    }
+    
+    results.push({
+      model: key,
+      folder: stats.folder,
+      byType
+    })
+  }
+  
+  return results
+}
+
 export async function GET(request: Request) {
   const { searchParams } = new URL(request.url)
   const action = searchParams.get("action")
@@ -638,6 +752,24 @@ export async function GET(request: Request) {
       const selectedRuns = JSON.parse(runsParam) as Record<string, string>
       const overallF1 = computeOverallF1(selectedRuns, 0.5, keyByFolder)
       return NextResponse.json({ overallF1 })
+    } catch {
+      return NextResponse.json({ error: "Invalid runs parameter" }, { status: 400 })
+    }
+  }
+  
+  if (action === "overallF1PerType") {
+    // Get overall F1 scores per component type across all essays for each model
+    const runsParam = searchParams.get("runs")
+    const keyByFolder = searchParams.get("keyByFolder") === "true"
+    
+    if (!runsParam) {
+      return NextResponse.json({ error: "Missing runs parameter" }, { status: 400 })
+    }
+    
+    try {
+      const selectedRuns = JSON.parse(runsParam) as Record<string, string>
+      const perTypeF1 = computeOverallF1PerType(selectedRuns, 0.5, keyByFolder)
+      return NextResponse.json({ perTypeF1 })
     } catch {
       return NextResponse.json({ error: "Invalid runs parameter" }, { status: 400 })
     }
