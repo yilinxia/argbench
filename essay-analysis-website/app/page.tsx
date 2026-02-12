@@ -455,7 +455,7 @@ export default function Home() {
   const [selectedEssayId, setSelectedEssayId] = useState<string>("")
   const [selectedRuns, setSelectedRuns] = useState<Record<string, string>>({}) // model -> folder
   const [modelAnnotations, setModelAnnotations] = useState<Record<string, string>>({}) // folder -> annotation
-  const [essayStats, setEssayStats] = useState<Record<string, { maxF1: number; minF1: number }>>({})
+  const [essayStats, setEssayStats] = useState<Record<string, { maxF1: number; minF1: number | null }>>({})
   const [overallF1Stats, setOverallF1Stats] = useState<Record<string, { f1: number; precision: number; recall: number; essayCount: number }>>({})
   const [mainTab, setMainTab] = useState("explore")
   const [loading, setLoading] = useState(true)
@@ -621,16 +621,24 @@ export default function Home() {
 
   // Load stats for all essays when runs change
   useEffect(() => {
-    if (Object.keys(selectedRuns).length === 0) return
+    // Determine which runs to use based on mode
+    const runsToUse = comparisonMode === "cross-model" 
+      ? selectedRuns 
+      : selectedTimestamps.reduce((acc, folder) => {
+          acc[folder] = folder
+          return acc
+        }, {} as Record<string, string>)
+    
+    if (Object.keys(runsToUse).length === 0) return
     
     async function loadStats() {
       try {
-        const runsParam = encodeURIComponent(JSON.stringify(selectedRuns))
+        const runsParam = encodeURIComponent(JSON.stringify(runsToUse))
         const res = await fetch(`/api/data?action=stats&runs=${runsParam}`)
         const data = await res.json()
         
         if (data.stats) {
-          const statsMap: Record<string, { maxF1: number; minF1: number }> = {}
+          const statsMap: Record<string, { maxF1: number; minF1: number | null }> = {}
           for (const stat of data.stats) {
             statsMap[stat.essayId] = {
               maxF1: stat.maxF1,
@@ -645,7 +653,7 @@ export default function Home() {
     }
     
     loadStats()
-  }, [selectedRuns])
+  }, [selectedRuns, selectedTimestamps, comparisonMode])
 
   // Load overall F1 scores when runs change
   useEffect(() => {
@@ -757,6 +765,10 @@ export default function Home() {
           return statsB.maxF1 - statsA.maxF1
         } else if (essaySortOrder === "worstF1") {
           // Sort by worst F1 ascending (lowest first)
+          // Put essays with null minF1 at the end
+          if (statsA.minF1 === null && statsB.minF1 === null) return 0
+          if (statsA.minF1 === null) return 1
+          if (statsB.minF1 === null) return -1
           return statsA.minF1 - statsB.minF1
         }
         return 0
@@ -1201,17 +1213,26 @@ export default function Home() {
                               >
                                 ↑{stats.maxF1}%
                               </span>
-                              <span 
-                                className={cn(
-                                  "text-[9px] px-1 rounded font-mono",
-                                  stats.minF1 >= 80 ? "bg-emerald-100 text-emerald-700 dark:bg-emerald-900/40 dark:text-emerald-400" :
-                                  stats.minF1 >= 50 ? "bg-amber-100 text-amber-700 dark:bg-amber-900/40 dark:text-amber-400" :
-                                  "bg-red-100 text-red-700 dark:bg-red-900/40 dark:text-red-400"
-                                )}
-                                title="Worst F1 (IoU≥50%) across models"
-                              >
-                                ↓{stats.minF1}%
-                              </span>
+                              {stats.minF1 !== null ? (
+                                <span 
+                                  className={cn(
+                                    "text-[9px] px-1 rounded font-mono",
+                                    stats.minF1 >= 80 ? "bg-emerald-100 text-emerald-700 dark:bg-emerald-900/40 dark:text-emerald-400" :
+                                    stats.minF1 >= 50 ? "bg-amber-100 text-amber-700 dark:bg-amber-900/40 dark:text-amber-400" :
+                                    "bg-red-100 text-red-700 dark:bg-red-900/40 dark:text-red-400"
+                                  )}
+                                  title="Worst F1 (IoU≥50%) across models"
+                                >
+                                  ↓{stats.minF1}%
+                                </span>
+                              ) : (
+                                <span 
+                                  className="text-[9px] px-1 rounded font-mono bg-gray-100 text-gray-500 dark:bg-gray-800 dark:text-gray-400"
+                                  title="Worst F1 unavailable - essay missing from some runs"
+                                >
+                                  ↓N/A
+                                </span>
+                              )}
                             </div>
                           )}
                         </div>

@@ -300,7 +300,7 @@ interface EssayStats {
   maxModelOnly: number
   // F1 stats for essay selector
   maxF1: number
-  minF1: number
+  minF1: number | null  // null if essay is missing from some runs
 }
 
 function computeAllEssayStats(selectedRuns: Record<string, string>): EssayStats[] {
@@ -408,9 +408,12 @@ function computeAllEssayStats(selectedRuns: Record<string, string>): EssayStats[
     const maxModelOnly = modelStats.length > 0 ? Math.max(...modelStats.map(m => m.modelOnly)) : 0
     
     // Compute F1 min/max
+    // Only compute minF1 if all selected runs have this essay
     const f1Scores = modelStats.map(m => m.f1)
     const maxF1 = f1Scores.length > 0 ? Math.max(...f1Scores) : 0
-    const minF1 = f1Scores.length > 0 ? Math.min(...f1Scores) : 0
+    const numSelectedRuns = Object.keys(selectedRuns).length
+    const hasAllRuns = modelStats.length === numSelectedRuns
+    const minF1 = hasAllRuns && f1Scores.length > 0 ? Math.min(...f1Scores) : null
     
     stats.push({
       essayId: essay.id,
