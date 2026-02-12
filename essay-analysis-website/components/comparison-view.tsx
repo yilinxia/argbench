@@ -424,18 +424,24 @@ export function ComparisonView({ essay, mode }: ComparisonViewProps) {
 
                     {/* Model matches */}
                     {modelMatches.map(({ modelName, components }) => {
-                      // Check if any component has a type mismatch
-                      const hasTypeMismatch = components.some(comp => comp.type !== gtComp.type)
+                      // Determine TP/FP/FN for this cell
+                      // TP: at least one component with IoU >= 50% AND same type
+                      // FP: components exist but don't qualify as TP (IoU < 50% OR wrong type)
+                      // FN: GT component is not matched (no components OR no TP)
+                      const hasTP = components.some(comp => comp.iou >= 50 && comp.type === gtComp.type)
+                      const hasFP = components.length > 0 && !hasTP // Components exist but none are TP
+                      const hasFN = !hasTP // GT not matched (either no components or no valid match)
+                      
+                      // Build label: can be "TP", "FN", or "FP+FN"
+                      const cellLabel = hasTP ? "TP" : (hasFP ? "FP+FN" : "FN")
                       
                       return (
                         <div 
                           key={modelName}
                           className={cn(
-                            "rounded-lg border p-3 min-w-0 overflow-hidden transition-colors",
+                            "rounded-lg border p-3 min-w-0 overflow-hidden transition-colors relative",
                             components.length === 0 
                               ? "bg-gray-100 dark:bg-gray-800/30"
-                              : hasTypeMismatch
-                              ? ""
                               : "bg-card",
                             selectedRowId === gtComp.id 
                               ? "border-2 border-slate-600 dark:border-slate-400" 
@@ -443,9 +449,6 @@ export function ComparisonView({ essay, mode }: ComparisonViewProps) {
                               ? "border-gray-200 dark:border-gray-700"
                               : "border-border"
                           )}
-                          style={components.length > 0 && hasTypeMismatch ? {
-                            backgroundColor: 'rgba(168, 85, 247, 0.1)'
-                          } : undefined}
                         >
                           {components.length === 0 ? (
                           <div className="flex items-center justify-center h-full">
@@ -491,6 +494,22 @@ export function ComparisonView({ essay, mode }: ComparisonViewProps) {
                             ))}
                           </div>
                         )}
+                        {/* Cell-level label in bottom right */}
+                        {hasTP ? (
+                          <span className="absolute bottom-1 right-1 text-[9px] px-1.5 py-0.5 rounded font-bold text-emerald-600 dark:text-emerald-400">
+                            TP
+                          </span>
+                        ) : hasFP ? (
+                          <span className="absolute bottom-1 right-1 text-[9px] px-1.5 py-0.5 rounded font-bold">
+                            <span className="text-red-600 dark:text-red-400">FP</span>
+                            <span className="text-muted-foreground">+</span>
+                            <span className="text-amber-600 dark:text-amber-400">FN</span>
+                          </span>
+                        ) : (
+                          <span className="absolute bottom-1 right-1 text-[9px] px-1.5 py-0.5 rounded font-bold text-amber-600 dark:text-amber-400">
+                            FN
+                          </span>
+                        )}
                       </div>
                     )})}
                   </div>
@@ -526,15 +545,15 @@ export function ComparisonView({ essay, mode }: ComparisonViewProps) {
                       <div 
                         key={matchModelName}
                         className={cn(
-                          "rounded-lg border p-3 min-w-0 overflow-hidden transition-colors",
+                          "rounded-lg border p-3 min-w-0 overflow-hidden transition-colors relative",
                           components.length === 0 
                             ? "bg-gray-100 dark:bg-gray-800/30"
-                            : "bg-orange-50 dark:bg-orange-900/20",
+                            : "bg-card",
                           selectedRowId === `model-only-${modelName}-${comp.id}` 
                             ? "border-2 border-slate-600 dark:border-slate-400" 
                             : components.length === 0
                             ? "border-gray-200 dark:border-gray-700"
-                            : "border-orange-200 dark:border-orange-800/50"
+                            : "border-border"
                         )}
                       >
                         {components.length === 0 ? (
@@ -560,9 +579,6 @@ export function ComparisonView({ essay, mode }: ComparisonViewProps) {
                                   <span className="text-[10px] text-muted-foreground font-mono">
                                     [{matchComp.start}-{matchComp.end}]
                                   </span>
-                                  <span className="text-[9px] px-1 py-0.5 rounded bg-orange-200 text-orange-800 dark:bg-orange-800/50 dark:text-orange-200 font-medium">
-                                    no GT
-                                  </span>
                                 </div>
                                 <p className="text-xs text-foreground leading-relaxed break-words">
                                   {matchComp.text}
@@ -570,6 +586,12 @@ export function ComparisonView({ essay, mode }: ComparisonViewProps) {
                               </div>
                             ))}
                           </div>
+                        )}
+                        {/* Cell-level FP label for model-only rows */}
+                        {components.length > 0 && (
+                          <span className="absolute bottom-1 right-1 text-[9px] px-1.5 py-0.5 rounded font-bold text-red-600 dark:text-red-400">
+                            FP
+                          </span>
                         )}
                       </div>
                     ))}
