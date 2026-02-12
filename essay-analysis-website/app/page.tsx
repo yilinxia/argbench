@@ -338,19 +338,6 @@ function EssaySegmentationStats({ essay, overallF1Stats }: {
                   <div key={name} className="bg-card rounded-md px-3 py-2 border border-border">
                     <div className="flex items-center justify-between mb-2">
                       <span className="font-medium text-foreground text-sm">{name}</span>
-                      {overallF1 && (
-                        <span 
-                          className={cn(
-                            "text-xs font-mono font-medium px-1.5 py-0.5 rounded",
-                            overallF1.f1 >= 0.8 ? "bg-emerald-100 dark:bg-emerald-900/40 text-emerald-700 dark:text-emerald-300" :
-                            overallF1.f1 >= 0.5 ? "bg-amber-100 dark:bg-amber-900/40 text-amber-700 dark:text-amber-300" :
-                            "bg-red-100 dark:bg-red-900/40 text-red-700 dark:text-red-300"
-                          )}
-                          title={`Overall F1 (IoU≥50%) across ${overallF1.essayCount} essays: P=${(overallF1.precision * 100).toFixed(0)}% R=${(overallF1.recall * 100).toFixed(0)}%`}
-                        >
-                          {(overallF1.f1 * 100).toFixed(0)}%
-                        </span>
-                      )}
                     </div>
                     
                     {/* Key metrics in a compact grid */}
@@ -1072,6 +1059,53 @@ export default function Home() {
                 </div>
               )}
             </div>
+
+            {/* Overall F1 Scores */}
+            {Object.keys(overallF1Stats).length > 0 && (
+              <div className="shrink-0 mb-4">
+                <h2 className="text-sm font-semibold text-foreground uppercase tracking-wider mb-2">
+                  Overall F1 (IoU≥50%)
+                </h2>
+                <div className="flex flex-wrap gap-x-3 gap-y-1 text-xs">
+                  {Object.entries(overallF1Stats).map(([modelId, stats]) => {
+                    // Get display name from selected runs
+                    const folder = comparisonMode === "cross-model" 
+                      ? selectedRuns[modelId] 
+                      : modelId
+                    const run = logRuns.find(r => r.folder === folder)
+                    
+                    // For time-series mode, show timestamp; for cross-model, show model name
+                    let displayName: string
+                    if (comparisonMode === "time-series" && run) {
+                      const timestamp = run.timestamp || folder
+                      const formattedTime = `${timestamp.slice(4, 6)}/${timestamp.slice(6, 8)} ${timestamp.slice(9, 11)}:${timestamp.slice(11, 13)}`
+                      const isAllRun = folder.includes("_all_")
+                      displayName = `${formattedTime}${isAllRun ? " (All)" : ""}`
+                    } else {
+                      displayName = run?.modelDisplayName || modelId
+                    }
+                    
+                    return (
+                      <span 
+                        key={modelId} 
+                        className="whitespace-nowrap"
+                        title={`P=${(stats.precision * 100).toFixed(0)}% R=${(stats.recall * 100).toFixed(0)}% across ${stats.essayCount} essays`}
+                      >
+                        <span className="text-muted-foreground">{displayName}: </span>
+                        <span className={cn(
+                          "font-mono font-medium",
+                          stats.f1 >= 0.8 ? "text-emerald-600 dark:text-emerald-400" :
+                          stats.f1 >= 0.5 ? "text-amber-600 dark:text-amber-400" :
+                          "text-red-600 dark:text-red-400"
+                        )}>
+                          {(stats.f1 * 100).toFixed(0)}%
+                        </span>
+                      </span>
+                    )
+                  })}
+                </div>
+              </div>
+            )}
 
             {/* Essay Selection */}
             <div className="shrink-0">
