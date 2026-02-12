@@ -255,6 +255,21 @@ function rangesOverlap(start1: number, end1: number, start2: number, end2: numbe
   return start1 < end2 && start2 < end1
 }
 
+// Calculate IoU (Intersection over Union)
+function calculateIoU(start1: number, end1: number, start2: number, end2: number): number {
+  const overlapStart = Math.max(start1, start2)
+  const overlapEnd = Math.min(end1, end2)
+  const intersection = Math.max(0, overlapEnd - overlapStart)
+  
+  if (intersection === 0) return 0
+  
+  const span1 = end1 - start1
+  const span2 = end2 - start2
+  const union = span1 + span2 - intersection
+  
+  return union > 0 ? intersection / union : 0
+}
+
 // Calculate overlap percentage
 function overlapPercentage(start1: number, end1: number, start2: number, end2: number): number {
   const overlapStart = Math.max(start1, start2)
@@ -273,6 +288,7 @@ interface EssayStats {
     gtCoverage: number
     avgOverlap: number
     modelOnly: number
+    f1: number
   }[]
   // Aggregate stats
   avgGtCoverage: number
@@ -282,11 +298,15 @@ interface EssayStats {
   maxGtCoverage: number
   minGtCoverage: number
   maxModelOnly: number
+  // F1 stats for essay selector
+  maxF1: number
+  minF1: number
 }
 
 function computeAllEssayStats(selectedRuns: Record<string, string>): EssayStats[] {
   const essays = getEssays()
   const stats: EssayStats[] = []
+  const iouThreshold = 0.5
   
   for (const essay of essays) {
     if (!essay.goldAnnotation) continue
@@ -300,7 +320,7 @@ function computeAllEssayStats(selectedRuns: Record<string, string>): EssayStats[
       
       const modelComps = parseBratComponents(annotation)
       
-      // Calculate stats
+      // Calculate legacy stats (GT coverage, overlap)
       let gtMatched = 0
       let totalOverlap = 0
       let matchCount = 0
@@ -328,12 +348,47 @@ function computeAllEssayStats(selectedRuns: Record<string, string>): EssayStats[
       const avgOverlap = matchCount > 0 ? Math.round(totalOverlap / matchCount) : 0
       const gtCoverage = gtComps.length > 0 ? Math.round((gtMatched / gtComps.length) * 100) : 0
       
+      // Calculate F1 with IoU threshold and type matching
+      const matchedGold = new Set<number>()
+      let tp = 0
+      
+      for (const pred of modelComps) {
+        let bestIoU = 0
+        let bestGoldIdx: number | null = null
+        
+        for (let i = 0; i < gtComps.length; i++) {
+          if (matchedGold.has(i)) continue
+          
+          const gold = gtComps[i]
+          // Type must match
+          if (pred.type !== gold.type) continue
+          
+          const iou = calculateIoU(pred.start, pred.end, gold.start, gold.end)
+          if (iou > bestIoU) {
+            bestIoU = iou
+            bestGoldIdx = i
+          }
+        }
+        
+        if (bestIoU >= iouThreshold && bestGoldIdx !== null) {
+          tp++
+          matchedGold.add(bestGoldIdx)
+        }
+      }
+      
+      const fp = modelComps.length - tp
+      const fn = gtComps.length - matchedGold.size
+      const precision = (tp + fp) > 0 ? tp / (tp + fp) : 0
+      const recall = (tp + fn) > 0 ? tp / (tp + fn) : 0
+      const f1 = (precision + recall) > 0 ? 2 * precision * recall / (precision + recall) : 0
+      
       modelStats.push({
         name: model,
         total: modelComps.length,
         gtCoverage,
         avgOverlap,
-        modelOnly
+        modelOnly,
+        f1: Math.round(f1 * 100)
       })
     }
     
@@ -346,11 +401,16 @@ function computeAllEssayStats(selectedRuns: Record<string, string>): EssayStats[
       : 0
     const totalModelOnly = modelStats.reduce((sum, m) => sum + m.modelOnly, 0)
     
-    // Compute min/max for essay selector - use GT coverage instead of overlap
+    // Compute min/max for essay selector
     const gtCoverages = modelStats.map(m => m.gtCoverage)
     const maxGtCoverage = gtCoverages.length > 0 ? Math.max(...gtCoverages) : 0
     const minGtCoverage = gtCoverages.length > 0 ? Math.min(...gtCoverages) : 0
     const maxModelOnly = modelStats.length > 0 ? Math.max(...modelStats.map(m => m.modelOnly)) : 0
+    
+    // Compute F1 min/max
+    const f1Scores = modelStats.map(m => m.f1)
+    const maxF1 = f1Scores.length > 0 ? Math.max(...f1Scores) : 0
+    const minF1 = f1Scores.length > 0 ? Math.min(...f1Scores) : 0
     
     stats.push({
       essayId: essay.id,
@@ -361,11 +421,110 @@ function computeAllEssayStats(selectedRuns: Record<string, string>): EssayStats[
       totalModelOnly,
       maxGtCoverage,
       minGtCoverage,
-      maxModelOnly
+      maxModelOnly,
+      maxF1,
+      minF1
     })
   }
   
   return stats
+}
+
+// Compute overall F1 scores across all essays for each model
+interface OverallF1Stats {
+  model: string
+  folder: string
+  tp: number
+  fp: number
+  fn: number
+  precision: number
+  recall: number
+  f1: number
+  essayCount: number
+}
+
+function computeOverallF1(selectedRuns: Record<string, string>, iouThreshold: number = 0.5, keyByFolder: boolean = false): OverallF1Stats[] {
+  const essays = getEssays()
+  const modelStats: Record<string, { tp: number; fp: number; fn: number; essayCount: number; folder: string; model: string }> = {}
+  
+  // Initialize stats for each model/folder
+  for (const [model, folder] of Object.entries(selectedRuns)) {
+    const key = keyByFolder ? folder : model
+    modelStats[key] = { tp: 0, fp: 0, fn: 0, essayCount: 0, folder, model }
+  }
+  
+  for (const essay of essays) {
+    if (!essay.goldAnnotation) continue
+    
+    const gtComps = parseBratComponents(essay.goldAnnotation)
+    
+    for (const [model, folder] of Object.entries(selectedRuns)) {
+      const key = keyByFolder ? folder : model
+      const annotation = getAnnotation(folder, essay.id)
+      if (!annotation) continue
+      
+      const predComps = parseBratComponents(annotation)
+      
+      // Greedy matching with IoU threshold and type matching
+      const matchedGold = new Set<number>()
+      let tp = 0
+      
+      for (const pred of predComps) {
+        let bestIoU = 0
+        let bestGoldIdx: number | null = null
+        
+        for (let i = 0; i < gtComps.length; i++) {
+          if (matchedGold.has(i)) continue
+          
+          const gold = gtComps[i]
+          // Type must match
+          if (pred.type !== gold.type) continue
+          
+          const iou = calculateIoU(pred.start, pred.end, gold.start, gold.end)
+          if (iou > bestIoU) {
+            bestIoU = iou
+            bestGoldIdx = i
+          }
+        }
+        
+        if (bestIoU >= iouThreshold && bestGoldIdx !== null) {
+          tp++
+          matchedGold.add(bestGoldIdx)
+        }
+      }
+      
+      const fp = predComps.length - tp
+      const fn = gtComps.length - matchedGold.size
+      
+      modelStats[key].tp += tp
+      modelStats[key].fp += fp
+      modelStats[key].fn += fn
+      modelStats[key].essayCount++
+    }
+  }
+  
+  // Calculate precision, recall, F1 for each model
+  const results: OverallF1Stats[] = []
+  
+  for (const [key, stats] of Object.entries(modelStats)) {
+    const precision = (stats.tp + stats.fp) > 0 ? stats.tp / (stats.tp + stats.fp) : 0
+    const recall = (stats.tp + stats.fn) > 0 ? stats.tp / (stats.tp + stats.fn) : 0
+    const f1 = (precision + recall) > 0 ? 2 * precision * recall / (precision + recall) : 0
+    
+    results.push({
+      model: key,
+      folder: stats.folder,
+      tp: stats.tp,
+      fp: stats.fp,
+      fn: stats.fn,
+      precision,
+      recall,
+      f1,
+      essayCount: stats.essayCount
+    })
+  }
+  
+  return results
 }
 
 export async function GET(request: Request) {
@@ -458,6 +617,24 @@ export async function GET(request: Request) {
       const selectedRuns = JSON.parse(runsParam) as Record<string, string>
       const stats = computeAllEssayStats(selectedRuns)
       return NextResponse.json({ stats })
+    } catch {
+      return NextResponse.json({ error: "Invalid runs parameter" }, { status: 400 })
+    }
+  }
+  
+  if (action === "overallF1") {
+    // Get overall F1 scores across all essays for each model
+    const runsParam = searchParams.get("runs")
+    const keyByFolder = searchParams.get("keyByFolder") === "true"
+    
+    if (!runsParam) {
+      return NextResponse.json({ error: "Missing runs parameter" }, { status: 400 })
+    }
+    
+    try {
+      const selectedRuns = JSON.parse(runsParam) as Record<string, string>
+      const overallF1 = computeOverallF1(selectedRuns, 0.5, keyByFolder)
+      return NextResponse.json({ overallF1 })
     } catch {
       return NextResponse.json({ error: "Invalid runs parameter" }, { status: 400 })
     }

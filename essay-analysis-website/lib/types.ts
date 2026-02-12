@@ -12,6 +12,9 @@ export interface AnnotationComponent {
   text: string
 }
 
+// Alias for backward compatibility
+export type ArgumentComponent = AnnotationComponent
+
 export interface Stance {
   componentId: string
   stance: StanceType

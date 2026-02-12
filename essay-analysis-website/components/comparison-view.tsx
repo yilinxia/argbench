@@ -4,6 +4,7 @@ import { useState } from "react"
 import type { Essay, ArgumentComponent } from "@/lib/types"
 import { cn } from "@/lib/utils"
 import { VisualGraph } from "./visual-graph"
+import { calculateIoU } from "@/lib/metrics"
 
 interface ComparisonViewProps {
   essay: Essay
@@ -15,14 +16,10 @@ function rangesOverlap(start1: number, end1: number, start2: number, end2: numbe
   return start1 < end2 && start2 < end1
 }
 
-// Calculate overlap percentage
-function overlapPercentage(start1: number, end1: number, start2: number, end2: number): number {
-  const overlapStart = Math.max(start1, start2)
-  const overlapEnd = Math.min(end1, end2)
-  if (overlapStart >= overlapEnd) return 0
-  const overlapLength = overlapEnd - overlapStart
-  const gtLength = end1 - start1
-  return Math.round((overlapLength / gtLength) * 100)
+// Calculate IoU (Intersection over Union) as percentage
+function calculateIoUPercent(start1: number, end1: number, start2: number, end2: number): number {
+  const iou = calculateIoU(start1, end1, start2, end2)
+  return Math.round(iou * 100)
 }
 
 export function ComparisonView({ essay, mode }: ComparisonViewProps) {
@@ -63,17 +60,17 @@ export function ComparisonView({ essay, mode }: ComparisonViewProps) {
   })
 
   // Find overlapping components from models for a given ground truth component
-  // Only keep matches with ≥50% overlap, treat <50% as "no match"
+  // Only keep matches with ≥50% IoU, treat <50% as "no match"
   const findOverlappingComponents = (gtComp: ArgumentComponent) => {
     return modelSources.map(source => {
       const overlapping = source.annotation.components
         .filter(comp => rangesOverlap(gtComp.start, gtComp.end, comp.start, comp.end))
         .map(comp => ({
           ...comp,
-          overlap: overlapPercentage(gtComp.start, gtComp.end, comp.start, comp.end)
+          iou: calculateIoUPercent(gtComp.start, gtComp.end, comp.start, comp.end)
         }))
-        .filter(comp => comp.overlap >= 50) // Only keep meaningful matches (≥50%)
-        .sort((a, b) => b.overlap - a.overlap) // Sort by overlap percentage descending
+        .filter(comp => comp.iou >= 50) // Only keep meaningful matches (IoU ≥50%)
+        .sort((a, b) => b.iou - a.iou) // Sort by IoU descending
       
       return {
         modelName: source.name,
@@ -82,19 +79,19 @@ export function ComparisonView({ essay, mode }: ComparisonViewProps) {
     })
   }
 
-  // Find model components that don't have meaningful overlap (≥50%) with ANY ground truth component
+  // Find model components that don't have meaningful IoU (≥50%) with ANY ground truth component
   const getModelOnlyComponentsByModel = () => {
     const result: Map<string, ArgumentComponent[]> = new Map()
     
     modelSources.forEach(source => {
       const modelOnlyComps = source.annotation.components.filter(modelComp => {
-        // Check if this model component has ≥50% overlap with any GT component
+        // Check if this model component has ≥50% IoU with any GT component
         const hasMeaningfulOverlap = essay.groundTruth.components.some(gtComp => {
           if (!rangesOverlap(gtComp.start, gtComp.end, modelComp.start, modelComp.end)) {
             return false
           }
-          const overlap = overlapPercentage(gtComp.start, gtComp.end, modelComp.start, modelComp.end)
-          return overlap >= 50
+          const iou = calculateIoUPercent(gtComp.start, gtComp.end, modelComp.start, modelComp.end)
+          return iou >= 50
         })
         return !hasMeaningfulOverlap
       })
@@ -113,7 +110,7 @@ export function ComparisonView({ essay, mode }: ComparisonViewProps) {
         // Return the reference component itself for the source model
         return {
           modelName: source.name,
-          components: [{ ...referenceComp, overlap: 100, isReference: true as const }]
+          components: [{ ...referenceComp, iou: 100, isReference: true as const }]
         }
       }
       
@@ -123,10 +120,10 @@ export function ComparisonView({ essay, mode }: ComparisonViewProps) {
         .filter(comp => rangesOverlap(referenceComp.start, referenceComp.end, comp.start, comp.end))
         .map(comp => ({
           ...comp,
-          overlap: overlapPercentage(referenceComp.start, referenceComp.end, comp.start, comp.end),
+          iou: calculateIoUPercent(referenceComp.start, referenceComp.end, comp.start, comp.end),
           isReference: false as const
         }))
-        .sort((a, b) => b.overlap - a.overlap)
+        .sort((a, b) => b.iou - a.iou)
       
       return {
         modelName: source.name,
@@ -232,25 +229,37 @@ export function ComparisonView({ essay, mode }: ComparisonViewProps) {
     }
   })
 
+  // Check if all types are collapsed
+  const allCollapsed = unifiedGroups.length > 0 && collapsedTypes.size === unifiedGroups.length
+
   return (
     <div className="space-y-4 w-full overflow-hidden">
       {/* Help toggle and explanation */}
       <div className="flex justify-between items-center">
         <div className="flex gap-2">
           <button
-            onClick={() => setCollapsedTypes(new Set())}
-            className="px-2 py-1 rounded-md text-xs transition-colors bg-muted text-muted-foreground hover:bg-muted/80"
-          >
-            Expand All
-          </button>
-          <button
             onClick={() => {
-              const allTypes = unifiedGroups.map(g => g.type)
-              setCollapsedTypes(new Set(allTypes))
+              if (allCollapsed) {
+                setCollapsedTypes(new Set())
+              } else {
+                const allTypes = unifiedGroups.map(g => g.type)
+                setCollapsedTypes(new Set(allTypes))
+              }
             }}
-            className="px-2 py-1 rounded-md text-xs transition-colors bg-muted text-muted-foreground hover:bg-muted/80"
+            className="px-2 py-1 rounded-md text-xs transition-colors bg-muted text-muted-foreground hover:bg-muted/80 flex items-center gap-1"
           >
-            Collapse All
+            <svg 
+              className={cn(
+                "w-3 h-3 transition-transform",
+                allCollapsed ? "" : "rotate-90"
+              )}
+              fill="none" 
+              stroke="currentColor" 
+              viewBox="0 0 24 24"
+            >
+              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
+            </svg>
+            {allCollapsed ? "Expand All" : "Collapse All"}
           </button>
           {selectedRowId && (
             <button
@@ -293,29 +302,29 @@ export function ComparisonView({ essay, mode }: ComparisonViewProps) {
           <div>
             <span className="font-semibold text-foreground">Table Structure:</span>{" "}
             Each row shows a Ground Truth component on the left, followed by any model components 
-            that overlap with that text range (≥50% overlap). Components are grouped by type (MajorClaim → Claim → Premise) 
+            that overlap with that text range (IoU ≥50%). Components are grouped by type (MajorClaim → Claim → Premise) 
             and sorted by their position in the text. Model-only components (no meaningful GT match) are also included 
             in the table with an empty GT cell. Click on type headers to expand/collapse sections. Click on any row to highlight it for easier tracking.
           </div>
           <div>
             <span className="font-semibold text-foreground">Match Threshold:</span>{" "}
-            Only matches with ≥50% overlap are shown. Model components with &lt;50% overlap are treated as 
+            Only matches with IoU ≥50% are shown. Model components with IoU &lt;50% are treated as 
             "no match" and appear in the model-only section instead.
           </div>
           <div>
-            <span className="font-semibold text-foreground">Overlap Calculation:</span>{" "}
-            The overlap percentage measures how much of the Ground Truth span is covered by a model's component.
+            <span className="font-semibold text-foreground">IoU Calculation (Intersection over Union):</span>{" "}
+            IoU measures the overlap between two spans relative to their combined coverage. It's symmetric and penalizes both over-extension and under-coverage.
             <div className="mt-2 bg-card rounded p-2 font-mono text-[10px] border border-border">
-              overlap% = (intersection length / ground truth length) × 100
+              IoU = intersection / union = intersection / (span1 + span2 - intersection)
             </div>
           </div>
           <div>
             <span className="font-semibold text-foreground">Color Coding:</span>
             <ul className="mt-1 ml-4 list-disc space-y-0.5">
-              <li><span className="text-emerald-600 dark:text-emerald-400">Green (≥80%)</span> — Strong match</li>
-              <li><span className="text-amber-600 dark:text-amber-400">Amber (50-79%)</span> — Partial match</li>
+              <li><span className="text-emerald-600 dark:text-emerald-400">Green (IoU ≥80%)</span> — Strong match</li>
+              <li><span className="text-amber-600 dark:text-amber-400">Amber (IoU 50-79%)</span> — Partial match</li>
               <li><span className="text-purple-600 dark:text-purple-400">Light Purple "type differs"</span> — Model classified the span as a different type</li>
-              <li><span className="text-orange-600 dark:text-orange-400">Orange "no GT match"</span> — Model component with no meaningful (&lt;50%) Ground Truth overlap</li>
+              <li><span className="text-orange-600 dark:text-orange-400">Orange "no GT match"</span> — Model component with IoU &lt;50% with any Ground Truth</li>
             </ul>
           </div>
         </div>
@@ -464,14 +473,15 @@ export function ComparisonView({ essay, mode }: ComparisonViewProps) {
                                   <span 
                                     className={cn(
                                       "text-[9px] px-1 py-0.5 rounded font-medium",
-                                      comp.overlap >= 80 
+                                      comp.iou >= 80 
                                         ? "bg-emerald-100 text-emerald-700 dark:bg-emerald-900/40 dark:text-emerald-300"
-                                        : comp.overlap >= 50
+                                        : comp.iou >= 50
                                         ? "bg-amber-100 text-amber-700 dark:bg-amber-900/40 dark:text-amber-300"
                                         : "bg-red-100 text-red-700 dark:bg-red-900/40 dark:text-red-300"
                                     )}
+                                    title="IoU (Intersection over Union)"
                                   >
-                                    {comp.overlap}%
+                                    {comp.iou}%
                                   </span>
                                 </div>
                                 <p className="text-xs text-foreground break-words">
